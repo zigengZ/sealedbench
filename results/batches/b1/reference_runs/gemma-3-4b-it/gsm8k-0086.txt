@@ -1,0 +1,12 @@
+Let $t_1$ be the time the alarm rang the first time. We are given that $t_1 = 4$ rings.
+The second time it went off, it rang for three times as long as the first time. So the time it rang the second time is $t_2 = 3 \times t_1 = 3 \times 4 = 12$ rings.
+The third time it went off, it rang for half as long as the second time. So the time it rang the third time is $t_3 = \frac{1}{2} \times t_2 = \frac{1}{2} \times 12 = 6$ rings.
+
+The total number of rings is $t_1 + t_2 + t_3 = 4 + 12 + 6 = 22$.
+
+The alarm rang 4 times the first time, 12 times the second time, and 6 times the third time.
+Total rings = 4 + 12 + 6 = 22
+
+####22 [end of text]
+
+

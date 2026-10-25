@@ -1,0 +1,20 @@
+We want to find the shortest path between Hart and Quill in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Amber Ash: 9
+- Amber Hart: 5
+- Amber Quill: 9
+- Ash Lark: 1
+- Ash Quill: 9
+- Ash York: 4
+- Lark York: 4
+
+We can consider possible paths from Hart to Quill:
+1. Hart -> Amber -> Quill: Weight = 5 + 9 = 14
+2. Hart -> Ash -> Quill: Weight = 5 + 9 = 14
+
+Both paths have the same weight of 14. Therefore, the shortest path between Hart and Quill is Hart -> Amber -> Quill with a total weight of 14.
+
+#### 14 [end of text]
+
+

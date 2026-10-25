@@ -1,0 +1,27 @@
+To find the shortest path between Glen and York, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Glen) as 0 and all other nodes as infinity.
+   - Create a priority queue to store nodes and their distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is the intermediate step.
+   - Update the distance and add the neighbor to the priority queue if the new distance is smaller.
+
+3. **Result**:
+   - The distance from Glen to York will be the smallest value in the priority queue after processing all nodes.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Bay', 'Dove', 'Drew', 'Glen', 'Hart', 'Indigo', 'Nell', 'Quill', 'Sage', 'York']
+distances = {node: float('infinity') for node in nodes}
+
+# Edges with weights
+edges = {
+    'Bay': 'Nell', 7, 'Bay', 'Nell', 0, 0, 0, 0, 0, 0, 0,
+

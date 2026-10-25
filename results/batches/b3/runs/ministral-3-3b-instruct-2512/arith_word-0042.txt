@@ -1,0 +1,10 @@
+Ivy's earnings:
+- Day 1: 5 hours × $20/hour = $100
+- Day 2: 2 hours × $20/hour = $40
+- Day 3: 4 hours × $20/hour = $80
+
+Total earnings: $100 + $40 + $80 = $220
+
+#### 220 [end of text]
+
+

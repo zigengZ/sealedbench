@@ -1,0 +1,45 @@
+Let's break this down step by step.
+
+**Step 1: Distance John drives away from home**
+
+John drives for 3 hours at 60 mph:
+
+$$
+\text{Distance} = 3 \text{ hours} \times 60 \text{ mph} = 180 \text{ miles}
+$$
+
+So, he is 180 miles from home when he turns around.
+
+---
+
+**Step 2: How far does he travel back home in the 4 hours trying to get home?**
+
+He spends:
+- First 2 hours in **standstill traffic** → 0 miles driven
+- Next 0.5 hours driving at **30 mph**:
+  $$
+  0.5 \times 30 = 15 \text{ miles}
+  $$
+- Remaining time: $4 - 2 - 0.5 = 1.5$ hours at **80 mph**:
+  $$
+  1.5 \times 80 = 120 \text{ miles}
+  $$
+
+Total distance driven back home:
+$$
+15 + 120 = 135 \text{ miles}
+$$
+
+---
+
+**Step 3: How far is he from home?**
+
+He started 180 miles from home and drove 135 miles back.
+
+$$
+180 - 135 = 45 \text{ miles}
+$$
+
+#### 45 [end of text]
+
+

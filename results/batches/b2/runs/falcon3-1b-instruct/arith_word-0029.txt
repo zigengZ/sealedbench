@@ -1,0 +1,15 @@
+First, calculate the total number of cookies Gina bought initially:
+9 packs * 8 cookies/pack = 72 cookies
+
+Then, calculate the total number of cookies Gina bought in the second set:
+4 packs * 9 cookies/pack = 36 cookies
+
+Next, add the cookies from both sets:
+72 cookies + 36 cookies = 108 cookies
+
+Finally, subtract the cookies given to Dmitri:
+108 cookies - 37 cookies = 71 cookies
+
+Gina has #### 71 cookies. [end of text]
+
+

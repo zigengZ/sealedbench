@@ -1,0 +1,17 @@
+Mina earns $15 per hour and works 3 hours:
+
+$$
+15 \times 3 = 45 \text{ dollars}
+$$
+
+Then she spends $31:
+
+$$
+45 - 31 = 14 \text{ dollars}
+$$
+
+So, Mina has $14 left.
+
+#### 14 [end of text]
+
+

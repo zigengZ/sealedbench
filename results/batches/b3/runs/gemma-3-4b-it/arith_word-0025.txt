@@ -1,0 +1,9 @@
+First, calculate the number of seats in the initial 4 rows: 4 rows * 16 seats/row = 64 seats.
+
+Next, calculate the number of seats in the added 2 rows: 2 rows * 3 seats/row = 6 seats.
+
+Finally, add the two amounts together: 64 seats + 6 seats = 70 seats.
+
+#### 70 [end of text]
+
+

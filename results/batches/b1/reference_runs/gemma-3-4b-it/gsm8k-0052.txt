@@ -1,0 +1,18 @@
+Let $c$ be the number of comic books and $t$ be the number of toys.
+The weight of each comic book is $\frac{1}{4}$ pound, and the weight of each toy is $\frac{1}{2}$ pound.
+Uriah needs to remove 15 pounds in total.
+He removes 30 comic books, so the weight removed from comic books is $30 \times \frac{1}{4} = \frac{30}{4} = 7.5$ pounds.
+Let $x$ be the number of toys he needs to remove. The weight removed from toys is $x \times \frac{1}{2} = \frac{x}{2}$ pounds.
+The total weight removed is $7.5 + \frac{x}{2}$.
+We want this to be equal to 15 pounds:
+$7.5 + \frac{x}{2} = 15$
+Subtract 7.5 from both sides:
+$\frac{x}{2} = 15 - 7.5 = 7.5$
+Multiply both sides by 2:
+$x = 7.5 \times 2 = 15$
+So he needs to remove 15 toys.
+
+Now we check:
+Weight of 30 comic books: $30 \times \frac{1}{4} = 7.5$ pounds.
+Weight of 15 toys: $15 \times \
+

@@ -1,0 +1,15 @@
+First, calculate the total number of notebooks Dmitri initially has:
+
+9 packs * 4 notebooks/pack = 36 notebooks
+
+Next, subtract the 13 notebooks given to Gina:
+
+36 notebooks - 13 notebooks = 23 notebooks
+
+Then, add the 23 notebooks given back to Dmitri:
+
+23 notebooks + 23 notebooks = 46 notebooks
+
+So, Dmitri has #### 46 notebooks. [end of text]
+
+

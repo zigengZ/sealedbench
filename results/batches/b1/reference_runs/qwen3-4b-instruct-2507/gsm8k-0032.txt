@@ -1,0 +1,13 @@
+Each dog takes 0.5 hours a day to walk and take care of their business.
+
+John has 10 dogs, so:
+
+10 dogs × 0.5 hours = 5 hours per day
+
+There are 7 days in a week, so:
+
+5 hours/day × 7 days = 35 hours per week
+
+#### 35 [end of text]
+
+

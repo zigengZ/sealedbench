@@ -1,0 +1,38 @@
+Let's break down how many pages Ben reads in one week:
+
+1. **First book**:  
+   Ben reads 20 pages a day for 4 days:  
+   $ 20 \times 4 = 80 $ pages
+
+2. **Second book**:  
+   Ben reads 18 pages a day for 3 days:  
+   $ 18 \times 3 = 54 $ pages
+
+3. **Blank pages skipped**:  
+   Ben skips 96 pages that don't count.  
+   So, these **do not** count toward the total pages read.
+
+So, total pages **read** in one week:  
+$ 80 + 54 = 134 $ pages  
+(We subtract the blank pages only if they were counted — but the problem says he *skips* them, so they are not part of the reading.)
+
+Wait — the problem says:  
+> "Ben skips 96 pages that were blank and do not count."
+
+This means those 96 pages are **not** read, so they are **not** included in the total.
+
+But the 80 + 54 pages are the actual pages he reads. The 96 blank pages are not read — so they don't count.
+
+So, in one week, Ben reads:  
+$ 80 + 54 = 134 $ pages  
+And skips 96 blank pages — which are not part of the reading.
+
+So, **each week**, he reads **134 pages**.
+
+He repeats this for **4 weeks**:
+
+$ 134 \times 4 = 536 $
+
+#### 536 [end of text]
+
+

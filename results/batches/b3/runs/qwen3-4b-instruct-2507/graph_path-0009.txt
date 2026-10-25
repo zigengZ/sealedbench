@@ -1,0 +1,67 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Dove, Drew, Moss, Uri, Vale, Zed  
+**Edges and weights**:
+- Dove – Moss: 5  
+- Dove – Uri: 5  
+- Dove – Zed: 1  
+- Drew – Moss: 6  
+- Drew – Uri: 2  
+- Moss – Uri: 2  
+- Uri – Vale: 2  
+
+We are to find the **shortest path from Uri to Zed** and report the **total weight**.
+
+---
+
+### Step 1: List all possible paths from Uri to Zed
+
+We need to find paths from **Uri** to **Zed** and compute their total weights.
+
+#### Path 1: Uri → Zed (direct)
+- Uri to Zed? → Not listed directly.  
+→ No direct edge. So this path does not exist.
+
+#### Path 2: Uri → Moss → Zed
+- Uri to Moss: 2 (given)
+- Moss to Zed? → Not listed.  
+→ No edge from Moss to Zed. Invalid.
+
+#### Path 3: Uri → Dove → Zed
+- Uri to Dove: 5 (given: Dove–Uri: 5)
+- Dove to Zed: 1 (given)
+→ Total = 5 + 1 = **6**
+
+#### Path 4: Uri → Drew → Moss → ??? → Zed?
+- Uri → Drew: 2
+- Drew → Moss: 6
+- Moss → ??? → Zed? No edge from Moss to Zed.  
+→ No path from Moss to Zed. Invalid.
+
+#### Path 5: Uri → Vale → ??? → Zed?
+- Uri → Vale: 2
+- Vale has no outgoing edges listed.  
+→ No connection to Zed. Invalid.
+
+#### Path 6: Uri → Moss → ??? → Zed?
+- Uri → Moss: 2
+- Moss → ??? → Zed? No edge from Moss to Zed or to Dove or Drew that leads to Zed.
+
+Only connection to Zed is via **Dove**.
+
+So, the only viable path from Uri to Zed is:
+
+**Uri → Dove → Zed**  
+Weight = 5 (Uri–Dove) + 1 (Dove–Zed) = **6**
+
+Any other path would require going through nodes with no connection to Zed.
+
+Thus, the shortest path from Uri to Zed has total weight:
+
+#### 6
+
+---
+
+#### 6 [end of text]
+
+

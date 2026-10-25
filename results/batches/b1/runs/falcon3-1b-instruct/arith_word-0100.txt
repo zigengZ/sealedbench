@@ -1,0 +1,15 @@
+First, let's calculate the total number of seats Esme initially has.
+
+Total seats = Number of rows × Number of seats per row
+Total seats = 11 rows × 8 seats/row
+Total seats = 88 seats
+
+Next, we subtract the number of seats sold from the total number of seats to find the number of unsold seats.
+
+Unsold seats = Total seats - Sold seats
+Unsold seats = 88 seats - 34 seats
+Unsold seats = 54 seats
+
+So, there are #### 54 seats still unsold. [end of text]
+
+

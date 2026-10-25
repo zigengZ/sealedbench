@@ -1,0 +1,13 @@
+Bailey receives a total of **$40** from her weekly allowance ($5 × 8 weeks).
+
+Let **x** be the initial amount of money she had.
+
+After receiving the allowance, her total becomes:
+**x + $40 = $100**
+
+Solving for **x**:
+**x = $100 - $40 = $60**
+
+#### 60 [end of text]
+
+

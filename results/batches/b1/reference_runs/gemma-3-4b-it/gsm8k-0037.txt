@@ -1,0 +1,14 @@
+Let's denote the number of lego sets John has as $L$. He sells each lego set for $15, so the total money he earns from selling the lego sets is $15L$.
+John sells 13 lego sets, so he earns $15 \times 13 = 195$ dollars.
+He buys 8 video games for $20 each, so the total cost of the video games is $8 \times 20 = 160$ dollars.
+He has $5 left after buying the video games.
+Let $M$ be the total money John had initially. Then, the money he earned from selling lego sets minus the cost of video games plus the money left is equal to the initial money:
+$195 - 160 + 5 = M$
+$35 + 5 = M$
+$M = 40$
+So, John initially had $40.
+He sold 13 lego sets, and the money he earned from selling them was $195.
+The number of lego sets he still has is $13 - \text{number of lego sets sold}$.
+Since he sold all his lego sets, he has 0 lego sets left. However, the problem asks how many lego sets he *still* has.
+The problem states he sells all his toys and uses the money to buy video games. So, he started with 13 lego sets. He sold them and earned $195.
+

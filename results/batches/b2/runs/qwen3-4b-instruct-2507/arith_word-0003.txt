@@ -1,0 +1,17 @@
+Kira earns $29 per hour and works 2 hours:
+
+$$
+29 \times 2 = 58 \text{ dollars}
+$$
+
+Then she spends $37:
+
+$$
+58 - 37 = 21 \text{ dollars}
+$$
+
+So, Kira has **21 dollars** left.
+
+#### 21 [end of text]
+
+

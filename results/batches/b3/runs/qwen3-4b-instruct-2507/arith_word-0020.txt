@@ -1,0 +1,14 @@
+Dmitri earns $16 per hour.
+
+On **day 1**, he works 8 hours:  
+$ 16 \times 8 = 128 $ dollars.
+
+On **day 2**, he works 5 hours:  
+$ 16 \times 5 = 80 $ dollars.
+
+Total earnings:  
+$ 128 + 80 = 208 $ dollars.
+
+#### 208 [end of text]
+
+

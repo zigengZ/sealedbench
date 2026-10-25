@@ -1,0 +1,15 @@
+First, find out how many eggs Lloyd produces per day:  
+252 eggs per day.
+
+Since there are 12 eggs in a dozen, we find how many dozens he sells per day:  
+252 ÷ 12 = 21 dozen per day.
+
+He sells each dozen for $2, so daily earnings:  
+21 × $2 = $42 per day.
+
+Now, for a week (7 days):  
+$42 × 7 = $294.
+
+#### 294 [end of text]
+
+

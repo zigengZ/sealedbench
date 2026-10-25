@@ -1,0 +1,9 @@
+Kira reads 20 pages a day for 6 days:  
+20 × 6 = 120 pages.
+
+Then she reads 38 more pages:  
+120 + 38 = 158 pages.
+
+#### 158 [end of text]
+
+

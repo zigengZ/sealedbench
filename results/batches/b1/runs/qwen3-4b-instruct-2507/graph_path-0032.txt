@@ -1,0 +1,45 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Dove, Indigo, Kai, Moss, Nell, Oak, Sage, Xen, York  
+We are to find the **shortest path from Dove to Nell** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Dove – Oak: 6  
+- Dove – Xen: 6  
+- Dove – York: 2  
+- Indigo – Xen: 2  
+- Kai – Moss: 6  
+- Kai – Sage: 1  
+- Moss – Xen: 3  
+- Moss – York: 8  
+- Nell – Sage: 9  
+- Nell – Xen: 4  
+- Xen – York: 2  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Dove** to **Nell**
+
+We will explore possible paths from Dove to Nell, using Dijkstra’s algorithm (since all weights are positive).
+
+We start at **Dove** and want to reach **Nell**.
+
+---
+
+### Step 3: Build adjacency list
+
+Let’s build the graph:
+
+- Dove: Oak(6), Xen(6), York(2)  
+- Oak: Dove(6)  
+- Xen: Dove(6), Indigo(2), Moss(3), York(2), Nell(4)  
+- Indigo: Xen(2)  
+- Moss: Kai(6), Xen(3), York(8
+

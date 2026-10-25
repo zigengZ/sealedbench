@@ -1,0 +1,12 @@
+First, calculate the total number of seats in the first set of rows:
+10 rows × 9 seats/row = 90 seats
+
+Then, calculate the total number of seats in the second set of rows:
+8 rows × 10 seats/row = 80 seats
+
+Finally, add the two totals together to find the grand total:
+90 seats + 80 seats = 170 seats
+
+#### 170 [end of text]
+
+

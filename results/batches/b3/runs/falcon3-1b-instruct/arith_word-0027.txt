@@ -1,0 +1,7 @@
+Aisha reads 9 pages a day for 2 days, so she reads 9 * 2 = 18 pages.
+She also reads a second book at 10 pages a day for 2 days, so she reads 10 * 2 = 20 pages.
+In total, Aisha reads 18 + 20 = 38 pages.
+
+#### 38 [end of text]
+
+

@@ -1,0 +1,21 @@
+First, find the total number of seats Diego sets up.
+
+He sets out:
+- 7 rows with 14 seats each:  
+  $7 \times 14 = 98$ seats
+
+Then he adds:
+- 8 rows with 5 seats each:  
+  $8 \times 5 = 40$ seats
+
+Total seats = $98 + 40 = 138$ seats
+
+Then, 39 seats are sold, so the number of **unsold seats** is:  
+$138 - 39 = 99$ seats
+
+Each unsold seat is worth $7, so the total value is:  
+$99 \times 7 = 693$ dollars
+
+#### 693 [end of text]
+
+

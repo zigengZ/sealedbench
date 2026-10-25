@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "code_output",
+  "gen_tokens": 153,
+  "gen_tps": 7.57,
+  "hit_cap": false,
+  "item_id": "code_output-0022",
+  "model": "gemma-3-4b-it",
+  "n_predict": 512,
+  "prompt_tokens": 126,
+  "prompt_tps": 59.9,
+  "returncode": 0,
+  "seconds": 23.649,
+  "stdout_bytes": 465,
+  "stdout_sha256": "bcec604028c5d7df12d3e6daddd44d36d551961eb40a2d460d6111842fd68c33"
+}

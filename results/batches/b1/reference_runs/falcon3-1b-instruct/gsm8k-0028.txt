@@ -1,0 +1,4 @@
+Henry traveled 20 miles + 15 miles = 35 miles between his first and second stops.
+#### 35 [end of text]
+
+

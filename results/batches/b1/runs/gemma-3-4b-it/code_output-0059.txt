@@ -1,0 +1,10 @@
+The program initializes a list `nums` with the values `[15, 1, 12, 0, 2, 11, 10]`. It then initializes an empty list `kept`. The code iterates through the `nums` list. Inside the loop, it checks if the current number `num` is greater than or equal to 6. If it is, the number is appended to the `kept` list. Finally, the program prints the length of the `kept` list and the `kept` list itself.
+
+The numbers in `nums` that are greater than or equal to 6 are 15, 12, 11, and 10. Therefore, the `kept` list will contain these values. The length of the `kept` list will be 4.
+
+```python
+4
+[15, 12, 11, 10]
+``` [end of text]
+
+

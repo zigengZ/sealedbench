@@ -1,0 +1,10 @@
+Samir's earnings:
+- Day 1: 6 hours × $14/hour = $84
+- Day 2: 5 hours × $14/hour = $70
+- Day 3: 6 hours × $14/hour = $84
+
+Total earnings = $84 + $70 + $84 = $238
+
+#### 238 [end of text]
+
+

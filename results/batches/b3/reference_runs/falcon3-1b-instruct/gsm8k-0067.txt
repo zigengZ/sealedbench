@@ -1,0 +1,15 @@
+First, let's find the number of rubies. Since there are 35 fewer rubies than diamonds, and there are 175 diamonds, the number of rubies is:
+
+175 - 35 = 140 rubies.
+
+Next, we calculate the number of emeralds. Since there are twice the number of emeralds than rubies, and there are 140 rubies:
+
+2 * 140 = 280 emeralds.
+
+Now, let's add up the number of each type of gem:
+
+175 (diamonds) + 140 (rubies) + 280 (emeralds) = 615 gems.
+
+#### 615 [end of text]
+
+

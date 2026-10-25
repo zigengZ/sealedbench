@@ -1,0 +1,17 @@
+First, let's calculate the dimensions of each box including the thickness of the walls.
+
+Each box is 5 inches by 6 inches by 4 inches.
+The walls are 1 inch thick on each side, so the dimensions including the walls are:
+- Length: 5 + 2 * 1 = 7 inches
+- Width: 6 + 2 * 1 = 8 inches
+- Height: 4 + 2 * 1 = 6 inches
+
+Now, let's calculate the volume of one box:
+Volume = Length * Width * Height = 7 * 8 * 6 = 336 cubic inches.
+
+Since there are 3 boxes, the total inner volume is:
+Total Volume = 3 * 336 = 1008 cubic inches.
+
+#### 1008 [end of text]
+
+

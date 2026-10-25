@@ -1,0 +1,16 @@
+First, let's determine Gerald's original speed.
+
+1. **Calculate Gerald's original speed:**
+   - Lee's original time = 38 seconds
+   - Gerald's original time = Lee's original time - 2 seconds
+   - Gerald's original speed = 38 seconds - 2 seconds = 36 seconds
+
+2. **Gerald's improved speed:**
+   - Gerald's improved speed = Gerald's original speed + 10% of Gerald's original speed
+   - Improved speed = 36 seconds + (10% of 36 seconds)
+   - Improved speed = 36 seconds + (0.10 * 36 seconds)
+   - Improved speed = 36 seconds + 3.6 seconds = 39.6 seconds
+
+So, Gerald can run the 400-meter hurdles at a speed of #### 39.6. [end of text]
+
+

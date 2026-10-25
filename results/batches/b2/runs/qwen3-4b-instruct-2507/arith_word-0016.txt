@@ -1,0 +1,13 @@
+Gina buys 6 packs of ribbons, and each pack has 8 ribbons.  
+So, total ribbons Gina has initially:  
+6 × 8 = 48 ribbons
+
+She gives 44 ribbons to Ava, so the number of ribbons she has left is:  
+48 − 44 = 4 ribbons
+
+Each ribbon is worth $6, so the value of Gina's remaining ribbons is:  
+4 × 6 = 24 dollars
+
+#### 24 [end of text]
+
+

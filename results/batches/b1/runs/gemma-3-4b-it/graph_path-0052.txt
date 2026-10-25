@@ -1,0 +1,12 @@
+We want to find the shortest path between Hart and Lark in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Hart to Lark:
+1. Hart -> Kai -> Lark: Weight = 8 + 4 = 12
+2. Hart -> Bay -> Kai -> Lark: Weight = 6 + 9 + 4 = 19
+3. Hart -> Poe -> (no direct path to Lark)
+
+The shortest path is Hart -> Kai -> Lark with a total weight of 12.
+
+#### 12 [end of text]
+
+

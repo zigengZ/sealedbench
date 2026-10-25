@@ -1,0 +1,9 @@
+Mina has a total of 8 rows × 4 seats = 32 seats.
+
+After 20 seats are sold, the number of unsold seats is 32 - 20 = 12.
+
+Each unsold seat is worth $8, so the total value is 12 × 8 = $96.
+
+#### 96 [end of text]
+
+

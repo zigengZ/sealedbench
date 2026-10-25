@@ -1,0 +1,23 @@
+To find the shortest path from **Kai** to **Zed**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Possible paths from Kai:**
+   - Kai → Quill → Tess → Zed
+     - Weights: 8 (Kai-Quill) + 1 (Quill-Tess) + 9 (Tess-Zed) = **18**
+   - Kai → Quill → Tess → Sage → Zed
+     - Weights: 8 + 1 + 2 + 1 = **12** (longer detour, not optimal)
+   - Kai → Quill → Tess → Uri → Tess → Zed (invalid, revisits Tess)
+   - Kai → Quill → Sage → Tess → Zed (invalid, Quill-Sage not directly connected)
+
+2. **Optimal path:**
+   The shortest path is **Kai → Quill → Tess → Zed** with a total weight of **18**.
+
+However, let's verify if there's a shorter path:
+- Kai → Quill → Tess → Sage → Zed (invalid, no direct edge Kai-Quill-Sage)
+- Kai → Quill → Tess → Uri → Tess → Zed (invalid, revisits Tess)
+
+No shorter path exists. The minimal weight is **18**.
+
+#### 18 [end of text]
+
+

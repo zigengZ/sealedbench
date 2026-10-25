@@ -1,0 +1,27 @@
+To find the shortest path from **Hart** to **Nell**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward for weighted graphs).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Hart** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Update distances**:
+   - From **Hart**, the only edge is to **Cleo** (weight = 4).
+     - Update: `Cleo` = 4.
+
+3. **Next node to explore**: **Cleo** (smallest unvisited distance).
+   - From **Cleo**, edges are:
+     - `Cleo → Hart` (already visited).
+     - `Cleo → Nell` (weight = 4).
+       - Update: `Nell` = 4 (via `Hart → Cleo → Nell`).
+
+4. **Next node to explore**: **Nell** (distance = 4).
+   - From **Nell**, edges are:
+     - `Nell → Cleo` (already visited).
+     - `Nell → Sage` (weight = 6).
+       - Update: `Sage` = 4 + 6 = 10 (via `Hart → Cleo → Nell → Sage`).
+     - `Nell → York` (weight = 4).
+       - Update: `York` = 4 + 4 = 8 (via `Hart → Cleo → Nell → York`).
+
+5. **
+

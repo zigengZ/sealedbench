@@ -1,0 +1,6 @@
+Samir starts with 6 packs × 4 cookies each = 24 cookies.
+After giving 16 to Chloe, he has 24 − 16 = 8 cookies left.
+
+#### 8 [end of text]
+
+

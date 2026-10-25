@@ -1,0 +1,5 @@
+A robe takes 2 bolts of blue fiber and half that much white fiber. Half of 2 bolts is 1 bolt. So, the total number of bolts needed is 2 (blue) + 1 (white) = 3 bolts.
+
+#### 3 [end of text]
+
+

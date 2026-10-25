@@ -1,0 +1,9 @@
+Rosa reads **32 pages** from the first book (16 pages/day × 2 days).
+She reads **80 pages** from the second book (16 pages/day × 5 days).
+Total pages before skipping: **112 pages** (32 + 80).
+After skipping 13 blank pages: **99 pages per week**.
+For 2 weeks: **198 pages**.
+
+#### 198 [end of text]
+
+

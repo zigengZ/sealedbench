@@ -1,0 +1,17 @@
+First, let's determine the cost of one glass and then the cost of 16 glasses.
+
+One glass costs $5.
+
+Since every second glass costs 60% of the price, the cost of a second glass is:
+\[ 5 \times 0.60 = 3 \]
+
+Now, let's calculate the total cost for 16 glasses:
+\[ 16 \text{ glasses} \times 5 \text{ dollars/glass} + 16 \text{ glasses} \times 3 \text{ dollars/second glass} \]
+
+\[ = 80 + 48 \]
+
+\[ = 128 \]
+
+So, Kylar needs to pay #### 128. [end of text]
+
+

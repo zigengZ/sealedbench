@@ -1,0 +1,17 @@
+Pavel buys 4 packs of ribbons, and each pack has 3 ribbons:
+
+4 packs × 3 ribbons = 12 ribbons
+
+So Pavel starts with 12 ribbons.
+
+Then he gives 9 ribbons to Kira:
+
+12 − 9 = 3 ribbons left with Pavel.
+
+Then Kira gives Pavel 18 more ribbons:
+
+3 + 18 = 21 ribbons.
+
+#### 21 [end of text]
+
+

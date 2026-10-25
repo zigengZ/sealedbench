@@ -1,0 +1,7 @@
+Leo buys 7 packs of 5 buttons each: 7 × 5 = 35 buttons.
+Then he buys 4 packs of 8 buttons each: 4 × 8 = 32 buttons.
+Total buttons: 35 + 32 = 67 buttons.
+
+#### 67 [end of text]
+
+

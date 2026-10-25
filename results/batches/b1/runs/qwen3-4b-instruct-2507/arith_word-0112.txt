@@ -1,0 +1,11 @@
+Leo buys 5 packs of badges, and each pack has 3 badges.  
+So, total badges Leo has initially:  
+5 × 3 = 15 badges  
+
+Then he gives 11 badges to Yara.  
+So, badges left with Leo:  
+15 − 11 = 4  
+
+#### 4 [end of text]
+
+

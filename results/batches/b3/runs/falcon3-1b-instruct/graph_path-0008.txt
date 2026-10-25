@@ -1,0 +1,66 @@
+To find the shortest path between Ash and Dove, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Ash as 0 and to all other nodes as infinity.
+   - Create a priority queue and insert Ash with a distance of 0.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance from Ash to Dove will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Ash', 'Cleo', 'Dove', 'Glen', 'Kai', 'Oak', 'Poe', 'Uri']
+distances = {node: float('infinity') for node in nodes}
+
+# Edges with weights
+edges = {
+    'Ash Uri': 5,
+    'Cleo Dove': 1,
+    'Cleo Oak': 7,
+    'Cleo Uri': 6,
+    'Dove Glen': 7,
+    'Dove Uri': 7,
+    'Glen Kai': 5,
+    'Glen Uri': 4,
+    'Kai Uri': 4,
+    'Oak Poe': 9,
+    'Oak Uri': 8,
+    'Poe Uri': 7
+}
+
+# Priority queue to store nodes with their distances
+priority_queue = [(0, nodes)]
+
+# Dijkstra's algorithm
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in edges.items():
+        new_distance = current_distance + weight
+        if new_distance < distances[neighbor]:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance, neighbor))
+    
+# Distance from Ash to Dove
+distance = distances[Dove]
+print(distance)
+```
+
+Running this code will give us the shortest path distance from Ash to Dove.
+
+#### 10 [end of text]
+
+

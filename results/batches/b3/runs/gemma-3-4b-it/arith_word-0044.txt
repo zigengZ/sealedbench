@@ -1,0 +1,7 @@
+First, calculate the total pages read in the first 3 days: 24 pages/day * 3 days = 72 pages.
+Next, add the additional 19 pages: 72 pages + 19 pages = 91 pages.
+Finally, subtract the blank pages: 91 pages - 65 pages = 26 pages.
+
+####26 [end of text]
+
+

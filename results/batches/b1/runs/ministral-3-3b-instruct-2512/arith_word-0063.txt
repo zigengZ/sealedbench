@@ -1,0 +1,12 @@
+Boris reads **38 pages** in total.
+
+**Reasoning:**
+- First 2 days: 19 pages/day × 2 days = 38 pages
+- Additional pages: 25 pages
+- Total before skipping: 38 + 25 = 63 pages
+- Skipped blank pages: 44 pages (do not count)
+- **Final count:** 63 - 44 = 19 pages
+
+#### 19 [end of text]
+
+

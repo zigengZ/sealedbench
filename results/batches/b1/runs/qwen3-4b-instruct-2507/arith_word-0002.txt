@@ -1,0 +1,19 @@
+First, find the total number of seats Mina sets out:
+
+- 4 rows with 12 seats each:  
+  $4 \times 12 = 48$ seats
+
+- Then 4 more rows with 4 seats each:  
+  $4 \times 4 = 16$ seats
+
+Total seats = $48 + 16 = 64$ seats
+
+Then, 1 seat is sold, so the number of **unsold seats** is:  
+$64 - 1 = 63$ seats
+
+Each unsold seat is worth $2, so total value is:  
+$63 \times 2 = 126$ dollars
+
+#### 126 [end of text]
+
+

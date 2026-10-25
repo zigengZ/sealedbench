@@ -1,0 +1,15 @@
+Pavel sets out 3 rows with 10 seats in each row:
+
+$ 3 \times 10 = 30 $ seats in total.
+
+Then 17 seats are sold, so the number of unsold seats is:
+
+$ 30 - 17 = 13 $ unsold seats.
+
+Each unsold seat is worth $9, so the total value of the unsold seats is:
+
+$ 13 \times 9 = 117 $ dollars.
+
+#### 117 [end of text]
+
+

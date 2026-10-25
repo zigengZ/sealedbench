@@ -1,0 +1,8 @@
+First, calculate the number of pages Ben reads from the first book: 7 pages/day * 2 days = 14 pages.
+Next, calculate the number of pages Ben reads from the second book: 12 pages/day * 4 days = 48 pages.
+Finally, add the pages from both books: 14 pages + 48 pages = 62 pages.
+
+####62
+ [end of text]
+
+

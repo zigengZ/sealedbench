@@ -1,0 +1,15 @@
+Let $d$ be the distance Polly can throw the javelin without the gemstone. We are given that $d = 400$ feet.
+When Polly holds the gemstone, she can throw the javelin three times farther than when not holding the gemstone. So, the distance she can throw with the gemstone is $3d = 3(400) = 1200$ feet.
+The dragon's reach is 1000 feet.
+Polly can stand outside the dragon's reach and still hit the dragon with the javelin if the distance she can throw with the gemstone is greater than the dragon's reach.
+Since the gemstone allows Polly to throw the javelin 1200 feet, and the dragon's reach is 1000 feet, Polly can stand $1200 - 1000 = 200$ feet outside the dragon's reach and still hit the dragon.
+However, the question asks how far outside the reach of the dragon's flames could Polly stand and still hit the dragon with the javelin. This means we want to find the distance $x$ such that the distance she throws with the gemstone is greater than 1000 feet.
+We have $1200 > 1000$, so Polly can stand any distance outside the dragon's reach and still hit the dragon.
+The question asks how far outside the reach of the dragon's flames could Polly stand. Since she can throw 1200 feet with the gemstone, and the dragon's reach is 1000 feet, she can stand $1200 - 1000 = 200$ feet outside the dragon's reach.
+However, the question asks how far *outside* the dragon's reach she can stand. Since she can throw 1200 feet with the gemstone, and the dragon's reach is 1000 feet, she can stand any distance greater than 0 feet outside the dragon's reach and still hit the dragon.
+The question is asking for the distance she can stand outside the dragon's reach. Since she can throw 1200 feet with the gemstone, and the dragon's reach is 1000 feet, she can stand $1200 - 1000 = 200$ feet outside the dragon's reach.
+The distance she can stand outside the dragon's reach is $1200 - 1000 = 200$ feet.
+
+#### 200 [end of text]
+
+

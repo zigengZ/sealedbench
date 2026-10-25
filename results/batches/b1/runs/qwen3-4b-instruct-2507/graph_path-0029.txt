@@ -1,0 +1,49 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Ash, Cleo, Drew, Hart, Jules, Kai, Quill, Tess, Zed  
+**Edges and weights**:
+
+- Ash – Quill: 1  
+- Cleo – Tess: 5  
+- Drew – Hart: 8  
+- Drew – Jules: 3  
+- Drew – Tess: 3  
+- Drew – Zed: 7  
+- Hart – Jules: 2  
+- Jules – Kai: 6  
+- Jules – Quill: 1  
+- Kai – Tess: 2  
+
+We are to find the **shortest path from Cleo to Kai**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We need to find a path from **Cleo** to **Kai**.
+
+Start with Cleo:
+- Cleo is connected only to **Tess** (weight 5)
+
+From Tess:
+- Tess is connected to:
+  - Cleo (5)
+  - Drew (3)
+  - Kai (2)
+
+So from Tess, we can go to **Drew** (3) or **Kai** (2)
+
+So one direct path:  
+**Cleo → Tess → Kai**  
+Weight = 5 + 2 = **7**
+
+Is there a shorter path?
+
+Let’s explore other paths via other nodes.
+
+From Tess → Drew (3)  
+Drew is connected to:
+- Hart (8)
+- Jules (3)
+- Tess
+

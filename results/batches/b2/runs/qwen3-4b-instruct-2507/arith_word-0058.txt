@@ -1,0 +1,11 @@
+Gina reads the first book at 24 pages per day for 2 days:  
+24 pages/day × 2 days = 48 pages
+
+She reads the second book at 20 pages per day for 4 days:  
+20 pages/day × 4 days = 80 pages
+
+Total pages read = 48 + 80 = 128 pages
+
+#### 128 [end of text]
+
+

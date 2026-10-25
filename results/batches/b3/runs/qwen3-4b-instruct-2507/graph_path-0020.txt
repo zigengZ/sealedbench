@@ -1,0 +1,82 @@
+We are given an undirected weighted graph with nodes:  
+**Drew, Jules, Lark, Nell, Poe, Uri, West**
+
+Edges and their weights:
+- Drew – Jules: 6  
+- Drew – West: 8  
+- Jules – Lark: 2  
+- Jules – Poe: 5  
+- Lark – Uri: 4  
+- Nell – Uri: 7  
+- Nell – West: 7  
+- Poe – Uri: 5  
+- Uri – West: 7  
+
+We are to find the **shortest path from Drew to Lark** in terms of total weight.
+
+---
+
+### Step 1: Understand possible paths from Drew to Lark
+
+We can go through various intermediate nodes. Let's consider paths from **Drew → Lark**.
+
+#### Path 1: Drew → Jules → Lark  
+- Drew to Jules: 6  
+- Jules to Lark: 2  
+- Total: 6 + 2 = **8**
+
+#### Path 2: Drew → West → Uri → Lark  
+- Drew → West: 8  
+- West → Uri: 7  
+- Uri → Lark: 4 (but wait — is there a direct edge from Uri to Lark?)  
+→ No, the edge is **Lark – Uri: 4**, so yes, it exists.  
+So: 8 + 7 + 4 = **19** → too long
+
+#### Path 3: Drew → Jules → Poe → Uri → Lark  
+- Drew → Jules: 6  
+- Jules → Poe: 5  
+- Poe → Uri: 5  
+- Uri → Lark: 4  
+Total: 6 + 5 + 5 + 4 = **20** → worse
+
+#### Path 4: Drew → West → Nell → Uri → Lark  
+- Drew → West: 8  
+- West → Nell: 7  
+- Nell → Uri: 7  
+- Uri → Lark: 4  
+Total: 8 + 7 + 7 + 4 = **26** → worse
+
+#### Path 5: Drew → Jules → Lark → (no other way)  
+Already considered.
+
+Any other path?
+
+What about via Nell? Seems longer.
+
+Is there a shorter path than 8?
+
+Let’s check if there's a path through other nodes that might be shorter.
+
+Wait — is there a direct edge from Drew to Lark? No.
+
+Only path with low cost is **Drew → Jules → Lark** = 8.
+
+Any alternative?
+
+What about: Drew → West → Uri → Poe → Jules → Lark?  
+That would be longer:  
+Drew–West: 8  
+West–Uri: 7  
+Uri–Poe: 5  
+Poe–Jules: 5  
+Jules–Lark: 2  
+Total: 8+7+5+5+2 = 27 → worse.
+
+All other paths go through more nodes and have higher weights.
+
+So the shortest path is **Drew → Jules → Lark** with total weight **8**.
+
+#### Final Answer:
+#### 8 [end of text]
+
+

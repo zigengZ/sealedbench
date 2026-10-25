@@ -1,0 +1,7 @@
+Ben reads **48 pages** in the first 4 days (12 pages/day × 4 days = 48 pages).
+Adding the extra 19 pages gives **67 pages**.
+Skipping 55 blank pages doesn’t change the total count.
+
+#### 67 [end of text]
+
+

@@ -1,0 +1,42 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Ash, Bay, Cedar, Glen, West, Zed  
+**Edges and weights**:
+- Ash – Bay: 1  
+- Ash – Cedar: 2  
+- Ash – Glen: 6  
+- Bay – West: 7  
+- Bay – Zed: 7  
+- Glen – West: 5  
+- Glen – Zed: 7  
+
+We are to find the **shortest path from Ash to West** in terms of total weight.
+
+---
+
+### Step 1: List all possible paths from Ash to West
+
+We'll consider paths through different intermediate nodes.
+
+---
+
+**Path 1: Ash → Bay → West**  
+Weight: 1 (Ash→Bay) + 7 (Bay→West) = **8**
+
+---
+
+**Path 2: Ash → Glen → West**  
+Weight: 6 (Ash→Glen) + 5 (Glen→West) = **11**
+
+---
+
+**Path 3: Ash → Bay → Zed → West?**  
+But Zed to West is not directly connected. Only edges are:
+- Bay–Zed, Glen–Zed, and Bay–West, Glen–West.  
+No direct Zed–West edge. So this path is invalid.
+
+**Path 4: Ash → Cedar → ???**  
+Cedar has no outgoing edges to any other node (only connected to Ash). So Cedar is a dead end. Can't reach West from Cedar.
+
+**Path
+

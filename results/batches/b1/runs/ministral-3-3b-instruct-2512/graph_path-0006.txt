@@ -1,0 +1,21 @@
+To find the shortest path from **Fern** to **Tess**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Fern → Vale (4)** (only direct edge)
+2. From **Vale**, possible paths:
+   - **Vale → Amber (1)** → **Amber → Tess (2)** → Total: **4 + 1 + 2 = 7**
+   - **Vale → Bay (4)** → **Bay → Eden (1)** → **Eden → Vale (3)** → (cycle, not useful)
+   - **Vale → Dove (1)** → **Dove → Tess (9)** → Total: **4 + 1 + 9 = 14** (longer)
+   - **Vale → Fern (4)** → (loop, not useful)
+   - **Vale → Nell (no direct edge)**
+   - **Vale → Xen (no direct edge)**
+
+   The shortest path from **Vale** to **Tess** via **Amber** is **7**.
+
+3. **Vale → Fern (4)** is already considered, but no shorter path exists via other nodes.
+
+4. **Alternative path via Dove**:
+   - **Fern → Vale (4)** → **Vale → Dove (1)** → **Dove → Tess (9)** → Total: **4 + 1 + 9 = 14** (longer than 7).
+
+Thus, the shortest path is **Fern →
+

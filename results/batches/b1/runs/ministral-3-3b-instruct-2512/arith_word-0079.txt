@@ -1,0 +1,9 @@
+Esme starts with 7 packs of 6 oranges each: 7 × 6 = 42 oranges.
+Then she buys 3 more packs of 7 oranges each: 3 × 7 = 21 oranges.
+Total oranges before giving to Samir: 42 + 21 = 63.
+After giving 58 to Samir: 63 - 58 = 5 oranges left.
+Shared equally among 5 people: 5 ÷ 5 = 1 orange per person.
+
+#### 1 [end of text]
+
+

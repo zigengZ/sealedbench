@@ -1,0 +1,17 @@
+First, calculate the total number of oranges Pavel initially bought:
+5 packs * 10 oranges/pack = 50 oranges
+
+Then, calculate the total number of oranges Pavel bought after the second purchase:
+5 packs * 9 oranges/pack = 45 oranges
+
+Total oranges Pavel bought: 50 + 45 = 95 oranges
+
+Pavel gives 30 oranges to Chloe, so the remaining oranges are:
+95 oranges - 30 oranges = 65 oranges
+
+These oranges are shared equally among 5 people:
+65 oranges / 5 people = 13 oranges/person
+
+#### 13 [end of text]
+
+

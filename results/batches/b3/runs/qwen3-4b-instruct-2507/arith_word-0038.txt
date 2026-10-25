@@ -1,0 +1,19 @@
+First, find the total number of stamps Xavier buys:
+
+- 6 packs with 3 stamps each:  
+  $6 \times 3 = 18$ stamps
+
+- 2 packs with 6 stamps each:  
+  $2 \times 6 = 12$ stamps
+
+Total stamps:  
+$18 + 12 = 30$ stamps
+
+These are shared equally among 3 people:  
+$30 \div 3 = 10$
+
+Each person gets 10 stamps.
+
+#### 10 [end of text]
+
+

@@ -1,0 +1,40 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['harbor', 'river', 'quartz', 'juniper', 'brook', 'delta']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 5 (since `len(words) = 6`):
+
+- **index = 0**:
+  - `piece = words[0] = 'harbor'`
+  - `index % 2 == 0` → True → `piece = 'HARBOR'`
+  - `out == ""` → True → `out = 'HARBOR'`
+
+- **index = 1**:
+  - `piece = words[1] = 'river'`
+  - `index % 2 == 0` → False → `piece = 'river'`
+  - `out != ""` → True → `out = 'HARBOR-river'`
+
+- **index = 2**:
+  - `piece = words[2] = 'quartz'`
+  - `index % 2 == 0` → True → `piece = 'QUARTZ'`
+  - `out != ""` → True → `out = 'HARBOR-river-QUARTZ'`
+
+- **index = 3**:
+  - `piece = words[3] = 'juniper'`
+  - `index % 2 == 0` → False → `piece = 'juniper'`
+  - `out != ""` → True → `out = 'HARBOR-river-QUARTZ-juniper'`
+
+- **index = 4**:
+  - `piece = words[4] = 'brook'`
+  - `index % 2 == 0` → False → `piece = 'brook'`
+  - `out != ""` → True → `out = 'HARBOR-river-QUARTZ-juniper-brook'`
+
+- **index = 5**:
+  - `piece = words[5] = 'delta'`
+  - `index % 2 == 0` → False → `piece = 'delta'`
+  - `out != ""` → True → `out = 'HARBOR-river-QUARTZ-juniper-brook-delta'`
+
+Final `out` is: `'HARBOR-river-QUARTZ-juniper-brook
+

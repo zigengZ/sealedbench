@@ -1,0 +1,9 @@
+Quinn has a total of 8 rows × 12 seats = 96 seats.
+
+After 7 seats are sold, the number of unsold seats is 96 - 7 = 89.
+
+Each unsold seat is worth $12, so the total value is 89 × 12 = 1068.
+
+#### 1068 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, calculate the total number of seats: 2 rows * 5 seats/row = 10 seats.
+
+Then, subtract the number of seats sold: 10 seats - 3 seats = 7 seats.
+
+#### 7 [end of text]
+
+

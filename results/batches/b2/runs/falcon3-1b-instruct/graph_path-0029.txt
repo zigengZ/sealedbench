@@ -1,0 +1,72 @@
+To find the shortest path between Hart and Quill, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Hart as 0 and to Quill as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance to Quill will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Ash', 'Hart', 'Lark', 'Quill', 'York']
+distances = {node: float('inf') for node in nodes}
+
+# Edges with weights
+edges = {
+    'Amber': {'Ash': 9, 'Hart': 5},
+    'Amber': {'Quill': 9, 'Hart': 5},
+    'Ash': {'Lark': 1, 'Ash': 9},
+    'Ash': {'Quill': 9, 'Ash': 9},
+    'Ash': {'York': 4, 'Ash': 9},
+    'Lark': {'York': 4, 'Lark': 4}
+}
+
+# Priority queue to store nodes with their distances
+priority_queue = [(0, {'Amber': 0, 'Ash': 0, 'Hart': 0, 'Lark': 0, 'Quill': 0, 'York': 0})]
+
+# Function to perform Dijkstra's algorithm
+def dijkstra(graph, start, end):
+    visited = set()
+    distances = {node: float('inf') for node in graph}
+    priority_queue = [(0, start)]
+
+    while priority_queue:
+        current_distance, current_node = heapq.heappop(priority_queue)
+
+        if current_node == end:
+            return current_distance
+
+        for neighbor, weight in graph[current_node].items():
+            new_distance = current_distance + weight
+
+            if new_distance < distances[neighbor]:
+                distances[neighbor] = new_distance
+                heapq.heappush(priority_queue, (new_distance, neighbor))
+
+        visited.add(current_node)
+
+    return -1  # If the end node is not found
+
+# Calculate the shortest path weight
+shortest_path_weight = dijkstra(graph, 'Hart', 'Quill')
+print(shortest_path_weight)
+```
+
+The output will be the total weight of the shortest path between Hart and Quill.
+
+#### 10 [end of text]
+
+

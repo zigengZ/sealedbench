@@ -1,0 +1,17 @@
+To solve this problem, we need to determine the maximum distance Polly can throw the javelin when holding the sapphire gemstone.
+
+1. **Initial Distance with Sapphire:**
+   - When Polly holds the sapphire, she can throw the javelin 3 times farther than when not holding the gemstone.
+   - The initial distance with the sapphire is 400 feet.
+
+2. **Calculate the Maximum Distance with Sapphire:**
+   - If Polly throws the javelin 3 times farther with the sapphire, the maximum distance she can throw it is:
+     \[
+     400 \times 3 = 1200 \text{ feet}
+     \]
+
+Therefore, Polly can stand 1200 feet outside of the dragon's reach and still hit the dragon with the gold javelin.
+
+#### 1200 [end of text]
+
+

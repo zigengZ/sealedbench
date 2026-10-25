@@ -1,0 +1,28 @@
+First, let's calculate the total revenue from selling lemons per year.
+
+Each lemon sells for $1.5, and the tree grows 7 lemons per year.
+So, the revenue per year from selling lemons is:
+$1.5 * 7 = $10.5
+
+Next, let's calculate the total cost per year.
+The cost to water and feed the tree is $3 per year.
+
+Now, let's find the net profit per year:
+Net profit per year = Revenue per year - Cost per year
+Net profit per year = $10.5 - $3 = $7.5
+
+Since Carlos needs to break even, we set up the equation:
+Net profit per year = $7.5
+
+Now, we solve for the number of years (n) it takes to break even:
+$7.5 = $10.5 * n
+
+Divide both sides by $10.5 to find n:
+n = $7.5 / $10.5
+n = 0.707 (approximately)
+
+Since Carlos can't have a fraction of a year, we round up to the nearest whole number.
+
+#### 1 [end of text]
+
+

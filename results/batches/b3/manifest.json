@@ -1,0 +1,323 @@
+{
+  "app_version": "0.2.0",
+  "batch_id": "b3",
+  "ciphertext": {
+    "armor": true,
+    "bytes": 22481,
+    "sha256": "3a8aa8d2b7357ae462527b033b55a60df64b28593ebd8948e800d7901f9ecf20",
+    "tool": "github.com/drand/tlock/cmd/tle@v1.2.0",
+    "txid": "MU3l3e_pbboAuVH8dtiLJP4XMGKGaFR530w-TauzteM"
+  },
+  "corrects": {
+    "declared": [
+      {
+        "batch_id": "b2",
+        "ciphertext_sha256": "a7911be4af063978284e703f6f64cf21378531e27d7cdff6c8665ea8ad9b8bc9"
+      },
+      {
+        "batch_id": "cap2",
+        "ciphertext_sha256": "39d0d1145a0521285d7125dbb394f13a8f4ec917e60c3129445b0a3ee04776ef"
+      }
+    ],
+    "statement": "b3 corrects b2's grader-input bug found in rehearsal before b1 unlocked. The sealed b2 grader applied the strict integer rule to raw llama.cpp stdout. llama.cpp appends the end sentinel on the same line as the final answer, so a line such as '#### 261 [end of text]' was graded invalid. The bug was observed on rehearsal batch b2r before b1's unlock at 2026-10-18T09:00:00Z. b2 and cap2 remain sealed and run as registered. b3 grades stdout only after the byte procedure in grader.input_normalization. Truncation detection is unchanged and still uses the raw stdout marker and the run count."
+  },
+  "counts_note": "220 completions per model: 80 arith + 30 code + 30 graph + 80 reference.",
+  "drand": {
+    "beacon_url_template": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/{round}",
+    "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "genesis_unix": 1692803367,
+    "period_s": 3,
+    "public_key": "83cf0f2896adee7eb8b5f01fcad3912212c437e0073e911fb90022d3e760183c8c4b450b6a0a6c3ac6a5776a2d1064510d1fec758c921cc22b0e17e63aaf4bcb5ed66304de9cf809bd274ca73bab4af5a6e9c76a4bc09e76eae8991ef5ece45a",
+    "scheme": "bls-unchained-g1-rfc9380"
+  },
+  "generator": {
+    "code_oracle": "AST interpreter, step budget 10000, no subprocess and no wall clock.",
+    "families": [
+      {
+        "n": 80,
+        "name": "arith_word"
+      },
+      {
+        "n": 30,
+        "name": "code_output"
+      },
+      {
+        "n": 30,
+        "name": "graph_path"
+      }
+    ],
+    "item_ordering": "arith_word, code_output, graph_path. item_id is '{family}-{index:04d}'.",
+    "python": "3.12"
+  },
+  "grader": {
+    "code_rule": "last fenced block; rstrip each line; drop one trailing empty line",
+    "files": [
+      "sealedbench/v2/grade.py",
+      "sealedbench/v2/grade_b3.py"
+    ],
+    "input_normalization": "Let B be the raw stdout bytes. Let W be the ASCII whitespace stripped by Python bytes.rstrip() with no argument: 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x20. Set S = B.rstrip(). If S ends with the 13 bytes 5b 65 6e 64 20 6f 66 20 74 65 78 74 5d (ASCII [end of text]), set S = S[:-13] exactly once. Set S = S.rstrip() again. The integer rule and the code rule then apply to S decoded as UTF-8, with invalid byte sequences replaced. Truncation is unchanged and uses the raw stdout before this procedure: the completion is truncated when it does not contain the ASCII marker [end of text], or when the llama.cpp run count is at least n_predict-1.",
+    "integer_rule": "last line matching ^####[ \\t]+(-?\\d[\\d,]*)[ \\t]*$; no bare-number fallback",
+    "invalid_policy": "unparsable or truncated is invalid and counts as wrong in the primary accuracy",
+    "sha256": "eab22119c837f790f900989ce7d3c8700635ad7881204ffc90079d800854b290",
+    "truncation": "Unchanged from b2. A completion is truncated when the raw stdout does not contain [end of text], or when the llama.cpp run count is at least n_predict-1. The input normalization is not applied before that check."
+  },
+  "models": [
+    {
+      "file": "qwen3-4b-instruct-2507-q8_0.gguf",
+      "id": "qwen3-4b-instruct-2507",
+      "rendered_prompt_sha256": "d013fd0cbe6c4319a336769fd8acc21f8755181f69ec9025ed6fca704bd58070",
+      "sha256": "ae916ede1c010a26955ee8ae2e908bf8815a3f135ec860439ab924701c69d5f1",
+      "url": "https://huggingface.co/ggml-org/Qwen3-4B-Instruct-2507-Q8_0-GGUF/resolve/main/qwen3-4b-instruct-2507-q8_0.gguf"
+    },
+    {
+      "file": "gemma-3-4b-it-Q8_0.gguf",
+      "id": "gemma-3-4b-it",
+      "rendered_prompt_sha256": "b617e4f52945baccc027e9232c10ffb2f57b866b7f1d463ad8b852cea5dc306a",
+      "sha256": "97b06383df48336e7d2f9b56b6ce545e0fa476407a62c0bd081b53447a58e644",
+      "url": "https://huggingface.co/ggml-org/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q8_0.gguf"
+    },
+    {
+      "file": "Ministral-3-3B-Instruct-2512-Q8_0.gguf",
+      "id": "ministral-3-3b-instruct-2512",
+      "rendered_prompt_sha256": "93b2d2a1cc8c05535b20d31bb22a440115eb055e77eb366d7d1aed861a270977",
+      "sha256": "70c6e5b77435062a46bfa3f0b9fa21744a10161ed23eabe9fdc47b3fb6711ad3",
+      "url": "https://huggingface.co/ggml-org/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-Q8_0.gguf"
+    },
+    {
+      "file": "Falcon3-1B-Instruct-q8_0.gguf",
+      "id": "falcon3-1b-instruct",
+      "rendered_prompt_sha256": "227fa354934a1cda4f3181000d6354842ffac5e31db80bba866e391148074a64",
+      "sha256": "dda44709157103fc272ea3c44ae0deb7fbec5b2d82b313362680dec08e66f57a",
+      "url": "https://huggingface.co/tiiuae/Falcon3-1B-Instruct-GGUF/resolve/main/Falcon3-1B-Instruct-q8_0.gguf"
+    }
+  ],
+  "peer": {
+    "batch_id": "b2",
+    "ciphertext_sha256": "a7911be4af063978284e703f6f64cf21378531e27d7cdff6c8665ea8ad9b8bc9"
+  },
+  "plaintext_tarball_bytes": 16192,
+  "plaintext_tarball_sha256": "3a5d7ffb13303ed38b9ff15b6a6174cd02b33c8013fdf80234cd3c9bd15e9181",
+  "protocol_version": "sealedbench/v2",
+  "reference": {
+    "bytes": 62213,
+    "dataset": "GSM8K-test",
+    "indexes": "0..79",
+    "n": 80,
+    "sha256": "8782dc2d2625723118f7fffa68bfb8dbf3b03efde65cf62bfac5c723a30e40d0",
+    "txid": "jTwlatP1ecEKCxZGzw9tc6mz_aIHvvdf6vsutLHJ3G0"
+  },
+  "release_round": 33202612,
+  "reporting": {
+    "comparisons": [
+      "accuracy, invalid rate, truncated rate, and accuracy among parsed, for arith_word, code_output, graph_path, and gsm8k indexes 0..79",
+      "per model, Newcombe 95% interval for arith_word accuracy minus gsm8k accuracy",
+      "template_id counts per family",
+      "trivial baseline: uniform draw from that family's observed oracle answers; for graph_path also the direct-edge weight when an edge exists"
+    ],
+    "inclusion_rule": "A committed item is in time iff the L1 block timestamp of its Turbo bundle is less than or equal to unlock_unix - 600, the bundle id is in that block, and the data-item bytes hash to the committed sha256 at the payload offset. The timestamp, height, and hash must agree on at least two independent gateways. ario.zigza.xyz is operated by the author and never counts as one of those two. HTTP 404, 429, and timeouts are UNKNOWN, not FAIL. The author's observation at release time is recorded and is not decisive. A batch is INVALID only when this check proves a timestamp after the deadline.",
+    "interval": "Wilson 95% on each accuracy. Newcombe hybrid score 95% on arith_word minus gsm8k.",
+    "invalid_and_no_show": "An unparsable answer is invalid. A completion with no end-of-text marker, or with a llama.cpp run count at least n_predict-1, is truncated and counts as invalid in the primary accuracy. Both are reported separately, and accuracy among parsed excludes them. A crashed item is retried once with the same flags and both logs are kept. A partial model is published as partial and is not dropped or trimmed. A batch is INVALID only under the inclusion rule. Unknown observation is not INVALID.",
+    "minimum_detectable_effect": "At p=0.5, the Wilson 95% half-width is about 11 percentage points at n=80 and about 18 points at n=30. The Newcombe half-width of an arith-minus-gsm8k difference at n=80 is about 16 points. Items that share a template are not independent, so these are lower bounds on the uncertainty.",
+    "not_claimed": [
+      "The GSM8K prefix is not difficulty-matched to arith_word.",
+      "A gap inside the minimum detectable effect is reported and is not called contamination.",
+      "No model-versus-model comparison is a headline result."
+    ],
+    "primary_endpoint": "Per model and per family, accuracy with invalid and truncated answers counted as wrong."
+  },
+  "runtime": {
+    "batch": 2048,
+    "binary_bytes": 15968,
+    "binary_note": "The executable is the launcher. shared_libraries are the hashed compute code.",
+    "binary_path": "/root/.cache/sealedbench/llama.cpp/build/bin/llama-completion",
+    "binary_sha256": "d95bb69be967034fa5414b708a75e8119946ecbdb34404363111d2ee20cd5eb7",
+    "build_flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DGGML_NATIVE=ON",
+      "-DGGML_AVX512=ON",
+      "-DGGML_AVX512_VBMI=ON",
+      "-DGGML_AVX512_VNNI=ON",
+      "-DGGML_AVX512_BF16=ON",
+      "-DGGML_CUDA=OFF",
+      "-DGGML_BLAS=OFF",
+      "-DGGML_METAL=OFF",
+      "-DGGML_VULKAN=OFF",
+      "-DGGML_HIP=OFF",
+      "-DGGML_MUSA=OFF",
+      "-DGGML_RPC=OFF",
+      "-DGGML_SYCL=OFF",
+      "-DGGML_OPENCL=OFF",
+      "-DGGML_OPENVINO=OFF",
+      "-DGGML_ZENDNN=OFF",
+      "-DGGML_WEBGPU=OFF",
+      "-DLLAMA_CURL=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_TESTS=OFF",
+      "-DLLAMA_BUILD_EXAMPLES=OFF",
+      "-DLLAMA_BUILD_UI=OFF"
+    ],
+    "ctx": 2048,
+    "env": {
+      "GOMP_SPINCOUNT": "0",
+      "OMP_NUM_THREADS": "6"
+    },
+    "extra_args": [
+      "--no-warmup",
+      "--single-turn",
+      "--no-display-prompt",
+      "--color",
+      "off",
+      "--log-colors",
+      "off",
+      "--no-log-prefix"
+    ],
+    "frequency_penalty": 0,
+    "jinja": true,
+    "llama_cpp_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "llama_cpp_tag": "v0.7.0",
+    "min_p": 0,
+    "n_predict": {
+      "arith_word": 768,
+      "code_output": 512,
+      "default": 768,
+      "graph_path": 768,
+      "gsm8k": 768
+    },
+    "n_predict_note": "Chosen from the b2r rehearsal run counts and kept at the b2 caps: 768 for arith_word, graph_path, gsm8k, and the default; 512 for code_output. In that rehearsal the completed maxima were arith 546, code 333, gsm8k 205, and graph 748. Three of eight graph outputs had 767 runs and were censored, so a higher graph cap is not identified. Lengthening those runs does not fit the 8 hour budget. The arithmetic is in review/c3/b3_design.md. ctx stays 2048; the longest b2r prompt was 162 tokens.",
+    "presence_penalty": 0,
+    "prompt_cache": false,
+    "reasoning": "off",
+    "reasoning_note": "Qwen3-4B-Instruct-2507 is the non-thinking variant. reasoning off is a parser flag, not a capability switch.",
+    "repeat_penalty": 1,
+    "seed": 42,
+    "shared_libraries": [
+      {
+        "bytes": 930344,
+        "name": "libggml-base.so.0",
+        "sha256": "a6b7ff6d1072cb8bb4f8e04e08698d4e4bfd41a3dcf3d1786e551a922604a961"
+      },
+      {
+        "bytes": 1588040,
+        "name": "libggml-cpu.so.0",
+        "sha256": "b82486fd461db7b6439a92119a2e01a5315e572f0d364d52f4f927a6af2b5ce4"
+      },
+      {
+        "bytes": 60648,
+        "name": "libggml.so.0",
+        "sha256": "8bcf479bce141d53d155eb0de5d21bb26559c47d8896d08aed2f7b56fdac7e84"
+      },
+      {
+        "bytes": 6238312,
+        "name": "libllama-common.so.0",
+        "sha256": "ce28bdde836268a37302cc5aa0329c641139af6756014973f79704cee89b6caf"
+      },
+      {
+        "bytes": 141608,
+        "name": "libllama-completion-impl.so",
+        "sha256": "2876b440776d866d8cadd238679f664c430de7d82181cc50c7c76508d851d4d4"
+      },
+      {
+        "bytes": 5185520,
+        "name": "libllama.so.0",
+        "sha256": "67c73d950e3c71eceea68ccfe86b2201ff6005db04e380101cbc1e2fa0f4b294"
+      }
+    ],
+    "temp": 0,
+    "threads": 6,
+    "threads_batch": 6,
+    "top_k": 1,
+    "top_p": 1,
+    "ubatch": 512
+  },
+  "seed_spec": "enc(b) = uint32be(len(b)) || b. seed = SHA-256(enc(utf8('sealedbench/v2')) || enc(utf8(lowercase chain hash hex)) || enc(utf8(decimal round)) || enc(signature bytes) || enc(32-byte batch secret)). family_seed = SHA-256(enc(utf8('sealedbench/v2/family')) || enc(seed) || enc(utf8(family)) || enc(utf8(decimal n))). The JSON randomness field is not an input. It must still equal hex(SHA-256(signature)).",
+  "spec": {
+    "author_limitation": "The author chose the 32-byte batch secret and knows it. The author does not know the beacon signature, so the author cannot list the items before the round. Publishing this repository does not reveal the items.",
+    "canonical_json": "json.dumps(sort_keys=True, separators=(',', ':'), ensure_ascii=True) plus a trailing newline per item.",
+    "prng": "SHA-256(key || uint64be(counter)), counter from 0, rejection sampling on the first 8 bytes.",
+    "seed": "enc(b) = uint32be(len(b)) || b. seed = SHA-256(enc(utf8('sealedbench/v2')) || enc(utf8(lowercase chain hash hex)) || enc(utf8(decimal round)) || enc(signature bytes) || enc(32-byte batch secret)). family_seed = SHA-256(enc(utf8('sealedbench/v2/family')) || enc(seed) || enc(utf8(family)) || enc(utf8(decimal n))). The JSON randomness field is not an input. It must still equal hex(SHA-256(signature)).",
+    "test_secret_hex": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "test_secret_note": "The published test secret is not the batch secret. Vectors do not predict this batch.",
+    "test_vectors": [
+      {
+        "counts": {
+          "arith_word": 80,
+          "code_output": 30,
+          "graph_path": 30
+        },
+        "first_item_ids": [
+          "arith_word-0000",
+          "arith_word-0001",
+          "arith_word-0002"
+        ],
+        "first_prompt_sha256": [
+          "6da1520a893d7be80ad9fac45135f664e7c716aca7b70083e645a35244eec992",
+          "026292761c601789e731efb12b080953fe045da4da8c3f2239ab78b3bf2d5b22",
+          "f8929519b96f8e7d2288282ea47a13d51a7aa0f1a2fa3a14fb80fe4f22abb97a"
+        ],
+        "question_set_sha256": "ec4de32a93f9aa88971afd488f70df3faf49a1d4dc3043c3674038206f8675a7",
+        "randomness": "fe290beca10872ef2fb164d2aa4442de4566183ec51c56ff3cd603d930e54fdd",
+        "round": 1000,
+        "seed_hex": "106c906f6e51ae1594c8c1c4d34b762ffef0950f1688636883dca2f3cef0494b",
+        "signature_hex": "b44679b9a59af2ec876b1a6b1ad52ea9b1615fc3982b19576350f93447cb1125e342b73a8dd2bacbe47e4b6b63ed5e39",
+        "signature_sha256": "fe290beca10872ef2fb164d2aa4442de4566183ec51c56ff3cd603d930e54fdd"
+      },
+      {
+        "counts": {
+          "arith_word": 80,
+          "code_output": 30,
+          "graph_path": 30
+        },
+        "first_item_ids": [
+          "arith_word-0000",
+          "arith_word-0001",
+          "arith_word-0002"
+        ],
+        "first_prompt_sha256": [
+          "d2c39cbef599178e726cd128da3fe7382abc50ffc8692392d97fd852fa467fb1",
+          "0315e5d35cbca8c5c38fcfdd9d482cd2a349a04165cbc57767225ad7b5fabf09",
+          "a9971e01dc7ce2fdcf2f63213ab9f7a5b974bfd7356a40ff8010f4b7c5fa2941"
+        ],
+        "question_set_sha256": "abea4c3546025e6ceca598595abefe65d5ca86b0d37c4cff1afafde5f716717d",
+        "randomness": "b22aad4794f7451896f7a371aa46106fd84d919f3f569acd5b2fddf1d1440af3",
+        "round": 1000000,
+        "seed_hex": "c8744a5e2a3202d9300b829298674225fe5ccab8826eb32735e5bba069dc9559",
+        "signature_hex": "83ad29e4c409f9470fc2ef02f90214df49e02b441a1a241a82d622d9f608ef98fd8b11a029f1bee9d9e83b45088abe72",
+        "signature_sha256": "b22aad4794f7451896f7a371aa46106fd84d919f3f569acd5b2fddf1d1440af3"
+      },
+      {
+        "counts": {
+          "arith_word": 80,
+          "code_output": 30,
+          "graph_path": 30
+        },
+        "first_item_ids": [
+          "arith_word-0000",
+          "arith_word-0001",
+          "arith_word-0002"
+        ],
+        "first_prompt_sha256": [
+          "b6c19544a14abaefa1691d8a914850bf0f2897d41deba25805d8ef8b60b88ed6",
+          "7f54e33c7c5d22e3c4204b9f25307b2b564ae9515d1ed4bf2241cf1a6846f6e3",
+          "b46aa1feeed866f8cb0cd5f39524d65de30dc13a617579b0027a0576c194786d"
+        ],
+        "question_set_sha256": "92938dfbfb1f17d32c13c85f481358301a870b82208fb075e27db8e7ace36cc4",
+        "randomness": "3267554d34a7d7bbd3f547a168cda834dd94ca2f060386d48c49680ea9366cad",
+        "round": 33000000,
+        "seed_hex": "509b015b266a4e37a25852e516d5f4ed4ed6c400cee66adb96a9d66419755c57",
+        "signature_hex": "a6d9f863b58d8f1ea7b6fd426feef2b43b22c912b89dce0bdd787ed2b04c703954aced716aba98ff2b4a22a83e48dd35",
+        "signature_sha256": "3267554d34a7d7bbd3f547a168cda834dd94ca2f060386d48c49680ea9366cad"
+      }
+    ]
+  },
+  "system_prompts": {
+    "arith_word": "Solve the grade-school math problem. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it.",
+    "code_output": "Determine the exact standard output of the Python 3 program. After any reasoning, put that output and only that output in one fenced code block. The last fenced block is graded. Do not add commentary inside the fence.",
+    "graph_path": "Solve the shortest-path problem on the undirected weighted graph. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it.",
+    "gsm8k_reference": "Solve the grade-school math problem. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it."
+  },
+  "template_bank_bytes": 673,
+  "template_bank_sha256": "63ba8ddaad35d24815bc8d37f65001761c5e988d953a02318d85ec590b803210",
+  "unlock_unix": 1792411200,
+  "unlock_utc": "2026-10-19T12:00:00Z"
+}

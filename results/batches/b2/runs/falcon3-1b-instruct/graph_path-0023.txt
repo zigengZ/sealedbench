@@ -1,0 +1,58 @@
+To find the shortest path between Amber and Ash, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Amber (Amber Blair) as 0 and to Ash (Ash Uri) as infinity.
+   - Create a priority queue and insert Amber with a distance of 0.
+
+2. **Processing**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance (Amber).
+     - For each neighbor of Amber (Amber Blair, Amber Jules, Ash, Blair, Uri, West):
+       - Calculate the tentative distance through Amber.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance from Amber to Ash will be the smallest value in the priority queue.
+
+Let's perform the calculations:
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 0 (Amber Blair) + 3 (Ash Uri) = 3
+
+- Amber (Amber Blair) to Amber (Amber Jules):
+  - Distance = 0 (Amber Blair) + 5 (Amber Jules) = 5
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 3 (Amber Blair) + 3 (Ash Uri) = 6
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 6 (Amber Blair) + 3 (Ash Uri) = 9
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 9 (Amber Blair) + 5 (Ash Uri) = 14
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 14 (Amber Blair) + 3 (Ash Uri) = 17
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 17 (Amber Blair) + 5 (Ash Uri) = 22
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 22 (Amber Blair) + 3 (Ash Uri) = 25
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 25 (Amber Blair) + 5 (Ash Uri) = 30
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 30 (Amber Blair) + 3 (Ash Uri) = 33
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 33 (Amber Blair) + 4 (Ash Uri) = 37
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 37 (Amber Blair) + 5 (Ash Uri) = 42
+
+- Amber (Amber Blair) to Ash (Ash Uri):
+  - Distance = 4
+

@@ -1,0 +1,11 @@
+We want to find the shortest path from Amber to Hart in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Amber to Hart:
+1. Amber -> Glen -> Hart: Weight = 2 + 2 = 4
+2. Amber -> Uri -> Hart: Weight = 8 + 1 = 9
+
+The shortest path is Amber -> Glen -> Hart with a total weight of 4.
+
+#### 4 [end of text]
+
+

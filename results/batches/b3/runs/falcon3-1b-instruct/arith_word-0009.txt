@@ -1,0 +1,15 @@
+First, calculate the total number of pages Elena reads in 6 days:
+
+Pages read in 6 days = 17 pages/day * 6 days = 102 pages
+
+Then, add the 36 additional pages she reads:
+
+Total pages after 6 days = 102 pages + 36 pages = 138 pages
+
+Next, subtract the 107 pages she skips:
+
+Pages read after skipping = 138 pages - 107 pages = 31 pages
+
+So, Elena reads #### 31 pages. [end of text]
+
+

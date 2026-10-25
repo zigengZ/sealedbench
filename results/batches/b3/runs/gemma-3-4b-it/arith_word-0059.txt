@@ -1,0 +1,8 @@
+First, let's calculate the total number of seats initially: 10 rows * 5 seats/row = 50 seats.
+Next, let's calculate the number of seats added: 2 rows * 4 seats/row = 8 seats.
+The total number of seats is now: 50 + 8 = 58 seats.
+Finally, let's subtract the number of seats sold: 58 - 29 = 29 seats.
+
+####29 [end of text]
+
+

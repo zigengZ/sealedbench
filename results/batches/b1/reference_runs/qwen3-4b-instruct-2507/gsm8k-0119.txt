@@ -1,0 +1,32 @@
+We are given:
+
+- Adrien's salary **four years ago** was $40,000.
+- Adrien's salary **now** is 40% more than what he earned four years ago.
+- Adrien's total salary was originally **30% higher** than Lylah's.
+- Both salaries increased **simultaneously** (so we assume Lylah's salary also increased, though the percentage isn't given directly).
+- We are to find the **total salary** that Adrien and Lylah were receiving **four years later**.
+
+Let’s break it down step by step.
+
+---
+
+### Step 1: Adrien's salary four years ago
+Given: $40,000
+
+### Step 2: Adrien's current salary (4 years later)
+He earns 40% more than what he earned four years ago:
+
+$$
+\text{Current Adrien salary} = 40,000 + 40\% \text{ of } 40,000 = 40,000 \times (1 + 0.40) = 40,000 \times 1.40 = 56,000
+$$
+
+So Adrien now earns **$56,000**.
+
+---
+
+### Step 3: Find Lylah's salary four years ago
+
+We are told that Adrien's total salary was **30% higher** than Lylah's at that time.
+
+Let
+

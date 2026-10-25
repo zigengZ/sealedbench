@@ -1,0 +1,13 @@
+First, let's identify the number of kittens Patchy and Trixie have.
+
+Patchy has thrice the number of kittens Trixie has.
+Trixie has 12 kittens.
+Patchy has 3 times as many kittens as Trixie:
+3 * 12 = 36
+
+Now, we add the number of kittens Patchy and Trixie have to find the total number of kittens:
+12 (Trixie) + 36 (Patchy) = 48
+
+So, the Doubtfire family now has #### 48 kittens. [end of text]
+
+

@@ -1,0 +1,9 @@
+Esme buys 4 packs of oranges, and each pack has 6 oranges.  
+So, total oranges = 4 × 6 = 24 oranges.
+
+She gives 17 oranges to Xavier.  
+So, oranges left = 24 − 17 = 7.
+
+#### 7 [end of text]
+
+

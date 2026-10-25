@@ -1,0 +1,7 @@
+First, find the total number of pages read in the first 5 days: 12 pages/day * 5 days = 60 pages.
+Then, add the additional 35 pages: 60 pages + 35 pages = 95 pages.
+
+####95
+ [end of text]
+
+

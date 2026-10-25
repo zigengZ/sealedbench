@@ -1,0 +1,34 @@
+To find the shortest path between Tess and York, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Tess (0) and to York (infinity).
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+   - The distance to York will be the minimum distance found.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Bay', 'Jules', 'Kai', 'Nell', 'Sage', 'Tess', 'York']
+distances = {node: float('infinity') for node in nodes}
+
+# Distances from Tess to each node
+distances['Tess'] = 0
+
+# Priority queue to store nodes with their distances
+priority_queue = [(0, Tess)]
+
+# Process nodes
+while priority_queue:
+    current_distance, current
+

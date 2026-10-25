@@ -1,0 +1,25 @@
+First, let's calculate the total number of seats Ivy initially had.
+
+Total seats = Number of rows × Number of seats per row
+Total seats = 8 rows × 12 seats/row
+Total seats = 96 seats
+
+Next, we find out how many seats were sold.
+
+Seats sold = Total seats sold - Total seats
+Seats sold = 81 seats - 96 seats
+Seats sold = -7 seats
+
+Since the number of seats sold is negative, it means 7 seats were unsold.
+
+Each unsold seat is worth 2 dollars.
+
+Unsold seats worth = Number of unsold seats × Value per unsold seat
+Unsold seats worth = -7 seats × $2/seat
+Unsold seats worth = -$14
+
+#### 14
+
+The unsold seats are worth $14. [end of text]
+
+

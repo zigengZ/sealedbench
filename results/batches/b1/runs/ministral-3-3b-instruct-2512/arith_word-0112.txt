@@ -1,0 +1,6 @@
+Leo starts with 5 packs × 3 badges each = 15 badges.
+After giving 11 to Yara, Leo has 15 − 11 = 4 badges.
+
+#### 4 [end of text]
+
+

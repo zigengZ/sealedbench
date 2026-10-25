@@ -1,0 +1,46 @@
+To find the shortest path from **Jules** to **Poe**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Start at Jules** (distance = 0).
+2. **Neighbors of Jules**:
+   - Jules → Kai (weight = 2).
+   - Update distances: `Kai = 2`.
+3. **Next, process Kai** (smallest unvisited distance = 2).
+   - Kai → Amber (via Jules-Kai-Amber, but Amber is already reachable via direct edge Amber-Kai).
+   - Kai → Drew (no direct edge, skip).
+   - Kai → Quill (weight = 3, via Jules-Kai-Quill).
+     - Update `Quill = 2 + 3 = 5`.
+   - Kai → Vale (weight = 6, via Jules-Kai-Vale).
+     - Update `Vale = 2 + 6 = 8`.
+   - Kai → Xen (no direct edge to Poe, skip).
+4. **Next, process Quill** (distance = 5).
+   - Quill → Drew (no direct edge, skip).
+   - Quill → Kai (already visited).
+   - Quill → Vale (weight = 8, via Quill-Vale).
+     - Current `Vale = 8` (no improvement).
+5. **Next, process Amber** (distance = 1).
+   - Amber → Drew (weight = 2, via Amber-Drew).
+     - Update `Drew = 1 + 2 = 3`.
+   - Amber → Kai (already visited).
+   - Amber → Poe (weight = 7, via Amber-Poe).
+     - Update `Poe = 1 + 7 = 8`.
+6. **Next, process Drew** (distance = 3).
+   - Drew → Quill (weight = 7, via Drew-Quill).
+     - Current `Quill = 5` (no improvement).
+7. **Next, process Vale** (distance = 8).
+   - Vale → Amber (already visited).
+   - Vale → Kai (already visited).
+   - Vale → Poe (weight = 5, via Vale-Poe).
+     - Current `Poe = 8` (improvement to `Poe = 8 + 5 = 13`? No, wait—this is incorrect. The correct path is via **Jules-Kai-Vale-Poe** with total weight **2 + 6 + 5 = 13**, but we missed a better path.)
+
+   **Correction**: The shortest path is actually **Jules-Kai-Vale-Poe** (2 + 6 + 5 = 13), but let's check if there's a shorter one:
+   - Jules → Kai → Quill → Vale → Poe (2 + 3 + 8 + 5 = 18) → worse.
+   - Jules → Kai → Amber → Poe (2 + 1 + 7 = 10) → better than 13? Wait, no, because Jules-Kai-Amber-Poe is 2 + 1 + 7 = 10.
+
+   **Re-evaluating**:
+   - Jules → Kai (2) → Amber (1) → Poe (7) → Total = **10**.
+   - Jules → Kai (2) → Vale (6) → Poe (5) → Total = **13**.
+   - Jules → Kai (2) → Quill (3) → Vale (8) → Poe (5) → Total = **18**.
+
+   The
+

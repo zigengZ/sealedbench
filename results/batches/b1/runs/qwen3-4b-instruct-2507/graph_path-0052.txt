@@ -1,0 +1,48 @@
+We are given an undirected weighted graph with nodes:  
+**Bay, Fern, Hart, Kai, Lark, Poe, Sage**
+
+Edges and their weights:
+- Bay–Hart: 6  
+- Bay–Kai: 9  
+- Fern–Kai: 1  
+- Fern–Lark: 7  
+- Hart–Kai: 8  
+- Hart–Poe: 7  
+- Kai–Lark: 4  
+- Kai–Poe: 9  
+- Kai–Sage: 5  
+- Lark–Sage: 5  
+
+We are to find the **shortest path from Hart to Lark** in terms of total weight.
+
+---
+
+### Step 1: List all possible paths from Hart to Lark
+
+We'll consider paths through intermediate nodes.
+
+---
+
+#### Path 1: Hart → Kai → Lark  
+- Hart–Kai: 8  
+- Kai–Lark: 4  
+→ Total: 8 + 4 = **12**
+
+---
+
+#### Path 2: Hart → Poe → Lark?  
+Check if Poe–Lark exists → No direct edge.  
+But Poe might connect to others.
+
+Poe is connected to:
+- Hart (7)
+- Kai (9)
+- Sage (not listed)
+
+No edge from Poe to Lark → so no direct path from Poe to Lark.
+
+Can we go Hart → Poe → Kai → Lark?  
+- Hart–Poe: 7  
+- Poe–Kai: 9  
+- Kai
+

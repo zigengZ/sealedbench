@@ -1,0 +1,8 @@
+First, we calculate Ivy's earnings on day 1: 19 dollars/hour * 5 hours = 95 dollars.
+Next, we calculate Ivy's earnings on day 2: 19 dollars/hour * 5 hours = 95 dollars.
+Then, we calculate Ivy's earnings on day 3: 19 dollars/hour * 3 hours = 57 dollars.
+Finally, we add up the earnings from all three days: 95 + 95 + 57 = 247 dollars.
+
+####247 [end of text]
+
+

@@ -1,0 +1,27 @@
+First, let's calculate the total number of eggs Janet's ducks lay in a day:
+
+16 eggs/duck * 2 ducks = 32 eggs
+
+Next, we determine how many eggs Janet eats for breakfast:
+
+3 eggs/day * 2 days = 6 eggs
+
+Now, subtract the eggs eaten for breakfast from the total eggs laid:
+
+32 eggs - 6 eggs = 26 eggs
+
+Janet bakes muffins for 4 ducks each day, so she bakes:
+
+4 ducks * 2 eggs/duck = 8 eggs
+
+Subtract the eggs baked from the remaining eggs:
+
+26 eggs - 8 eggs = 18 eggs
+
+Finally, calculate how much money Janet makes from selling the eggs:
+
+18 eggs * $2/egg = $36
+
+So, Janet makes #### $36. [end of text]
+
+

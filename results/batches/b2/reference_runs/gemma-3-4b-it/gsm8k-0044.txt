@@ -1,0 +1,11 @@
+First, let's calculate the cost of the beeswax and wicks for 20 candles. Since each candle requires 1/10 of a pound of beeswax, he needs 20 * (1/10) = 2 pounds of beeswax.
+
+The cost of 2 pounds of beeswax and wicks is 2 * $10.00 = $20.00.
+
+Next, let's calculate the revenue from selling 20 candles. He sells each candle for $2.00, so his revenue is 20 * $2.00 = $40.00.
+
+Finally, let's calculate his net profit. Net profit is revenue minus cost, so his profit is $40.00 - $20.00 = $20.00.
+
+####20 [end of text]
+
+

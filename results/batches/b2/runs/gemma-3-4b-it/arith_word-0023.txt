@@ -1,0 +1,8 @@
+Tara earns $20 per hour.
+On day 1, she works 2 hours, so she earns 2 * $20 = $40.
+On day 2, she works 2 hours, so she earns 2 * $20 = $40.
+Total earnings are $40 + $40 = $80.
+
+####80 [end of text]
+
+

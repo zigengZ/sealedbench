@@ -1,0 +1,19 @@
+First, find the total number of seats Dmitri sets up.
+
+He has:
+- 7 rows with 6 seats each:  
+  $7 \times 6 = 42$ seats
+
+Then he adds:
+- 6 rows with 3 seats each:  
+  $6 \times 3 = 18$ seats
+
+Total seats = $42 + 18 = 60$
+
+Then, 29 seats are sold.
+
+So, unsold seats = $60 - 29 = 31$
+
+#### 31 [end of text]
+
+

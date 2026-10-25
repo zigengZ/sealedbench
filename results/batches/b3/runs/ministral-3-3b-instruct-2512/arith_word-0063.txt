@@ -1,0 +1,8 @@
+Quinn reads **13 pages/day × 4 days = 52 pages** from the first book.
+From the second book: **17 pages/day × 4 days = 68 pages**.
+Total pages read before skipping: **52 + 68 = 120 pages**.
+After skipping 66 blank pages: **120 - 66 = 54 pages**.
+
+#### 54 [end of text]
+
+

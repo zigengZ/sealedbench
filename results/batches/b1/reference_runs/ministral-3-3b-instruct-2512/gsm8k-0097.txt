@@ -1,0 +1,9 @@
+Freda uses **64** tomatoes.
+
+**Reasoning:**
+1. **Sauce volume loss:** Each can loses half its volume, so 16 oz → 8 oz of sauce per can.
+2. **Total sauce made:** 32 oz → 32 ÷ 8 = 4 cans of tomatoes used.
+3. **Tomatoes per can:** 3 tomatoes per can.
+4. **Total tomatoes:** 4 cans × 3 tomatoes = **64 tomatoes**. [end of text]
+
+

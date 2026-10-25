@@ -1,0 +1,39 @@
+Let's denote the number of lego sets John has as $L$. He sells each lego set for $15, so the total money he earns from selling the lego sets is $15L$.
+John sells 13 lego sets, so he earns $15 \times 13 = 195$ dollars.
+He buys 8 video games for $20 each, so the total cost of the video games is $8 \times 20 = 160$ dollars.
+He has $5 left after buying the video games.
+Let $M$ be the total money John had initially. Then, the money he earned from selling lego sets minus the cost of video games plus the money left is equal to the initial money:
+$195 - 160 + 5 = M$
+$35 + 5 = M$
+$M = 40$
+So, John initially had $40.
+He sold 13 lego sets, and the money he earned from selling them was $195.
+The number of lego sets he still has is $13 - \text{number of lego sets sold}$.
+Since he sold all his lego sets, he has 0 lego sets left. However, the problem asks how many lego sets he *still* has.
+The problem states he sells all his toys and uses the money to buy video games. So, he started with 13 lego sets. He sold them and earned $195. He bought 8 video games for $160 and had $5 left.
+The money he had initially was $195 + 5 = 200$.
+The cost of 8 video games is $8 \times 20 = 160$.
+The money left after buying the video games is $200 - 160 = 40$.
+The number of lego sets he still has is 0.
+
+Let $x$ be the number of lego sets John still has.
+He sold 13 lego sets and earned $13 \times 15 = 195$.
+He bought 8 video games for $8 \times 20 = 160$.
+He had $5 left.
+So, the total money he had is $195 + 5 = 200$.
+The money he spent on video games is $160$.
+The money he had left after buying the video games is $200 - 160 = 40$.
+Since he had $5 left, we have $195 + 5 = 200$.
+The cost of 8 video games is $8 \times 20 = 160$.
+The money left after buying the video games is $200 - 160 = 40$.
+But the problem states he has $5 left. This is a contradiction.
+
+Let $L$ be the number of lego sets John initially had. He sold all of them, so he sold $L$ lego sets.
+He earned $15L$ from selling the lego sets.
+He bought 8 video games for $20 each, so he spent $8 \times 20 = 160$.
+He had $5 left.
+So, $15L - 160 + 5 = 0$.
+$15L - 155 = 0$
+$15L = 155$
+$L = \frac{155}{15}
+

@@ -1,0 +1,15 @@
+Esme earns $24 per hour and works 5 hours.  
+
+First, calculate her total earnings:  
+$24 \times 5 = 120$ dollars.  
+
+Then, she spends $90.  
+
+Subtract the amount spent from her earnings:  
+$120 - 90 = 30$ dollars.  
+
+So, Esme has $30 left.  
+
+#### 30 [end of text]
+
+

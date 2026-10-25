@@ -1,0 +1,30 @@
+We are told:
+
+- If Marcy works for **40 years**, she gets a **pension of $50,000 per year**.
+- Starting **after 20 years**, she becomes entitled to **5% of the value of the pension per year**.
+- She quits after **30 years**.
+
+We are to find her **annual pension** if she quits after 30 years.
+
+---
+
+Step-by-step:
+
+- The pension is **only available starting after 20 years**.
+- So, after 20 years, she becomes entitled to **5% of the pension value**.
+- The full pension value is $50,000/year.
+- So, 5% of $50,000 is:
+
+$$
+0.05 \times 50,000 = 2,500
+$$
+
+So, **after 20 years**, her pension is **$2,500 per year**.
+
+She quits after **30 years**, which is **after 20 years**, so she is entitled to the reduced pension.
+
+Therefore, her annual pension is **$2,500**.
+
+#### 2500 [end of text]
+
+

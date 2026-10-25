@@ -1,0 +1,17 @@
+The program initializes a list `nums` with the values `[12, 11, 0, 0, 13]`. It then initializes an empty list `kept`. The code iterates through the `nums` list. Inside the loop, it checks if the current number `num` is greater than 9. If it is, the number is appended to the `kept` list. Finally, the program prints the length of the `kept` list and the `kept` list itself.
+
+The loop iterates through `nums`:
+- `num = 12`: `12 > 9` is true, so `kept.append(12)` and `kept` becomes `[12]`.
+- `num = 11`: `11 > 9` is false.
+- `num = 0`: `0 > 9` is false.
+- `num = 0`: `0 > 9` is false.
+- `num = 13`: `13 > 9` is true, so `kept.append(13)` and `kept` becomes `[12, 13]`.
+
+The length of `kept` is 2. The `kept` list is `[12, 13]`. The program prints these two values.
+
+```python
+2
+[12, 13]
+``` [end of text]
+
+

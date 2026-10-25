@@ -1,0 +1,10 @@
+Olga starts with:
+- 2 packs × 6 cookies = 12 cookies
+- 6 packs × 7 cookies = 42 cookies
+Total cookies = 12 + 42 = 54 cookies
+
+Total value = 54 cookies × 6 dollars = 324 dollars
+
+#### 324 [end of text]
+
+

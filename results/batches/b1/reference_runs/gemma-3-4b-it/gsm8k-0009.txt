@@ -1,0 +1,13 @@
+First, calculate the earnings for the first 40 hours: 40 hours * $10/hour = $400.
+
+Next, calculate the overtime hours: 45 hours - 40 hours = 5 hours.
+
+Then, calculate the overtime rate: $10/hour * 1.2 = $12/hour.
+
+Now, calculate the earnings for the overtime hours: 5 hours * $12/hour = $60.
+
+Finally, calculate the total earnings: $400 + $60 = $460.
+
+#### 460 [end of text]
+
+

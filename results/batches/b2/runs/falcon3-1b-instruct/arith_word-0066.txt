@@ -1,0 +1,4 @@
+Hugo reads 20 pages a day for 4 days, so he reads 20 * 4 = 80 pages. Then he reads 34 more pages. In total, Hugo reads 80 + 34 = 114 pages.
+#### 114 [end of text]
+
+

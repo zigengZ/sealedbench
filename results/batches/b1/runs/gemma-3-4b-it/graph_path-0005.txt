@@ -1,0 +1,14 @@
+We want to find the shortest path between Cleo and West in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cleo to West:
+1. Cleo -> York -> Hart -> West: Weight = 6 + 5 + 5 = 16
+2. Cleo -> York -> Indigo -> Drew -> Hart -> West: Weight = 6 + 8 + 8 + 5 + 5 = 32
+3. Cleo -> York -> Indigo -> Eden -> ... (no direct path to West)
+4. Cleo -> York -> Oak -> Hart -> West: Weight = 6 + 8 + 6 + 5 = 25
+5. Cleo -> York -> Indigo -> Oak -> Hart -> West: Weight = 6 + 8 + 3 + 8 + 5 = 30
+
+Comparing the paths, the shortest path is Cleo -> York -> Hart -> West with a total weight of 16.
+
+#### 16 [end of text]
+
+

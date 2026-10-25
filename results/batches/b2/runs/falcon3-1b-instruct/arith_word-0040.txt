@@ -1,0 +1,17 @@
+First, calculate the total number of seats:
+8 rows * 9 seats/row = 72 seats
+Then add the 4 additional rows:
+72 seats + 4 rows * 10 seats/row = 72 + 40 = 112 seats
+
+Total seats after additions:
+112 seats + 48 seats = 150 seats
+
+Unsold seats:
+150 seats - 48 seats = 102 seats
+
+Each unsold seat is worth 6 dollars:
+102 seats * 6 dollars/seat = 612 dollars
+
+#### 612 [end of text]
+
+

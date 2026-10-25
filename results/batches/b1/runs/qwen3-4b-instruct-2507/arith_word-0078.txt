@@ -1,0 +1,9 @@
+Aisha buys 4 packs of buttons, and each pack has 4 buttons.  
+So, 4 packs × 4 buttons = 16 buttons.  
+
+Then Chloe gives her 4 more buttons.  
+16 + 4 = 20 buttons.  
+
+#### 20 [end of text]
+
+

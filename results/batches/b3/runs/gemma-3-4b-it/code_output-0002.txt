@@ -1,0 +1,10 @@
+The program first initializes a list `digits` to `[4, 0, 9, 3, 9]`. It then initializes a variable `total` to 0. The code iterates through each `digit` in the `digits` list. In each iteration, it adds the current `digit` to the `total`. Finally, it prints the value of `total` and the length of the `digits` list.
+
+The sum of the digits is 4 + 0 + 9 + 3 + 9 = 25. The length of the `digits` list is 5.
+
+```python
+25
+5
+``` [end of text]
+
+

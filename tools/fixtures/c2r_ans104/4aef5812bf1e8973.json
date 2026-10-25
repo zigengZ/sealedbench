@@ -1,0 +1,43 @@
+{
+  "url": "https://ar-io.dev/raw/VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+  "request_headers": {
+    "Range": "bytes=30598346-30613808"
+  },
+  "http": 206,
+  "response_headers": {
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "*",
+    "x-request-id": "bf333abe-ff1e-4765-ba8c-7e200cd4695c",
+    "x-ar-io-data-id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+    "accept-ranges": "bytes",
+    "cache-control": "public, max-age=30",
+    "x-cache": "HIT",
+    "x-ar-io-hops": "1",
+    "content-type": "application/octet-stream",
+    "x-arweave-signature": "H69Gnwl0KqctyLsJUgtyu16lBxjDohaJDkdgZlBVUBPkJAtY-8gTtYjxzOCaOwc0HdVaCnMQahwdDP-FxkWmBL5evbNmH0-Nahei09Ov4N8uLCNwb06yPoJL7hhvUjui_W2WVWxgvbrHwdJerKl3lyyLseMWvO5RoK9mG9HqAP7UH5WsmJMJborkzzf9sNKcyofEBPoOL2mSPAJIjNash92JSM7LzcbAdnLwp0eH-RgH5jikcFLDTChpDKVNS3HcgIrkuSEmN6tdZXtkUKJAggJftSBfE5TYM9KelO5pf7grwkgWccTNWE38vWt5JrZhNO--54yuAR8sgIzPp7NW4BzcJyz0Rido8P9hnEUD2cHKNb9CP5xpDopS6_WzSB3tkL8xnDi0qXrdek62mfqq0MBpBpuh1_CZymyKXaDxxH3whRQAvVt_aEsuvv5E0lNVNI84zPIY45bAJ3GCScrdj-NwC--2-Uld2vZocgUt-1gIAwDHPhvM4lc650aMplVHoz9OVCrYosi7DLTXEjDIrdgap2rabaVW3DGAmJlL4CJXZ5a5JBQ9RDPJXc3vvYwA22AFPoaRa1gVc66msuR3wYMyIqKbgHhIuFkFDJKRnfMGYo8KFxsAglYoMNyYREw4GwJCA8XDHnrE3dqUtK54rXQTJFj8OcavJKZmvSdhVHM",
+    "x-arweave-owner": "wZgP9Rpfh0nXb5EdzBUg7y2LFMkBp2ADX3gdZhLXHYbz4srlYD6FUGn6Tt-WsSYj8faUyA7bNKj9zzcXiN-bsMC73e0yoQ05A_5I2QnBAgCTuzXePvUVCvSCOg1vdh07hSjvSBd1XiWDHw2J-Z7m6lG3l56PDSCp8t-s0PduONcsjqOePFejzkaJymJxMYp7d0g0GL1i1MrBAbf5ohIobyTYQz7bRHLLUpdSgiCiHbSBp092cIQnHYXGBeWb-lBEtMT9Am5GsHeVXq4eL8H83NBPIN4fIOtwpl7zzBUeaD5lTc3UcXliMjFuFJurVmNhqsP_osJMceybk3VIjdP0biqLqt_nRupdPwwJGQ09iyGv0wfzMBlx7zTZ9pp77ZBX3cDnYmWt2IR-mIgOStfiEHu5BuwNGBvGt7-tzHJp9e6IOofN10apfiuF9iQEQ3gFVQDZ7owQ_IrCq5yWLP7ePwYoB2e7ZbvCkd4JM8oOgEMZkywTOx3gLASGKS7wqUerdlYacWRukqg5MmkQRbzJIiY23pPwrhQSWon5q91jbImO6vTaHVDZnd2GoMFlePAsceNO1MaLS6GMuY-EAwOtaX-R1QZUpJmCzWfV-77AmBmaPDCR0mm3f7jy-3yYSCMAkti4idHVq5dIhOJnibd_LEfQtkTAQ5MQlE4uoa5lkJs",
+    "x-arweave-owner-address": "JNC6vBhjHY1EPwV3pEeNmrsgFMxH5d38_LHsZ7jful8",
+    "x-arweave-anchor": "_2Wufi_98fHi5Nh7REaAC-fhwujvS3BAVqvcZ0lKEeGeGGZTNd3A2ESwLQO8cVmc",
+    "x-arweave-tag-count": "4",
+    "x-arweave-tag-bundle-format": "binary",
+    "x-arweave-tag-bundle-version": "2.0.0",
+    "x-arweave-tag-app-name": "AR.IO Bundler",
+    "x-arweave-tag-app-version": "1.5.0",
+    "x-ar-io-stable": "false",
+    "x-ar-io-verified": "false",
+    "x-ar-io-digest": "2l3Wq7sbAVPpGnjUATGL18p7JnTkRoHd6nMfTJdkiRI",
+    "etag": "\"2l3Wq7sbAVPpGnjUATGL18p7JnTkRoHd6nMfTJdkiRI\"",
+    "x-ar-io-trusted": "true",
+    "repr-digest": "sha-256=:2l3Wq7sbAVPpGnjUATGL18p7JnTkRoHd6nMfTJdkiRI=:",
+    "content-range": "bytes 30598346-30613808/30634304",
+    "content-length": "15463",
+    "signature-input": "sig1=(\"@status\" \"x-ar-io-data-id\" \"content-type\" \"x-arweave-owner-address\" \"x-arweave-tag-count\" \"x-arweave-tag-bundle-format\" \"x-arweave-tag-bundle-version\" \"x-arweave-tag-app-name\" \"x-arweave-tag-app-version\" \"x-ar-io-stable\" \"x-ar-io-verified\" \"x-ar-io-trusted\" \"repr-digest\" \"@method\";req \"@path\";req);created=1792301883;keyid=\"ed25519:iEdSVLtfA4oBmENQpOQiXw4udCpr7rrWwk_Fwt-8mL8\";alg=\"ed25519\"",
+    "signature": "sig1=:+8RRhf8/+YC+upYl7CYY663qP648tYKLGWoF0y447lA2HnpoE5Zp/XSQ4RIXG4YHSe7pzw3gcRaPXSymO42WCg==:",
+    "date": "Sun, 18 Oct 2026 05:38:03 GMT",
+    "x-envoy-upstream-service-time": "5",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "sha256": "d304125d451a00933e073f47168319739d9367ffc23aafffc14ad3c1feea6a0c"
+}

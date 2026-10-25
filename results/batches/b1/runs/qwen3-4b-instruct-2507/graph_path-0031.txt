@@ -1,0 +1,43 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** from **Bay** to **Drew**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Ash, Bay, Cleo, Drew, Hart, Moss, Sage, Tess, Vale, West
+
+---
+
+### Step 2: List all edges with weights
+
+- Ash–Moss: 9  
+- Ash–Sage: 9  
+- Ash–West: 1  
+- Bay–Moss: 2  
+- Bay–Sage: 8  
+- Bay–Tess: 9  
+- Cleo–Hart: 2  
+- Cleo–Tess: 6  
+- Drew–Moss: 1  
+- Drew–Vale: 7  
+- Tess–West: 8  
+
+---
+
+### Step 3: Goal — Shortest path from **Bay** to **Drew**
+
+We will perform a shortest path algorithm (like Dijkstra’s) manually, starting from Bay.
+
+We need to find the minimum total weight path from Bay to Drew.
+
+---
+
+### Step 4: Build adjacency list
+
+We'll build the graph from the edges:
+
+- Ash: Moss(9), Sage(9), West(1)  
+- Bay: Moss(2), Sage(8), Tess(9)  
+- Cleo: Hart(2), Tess(6)  
+- Drew: Moss(1), Vale(7)  
+- Hart: Cleo(2), Vale
+

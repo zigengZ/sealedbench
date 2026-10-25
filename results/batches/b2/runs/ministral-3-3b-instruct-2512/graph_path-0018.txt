@@ -1,0 +1,46 @@
+To find the shortest path from **Blair** to **York**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Blair: 0
+   - All others: ∞
+
+2. **Priority queue (prioritize smallest distance)**:
+   - Start with Blair (distance 0).
+
+3. **Relax edges**:
+   - From Blair:
+     - Blair → Fern (9): Update Fern = 9
+     - Blair → Lark (6): Update Lark = 6
+   - Next, process Lark (distance 6):
+     - Lark → Cedar (4): Update Cedar = 6 + 4 = 10
+     - Lark → Fern (1): Fern is already 9 (no update)
+     - Lark → Glen (2): Update Glen = 6 + 2 = 8
+   - Next, process Fern (distance 9):
+     - Fern → Dove (7): Update Dove = 9 + 7 = 16
+     - Fern → Lark (1): Lark is already 6 (no update)
+     - Fern → Moss (2): Update Moss = 9 + 2 = 11
+   - Next, process Glen (distance 8):
+     - Glen → Dove (no direct edge)
+     - Glen → Moss (5): Moss is already 11 (no update)
+     - Glen → Sage (1): Update Sage = 8 + 1 = 9
+     - Glen → York (3): Update York = 8 + 3 = 11
+   - Next, process Sage (distance 9):
+     - Sage → Dove (no direct edge)
+     - Sage → Glen (no direct edge)
+     - Sage → York (no direct edge)
+   - Next, process Moss (distance 11):
+     - Moss → Glen (no direct edge)
+     - Moss → York (no direct edge)
+   - Next, process Dove (distance 16):
+     - No updates possible.
+
+4. **Final distances**:
+   - York: 11 (via Glen → York)
+
+### Shortest Path:
+**Blair → Lark → Glen → York** with total weight **11**.
+
+#### 11 [end of text]
+
+

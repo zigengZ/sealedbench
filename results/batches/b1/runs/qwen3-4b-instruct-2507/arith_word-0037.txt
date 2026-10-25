@@ -1,0 +1,13 @@
+Ava reads 20 pages a day for 4 days:  
+20 pages/day × 4 days = 80 pages.
+
+Then she reads 20 more pages:  
+80 + 20 = 100 pages.
+
+She skips 18 blank pages — these do **not** count toward the total pages she reads.
+
+So, the total number of pages she **reads** is still 100.
+
+#### 100 [end of text]
+
+

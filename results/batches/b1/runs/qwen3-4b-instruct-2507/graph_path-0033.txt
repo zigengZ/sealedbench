@@ -1,0 +1,46 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Cleo, Eden, Jules, Oak, Poe, Xen, York  
+**Edges and weights**:
+
+- Cleo — Jules: 9  
+- Cleo — York: 6  
+- Eden — Oak: 5  
+- Eden — Xen: 3  
+- Jules — Oak: 9  
+- Jules — Poe: 2  
+- Jules — Xen: 2  
+- Jules — York: 9  
+- Oak — Poe: 7  
+- Poe — Xen: 9  
+
+We are to find the **shortest path from Oak to York** in terms of total weight.
+
+---
+
+### Step 1: Understand the graph structure
+
+We want the shortest path from **Oak** to **York**.
+
+Let’s list all possible paths from Oak to York, and compute their total weights.
+
+---
+
+### Step 2: Explore paths from Oak to York
+
+#### Path 1: Oak → Jules → York  
+- Oak to Jules: 9  
+- Jules to York: 9  
+→ Total: 9 + 9 = **18**
+
+#### Path 2: Oak → Eden → Xen → York?  
+But we don’t have a direct edge from Xen to York.  
+We have:  
+- Eden → Xen: 3  
+- Jules → Xen: 2  
+- Jules → York: 9  
+- Poe → Xen: 9  
+- Eden → Oak: 5  
+
+So
+

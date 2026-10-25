@@ -1,0 +1,56 @@
+We are given:
+
+- John spent $200 on blue ties.
+- Each blue tie costs $40.
+- He bought twice as many red ties as blue ties.
+- Red ties cost 50% more than blue ties.
+- We need to find the total amount he spent on **all** ties (blue + red).
+
+---
+
+**Step 1: Find how many blue ties he bought**
+
+Each blue tie costs $40, and he spent $200:
+
+$$
+\text{Number of blue ties} = \frac{200}{40} = 5
+$$
+
+---
+
+**Step 2: Find number of red ties**
+
+He buys twice as many red ties as blue ties:
+
+$$
+\text{Number of red ties} = 2 \times 5 = 10
+$$
+
+---
+
+**Step 3: Find cost of red ties**
+
+Red ties cost 50% more than blue ties.
+
+Blue tie cost = $40  
+50% of 40 = $20  
+So red tie cost = $40 + $20 = $60
+
+---
+
+**Step 4: Total spent on red ties**
+
+$$
+10 \text{ ties} \times 60 = 600 \text{ dollars}
+$$
+
+---
+
+**Step 5: Total spent on all ties**
+
+$$
+\text{Blue ties} + \text{Red ties} = 200 + 600 = 800
+$$
+
+#### 8
+

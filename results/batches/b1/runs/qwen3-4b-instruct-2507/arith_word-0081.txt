@@ -1,0 +1,17 @@
+First, find the total number of oranges Nico buys:
+
+- 6 packs × 12 oranges = 72 oranges  
+- 2 packs × 8 oranges = 16 oranges  
+- Total oranges = 72 + 16 = 88 oranges
+
+Then, Nico gives 41 oranges to Xavier, so the number of oranges he has left is:
+
+88 - 41 = 47 oranges
+
+Each orange is worth $7, so the total value of Nico's remaining oranges is:
+
+47 × 7 = 329 dollars
+
+#### 329 [end of text]
+
+

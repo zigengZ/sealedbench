@@ -1,0 +1,11 @@
+Chloe earns $29 per hour and works 4 hours.  
+So, her total earnings are:  
+$29 \times 4 = 116$ dollars.
+
+Then she spends $43.  
+So, the amount left is:  
+$116 - 43 = 73$ dollars.
+
+#### 73 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, calculate the number of seats in the initial 2 rows: 2 rows * 5 seats/row = 10 seats.
+
+Next, calculate the number of seats in the additional 4 rows: 4 rows * 10 seats/row = 40 seats.
+
+Finally, add the two amounts together: 10 seats + 40 seats = 50 seats.
+
+#### 50 [end of text]
+
+

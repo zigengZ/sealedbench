@@ -1,0 +1,14 @@
+```python
+values = [2, 4, 8, 14, 14, 3, 11, 6]
+total = 6
+for value in values:
+    if value < 6:
+        total = total + value
+    else:
+        total = total + 4
+print(total)
+```
+
+The exact standard output of the given Python 3 program is `20`. [end of text]
+
+

@@ -1,0 +1,15 @@
+Quinn earns $25 per hour and works 6 hours.
+
+First, calculate total earnings:  
+$25 \times 6 = 150$ dollars.
+
+Then, Quinn spends $111.
+
+Subtract the spending from earnings:  
+$150 - 111 = 39$ dollars.
+
+So, Quinn has $39 left.
+
+#### 39 [end of text]
+
+

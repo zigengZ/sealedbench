@@ -1,0 +1,11 @@
+Hugo buys 3 packs with 6 tickets each:  
+3 × 6 = 18 tickets
+
+He also buys 3 packs with 4 tickets each:  
+3 × 4 = 12 tickets
+
+Total tickets = 18 + 12 = 30
+
+#### 30 [end of text]
+
+

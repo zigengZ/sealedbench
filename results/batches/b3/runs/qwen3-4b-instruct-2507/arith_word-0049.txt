@@ -1,0 +1,10 @@
+Uma reads 10 pages a day for 2 days:  
+10 pages/day × 2 days = 20 pages  
+
+Then she reads 29 more pages.  
+
+Total pages = 20 + 29 = 49 pages  
+
+#### 49 [end of text]
+
+

@@ -1,0 +1,45 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['harbor', 'quartz', 'pine', 'cloud', 'juniper', 'delta']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 5 (inclusive):
+
+- index = 0:
+  - piece = words[0] = 'harbor'
+  - index % 2 == 0 → True → piece becomes 'HARBOR'
+  - out is "" → so out = 'HARBOR'
+
+- index = 1:
+  - piece = words[1] = 'quartz'
+  - index % 2 == 1 → False → piece remains 'quartz'
+  - out is not "" → out = out + '-' + piece → 'HARBOR-quartz'
+
+- index = 2:
+  - piece = words[2] = 'pine'
+  - index % 2 == 0 → True → piece becomes 'PINE'
+  - out is not "" → out = 'HARBOR-quartz' + '-' + 'PINE' → 'HARBOR-quartz-PINE'
+
+- index = 3:
+  - piece = words[3] = 'cloud'
+  - index % 2 == 1 → False → piece remains 'cloud'
+  - out is not "" → out = 'HARBOR-quartz-PINE' + '-' + 'cloud' → 'HARBOR-quartz-PINE-cloud'
+
+- index = 4:
+  - piece = words[4] = 'juniper'
+  - index % 2 == 0 → True → piece becomes 'JUNIPER'
+  - out is not "" → out = 'HARBOR-quartz-PINE-cloud' + '-' + 'JUNIPER' → 'HARBOR-quartz-PINE-cloud-JUNIPER'
+
+- index = 5:
+  - piece = words[5] = 'delta'
+  - index % 2 == 1 → False → piece remains 'delta'
+  - out is not "" → out = 'HARBOR-quartz-PINE-cloud-JUNIPER' + '-' + 'delta' → 'HARBOR-quartz-PINE-cloud-JUNIPER-delta'
+
+Final `out` = 'HARBOR-quartz-PINE-cloud-JUNIPER-delta'
+
+Print this value.
+
+```
+HARBOR-quartz-PINE-cloud-JUNIPER-d
+

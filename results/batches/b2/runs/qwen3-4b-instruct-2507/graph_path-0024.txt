@@ -1,0 +1,101 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Cleo, Kai, Moss, Nell, Poe, Tess, West, Zed**
+
+We are to find the **shortest path (in terms of total weight) from Tess to West**.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Bay – Cleo: 6  
+- Bay – West: 3  
+- Cleo – Kai: 4  
+- Cleo – Moss: 7  
+- Cleo – Tess: 2  
+- Kai – Poe: 4  
+- Moss – Zed: 1  
+- Nell – Poe: 8  
+- Nell – West: 5  
+- Nell – Zed: 5  
+- Poe – West: 6  
+- West – Zed: 3  
+
+---
+
+### Step 2: Focus on path from **Tess to West**
+
+Tess is only directly connected to **Cleo** (weight 2).  
+So any path from Tess to West must go through Cleo.
+
+So we can write:
+
+**Tess → Cleo → ... → West**
+
+We now need to find the shortest path from **Cleo to West**, then add the 2 from Tess → Cleo.
+
+So total path weight = 2 + (shortest path from Cleo to West)
+
+---
+
+### Step 3: Find shortest path from Cleo to West
+
+We now run a shortest path algorithm (like Dijkstra) from Cleo to all other nodes, since the graph is small and undirected (all edges are bidirectional).
+
+Nodes: Bay, Cleo, Kai, Moss, Nell, Poe, Tess, West, Zed
+
+We start from **Cleo**.
+
+Initialize distances:
+
+- Cleo: 0  
+- All others: ∞
+
+Now process edges from Cleo:
+
+- Cleo → Bay: 6 → Bay = 6  
+- Cleo → Kai: 4 → Kai = 4  
+- Cleo → Moss: 7 → Moss = 7  
+- Cleo → Tess: 2 → Tess = 2 (already known)
+
+Now from Bay:
+
+- Bay → West: 3 → West = 6 + 3 = 9  
+- Bay → Cleo: already known
+
+From Kai:
+
+- Kai → Poe: 4 → Poe = 4 + 4 = 8
+
+From Moss:
+
+- Moss → Zed: 1 → Zed = 7 + 1 = 8
+
+From Tess: no useful edges (only to Cleo)
+
+Now from Poe (Poe = 8):
+
+- Poe → West: 6 → West = 8 + 6 = 14  
+- Poe → Nell: 8 → Nell = 8 + 8 = 16
+
+From Zed (Zed = 8):
+
+- Zed → West: 3 → West = 8 + 3 = 11  
+- Zed → Nell: 5 → Nell = 8 + 5 = 13
+
+Now update West:
+
+- Current West = min(9, 14, 11) = 9 (from Bay)  
+- But from Zed: 8 + 3 = 11 → better than 14  
+- From Bay: 6 + 3 = 9 → better than 11  
+- So West = 9?
+
+Wait — let's track carefully.
+
+We have:
+
+- West from Bay: 6 (Cleo→Bay) + 3 = 9  
+- West from Poe: 8 (Cleo→Kai→Poe) + 
+

@@ -1,0 +1,93 @@
+We are given an undirected weighted graph with nodes:  
+**Fern, Jules, Oak, Quill, Sage, Xen**
+
+Edges and their weights:
+- Fern – Sage: 8  
+- Fern – Xen: 6  
+- Jules – Oak: 8  
+- Jules – Quill: 1  
+- Oak – Quill: 9  
+- Oak – Xen: 8  
+- Quill – Xen: 4  
+- Sage – Xen: 5  
+
+We are to find the **shortest path from Quill to Sage**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can model this as an undirected graph, so all edges are bidirectional.
+
+We want the shortest path from **Quill → Sage**.
+
+Let’s list all possible paths from Quill to Sage and compute their weights.
+
+---
+
+### Step 2: Find possible paths from Quill to Sage
+
+#### Path 1: Quill → Xen → Sage  
+- Quill to Xen: 4  
+- Xen to Sage: 5  
+→ Total: 4 + 5 = **9**
+
+#### Path 2: Quill → Oak → Xen → Sage  
+- Quill → Oak: 9  
+- Oak → Xen: 8  
+- Xen → Sage: 5  
+→ Total: 9 + 8 + 5 = **22** → too long
+
+#### Path 3: Quill → Jules → Oak → Xen → Sage  
+- Quill → Jules: 1  
+- Jules → Oak: 8  
+- Oak → Xen: 8  
+- Xen → Sage: 5  
+→ Total: 1 + 8 + 8 + 5 = **22** → longer
+
+#### Path 4: Quill → Jules → Oak → Quill → Xen → Sage  
+→ This loops back to Quill — not useful
+
+#### Path 5: Quill → Oak → Quill → Xen → Sage  
+→ Again, loop — not helpful
+
+#### Path 6: Quill → Xen → Oak → Jules → ??? → no path to Sage
+
+No other direct connections from Quill to Sage or through other nodes that reduce cost.
+
+Is there a path via Fern?
+
+Check: Quill → ? → Fern → Sage?
+
+- Quill to Fern? Not directly listed.  
+- Quill to Xen (4), Xen to Fern (6) → Quill → Xen → Fern → Sage  
+  - Quill → Xen: 4  
+  - Xen → Fern: 6  
+  - Fern → Sage: 8  
+  → Total: 4 + 6 + 8 = **18** → worse than 9
+
+Any other path?
+
+What about Quill → Jules → ??? → Sage?
+
+Jules is only connected to Oak and Quill.  
+Oak → Xen → Sage: already considered.
+
+So, only viable path is **Quill → Xen → Sage** with weight **9**
+
+Is there a shorter path?
+
+Let’s verify if there's a path through Fern?
+
+Quill → Xen → Fern → Sage: 4 + 6 + 8 = 18 → worse
+
+Quill → Oak → Xen → Sage: 9 + 8 + 5 = 22 → worse
+
+Quill → Jules → Oak → Xen → Sage: 1 + 8 + 8 + 5 = 22 → worse
+
+So, the shortest path is **Quill → Xen → Sage** with total weight **9**
+
+#### Final Answer:
+#### 9 [end of text]
+
+

@@ -1,0 +1,8 @@
+Elena earns 25 dollars per hour.
+On day 1, she works 3 hours, so she earns 25 * 3 = 75 dollars.
+On day 2, she works 5 hours, so she earns 25 * 5 = 125 dollars.
+In total, Elena earns 75 + 125 = 200 dollars.
+Elena spends 155 dollars, so she has 200 - 155 = 45 dollars left.
+#### 45 [end of text]
+
+

@@ -1,0 +1,22 @@
+Let's break down how many pages Aisha reads each week.
+
+**First book:**  
+She reads 6 pages a day for 2 days:  
+6 × 2 = 12 pages
+
+**Second book:**  
+She reads 10 pages a day for 5 days:  
+10 × 5 = 50 pages
+
+**Total pages read in one week (before skipping):**  
+12 + 50 = 62 pages
+
+**She skips 10 blank pages** — these don't count, so we subtract them:  
+62 − 10 = 52 pages per week
+
+She repeats this pattern for **3 weeks**:  
+52 × 3 = 156 pages
+
+#### 156 [end of text]
+
+

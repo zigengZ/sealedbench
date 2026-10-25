@@ -1,0 +1,8 @@
+The grooming costs **$70**.
+
+Reasoning:
+1. Original cost: $100
+2. Discount: 30% of $100 = $30
+3. Final cost: $100 - $30 = **$70** [end of text]
+
+

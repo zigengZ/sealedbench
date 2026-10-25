@@ -1,0 +1,37 @@
+llama_completion: llama backend init
+llama_completion: load the model and apply lora adapter, if any
+load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+cmn          init: llama threadpool init, n_threads = 6
+llama_completion: chat template is available, enabling conversation mode (disable it with -no-cnv)
+llama_completion: chat template example:
+<start_of_turn>user
+You are a helpful assistant
+
+Hello<end_of_turn>
+<start_of_turn>model
+Hi there<end_of_turn>
+<start_of_turn>user
+How are you?<end_of_turn>
+<start_of_turn>model
+
+
+system_info: n_threads = 6 (n_threads_batch = 6) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+sampler seed: 4294967295
+sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 1, top_p = 1.000, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> ?top-p -> ?min-p -> ?xtc -> temp-ext -> greedy 
+generate: n_ctx = 2048, n_batch = 2048, n_predict = 768, n_keep = 0
+
+common_perf_print:    sampling time =      25.70 ms
+common_perf_print:    samplers time =       9.32 ms /   160 tokens
+common_perf_print:        load time =    1544.37 ms
+common_perf_print: prompt eval time =    1542.85 ms /    85 tokens (   18.15 ms per token,    55.09 tokens per second)
+common_perf_print:        eval time =   10028.87 ms /    74 runs   (  135.53 ms per token,     7.38 tokens per second)
+common_perf_print:       total time =   11602.46 ms /   159 tokens
+common_perf_print: unaccounted time =       5.04 ms /   0.0 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =         73
+common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)

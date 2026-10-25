@@ -1,0 +1,9 @@
+Charlie starts with 10 stickers.
+He buys 21 more, so he has 10 + 21 = 31 stickers.
+Then he gets 23 more, so he has 31 + 23 = 54 stickers.
+After giving 9 stickers to his sister, he has 54 - 9 = 45 stickers.
+Finally, he uses 28 stickers to decorate a greeting card, leaving him with 45 - 28 = 17 stickers.
+
+#### 17 [end of text]
+
+

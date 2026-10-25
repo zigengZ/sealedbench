@@ -1,0 +1,41 @@
+Let's trace through the program step by step:
+
+We have a list: `words = ['timber', 'kelp', 'flint', 'harbor']`
+
+We initialize `out = ""`
+
+We loop over `index` from 0 to 3 (inclusive), since `len(words)` is 4.
+
+---
+
+**index = 0:**
+- `piece = words[0] = 'timber'`
+- `index % 3 == 0`, so not 1 → no upper()
+- `out == ""`, so set `out = 'timber'`
+
+**index = 1:**
+- `piece = words[1] = 'kelp'`
+- `index % 3 == 1` → True → `piece = 'KELP'`
+- `out != ""`, so `out = out + '-' + piece` → `out = 'timber-KELP'`
+
+**index = 2:**
+- `piece = words[2] = 'flint'`
+- `index % 3 == 2` → not 1 → no upper()
+- `out != ""`, so `out = out + '-' + piece` → `out = 'timber-KELP-flint'`
+
+**index = 3:**
+- `piece = words[3] = 'harbor'`
+- `index % 3 == 0` → not 1 → no upper()
+- `out != ""`, so `out = out + '-' + piece` → `out = 'timber-KELP-flint-harbor'`
+
+Finally, `print(out)` outputs:
+
+```
+timber-KELP-flint-harbor
+```
+
+``` 
+timber-KELP-flint-harbor
+``` [end of text]
+
+

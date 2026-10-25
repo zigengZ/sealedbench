@@ -1,0 +1,36 @@
+To find the shortest path between Jules and Moss, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to the starting node (Jules) to 0 and all other nodes to infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relax Edges:**
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - Insert the neighbor into the priority queue with the updated distance.
+
+3. **Extract the Shortest Path:**
+   - After processing all nodes, the shortest path from Jules to Moss will be the path with the minimum total weight.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Blair': ['Cedar', 'Vale'],
+    'Cedar': ['Reed', 'Moss'],
+    'Jules': ['Vale'],
+    'Moss': ['Oak', 'Reed'],
+    'Oak': ['Reed'],
+    'Reed': ['Vale'],
+    'Vale': ['Moss']
+}
+
+# Initialize distances
+
+

@@ -1,0 +1,121 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Cleo, Fern, Hart, Indigo, Moss, Nell, Uri, West, York  
+We are to find the **shortest path from Moss to York** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Cleo — Fern: 3  
+- Cleo — Uri: 4  
+- Fern — Indigo: 7  
+- Fern — York: 9  
+- Hart — Nell: 2  
+- Hart — Uri: 6  
+- Moss — Nell: 2  
+- Moss — Uri: 7  
+- Moss — West: 8  
+- Uri — York: 5  
+- West — York: 4  
+
+---
+
+### Step 2: Focus on path from **Moss to York**
+
+We want the shortest path from Moss to York.
+
+Let’s consider possible paths from Moss to York.
+
+---
+
+#### Option 1: Moss → Nell → Hart → Uri → York  
+- Moss → Nell: 2  
+- Nell → Hart: 2 (given: Hart–Nell: 2)  
+- Hart → Uri: 6  
+- Uri → York: 5  
+Total = 2 + 2 + 6 + 5 = **15**
+
+---
+
+#### Option 2: Moss → Nell → Hart → Uri → York  
+Same as above — already considered.
+
+Wait — is there a direct path via West?
+
+#### Option 3: Moss → West → York  
+- Moss → West: 8  
+- West → York: 4  
+Total = 8 + 4 = **12**
+
+That’s better than 15.
+
+---
+
+#### Option 4: Moss → Uri → York  
+- Moss → Uri: 7  
+- Uri → York: 5  
+Total = 7 + 5 = **12**
+
+Same as above.
+
+---
+
+#### Option 5: Moss → Nell → Hart → Uri → York → (same as Option 1) → 15
+
+Any other path?
+
+What about Moss → Nell → Hart → Uri → West → York?  
+- Moss → Nell: 2  
+- Nell → Hart: 2  
+- Hart → Uri: 6  
+- Uri → West? Not directly given.  
+No edge between Uri and West. So invalid.
+
+Moss → Fern? Not directly connected.
+
+Moss → Cleo? Not given.
+
+So only connections from Moss are:
+- Nell (2)
+- Uri (7)
+- West (8)
+
+So only paths from Moss are:
+- Moss → Nell → ... → York
+- Moss → Uri → York
+- Moss → West → York
+
+We already evaluated:
+- Moss → West → York: 8 + 4 = 12
+- Moss → Uri → York: 7 + 5 = 12
+- Moss → Nell → Hart → Uri → York: 2 + 2 + 6 + 5 = 15
+
+Is there a shorter path via Nell → Hart → West?
+
+Hart → West? Not given.
+
+Nell → West? Not given.
+
+So no.
+
+What about Moss → Nell → Hart → Uri → West → York?  
+But no edge from Uri to West.
+
+No such edge.
+
+So only valid paths are the three above.
+
+Minimum total weight is **12**.
+
+---
+
+### ✅ Final Answer:
+
+#### 12
+
+#### 12 [end of text]
+
+

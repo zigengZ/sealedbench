@@ -1,0 +1,29 @@
+To find the shortest path from **Eden** to **Nell**, we can use **Dijkstra's algorithm** (or a brute-force approach for small graphs).
+
+### Step-by-Step Reasoning:
+1. **Start at Eden** (distance = 0).
+2. **Neighbors of Eden**:
+   - Eden → Lark (6)
+   - Eden → Tess (2)
+   - Update distances: Lark = 6, Tess = 2.
+3. **Next, pick Tess** (smallest distance = 2).
+   - Tess is connected to:
+     - Eden (already visited)
+     - Hart (2 + 2 = 4)
+     - Lark (2 + 8 = 10)
+   - Update distances: Hart = 4, Lark = min(6, 10) → **6** (unchanged).
+4. **Next, pick Hart** (distance = 4).
+   - Hart is connected to:
+     - Ash (4 + 7 = 11)
+     - Eden (already visited)
+     - Lark (4 + 4 = 8)
+     - Tess (already visited)
+   - Update distances: Lark = min(6, 8) → **6** (unchanged).
+5. **Next, pick Lark** (distance = 6).
+   - Lark is connected to:
+     - Eden (already visited)
+     - Hart (already visited)
+     - Nell (6 + 8 = 14)
+     - Tess (already visited)
+   - Update distance: Nell
+

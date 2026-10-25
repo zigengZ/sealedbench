@@ -1,0 +1,16 @@
+Let's break this problem down into stages.
+
+**Stage 1: First 20 years**
+Marcy receives a pension of $50,000 per year for 20 years.
+
+**Stage 2: Next 10 years (21-30)**
+Starting after 20 years, she gets 5% of the pension amount.  The original pension was $50,000, so 5% of that is 0.05 * $50,000 = $2,500.  She receives this additional $2,500 per year.
+
+**Stage 3: Total Pension after 30 years**
+Over the 30 years, she receives $50,000 for the first 20 years and $2,500 for the next 10 years.  Her total pension is $50,000 + ($2,500 * 10) = $50,000 + $25,000 = $75,000.
+
+Therefore, her annual pension will be $75,000.
+
+####75000 [end of text]
+
+

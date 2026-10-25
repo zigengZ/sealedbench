@@ -1,0 +1,29 @@
+To find the shortest path from **Poe** to **West**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Poe** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Expand Poe's neighbors**:
+   - Poe → Eden (8) via Eden-Poe (8)
+   - Poe → Indigo (3) via Indigo-Poe (3)
+   - Poe → Nell (11) via Indigo-Nell (8) + Indigo-Poe (3) = 11 (but Nell is not directly connected to Poe, so this is invalid; Poe only connects to Eden and Indigo directly).
+
+   Correct neighbors:
+   - Poe → Eden (8)
+   - Poe → Indigo (3)
+
+3. **Update distances**:
+   - Eden: min(∞, 0 + 8) = 8
+   - Indigo: min(∞, 0 + 3) = 3
+
+4. **Next node to expand: Indigo (distance 3)**:
+   - Indigo → Nell (8 + 3 = 11)
+   - Indigo → Reed (4 + 3 = 7)
+   - Indigo → Poe (already visited)
+
+   Update:
+   - Nell: min(∞, 3 + 8) = 11
+   - Reed: min(∞, 
+

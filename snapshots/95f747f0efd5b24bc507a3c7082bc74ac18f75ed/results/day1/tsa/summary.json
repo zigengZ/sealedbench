@@ -1,0 +1,2005 @@
+{
+  "finished_utc": "2026-10-17T09:20:17Z",
+  "rows": [
+    {
+      "probe_id": "probe-00",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:00Z",
+      "gen_time_utc": "2026-10-17T09:14:00Z",
+      "ciphertext_sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+      "tsr": "results/day1/tsa/freetsa/probe-00.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-01",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:02Z",
+      "gen_time_utc": "2026-10-17T09:14:02Z",
+      "ciphertext_sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+      "tsr": "results/day1/tsa/freetsa/probe-01.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-02",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:03Z",
+      "gen_time_utc": "2026-10-17T09:14:03Z",
+      "ciphertext_sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+      "tsr": "results/day1/tsa/freetsa/probe-02.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-03",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:04Z",
+      "gen_time_utc": "2026-10-17T09:14:04Z",
+      "ciphertext_sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+      "tsr": "results/day1/tsa/freetsa/probe-03.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-04",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:06Z",
+      "gen_time_utc": "2026-10-17T09:14:06Z",
+      "ciphertext_sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+      "tsr": "results/day1/tsa/freetsa/probe-04.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-05",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:07Z",
+      "gen_time_utc": "2026-10-17T09:14:07Z",
+      "ciphertext_sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+      "tsr": "results/day1/tsa/freetsa/probe-05.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-06",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:08Z",
+      "gen_time_utc": "2026-10-17T09:14:08Z",
+      "ciphertext_sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+      "tsr": "results/day1/tsa/freetsa/probe-06.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-07",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:10Z",
+      "gen_time_utc": "2026-10-17T09:14:10Z",
+      "ciphertext_sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+      "tsr": "results/day1/tsa/freetsa/probe-07.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-08",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:11Z",
+      "gen_time_utc": "2026-10-17T09:14:11Z",
+      "ciphertext_sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+      "tsr": "results/day1/tsa/freetsa/probe-08.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-09",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:12Z",
+      "gen_time_utc": "2026-10-17T09:14:12Z",
+      "ciphertext_sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+      "tsr": "results/day1/tsa/freetsa/probe-09.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-10",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:13Z",
+      "gen_time_utc": "2026-10-17T09:14:14Z",
+      "ciphertext_sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+      "tsr": "results/day1/tsa/freetsa/probe-10.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-11",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:15Z",
+      "gen_time_utc": "2026-10-17T09:14:15Z",
+      "ciphertext_sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+      "tsr": "results/day1/tsa/freetsa/probe-11.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-12",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:16Z",
+      "gen_time_utc": "2026-10-17T09:14:16Z",
+      "ciphertext_sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+      "tsr": "results/day1/tsa/freetsa/probe-12.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-13",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:17Z",
+      "gen_time_utc": "2026-10-17T09:14:18Z",
+      "ciphertext_sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+      "tsr": "results/day1/tsa/freetsa/probe-13.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-14",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:19Z",
+      "gen_time_utc": "2026-10-17T09:14:19Z",
+      "ciphertext_sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+      "tsr": "results/day1/tsa/freetsa/probe-14.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-15",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:20Z",
+      "gen_time_utc": "2026-10-17T09:14:20Z",
+      "ciphertext_sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+      "tsr": "results/day1/tsa/freetsa/probe-15.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-16",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:21Z",
+      "gen_time_utc": "2026-10-17T09:14:22Z",
+      "ciphertext_sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+      "tsr": "results/day1/tsa/freetsa/probe-16.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-17",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:23Z",
+      "gen_time_utc": "2026-10-17T09:14:23Z",
+      "ciphertext_sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+      "tsr": "results/day1/tsa/freetsa/probe-17.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-18",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:24Z",
+      "gen_time_utc": "2026-10-17T09:14:24Z",
+      "ciphertext_sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+      "tsr": "results/day1/tsa/freetsa/probe-18.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-19",
+      "tsa": "freetsa",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:25Z",
+      "gen_time_utc": "2026-10-17T09:14:26Z",
+      "ciphertext_sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+      "tsr": "results/day1/tsa/freetsa/probe-19.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-00",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:26Z",
+      "gen_time_utc": "2026-10-17T09:14:26Z",
+      "ciphertext_sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+      "tsr": "results/day1/tsa/digicert/probe-00.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C7AE677A790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4057E9E080770000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-01",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:28Z",
+      "gen_time_utc": "2026-10-17T09:14:28Z",
+      "ciphertext_sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+      "tsr": "results/day1/tsa/digicert/probe-01.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4027AA7C237A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40C71C81C2730000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-02",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:30Z",
+      "gen_time_utc": "2026-10-17T09:14:30Z",
+      "ciphertext_sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+      "tsr": "results/day1/tsa/digicert/probe-02.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4097EAAFB17C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40A7074767730000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-03",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:32Z",
+      "gen_time_utc": "2026-10-17T09:14:32Z",
+      "ciphertext_sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+      "tsr": "results/day1/tsa/digicert/probe-03.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C750A3B07F0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4027FF398A7C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-04",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:34Z",
+      "gen_time_utc": "2026-10-17T09:14:34Z",
+      "ciphertext_sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+      "tsr": "results/day1/tsa/digicert/probe-04.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4037742954790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4037A0AD46790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-05",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:36Z",
+      "gen_time_utc": "2026-10-17T09:14:36Z",
+      "ciphertext_sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+      "tsr": "results/day1/tsa/digicert/probe-05.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4047113A4D720000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4087F6774B780000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-06",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:38Z",
+      "gen_time_utc": "2026-10-17T09:14:38Z",
+      "ciphertext_sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+      "tsr": "results/day1/tsa/digicert/probe-06.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4097BC2508760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n400777E6167F0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-07",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:40Z",
+      "gen_time_utc": "2026-10-17T09:14:40Z",
+      "ciphertext_sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+      "tsr": "results/day1/tsa/digicert/probe-07.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n400709117B780000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40B75A0598760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-08",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:42Z",
+      "gen_time_utc": "2026-10-17T09:14:42Z",
+      "ciphertext_sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+      "tsr": "results/day1/tsa/digicert/probe-08.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40B7144163730000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40C7E048CE7F0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-09",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:44Z",
+      "gen_time_utc": "2026-10-17T09:14:44Z",
+      "ciphertext_sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+      "tsr": "results/day1/tsa/digicert/probe-09.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4057ED78837A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4007AE6C82770000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-10",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:46Z",
+      "gen_time_utc": "2026-10-17T09:14:46Z",
+      "ciphertext_sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+      "tsr": "results/day1/tsa/digicert/probe-10.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4087279098760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40E7696C07780000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-11",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:48Z",
+      "gen_time_utc": "2026-10-17T09:14:48Z",
+      "ciphertext_sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+      "tsr": "results/day1/tsa/digicert/probe-11.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n404743BD9B720000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40A73DD9C47C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-12",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:51Z",
+      "gen_time_utc": "2026-10-17T09:14:51Z",
+      "ciphertext_sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+      "tsr": "results/day1/tsa/digicert/probe-12.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C77EA36C720000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40F7B33DDA720000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-13",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:53Z",
+      "gen_time_utc": "2026-10-17T09:14:53Z",
+      "ciphertext_sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+      "tsr": "results/day1/tsa/digicert/probe-13.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4087A2A1037A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40F7C1260A720000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-14",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:55Z",
+      "gen_time_utc": "2026-10-17T09:14:55Z",
+      "ciphertext_sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+      "tsr": "results/day1/tsa/digicert/probe-14.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4017D5EE5A740000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4087334AF87C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-15",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:57Z",
+      "gen_time_utc": "2026-10-17T09:14:57Z",
+      "ciphertext_sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+      "tsr": "results/day1/tsa/digicert/probe-15.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40F7DA07C9730000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40870AB5FD770000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-16",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:14:59Z",
+      "gen_time_utc": "2026-10-17T09:14:59Z",
+      "ciphertext_sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+      "tsr": "results/day1/tsa/digicert/probe-16.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40073C25C4790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4097AB766B7B0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-17",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:01Z",
+      "gen_time_utc": "2026-10-17T09:15:01Z",
+      "ciphertext_sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+      "tsr": "results/day1/tsa/digicert/probe-17.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C7F73134790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40372E7E86770000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-18",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:03Z",
+      "gen_time_utc": "2026-10-17T09:15:03Z",
+      "ciphertext_sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+      "tsr": "results/day1/tsa/digicert/probe-18.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4007C94B6F7C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4027ED6AE67A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-19",
+      "tsa": "digicert",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:05Z",
+      "gen_time_utc": "2026-10-17T09:15:05Z",
+      "ciphertext_sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+      "tsr": "results/day1/tsa/digicert/probe-19.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C7B26FEE700000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40678E44C1750000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-00",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:05Z",
+      "gen_time_utc": "2026-10-17T09:15:05Z",
+      "ciphertext_sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+      "tsr": "results/day1/tsa/sectigo/probe-00.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40F772AE44700000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40472D1914760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-01",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:22Z",
+      "gen_time_utc": "2026-10-17T09:15:22Z",
+      "ciphertext_sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+      "tsr": "results/day1/tsa/sectigo/probe-01.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C7B6F1997B0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4097B170497D0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-02",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:38Z",
+      "gen_time_utc": "2026-10-17T09:15:38Z",
+      "ciphertext_sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+      "tsr": "results/day1/tsa/sectigo/probe-02.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4097A1FA6B790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4007A7DC447E0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-03",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:15:54Z",
+      "gen_time_utc": "2026-10-17T09:15:54Z",
+      "ciphertext_sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+      "tsr": "results/day1/tsa/sectigo/probe-03.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40F78B85DC750000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n407729EF8D7F0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-04",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:16:10Z",
+      "gen_time_utc": "2026-10-17T09:16:11Z",
+      "ciphertext_sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+      "tsr": "results/day1/tsa/sectigo/probe-04.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C7B5AF047E0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40D70D3F487C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-05",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:16:27Z",
+      "gen_time_utc": "2026-10-17T09:16:27Z",
+      "ciphertext_sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+      "tsr": "results/day1/tsa/sectigo/probe-05.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40772456C27B0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40D7E461327C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-06",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:16:43Z",
+      "gen_time_utc": "2026-10-17T09:16:44Z",
+      "ciphertext_sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+      "tsr": "results/day1/tsa/sectigo/probe-06.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n406736589F7A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4067605B4E740000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-07",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:17:00Z",
+      "gen_time_utc": "2026-10-17T09:17:00Z",
+      "ciphertext_sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+      "tsr": "results/day1/tsa/sectigo/probe-07.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40173F9668760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40770B51E27A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-08",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:17:16Z",
+      "gen_time_utc": "2026-10-17T09:17:16Z",
+      "ciphertext_sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+      "tsr": "results/day1/tsa/sectigo/probe-08.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4047BCE32C7C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40473CE2AF7F0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-09",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:17:33Z",
+      "gen_time_utc": "2026-10-17T09:17:33Z",
+      "ciphertext_sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+      "tsr": "results/day1/tsa/sectigo/probe-09.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40A7DAC4C77D0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4097B430F3710000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-10",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:17:49Z",
+      "gen_time_utc": "2026-10-17T09:17:49Z",
+      "ciphertext_sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+      "tsr": "results/day1/tsa/sectigo/probe-10.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40B7BD8998790000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40375AB648740000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-11",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:18:05Z",
+      "gen_time_utc": "2026-10-17T09:18:05Z",
+      "ciphertext_sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+      "tsr": "results/day1/tsa/sectigo/probe-11.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40D732A0C77E0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40A791CF8E770000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-12",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:18:22Z",
+      "gen_time_utc": "2026-10-17T09:18:22Z",
+      "ciphertext_sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+      "tsr": "results/day1/tsa/sectigo/probe-12.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4017B52362760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40D737E301710000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-13",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:18:38Z",
+      "gen_time_utc": "2026-10-17T09:18:38Z",
+      "ciphertext_sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+      "tsr": "results/day1/tsa/sectigo/probe-13.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n407740BD31770000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40772CA4B5710000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-14",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:18:54Z",
+      "gen_time_utc": "2026-10-17T09:18:55Z",
+      "ciphertext_sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+      "tsr": "results/day1/tsa/sectigo/probe-14.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4007FF81C5780000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4087335642760000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-15",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:19:11Z",
+      "gen_time_utc": "2026-10-17T09:19:11Z",
+      "ciphertext_sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+      "tsr": "results/day1/tsa/sectigo/probe-15.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n40C7652BA8780000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40376B8185740000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-16",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:19:27Z",
+      "gen_time_utc": "2026-10-17T09:19:27Z",
+      "ciphertext_sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+      "tsr": "results/day1/tsa/sectigo/probe-16.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4057ED93717C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40D74A96A1740000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-17",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:19:44Z",
+      "gen_time_utc": "2026-10-17T09:19:44Z",
+      "ciphertext_sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+      "tsr": "results/day1/tsa/sectigo/probe-17.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4007AEB62B7A0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4047BE3EEA750000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-18",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:20:00Z",
+      "gen_time_utc": "2026-10-17T09:20:00Z",
+      "ciphertext_sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+      "tsr": "results/day1/tsa/sectigo/probe-18.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n4017E943757C0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n40A7331324750000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    },
+    {
+      "probe_id": "probe-19",
+      "tsa": "sectigo",
+      "ok": true,
+      "http_status": 200,
+      "requested_utc": "2026-10-17T09:20:17Z",
+      "gen_time_utc": "2026-10-17T09:20:17Z",
+      "ciphertext_sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+      "tsr": "results/day1/tsa/sectigo/probe-19.tsr",
+      "reply_text_ok": true,
+      "verify": {
+        "ok": true,
+        "attempts": [
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": null,
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\n401754A8077D0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_rsp_verify.c:190:Verify error:unable to get local issuer certificate"
+          },
+          {
+            "ca": "freetsa-cacert",
+            "untrusted": "/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt",
+            "code": 1,
+            "stdout": "Verification: FAILED",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf\nWarning: certificate from '/root/codes/sealedbench/results/day1/tsa/ca/freetsa-tsa.crt' with subject '/O=Free TSA/OU=TSA/description=This certificate digitally signs documents and time stamp requests made using the freetsa.org online services/CN=www.freetsa.org/emailAddress=busilezas@mailbox.org/L=Wuerzburg/C=DE/ST=Bayern' is not a CA cert\n4037421D2C7D0000:error:17800064:time stamp routines:ts_verify_cert:certificate verify error:../crypto/ts/ts_"
+          },
+          {
+            "ca": "system",
+            "untrusted": null,
+            "code": 0,
+            "stdout": "Verification: OK",
+            "stderr": "Using configuration from /usr/lib/ssl/openssl.cnf"
+          }
+        ]
+      },
+      "reply_stderr": ""
+    }
+  ]
+}

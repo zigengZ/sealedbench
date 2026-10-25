@@ -1,0 +1,19 @@
+First, calculate the total number of stamps Esme initially has:
+
+9 packs * 3 stamps/pack = 27 stamps
+
+Then, calculate the total number of stamps after buying 2 more packs:
+
+27 stamps + 2 packs * 8 stamps/pack = 27 + 16 = 43 stamps
+
+Next, calculate the total number of stamps after giving away 2 stamps:
+
+43 stamps - 2 stamps = 41 stamps
+
+Finally, calculate the total worth of the stamps:
+
+41 stamps * 6 dollars/stamp = 246 dollars
+
+#### 246 [end of text]
+
+

@@ -1,0 +1,7 @@
+Quinn starts with 2 packs × 9 pencils = 18 pencils.
+After giving 16 to Ben: 18 – 16 = 2 pencils.
+Ben then gives Quinn 11 pencils: 2 + 11 = 13 pencils.
+
+#### 13 [end of text]
+
+

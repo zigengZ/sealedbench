@@ -1,0 +1,14 @@
+First, calculate the total number of seats:
+- 10 rows × 16 seats = 160 seats
+- 3 rows × 5 seats = 15 seats
+- Total seats = 160 + 15 = 175 seats
+
+Next, subtract the sold seats:
+- 175 total seats - 41 sold seats = 134 unsold seats
+
+Finally, calculate the value of unsold seats:
+- 134 unsold seats × $10/seat = $1,340
+
+#### 1340 [end of text]
+
+

@@ -1,0 +1,18 @@
+First, calculate the total number of buttons Jamal initially bought:
+9 packs * 10 buttons/pack = 90 buttons
+
+Then, calculate the total number of buttons Jamal bought after the second purchase:
+4 packs * 6 buttons/pack = 24 buttons
+
+Total buttons after the second purchase:
+90 + 24 = 114 buttons
+
+Jamal gives 66 buttons to Ava:
+114 - 66 = 48 buttons remaining
+
+The buttons are shared equally among 4 people:
+48 buttons / 4 people = 12 buttons/person
+
+#### 12 [end of text]
+
+

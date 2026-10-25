@@ -1,0 +1,35 @@
+To find the shortest path from **Oak** to **Reed**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Oak → Blair → Reed**
+   - Oak → Blair: 1
+   - Blair → Reed: 1
+   - Total: **2**
+
+2. **Oak → Blair → Drew → Reed**
+   - Oak → Blair: 1
+   - Blair → Drew: 5
+   - Drew → Reed: 2
+   - Total: **8** (Longer than the first path)
+
+3. **Oak → Blair → Dove → Reed**
+   - Oak → Blair: 1
+   - Blair → Dove: 4
+   - Dove → Reed: 2
+   - Total: **7** (Longer than the first path)
+
+4. **Oak → Blair → Ash → Reed**
+   - Oak → Blair: 1
+   - Blair → Ash: 2 (reverse of Ash → Blair, but undirected, so same weight)
+   - Ash → Reed: 3
+   - Total: **6** (Longer than the first path)
+
+5. **Oak → Blair → Ash → Drew → Reed**
+   - Oak → Blair: 1
+   - Blair → Ash: 2
+   - Ash → Drew: 2
+   - Drew → Reed: 2
+   - Total: **7** (Longer than the first path)
+
+6. **Oak → Blair → Dove → Drew
+

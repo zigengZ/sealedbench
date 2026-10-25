@@ -1,0 +1,29 @@
+To find the shortest path from **Drew** to **Lark**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Drew** with distance = 0.
+   - All other nodes have distance = ∞.
+   - Priority queue (min-heap) initialized with `(Drew, 0)`.
+
+2. **Relaxation Steps**:
+   - **Drew** → **Jules** (6): Update `Jules` = min(∞, 0 + 6) = **6**.
+   - **Drew** → **West** (8): Update `West` = min(∞, 0 + 8) = **8**.
+   - Next, explore **Jules** (distance = 6):
+     - **Jules** → **Lark** (2): Update `Lark` = min(∞, 6 + 2) = **8**.
+     - **Jules** → **Poe** (5): Update `Poe` = min(∞, 6 + 5) = **11**.
+   - Next, explore **West** (distance = 8):
+     - **West** → **Nell** (7): Update `Nell` = min(∞, 8 + 7) = **15**.
+     - **West** → **Uri** (7): Update `Uri` = min(∞, 8 + 7) = **15**.
+     - **West** → **Poe** (via Uri? No direct edge, so no update).
+   - Next, explore **Lark** (distance = 8) → **Uri** (4): Update `Uri` = min(15, 8 + 4) = **12**.
+   - Next, explore **Poe** (distance = 11):
+     - **Poe** → **Uri** (5): Update `Uri` = min(12, 11 + 5) = **12** (no change).
+   - No further updates possible.
+
+3. **Shortest Path**:
+   - The shortest path to **Lark** is **Drew → Jules → Lark** with total weight **8**.
+
+#### 8 [end of text]
+
+

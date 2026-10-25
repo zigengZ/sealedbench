@@ -1,0 +1,32 @@
+To find the shortest path between Amber and Blair, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Amber as 0 and to Blair as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Processing**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If this new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Result**:
+   - The distance from Amber to Blair will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Blair', 'Drew', 'Lark', 'Quill', 'Tess', 'Xen', 'York']
+distances = {node: float('infinity') for node in nodes}
+
+# Initial distances
+distances['Amber'] = 0
+distances['Blair'] = float('infinity')
+
+# Priority queue
+priority_queue = [(0, {'Amber': 0, 'Blair': distances['Amber'] + 3}),
+

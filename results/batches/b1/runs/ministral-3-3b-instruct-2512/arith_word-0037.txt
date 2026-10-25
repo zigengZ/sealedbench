@@ -1,0 +1,7 @@
+Ava reads **80** pages initially (20 pages/day × 4 days).
+She then reads **20** more pages, totaling **100** pages.
+She skips **18** blank pages, so the count remains **100**.
+
+#### 100 [end of text]
+
+

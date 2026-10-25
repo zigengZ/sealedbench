@@ -1,0 +1,40 @@
+To find the shortest path from **Fern** to **Tess**, we can use **Dijkstra's algorithm** (or a breadth-first search with priority queue for unweighted graphs, but here weights are involved).
+
+### Step-by-Step Reasoning:
+1. **Start at Fern (distance = 0)**:
+   - Fern → Nell (3) → **distance = 3**
+   - Fern → Blair (2) → Blair → Uri (2) → **distance = 4** (via Blair-Uri)
+   - Fern → Blair → West (2) → **distance = 4** (via Blair-West)
+   - Fern → Blair → York (2) → **distance = 4** (via Blair-York)
+
+2. **Explore neighbors of Nell (distance = 3)**:
+   - Nell → West (7) → **distance = 10** (via Fern-Nell-West)
+   - Nell → Blair (no direct edge, skip)
+
+3. **Explore neighbors of Blair (distance = 4)**:
+   - Blair → Uri (2) → Uri → Tess (8) → **distance = 14** (via Blair-Uri-Tess)
+   - Blair → West (2) → West → Cedar (4) → **distance = 10** (via Blair-West-Cedar)
+   - Blair → York (2) → no direct edge to Tess
+
+4. **Explore neighbors of West (distance = 4 or 10)**:
+   - West → Cedar (4) → Cedar → Tess (8) → **distance = 12** (via Blair-West-Cedar-Tess)
+   - West → Nell (7) → already explored (distance = 3)
+   - West → Blair (no direct edge, skip)
+
+5. **Explore neighbors of Uri (distance = 4 or 14)**:
+   - Uri → Blair (no direct edge, skip)
+   - Uri → Tess (8) → **distance = 12** (via Blair-Uri-Tess)
+
+6. **Explore neighbors of Cedar (distance = 10)**:
+   - Cedar → West (4) → already explored (distance = 4)
+   - Cedar → Tess (8) → **distance = 18** (via Cedar-Tess)
+
+7. **Best path found so far**:
+   - Fern → Nell → West → Cedar → Tess: **12**
+   - Fern → Blair → Uri → Tess: **12**
+
+The shortest path is **Fern → Nell → West → Cedar → Tess** or **Fern → Blair → Uri → Tess**, both with a total weight of **12**.
+
+#### 12 [end of text]
+
+

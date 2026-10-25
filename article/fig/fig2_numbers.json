@@ -1,0 +1,262 @@
+[
+  [
+    "Qwen3-4B",
+    {
+      "accuracy": 0.8875,
+      "accuracy_among_parsed": 0.8875,
+      "baseline": {
+        "distinct_observed_answers": 67,
+        "uniform_over_observed_answers": 0.014925373134328358
+      },
+      "correct": 71,
+      "invalid": 0,
+      "invalid_rate": 0.0,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 80,
+      "templates": {
+        "buy_give": 4,
+        "buy_give_price": 2,
+        "buy_give_receive": 3,
+        "buy_give_receive_price": 5,
+        "buy_give_share": 1,
+        "buy_receive": 1,
+        "days_plus": 1,
+        "days_plus_skip": 5,
+        "one_day_spend": 5,
+        "rows_left": 2,
+        "rows_price": 2,
+        "three_days": 6,
+        "two_books": 6,
+        "two_books_skip": 4,
+        "two_books_weeks": 5,
+        "two_buys_give": 4,
+        "two_buys_give_price": 3,
+        "two_buys_give_share": 3,
+        "two_buys_share": 3,
+        "two_days": 2,
+        "two_days_spend": 2,
+        "two_sections": 3,
+        "two_sections_price": 6,
+        "two_sections_sold": 2
+      },
+      "truncated": 0,
+      "truncated_rate": 0.0,
+      "wilson95": [
+        0.7998178190762713,
+        0.9396731305336952
+      ]
+    },
+    {
+      "accuracy": 0.9625,
+      "accuracy_among_parsed": 0.9625,
+      "correct": 77,
+      "invalid": 0,
+      "invalid_rate": 0.0,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 80,
+      "truncated": 0,
+      "truncated_rate": 0.0,
+      "wilson95": [
+        0.8954527990995489,
+        0.9871654310800886
+      ]
+    }
+  ],
+  [
+    "Gemma-3-4B",
+    {
+      "accuracy": 0.25,
+      "accuracy_among_parsed": 1.0,
+      "baseline": {
+        "distinct_observed_answers": 67,
+        "uniform_over_observed_answers": 0.014925373134328358
+      },
+      "correct": 20,
+      "invalid": 60,
+      "invalid_rate": 0.75,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 20,
+      "templates": {
+        "buy_give": 4,
+        "buy_give_price": 2,
+        "buy_give_receive": 3,
+        "buy_give_receive_price": 5,
+        "buy_give_share": 1,
+        "buy_receive": 1,
+        "days_plus": 1,
+        "days_plus_skip": 5,
+        "one_day_spend": 5,
+        "rows_left": 2,
+        "rows_price": 2,
+        "three_days": 6,
+        "two_books": 6,
+        "two_books_skip": 4,
+        "two_books_weeks": 5,
+        "two_buys_give": 4,
+        "two_buys_give_price": 3,
+        "two_buys_give_share": 3,
+        "two_buys_share": 3,
+        "two_days": 2,
+        "two_days_spend": 2,
+        "two_sections": 3,
+        "two_sections_price": 6,
+        "two_sections_sold": 2
+      },
+      "truncated": 0,
+      "truncated_rate": 0.0,
+      "wilson95": [
+        0.16806231857542375,
+        0.3548467461923397
+      ]
+    },
+    {
+      "accuracy": 0.325,
+      "accuracy_among_parsed": 0.8666666666666667,
+      "correct": 26,
+      "invalid": 50,
+      "invalid_rate": 0.625,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 30,
+      "truncated": 2,
+      "truncated_rate": 0.025,
+      "wilson95": [
+        0.2324416184435817,
+        0.4335947268938527
+      ]
+    }
+  ],
+  [
+    "Ministral-3-3B",
+    {
+      "accuracy": 0.925,
+      "accuracy_among_parsed": 0.925,
+      "baseline": {
+        "distinct_observed_answers": 67,
+        "uniform_over_observed_answers": 0.014925373134328358
+      },
+      "correct": 74,
+      "invalid": 0,
+      "invalid_rate": 0.0,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 80,
+      "templates": {
+        "buy_give": 4,
+        "buy_give_price": 2,
+        "buy_give_receive": 3,
+        "buy_give_receive_price": 5,
+        "buy_give_share": 1,
+        "buy_receive": 1,
+        "days_plus": 1,
+        "days_plus_skip": 5,
+        "one_day_spend": 5,
+        "rows_left": 2,
+        "rows_price": 2,
+        "three_days": 6,
+        "two_books": 6,
+        "two_books_skip": 4,
+        "two_books_weeks": 5,
+        "two_buys_give": 4,
+        "two_buys_give_price": 3,
+        "two_buys_give_share": 3,
+        "two_buys_share": 3,
+        "two_days": 2,
+        "two_days_spend": 2,
+        "two_sections": 3,
+        "two_sections_price": 6,
+        "two_sections_sold": 2
+      },
+      "truncated": 0,
+      "truncated_rate": 0.0,
+      "wilson95": [
+        0.8458798391878072,
+        0.9651747507069949
+      ]
+    },
+    {
+      "accuracy": 0.8125,
+      "accuracy_among_parsed": 0.8552631578947368,
+      "correct": 65,
+      "invalid": 4,
+      "invalid_rate": 0.05,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 76,
+      "truncated": 1,
+      "truncated_rate": 0.0125,
+      "wilson95": [
+        0.7134167737100688,
+        0.8829468953302267
+      ]
+    }
+  ],
+  [
+    "Falcon3-1B",
+    {
+      "accuracy": 0.5875,
+      "accuracy_among_parsed": 0.7833333333333333,
+      "baseline": {
+        "distinct_observed_answers": 67,
+        "uniform_over_observed_answers": 0.014925373134328358
+      },
+      "correct": 47,
+      "invalid": 20,
+      "invalid_rate": 0.25,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 60,
+      "templates": {
+        "buy_give": 4,
+        "buy_give_price": 2,
+        "buy_give_receive": 3,
+        "buy_give_receive_price": 5,
+        "buy_give_share": 1,
+        "buy_receive": 1,
+        "days_plus": 1,
+        "days_plus_skip": 5,
+        "one_day_spend": 5,
+        "rows_left": 2,
+        "rows_price": 2,
+        "three_days": 6,
+        "two_books": 6,
+        "two_books_skip": 4,
+        "two_books_weeks": 5,
+        "two_buys_give": 4,
+        "two_buys_give_price": 3,
+        "two_buys_give_share": 3,
+        "two_buys_share": 3,
+        "two_days": 2,
+        "two_days_spend": 2,
+        "two_sections": 3,
+        "two_sections_price": 6,
+        "two_sections_sold": 2
+      },
+      "truncated": 0,
+      "truncated_rate": 0.0,
+      "wilson95": [
+        0.47804040345890164,
+        0.6889414238723812
+      ]
+    },
+    {
+      "accuracy": 0.2625,
+      "accuracy_among_parsed": 0.42,
+      "correct": 21,
+      "invalid": 30,
+      "invalid_rate": 0.375,
+      "n": 80,
+      "no_show_or_failed": 0,
+      "parsed": 50,
+      "truncated": 1,
+      "truncated_rate": 0.0125,
+      "wilson95": [
+        0.1785740148850936,
+        0.36818959664428175
+      ]
+    }
+  ]
+]

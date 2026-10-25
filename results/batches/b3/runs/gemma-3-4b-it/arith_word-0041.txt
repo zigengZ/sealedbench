@@ -1,0 +1,8 @@
+First, we calculate Olga's earnings on day 1: 10 dollars/hour * 2 hours = 20 dollars.
+Next, we calculate Olga's earnings on day 2: 10 dollars/hour * 5 hours = 50 dollars.
+Then, we calculate Olga's earnings on day 3: 10 dollars/hour * 5 hours = 50 dollars.
+Finally, we add up her earnings from all three days: 20 + 50 + 50 = 120 dollars.
+
+####120 [end of text]
+
+

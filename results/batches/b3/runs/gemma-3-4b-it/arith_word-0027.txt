@@ -1,0 +1,7 @@
+First, find the number of pages Aisha reads from the first book: 9 pages/day * 2 days = 18 pages.
+Next, find the number of pages Aisha reads from the second book: 10 pages/day * 2 days = 20 pages.
+Finally, add the pages from both books: 18 pages + 20 pages = 38 pages.
+
+####38 [end of text]
+
+

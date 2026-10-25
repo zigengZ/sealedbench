@@ -1,0 +1,39 @@
+To find the shortest path from **Cedar** to **Drew**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward here).
+
+### Step-by-Step Reasoning:
+1. **Start at Cedar (C)** with distance = 0.
+2. **Neighbors of Cedar**:
+   - Eden (8)
+   - Fern (9)
+   Update distances: Eden = 8, Fern = 9.
+
+3. **Next, pick the smallest unvisited distance (Eden, 8)**.
+   - Neighbors of Eden: Cedar (already visited), Fern (9 + 8 = 17, but Fern is already 9, so no update).
+   No updates.
+
+4. **Next, pick Fern (9)**.
+   - Neighbors of Fern: Cedar (visited), Kai (9 + 7 = 16), Xen (9 + 7 = 16).
+   Update distances: Kai = 16, Xen = 16.
+
+5. **Next, pick Xen (16)**.
+   - Neighbors of Xen: Amber (6 + 16 = 22), Fern (visited), Drew (no direct edge).
+   No updates.
+
+6. **Next, pick Kai (16)**.
+   - Neighbors of Kai: Drew (16 + 3 = 19), Fern (visited).
+   Update distance: Drew = 19.
+
+7. **Next, pick Amber (22)**.
+   - Neighbors of Amber: Cedar (visited), Drew (9 + 22 = 31), Xen (visited).
+   No updates.
+
+8. **Next, pick Drew (19)**.
+   - No unvisited neighbors left.
+
+### Shortest Path:
+The shortest path from **Cedar** to **Drew** is:
+**Cedar → Fern → Kai → Drew** with a total weight of **16**.
+
+#### 16 [end of text]
+
+

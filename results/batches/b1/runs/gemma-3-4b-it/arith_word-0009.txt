@@ -1,0 +1,8 @@
+First, calculate Samir's earnings on day 1: 17 dollars/hour * 5 hours = 85 dollars.
+Next, calculate Samir's earnings on day 2: 17 dollars/hour * 3 hours = 51 dollars.
+Then, calculate Samir's total earnings: 85 dollars + 51 dollars = 136 dollars.
+Finally, subtract the amount Samir spent from his total earnings: 136 dollars - 107 dollars = 29 dollars.
+
+####29 [end of text]
+
+

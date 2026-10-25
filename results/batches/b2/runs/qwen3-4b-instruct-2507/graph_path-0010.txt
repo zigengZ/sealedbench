@@ -1,0 +1,106 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Amber, Bay, Cleo, Indigo, Lark, Sage, Uri, West, Xen, York  
+We are to find the **shortest path from Indigo to West**, and report the **total weight**.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Amber – Bay: 3  
+- Amber – Lark: 1  
+- Amber – Uri: 6  
+- Bay – Cleo: 9  
+- Bay – Indigo: 3  
+- Bay – Xen: 4  
+- Bay – York: 3  
+- Cleo – Indigo: 8  
+- Indigo – Lark: 8  
+- Lark – West: 7  
+- Sage – Uri: 8  
+
+Note: All edges are undirected, so each edge can be traversed in both directions.
+
+---
+
+### Step 2: Goal — Shortest path from **Indigo** to **West**
+
+We need to find the shortest path from Indigo to West.
+
+Let’s consider possible paths from Indigo to West.
+
+---
+
+#### Path 1: Indigo → Lark → West  
+- Indigo – Lark: 8  
+- Lark – West: 7  
+→ Total: 8 + 7 = **15**
+
+---
+
+#### Path 2: Indigo → Bay → Xen → ? → West?  
+Indigo to Bay: 3  
+Bay to Xen: 4  
+Xen to ? → no direct edge to West or others.  
+Xen only connected to Bay. So dead end.
+
+#### Path 3: Indigo → Bay → York → ?  
+York has no connection to West or Lark or others.  
+Only connected to Bay. So no path from York to West.
+
+#### Path 4: Indigo → Cleo → Bay → Lark → West  
+- Indigo → Cleo: 8  
+- Cleo → Bay: 9  
+- Bay → Lark: 1  
+- Lark → West: 7  
+→ Total: 8 + 9 + 1 + 7 = **25** → worse than 15
+
+#### Path 5: Indigo → Bay → Lark → West  
+- Indigo → Bay: 3  
+- Bay → Lark: 1  
+- Lark → West: 7  
+→ Total: 3 + 1 + 7 = **11**
+
+Wait — is this valid?
+
+Check if Bay–Lark exists? Yes: "Amber Lark 1" and "Bay Lark" is not listed.
+
+Wait — **Is there a direct edge between Bay and Lark?**
+
+Looking back:  
+Edges listed:  
+- Amber Bay 3  
+- Amber Lark 1  
+- Amber Uri 6  
+- Bay Cleo 9  
+- Bay Indigo 3  
+- Bay Xen 4  
+- Bay York 3  
+- Cleo Indigo 8  
+- Indigo Lark 8  
+- Lark West 7  
+- Sage Uri 8  
+
+So:  
+- Bay and Lark: **no direct edge**  
+- Amber and Lark: yes (weight 1)  
+- Indigo and Lark: yes (weight 8)
+
+So **no edge between Bay and Lark**.
+
+Therefore, **Indigo → Bay → Lark** is not possible.
+
+So Path 2 above is invalid.
+
+So only valid path via Lark is:
+
+**Indigo → Lark → West** = 8 + 7 = **15**
+
+Any other path?
+
+What about via Bay?
+
+Indigo → Bay → ?
+

@@ -1,0 +1,31 @@
+Let's solve this step by step.
+
+1. **Identify the number of girls:**  
+   There are 60 girls at Dr. Wertz's school.
+
+2. **Determine the ratio of boys to girls:**  
+   According to the problem, there are twice as many boys as girls.  
+   Let \( B \) represent the number of boys.  
+   Since \( B = 2 \times 60 \), we have \( B = 120 \).
+
+3. **Calculate the total number of students:**  
+   There are 5 students to every teacher.  
+   Therefore, the total number of students is \( 5 \times (60 + 120) \).
+
+4. **Compute the total number of students:**  
+   \[
+   5 \times (60 + 120) = 5 \times 180 = 900
+   \]
+
+5. **Determine the number of teachers:**  
+   There are 5 students per teacher.  
+   Therefore, the number of teachers is \( \frac{900}{5} \).
+
+6. **Perform the division:**  
+   \[
+   \frac{900}{5} = 180
+   \]
+
+Thus, there are #### 180 teachers. [end of text]
+
+

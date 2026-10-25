@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "addresses": {
+    "arweave": "JNC6vBhjHY1EPwV3pEeNmrsgFMxH5d38_LHsZ7jful8",
+    "ethereum": "0x6A0A10FFD285c971B841bee8892878c0d583Bf67",
+    "solana": "HepiT2k93CFQaSB7i3ZNXhybZKn5MeWiv3UkLsaJKk4i",
+    "matic": "0x6A0A10FFD285c971B841bee8892878c0d583Bf67"
+  },
+  "gateway": "https://turbo-gateway.com",
+  "gateways": [
+    "https://turbo-gateway.com"
+  ],
+  "freeUploadLimitBytes": 107520,
+  "freeTier": {
+    "lifetimeBytes": 10485760,
+    "ipBytes": 10485760,
+    "maxItemBytes": 107520
+  }
+}

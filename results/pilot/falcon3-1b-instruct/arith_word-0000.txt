@@ -1,0 +1,5 @@
+Esme earns 27 dollars an hour. Esme works 6 hours, so her total earnings are 27 * 6 = 162 dollars. Esme then spends 128 dollars. To find out how many dollars she has left, subtract the amount she spent from her earnings: 162 - 128 = 34.
+
+#### 34 [end of text]
+
+

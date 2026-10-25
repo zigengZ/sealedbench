@@ -1,0 +1,18 @@
+Tara starts with crayons from the first purchase:
+4 packs × 8 crayons = 32 crayons.
+
+Next, she adds crayons from the second purchase:
+4 packs × 3 crayons = 12 crayons.
+
+Total crayons before giving any away:
+32 + 12 = 44 crayons.
+
+After giving 3 crayons to Nico:
+44 - 3 = 41 crayons.
+
+Each crayon is worth $7, so the total value is:
+41 × 7 = 287 dollars.
+
+#### 287 [end of text]
+
+

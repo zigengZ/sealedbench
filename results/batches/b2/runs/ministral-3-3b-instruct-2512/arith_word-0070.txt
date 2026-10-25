@@ -1,0 +1,9 @@
+Jamal has a total of 11 rows × 13 seats = 143 seats.
+
+Seats sold = 100, so unsold seats = 143 - 100 = 43.
+
+Each unsold seat is worth $2, so total value = 43 × 2 = $86.
+
+#### 86 [end of text]
+
+

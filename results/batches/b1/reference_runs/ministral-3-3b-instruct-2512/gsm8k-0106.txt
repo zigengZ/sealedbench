@@ -1,0 +1,12 @@
+Each box has an inner volume calculated by subtracting the wall thickness from each dimension:
+- Inner length = 5 - 2*(1) = 3 inches
+- Inner width = 6 - 2*(1) = 4 inches
+- Inner height = 4 - 2*(1) = 2 inches
+
+Inner volume of one box = 3 * 4 * 2 = 24 cubic inches
+
+Total inner volume for 3 boxes = 3 * 24 = 72 cubic inches
+
+#### 72 [end of text]
+
+

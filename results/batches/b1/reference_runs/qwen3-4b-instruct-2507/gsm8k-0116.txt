@@ -1,0 +1,29 @@
+The problem says Katy uses sugar and water in the ratio of 7:13, meaning:
+
+- For every 7 teaspoons of sugar, she uses 13 cups of water.
+
+It also says she used a total of **120 teaspoons of sugar and cups of water**.
+
+Wait — this wording is confusing. It says "a total of 120 teaspoons of sugar and cups of water". That could mean the total amount of sugar and water combined is 120 units, but the units are mixed (teaspoons and cups), which makes it inconsistent.
+
+But the ratio is given as **7:13**, which is sugar to water.
+
+Let’s assume the problem meant:  
+She used a total of **120 units** (in the ratio), and the ratio of sugar to water is 7:13.
+
+So total parts = 7 + 13 = 20 parts.
+
+If the total amount (in the ratio) is 120, then:
+
+Each part = 120 ÷ 20 = 6
+
+So sugar = 7 parts = 7 × 6 = **42 teaspoons**
+
+But the question says: "calculate the number of teaspoonfuls of sugar she used."
+
+So the answer is **42**.
+
+But wait — the problem says: "she used a total of 120 teaspoons of sugar and cups of water"
+
+That could be misinterpreted. If she used 120 teaspoons of sugar, then the water would be in cups, and
+

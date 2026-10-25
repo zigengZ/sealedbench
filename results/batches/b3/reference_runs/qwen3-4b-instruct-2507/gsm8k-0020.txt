@@ -1,0 +1,42 @@
+We are given:
+
+- 10 liters of orange drink, which is **two-thirds water**.
+- 15 liters of pineapple drink, which is **three-fifths water**.
+- We pour the orange drink into the pineapple drink, but **spill 1 liter** of the orange drink.
+- After spilling, we have a total of **24 liters** of mixture (this includes both drinks minus the spilled 1 liter).
+- We are to find **how much water is in the remaining 24 liters**.
+
+---
+
+### Step 1: How much orange drink remains?
+
+Original orange drink: 10 liters  
+Spilled: 1 liter  
+Remaining orange drink: 10 - 1 = **9 liters**
+
+### Step 2: Water in the remaining orange drink
+
+Orange drink is two-thirds water:
+
+Water from orange = (2/3) × 9 = **6 liters**
+
+### Step 3: Water in the pineapple drink
+
+Pineapple drink: 15 liters, three-fifths water:
+
+Water from pineapple = (3/5) × 15 = **9 liters**
+
+### Step 4: Total water in the mixture
+
+Total water = water from orange + water from pineapple  
+= 6 + 9 = **15 liters**
+
+---
+
+The total volume of the mixture is 9 (orange) + 15 (pineapple) = 24 liters — matches the given.
+
+So, the amount of water in the remaining 24 liters is:
+
+#### 15 [end of text]
+
+

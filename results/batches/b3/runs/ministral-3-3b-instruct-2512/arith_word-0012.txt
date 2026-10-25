@@ -1,0 +1,9 @@
+Aisha reads **23 pages/day × 3 days = 69 pages** from the first book.
+She reads **17 pages/day × 4 days = 68 pages** from the second book.
+Total pages before skipping: **69 + 68 = 137 pages**.
+After skipping 108 blank pages: **137 - 108 = 29 pages per week**.
+For 2 weeks: **29 × 2 = 58 pages**.
+
+#### 58 [end of text]
+
+

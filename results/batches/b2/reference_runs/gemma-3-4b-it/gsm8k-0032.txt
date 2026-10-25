@@ -1,0 +1,6 @@
+First, find the total hours per day: 10 dogs * 0.5 hours/dog = 5 hours per day.
+Then, find the total hours per week: 5 hours/day * 7 days/week = 35 hours per week.
+
+#### 35 [end of text]
+
+

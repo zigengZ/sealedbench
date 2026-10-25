@@ -1,0 +1,36 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Ash, Bay, Cleo, Dove, Glen, Kai, Reed, Tess  
+**Edges and weights**:
+
+- Ash–Bay: 3  
+- Ash–Kai: 1  
+- Bay–Kai: 8  
+- Bay–Tess: 5  
+- Cleo–Kai: 2  
+- Dove–Glen: 8  
+- Dove–Tess: 9  
+- Glen–Kai: 5  
+- Kai–Reed: 8  
+- Kai–Tess: 1  
+
+We are to find the **shortest path from Cleo to Glen**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the structure
+
+We need to go from **Cleo** to **Glen**.
+
+Cleo is only directly connected to **Kai** (weight 2).  
+Glen is directly connected to **Dove** (weight 8) and **Kai** (weight 5).
+
+So, possible paths from Cleo to Glen:
+
+1. **Cleo → Kai → Glen**  
+   Weight: Cleo–Kai (2) + Kai–Glen (5) = **7**
+
+2. **Cleo → Kai → Tess → Dove → Glen**  
+   Cleo–Kai (2) + Kai–Tess (1) + Tess–Dove (9) + Dove–Glen (8)  
+   = 2 + 1 + 9
+

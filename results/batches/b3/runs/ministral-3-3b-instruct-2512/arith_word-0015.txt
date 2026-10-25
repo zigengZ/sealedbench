@@ -1,0 +1,18 @@
+Jamal starts with beads from the first purchase:
+8 packs × 10 beads = 80 beads.
+
+Next, he buys more beads:
+6 packs × 4 beads = 24 beads.
+
+Total beads before giving any away:
+80 + 24 = 104 beads.
+
+After giving 93 beads to Tara, he has:
+104 - 93 = 11 beads left.
+
+Each bead is worth $4, so the total value is:
+11 × 4 = 44 dollars.
+
+#### 44 [end of text]
+
+

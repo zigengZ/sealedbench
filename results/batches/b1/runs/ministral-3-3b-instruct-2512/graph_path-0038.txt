@@ -1,0 +1,31 @@
+To find the shortest path from **Drew** to **Glen**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Drew → Reed → Glen**
+   - Drew → Reed: 6
+   - Reed → Glen: (via Dove or Blair)
+     - Reed → Dove → Glen: 3 + 6 = 9
+     - Reed → Blair → Glen: 5 + 4 = 9
+   - **Total:** 6 + 9 = **15**
+
+2. **Drew → Reed → Quill → Glen**
+   - Drew → Reed: 6
+   - Reed → Quill: 8
+   - Quill → Glen: 2
+   - **Total:** 6 + 8 + 2 = **16** (longer than above)
+
+3. **Drew → Reed → Lark → Quill → Glen**
+   - Drew → Reed: 6
+   - Reed → Lark: (no direct edge)
+   - **Invalid path**
+
+4. **Drew → Reed → Dove → Glen**
+   - Drew → Reed: 6
+   - Reed → Dove: 3
+   - Dove → Glen: 6
+   - **Total:** 6 + 3 + 6 = **15** (same as above)
+
+The shortest path is **Drew → Reed → Dove → Glen** or **Drew → Reed → Blair → Glen**, both with a total weight of **15**.
+
+#### 1
+

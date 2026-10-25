@@ -1,0 +1,11 @@
+First, calculate the total number of apples Jamal initially has:
+
+5 packs * 10 apples/pack = 50 apples
+
+Then, subtract the apple given to Xavier:
+
+50 apples - 1 apple = 49 apples
+
+So, Jamal has #### 49 apples. [end of text]
+
+

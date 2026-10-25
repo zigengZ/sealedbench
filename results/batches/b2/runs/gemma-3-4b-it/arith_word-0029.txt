@@ -1,0 +1,11 @@
+First, let's calculate the number of cookies from the first 9 packs: 9 packs * 8 cookies/pack = 72 cookies.
+
+Next, let's calculate the number of cookies from the 4 packs with 9 cookies each: 4 packs * 9 cookies/pack = 36 cookies.
+
+Now, let's find the total number of cookies Gina has before giving any to Dmitri: 72 cookies + 36 cookies = 108 cookies.
+
+Finally, let's subtract the number of cookies Gina gave to Dmitri: 108 cookies - 37 cookies = 71 cookies.
+
+####71 [end of text]
+
+

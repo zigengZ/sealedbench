@@ -1,0 +1,15 @@
+First, let's calculate the total number of tickets Hugo buys in the first set.
+
+3 packs * 6 tickets/pack = 18 tickets
+
+Next, let's calculate the total number of tickets Hugo buys in the second set.
+
+3 packs * 4 tickets/pack = 12 tickets
+
+Now, we add the tickets from both sets to find the total number of tickets Hugo has.
+
+18 tickets + 12 tickets = 30 tickets
+
+#### 30 [end of text]
+
+

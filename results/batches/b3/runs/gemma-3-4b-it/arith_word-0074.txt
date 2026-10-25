@@ -1,0 +1,8 @@
+First, find the total number of balloons Hugo has: 8 packs * 4 balloons/pack = 32 balloons.
+Then, Hugo gives away 28 balloons, leaving him with 32 - 28 = 4 balloons.
+Next, Rosa gives Hugo 8 balloons, so Hugo now has 4 + 8 = 12 balloons.
+Finally, calculate the total value of Hugo's balloons: 12 balloons * $6/balloon = $72.
+
+####72 [end of text]
+
+

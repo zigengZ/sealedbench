@@ -1,0 +1,314 @@
+{
+  "batch_id": "b2",
+  "ciphertext_txid": "95hD0B4sl_lXHi72z0TXA-xOihoQirS7SDP6c4zU64k",
+  "completions": [
+    {
+      "bytes": 100762,
+      "content_type": "application/gzip",
+      "model": "qwen3-4b-instruct-2507",
+      "receipt_path": "results/batches/b2/receipts/completions-qwen3-4b-instruct-2507.json",
+      "receipt_timestamp_ms": 1792389995507,
+      "round": 33188212,
+      "sha256": "a8e5434fe8e5db24cc1dbc7365b34c8aed464bb6aefd005e67046e0fe9bbf031",
+      "signature_variant": "dha-team-arbundles-deepHash",
+      "status": "UPLOADED",
+      "tags": [
+        {
+          "name": "Content-Type",
+          "value": "application/gzip"
+        },
+        {
+          "name": "App-Name",
+          "value": "SealedBench"
+        },
+        {
+          "name": "App-Version",
+          "value": "0.2.0"
+        },
+        {
+          "name": "Protocol",
+          "value": "sealedbench/v2"
+        },
+        {
+          "name": "Type",
+          "value": "completions-qwen3-4b-instruct-2507"
+        },
+        {
+          "name": "Batch",
+          "value": "b2"
+        },
+        {
+          "name": "Drand-Chain",
+          "value": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971"
+        },
+        {
+          "name": "Drand-Round",
+          "value": "33188212"
+        },
+        {
+          "name": "Unlock-Unix",
+          "value": "1792368000"
+        },
+        {
+          "name": "Unlock-UTC",
+          "value": "2026-10-19T00:00:00Z"
+        },
+        {
+          "name": "Content-SHA256",
+          "value": "a8e5434fe8e5db24cc1dbc7365b34c8aed464bb6aefd005e67046e0fe9bbf031"
+        }
+      ],
+      "txid": "2C8s7BB9mfeTM0DFpQTJlJeQQtZMPMlXoFSQbvHWO1w",
+      "unlock_unix": 1792368000,
+      "uploaded_utc": "2026-10-19T06:06:35Z",
+      "winc": "0"
+    },
+    {
+      "bytes": 79518,
+      "content_type": "application/gzip",
+      "model": "gemma-3-4b-it",
+      "receipt_path": "results/batches/b2/receipts/completions-gemma-3-4b-it.json",
+      "receipt_timestamp_ms": 1792389997162,
+      "round": 33188212,
+      "sha256": "895f3256abaea4ef63e697cc255142d7ec3e8b5cbea71e78a333dca57d8c8e50",
+      "signature_variant": "dha-team-arbundles-deepHash",
+      "status": "UPLOADED",
+      "tags": [
+        {
+          "name": "Content-Type",
+          "value": "application/gzip"
+        },
+        {
+          "name": "App-Name",
+          "value": "SealedBench"
+        },
+        {
+          "name": "App-Version",
+          "value": "0.2.0"
+        },
+        {
+          "name": "Protocol",
+          "value": "sealedbench/v2"
+        },
+        {
+          "name": "Type",
+          "value": "completions-gemma-3-4b-it"
+        },
+        {
+          "name": "Batch",
+          "value": "b2"
+        },
+        {
+          "name": "Drand-Chain",
+          "value": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971"
+        },
+        {
+          "name": "Drand-Round",
+          "value": "33188212"
+        },
+        {
+          "name": "Unlock-Unix",
+          "value": "1792368000"
+        },
+        {
+          "name": "Unlock-UTC",
+          "value": "2026-10-19T00:00:00Z"
+        },
+        {
+          "name": "Content-SHA256",
+          "value": "895f3256abaea4ef63e697cc255142d7ec3e8b5cbea71e78a333dca57d8c8e50"
+        }
+      ],
+      "txid": "c5OXg-6zu5BlRVhyeQGrN4dL1g347xi6WiC6oDlJCZ8",
+      "unlock_unix": 1792368000,
+      "uploaded_utc": "2026-10-19T06:06:37Z",
+      "winc": "0"
+    },
+    {
+      "bytes": 73292,
+      "content_type": "application/gzip",
+      "model": "ministral-3-3b-instruct-2512",
+      "receipt_path": "results/batches/b2/receipts/completions-ministral-3-3b-instruct-2512.json",
+      "receipt_timestamp_ms": 1792389998818,
+      "round": 33188212,
+      "sha256": "7f1fb49d6fa3faf91b3e62c5e04bcc09eb6b737de09f1205bf1e7a85c621ce2b",
+      "signature_variant": "dha-team-arbundles-deepHash",
+      "status": "UPLOADED",
+      "tags": [
+        {
+          "name": "Content-Type",
+          "value": "application/gzip"
+        },
+        {
+          "name": "App-Name",
+          "value": "SealedBench"
+        },
+        {
+          "name": "App-Version",
+          "value": "0.2.0"
+        },
+        {
+          "name": "Protocol",
+          "value": "sealedbench/v2"
+        },
+        {
+          "name": "Type",
+          "value": "completions-ministral-3-3b-instruct-2512"
+        },
+        {
+          "name": "Batch",
+          "value": "b2"
+        },
+        {
+          "name": "Drand-Chain",
+          "value": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971"
+        },
+        {
+          "name": "Drand-Round",
+          "value": "33188212"
+        },
+        {
+          "name": "Unlock-Unix",
+          "value": "1792368000"
+        },
+        {
+          "name": "Unlock-UTC",
+          "value": "2026-10-19T00:00:00Z"
+        },
+        {
+          "name": "Content-SHA256",
+          "value": "7f1fb49d6fa3faf91b3e62c5e04bcc09eb6b737de09f1205bf1e7a85c621ce2b"
+        }
+      ],
+      "txid": "0-kVqMzVXN-Gv5rv4-uuyJk0jmlMrInuG2onuGnzB98",
+      "unlock_unix": 1792368000,
+      "uploaded_utc": "2026-10-19T06:06:38Z",
+      "winc": "0"
+    },
+    {
+      "bytes": 84089,
+      "content_type": "application/gzip",
+      "model": "falcon3-1b-instruct",
+      "receipt_path": "results/batches/b2/receipts/completions-falcon3-1b-instruct.json",
+      "receipt_timestamp_ms": 1792390000476,
+      "round": 33188212,
+      "sha256": "329ec8781f58a5afc68fe4a3d0d5e7c74e386ea676f9a6dcb2a558f07517b86e",
+      "signature_variant": "dha-team-arbundles-deepHash",
+      "status": "UPLOADED",
+      "tags": [
+        {
+          "name": "Content-Type",
+          "value": "application/gzip"
+        },
+        {
+          "name": "App-Name",
+          "value": "SealedBench"
+        },
+        {
+          "name": "App-Version",
+          "value": "0.2.0"
+        },
+        {
+          "name": "Protocol",
+          "value": "sealedbench/v2"
+        },
+        {
+          "name": "Type",
+          "value": "completions-falcon3-1b-instruct"
+        },
+        {
+          "name": "Batch",
+          "value": "b2"
+        },
+        {
+          "name": "Drand-Chain",
+          "value": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971"
+        },
+        {
+          "name": "Drand-Round",
+          "value": "33188212"
+        },
+        {
+          "name": "Unlock-Unix",
+          "value": "1792368000"
+        },
+        {
+          "name": "Unlock-UTC",
+          "value": "2026-10-19T00:00:00Z"
+        },
+        {
+          "name": "Content-SHA256",
+          "value": "329ec8781f58a5afc68fe4a3d0d5e7c74e386ea676f9a6dcb2a558f07517b86e"
+        }
+      ],
+      "txid": "Gw8wu1EOsA-kQ17IVzQPMvMx2kOgCtDSaboAOf4utTs",
+      "unlock_unix": 1792368000,
+      "uploaded_utc": "2026-10-19T06:06:40Z",
+      "winc": "0"
+    }
+  ],
+  "dry_run": false,
+  "manifest_sha256": "d304125d451a00933e073f47168319739d9367ffc23aafffc14ad3c1feea6a0c",
+  "manifest_txid": "kVO8I3b3xRDewqzkPDEKqBsIcdobkgs-bM_zOx974w8",
+  "note": "Index is written after the run and is not a pre-commitment.",
+  "protocol_version": "sealedbench/v2",
+  "results": {
+    "bytes": 23445,
+    "content_type": "application/json",
+    "receipt_path": "results/batches/b2/receipts/results.json",
+    "receipt_timestamp_ms": 1792389993694,
+    "round": 33188212,
+    "sha256": "79f8da0fa51e1774f4fb39d1a074480e0d8dfa2df419efc09cf038b7291e0652",
+    "signature_variant": "dha-team-arbundles-deepHash",
+    "tags": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "App-Name",
+        "value": "SealedBench"
+      },
+      {
+        "name": "App-Version",
+        "value": "0.2.0"
+      },
+      {
+        "name": "Protocol",
+        "value": "sealedbench/v2"
+      },
+      {
+        "name": "Type",
+        "value": "results"
+      },
+      {
+        "name": "Batch",
+        "value": "b2"
+      },
+      {
+        "name": "Drand-Chain",
+        "value": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971"
+      },
+      {
+        "name": "Drand-Round",
+        "value": "33188212"
+      },
+      {
+        "name": "Unlock-Unix",
+        "value": "1792368000"
+      },
+      {
+        "name": "Unlock-UTC",
+        "value": "2026-10-19T00:00:00Z"
+      },
+      {
+        "name": "Content-SHA256",
+        "value": "79f8da0fa51e1774f4fb39d1a074480e0d8dfa2df419efc09cf038b7291e0652"
+      }
+    ],
+    "txid": "U_a-hM3yZJjYEowvtBg9LdB7pZQpqLSbJsNX3OvTtWM",
+    "unlock_unix": 1792368000,
+    "uploaded_utc": "2026-10-19T06:06:33Z",
+    "winc": "0"
+  }
+}

@@ -1,0 +1,19 @@
+First, find the total number of seats Tara sets out.
+
+She sets up:
+- 3 rows with 6 seats each:  
+  $3 \times 6 = 18$ seats
+
+Then she adds:
+- 3 rows with 8 seats each:  
+  $3 \times 8 = 24$ seats
+
+Total seats = $18 + 24 = 42$
+
+Then, 6 seats are sold.
+
+So, unsold seats = $42 - 6 = 36$
+
+#### 36 [end of text]
+
+

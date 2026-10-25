@@ -1,0 +1,13 @@
+Tommy sells brownies for $3 a slice and cheesecakes for $4 a slice.
+
+He sells 43 brownies, so the money from brownies is:  
+43 × $3 = $129
+
+He sells 23 slices of cheesecake, so the money from cheesecake is:  
+23 × $4 = $92
+
+Total money raised = $129 + $92 = $221
+
+#### 221 [end of text]
+
+

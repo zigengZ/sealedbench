@@ -1,0 +1,7 @@
+First, find the total number of notebooks Hugo buys: 9 packs * 4 notebooks/pack = 36 notebooks.
+Then, subtract the number of notebooks Hugo gives away: 36 notebooks - 5 notebooks = 31 notebooks.
+Finally, calculate the total value of the notebooks: 31 notebooks * $7/notebook = $217.
+
+####217 [end of text]
+
+

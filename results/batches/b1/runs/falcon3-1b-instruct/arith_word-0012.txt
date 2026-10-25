@@ -1,0 +1,15 @@
+First, let's calculate the total number of ribbons Pavel initially had:
+
+4 packs * 3 ribbons/pack = 12 ribbons
+
+Next, Pavel gives 9 ribbons to Kira:
+
+12 ribbons - 9 ribbons = 3 ribbons
+
+Then Kira gives Pavel 18 more ribbons:
+
+3 ribbons + 18 ribbons = 21 ribbons
+
+So, Pavel now has #### 21 ribbons. [end of text]
+
+

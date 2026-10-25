@@ -1,0 +1,103 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path (in terms of total weight)** from **Jules** to **Sage**.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Amber, Cedar, Cleo, Dove, Glen, Jules, Quill, Sage, Tess, Zed
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber–Cleo: 9  
+- Amber–Glen: 5  
+- Amber–Quill: 7  
+- Amber–Tess: 2  
+- Cedar–Cleo: 6  
+- Cedar–Jules: 4  
+- Cleo–Dove: 5  
+- Cleo–Zed: 8  
+- Dove–Sage: 9  
+- Dove–Tess: 5  
+- Dove–Zed: 2  
+- Glen–Quill: 3  
+- Jules–Quill: 3  
+- Jules–Tess: 2  
+
+---
+
+### Step 3: Goal — Shortest path from **Jules** to **Sage**
+
+We need to find the shortest path from Jules to Sage.
+
+We can use **Breadth-First Search (BFS)** or **Dijkstra’s algorithm** since all weights are positive. Given the small size, we can manually trace or use Dijkstra-style reasoning.
+
+Let’s build the graph from Jules and work outward.
+
+---
+
+### Step 4: Start from Jules
+
+Jules is connected to:
+- Cedar (4)
+- Quill (3)
+- Tess (2)
+
+So from Jules, we can go to:
+- Cedar (cost 4)
+- Quill (cost 3)
+- Tess (cost 2)
+
+We want to reach **Sage**, which is only directly connected to **Dove** (via edge Dove–Sage: 9)
+
+So to reach Sage, we must go through **Dove**.
+
+So we need to find a path from Jules → ... → Dove → Sage
+
+So we need to find shortest path from Jules to Dove, then add 9.
+
+So total path cost = (Jules → Dove) + 9
+
+So we now focus on finding the shortest path from **Jules to Dove**.
+
+---
+
+### Step 5: Find shortest path from Jules to Dove
+
+We can explore paths from Jules to Dove.
+
+#### Option 1: Jules → Quill → Glen → Quill → ...?  
+Wait, let's list all possible paths.
+
+From Jules:
+
+**Path 1: Jules → Quill (3)**  
+From Quill:
+- Amber (7)
+- Glen (3)
+- Jules (3)
+
+So Quill → Glen (3) → Glen → Amber (5) → Amber → Tess (2) → Tess → Dove (5)  
+Let’s compute that:
+
+Jules → Quill (3)  
+Quill → Glen (3)  
+Glen → Amber (5) — wait, is there a direct edge from Glen to Amber? Yes: Amber–Glen: 5  
+Then Amber → Tess: 2  
+Tess → Dove: 5  
+
+So total:  
+3 + 3 + 5 + 2 + 5 = **18**
+
+But is there a shorter path?
+
+Alternative:  
+Jules → Quill → Amber → Tess → Dove  
+Jules → Quill (3)  
+Quill → Amber (7) → that’s 3+7 = 10  
+Amber → Tess (2) → 12  
+Tess →
+

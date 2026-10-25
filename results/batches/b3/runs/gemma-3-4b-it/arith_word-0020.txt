@@ -1,0 +1,7 @@
+First, we calculate Dmitri's earnings on day 1: 16 dollars/hour * 8 hours = 128 dollars.
+Next, we calculate Dmitri's earnings on day 2: 16 dollars/hour * 5 hours = 80 dollars.
+Finally, we add the earnings from both days: 128 dollars + 80 dollars = 208 dollars.
+
+####208 [end of text]
+
+

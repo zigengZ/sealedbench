@@ -1,0 +1,17 @@
+Xavier earns $10 per hour and works 9 hours:
+
+$$
+10 \times 9 = 90 \text{ dollars}
+$$
+
+Then he spends $13:
+
+$$
+90 - 13 = 77 \text{ dollars}
+$$
+
+So, Xavier has **77 dollars** left.
+
+#### 77 [end of text]
+
+

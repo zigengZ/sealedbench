@@ -1,0 +1,49 @@
+We are given an undirected weighted graph with nodes:
+
+**Cedar, Drew, Glen, Hart, Kai, Nell, Oak, Vale, West**
+
+Edges and weights:
+
+- Cedar–Hart: 4  
+- Cedar–Kai: 9  
+- Drew–Hart: 5  
+- Glen–Kai: 6  
+- Hart–Nell: 7  
+- Hart–Vale: 6  
+- Hart–West: 1  
+- Kai–Oak: 8  
+- Kai–West: 2  
+- Oak–Vale: 9  
+- Oak–West: 6  
+
+We are to find the **shortest path from Kai to Nell**.
+
+---
+
+### Step 1: Understand the connections
+
+We want the shortest path from **Kai** to **Nell**.
+
+From the edges:
+
+- Kai is directly connected to:
+  - Cedar (9)
+  - Glen (6)
+  - Oak (8)
+  - West (2)
+
+- Nell is only connected to:
+  - Hart (7)
+
+So, to get from Kai to Nell, we must go through **Hart**, since Nell has only one neighbor.
+
+So, any path from Kai to Nell must go through Hart.
+
+Thus, we are looking for the shortest path:
+
+**Kai → X → Hart → Nell**
+
+Where X is any node connected to Hart or reachable from Kai via some path to Hart.
+
+But since the graph is small, we can consider all possible paths from Kai to Hart, then
+

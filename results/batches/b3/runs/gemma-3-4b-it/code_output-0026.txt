@@ -1,0 +1,19 @@
+The program initializes a list of words called `words`. It then initializes an empty string called `out`. The code iterates through the `words` list using a `for` loop and the `range` function. In each iteration, it extracts a word from the list and assigns it to the variable `piece`.
+
+Inside the loop, it checks if the index of the current word is divisible by 3. If it is, the `piece` is converted to uppercase.
+
+Next, it checks if the `out` string is empty. If it is, the `piece` is assigned to the `out` string. Otherwise, a hyphen '-' is concatenated with the `piece` and appended to the `out` string.
+
+Finally, after the loop finishes, the program prints the value of the `out` string.
+
+Let's trace the execution:
+
+- `words = ['juniper', 'lilac', 'north', 'brook', 'flint']`
+- `out = ""`
+
+Loop 1: `index = 0`, `piece = 'juniper'`. `index % 3 == 1` is false. `out == ""` is true, so `out = 'juniper'`.
+Loop 2: `index = 1`, `piece = 'lilac'`. `index % 3 == 1` is true, so `piece = 'LILAC'`. `out == ""` is false, so `out = 'juniper' - 'LILAC'`.
+Loop 3: `index = 2`, `piece = 'north'`. `index % 3 == 1` is false. `out == ""` is false, so `out = 'juniper' - 'LILAC' - 'north'`.
+Loop 4: `index = 3`, `piece = 'brook'`. `index % 3 == 1` is false. `out == ""` is false, so `out = 'juniper' - 'LILAC' - 'north' - 'brook'`.
+Loop 5: `index = 4`, `piece = 'flint'`. `index % 3 == 1` is true, so `piece = 'FLINT'`. `out == ""` is false, so `out = 'juniper' - 'LILAC' - 'north' - 'brook' - 'FLINT
+

@@ -1,0 +1,5 @@
+Rosa reads 12 pages a day for 5 days, so she reads 12 * 5 = 60 pages. Then she reads 35 more pages, making the total number of pages read 60 + 35 = 95 pages.
+
+#### 95 [end of text]
+
+

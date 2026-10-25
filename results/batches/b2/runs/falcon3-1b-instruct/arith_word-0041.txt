@@ -1,0 +1,22 @@
+First, let's calculate the total number of pages Rosa reads in one week.
+
+**Week 1:**
+- Pages read in the first book: \(16 \text{ pages/day} \times 2 \text{ days} = 32 \text{ pages}\)
+- Pages read in the second book: \(16 \text{ pages/day} \times 5 \text{ days} = 80 \text{ pages}\)
+- Total pages read in one week: \(32 + 80 = 112 \text{ pages}\)
+
+**Week 2:**
+- Pages read in the first book: \(16 \text{ pages/day} \times 2 \text{ days} = 32 \text{ pages}\)
+- Pages read in the second book: \(16 \text{ pages/day} \times 5 \text{ days} = 80 \text{ pages}\)
+- Total pages read in two weeks: \(32 + 80 + 32 + 80 = 216 \text{ pages}\)
+
+Now, let's account for the pages skipped:
+- Pages skipped: \(13 \text{ pages}\)
+
+**Total pages read in 2 weeks:**
+- Total pages read = Total pages read in two weeks - Pages skipped
+- Total pages read = \(216 - 13 = 203 \text{ pages}\)
+
+#### 203 [end of text]
+
+

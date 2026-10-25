@@ -1,0 +1,8 @@
+Victor starts with **6 packs × 8 tokens = 48 tokens**.
+After giving 33 to Xavier: **48 - 33 = 15 tokens**.
+Xavier returns 16 tokens: **15 + 16 = 31 tokens**.
+Total value: **31 × 7 = 217 dollars**.
+
+#### 217 [end of text]
+
+

@@ -1,0 +1,17 @@
+We are told:
+
+- On the first day, there were **2 containers**, each with **5 vehicles**.
+- So, total vehicles on the first day:  
+  $ 2 \times 5 = 10 $ vehicles.
+
+- On the second day, more containers were brought in, and the **total number of vehicles** became **30**.
+
+So, the number of vehicles added on the second day is:  
+$ 30 - 10 = 20 $ vehicles.
+
+Each container holds 5 vehicles, so the number of containers on the second day is:  
+$ 20 \div 5 = 4 $ containers.
+
+#### 4 [end of text]
+
+

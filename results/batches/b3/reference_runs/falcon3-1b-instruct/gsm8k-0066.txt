@@ -1,0 +1,22 @@
+First, let's calculate the number of players from the girls' teams:
+- Each school has 2 girls' teams, and each team has 5 players.
+- So, the total number of girls' players is \(2 \times 5 = 10\).
+
+Next, let's calculate the number of boys' teams:
+- Each school has 2 boys' teams, and each team has 5 players.
+- So, the total number of boys' players is \(2 \times 5 = 10\).
+
+Finally, let's calculate the total number of people sent by all schools:
+- Each school has 2 coaches (one for each team).
+- So, the total number of coaches is \(2 \times 2 = 4\).
+
+Now, let's sum up all these numbers:
+- Total players = 10 (girls') + 10 (boys') = 20
+- Total coaches = 4
+
+The total number of people sent by all schools is:
+#### 20 + 4 = 24
+
+So, the total number of people sent by all schools is 24. [end of text]
+
+

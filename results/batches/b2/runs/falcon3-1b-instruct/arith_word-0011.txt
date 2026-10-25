@@ -1,0 +1,21 @@
+First, let's calculate the total number of seats Chloe has set out.
+
+Total seats = Number of rows × Number of seats per row
+Total seats = 7 rows × 9 seats/row
+Total seats = 63 seats
+
+Next, we subtract the number of seats sold from the total number of seats to find the number of unsold seats.
+
+Unsold seats = Total seats - Sold seats
+Unsold seats = 63 seats - 49 seats
+Unsold seats = 14 seats
+
+Each unsold seat is worth 7 dollars. So, the total worth of the unsold seats is:
+
+Total worth = Unsold seats × Value per unsold seat
+Total worth = 14 seats × 7 dollars/seat
+Total worth = 98 dollars
+
+#### 98 [end of text]
+
+

@@ -1,0 +1,6 @@
+First, find the total number of tokens in the packs: 6 packs * 3 tokens/pack = 18 tokens.
+Then, add the tokens Zane gives her: 18 tokens + 18 tokens = 36 tokens.
+
+####36 [end of text]
+
+

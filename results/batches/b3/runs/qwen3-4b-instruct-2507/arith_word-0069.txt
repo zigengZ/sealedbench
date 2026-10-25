@@ -1,0 +1,19 @@
+First, find the total number of seats:
+
+- Aisha sets out 6 rows with 5 seats each:  
+  $6 \times 5 = 30$ seats
+
+- Then she adds 7 rows with 6 seats each:  
+  $7 \times 6 = 42$ seats
+
+- Total seats = $30 + 42 = 72$ seats
+
+Then, 15 seats are sold, so the number of **unsold seats** is:  
+$72 - 15 = 57$ seats
+
+Each unsold seat is worth $9, so the total value is:  
+$57 \times 9 = 513$ dollars
+
+#### 513 [end of text]
+
+

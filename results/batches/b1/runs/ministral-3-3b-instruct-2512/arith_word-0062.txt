@@ -1,0 +1,14 @@
+Felix starts with:
+8 packs × 3 tickets = 24 tickets
++ 2 packs × 5 tickets = 10 tickets
+Total tickets = 24 + 10 = 34 tickets
+
+After giving 23 tickets to Quinn:
+34 - 23 = 11 tickets left
+
+Each ticket is worth $4, so:
+11 tickets × $4 = $44
+
+#### 44 [end of text]
+
+

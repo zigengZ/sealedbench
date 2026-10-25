@@ -1,0 +1,37 @@
+To find the shortest path between Eden and Hart, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the source node (Eden) as 0 and all other nodes as infinity.
+   - Create a priority queue to store nodes with their tentative distances.
+
+2. **Process**:
+   - Extract the node with the smallest tentative distance from the priority queue.
+   - For each neighbor of the current node, calculate the tentative distance through the current node.
+   - If this new distance is less than the current known distance, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+   - The distance to the target node (Hart) will be the minimum distance found.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Eden': 6,
+    'Hart': 2,
+    'Lark': 4,
+    'Quill': 7,
+    'Reed': 8,
+    'Xen': 1
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Eden'] = 0
+
+# Priority queue to store nodes with their tentative distances
+priority_queue 
+

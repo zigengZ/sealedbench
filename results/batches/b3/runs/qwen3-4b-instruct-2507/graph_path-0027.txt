@@ -1,0 +1,95 @@
+We are given an undirected weighted graph with 9 nodes:
+
+**Nodes**: Blair, Fern, Jules, Kai, Moss, Quill, Tess, Uri, Vale  
+We are to find the **shortest path weight from Blair to Quill**.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Blair — Tess: 8  
+- Fern — Kai: 8  
+- Fern — Uri: 9  
+- Jules — Quill: 5  
+- Jules — Tess: 2  
+- Jules — Uri: 5  
+- Jules — Vale: 7  
+- Kai — Uri: 7  
+- Kai — Vale: 4  
+- Moss — Uri: 7  
+- Quill — Tess: 7  
+- Quill — Vale: 5  
+- Tess — Uri: 2  
+
+Note: All edges are undirected, so each edge appears once.
+
+---
+
+### Step 2: Goal — Shortest path from **Blair** to **Quill**
+
+We will perform a shortest path algorithm (like Dijkstra’s) starting from Blair.
+
+We need to compute the shortest distance from Blair to Quill.
+
+---
+
+### Step 3: Build adjacency list
+
+Let’s build the adjacency list:
+
+- Blair: [Tess: 8]  
+- Fern: [Kai: 8, Uri: 9]  
+- Jules: [Quill: 5, Tess: 2, Uri: 5, Vale: 7]  
+- Kai: [Fern: 8, Uri: 7, Vale: 4]  
+- Moss: [Uri: 7]  
+- Quill: [Jules: 5, Tess: 7, Vale: 5]  
+- Tess: [Blair: 8, Jules: 2, Uri: 2, Quill: 7]  
+- Uri: [Fern: 9, Jules: 5, Kai: 7, Moss: 7, Tess: 2]  
+- Vale: [Jules: 7, Kai: 4, Quill: 5]
+
+---
+
+### Step 4: Run Dijkstra’s algorithm from Blair
+
+Initialize distances:
+
+- dist[Blair] = 0  
+- All others = ∞
+
+Queue: (0, Blair)
+
+---
+
+**Step 1**: Process Blair (dist = 0)
+
+From Blair → Tess (8)
+
+Update:
+- dist[Tess] = 8
+
+Queue: (8, Tess)
+
+---
+
+**Step 2**: Process Tess (dist = 8)
+
+From Tess:
+- To Blair: already visited
+- To Jules: 2 → new path: 8 + 2 = 10 → update dist[Jules] = 10
+- To Uri: 2 → 8 + 2 = 10 → update dist[Uri] = 10
+- To Quill: 7 → 8 + 7 = 15 → update dist[Quill] = 15
+
+Queue: (10, Jules), (10, Uri), (15, Quill)
+
+---
+
+**Step 3**: Process Jules (dist = 10)
+
+From Jules:
+- To Quill: 5 → 10 + 5 = 15 → Quill already has 15 → no update
+- To Tess: already visited
+- To Uri: 5 → 10 + 5 = 15 → Uri already has 10 → no update
+- To Vale: 7 → 10 + 7 = 17 → update dist
+

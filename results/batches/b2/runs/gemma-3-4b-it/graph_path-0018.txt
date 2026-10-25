@@ -1,0 +1,13 @@
+We want to find the shortest path from Blair to York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Blair to York:
+1. Blair -> Lark -> Glen -> York: 6 + 2 + 3 = 11
+2. Blair -> Fern -> Lark -> Glen -> York: 9 + 1 + 2 + 3 = 15
+3. Blair -> Fern -> Moss -> Glen -> York: 9 + 2 + 5 + 3 = 19
+4. Blair -> Lark -> Cedar: This path doesn't lead to York.
+
+Comparing the paths, the shortest path is Blair -> Lark -> Glen -> York with a total weight of 11.
+
+#### 11 [end of text]
+
+

@@ -1,0 +1,5 @@
+Dmitri first sets up 7 rows of 6 seats each, which totals **42 seats** (7 × 6 = 42). Then he adds 6 more rows with 3 seats each, adding **18 seats** (6 × 3 = 18). The total number of seats is **60** (42 + 18 = 60). If 29 seats are sold, the unsold seats are **31**.
+
+#### 31 [end of text]
+
+

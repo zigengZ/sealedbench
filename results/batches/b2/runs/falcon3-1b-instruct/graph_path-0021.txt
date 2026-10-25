@@ -1,0 +1,62 @@
+To find the shortest path between Oak and Uri, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Oak) as 0.
+   - Set the distance to all other nodes as infinity.
+   - Create a priority queue to store nodes with their current shortest distance.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the path through the neighbor is shorter than the current known distance.
+   - Update the distance and add the neighbor to the priority queue if the new distance is smaller.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+   - The distance to Oak (which is the starting node) will be the total weight of the shortest path from Oak to Uri.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Fern': {'Oak': 5, 'Uri': 5},
+    'Glen': {'Quill': 7, 'Uri': 4},
+    'Jules': {'Oak': 2, 'Uri': 2},
+    'Oak': {'Quill': 7, 'Uri': 9},
+    'Quill': {'Oak': 7, 'Uri': 0},
+    'Uri': {'Oak': 5, 'Quill': 0}
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Oak'] = 0
+
+# Priority queue to store nodes with their current shortest distance
+priority_queue = [(0, 'Oak')]
+
+# Process nodes
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # If the current node is Oak, update the distance to Uri
+    if current_node == 'Oak':
+        distances['Uri'] = current_distance
+        heapq.heappush(priority_queue, (current_distance + graph['Oak']['Uri']) if graph['Uri']['Oak'] == 5 else 0)
+    
+    # Update distances to neighbors
+    for neighbor, weight in graph.items():
+        new_distance = current_distance + weight
+        if new_distance < distances[neighbor]:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance + graph[neighbor]['weight']) if graph[neighbor]['weight'] == 5 else 0)
+
+# Total weight of the shortest path from Oak to Uri
+total_weight = distances['Uri']
+print(total_weight)
+```
+
+#### 10 [end of text]
+
+

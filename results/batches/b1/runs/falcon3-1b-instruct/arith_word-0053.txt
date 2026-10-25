@@ -1,0 +1,9 @@
+First, calculate the total number of seats: 5 rows * 13 seats/row = 65 seats.
+
+Then, subtract the sold seats from the total: 65 seats - 64 seats = 1 seat.
+
+Each unsold seat is worth 8 dollars, so the worth of the unsold seats is: 1 seat * 8 dollars/seat = 8 dollars.
+
+#### 8 [end of text]
+
+

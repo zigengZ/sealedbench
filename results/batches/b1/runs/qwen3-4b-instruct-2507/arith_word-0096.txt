@@ -1,0 +1,15 @@
+First, find the total number of stickers Quinn buys:
+
+4 packs × 4 stickers per pack = 16 stickers
+
+Then, Quinn gives 13 stickers to Mina, so the number of stickers left is:
+
+16 - 13 = 3 stickers
+
+These 3 stickers are shared equally among 3 people:
+
+3 ÷ 3 = 1 sticker per person
+
+#### 1 [end of text]
+
+

@@ -1,0 +1,14 @@
+First, find the total number of oranges Felix buys:
+
+- 8 packs × 12 oranges each = 96 oranges  
+- 2 packs × 7 oranges each = 14 oranges  
+
+Total oranges = 96 + 14 = 110 oranges
+
+These are shared equally among 2 people:
+
+110 ÷ 2 = 55 oranges per person
+
+#### 55 [end of text]
+
+

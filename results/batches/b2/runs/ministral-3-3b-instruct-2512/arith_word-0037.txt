@@ -1,0 +1,8 @@
+Boris reads **9 pages/day × 5 days = 45 pages** from the first book.
+He reads **11 pages/day × 4 days = 44 pages** from the second book.
+Total pages read before skipping: **45 + 44 = 89 pages**.
+After skipping 42 blank pages: **89 - 42 = 47 pages**.
+
+#### 47 [end of text]
+
+

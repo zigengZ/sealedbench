@@ -1,0 +1,14 @@
+Let's calculate the yearly profit.
+The tree costs $90 initially.
+Each year, the tree grows 7 lemons, and each lemon sells for $1.5, so the revenue is 7 * $1.5 = $10.5.
+The cost to water and feed the tree is $3 per year.
+The yearly profit is $10.5 - $3 = $7.5.
+
+To find out how many years it takes to earn back the initial cost of $90, we divide the initial cost by the yearly profit:
+$90 / $7.5 = 12 years.
+
+It will take 12 years to start earning money on the lemon tree.
+
+####12 [end of text]
+
+

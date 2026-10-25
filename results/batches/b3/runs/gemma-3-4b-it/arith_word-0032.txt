@@ -1,0 +1,11 @@
+First, let's calculate the number of balloons in the 8 packs: 8 packs * 9 balloons/pack = 72 balloons.
+
+Next, let's calculate the number of balloons in the 6 packs: 6 packs * 5 balloons/pack = 30 balloons.
+
+Now, let's find the total number of balloons Elena has before giving any to Nico: 72 balloons + 30 balloons = 102 balloons.
+
+Finally, let's subtract the number of balloons Elena gave to Nico: 102 balloons - 70 balloons = 32 balloons.
+
+#### 32 [end of text]
+
+

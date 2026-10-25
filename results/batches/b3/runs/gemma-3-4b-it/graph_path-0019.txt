@@ -1,0 +1,28 @@
+We want to find the shortest path between Fern and Glen in the given undirected weighted graph.
+
+Nodes: Bay, Fern, Glen, Hart, Moss, Poe, Sage, Xen
+Edges:
+Bay Sage 6
+Fern Hart 9
+Glen Sage 9
+Hart Sage 7
+Moss Poe 9
+Moss Xen 6
+Poe Sage 1
+Poe Xen 3
+Sage Xen 2
+
+We can use Dijkstra's algorithm or simply explore possible paths.
+
+Path 1: Fern -> Hart -> Sage -> Glen
+Weight: 9 + 7 + 9 = 25
+
+Path 2: Fern -> Hart -> Sage -> Xen -> Moss -> Poe -> Sage -> Glen (This is longer)
+
+Path 3: Fern -> Hart -> Sage -> Poe -> Xen -> Moss -> Poe -> Sage -> Glen (This is longer)
+
+The shortest path is Fern -> Hart -> Sage -> Glen with a total weight of 25.
+
+#### 25 [end of text]
+
+

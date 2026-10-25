@@ -1,0 +1,30 @@
+To find the shortest path from **Hart** to **Tess**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Hart** with distance = 0.
+   - All other nodes have distance = ∞.
+   - Priority queue: `[(Hart, 0)]`.
+
+2. **Relax edges from Hart**:
+   - **Hart → Moss**: 1 → Update `Moss = 1`.
+   - **Hart → Dove**: 3 (via `Bay` is longer, so skip for now).
+   - Queue: `[(Dove, 3), (Moss, 1)]`.
+
+3. **Process Moss (distance = 1)**:
+   - No outgoing edges from **Moss** → skip.
+
+4. **Process Dove (distance = 3)**:
+   - **Dove → Poe**: 7 → Update `Poe = 3 + 7 = 10`.
+   - Queue: `[(Poe, 10)]`.
+
+5. **Process Poe (distance = 10)**:
+   - **Poe → Tess**: 7 → Update `Tess = 10 + 7 = 17`.
+   - Queue: `[(Tess, 17)]`.
+
+6. **Process Tess (distance = 17)**:
+   - No outgoing edges → stop.
+
+### Shortest Path:
+- **Hart → Moss → ... → Tess** (via
+

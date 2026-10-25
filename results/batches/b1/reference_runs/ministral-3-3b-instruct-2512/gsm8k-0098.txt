@@ -1,0 +1,17 @@
+Let’s denote the number of cars that drove through in the first 15 minutes as **x**.
+
+Given:
+- Total cars initially: 30
+- Cars that took an exit: 5
+- Cars that drove through in the first 15 minutes: **x**
+- Cars that drove through in the next 15 minutes: 20
+
+The total number of cars accounted for is:
+**x + 20 + 5 = 30**
+
+Solving for **x**:
+**x = 30 - 20 - 5 = 5**
+
+#### 5 [end of text]
+
+

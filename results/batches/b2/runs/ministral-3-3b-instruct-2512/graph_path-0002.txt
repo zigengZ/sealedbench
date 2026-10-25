@@ -1,0 +1,28 @@
+To find the shortest path from **Amber** to **Reed**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Amber** with distance = 0.
+2. **Update neighbors**:
+   - Amber → Glen (4), Amber → Poe (1), Amber → Tess (2).
+3. **Next, pick Poe (distance = 1)** and update:
+   - Poe has no outgoing edges (no path yet).
+4. **Next, pick Tess (distance = 2)** and update:
+   - Tess has no outgoing edges.
+5. **Next, pick Glen (distance = 4)** and update:
+   - Glen → Quill (4 + 4 = 8), Glen → York (4 + 3 = 7).
+6. **Next, pick York (distance = 7)** and update:
+   - York has no outgoing edges to Reed.
+7. **Next, pick Quill (distance = 8)** and update:
+   - Quill has no outgoing edges to Reed.
+8. **Next, pick Dove (via York or Reed, but no direct path yet)**.
+9. **Finally, pick Reed (distance = 7 + 1 = 8)** via Oak (Amber → Glen → York → Reed = 4 + 3 + 1 = 8).
+   - But wait, let's check the direct path:
+     - Amber → Poe (1) → Dove → Reed (6) → Total = 1 + 6 = 7.
+     - Amber → Tess (2) → Dove → Reed (6) → Total = 2 + 6 = 8.
+     - Amber → Glen → York → Reed (1) → Total = 4 + 3 + 1 = 8.
+     - Amber → Glen → Quill → Nell → York → Reed (3) → Total = 4 + 5 + 3 + 1 = 13 (too long).
+   - The shortest path is **Amber → Poe → Dove → Reed** with total weight **7**.
+
+#### 7 [end of text]
+
+

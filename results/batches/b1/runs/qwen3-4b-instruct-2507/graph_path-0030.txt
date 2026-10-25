@@ -1,0 +1,51 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Bay, Dove, Eden, Hart, Moss, Poe, Tess  
+**Edges and weights**:
+- Bay — Eden: 7  
+- Bay — Hart: 6  
+- Bay — Tess: 4  
+- Dove — Hart: 3  
+- Dove — Poe: 7  
+- Eden — Poe: 6  
+- Hart — Moss: 1  
+- Poe — Tess: 7  
+
+We are to find the **shortest path from Hart to Tess** in terms of total weight.
+
+---
+
+### Step 1: Understand the graph structure
+
+We want the shortest path from **Hart** to **Tess**.
+
+Let’s list all possible paths from Hart to Tess and compute their weights.
+
+---
+
+### Path 1: Hart → Tess (direct?)
+Check if there's a direct edge:  
+No direct edge between Hart and Tess.  
+So we must go through intermediate nodes.
+
+---
+
+### Path 2: Hart → Dove → Poe → Tess  
+- Hart → Dove: 3  
+- Dove → Poe: 7  
+- Poe → Tess: 7  
+Total = 3 + 7 + 7 = **17**
+
+---
+
+### Path 3: Hart → Bay → Tess  
+- Hart → Bay: 6 (since undirected, Bay–Hart = 6)  
+- Bay → Tess: 4  
+Total = 6 + 4 = **10**
+
+This is better than 17.
+
+---
+
+### Path 
+

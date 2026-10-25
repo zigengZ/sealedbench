@@ -1,0 +1,7 @@
+First, find the total number of ribbons Quinn has: 9 packs * 11 ribbons/pack = 99 ribbons.
+Then, Quinn gives away 19 ribbons, so she has 99 - 19 = 80 ribbons left.
+Finally, calculate the total value of Quinn's remaining ribbons: 80 ribbons * $4/ribbon = $320.
+
+####320 [end of text]
+
+

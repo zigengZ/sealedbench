@@ -1,0 +1,14 @@
+Let Darrell's age be **7x** and Allen's age be **11x**.
+
+Given their total age is 162:
+7x + 11x = 162
+18x = 162
+x = 9
+
+Allen's current age = 11x = 11 * 9 = 99
+
+Allen's age 10 years from now = 99 + 10 = 109
+
+#### 109 [end of text]
+
+

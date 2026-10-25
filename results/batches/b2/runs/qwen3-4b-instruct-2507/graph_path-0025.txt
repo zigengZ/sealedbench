@@ -1,0 +1,104 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Amber, Bay, Cedar, Drew, Glen, Hart, Poe, York  
+**Edges and weights**:
+
+- Amber–Bay: 6  
+- Amber–Poe: 8  
+- Amber–York: 1  
+- Bay–Hart: 1  
+- Bay–Poe: 6  
+- Cedar–Drew: 8  
+- Cedar–Glen: 1  
+- Cedar–Hart: 3  
+- Drew–Poe: 7  
+- Glen–Hart: 4  
+- Glen–Poe: 2  
+
+We are to find the **shortest path from Hart to York**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the problem
+
+We need the shortest path from **Hart** to **York**.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), or manually trace possible paths due to small size.
+
+---
+
+### Step 2: List all edges from Hart
+
+From the edges:
+
+- Hart is connected to:
+  - Bay (1)
+  - Cedar (3)
+  - Glen (4)
+
+So from Hart, we can go to:
+- Bay (cost 1)
+- Cedar (cost 3)
+- Glen (cost 4)
+
+We want to reach **York**.
+
+York is only directly connected to:
+- Amber (1)
+
+So to reach York, we must go through **Amber**.
+
+Amber is connected to:
+- Bay (6)
+- Poe (8)
+- York (1)
+
+So the only way to reach York is via **Amber**.
+
+Therefore, any path from Hart to York must go through **Amber**.
+
+So we need to find the shortest path from **Hart → Amber**, then **Amber → York** (which is 1).
+
+So total path weight = (shortest path from Hart to Amber) + 1
+
+---
+
+### Step 3: Find shortest path from Hart to Amber
+
+We now find the shortest path from **Hart** to **Amber**.
+
+We can do this by exploring paths from Hart to Amber.
+
+#### Paths from Hart to Amber:
+
+1. Hart → Bay → Amber  
+   - Hart–Bay: 1  
+   - Bay–Amber: 6  
+   - Total: 1 + 6 = 7
+
+2. Hart → Cedar → Amber?  
+   - Is there a direct edge from Cedar to Amber? No.  
+   - Cedar is connected to: Drew (8), Glen (1), Hart (3)  
+   - So from Cedar, can go to Glen or Drew.
+
+   Try: Hart → Cedar → Glen → Amber?  
+   - Hart–Cedar: 3  
+   - Cedar–Glen: 1  
+   - Glen–Amber? No edge. So invalid.
+
+   Try: Hart → Cedar → Drew → ?  
+   - Drew connected to: Cedar (8), Poe (7)  
+   - Poe connected to: Amber (8), Bay (6), Glen (2)  
+   - So: Hart → Cedar → Drew → Poe → Amber  
+     - Hart–Cedar: 3  
+     - Cedar–Drew: 8  
+     - Drew–Poe: 7  
+     - Poe–Amber: 8  
+     - Total: 3 + 8 + 7 + 8 = 26 → too long
+
+   Try: Hart → Cedar → Glen → Poe → Amber  
+     - Hart–Cedar: 3  
+     - Cedar–Glen: 1  
+     - Glen–Poe: 2  
+     - Poe–
+

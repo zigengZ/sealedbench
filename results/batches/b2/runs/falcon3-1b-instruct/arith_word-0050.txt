@@ -1,0 +1,17 @@
+First, calculate the total number of stickers Yara bought:
+
+3 packs * 12 stickers/pack = 36 stickers
+
+Then, calculate the total number of stickers Yara bought:
+
+4 packs * 2 stickers/pack = 8 stickers
+
+Total stickers = 36 + 8 = 44 stickers
+
+Now, calculate the total value of the stickers:
+
+44 stickers * 4 dollars/sticker = 176 dollars
+
+#### 176 [end of text]
+
+

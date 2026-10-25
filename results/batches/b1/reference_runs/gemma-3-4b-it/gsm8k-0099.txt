@@ -1,0 +1,7 @@
+First, find the total number of plants Mary already has: 2 plants/ledge * 40 ledges = 80 plants.
+Then, find the total number of plants she will give away: 1 plant/ledge * 40 ledges = 40 plants.
+Finally, subtract the number of plants given away from the total number of plants she has: 80 plants - 40 plants = 40 plants.
+
+####40 [end of text]
+
+

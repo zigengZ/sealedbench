@@ -1,0 +1,7 @@
+First, find the total number of oranges Esme buys: 4 packs * 6 oranges/pack = 24 oranges.
+Then, subtract the number of oranges she gives away: 24 oranges - 17 oranges = 7 oranges.
+
+####7
+ [end of text]
+
+

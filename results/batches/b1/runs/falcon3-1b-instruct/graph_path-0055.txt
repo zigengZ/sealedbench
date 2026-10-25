@@ -1,0 +1,31 @@
+To find the shortest path between Hart and Uri, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Hart as 0 and to Uri as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance to Uri will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Ash', 'Bay', 'Eden', 'Hart', 'Nell', 'Poe', 'Sage', 'Uri']
+distances = {node: float('infinity') for node in nodes}
+distances['Hart'] = 0
+distances['Uri'] = float('infinity')
+
+# Priority queue implementation
+priority_queue = [(0, {'Hart': 0, 
+

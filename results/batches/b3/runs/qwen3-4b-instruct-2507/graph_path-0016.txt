@@ -1,0 +1,86 @@
+We are given an undirected weighted graph with 9 nodes:
+
+**Nodes**: Blair, Cedar, Drew, Fern, Jules, Kai, Quill, Uri, Zed  
+**Edges and weights**:
+
+- Blair–Drew: 7  
+- Blair–Kai: 7  
+- Cedar–Jules: 3  
+- Cedar–Kai: 3  
+- Cedar–Zed: 7  
+- Drew–Jules: 2  
+- Drew–Quill: 5  
+- Fern–Kai: 4  
+- Fern–Uri: 9  
+- Kai–Uri: 6  
+- Kai–Zed: 7  
+
+We are to find the **shortest path from Fern to Zed** in terms of total weight.
+
+---
+
+### Step 1: Understand the structure
+
+We need to find the shortest path from **Fern** to **Zed**.
+
+Fern is connected to:
+- Kai (weight 4)
+- Uri (weight 9)
+
+Zed is connected to:
+- Cedar (7)
+- Kai (7)
+
+So possible paths from Fern to Zed:
+
+1. **Fern → Kai → Zed**  
+   Weight: 4 + 7 = **11**
+
+2. **Fern → Uri → Kai → Zed**  
+   Weight: 9 + 6 + 7 = **22**
+
+3. **Fern → Kai → Cedar → Zed**  
+   Weight: 4 + 3 + 7 = **14**
+
+4. **Fern → Uri → Kai → Cedar → Zed**  
+   Weight: 9 + 6 + 3 + 7 = **25**
+
+5. **Fern → Kai → Jules → Drew → Quill** — doesn't help reach Zed
+
+6. **Fern → Kai → Jules → Drew → ???** — no direct path to Zed
+
+So only paths that reach Zed are through Kai or through Cedar.
+
+We already have:
+- Fern → Kai → Zed: 11
+- Fern → Kai → Cedar → Zed: 14
+- Fern → Uri → Kai → Zed: 22
+- Fern → Uri → Kai → Cedar → Zed: 25
+
+So the shortest is **Fern → Kai → Zed** with total weight **11**
+
+Is there any shorter path?
+
+What about via Jules or Drew?
+
+Fern → Kai → Jules → Drew → ???  
+Drew is connected to Blair and Jules and Quill.  
+No edge from Drew to Zed or Cedar directly (Cedar–Zed is 7, but no path from Drew to Cedar directly).  
+Drew–Jules: 2, Jules–Cedar: 3 → so Drew → Jules → Cedar → Zed:  
+Drew → Jules: 2, Jules → Cedar: 3, Cedar → Zed: 7 → total 12  
+But to get to Drew from Fern:  
+Fern → Kai → Drew? No direct edge.  
+Fern → Kai → Jules → Drew?  
+Kai → Jules? No edge.  
+So no path from Fern to Drew directly.
+
+Fern → Kai → Jules → Drew → Quill → ??? — no connection to Zed.
+
+So no path from Fern to Zed via Drew or Jules.
+
+Only viable paths are through Kai or Uri.
+
+Uri → Kai → Zed: 6 + 7 = 13, plus Fern → Uri: 9 → total 22
+
+So best is **Fern → Kai → Zed**: 4 + 7 =
+

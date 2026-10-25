@@ -1,0 +1,45 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path between Nell and Sage**, and return the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Amber, Cleo, Jules, Kai, Nell, Sage, Vale, West, Zed
+
+---
+
+### Step 2: List all edges with weights
+
+- Amber – Sage: 3  
+- Amber – Vale: 6  
+- Amber – West: 6  
+- Cleo – Nell: 1  
+- Jules – Zed: 9  
+- Kai – Nell: 3  
+- Kai – West: 7  
+- Nell – West: 2  
+- Sage – Vale: 2  
+- Vale – Zed: 1  
+- West – Zed: 8  
+
+---
+
+### Step 3: Goal — Shortest path from **Nell to Sage**
+
+We will find the shortest path from Nell to Sage using a shortest path algorithm (like Dijkstra’s), since all weights are positive.
+
+We can do this manually by exploring possible paths.
+
+---
+
+### Step 4: Explore paths from Nell to Sage
+
+#### Path 1: Nell → Sage  
+Direct? Is there an edge?  
+No direct edge between Nell and Sage.
+
+#### Path 2: Nell → Kai → West → Sage?  
+- Nell → Kai: 3  
+- Kai → West: 7  
+- West → Sage?
+

@@ -1,0 +1,27 @@
+To find the shortest path from **Xen** to **York**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Xen**: 0
+   - All other nodes: ∞
+   - Predecessor: None
+
+2. **Expand from Xen**:
+   - **Eden** (distance = 8)
+   - Others remain ∞
+
+3. **Expand from Eden** (next closest):
+   - **Blair** (distance = 10 via Eden-Blair)
+   - **Kai** (distance = 10 via Eden-Kai)
+   - Others remain ∞
+
+4. **Expand from Kai** (next closest):
+   - **Oak** (distance = 18 via Kai-Oak)
+   - **York** (distance = 19 via Kai-York)
+
+5. **Final Shortest Path**:
+   - **Xen → Eden → Kai → York** with total weight **19**.
+
+#### 19 [end of text]
+
+

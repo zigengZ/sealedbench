@@ -1,0 +1,8 @@
+First, find the total number of oranges Ben buys: 4 packs * 4 oranges/pack = 16 oranges.
+Then, Ben has 16 oranges - 7 oranges = 9 oranges left.
+Finally, calculate the total value of Ben's remaining oranges: 9 oranges * $2/orange = $18.
+
+####18
+ [end of text]
+
+

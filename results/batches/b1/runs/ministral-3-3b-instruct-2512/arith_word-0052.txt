@@ -1,0 +1,7 @@
+Ivy starts with 2 rows of 6 seats each, totaling 12 seats.
+Then she adds 2 rows of 3 seats each, adding 6 more seats, making it 18 seats total.
+After selling 4 seats, the remaining unsold seats are 18 - 4 = 14.
+
+#### 14 [end of text]
+
+

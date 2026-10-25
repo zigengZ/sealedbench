@@ -1,0 +1,15 @@
+Let $x$ be the number of cars that drove through the traffic jam in the first 15 minutes.
+In the remaining 15 minutes, 20 cars drove through.
+5 cars took an exit, so they didn't drive through the jam.
+The original number of cars was 30.
+
+The number of cars that drove through the jam is the original number minus the number that took an exit and minus the number that drove through in the second 15 minutes.
+So, $x = 30 - 5 - 20$.
+$x = 30 - 25$
+$x = 5$
+
+Therefore, 5 cars drove through the traffic jam in the first 15 minutes.
+
+#### 5 [end of text]
+
+

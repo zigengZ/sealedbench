@@ -1,0 +1,7 @@
+First, find the total meters James runs in one week for one set of sprints: 3 sprints * 60 meters/sprint = 180 meters.
+
+Next, find the total meters he runs in a week: 180 meters/week * 3 sets = 540 meters.
+
+####540 [end of text]
+
+

@@ -1,0 +1,248 @@
+{
+  "binary": "/root/.cache/sealedbench/llama.cpp/build/bin/llama-completion",
+  "system_prompt": "Solve the grade-school math problem. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it.",
+  "seed": 42,
+  "ctx": 2048,
+  "n_predict": 320,
+  "temp": 0,
+  "top_k": 1,
+  "top_p": 1,
+  "min_p": 0,
+  "repeat_penalty": 1,
+  "presence_penalty": 0,
+  "frequency_penalty": 0,
+  "reasoning": "off",
+  "jinja": true,
+  "prompt_cache": false,
+  "byte_compare": "stdout completion bytes, not stderr timings",
+  "answer_extraction": {
+    "gold": "####\\s*(-?\\d[\\d,]*)",
+    "pred_hash": "####\\s*(-?\\d[\\d,]*(?:\\.\\d+)?)",
+    "pred_fallback": "-?\\d[\\d,]*(?:\\.\\d+)?",
+    "normalize": "strip commas; strip a trailing .0; exact string match"
+  },
+  "gsm8k": "results/cpu/gsm8k_test.jsonl",
+  "models": [
+    {
+      "id": "qwen3-4b-instruct-2507",
+      "family": "Qwen3",
+      "params": "4B",
+      "quant": "Q8_0",
+      "license": "apache-2.0",
+      "release_note": "base repo Qwen/Qwen3-4B-Instruct-2507 created 2025-08-05; GGUF from ggml-org",
+      "context_note": "Qwen3 4B Instruct 2507, non-thinking",
+      "sha256": "ae916ede1c010a26955ee8ae2e908bf8815a3f135ec860439ab924701c69d5f1",
+      "file": "qwen3-4b-instruct-2507-q8_0.gguf",
+      "url": "https://huggingface.co/ggml-org/Qwen3-4B-Instruct-2507-Q8_0-GGUF/resolve/main/qwen3-4b-instruct-2507-q8_0.gguf",
+      "n_ctx_train": null,
+      "gsm8k_correct": 46,
+      "gsm8k_n": 50,
+      "hit_cap": 0,
+      "load_failures": 0,
+      "prompt_tps_median": null,
+      "prompt_tps_min": null,
+      "prompt_tps_max": null,
+      "gen_tps_median": null,
+      "gen_tps_min": null,
+      "gen_tps_max": null,
+      "rendered_prompt_sha256": "d013fd0cbe6c4319a336769fd8acc21f8755181f69ec9025ed6fca704bd58070",
+      "rendered_prompt_bytes": 498,
+      "determinism": {
+        "t6_repeat": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "threads_4": {
+          "identical": false,
+          "n": 10,
+          "mismatches": [
+            {
+              "i": 4,
+              "left_sha256": "84b32c8dd1c26679f86b9e7a8e0a3d2f4fac34eec7f5653a24596389a0bd9e0a",
+              "right_sha256": "b3cf84265ae244b2bec95b32005e0b49fbbb9212f352ebc9cdca188b9d376f8d",
+              "left_bytes": 678,
+              "right_bytes": 684
+            },
+            {
+              "i": 7,
+              "left_sha256": "43f705ec426aa6d5dfc7a739e9aec0054ae15f75b49adac3e1000fc76a2a11a5",
+              "right_sha256": "e0ae7c8b88fa2503533a55aea8b49649614c67b4b0ab8da09ae64e14da835d91",
+              "left_bytes": 982,
+              "right_bytes": 983
+            }
+          ]
+        },
+        "batch": {
+          "identical": false,
+          "n": 10,
+          "mismatches": [
+            {
+              "i": 4,
+              "left_sha256": "84b32c8dd1c26679f86b9e7a8e0a3d2f4fac34eec7f5653a24596389a0bd9e0a",
+              "right_sha256": "b3cf84265ae244b2bec95b32005e0b49fbbb9212f352ebc9cdca188b9d376f8d",
+              "left_bytes": 678,
+              "right_bytes": 684
+            },
+            {
+              "i": 8,
+              "left_sha256": "1464d50c7fc936ce0ab8f829e89e17535034f819ec5f189a7b68c423e6148390",
+              "right_sha256": "18c045867835232874b9198f8dadb045945bcc3ef4ce97a6a661b2c5e6a29eae",
+              "left_bytes": 898,
+              "right_bytes": 837
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gemma-3-4b-it",
+      "family": "Gemma 3",
+      "params": "4B",
+      "quant": "Q8_0",
+      "license": "gemma",
+      "release_note": "google/gemma-3-4b-it created 2025-02-20; Q8_0 from ggml-org",
+      "context_note": "text GGUF only; mmproj not downloaded",
+      "sha256": "97b06383df48336e7d2f9b56b6ce545e0fa476407a62c0bd081b53447a58e644",
+      "file": "gemma-3-4b-it-Q8_0.gguf",
+      "url": "https://huggingface.co/ggml-org/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q8_0.gguf",
+      "n_ctx_train": null,
+      "gsm8k_correct": 41,
+      "gsm8k_n": 50,
+      "hit_cap": 0,
+      "load_failures": 0,
+      "prompt_tps_median": null,
+      "prompt_tps_min": null,
+      "prompt_tps_max": null,
+      "gen_tps_median": null,
+      "gen_tps_min": null,
+      "gen_tps_max": null,
+      "rendered_prompt_sha256": "b617e4f52945baccc027e9232c10ffb2f57b866b7f1d463ad8b852cea5dc306a",
+      "rendered_prompt_bytes": 475,
+      "determinism": {
+        "t6_repeat": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "threads_4": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "batch": {
+          "identical": false,
+          "n": 10,
+          "mismatches": [
+            {
+              "i": 4,
+              "left_sha256": "9b2b821d28e7b9bfc2d97d802c3d6508f6ef3fef8f2be3d13aa4e89c26309bc8",
+              "right_sha256": "4ef3e7f8cdfabc7175ef87d204dd698b6b8a21a3a735929ce9fb5414f4225f9e",
+              "left_bytes": 363,
+              "right_bytes": 349
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ministral-3-3b-instruct-2512",
+      "family": "Ministral 3",
+      "params": "3B",
+      "quant": "Q8_0",
+      "license": "apache-2.0",
+      "release_note": "mistralai/Ministral-3-3B-Instruct-2512 created 2025-10-31; Q8_0 from ggml-org",
+      "context_note": "text GGUF only; mmproj not downloaded",
+      "sha256": "70c6e5b77435062a46bfa3f0b9fa21744a10161ed23eabe9fdc47b3fb6711ad3",
+      "file": "Ministral-3-3B-Instruct-2512-Q8_0.gguf",
+      "url": "https://huggingface.co/ggml-org/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-Q8_0.gguf",
+      "n_ctx_train": null,
+      "gsm8k_correct": 39,
+      "gsm8k_n": 50,
+      "hit_cap": 0,
+      "load_failures": 0,
+      "prompt_tps_median": null,
+      "prompt_tps_min": null,
+      "prompt_tps_max": null,
+      "gen_tps_median": null,
+      "gen_tps_min": null,
+      "gen_tps_max": null,
+      "rendered_prompt_sha256": "93b2d2a1cc8c05535b20d31bb22a440115eb055e77eb366d7d1aed861a270977",
+      "rendered_prompt_bytes": 462,
+      "determinism": {
+        "t6_repeat": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "threads_4": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "batch": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        }
+      }
+    },
+    {
+      "id": "falcon3-1b-instruct",
+      "family": "Falcon3",
+      "params": "1B",
+      "quant": "Q8_0",
+      "license": "other (Falcon / TII)",
+      "release_note": "tiiuae/Falcon3-1B-Instruct created 2024-12-14",
+      "context_note": "official GGUF from the model org",
+      "sha256": "dda44709157103fc272ea3c44ae0deb7fbec5b2d82b313362680dec08e66f57a",
+      "file": "Falcon3-1B-Instruct-q8_0.gguf",
+      "url": "https://huggingface.co/tiiuae/Falcon3-1B-Instruct-GGUF/resolve/main/Falcon3-1B-Instruct-q8_0.gguf",
+      "n_ctx_train": null,
+      "gsm8k_correct": 19,
+      "gsm8k_n": 50,
+      "hit_cap": 0,
+      "load_failures": 0,
+      "prompt_tps_median": null,
+      "prompt_tps_min": null,
+      "prompt_tps_max": null,
+      "gen_tps_median": null,
+      "gen_tps_min": null,
+      "gen_tps_max": null,
+      "rendered_prompt_sha256": "227fa354934a1cda4f3181000d6354842ffac5e31db80bba866e391148074a64",
+      "rendered_prompt_bytes": 454,
+      "determinism": {
+        "t6_repeat": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "threads_4": {
+          "identical": true,
+          "n": 10,
+          "mismatches": []
+        },
+        "batch": {
+          "identical": false,
+          "n": 10,
+          "mismatches": [
+            {
+              "i": 4,
+              "left_sha256": "7e7ee470a362e1ddc2ad60acb5d6936f49ca4cb261e6ac81001e286c7c36454e",
+              "right_sha256": "0def7879bab0ddcd61ccb666df85d80cde3b185c1b1f157f1040b5d013c4ffbf",
+              "left_bytes": 665,
+              "right_bytes": 745
+            },
+            {
+              "i": 8,
+              "left_sha256": "8b41a5942ccc85b3a88d83734f30ef089af57d9f631c7a1fbeeed890daf84795",
+              "right_sha256": "7d09cc243b9f6144d31506a0b0c689b357e76fd3d7b31c4d898c6e061f740155",
+              "left_bytes": 733,
+              "right_bytes": 745
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+First, let's calculate the total number of buttons from the first 9 packs: 9 packs * 10 buttons/pack = 90 buttons.
+
+Next, let's calculate the total number of buttons from the 4 packs with 6 buttons each: 4 packs * 6 buttons/pack = 24 buttons.
+
+Now, let's find the total number of buttons Jamal has before giving any to Ava: 90 buttons + 24 buttons = 114 buttons.
+
+Then, Jamal gives 66 buttons to Ava, so he has 114 - 66 = 48 buttons left.
+
+Finally, the 48 buttons are shared equally among 4 people, so each person gets 48 / 4 = 12 buttons.
+
+#### 12 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, we find the number of boys. Since there are twice as many boys as girls, and there are 60 girls, there are 2 * 60 = 120 boys.
+
+Next, we find the total number of students. The total number of students is the number of boys plus the number of girls, which is 120 + 60 = 180 students.
+
+Finally, we find the number of teachers. Since there are 5 students to every teacher, the number of teachers is 180 / 5 = 36 teachers.
+
+####36 [end of text]
+
+

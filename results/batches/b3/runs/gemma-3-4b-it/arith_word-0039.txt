@@ -1,0 +1,8 @@
+Kira earns $26 per hour.
+On day 1, she works 4 hours, so she earns 4 * $26 = $104.
+On day 2, she works 4 hours, so she earns 4 * $26 = $104.
+Total earnings are $104 + $104 = $208.
+
+####208 [end of text]
+
+

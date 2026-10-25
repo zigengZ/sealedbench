@@ -1,0 +1,19 @@
+First, calculate the total number of seats initially set out:
+
+7 rows × 10 seats/row = 70 seats
+
+Then, calculate the total number of seats added:
+
+7 rows × 8 seats/row = 56 seats
+
+Next, find the total number of seats after both additions:
+
+70 seats (initial) + 56 seats (added) = 126 seats
+
+Finally, determine how many seats are still unsold:
+
+126 seats (total) - 105 seats (sold) = 21 seats
+
+#### 21 [end of text]
+
+

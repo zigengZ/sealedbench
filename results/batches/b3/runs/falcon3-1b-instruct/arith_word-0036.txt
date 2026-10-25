@@ -1,0 +1,21 @@
+First, let's calculate the total number of badges Felix has after the transactions.
+
+Felix buys 5 packs of badges, and each pack contains 8 badges.
+So, the total number of badges Felix has initially is:
+5 packs * 8 badges/pack = 40 badges
+
+Next, Felix gives 25 badges to Nico.
+So, the number of badges Felix has left is:
+40 badges - 25 badges = 15 badges
+
+Then, Nico gives Felix 23 more badges.
+So, the total number of badges Felix has now is:
+15 badges + 23 badges = 38 badges
+
+Each badge is worth 9 dollars.
+To find the total value of Felix's badges, we multiply the number of badges by the value per badge:
+38 badges * 9 dollars/badge = 342 dollars
+
+#### 342 [end of text]
+
+

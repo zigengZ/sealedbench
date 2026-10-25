@@ -1,0 +1,8 @@
+Hugo starts with **8 packs × 4 balloons = 32 balloons**.
+After giving 28 to Rosa, he has **32 - 28 = 4 balloons**.
+Rosa then gives him 8 more, so he now has **4 + 8 = 12 balloons**.
+Each balloon is worth $6, so Hugo's balloons are worth **12 × 6 = 72 dollars**.
+
+#### 72 [end of text]
+
+

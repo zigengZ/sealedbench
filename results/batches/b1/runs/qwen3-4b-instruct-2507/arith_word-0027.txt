@@ -1,0 +1,15 @@
+First, calculate the number of seats in the original 12 rows with 12 seats each:
+
+12 rows × 12 seats = 144 seats
+
+Next, calculate the number of seats in the 4 additional rows with 10 seats each:
+
+4 rows × 10 seats = 40 seats
+
+Now, add both amounts together:
+
+144 + 40 = 184 seats
+
+#### 184 [end of text]
+
+

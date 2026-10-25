@@ -1,0 +1,5 @@
+Quinn starts with 4 packs, each containing 12 tokens, so that's 4 × 12 = 48 tokens. Zane adds 13 more tokens, so Quinn has 48 + 13 = 61 tokens.
+
+#### 61 [end of text]
+
+

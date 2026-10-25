@@ -1,0 +1,25 @@
+Let's break down the problem step by step:
+
+1. **Monday:**
+   - Number of articles written = 5
+   - Time spent per article = 4 hours
+   - Total time spent on Monday = 5 articles × 4 hours/article = 20 hours
+
+2. **Tuesday:**
+   - Number of articles written = \( \frac{2}{5} \) of Monday's articles
+   - Number of articles on Tuesday = \( \frac{2}{5} \times 5 = 2 \) articles
+   - Time spent per article = 4 hours
+   - Total time spent on Tuesday = 2 articles × 4 hours/article = 8 hours
+
+3. **Wednesday:**
+   - Number of articles written = 2 times Tuesday's articles
+   - Number of articles on Wednesday = 2 × 2 = 4 articles
+   - Time spent per article = 4 hours
+   - Total time spent on Wednesday = 4 articles × 4 hours/article = 16 hours
+
+4. **Total time spent over the three days:**
+   - Total time = Monday's time + Tuesday's time + Wednesday's time
+   - Total time = 20 hours + 8 hours + 16 hours = 44 hours
+
+#### 4
+

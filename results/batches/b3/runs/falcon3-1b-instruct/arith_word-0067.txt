@@ -1,0 +1,12 @@
+First, calculate the total number of muffins Tara initially bought:
+4 packs * 4 muffins/pack = 16 muffins
+
+Next, subtract the muffins given to Chloe:
+16 muffins - 5 muffins = 11 muffins
+
+Then, add the muffins Chloe gave Tara:
+11 muffins + 10 muffins = 21 muffins
+
+So, Tara has #### 21 muffins. [end of text]
+
+

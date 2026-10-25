@@ -1,0 +1,15 @@
+We want to find the shortest path between Amber and Quill in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Amber to Quill:
+1. Amber -> Kai -> Quill: Weight = 6 + 6 = 12
+2. Amber -> Poe -> Quill: Weight = 1 + 2 = 3
+3. Amber -> Eden -> Quill: Weight =  (No direct edge)
+   - Amber -> Eden -> Indigo -> Kai -> Quill: Weight = (No direct edge)
+   - Amber -> Eden -> Kai -> Quill: Weight = (No direct edge)
+   - Amber -> Eden -> Poe -> Quill: Weight = (No direct edge)
+
+Comparing the paths, the shortest path is Amber -> Poe -> Quill with a total weight of 3.
+
+#### 3 [end of text]
+
+

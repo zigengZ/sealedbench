@@ -1,0 +1,47 @@
+To find the shortest path from **Hart** to **Vale**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Hart** (distance = 0).
+2. **Neighbors of Hart** (distance updates):
+   - **Kai**: 0 + 8 = 8
+   - **Quill**: 0 + 9 = 9
+   - **Vale**: 0 + 9 = 9
+3. **Next, pick the smallest unvisited distance** (Kai at 8):
+   - **Neighbors of Kai**:
+     - **Vale**: 8 + 2 = 10 (worse than current 9, skip).
+4. **Next, pick Quill (distance 9)**:
+   - **Neighbors of Quill**:
+     - **Drew**: 9 + 1 = 10 (skip, already visited).
+     - **Vale**: 9 + 2 = 11 (worse than current 9, skip).
+5. **Next, pick Vale (distance 9)** (already reached, no updates).
+6. **Alternative path via Drew**:
+   - **Drew → Quill → Vale**: 2 + 1 + 2 = 5 (but this is not valid since Quill is not directly connected to Vale).
+   - **Actual shortest path**: **Hart → Quill → Vale** (9 + 2 = 11) is not optimal.
+   - **Better path**: **Hart → Vale** (direct edge, weight = 9).
+
+Wait, let's recheck the edges:
+- **Hart → Vale** is directly connected with weight **9**.
+- **Hart → Quill → Vale**: 9 + 2 = 11 (worse).
+- **Hart → Kai → Vale**: 8 + 2 = 10 (worse).
+- **Hart → Nell → Vale**: Not directly connected (Nell → Vale is 8, but no direct edge from Hart to Nell).
+
+Thus, the **shortest path is Hart → Vale** with weight **9**.
+
+But wait, let's verify if there's a shorter path via other nodes:
+- **Hart → Quill → Vale**: 9 + 2 = 11 (longer).
+- **Hart → Kai → Vale**: 8 + 2 = 10 (longer).
+- **Hart → Drew → Quill → Vale**: 2 + 1 + 2 = 5? No, because **Drew → Quill** is 1, but **Quill → Vale** is 2, so total is 9 + 2 = 11 (same as direct).
+
+Wait, no, the direct edge **Hart → Vale** is 9, which is the shortest.
+
+But let's check if there's a path with lower weight:
+- **Hart → Vale** is 9.
+- **Hart → Quill → Vale** is 9 + 2 = 11.
+- **Hart → Kai → Vale** is 8 + 2 = 10.
+- **Hart → Nell → Vale**: No direct edge from Hart to Nell, so invalid.
+
+Thus, the shortest path is **Hart → Vale** with weight **9**.
+
+But wait, let's check if there's a path via **Drew**:
+- **Hart → Drew → Quill → Vale**: 2 + 1 + 2 = 5? No, because **Hart → Drew** is not directly connected (no edge from Hart to Drew). The
+

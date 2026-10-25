@@ -1,0 +1,7 @@
+Lloyd produces 252 eggs daily. At $2 per dozen, that's 252 ÷ 12 = 21 dozen per day. At $2 per dozen, daily earnings are 21 × $2 = $42.
+
+A week has 7 days, so weekly earnings are 7 × $42 = $294.
+
+#### 294 [end of text]
+
+

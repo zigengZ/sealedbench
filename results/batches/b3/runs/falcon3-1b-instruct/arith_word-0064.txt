@@ -1,0 +1,15 @@
+First, calculate the total number of cookies Yara initially bought:
+2 packs * 4 cookies/pack = 8 cookies
+
+Then, calculate the total number of cookies Yara bought after the second purchase:
+2 packs * 7 cookies/pack = 14 cookies
+
+Next, add the cookies from the first purchase to the cookies from the second purchase:
+8 cookies + 14 cookies = 22 cookies
+
+Finally, subtract the cookies given to Esme from the total cookies:
+22 cookies - 13 cookies = 9 cookies
+
+So, Yara has #### 9 cookies. [end of text]
+
+

@@ -1,0 +1,8 @@
+First, find the total number of magnets Diego has: 7 packs * 7 magnets/pack = 49 magnets.
+Then, subtract the magnets Diego gave to Cara: 49 magnets - 11 magnets = 38 magnets.
+Finally, divide the remaining magnets by the number of people: 38 magnets / 2 people = 19 magnets/person.
+
+####19
+ [end of text]
+
+

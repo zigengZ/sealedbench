@@ -1,0 +1,8 @@
+Tara starts with **6 packs × 7 pencils = 42 pencils**.
+After giving 18 to Hugo: **42 – 18 = 24 pencils**.
+Hugo returns 4 pencils: **24 + 4 = 28 pencils**.
+Each pencil is worth $3, so **28 × 3 = 84 dollars**.
+
+#### 84 [end of text]
+
+

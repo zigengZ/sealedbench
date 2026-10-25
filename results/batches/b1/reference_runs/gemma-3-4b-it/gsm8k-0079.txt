@@ -1,0 +1,9 @@
+First, calculate the discount amount: 30% of $100 is (30/100) * $100 = $30.
+
+Then, subtract the discount from the original price: $100 - $30 = $70.
+
+The grooming costs $70.
+
+#### 70 [end of text]
+
+

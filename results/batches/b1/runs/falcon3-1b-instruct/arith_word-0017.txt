@@ -1,0 +1,23 @@
+First, let's calculate Tara's total earnings for the two days.
+
+Day 1: 
+Earnings = Hours worked * Hourly wage 
+= 6 hours * $18/hour 
+= $108
+
+Day 2: 
+Earnings = Hours worked * Hourly wage 
+= 6 hours * $18/hour 
+= $108
+
+Total earnings for both days = $108 + $108 = $216
+
+Tara spends $204, so we subtract this from the total earnings:
+
+Remaining earnings = Total earnings - Expenses 
+= $216 - $204 
+= $12
+
+Tara has #### 12 dollars left. [end of text]
+
+

@@ -1,0 +1,9 @@
+Jamal starts with 9 packs of 10 buttons each: **9 × 10 = 90 buttons**.
+Then he buys 4 packs of 6 buttons each: **4 × 6 = 24 buttons**.
+Total buttons before sharing: **90 + 24 = 114 buttons**.
+After giving 66 buttons to Ava: **114 - 66 = 48 buttons**.
+Sharing equally among 4 people: **48 ÷ 4 = 12 buttons per person**.
+
+#### 12 [end of text]
+
+

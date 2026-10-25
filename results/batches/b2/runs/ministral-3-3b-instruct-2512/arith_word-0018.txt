@@ -1,0 +1,7 @@
+Kira earns **$42** in two days (14 dollars/hour × 6 hours = 84 dollars, but she only works 3 hours each day, so 14 × 3 × 2 = 84 dollars).
+
+After spending **$7**, she has **$77** left.
+
+#### 77 [end of text]
+
+

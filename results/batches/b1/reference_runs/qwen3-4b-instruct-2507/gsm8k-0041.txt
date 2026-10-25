@@ -1,0 +1,21 @@
+We are given:
+
+- The dragon's fire reaches **1000 feet**.
+- Normally, Polly can throw the javelin **400 feet**.
+- When holding the **sapphire gemstone**, she can throw it **three times farther** than usual.
+
+So, with the gemstone:
+
+- Distance = 3 × 400 = **1200 feet**
+
+Now, the question is: **How far outside the dragon's reach (1000 feet)** can Polly stand and still hit the dragon?
+
+That means: How much **beyond 1000 feet** can she throw?
+
+So:
+
+1200 feet (with gemstone) − 1000 feet (dragon's reach) = **200 feet**
+
+#### 200 [end of text]
+
+

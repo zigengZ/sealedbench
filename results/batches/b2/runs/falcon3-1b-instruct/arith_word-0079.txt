@@ -1,0 +1,9 @@
+First, calculate the total number of muffins: 3 packs * 3 muffins/pack = 9 muffins.
+
+Then, subtract the muffin given to Olga: 9 muffins - 1 muffin = 8 muffins.
+
+Finally, divide the remaining muffins equally among 4 people: 8 muffins / 4 people = 2 muffins/person.
+
+#### 2 [end of text]
+
+

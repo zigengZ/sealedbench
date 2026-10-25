@@ -1,0 +1,68 @@
+We want to find the shortest path between Cleo and Dove in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Cleo Hart: 9
+- Cleo Quill: 5
+- Dove Lark: 9
+- Fern Hart: 8
+- Fern Quill: 8
+- Hart Lark: 4
+- Hart Poe: 9
+- Lark Nell: 9
+- Lark Poe: 9
+- Poe Quill: 5
+
+We can explore possible paths from Cleo to Dove:
+1. Cleo -> Hart -> Lark -> Nell (not to Dove)
+2. Cleo -> Hart -> Poe -> Lark -> Nell (not to Dove)
+3. Cleo -> Hart -> Lark -> Dove (not an edge)
+4. Cleo -> Quill -> Poe -> Lark -> Dove (not an edge)
+5. Cleo -> Quill -> Lark -> Dove (not an edge)
+6. Cleo -> Hart -> Fern -> Quill -> Poe -> Lark -> Dove (too long)
+7. Cleo -> Quill -> Fern -> Hart -> Lark -> Dove (too long)
+
+Let's consider the direct paths:
+- Cleo -> Hart -> Lark -> Dove:  9 + 4 + ? (no direct edge)
+- Cleo -> Quill -> Lark -> Dove: 5 + ? + ? (no direct edge)
+
+Let's consider paths through other nodes:
+- Cleo -> Hart -> Poe -> Lark -> Dove: 9 + 9 + 9 + ? (no direct edge)
+- Cleo -> Quill -> Poe -> Lark -> Dove: 5 + 5 + 9 + ? (no direct edge)
+
+However, we can consider the path Cleo -> Quill -> Lark -> Dove.
+Cleo -> Quill: 5
+Quill -> Lark: No direct edge.
+But we have Dove -> Lark: 9. So we need to get to Lark from Cleo.
+
+Let's consider the path Cleo -> Hart -> Lark -> Dove.
+Cleo -> Hart: 9
+Hart -> Lark: 4
+Lark -> Dove: No direct edge.
+
+Let's consider the path Cleo -> Quill -> Poe -> Lark -> Dove.
+Cleo -> Quill: 5
+Quill -> Poe: 5
+Poe -> Lark: 9
+Lark -> Dove: No direct edge.
+
+Let's consider the path Cleo -> Hart -> Poe -> Lark -> Nell. This doesn't lead to Dove.
+
+Let's consider the path Cleo -> Quill -> Fern -> Hart -> Lark -> Dove. This is too long.
+
+Let's consider the path Cleo -> Hart -> Lark -> Nell. This doesn't lead to Dove.
+
+Let's consider the path Cleo -> Quill -> Fern -> Hart -> Lark -> Dove. This is too long.
+
+Let's consider the path Cleo -> Hart -> Lark -> Dove. This doesn't exist.
+
+Let's consider the path Cleo -> Quill -> Lark -> Dove. This doesn't exist.
+
+The shortest path is Cleo -> Hart -> Lark -> Dove. However, there is no direct edge between Lark and Dove.
+Let's consider the path Cleo -> Quill -> Poe -> Lark -> Dove. This doesn't exist.
+
+The shortest path is Cleo -> Hart -> Lark -> Dove. This doesn't exist.
+
+Let's consider the path Cleo -> Quill -> Poe -> Lark -> Nell. This doesn't lead to Dove.
+
+Let's consider the path Cleo -> Hart -> Poe -> Quill -> Fern -> Hart -> Lark
+

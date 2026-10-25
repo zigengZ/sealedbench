@@ -1,0 +1,8 @@
+Cara starts with 10 rows of 12 seats: 10 × 12 = 120 seats.
+Then adds 8 rows of 7 seats: 8 × 7 = 56 seats.
+Total seats = 120 + 56 = 176 seats.
+Subtract sold seats: 176 - 45 = 131 seats unsold.
+
+#### 131 [end of text]
+
+

@@ -1,0 +1,8 @@
+First, we calculate Zane's earnings on day 1: 20 dollars/hour * 6 hours = 120 dollars.
+Next, we calculate Zane's earnings on day 2: 20 dollars/hour * 3 hours = 60 dollars.
+Then, we calculate Zane's earnings on day 3: 20 dollars/hour * 3 hours = 60 dollars.
+Finally, we add up the earnings from all three days: 120 dollars + 60 dollars + 60 dollars = 240 dollars.
+
+####240 [end of text]
+
+

@@ -1,0 +1,17 @@
+Terry eats 2 yogurts a day.
+
+Over 30 days, he eats:  
+2 yogurts/day × 30 days = 60 yogurts.
+
+The yogurts are on sale: 4 yogurts for $5.00.
+
+So, the cost per 4 yogurts is $5.00.  
+Number of sets of 4 yogurts in 60 yogurts:  
+60 ÷ 4 = 15 sets.
+
+Total cost:  
+15 sets × $5.00 = $75.00.
+
+#### 75 [end of text]
+
+

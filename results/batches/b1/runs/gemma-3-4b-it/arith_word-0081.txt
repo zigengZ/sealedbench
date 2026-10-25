@@ -1,0 +1,13 @@
+First, let's calculate the number of oranges from the 6 packs: 6 packs * 12 oranges/pack = 72 oranges.
+
+Next, let's calculate the number of oranges from the 2 packs: 2 packs * 8 oranges/pack = 16 oranges.
+
+Now, let's find the total number of oranges Nico has: 72 oranges + 16 oranges = 88 oranges.
+
+Then, Nico gives away 41 oranges, so he has 88 oranges - 41 oranges = 47 oranges left.
+
+Finally, let's calculate the total value of Nico's oranges: 47 oranges * $7/orange = $329.
+
+####329 [end of text]
+
+

@@ -1,0 +1,12 @@
+First, calculate the total number of muffins from the packs Gina bought.
+5 packs * 12 muffins/pack = 60 muffins
+
+Next, calculate the total number of muffins from the packs Gina bought.
+3 packs * 3 muffins/pack = 9 muffins
+
+Now, add the two totals together to find the total number of muffins Gina has.
+60 muffins + 9 muffins = 69 muffins
+
+#### 69 [end of text]
+
+

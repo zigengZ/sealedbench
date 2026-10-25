@@ -1,0 +1,12 @@
+Gina buys 7 packs of balloons, and each pack has 9 balloons.  
+So, total balloons = 7 × 9 = 63 balloons.
+
+She gives 7 balloons to Kira, so she has:  
+63 − 7 = 56 balloons left.
+
+Each balloon is worth $7, so the worth of Gina's balloons is:  
+56 × 7 = 392 dollars.
+
+#### 392 [end of text]
+
+

@@ -1,0 +1,5 @@
+Hugo reads **26 pages** from the first book (13 pages/day × 2 days) and **18 pages** from the second book (9 pages/day × 2 days). Adding them together: 26 + 18 = **44 pages**.
+
+#### 44 [end of text]
+
+

@@ -1,0 +1,5 @@
+Willa reads **18 pages** from the first book (6 pages/day × 3 days) and **28 pages** from the second book (7 pages/day × 4 days), totaling **46 pages**. After skipping 40 blank pages, she reads **6 pages**.
+
+#### 6 [end of text]
+
+

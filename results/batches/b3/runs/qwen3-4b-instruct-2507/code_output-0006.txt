@@ -1,0 +1,31 @@
+Let's trace through the program step by step:
+
+```python
+total = 0
+for value in range(5):
+    if value == 4:
+        total = total + 0
+    else:
+        total = total + value
+print(total)
+```
+
+The `range(5)` generates values: 0, 1, 2, 3, 4.
+
+We go through each value:
+
+- value = 0: not equal to 4 → total = 0 + 0 = 0
+- value = 1: not equal to 4 → total = 0 + 1 = 1
+- value = 2: not equal to 4 → total = 1 + 2 = 3
+- value = 3: not equal to 4 → total = 3 + 3 = 6
+- value = 4: equal to 4 → total = 6 + 0 = 6
+
+Final value of `total` is 6.
+
+The program prints `6`.
+
+```
+6
+``` [end of text]
+
+

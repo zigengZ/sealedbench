@@ -1,0 +1,13 @@
+First, calculate the total cost of the five cell phones: 5 phones * $150/phone = $750.
+
+Next, calculate the interest for each phone: $150 * 0.02 = $3.
+
+Then, calculate the total interest for all phones: $3/phone * 5 phones = $15.
+
+Finally, calculate the total cost including interest: $750 + $15 = $765.
+
+Divide the total cost by the number of months to find the monthly payment: $765 / 3 months = $255/month.
+
+#### 255 [end of text]
+
+

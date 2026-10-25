@@ -1,0 +1,19 @@
+Yara buys:
+
+- 2 packs of 4 cookies each:  
+  $2 \times 4 = 8$ cookies
+
+- 2 packs of 7 cookies each:  
+  $2 \times 7 = 14$ cookies
+
+Total cookies before giving any away:  
+$8 + 14 = 22$ cookies
+
+She gives 13 cookies to Esme:  
+$22 - 13 = 9$ cookies
+
+So, Yara has **9** cookies left.
+
+#### 9 [end of text]
+
+

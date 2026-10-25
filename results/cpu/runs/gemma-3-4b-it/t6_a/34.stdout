@@ -1,0 +1,16 @@
+Let R be the number of jewels Raymond has.
+Let A be the number of jewels Aaron has.
+Let S be the number of jewels Siobhan has.
+
+We are given that Raymond has 40 jewels, so R = 40.
+Aaron has 5 more jewels than half of Raymond's jewels.
+So, A = (1/2) * R + 5 = (1/2) * 40 + 5 = 20 + 5 = 25.
+Siobhan has 2 fewer jewels than Aaron.
+So, S = A - 2 = 25 - 2 = 23.
+
+Therefore, Siobhan has 23 jewels.
+
+####23
+ [end of text]
+
+

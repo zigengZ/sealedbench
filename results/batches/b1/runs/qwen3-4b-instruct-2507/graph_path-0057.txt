@@ -1,0 +1,35 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Blair, Eden, Nell, Oak, Quill, Sage, Vale, Xen  
+**Edges and weights**:
+
+- Blair – Quill: 4  
+- Blair – Xen: 8  
+- Eden – Nell: 7  
+- Eden – Vale: 2  
+- Nell – Sage: 8  
+- Nell – Vale: 3  
+- Oak – Quill: 6  
+- Oak – Vale: 7  
+- Quill – Sage: 6  
+- Quill – Xen: 1  
+
+We are to find the **shortest path from Sage to Vale**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build the graph and look for paths from **Sage** to **Vale**.
+
+Let’s list all edges from each node:
+
+- **Blair**: Quill (4), Xen (8)  
+- **Eden**: Nell (7), Vale (2)  
+- **Nell**: Eden (7), Sage (8), Vale (3)  
+- **Oak**: Quill (6), Vale (7)  
+- **Quill**: Blair (4), Oak (6), Sage (6), Xen (1)  
+- **Sage**: Nell (8), Quill (6)  
+- **Vale**: Eden (2), Nell (3), Oak (7)  
+- **Xen**: Blair (8), Quill (
+

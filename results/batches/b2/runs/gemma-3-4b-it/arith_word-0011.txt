@@ -1,0 +1,8 @@
+First, find the total number of seats: 7 rows * 9 seats/row = 63 seats.
+Then, find the number of unsold seats: 63 seats - 49 seats sold = 14 seats.
+Finally, find the total value of the unsold seats: 14 seats * 7 dollars/seat = 98 dollars.
+
+####98
+ [end of text]
+
+

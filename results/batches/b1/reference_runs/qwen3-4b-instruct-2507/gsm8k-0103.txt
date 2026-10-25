@@ -1,0 +1,26 @@
+We are told:
+
+- The fog bank covers **3 miles in 10 minutes**.
+- The city is **42 miles** across.
+
+We need to find out how many minutes it takes to cover the entire 42 miles.
+
+---
+
+**Step 1: Find the rate of coverage**
+
+3 miles → 10 minutes  
+So, rate = 10 minutes / 3 miles
+
+**Step 2: Multiply rate by total distance**
+
+Time = (10 minutes / 3 miles) × 42 miles  
+= (10 × 42) / 3  
+= 420 / 3  
+= 140 minutes
+
+---
+
+#### 140 [end of text]
+
+

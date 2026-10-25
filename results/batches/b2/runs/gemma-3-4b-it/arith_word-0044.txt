@@ -1,0 +1,6 @@
+First, find the total number of seats: 12 rows * 16 seats/row = 192 seats.
+Then, subtract the number of seats sold from the total number of seats: 192 seats - 165 seats = 27 seats.
+
+####27 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, find the total number of tokens Leo has: 4 packs * 4 tokens/pack = 16 tokens.
+Then, Leo has 16 tokens - 8 tokens = 8 tokens left.
+Finally, calculate the total value of Leo's tokens: 8 tokens * $9/token = $72.
+
+####72 [end of text]
+
+

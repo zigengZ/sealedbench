@@ -1,0 +1,553 @@
+{
+  "batch_id": "b3",
+  "batch_valid": null,
+  "models": {
+    "falcon3-1b-instruct": {
+      "arith_minus_gsm8k": {
+        "diff": 0.325,
+        "newcombe95": [
+          0.1728431923515382,
+          0.4566583968258903
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.5875,
+          "accuracy_among_parsed": 0.7833333333333333,
+          "baseline": {
+            "distinct_observed_answers": 67,
+            "uniform_over_observed_answers": 0.014925373134328358
+          },
+          "correct": 47,
+          "invalid": 20,
+          "invalid_rate": 0.25,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 60,
+          "templates": {
+            "buy_give": 4,
+            "buy_give_price": 2,
+            "buy_give_receive": 3,
+            "buy_give_receive_price": 5,
+            "buy_give_share": 1,
+            "buy_receive": 1,
+            "days_plus": 1,
+            "days_plus_skip": 5,
+            "one_day_spend": 5,
+            "rows_left": 2,
+            "rows_price": 2,
+            "three_days": 6,
+            "two_books": 6,
+            "two_books_skip": 4,
+            "two_books_weeks": 5,
+            "two_buys_give": 4,
+            "two_buys_give_price": 3,
+            "two_buys_give_share": 3,
+            "two_buys_share": 3,
+            "two_days": 2,
+            "two_days_spend": 2,
+            "two_sections": 3,
+            "two_sections_price": 6,
+            "two_sections_sold": 2
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.47804040345890164,
+            0.6889414238723812
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.06666666666666667,
+          "accuracy_among_parsed": 0.06666666666666667,
+          "baseline": {
+            "distinct_observed_answers": 28,
+            "uniform_over_observed_answers": 0.03571428571428571
+          },
+          "correct": 2,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 30,
+          "templates": {
+            "acc": 3,
+            "digit_sum": 6,
+            "filter": 2,
+            "nested": 1,
+            "pairs": 2,
+            "range_sum": 3,
+            "string": 7,
+            "window": 6
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.03333333333333333,
+          "accuracy_among_parsed": 0.058823529411764705,
+          "baseline": {
+            "distinct_observed_answers": 15,
+            "uniform_over_observed_answers": 0.06666666666666667
+          },
+          "correct": 1,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 3
+          },
+          "invalid": 13,
+          "invalid_rate": 0.43333333333333335,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 17,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 4,
+            "nodes-7": 3,
+            "nodes-8": 7,
+            "nodes-9": 8
+          },
+          "truncated": 2,
+          "truncated_rate": 0.06666666666666667,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.2625,
+        "accuracy_among_parsed": 0.42,
+        "correct": 21,
+        "invalid": 30,
+        "invalid_rate": 0.375,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 50,
+        "truncated": 1,
+        "truncated_rate": 0.0125,
+        "wilson95": [
+          0.1785740148850936,
+          0.36818959664428175
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    },
+    "gemma-3-4b-it": {
+      "arith_minus_gsm8k": {
+        "diff": -0.07500000000000001,
+        "newcombe95": [
+          -0.2110389589286312,
+          0.06485669159344654
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.25,
+          "accuracy_among_parsed": 1.0,
+          "baseline": {
+            "distinct_observed_answers": 67,
+            "uniform_over_observed_answers": 0.014925373134328358
+          },
+          "correct": 20,
+          "invalid": 60,
+          "invalid_rate": 0.75,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 20,
+          "templates": {
+            "buy_give": 4,
+            "buy_give_price": 2,
+            "buy_give_receive": 3,
+            "buy_give_receive_price": 5,
+            "buy_give_share": 1,
+            "buy_receive": 1,
+            "days_plus": 1,
+            "days_plus_skip": 5,
+            "one_day_spend": 5,
+            "rows_left": 2,
+            "rows_price": 2,
+            "three_days": 6,
+            "two_books": 6,
+            "two_books_skip": 4,
+            "two_books_weeks": 5,
+            "two_buys_give": 4,
+            "two_buys_give_price": 3,
+            "two_buys_give_share": 3,
+            "two_buys_share": 3,
+            "two_days": 2,
+            "two_days_spend": 2,
+            "two_sections": 3,
+            "two_sections_price": 6,
+            "two_sections_sold": 2
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.16806231857542375,
+            0.3548467461923397
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.5666666666666667,
+          "accuracy_among_parsed": 0.7727272727272727,
+          "baseline": {
+            "distinct_observed_answers": 28,
+            "uniform_over_observed_answers": 0.03571428571428571
+          },
+          "correct": 17,
+          "invalid": 8,
+          "invalid_rate": 0.26666666666666666,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 22,
+          "templates": {
+            "acc": 3,
+            "digit_sum": 6,
+            "filter": 2,
+            "nested": 1,
+            "pairs": 2,
+            "range_sum": 3,
+            "string": 7,
+            "window": 6
+          },
+          "truncated": 8,
+          "truncated_rate": 0.26666666666666666,
+          "wilson95": [
+            0.3919730700081361,
+            0.7262251442353347
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.7333333333333333,
+          "accuracy_among_parsed": 0.7586206896551724,
+          "baseline": {
+            "distinct_observed_answers": 15,
+            "uniform_over_observed_answers": 0.06666666666666667
+          },
+          "correct": 22,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 3
+          },
+          "invalid": 1,
+          "invalid_rate": 0.03333333333333333,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 29,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 4,
+            "nodes-7": 3,
+            "nodes-8": 7,
+            "nodes-9": 8
+          },
+          "truncated": 1,
+          "truncated_rate": 0.03333333333333333,
+          "wilson95": [
+            0.555520383048111,
+            0.8581733668040368
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.325,
+        "accuracy_among_parsed": 0.8666666666666667,
+        "correct": 26,
+        "invalid": 50,
+        "invalid_rate": 0.625,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 30,
+        "truncated": 2,
+        "truncated_rate": 0.025,
+        "wilson95": [
+          0.2324416184435817,
+          0.4335947268938527
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    },
+    "ministral-3-3b-instruct-2512": {
+      "arith_minus_gsm8k": {
+        "diff": 0.11250000000000004,
+        "newcombe95": [
+          0.006562448071445542,
+          0.21941817584672352
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.925,
+          "accuracy_among_parsed": 0.925,
+          "baseline": {
+            "distinct_observed_answers": 67,
+            "uniform_over_observed_answers": 0.014925373134328358
+          },
+          "correct": 74,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 80,
+          "templates": {
+            "buy_give": 4,
+            "buy_give_price": 2,
+            "buy_give_receive": 3,
+            "buy_give_receive_price": 5,
+            "buy_give_share": 1,
+            "buy_receive": 1,
+            "days_plus": 1,
+            "days_plus_skip": 5,
+            "one_day_spend": 5,
+            "rows_left": 2,
+            "rows_price": 2,
+            "three_days": 6,
+            "two_books": 6,
+            "two_books_skip": 4,
+            "two_books_weeks": 5,
+            "two_buys_give": 4,
+            "two_buys_give_price": 3,
+            "two_buys_give_share": 3,
+            "two_buys_share": 3,
+            "two_days": 2,
+            "two_days_spend": 2,
+            "two_sections": 3,
+            "two_sections_price": 6,
+            "two_sections_sold": 2
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.8458798391878072,
+            0.9651747507069949
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.23333333333333334,
+          "accuracy_among_parsed": 0.23333333333333334,
+          "baseline": {
+            "distinct_observed_answers": 28,
+            "uniform_over_observed_answers": 0.03571428571428571
+          },
+          "correct": 7,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 30,
+          "templates": {
+            "acc": 3,
+            "digit_sum": 6,
+            "filter": 2,
+            "nested": 1,
+            "pairs": 2,
+            "range_sum": 3,
+            "string": 7,
+            "window": 6
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.11792388144489496,
+            0.40928326158122164
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.6666666666666666,
+          "accuracy_among_parsed": 0.7142857142857143,
+          "baseline": {
+            "distinct_observed_answers": 15,
+            "uniform_over_observed_answers": 0.06666666666666667
+          },
+          "correct": 20,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 3
+          },
+          "invalid": 2,
+          "invalid_rate": 0.06666666666666667,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 28,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 4,
+            "nodes-7": 3,
+            "nodes-8": 7,
+            "nodes-9": 8
+          },
+          "truncated": 2,
+          "truncated_rate": 0.06666666666666667,
+          "wilson95": [
+            0.4878005164454384,
+            0.8076950191632386
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.8125,
+        "accuracy_among_parsed": 0.8552631578947368,
+        "correct": 65,
+        "invalid": 4,
+        "invalid_rate": 0.05,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 76,
+        "truncated": 1,
+        "truncated_rate": 0.0125,
+        "wilson95": [
+          0.7134167737100688,
+          0.8829468953302267
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    },
+    "qwen3-4b-instruct-2507": {
+      "arith_minus_gsm8k": {
+        "diff": -0.07500000000000007,
+        "newcombe95": [
+          -0.166085390386758,
+          0.009955062817182614
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.8875,
+          "accuracy_among_parsed": 0.8875,
+          "baseline": {
+            "distinct_observed_answers": 67,
+            "uniform_over_observed_answers": 0.014925373134328358
+          },
+          "correct": 71,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 80,
+          "templates": {
+            "buy_give": 4,
+            "buy_give_price": 2,
+            "buy_give_receive": 3,
+            "buy_give_receive_price": 5,
+            "buy_give_share": 1,
+            "buy_receive": 1,
+            "days_plus": 1,
+            "days_plus_skip": 5,
+            "one_day_spend": 5,
+            "rows_left": 2,
+            "rows_price": 2,
+            "three_days": 6,
+            "two_books": 6,
+            "two_books_skip": 4,
+            "two_books_weeks": 5,
+            "two_buys_give": 4,
+            "two_buys_give_price": 3,
+            "two_buys_give_share": 3,
+            "two_buys_share": 3,
+            "two_days": 2,
+            "two_days_spend": 2,
+            "two_sections": 3,
+            "two_sections_price": 6,
+            "two_sections_sold": 2
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.7998178190762713,
+            0.9396731305336952
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.6666666666666666,
+          "accuracy_among_parsed": 0.8,
+          "baseline": {
+            "distinct_observed_answers": 28,
+            "uniform_over_observed_answers": 0.03571428571428571
+          },
+          "correct": 20,
+          "invalid": 5,
+          "invalid_rate": 0.16666666666666666,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 25,
+          "templates": {
+            "acc": 3,
+            "digit_sum": 6,
+            "filter": 2,
+            "nested": 1,
+            "pairs": 2,
+            "range_sum": 3,
+            "string": 7,
+            "window": 6
+          },
+          "truncated": 4,
+          "truncated_rate": 0.13333333333333333,
+          "wilson95": [
+            0.4878005164454384,
+            0.8076950191632386
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.3,
+          "accuracy_among_parsed": 1.0,
+          "baseline": {
+            "distinct_observed_answers": 15,
+            "uniform_over_observed_answers": 0.06666666666666667
+          },
+          "correct": 9,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 3
+          },
+          "invalid": 21,
+          "invalid_rate": 0.7,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 9,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 4,
+            "nodes-7": 3,
+            "nodes-8": 7,
+            "nodes-9": 8
+          },
+          "truncated": 21,
+          "truncated_rate": 0.7,
+          "wilson95": [
+            0.16664748268243793,
+            0.47875787458714947
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.9625,
+        "accuracy_among_parsed": 0.9625,
+        "correct": 77,
+        "invalid": 0,
+        "invalid_rate": 0.0,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 80,
+        "truncated": 0,
+        "truncated_rate": 0.0,
+        "wilson95": [
+          0.8954527990995489,
+          0.9871654310800886
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    }
+  },
+  "primary_endpoint": "Per model and per family, accuracy with invalid and truncated answers counted as wrong.",
+  "protocol_version": "sealedbench/v2",
+  "question_set_sha256": "549ba12a3062df5ce40393408d907544bbb9a2b75339b9ef6183015485fc9df3"
+}

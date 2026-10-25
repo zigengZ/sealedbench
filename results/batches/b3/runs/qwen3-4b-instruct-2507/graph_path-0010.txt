@@ -1,0 +1,95 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Cedar, Drew, Eden, Fern, Kai, Xen, Zed  
+**Edges and weights**:
+- Amber–Cedar: 8  
+- Amber–Drew: 9  
+- Amber–Xen: 6  
+- Cedar–Eden: 8  
+- Cedar–Fern: 9  
+- Drew–Kai: 3  
+- Drew–Zed: 2  
+- Fern–Kai: 7  
+- Fern–Xen: 7  
+
+We are to find the **shortest path from Cedar to Drew**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We need to find the shortest path from **Cedar** to **Drew**.
+
+Let’s list all possible paths from Cedar to Drew, and compute their total weights.
+
+---
+
+### Step 2: Explore paths from Cedar to Drew
+
+#### Path 1: Cedar → Amber → Drew  
+- Cedar–Amber: 8  
+- Amber–Drew: 9  
+→ Total = 8 + 9 = **17**
+
+#### Path 2: Cedar → Eden (no connection to Drew directly) → dead end  
+Eden is only connected to Cedar. No path from Eden to Drew.
+
+#### Path 3: Cedar → Fern → Kai → Drew  
+- Cedar–Fern: 9  
+- Fern–Kai: 7  
+- Kai–Drew: 3  
+→ Total = 9 + 7 + 3 = **19**
+
+#### Path 4: Cedar → Fern → Xen → Amber → Drew  
+- Cedar–Fern: 9  
+- Fern–Xen: 7  
+- Xen–Amber: 6  
+- Amber–Drew: 9  
+→ Total = 9 + 7 + 6 + 9 = **31** → longer
+
+#### Path 5: Cedar → Fern → Xen → Amber → Cedar → ... → no benefit
+
+#### Path 6: Cedar → Amber → Xen → Fern → Kai → Drew  
+- Cedar–Amber: 8  
+- Amber–Xen: 6  
+- Xen–Fern: 7  
+- Fern–Kai: 7  
+- Kai–Drew: 3  
+→ Total = 8 + 6 + 7 + 7 + 3 = **31** → longer
+
+#### Path 7: Cedar → Amber → Xen → Fern → Kai → Drew → same as above
+
+#### Path 8: Cedar → Fern → Kai → Drew → already considered (19)
+
+#### Path 9: Cedar → Amber → Drew → already considered (17)
+
+Any other path?
+
+What about via Zed?
+
+Drew is connected to Zed (weight 2). Is there a path from Cedar to Zed?
+
+Zed is only connected to Drew. So Zed is a leaf node. No path from Cedar to Zed except through Drew.
+
+So no path from Cedar to Zed or beyond.
+
+Thus, only relevant paths are:
+
+- Cedar → Amber → Drew: 17  
+- Cedar → Fern → Kai → Drew: 19  
+
+Is there a shorter path?
+
+What about Cedar → Amber → Xen → Fern → Kai → Drew? → 8+6+7+7+3 = 31 → worse
+
+Cedar → Eden? Dead end.
+
+So best is **Cedar → Amber → Drew** with total weight **17**
+
+Wait — is there a path via Xen?
+
+Cedar → Fern → Xen → Amber → Drew?
+
+- Cedar–Fern: 9  
+- Fern
+

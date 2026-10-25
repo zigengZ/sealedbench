@@ -1,0 +1,9 @@
+Yara reads **10 pages/day × 5 days = 50 pages** from the first book.
+She reads **9 pages/day × 3 days = 27 pages** from the second book.
+Total pages before skipping: **50 + 27 = 77 pages**.
+After skipping 50 blank pages: **77 - 50 = 27 pages per week**.
+For 2 weeks: **27 × 2 = 54 pages**.
+
+#### 54 [end of text]
+
+

@@ -1,0 +1,11 @@
+**Reasoning:**
+1. First 7 rows: 7 × 14 = 98 seats
+2. Additional 8 rows: 8 × 5 = 40 seats
+3. Total seats: 98 + 40 = 138 seats
+4. Sold seats: 138 - 39 = 99 seats
+5. Unsold seats: 138 - 99 = 39 seats
+6. Value of unsold seats: 39 × 7 = 273 dollars
+
+#### 273 [end of text]
+
+

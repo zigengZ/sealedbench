@@ -1,0 +1,5 @@
+Kira starts with 8 packs, each containing 12 crayons, so she has 8 × 12 = 96 crayons. Gina then adds 17 more crayons, giving Kira a total of 96 + 17 = 113 crayons.
+
+#### 113 [end of text]
+
+

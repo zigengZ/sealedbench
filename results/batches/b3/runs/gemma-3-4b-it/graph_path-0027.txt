@@ -1,0 +1,11 @@
+We want to find the shortest path between Blair and Quill in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Blair to Quill:
+1. Blair -> Tess -> Quill: 8 + 7 = 15
+2. Blair -> (No direct path to other nodes)
+
+Since there's only one possible path, the shortest path is Blair -> Tess -> Quill with a total weight of 15.
+
+#### 15 [end of text]
+
+

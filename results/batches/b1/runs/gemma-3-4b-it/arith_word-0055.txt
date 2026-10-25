@@ -1,0 +1,8 @@
+First, find the total number of marbles Zane buys: 5 packs * 7 marbles/pack = 35 marbles.
+Then, Zane gives away 19 marbles: 35 marbles - 19 marbles = 16 marbles.
+Finally, Hugo gives Zane 14 marbles: 16 marbles + 14 marbles = 30 marbles.
+
+####30
+ [end of text]
+
+

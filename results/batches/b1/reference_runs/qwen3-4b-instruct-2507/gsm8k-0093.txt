@@ -1,0 +1,48 @@
+We are told:
+
+- Lee used to run the 400-meter hurdles **2 seconds faster** than Gerald **used to**.
+- Now, Gerald improved his speed by **10%** due to a better diet.
+- Lee currently runs the 400-meter hurdles in **38 seconds**.
+
+We are to find how fast Gerald can now run the 400-meter hurdles with his improved diet.
+
+---
+
+**Step 1: Find Gerald's original time**
+
+Lee runs 2 seconds faster than Gerald used to.
+
+So, if Lee runs in 38 seconds, then Gerald's original time was:
+
+38 + 2 = **40 seconds**
+
+---
+
+**Step 2: Gerald improved his speed by 10%**
+
+Improving speed by 10% means he now runs **10% faster**, so his time decreases.
+
+Speed and time are inversely related.
+
+If speed increases by 10%, then time decreases by a factor of:
+
+$$
+\frac{1}{1.10}
+$$
+
+So, new time = original time × $ \frac{1}{1.10} $
+
+$$
+\text{New time} = 40 \times \frac{1}{1.10} = \frac{40}{1.10}
+$$
+
+$$
+\frac{40}{1.10} = \frac{400}{11} \approx 36.36 \text{ seconds}
+$$
+
+---
+
+**Answer:**
+
+#### 
+

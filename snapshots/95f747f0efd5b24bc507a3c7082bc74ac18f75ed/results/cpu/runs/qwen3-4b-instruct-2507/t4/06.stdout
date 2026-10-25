@@ -1,0 +1,19 @@
+We are given:
+
+- Seattle has 20 sheep.
+- Charleston has 4 times as many sheep as Seattle.
+- Toulouse has twice as many sheep as Charleston.
+
+Step 1: Find how many sheep Charleston has.  
+Charleston = 4 × Seattle = 4 × 20 = 80 sheep.
+
+Step 2: Find how many sheep Toulouse has.  
+Toulouse = 2 × Charleston = 2 × 80 = 160 sheep.
+
+Step 3: Add all the sheep together.  
+Total = Seattle + Charleston + Toulouse  
+= 20 + 80 + 160 = 260
+
+#### 260 [end of text]
+
+

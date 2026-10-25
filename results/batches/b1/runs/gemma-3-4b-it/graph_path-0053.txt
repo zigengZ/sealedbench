@@ -1,0 +1,13 @@
+We want to find the shortest path between Eden and Nell in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Eden to Nell:
+1. Eden -> Lark -> Nell: Weight = 6 + 8 = 14
+2. Eden -> Tess -> Hart -> Ash -> Nell: Weight = 2 + 2 + 7 + 9 = 20
+3. Eden -> Ash -> Nell: Weight = 1 + 9 = 10
+4. Eden -> Tess -> Hart -> Lark -> Nell: Weight = 2 + 2 + 4 + 8 = 16
+
+Comparing the weights of the paths, the shortest path is Eden -> Ash -> Nell with a total weight of 10.
+
+#### 10 [end of text]
+
+

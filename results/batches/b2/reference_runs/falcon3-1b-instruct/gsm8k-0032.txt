@@ -1,0 +1,11 @@
+First, let's calculate the total hours John spends taking care of dogs per day:
+
+10 dogs * 0.5 hours/dog = 5 hours/day
+
+Now, let's calculate the total hours per week:
+
+5 hours/day * 7 days/week = 35 hours/week
+
+So, John spends #### 35 hours per week taking care of dogs. [end of text]
+
+

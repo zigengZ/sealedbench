@@ -1,0 +1,21 @@
+First, let's calculate the total cost of each type of flower:
+
+- **Marigolds:** 12 pots × $2.74 per pot = $31.08
+- **Petunias:** 9 pots × $1.87 per pot = $17.63
+- **Begonias:** 17 pots × $2.12 per pot = $35.94
+
+Now, let's round each price to the nearest dollar:
+
+- **Marigolds:** $31.08 rounds to $31.00
+- **Petunias:** $17.63 rounds to $18.00
+- **Begonias:** $35.94 rounds to $36.00
+
+Next, we'll calculate the total cost by adding these rounded prices:
+
+- **Total Cost:** $31.00 + $18.00 + $36.00 = $85.00
+
+Finally, we'll present the total amount Artie will make:
+
+#### 85 [end of text]
+
+

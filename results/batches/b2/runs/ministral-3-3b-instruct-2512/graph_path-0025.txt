@@ -1,0 +1,35 @@
+To find the shortest path from **Hart** to **York**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Hart (H)** and explore neighbors with their edge weights:
+   - **Hart → Bay** (1)
+   - **Hart → Glen** (4)
+   - **Hart → Cedar** (3)
+
+2. **Update distances from Hart**:
+   - Bay: 1
+   - Glen: 4
+   - Cedar: 3
+
+3. **Next, explore Bay (1)**:
+   - **Bay → Amber** (6 + 1 = 7)
+   - **Bay → Poe** (6 + 1 = 7)
+
+4. **Next, explore Cedar (3)**:
+   - **Cedar → Drew** (3 + 8 = 11)
+   - **Cedar → Glen** (3 + 1 = 4) → **Better than current Glen (4)** → Update Glen to 4 (no change, but check further).
+
+5. **Next, explore Glen (4)**:
+   - **Glen → Poe** (4 + 2 = 6) → **Better than current Poe (7)** → Update Poe to 6.
+
+6. **Next, explore Poe (6)**:
+   - **Poe → Amber** (6 + 8 = 14) → Not useful.
+   - **Poe → Drew** (6 + 7 = 13) → Not useful.
+   - **Poe → York** (6 + 1 = 7) → **Better than current York (∞)** → Update York to 7.
+
+7. **Final shortest path to York**:
+   - **Hart → Bay → Poe → York** with total weight **7**.
+
+#### 7 [end of text]
+
+

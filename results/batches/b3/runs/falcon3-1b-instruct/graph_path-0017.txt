@@ -1,0 +1,59 @@
+To find the shortest path between Oak and Quill, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Oak as 0 and to Quill as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 0, so it remains the current node.
+   - For Quill, the distance is infinity, so it is added to the queue with distance 7.
+
+3. **Update Distances**:
+   - Update the distance to Oak to 7 (since it's now the current node).
+   - Update the distance to Quill to 7 (since it's now the new smallest distance).
+
+4. **Repeat**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 7, so it remains the current node.
+   - For Quill, the distance is 7, so it is added to the queue with distance 12.
+
+5. **Continue**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 12, so it remains the current node.
+   - For Quill, the distance is 12, so it is added to the queue with distance 19.
+
+6. **Repeat**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 19, so it remains the current node.
+   - For Quill, the distance is 19, so it is added to the queue with distance 26.
+
+7. **Repeat**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 26, so it remains the current node.
+   - For Quill, the distance is 26, so it is added to the queue with distance 33.
+
+8. **Repeat**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 33, so it remains the current node.
+   - For Quill, the distance is 33, so it is added to the queue with distance 40.
+
+9. **Repeat**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For Oak, the distance is 40, so it remains the current node.
+   - For Quill, the distance is 40, so it is added to the queue with distance 47.
+
+10. **Repeat**:
+    - Extract the node with the smallest distance from the priority queue.
+    - For Oak, the distance is 47, so it remains the current node.
+    - For Quill, the distance is 47, so it is added to the queue with distance 56.
+
+11. **Repeat**:
+    - Extract the node with the smallest distance from the priority queue.
+    - For Oak, the distance is 56, so it remains the current node.
+    - For Quill, the distance is 56, so it is added to the queue with distance 63.
+
+12. **Repeat**:
+    - Extract the node with the smallest distance from the priority queue.
+
+

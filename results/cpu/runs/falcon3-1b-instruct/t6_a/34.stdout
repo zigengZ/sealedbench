@@ -1,0 +1,16 @@
+First, let's determine the number of jewels Raymond has.
+
+Raymond has 40 jewels.
+Aaron has 5 more jewels than half of Raymond's jewels.
+Half of Raymond's jewels is 40 / 2 = 20 jewels.
+Aaron has 5 more jewels than this, so Aaron has 20 + 5 = 25 jewels.
+
+Now, let's find out how many jewels Siobhan has.
+
+Siobhan has 2 fewer jewels than Aaron.
+Aaron has 25 jewels.
+So, Siobhan has 25 - 2 = 23 jewels.
+
+#### 23 [end of text]
+
+

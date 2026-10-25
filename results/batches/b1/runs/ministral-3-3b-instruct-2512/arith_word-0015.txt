@@ -1,0 +1,12 @@
+Felix reads **76** pages.
+
+Reasoning:
+- Pages read in 4 days: 19 pages/day × 4 days = 76 pages
+- Additional pages: 8 pages
+- Total before skipping: 76 + 8 = 84 pages
+- Blank pages skipped: 37 pages
+- Pages counted: 84 - 37 = 47 pages
+
+#### 47 [end of text]
+
+

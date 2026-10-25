@@ -1,0 +1,17 @@
+Let $x$ be the number of boxes that can be loaded onto the truck.
+Each box weighs 15 pounds, so the total weight of the boxes is $15x$ pounds.
+The combined weight of the driver and the empty truck is 3755 pounds.
+The total weight of the truck with boxes, driver, and truck is $3755 + 15x$ pounds.
+The bridge can carry no more than 5000 pounds, so we have the inequality:
+$3755 + 15x \le 5000$
+Subtract 3755 from both sides:
+$15x \le 5000 - 3755$
+$15x \le 1245$
+Divide both sides by 15:
+$x \le \frac{1245}{15}$
+$x \le 83$
+Since $x$ must be a whole number, the maximum number of boxes that can be loaded is 83.
+
+####83 [end of text]
+
+

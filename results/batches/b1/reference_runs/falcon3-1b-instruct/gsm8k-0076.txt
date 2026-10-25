@@ -1,0 +1,26 @@
+To solve this problem, we need to calculate the total number of cups of dog food Cecilia will use over the first year.
+
+**Step 1: Calculate the number of days the puppy will be fed.**
+
+- The puppy is fed for 180 days initially.
+- After the initial 180 days, the puppy will be fed for the rest of its life.
+
+**Step 2: Calculate the number of days the puppy will be fed after the initial 180 days.**
+
+- The puppy will be fed for \(180 - 180 = 0\) days after the initial 180 days.
+
+**Step 3: Calculate the total number of days the puppy will be fed.**
+
+- Total days = 180 (initial) + 0 (remaining) = 180 days.
+
+**Step 4: Calculate the total number of cups of dog food used.**
+
+- For the initial 180 days, the puppy is fed 1 cup per day.
+  \[
+  180 \text{ days} \times 1 \text{ cup/day} = 180 \text{ cups}
+  \]
+
+- For the remaining 0 days, the puppy is fed 2 cups per day.
+  \[
+  0 \text{ days} \times 2 \text{ cups/day
+

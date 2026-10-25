@@ -1,0 +1,8 @@
+Ava starts with 2 packs of 9 balloons: 2 × 9 = 18 balloons.
+Then she buys 5 packs of 8 balloons: 5 × 8 = 40 balloons.
+Total before giving away: 18 + 40 = 58 balloons.
+After giving 48 to Quinn: 58 - 48 = 10 balloons.
+
+#### 10 [end of text]
+
+

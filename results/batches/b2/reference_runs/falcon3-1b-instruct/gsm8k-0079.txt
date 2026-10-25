@@ -1,0 +1,6 @@
+First, calculate the discount amount: 30% of $100 is $100 * 30 / 100 = $30.
+Then, subtract the discount from the original price: $100 - $30 = $70.
+
+#### 70 [end of text]
+
+

@@ -1,0 +1,60 @@
+{
+  "uploads": [
+    {
+      "batch": "b1",
+      "type": "manifest",
+      "txid": "510sRNPxwIwK4D_xXkujpyih8M1pcww9DcZgOaLkkzU",
+      "bytes": 25560,
+      "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+      "uploaded_utc": "2026-10-17T15:05:36Z",
+      "file": "manifest.json"
+    },
+    {
+      "batch": "b1",
+      "type": "generator-ciphertext",
+      "txid": "57E6ydKUep6BKQ6L8wUSgrsDYkvq5r8pNmlUXzpxd7o",
+      "bytes": 15685,
+      "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+      "uploaded_utc": "2026-10-17T15:05:36Z",
+      "file": "generator.tlock"
+    },
+    {
+      "batch": "cap",
+      "type": "manifest",
+      "txid": "lkdeMQV1Cit1HArMK5gPDQm1oFIReGhRmntjdW8VjF0",
+      "bytes": 25561,
+      "sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+      "uploaded_utc": "2026-10-17T15:05:37Z",
+      "file": "manifest.json"
+    },
+    {
+      "batch": "cap",
+      "type": "generator-ciphertext",
+      "txid": "q5O5v8XwkxCJkAyuZHd9V1pBV6XCWEtmCU5_2bactb0",
+      "bytes": 15685,
+      "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+      "uploaded_utc": "2026-10-17T15:05:37Z",
+      "file": "generator.tlock"
+    },
+    {
+      "batch": "b1",
+      "type": "results",
+      "txid": "BOFo42noKTNkoslu4DsoDSKysCJQ67PkmKJQEXlupEc",
+      "bytes": 8370,
+      "sha256": "1e2d56781993b8b7e2a00d5f33c34c3d2c763c4f502d81ef22ee5585bc425de5",
+      "uploaded_utc": "2026-10-18T19:48:38Z",
+      "file": "scores.json"
+    },
+    {
+      "batch": "b1",
+      "type": "index",
+      "txid": "AtNAZQtp_JqReahCoCpYcjP-b3P98jWtC_AJgVoBWdM",
+      "bytes": 922,
+      "sha256": "5299b08d39d766906eb3c202c2acc941d3dd560d8d7c603bf4486bf671180835",
+      "uploaded_utc": "2026-10-18T19:48:40Z",
+      "file": "index.json"
+    }
+  ],
+  "total_bytes": 91783,
+  "count": 6
+}

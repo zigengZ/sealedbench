@@ -1,0 +1,15 @@
+Uma starts with 6 packs of 10 crayons each:
+6 × 10 = 60 crayons.
+
+Then she buys 4 packs of 7 crayons each:
+4 × 7 = 28 crayons.
+
+Total crayons before giving any away:
+60 + 28 = 88 crayons.
+
+After giving 39 crayons to Zane:
+88 - 39 = 49 crayons.
+
+#### 49 [end of text]
+
+

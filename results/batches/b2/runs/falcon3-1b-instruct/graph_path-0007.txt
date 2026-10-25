@@ -1,0 +1,50 @@
+To find the shortest path between Blair and Oak, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Blair (0) and to Oak (infinity).
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+   - The distance to Blair (0) and to Oak (infinity) will be the shortest path distances.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Blair', 'Drew', 'Indigo', 'Kai', 'Moss', 'Oak', 'West']
+distances = {node: float('inf') for node in nodes}
+
+# Initial distances
+distances['Blair'] = 0
+distances['Oak'] = float('inf')
+
+# Priority queue
+priority_queue = [(0, {'Blair': 0, 'Oak': distances['Blair'] + 2, 'Moss': distances['Moss'] + 2, 'West': distances['West']})]
+
+# Process
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in current_node.items():
+        if distances[neighbor] + weight < distances[current_node]:
+            distances[neighbor] = distances[current_node] + weight
+            heapq.heappush(priority_queue, (distances[neighbor] + weight, neighbor))
+
+# Shortest path distance from Blair to Oak
+shortest_path_distance = distances['Blair'] + distances['Oak']
+
+print(shortest_path_distance)
+```
+
+#### 10 and nothing after it. [end of text]
+
+

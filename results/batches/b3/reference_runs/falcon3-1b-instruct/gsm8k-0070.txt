@@ -1,0 +1,25 @@
+First, let's calculate the total number of students Judy teaches in a week.
+
+**Weekdays:**
+- 5 classes per day
+- 5 days per week
+- Total classes per week = 5 classes/day * 5 days/week = 25 classes
+
+**Saturday:**
+- 8 classes per day
+- 5 days per week
+- Total classes per week = 8 classes/day * 5 days/week = 40 classes
+
+**Total classes per week:**
+- Total classes = 25 classes (weekdays) + 40 classes (Saturday) = 65 classes
+
+**Cost per student:**
+- $15.00 per student
+
+**Total earnings per week:**
+- Total earnings = Total classes * Cost per student
+- Total earnings = 65 classes * $15.00/class = $975.00
+
+#### 975 [end of text]
+
+

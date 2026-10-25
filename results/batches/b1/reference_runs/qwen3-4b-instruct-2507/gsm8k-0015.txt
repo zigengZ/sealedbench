@@ -1,0 +1,27 @@
+To maximize profit, the merchant should choose the option that yields the highest **profit** based on the expected market increase.
+
+We are given:
+
+- Jewelry: $5,000 initial cost, market increases by 2.5%
+- Electronic gadgets: $8,000 initial cost, market increases by 1.2%
+
+Profit is the **increase in value** due to market growth, assuming the merchant sells the items at the increased market value.
+
+### Step 1: Calculate profit from jewelry
+Profit = 2.5% of $5,000  
+= 0.025 × 5000 = $125
+
+### Step 2: Calculate profit from electronic gadgets
+Profit = 1.2% of $8,000  
+= 0.012 × 8000 = $96
+
+### Step 3: Compare
+$125 (jewelry) > $96 (electronics)
+
+So, the merchant should choose the jewelry to maximize profit.
+
+#### 125
+
+#### 125 [end of text]
+
+

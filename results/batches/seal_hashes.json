@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "batch_id": "b1",
+      "round": 33170212,
+      "unlock_utc": "2026-10-18T09:00:00Z",
+      "plaintext_sha256": "e054f1ab7824fde33e6ac399252098cf25c29815ff4ffacabbd311da05eac9c2",
+      "plaintext_bytes": 11171,
+      "ciphertext_sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+      "ciphertext_bytes": 15685,
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T15:04:39Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33170212 > 33148705 current round",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T15:04:40Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33170212"
+        }
+      }
+    },
+    {
+      "batch_id": "cap",
+      "round": 33980212,
+      "unlock_utc": "2026-11-15T12:00:00Z",
+      "plaintext_sha256": "e054f1ab7824fde33e6ac399252098cf25c29815ff4ffacabbd311da05eac9c2",
+      "plaintext_bytes": 11171,
+      "ciphertext_sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+      "ciphertext_bytes": 15685,
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T15:04:40Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33980212 > 33148705 current round",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T15:04:40Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33980212"
+        }
+      }
+    }
+  ]
+}

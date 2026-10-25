@@ -1,0 +1,38 @@
+We are given:
+
+- Jamal's phone can hold **6 times more** photographs than Brittany's phone.
+- Jamal's phone can hold **1800** photographs.
+- The maximum number of photographs Brittany's phone can hold is **50 times more** than the number of birds in Jamal's photograph of ducks at the zoo.
+- We are to find **how many ducks** can be seen in Jamal's photograph of ducks at the zoo.
+
+Let’s define:
+
+Let $ d $ = number of ducks in Jamal's photograph of ducks at the zoo.
+
+We are told:
+
+> Brittany's phone can hold 50 times more than the number of birds in Jamal's photograph of ducks.
+
+But the photograph is of **ducks**, not birds. So the number of birds in the photo is **zero**, unless we interpret "birds" as ducks.
+
+Since ducks are a type of bird, we can reasonably interpret "birds in Jamal's photograph of ducks" as **the number of ducks**, because the photo is of ducks — which are birds.
+
+So, the number of birds = number of ducks = $ d $.
+
+Then, Brittany's phone can hold **50 times more** than $ d $.
+
+So, Brittany's phone capacity = $ 50d $.
+
+We are also told:
+
+> Jamal's phone can hold 6 times more than Brittany's phone.
+
+So:
+
+$$
+\text{Jamal's capacity} = 6 \times \text{Brittany's capacity}
+$$
+
+$$
+1800 = 6 \times (5
+

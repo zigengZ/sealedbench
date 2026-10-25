@@ -1,0 +1,17 @@
+First, find the total number of magnets Farid buys:
+
+- 7 packs with 5 magnets each:  
+  $ 7 \times 5 = 35 $ magnets
+
+- 3 packs with 7 magnets each:  
+  $ 3 \times 7 = 21 $ magnets
+
+Add them together:  
+$ 35 + 21 = 56 $ magnets
+
+Then Farid gives 52 magnets to Diego:  
+$ 56 - 52 = 4 $ magnets left
+
+#### 4 [end of text]
+
+

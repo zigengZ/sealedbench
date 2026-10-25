@@ -1,0 +1,5 @@
+Quinn has a total of 4 rows × 5 seats = 20 seats. After 16 seats are sold, the unsold seats are 20 - 16 = 4.
+
+#### 4 [end of text]
+
+

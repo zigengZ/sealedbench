@@ -1,0 +1,24 @@
+To find the shortest path from **Amber** to **Quill**, we can use **Dijkstra's algorithm** (or a brute-force approach for small graphs).
+
+### Step-by-Step Reasoning:
+1. **Start at Amber** with distance = 0.
+2. **Update neighbors**:
+   - Amber → Kai (6)
+   - Amber → Poe (1)
+3. **Next, visit Poe** (distance = 1):
+   - Poe → Amber (already visited)
+   - Poe → Eden (3)
+   - Poe → Kai (1 + 5 = 6) [not better than Amber→Kai]
+   - Poe → Quill (1 + 2 = 3)
+4. **Next, visit Eden** (distance = 3):
+   - Eden → Indigo (3 + 5 = 8)
+   - Eden → Kai (3 + 8 = 11) [worse than Poe→Kai]
+   - Eden → Poe (already visited)
+   - Eden → Quill (3 + 8 = 11) [worse than Poe→Quill]
+5. **Next, visit Quill** (distance = 3) via Poe.
+
+The shortest path is **Amber → Poe → Quill** with a total weight of **3**.
+
+#### 3 [end of text]
+
+

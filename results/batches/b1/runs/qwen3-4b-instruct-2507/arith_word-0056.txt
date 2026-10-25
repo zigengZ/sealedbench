@@ -1,0 +1,15 @@
+Farid sets out 5 rows with 7 seats in each row.
+
+First, find the total number of seats:
+
+5 rows × 7 seats = 35 seats
+
+Then, 21 seats are sold.
+
+So, the number of unsold seats is:
+
+35 - 21 = 14
+
+#### 14 [end of text]
+
+

@@ -1,0 +1,11 @@
+We want to find the shortest path between Blair and Oak in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Blair to Oak:
+1. Blair -> Moss -> Oak: Weight = 2 + 8 = 10
+2. Blair -> (No direct path to other nodes)
+
+Comparing the paths, the shortest path is Blair -> Moss -> Oak with a total weight of 10.
+
+#### 10 [end of text]
+
+

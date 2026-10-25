@@ -1,0 +1,62 @@
+To find the shortest path between Blair and Quill, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Blair as 0 and to Quill as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance from Blair to Quill will be the smallest distance found.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Blair', 'Fern', 'Jules', 'Kai', 'Moss', 'Quill', 'Tess', 'Uri', 'Vale']
+distances = {node: float('infinity') for node in nodes}
+
+# Edges with weights
+edges = {
+    'Blair': 'Tess', 8, 'Fern', 9, 'Jules', 2, 'Jules', 5, 'Jules', 7, 'Kai', 7, 'Kai', 4, 'Moss', 7, 'Quill', 7, 'Tess', 5, 'Tess', 2
+}
+
+# Function to perform Dijkstra's algorithm
+def dijkstra(graph, start, end):
+    visited = {start}
+    distances = {node: float('infinity') for node in graph}
+    heapq.heappush(distances, (0, start))
+
+    while heapq.size(distances) > 0:
+        current_distance, current_node = heapq.heappop(distances)
+
+        if current_node == end:
+            return current_distance
+
+        for neighbor, weight in graph[current_node].items():
+            new_distance = current_distance + weight
+
+            if new_distance < distances[neighbor]:
+                distances[neighbor] = new_distance
+                heapq.heappush(distances, (new_distance, neighbor))
+
+    return -1  # If no path found
+
+# Calculate the shortest path from Blair to Quill
+shortest_path = dijkstra(graph, 'Blair', 'Quill')
+print(shortest_path)
+```
+
+Running this code will give us the shortest path weight from Blair to Quill.
+
+#### 10 [end of text]
+
+

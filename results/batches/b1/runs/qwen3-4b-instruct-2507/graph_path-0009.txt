@@ -1,0 +1,45 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Blair, Drew, Indigo, Oak, Quill, Uri  
+**Edges and weights**:
+- Blair – Quill: 4  
+- Blair – Uri: 2  
+- Drew – Quill: 1  
+- Drew – Uri: 5  
+- Indigo – Oak: 7  
+- Indigo – Quill: 1  
+- Oak – Uri: 9  
+- Quill – Uri: 7  
+
+We are to find the **shortest path from Quill to Uri**.
+
+---
+
+### Step 1: List all possible paths from Quill to Uri
+
+We'll consider direct and indirect paths.
+
+#### 1. Direct path:
+- Quill → Uri: **7**
+
+#### 2. Quill → Blair → Uri:
+- Quill → Blair: 4  
+- Blair → Uri: 2  
+- Total: 4 + 2 = **6**
+
+#### 3. Quill → Drew → Uri:
+- Quill → Drew: 1  
+- Drew → Uri: 5  
+- Total: 1 + 5 = **6**
+
+#### 4. Quill → Indigo → Quill → Uri? (loop, not useful)
+
+Wait — Quill → Indigo → Quill → Uri? That would be longer.
+
+But what about Quill → Indigo → ??? → Uri?
+
+We have:
+- Indigo – Quill: 1  
+- Indigo – Oak: 7  
+- Oak
+

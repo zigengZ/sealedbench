@@ -1,0 +1,5 @@
+First, calculate the cashback amount: 10 gallons * $0.20/gallon = $2.00.
+Then, subtract the cashback from the original price: $3.00 - $2.00 = $1.00.
+So, the total amount spent after cashback is #### 1. [end of text]
+
+

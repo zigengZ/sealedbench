@@ -1,0 +1,13 @@
+We want to find the shortest path between Glen and Moss in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Glen to Moss:
+1. Glen -> Poe -> Moss: Weight = 4 + 5 = 9
+2. Glen -> Fern -> Moss: Weight = 9 + 5 = 14
+3. Glen -> Blair -> Moss: Weight = 4 + 1 = 5
+4. Glen -> Blair -> Jules -> Bay -> Drew -> Poe -> Moss: This is longer than the other paths.
+
+Comparing the weights of the possible paths, the shortest path is Glen -> Blair -> Moss with a weight of 5.
+
+#### 5 [end of text]
+
+

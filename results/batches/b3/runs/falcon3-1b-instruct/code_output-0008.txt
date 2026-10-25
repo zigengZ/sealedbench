@@ -1,0 +1,20 @@
+The exact standard output of the given Python 3 program is:
+
+```
+QAUKSY
+```
+
+Here's the reasoning:
+
+1. The program initializes a list `words` with the values `['quartz', 'ivory', 'pine', 'kelp']`.
+2. It initializes an empty string `out` to store the output.
+3. It iterates over the indices of the `words` list using a `for` loop.
+4. For each index `index`, it retrieves the corresponding word from the list.
+5. It checks if the current index is even (`index % 2 == 0`). If true, it converts the word to uppercase using the `upper()` method.
+6. It checks if the `out` string is empty. If true, it appends the current word to `out`.
+7. If `out` is not empty, it concatenates the current word with a hyphen (`'-'`) and appends it to `out`.
+8. Finally, it prints the resulting `out` string.
+
+The output `QAUKSY` is printed because the words 'quartz', 'ivory', 'pine', and 'kelp' are processed in the given order, and the `out` string accumulates the words as described. [end of text]
+
+

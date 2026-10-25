@@ -1,0 +1,12 @@
+We want to find the shortest path between Cleo and Glen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Cleo to Glen:
+1. Cleo -> Kai -> Glen: Weight = 2 + 5 = 7
+2. Cleo -> Kai -> Reed -> (no path to Glen)
+3. Cleo -> Kai -> Tess -> (no path to Glen)
+
+The shortest path is Cleo -> Kai -> Glen with a total weight of 7.
+
+#### 7 [end of text]
+
+

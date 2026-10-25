@@ -1,0 +1,7 @@
+Zane starts with 5 packs × 7 marbles = 35 marbles.
+After giving 19 to Hugo: 35 - 19 = 16 marbles.
+Hugo then gives Zane 14 marbles: 16 + 14 = 30 marbles.
+
+#### 30 [end of text]
+
+

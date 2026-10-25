@@ -1,0 +1,17 @@
+Aisha reads 14 pages a day for 4 days:
+
+14 pages/day × 4 days = 56 pages
+
+Then she reads 7 more pages:
+
+56 + 7 = 63 pages
+
+She skips 31 blank pages — these do **not** count toward the total pages she reads.
+
+So, the total number of pages she **reads** is:
+
+63 pages
+
+#### 63 [end of text]
+
+

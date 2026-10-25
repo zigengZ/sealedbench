@@ -1,0 +1,31 @@
+The program iterates through the list `nums` and appends only those numbers that are greater than or equal to 6 to the list `kept`.
+
+Given `nums = [15, 1, 12, 0, 2, 11, 10]`:
+
+- 15 >= 6 → append 15
+- 1 >= 6 → skip
+- 12 >= 6 → append 12
+- 0 >= 6 → skip
+- 2 >= 6 → skip
+- 11 >= 6 → append 11
+- 10 >= 6 → append 10
+
+So, `kept = [15, 12, 11, 10]`
+
+Then:
+- `print(len(kept))` outputs `4`
+- `print(kept)` outputs `[15, 12, 11, 10]`
+
+The standard output is:
+
+```
+4
+[15, 12, 11, 10]
+```
+
+``` 
+4
+[15, 12, 11, 10]
+``` [end of text]
+
+

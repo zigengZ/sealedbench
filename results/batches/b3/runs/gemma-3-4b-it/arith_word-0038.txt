@@ -1,0 +1,11 @@
+First, let's calculate the number of stamps from the first 6 packs: 6 packs * 3 stamps/pack = 18 stamps.
+
+Next, let's calculate the number of stamps from the 2 packs: 2 packs * 6 stamps/pack = 12 stamps.
+
+Now, let's find the total number of stamps: 18 stamps + 12 stamps = 30 stamps.
+
+Finally, let's divide the total stamps by the number of people: 30 stamps / 3 people = 10 stamps/person.
+
+#### 10 [end of text]
+
+

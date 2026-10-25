@@ -1,0 +1,13 @@
+First, let's calculate the number of notebooks from the 8 packs: 8 packs * 4 notebooks/pack = 32 notebooks.
+
+Next, let's calculate the number of notebooks from the 2 packs: 2 packs * 6 notebooks/pack = 12 notebooks.
+
+Now, let's find the total number of notebooks Victor has: 32 notebooks + 12 notebooks = 44 notebooks.
+
+Then, Victor gives away 14 notebooks, so he has 44 notebooks - 14 notebooks = 30 notebooks left.
+
+Each notebook is worth $4, so the total value of Victor's notebooks is 30 notebooks * $4/notebook = $120.
+
+####120 [end of text]
+
+

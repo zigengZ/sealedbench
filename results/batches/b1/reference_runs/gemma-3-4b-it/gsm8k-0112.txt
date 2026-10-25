@@ -1,0 +1,12 @@
+First, let's find the total number of lessons per day.
+There are 4 teachers, and each teacher has 2 lessons per day, so there are 4 * 2 = 8 lessons per day.
+
+Next, let's find the number of times the whiteboard is cleaned per lesson.
+The whiteboard is cleaned 3 times per lesson.
+
+Finally, let's find the total number of times the whiteboard is cleaned in a day.
+There are 8 lessons per day, and the whiteboard is cleaned 3 times per lesson, so the whiteboard is cleaned 8 * 3 = 24 times per day.
+
+#### 24 [end of text]
+
+

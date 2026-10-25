@@ -1,0 +1,15 @@
+First month: 60 downloads.
+
+Second month: Three times the first month  
+= 3 × 60 = 180 downloads.
+
+Third month: Reduced by 30% from the second month  
+So, 30% of 180 = 0.30 × 180 = 54  
+Therefore, third month downloads = 180 − 54 = 126.
+
+Total downloads over three months:  
+60 + 180 + 126 = 366.
+
+#### 366 [end of text]
+
+

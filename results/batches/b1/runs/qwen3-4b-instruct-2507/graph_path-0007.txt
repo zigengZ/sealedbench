@@ -1,0 +1,39 @@
+We are given an undirected weighted graph with 9 nodes and a list of edges. We are to find the **shortest path from Amber to Hart** in terms of total edge weight.
+
+---
+
+### Step 1: List all nodes
+Nodes: Amber, Blair, Eden, Glen, Hart, Jules, Lark, Uri, York
+
+---
+
+### Step 2: Build the graph as adjacency list
+
+We interpret each edge as bidirectional.
+
+Edges:
+- Amber – Glen (2)
+- Amber – Uri (8)
+- Blair – York (2)
+- Eden – Hart (6)
+- Eden – Jules (7)
+- Eden – Lark (4)
+- Glen – Hart (2)
+- Glen – Jules (4)
+- Hart – Jules (3)
+- Hart – Uri (1)
+- Jules – Lark (4)
+- Lark – York (7)
+- Uri – York (4)
+
+Now build adjacency list:
+
+- Amber: Glen (2), Uri (8)
+- Glen: Amber (2), Hart (2), Jules (4)
+- Hart: Eden (6), Glen (2), Jules (3), Uri (1)
+- Eden: Hart (6), Jules (7), Lark (4)
+- Jules: Eden (7), Glen (4), Hart (3), Lark (4)
+- Lark: Eden (4), Jules (4), York (7)
+- Uri: Amber (8), Hart (1), York (4)
+- York: Blair (2
+

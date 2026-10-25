@@ -1,0 +1,11 @@
+The program first initializes a list `digits` with the values `[4, 6, 5, 7, 7, 6, 6]`. It then initializes a variable `total` to 0. The code iterates through each `digit` in the `digits` list. In each iteration, it adds the current `digit` to the `total`. Finally, it prints the value of `total` and the length of the `digits` list.
+
+The sum of the digits is 4 + 6 + 5 + 7 + 7 + 6 + 6 = 40.
+The length of the `digits` list is 7.
+
+```python
+40
+7
+``` [end of text]
+
+

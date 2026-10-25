@@ -1,0 +1,7 @@
+First, find the total number of buttons Olga has: 3 packs * 3 buttons/pack = 9 buttons.
+Then, Olga has 9 buttons - 4 buttons = 5 buttons left.
+Finally, calculate the total value of Olga's buttons: 5 buttons * 9 dollars/button = 45 dollars.
+
+####45 [end of text]
+
+

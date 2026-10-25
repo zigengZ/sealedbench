@@ -1,0 +1,121 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path from Ash to York** in terms of total edge weight.
+
+---
+
+### Step 1: List all nodes
+- Ash, Cleo, Eden, Hart, Lark, Moss, Reed, Uri, York
+
+---
+
+### Step 2: List all edges with weights
+
+- Ash — Eden: 1  
+- Ash — Hart: 8  
+- Cleo — Uri: 6  
+- Eden — Lark: 7  
+- Eden — Moss: 5  
+- Hart — Moss: 5  
+- Hart — Reed: 9  
+- Hart — Uri: 6  
+- Hart — York: 6  
+- Lark — Reed: 2  
+- Reed — Uri: 4  
+- Uri — York: 1  
+
+---
+
+### Step 3: Goal — Shortest path from **Ash to York**
+
+We will use **Dijkstra’s algorithm** (since all weights are positive) to compute the shortest path from Ash to York.
+
+We start at Ash and compute shortest distances to all other nodes.
+
+---
+
+### Initialize distances:
+
+- dist[Ash] = 0  
+- All others: ∞
+
+---
+
+### Step-by-step Dijkstra:
+
+**Step 1: From Ash**
+
+From Ash, we can go to:
+- Eden (1)
+- Hart (8)
+
+Update:
+- dist[Eden] = 1
+- dist[Hart] = 8
+
+Queue: Eden (1), Hart (8)
+
+---
+
+**Step 2: Process Eden (distance 1)**
+
+From Eden:
+- Eden → Lark: 7 → Lark = 1 + 7 = 8
+- Eden → Moss: 5 → Moss = 1 + 5 = 6
+- Eden → (no other)
+
+Update:
+- dist[Lark] = 8
+- dist[Moss] = 6
+
+Queue now: Hart (8), Moss (6), Lark (8)
+
+---
+
+**Step 3: Process Moss (distance 6)**
+
+From Moss:
+- Moss → Hart: 5 → Hart = min(8, 6+5=11) → still 8
+- Moss → (no other)
+
+No improvement.
+
+Queue: Hart (8), Lark (8)
+
+---
+
+**Step 4: Process Hart (distance 8)**
+
+From Hart:
+- Hart → Reed: 9 → Reed = 8 + 9 = 17
+- Hart → Uri: 6 → Uri = 8 + 6 = 14
+- Hart → York: 6 → York = 8 + 6 = 14
+
+Update:
+- dist[Reed] = 17
+- dist[Uri] = 14
+- dist[York] = 14
+
+Queue: Lark (8), Reed (17), Uri (14)
+
+---
+
+**Step 5: Process Lark (distance 8)**
+
+From Lark:
+- Lark → Reed: 2 → Reed = min(17, 8 + 2 = 10) → update Reed to 10
+
+Update:
+- dist[Reed] = 10
+
+Queue: Uri (14), Reed (10)
+
+---
+
+**Step 6: Process Uri (distance 14)**
+
+From Uri:
+- Uri → York: 1 → York = min(14, 14 + 1 = 15) → still 14
+- Uri → Cleo: 6 → Cleo = 14 + 6 = 20
+
+Update:
+- dist
+

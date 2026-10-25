@@ -1,0 +1,14 @@
+We want to find the shortest path between Jules and Oak in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Jules to Oak:
+1. Jules -> Nell -> Oak: Weight = 9 + 1 = 10
+2. Jules -> Nell -> Lark -> Blair -> Oak: Weight = 9 + 7 + 6 + 1 = 23
+3. Jules -> Nell -> Dove -> Lark -> Blair -> Oak: Weight = 9 + 4 + 2 + 6 + 1 = 22
+4. Jules -> Nell -> York -> Amber -> Oak: Weight = 9 + 4 + 7 + 1 = 21
+5. Jules -> Nell -> York -> Drew -> York -> Amber -> Oak: Weight = 9 + 4 + 9 + 9 + 7 + 1 = 39 (This is longer than other paths)
+
+Comparing the paths, the shortest path is Jules -> Nell -> Oak with a total weight of 10.
+
+#### 10 [end of text]
+
+

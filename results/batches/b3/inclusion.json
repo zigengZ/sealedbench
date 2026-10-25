@@ -1,0 +1,129 @@
+{
+  "checked_utc": "2026-10-18T08:16:55Z",
+  "batches": {
+    "b3": [
+      {
+        "kind": "generator-ciphertext",
+        "txid": "MU3l3e_pbboAuVH8dtiLJP4XMGKGaFR530w-TauzteM",
+        "sha256": "3a8aa8d2b7357ae462527b033b55a60df64b28593ebd8948e800d7901f9ecf20",
+        "timely_for_own_deadline": true,
+        "rows": [
+          {
+            "state": "PASS",
+            "name": "b3 generator-ciphertext inclusion",
+            "detail": "bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1792410600"
+          },
+          {
+            "state": "PASS",
+            "name": "b3 generator-ciphertext bundle header",
+            "detail": "table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways"
+          }
+        ],
+        "block_timestamps": [
+          1792311062
+        ],
+        "before_b1_unlock": [
+          true
+        ]
+      },
+      {
+        "kind": "reference",
+        "txid": "jTwlatP1ecEKCxZGzw9tc6mz_aIHvvdf6vsutLHJ3G0",
+        "sha256": "8782dc2d2625723118f7fffa68bfb8dbf3b03efde65cf62bfac5c723a30e40d0",
+        "timely_for_own_deadline": true,
+        "rows": [
+          {
+            "state": "PASS",
+            "name": "b3 reference inclusion",
+            "detail": "bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1792410600"
+          },
+          {
+            "state": "PASS",
+            "name": "b3 reference bundle header",
+            "detail": "table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways"
+          }
+        ],
+        "block_timestamps": [
+          1792311062
+        ],
+        "before_b1_unlock": [
+          true
+        ]
+      },
+      {
+        "kind": "manifest",
+        "txid": "_aZZOYmKQr9awEhsmKew9J4sAHyDnfZoo1Pq1NYXOVk",
+        "sha256": "00b31c8c115fe19430a0e328f9de3a4ec62325e4222ab1c6d8965a21e9d38af4",
+        "timely_for_own_deadline": true,
+        "rows": [
+          {
+            "state": "PASS",
+            "name": "b3 manifest inclusion",
+            "detail": "bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1792410600"
+          },
+          {
+            "state": "PASS",
+            "name": "b3 manifest bundle header",
+            "detail": "table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways"
+          }
+        ],
+        "block_timestamps": [
+          1792311062
+        ],
+        "before_b1_unlock": [
+          true
+        ]
+      }
+    ],
+    "cap3": [
+      {
+        "kind": "generator-ciphertext",
+        "txid": "QUTZFXr03mYfwJ51wlrrxztLgL6VSbhQDZwMvI8YS9U",
+        "sha256": "18bfa8af95c6698692b0123a6f2607adc220d1e2d1d55cebaa844c63110e2042",
+        "timely_for_own_deadline": true,
+        "rows": [
+          {
+            "state": "PASS",
+            "name": "cap3 generator-ciphertext inclusion",
+            "detail": "bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1794743400"
+          },
+          {
+            "state": "PASS",
+            "name": "cap3 generator-ciphertext bundle header",
+            "detail": "table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways"
+          }
+        ],
+        "block_timestamps": [
+          1792311062
+        ],
+        "before_b1_unlock": [
+          true
+        ]
+      },
+      {
+        "kind": "manifest",
+        "txid": "zVURiYYKd4afS6sWM0ahJ0rkC9vrWUP-6la6t9IgbS8",
+        "sha256": "b92f769e78492da56d7c6fe4d440da40374f8faecf31f68bf2b57cf6636903b8",
+        "timely_for_own_deadline": true,
+        "rows": [
+          {
+            "state": "PASS",
+            "name": "cap3 manifest inclusion",
+            "detail": "bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1794743400"
+          },
+          {
+            "state": "PASS",
+            "name": "cap3 manifest bundle header",
+            "detail": "table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways"
+          }
+        ],
+        "block_timestamps": [
+          1792311062
+        ],
+        "before_b1_unlock": [
+          true
+        ]
+      }
+    ]
+  }
+}

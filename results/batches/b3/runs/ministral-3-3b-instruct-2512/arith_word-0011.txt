@@ -1,0 +1,9 @@
+Jamal starts with 4 rows of 5 seats each, totaling 20 seats. Adding 6 rows of 7 seats each gives 42 more seats, making a total of 62 seats.
+
+39 seats are sold, so unsold seats = 62 - 39 = 23.
+
+Each unsold seat is worth $8, so total value = 23 * 8 = 184.
+
+#### 184 [end of text]
+
+

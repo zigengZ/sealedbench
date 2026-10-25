@@ -1,0 +1,46 @@
+We are given an undirected weighted graph with nodes:  
+**Blair, Dove, Glen, Sage, Vale, Xen**
+
+Edges and their weights:
+- Blair — Dove: 5  
+- Dove — Glen: 6  
+- Dove — Sage: 3  
+- Dove — Vale: 4  
+- Dove — Xen: 7  
+- Glen — Sage: 8  
+- Glen — Vale: 8  
+- Glen — Xen: 6  
+- Sage — Vale: 2  
+- Sage — Xen: 1  
+
+We are to find the **shortest path from Blair to Glen** in terms of total weight.
+
+---
+
+### Step 1: Understand the structure
+
+We start at **Blair**, and want to reach **Glen**.
+
+From Blair, the only direct edge is to **Dove** (weight 5).  
+So all paths from Blair must go through Dove (since no other edges from Blair are given).
+
+So we can think of the problem as:  
+**Blair → Dove → ? → Glen**
+
+We now need to find the shortest path from Dove to Glen, and add the 5 from Blair → Dove.
+
+So we compute the shortest path from **Dove to Glen**, then add 5.
+
+---
+
+### Step 2: Find shortest path from Dove to Glen
+
+We now consider all possible paths from Dove to Glen.
+
+#### Option 1: Dove → Glen  
+Direct edge: weight = 6
+
+#### Option 2: Dove → Sage → Glen  
+- Dove → Sage: 3  
+- Sage →
+

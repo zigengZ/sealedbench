@@ -1,0 +1,57 @@
+Let's trace through the program step by step:
+
+```python
+words = ['maple', 'flint', 'timber', 'stone', 'ivory']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 2 == 1:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '-' + piece
+print(out)
+```
+
+The list `words` has 5 elements:
+- index 0: 'maple'
+- index 1: 'flint'
+- index 2: 'timber'
+- index 3: 'stone'
+- index 4: 'ivory'
+
+We iterate over indices from 0 to 4.
+
+**index = 0:**
+- piece = 'maple'
+- index % 2 == 0 → not 1 → no upper()
+- out is "" → so out = 'maple'
+
+**index = 1:**
+- piece = 'flint'
+- index % 2 == 1 → yes → piece becomes 'FLINT'
+- out is not "" → so out = 'maple' + '-' + 'FLINT' → 'maple-FLINT'
+
+**index = 2:**
+- piece = 'timber'
+- index % 2 == 0 → no upper()
+- out is not "" → out = 'maple-FLINT' + '-' + 'timber' → 'maple-FLINT-timber'
+
+**index = 3:**
+- piece = 'stone'
+- index % 2 == 1 → yes → piece becomes 'STONE'
+- out is not "" → out = 'maple-FLINT-timber' + '-' + 'STONE' → 'maple-FLINT-timber-STONE'
+
+**index = 4:**
+- piece = 'ivory'
+- index % 2 == 0 → no upper()
+- out is not "" → out = 'maple-FLINT-timber-STONE' + '-' + 'ivory' → 'maple-FLINT-timber-STONE-ivory'
+
+Final output: `maple-FLINT-timber-STONE-ivory`
+
+```python
+maple-FLINT-timber-STONE-ivory
+``` [end of text]
+
+

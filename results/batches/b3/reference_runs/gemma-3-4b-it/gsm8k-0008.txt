@@ -1,0 +1,25 @@
+Let's break down the problem step by step.
+
+**Part 1: Initial Drive**
+* Distance = Speed * Time = 60 mph * 3 hours = 180 miles
+
+**Part 2: Return Trip - Standstill Traffic**
+* Time spent in standstill traffic = 2 hours
+* Distance covered during standstill = 0 miles
+
+**Part 3: Return Trip - Slow Speed**
+* Time spent driving at 30 mph = 0.5 hours
+* Distance covered at 30 mph = 30 mph * 0.5 hours = 15 miles
+
+**Part 4: Return Trip - Fast Speed**
+* Remaining time = 4 hours - 2 hours - 0.5 hours = 1.5 hours
+* Distance covered at 80 mph = 80 mph * 1.5 hours = 120 miles
+
+**Total Distance from Home**
+* Total distance traveled from home = 180 miles - (15 miles + 120 miles) = 180 - 135 = 45 miles
+
+John is 45 miles from home at the end of those 4 hours.
+
+####45 [end of text]
+
+

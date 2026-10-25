@@ -1,0 +1,11 @@
+First, let's calculate the total number of clusters of fruit. Since there are 6 clusters with 20 fruit each, the total number of clusters is:
+
+6 clusters * 20 fruits/cluster = 120 fruits
+
+Next, we add the individual fruits to the clusters:
+
+120 clusters + 67 individual fruits = 187 fruits
+
+So, the total number of raspberries is #### 187. [end of text]
+
+

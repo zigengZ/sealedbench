@@ -1,0 +1,17 @@
+First, let's add up the costs:
+
+- Cost of materials: $500  
+- Cost of jeweler: $800  
+
+Total cost before insurance:  
+$500 + $800 = $1300  
+
+Then, she pays 10% of that amount for insurance:  
+10% of $1300 = 0.10 × 1300 = $130  
+
+Now, add the insurance cost to the original total:  
+$1300 + $130 = $1430  
+
+#### 1430 [end of text]
+
+

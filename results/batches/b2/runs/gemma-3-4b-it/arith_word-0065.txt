@@ -1,0 +1,9 @@
+First, let's calculate the number of marbles in the first 4 packs: 4 packs * 7 marbles/pack = 28 marbles.
+
+Next, let's calculate the number of marbles in the 6 packs: 6 packs * 4 marbles/pack = 24 marbles.
+
+Finally, let's add the number of marbles from both sets of packs: 28 marbles + 24 marbles = 52 marbles.
+
+####52 [end of text]
+
+

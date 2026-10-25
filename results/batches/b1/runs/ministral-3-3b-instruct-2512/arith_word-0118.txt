@@ -1,0 +1,7 @@
+Aisha first buys 8 packs of 4 buttons each: 8 × 4 = 32 buttons.
+Then she buys 6 packs of 8 buttons each: 6 × 8 = 48 buttons.
+Adding them together: 32 + 48 = 80 buttons.
+
+#### 80 [end of text]
+
+

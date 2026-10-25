@@ -1,0 +1,6 @@
+Quinn has 9 packs * 11 ribbons/pack = 99 ribbons.
+After giving 19 ribbons to Farid, Quinn has 99 - 19 = 80 ribbons left.
+Each ribbon is worth 4 dollars, so the total worth is 80 ribbons * 4 dollars/ribbon = 320 dollars.
+#### 320 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, let's calculate the number of tickets Diego gets from the 5 packs with 12 tickets each: 5 packs * 12 tickets/pack = 60 tickets.
+
+Next, let's calculate the number of tickets Diego gets from the 3 packs with 5 tickets each: 3 packs * 5 tickets/pack = 15 tickets.
+
+Finally, let's add the two amounts together: 60 tickets + 15 tickets = 75 tickets.
+
+####75 [end of text]
+
+

@@ -1,0 +1,35 @@
+To find the shortest path from **Dove** to **Oak**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Dove** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Update distances**:
+   - From **Dove**, update neighbors:
+     - **Indigo**: 5 (Dove → Indigo)
+     - **York**: 1 (Dove → York)
+     - **Oak**: 9 (Dove → Oak)
+
+3. **Next node to explore**:
+   - **York** (distance = 1) is the closest unvisited node.
+   - Update neighbors via **York**:
+     - **Ash**: 1 + 9 = 10 (via Ash Moss 7 + Moss York 1)
+     - **Moss**: 1 + 1 = 2 (via Dove York 1 + York Moss 1)
+     - **Oak**: min(9, 1 + 3) = 4 (via Dove York 1 + York Oak 3)
+
+4. **Next node to explore**:
+   - **Moss** (distance = 2) is next.
+   - Update neighbors via **Moss**:
+     - **Ash**: min(10, 2 + 7) = 9 (via Moss York 1 + York Ash 9)
+     - No other updates needed.
+
+5. **Next node to explore**:
+   - **Oak** (distance = 4) is the target. No further updates needed.
+
+### Shortest Path:
+**Dove → York → Oak** with total weight = **4**.
+
+#### 4 [end of text]
+
+

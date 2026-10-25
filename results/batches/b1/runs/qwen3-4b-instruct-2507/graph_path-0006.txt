@@ -1,0 +1,55 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Bay, Dove, Eden, Fern, Nell, Tess, Vale, Xen  
+**Edges**:
+- Amber – Tess: 2  
+- Amber – Vale: 1  
+- Bay – Eden: 1  
+- Bay – Vale: 4  
+- Dove – Tess: 9  
+- Dove – Vale: 1  
+- Dove – Xen: 4  
+- Eden – Vale: 3  
+- Fern – Vale: 4  
+- Nell – Xen: 4  
+
+We are to find the **shortest path (in total weight) from Fern to Tess**.
+
+---
+
+### Step 1: Identify connections from Fern
+Fern is only directly connected to **Vale** with weight 4.
+
+So:  
+Fern → Vale (4)
+
+---
+
+### Step 2: From Vale, find paths to Tess
+
+Vale is connected to:
+- Amber (1)
+- Bay (4)
+- Dove (1)
+- Eden (3)
+
+So from Vale, we can go to:
+- Amber (1)
+- Bay (4)
+- Dove (1)
+- Eden (3)
+
+We want to reach **Tess**.
+
+Tess is directly connected to:
+- Amber (2)
+- Dove (9)
+
+So, to reach Tess, we can go through:
+- Amber → Tess (2)
+- Dove → Tess (9)
+
+So, possible paths from Fern to Tess:
+
+#### Option 1: Fern → Vale → Dove → Tess
+

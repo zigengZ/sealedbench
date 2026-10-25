@@ -1,0 +1,15 @@
+First, let's calculate the total number of ribbons Olga initially had.
+
+She bought 3 packs of ribbons, and each pack contains 12 ribbons.
+
+So, the total number of ribbons Olga had initially is:
+3 packs * 12 ribbons/pack = 36 ribbons.
+
+Then, Olga gives 17 ribbons to Boris.
+
+To find out how many ribbons Olga has left, we subtract the ribbons given to Boris from the initial total:
+36 ribbons - 17 ribbons = 19 ribbons.
+
+#### 19 [end of text]
+
+

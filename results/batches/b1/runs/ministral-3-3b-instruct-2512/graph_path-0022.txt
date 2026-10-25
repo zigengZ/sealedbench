@@ -1,0 +1,28 @@
+To find the shortest path from **Reed** to **Vale**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Reed** (distance = 0).
+   - All other nodes: distance = ∞.
+   - Predecessors: None.
+
+2. **Update distances**:
+   - From **Reed**:
+     - **Fern**: 6 (Reed → Fern)
+     - **Lark**: ∞ (no direct edge)
+     - **York**: ∞ (no direct edge)
+   - **Current shortest unvisited**: **Fern** (distance = 6).
+
+3. **From Fern**:
+   - **Vale**: 6 (Fern → Vale) → Update to 6 (no improvement).
+   - **Reed**: Already visited.
+
+4. **Next shortest unvisited**: **Vale** (distance = 6).
+   - From **Vale**:
+     - **Lark**: min(∞, 6 + 4) = 10 (Reed → Fern → Vale → Lark).
+     - **Nell**: min(∞, 6 + 3) = 9 (Reed → Fern → Vale → Nell).
+     - **York**: min(∞, 6 + 4) = 10 (Reed → Fern → Vale → York).
+
+5. **Next shortest unvisited**: **Nell** (distance = 9).
+   - From
+

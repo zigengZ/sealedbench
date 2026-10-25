@@ -1,0 +1,18 @@
+First, find the total number of cookies Olga buys:
+
+- 2 packs × 6 cookies = 12 cookies  
+- 6 packs × 7 cookies = 42 cookies  
+
+Total cookies = 12 + 42 = 54 cookies
+
+Then, Olga gives 52 cookies to Xavier, so she has:
+
+54 - 52 = 2 cookies left
+
+Each cookie is worth $6, so the value of her remaining cookies is:
+
+2 × 6 = 12 dollars
+
+#### 12 [end of text]
+
+

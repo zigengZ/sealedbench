@@ -1,0 +1,29 @@
+To solve this problem, we need to calculate the total amount Aleena paid for the streaming service over the year.
+
+**Step 1: Calculate the amount for the first half of the year.**
+
+- The first half of the year is 3 months.
+- The initial amount for the first half is $140.
+
+**Step 2: Calculate the amount for the second half of the year.**
+
+- The second half of the year is also 3 months.
+- The amount charged for the second half is 10% less than the initial amount.
+
+First, calculate 10% of $140:
+
+\[ 10\% \text{ of } 140 = 0.10 \times 140 = 14 \]
+
+Now, subtract this amount from the initial amount:
+
+\[ 140 - 14 = 126 \]
+
+**Step 3: Calculate the total amount paid.**
+
+Add the amounts from both halves of the year:
+
+\[ 140 + 126 = 266 \]
+
+#### 266 [end of text]
+
+

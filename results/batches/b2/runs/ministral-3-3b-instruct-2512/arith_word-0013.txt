@@ -1,0 +1,9 @@
+Victor starts with pencils from the first purchase: 3 packs × 6 pencils = 18 pencils.
+Then he adds pencils from the second purchase: 3 packs × 7 pencils = 21 pencils.
+Total pencils before giving any away: 18 + 21 = 39 pencils.
+After giving 27 pencils to Willa, Victor has 39 - 27 = 12 pencils left.
+Each pencil is worth 2 dollars, so 12 pencils × 2 dollars = 24 dollars.
+
+#### 24 [end of text]
+
+

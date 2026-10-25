@@ -1,0 +1,11 @@
+First, let's find out how many feet Julia rowed per second. She rowed 20 feet in 16 seconds, so she rowed 20/16 = 1.25 feet per second.
+
+Next, let's find out how many seconds it took her to row 64 feet. Since she rows 1.25 feet per second, it took her 64/1.25 = 51.2 seconds.
+
+Now, we need to find out how many ten-foot intervals she rowed. Since she rowed 64 feet, she rowed 64/10 = 6.4 ten-foot intervals.
+
+Since the boat takes on 2 liters of water for every ten feet, she took on 6.4 * 2 = 12.8 liters of water.
+
+####12.8 [end of text]
+
+

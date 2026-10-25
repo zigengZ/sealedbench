@@ -1,0 +1,20 @@
+First, find the total number of seats Xavier sets up.
+
+He sets up:
+- 7 rows with 10 seats each:  
+  $7 \times 10 = 70$ seats
+
+Then he adds:
+- 7 rows with 8 seats each:  
+  $7 \times 8 = 56$ seats
+
+Total seats = $70 + 56 = 126$
+
+Then, 105 seats are sold.
+
+So, unsold seats = total seats - sold seats  
+$126 - 105 = 21$
+
+#### 21 [end of text]
+
+

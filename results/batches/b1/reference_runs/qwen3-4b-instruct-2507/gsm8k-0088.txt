@@ -1,0 +1,30 @@
+We are told:
+
+- Marilyn's record sold **10 times** as many copies as Harald's.
+- Together, they sold **88,000** copies.
+
+Let’s let **H** be the number of copies Harald sold.
+
+Then Marilyn sold **10H** copies.
+
+Together:
+
+$$
+H + 10H = 88,000
+$$
+
+$$
+11H = 88,000
+$$
+
+Now divide both sides by 11:
+
+$$
+H = \frac{88,000}{11} = 8,000
+$$
+
+So Harald sold **8,000** copies.
+
+#### 8000 [end of text]
+
+

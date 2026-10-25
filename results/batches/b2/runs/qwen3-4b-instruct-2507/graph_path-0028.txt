@@ -1,0 +1,137 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Blair, Cedar, Fern, Hart, Nell, Tess, Uri, West, York  
+**Edges and weights**:
+
+- Blair–Fern: 2  
+- Blair–Uri: 2  
+- Blair–West: 2  
+- Blair–York: 2  
+- Cedar–Tess: 8  
+- Cedar–West: 4  
+- Fern–Nell: 3  
+- Hart–Tess: 3  
+- Hart–Uri: 8  
+- Nell–West: 7  
+- Tess–Uri: 8  
+
+We are to find the **shortest path from Fern to Tess**.
+
+---
+
+### Step 1: Understand the connections
+
+We want the shortest path from **Fern** to **Tess**.
+
+Start from Fern and explore possible paths to Tess.
+
+#### From Fern:
+- Directly to **Blair** (2)
+- Directly to **Nell** (3)
+
+So from Fern, we can go:
+- Fern → Blair → ... → Tess
+- Fern → Nell → ... → Tess
+
+Let’s explore both paths.
+
+---
+
+### Path 1: Fern → Nell → West → Tess?
+
+Check:
+- Fern → Nell: 3  
+- Nell → West: 7  
+- West → Tess? → Not directly listed.
+
+No edge from West to Tess.
+
+What about West → Cedar? No direct edge.
+
+West → Blair? Yes (2), but not helpful.
+
+West → Cedar? Not listed.
+
+So no direct edge from West to Tess.
+
+What about other paths?
+
+---
+
+### Path 2: Fern → Blair → West → Cedar → Tess?
+
+Check:
+- Fern → Blair: 2  
+- Blair → West: 2  
+- West → Cedar: 4 (yes)  
+- Cedar → Tess: 8 (yes)
+
+Total: 2 + 2 + 4 + 8 = **16**
+
+---
+
+### Path 3: Fern → Blair → Uri → Tess?
+
+- Fern → Blair: 2  
+- Blair → Uri: 2  
+- Uri → Tess: 8 (yes)
+
+Total: 2 + 2 + 8 = **12**
+
+Better than 16.
+
+---
+
+### Path 4: Fern → Nell → West → Blair → Uri → Tess?
+
+- Fern → Nell: 3  
+- Nell → West: 7  
+- West → Blair: 2  
+- Blair → Uri: 2  
+- Uri → Tess: 8  
+Total: 3 + 7 + 2 + 2 + 8 = **22** → worse
+
+---
+
+### Path 5: Fern → Blair → West → Cedar → Tess → already considered (16)
+
+---
+
+### Path 6: Fern → Blair → West → Nell → ? → Tess?
+
+- West → Nell: 7 (yes)  
+- Nell → ? → Tess? No direct edge.  
+- Nell → West → already used  
+- Nell → Fern → back  
+No path from Nell to Tess directly.
+
+So no.
+
+---
+
+### Path 7: Fern → Blair → West → Blair → Uri → Tess?
+
+That’s longer: 2 + 2 + 2 + 2 + 8 = 16 → worse
+
+---
+
+### Path 8: Fern → Nell → West → Blair → Tess?
+
+No edge from Blair to Tess.
+
+No.
+
+---
+
+### Path 9: Fern → Blair → Cedar? No edge.
+
+Only connections from Blair: Fern, Uri, West, York
+
+Cedar only connects to West and Tess.
+
+So no direct path from Blair to Cedar.
+
+---
+
+So
+

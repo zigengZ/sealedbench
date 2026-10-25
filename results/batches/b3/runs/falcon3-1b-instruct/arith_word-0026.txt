@@ -1,0 +1,6 @@
+Chloe reads 18 pages a day for 6 days, so she reads 18 * 6 = 108 pages.
+She also reads a second book at 15 pages a day for 4 days, so she reads 15 * 4 = 60 pages.
+In total, Chloe reads 108 + 60 = 168 pages.
+#### 168 [end of text]
+
+

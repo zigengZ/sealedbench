@@ -1,0 +1,13 @@
+To find out how many miles Sophia can drive on a single tank of gas, we need to determine how many gallons of gas she has left after filling up again.
+
+1. Sophia filled her tank with 4 gallons of gas.
+2. Her tank holds 12 gallons of gas.
+3. After filling up, she had 12 - 4 = 8 gallons of gas left.
+
+Now, we divide the total distance she traveled (100 miles) by the number of gallons of gas she has left:
+
+100 miles ÷ 8 gallons = 12.5 miles per gallon.
+
+So, Sophia can drive #### 12.5 miles on a single tank of gas. [end of text]
+
+

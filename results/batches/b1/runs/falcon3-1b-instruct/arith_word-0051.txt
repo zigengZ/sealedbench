@@ -1,0 +1,20 @@
+First, let's calculate the total number of pages Ava reads from both books.
+
+For the first book:
+- Ava reads 10 pages a day for 3 days.
+- Pages read from the first book = 10 pages/day * 3 days = 30 pages.
+
+For the second book:
+- Ava reads 19 pages a day for 5 days.
+- Pages read from the second book = 19 pages/day * 5 days = 95 pages.
+
+Now, let's add the pages from both books:
+Total pages read = Pages from first book + Pages from second book
+Total pages read = 30 pages + 95 pages = 125 pages.
+
+Ava skips 26 pages that were blank. So, we need to subtract these from the total:
+Total pages read - skipped pages = 125 pages - 26 pages = 99 pages.
+
+#### 99 [end of text]
+
+

@@ -1,0 +1,11 @@
+Samir's earnings:
+- Day 1: 17 dollars/hour × 5 hours = 85 dollars
+- Day 2: 17 dollars/hour × 3 hours = 51 dollars
+Total earnings = 85 + 51 = 136 dollars
+
+After spending 107 dollars:
+136 - 107 = 29 dollars left
+
+#### 29 [end of text]
+
+

@@ -1,0 +1,12 @@
+First, calculate the total number of erasers Samir bought:
+5 packs * 4 erasers/pack = 20 erasers
+
+Next, subtract the erasers given to Victor:
+20 erasers - 11 erasers = 9 erasers
+
+Now, divide the remaining erasers equally among 3 people:
+9 erasers / 3 people = 3 erasers/person
+
+#### 3 [end of text]
+
+

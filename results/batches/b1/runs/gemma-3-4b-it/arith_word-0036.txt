@@ -1,0 +1,11 @@
+First, find the total number of balloons from the first purchase: 2 packs * 9 balloons/pack = 18 balloons.
+
+Next, find the total number of balloons from the second purchase: 5 packs * 8 balloons/pack = 40 balloons.
+
+Then, find the total number of balloons Ava has before giving any away: 18 balloons + 40 balloons = 58 balloons.
+
+Finally, subtract the number of balloons given to Quinn: 58 balloons - 48 balloons = 10 balloons.
+
+#### 10 [end of text]
+
+

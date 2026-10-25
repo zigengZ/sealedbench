@@ -1,0 +1,51 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** between **Oak** and **Poe**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Blair, Cedar, Dove, Indigo, Moss, Oak, Poe, West, York, Zed
+
+We are to compute the shortest path from **Oak** to **Poe**.
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Blair — Dove: 6  
+- Blair — Zed: 9  
+- Cedar — West: 7  
+- Dove — Indigo: 6  
+- Dove — Moss: 6  
+- Dove — West: 3  
+- Dove — Zed: 9  
+- Indigo — Oak: 5  
+- Indigo — West: 1  
+- Indigo — York: 8  
+- Moss — Oak: 6  
+- Moss — Poe: 8  
+- Moss — Zed: 5  
+- Oak — York: 3  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Goal — Shortest path from Oak to Poe
+
+We need to find the minimum total weight path from **Oak** to **Poe**.
+
+Let’s consider possible paths from Oak to Poe.
+
+---
+
+### Path 1: Oak → Moss → Poe  
+- Oak to Moss: 6  
+- Moss to Poe: 8  
+→ Total: 6 + 8 = **14**
+
+---
+
+###
+

@@ -1,0 +1,7 @@
+Yara reads **40 pages** in the first two days (20 pages/day × 2 days).
+She then reads **18 more pages**, totaling **58 pages**.
+She skips **26 blank pages**, so the count remains **58 - 26 = 32 pages**.
+
+#### 32 [end of text]
+
+

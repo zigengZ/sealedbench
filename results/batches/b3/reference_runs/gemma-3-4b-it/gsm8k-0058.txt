@@ -1,0 +1,11 @@
+First, calculate the delivery fee amount: 25% of $40.00 is (25/100) * $40.00 = $10.00.
+
+Next, add the delivery fee to the original bill: $40.00 + $10.00 = $50.00.
+
+Then, add the tip: $50.00 + $4.00 = $54.00.
+
+The final price is $54.00.
+
+#### 54 [end of text]
+
+

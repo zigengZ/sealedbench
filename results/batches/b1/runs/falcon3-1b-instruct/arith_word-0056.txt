@@ -1,0 +1,7 @@
+First, calculate the total number of seats: 5 rows * 7 seats/row = 35 seats.
+
+Then subtract the number of seats sold: 35 seats - 21 seats = 14 seats.
+
+#### 14 [end of text]
+
+

@@ -1,0 +1,130 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Ash, Bay, Cedar, Cleo, Fern, Kai, Quill, Xen, York  
+**Edges and weights**:
+
+- Ash–Cleo: 3  
+- Ash–Kai: 3  
+- Ash–York: 6  
+- Bay–Cleo: 1  
+- Bay–Kai: 4  
+- Bay–Quill: 1  
+- Cedar–Quill: 6  
+- Cleo–Quill: 7  
+- Fern–York: 6  
+- Kai–Quill: 9  
+- Xen–York: 2  
+
+We are to find the **shortest path from Cedar to Xen**, in terms of total edge weight.
+
+---
+
+### Step 1: Understand the connections
+
+We want to go from **Cedar** to **Xen**.
+
+Cedar is only directly connected to **Quill** (weight 6).
+
+Xen is only directly connected to **York** (weight 2).
+
+So any path from Cedar to Xen must go through Quill → York → Xen, or possibly through other nodes that connect to York or Quill.
+
+So possible path structure:
+
+**Cedar → Quill → ??? → Xen**
+
+We need to find the shortest path from Quill to York (since Xen is connected only to York), then add the 2 from York to Xen.
+
+So total path:  
+**Cedar → Quill → [some path to York] → Xen**
+
+We now need the shortest path from **Quill to York**.
+
+---
+
+### Step 2: Find shortest path from Quill to York
+
+Nodes connected to Quill:
+
+- Bay (1)  
+- Cleo (7)  
+- Kai (9)  
+- Cedar (6) — but we're going from Quill to York, so not directly helpful  
+- Ash? No direct edge  
+- Fern? No  
+- York? No direct edge
+
+So from Quill, we can go to:
+
+- Bay (1)  
+- Cleo (7)  
+- Kai (9)
+
+We need to reach York from Quill via these.
+
+Let’s explore paths from Quill to York.
+
+#### Option 1: Quill → Bay → ?
+
+Bay is connected to:
+
+- Cleo (1)  
+- Kai (4)  
+- Quill (1)
+
+So from Bay:
+
+- Bay → Cleo (1)  
+- Bay → Kai (4)
+
+Now, Cleo is connected to:
+
+- Ash (3)  
+- Bay (1)  
+- Quill (7)
+
+Kai is connected to:
+
+- Ash (3)  
+- Bay (4)  
+- Quill (9)  
+- Fern? No  
+- York? No
+
+Fern is only connected to York (6)
+
+York is connected to:
+
+- Ash (6)  
+- Fern (6)  
+- Xen (2)
+
+So to reach York, we need to go through Ash or Fern.
+
+Can we reach Ash from Quill?
+
+Yes, via:
+
+- Quill → Bay → Kai → Ash?  
+- Quill → Bay → Cleo → Ash?
+
+Let’s compute all possible paths from Quill to York.
+
+---
+
+### Path 1: Quill → Bay → Cleo → Ash → York
+
+- Quill → Bay: 1  
+- Bay → Cleo: 1  
+- Cleo → Ash: 3  
+- Ash → York: 6  
+Total: 1 + 1 + 3 + 6 = **11**
+
+---
+
+### Path 2: Quill → Bay → Kai → Ash → York
+
+- Quill → Bay: 1  
+- Bay → Kai: 4  
+
+

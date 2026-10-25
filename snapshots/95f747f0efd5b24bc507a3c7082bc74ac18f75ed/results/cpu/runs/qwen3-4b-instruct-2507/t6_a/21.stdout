@@ -1,0 +1,31 @@
+We are given:
+
+- Raymond was born 6 years before Samantha.
+- Raymond had a son when he was 23.
+- Samantha is now 31 years old.
+
+We need to find: **How many years ago was Raymond's son born?**
+
+---
+
+Step 1: Find Raymond's current age.
+
+Since Samantha is 31 and Raymond was born 6 years before her, Raymond is:
+
+31 + 6 = **37 years old** now.
+
+---
+
+Step 2: Raymond had a son when he was 23.
+
+So, the son was born when Raymond was 23.
+
+Therefore, the son was born:
+
+37 (Raymond's current age) - 23 = **14 years ago**.
+
+---
+
+#### 14 [end of text]
+
+

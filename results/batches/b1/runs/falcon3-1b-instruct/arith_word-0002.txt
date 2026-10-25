@@ -1,0 +1,14 @@
+First, calculate the total number of seats:
+4 rows × 12 seats/row = 48 seats
+Then add the 4 additional rows:
+48 seats + 4 rows × 4 seats/row = 48 + 16 = 64 seats
+
+Next, determine the total number of seats after selling 1 seat:
+64 seats - 1 seat = 63 seats
+
+Each unsold seat is worth 2 dollars:
+63 seats × 2 dollars/seat = 126 dollars
+
+#### 126 [end of text]
+
+

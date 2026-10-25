@@ -1,0 +1,9 @@
+First, calculate the total number of ribbons Gina bought:
+6 packs * 8 ribbons/pack = 48 ribbons
+
+Next, determine the total value of the ribbons:
+48 ribbons * 6 dollars/ribbon = 288 dollars
+
+So, Gina's ribbons are worth #### 288. [end of text]
+
+

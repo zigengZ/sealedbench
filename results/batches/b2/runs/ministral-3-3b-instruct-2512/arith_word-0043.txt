@@ -1,0 +1,7 @@
+Ivy reads **32** pages in the first two days (16 pages/day × 2 days).
+Adding the extra 6 pages gives **38** pages.
+Skipping 11 blank pages doesn’t change the total count.
+
+#### 32 [end of text]
+
+

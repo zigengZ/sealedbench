@@ -1,0 +1,37 @@
+To find the shortest path between Nell and Quill, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to Nell (N) as 0 and to Quill (Q) as infinity.
+   - Set the distance to Drew (D) as infinity.
+
+2. **Distribute Distances:**
+   - From Nell, the shortest path to Drew is 3 (Drew to Nell).
+   - From Nell, the shortest path to Quill is 8 (Nell to Quill).
+   - From Drew, the shortest path to Nell is 9 (Drew to Nell).
+   - From Drew, the shortest path to Quill is 6 (Drew to Quill).
+
+3. **Update Distances:**
+   - Update the distance to Nell from Drew to 9 (Drew to Nell).
+   - Update the distance to Quill from Nell to 8 (Nell to Quill).
+
+4. **Distribute Distances:**
+   - From Nell, the shortest path to Quill is 8 (Nell to Quill).
+   - From Quill, the shortest path to Nell is 1 (Quill to Nell).
+   - From Nell, the shortest path to Zed is 3 (Nell to Zed).
+   - From Quill, the shortest path to Zed is 1 (Quill to Zed).
+
+5. **Update Distances:**
+   - Update the distance to Nell from Quill to 1 (Quill to Nell).
+   - Update the distance to Zed from Quill to 4 (Quill to Zed).
+
+6. **Distribute Distances:**
+   - From Nell, the shortest path to Zed is 3 (Nell to Zed).
+   - From Quill, the shortest path to Zed is 4 (Quill to Zed).
+
+7. **Calculate Total Weight:**
+   - Total weight = Distance from Nell to Zed + Distance from Quill to Zed
+   - Total weight = 3 + 4 = 7
+
+#### 7 [end of text]
+
+

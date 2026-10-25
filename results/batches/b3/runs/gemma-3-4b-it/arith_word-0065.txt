@@ -1,0 +1,8 @@
+First, find the total number of crayons in the first 2 packs: 2 packs * 10 crayons/pack = 20 crayons.
+Next, find the total number of crayons in the 3 packs: 3 packs * 7 crayons/pack = 21 crayons.
+Then, find the total number of crayons Mina has before giving any to Olga: 20 crayons + 21 crayons = 41 crayons.
+Finally, subtract the number of crayons Mina gives to Olga: 41 crayons - 16 crayons = 25 crayons.
+
+####25 [end of text]
+
+

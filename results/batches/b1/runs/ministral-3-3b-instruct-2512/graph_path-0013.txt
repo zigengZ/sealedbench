@@ -1,0 +1,24 @@
+To find the shortest path from **Cedar** to **Uri**, we can use **Dijkstra's algorithm** (or a breadth-first search with priority queue for unweighted graphs, but here weights are involved).
+
+### Step-by-Step Reasoning:
+1. **Start at Cedar (Cedar = 0)**.
+2. **Neighbors of Cedar**:
+   - **Dove** (weight = 4).
+   - **Ash** (no direct edge from Cedar to Ash, so skip).
+   - **No other edges** from Cedar.
+
+   So, tentative distances: **Dove = 4**, others = ∞.
+
+3. **Next node to explore: Dove (distance = 4)**.
+   - **Neighbors of Dove**:
+     - **Ash** (via Cedar-Dove-Ash, but no direct edge from Dove to Ash).
+     - **Eden** (Dove-Eden = 2, new path: Cedar-Dove-Eden = 4 + 2 = 6).
+     - **Uri** (Dove-Uri = 4, new path: Cedar-Dove-Uri = 4 + 4 = 8).
+
+   Update distances: **Eden = 6**, **Uri = 8**.
+
+4. **Next node to explore: Eden (distance = 6)**.
+   - **Neighbors of Eden**:
+     - **Ash** (Eden-Ash = 2, new path: Cedar-Dove-Eden-Ash = 6 + 2 = 8).
+
+

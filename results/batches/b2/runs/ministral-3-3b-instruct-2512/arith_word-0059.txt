@@ -1,0 +1,8 @@
+Jamal initially has **5 packs × 6 stamps = 30 stamps**.
+After giving 14 to Felix, he has **30 − 14 = 16 stamps**.
+Felix then gives him **20 stamps**, so Jamal now has **16 + 20 = 36 stamps**.
+Each stamp is worth **2 dollars**, so the total value is **36 × 2 = 72 dollars**.
+
+#### 72 [end of text]
+
+

@@ -1,0 +1,4 @@
+Quinn earns 25 dollars an hour. Quinn works 6 hours, so Quinn earns 25 * 6 = 150 dollars. Quinn spends 111 dollars, so Quinn has 150 - 111 = 39 dollars left.
+#### 39 [end of text]
+
+

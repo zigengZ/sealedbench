@@ -1,0 +1,7 @@
+Olga earns 11 dollars an hour. She works 4 hours, so her total earnings are 11 * 4 = 44 dollars.
+
+After spending 42 dollars, Olga has 44 - 42 = 2 dollars left.
+
+#### 2 [end of text]
+
+

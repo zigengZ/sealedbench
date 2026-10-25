@@ -1,0 +1,7 @@
+Ivy starts with 7 packs × 4 cards = 28 cards.
+After giving 14 cards to Cara, she has 28 - 14 = 14 cards left.
+Sharing equally among 2 people gives each person 14 ÷ 2 = 7 cards.
+
+#### 7 [end of text]
+
+

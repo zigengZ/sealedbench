@@ -1,0 +1,26 @@
+We want to find the shortest path between Hart and Vale in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Bay Drew 4
+- Bay Vale 6
+- Cedar Drew 6
+- Cedar Vale 8
+- Cleo Drew 4
+- Drew Hart 5
+- Fern Vale 9
+- Fern Zed 5
+- Hart Zed 6
+
+We can consider possible paths from Hart to Vale:
+
+1. Hart -> Drew -> Bay -> Vale: Weight = 5 + 4 + 6 = 15
+2. Hart -> Drew -> Cedar -> Vale: Weight = 5 + 6 + 8 = 19
+3. Hart -> Zed -> Fern -> Vale: Weight = 6 + 5 + 9 = 20
+4. Hart -> Drew -> Cleo (no path to Vale)
+5. Hart -> Zed -> Fern (no path to Vale)
+
+The shortest path is Hart -> Drew -> Bay -> Vale with a total weight of 15.
+
+#### 15 [end of text]
+
+

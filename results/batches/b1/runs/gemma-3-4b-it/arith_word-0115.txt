@@ -1,0 +1,7 @@
+First, find the total number of pages Mina reads in the first two days: 13 pages/day * 2 days = 26 pages.
+Then, add the additional 12 pages: 26 pages + 12 pages = 38 pages.
+
+####38
+ [end of text]
+
+

@@ -1,0 +1,7 @@
+First, find the total number of cards Ivy buys: 7 packs * 4 cards/pack = 28 cards.
+Then, subtract the cards Ivy gives away: 28 cards - 14 cards = 14 cards.
+Finally, divide the remaining cards by the number of people: 14 cards / 2 people = 7 cards/person.
+
+#### 7 [end of text]
+
+

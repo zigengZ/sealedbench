@@ -1,0 +1,20 @@
+Let’s denote the cost of the boots as **B**.
+
+The two pairs of high heels cost a total of **$5 less** than the boots, so:
+\[ \text{Total heels} = B - 5 \]
+
+Given:
+- One pair costs **$33**.
+- The other pair costs **twice as much**, so **$66**.
+
+Adding these together:
+\[ 33 + 66 = 99 \]
+
+Since the total heels cost **$5 less** than the boots:
+\[ 99 = B - 5 \]
+\[ B = 99 + 5 \]
+\[ B = 104 \]
+
+#### 104 [end of text]
+
+

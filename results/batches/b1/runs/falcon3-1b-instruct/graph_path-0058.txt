@@ -1,0 +1,30 @@
+To find the shortest path between Jules and Oak, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Jules) as 0 and all other nodes as infinity.
+   - Create a priority queue to store nodes with their tentative distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest tentative distance from the priority queue.
+   - For each neighbor of the current node, calculate the tentative distance through the current node.
+   - If this new distance is less than the current known distance, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+4. **Result**:
+   - The distance from Jules to Oak is the smallest distance found in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Blair', 'Dove', 'Drew', 'Indigo', 'Jules', 'Lark', 'Nell', 'Oak', 'York']
+weights = {
+    'Amber': ['Amber', 'Indigo'],
+    'Amber': ['Amber', 'Oak'],
+    'Amber': ['Amber', 'York'],
+    '
+

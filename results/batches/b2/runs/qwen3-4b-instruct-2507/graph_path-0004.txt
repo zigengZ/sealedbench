@@ -1,0 +1,86 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Cedar to Xen** in terms of total edge weight.
+
+---
+
+### Step 1: List all nodes
+Nodes: Cedar, Drew, Hart, Nell, Oak, Poe, Quill, Uri, Xen, Zed
+
+---
+
+### Step 2: Build adjacency list with weights
+
+From the edges:
+
+- Cedar — Drew: 7  
+- Drew — Hart: 5  
+- Drew — Quill: 3  
+- Hart — Nell: 2  
+- Hart — Poe: 4  
+- Hart — Xen: 4  
+- Nell — Oak: 5  
+- Nell — Poe: 7  
+- Nell — Quill: 2  
+- Oak — Xen: 2  
+- Quill — Uri: 9  
+- Quill — Xen: 4  
+- Uri — Zed: 1  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Goal — Shortest path from Cedar to Xen
+
+We will use **Dijkstra’s algorithm** (since all weights are positive) to compute the shortest path from Cedar to Xen.
+
+We start at Cedar and compute shortest distances to all nodes.
+
+---
+
+### Initialize distances:
+
+- dist[Cedar] = 0  
+- All others = ∞
+
+---
+
+### Step-by-step Dijkstra:
+
+**Step 1: From Cedar**
+- Only neighbor: Drew (7)
+- Update: dist[Drew] = 7
+
+**Step 2: From Drew**
+- Neighbors:
+  - Hart: 5 → from Drew → total = 7 + 5 = 12 → update dist[Hart] = 12
+  - Quill: 3 → total = 7 + 3 = 10 → update dist[Quill] = 10
+
+Now:
+- dist[Drew] = 7
+- dist[Hart] = 12
+- dist[Quill] = 10
+
+**Step 3: From Quill (current min unvisited: Quill = 10)**
+- Quill neighbors:
+  - Uri: 9 → 10 + 9 = 19 → dist[Uri] = 19
+  - Xen: 4 → 10 + 4 = 14 → dist[Xen] = 14
+
+Now:
+- dist[Xen] = 14
+
+**Step 4: From Hart (current min unvisited: Hart = 12)**
+- Hart neighbors:
+  - Nell: 2 → 12 + 2 = 14 → dist[Nell] = 14
+  - Poe: 4 → 12 + 4 = 16 → dist[Poe] = 16
+  - Xen: 4 → 12 + 4 = 16 → but we already have Xen at 14 → no update
+
+**Step 5: From Nell (now dist = 14)**
+- Nell neighbors:
+  - Oak: 5 → 14 + 5 = 19 → dist[Oak] = 19
+  - Poe: 7 → 14 + 7 = 21 → dist[Poe] = 21 (was 16, so keep 16)
+  - Quill: 2 → already visited (Quill = 10)
+
+**Step 6: From Oak (dist = 19)**
+- Oak neighbors:
+  - Xen: 2 → 19 + 2 =
+

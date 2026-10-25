@@ -1,0 +1,12 @@
+We want to find the shortest path between Quill and Sage in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Quill to Sage:
+1. Quill -> Nell -> Sage: Weight = 8 + 7 = 15
+2. Quill -> Nell -> Fern -> Sage: Weight = 8 + 2 + 2 = 12
+3. Quill -> Nell -> Ash -> ... (This path is longer than the previous ones)
+
+Comparing the paths, the shortest path is Quill -> Nell -> Fern -> Sage with a total weight of 12.
+
+#### 12 [end of text]
+
+

@@ -1,0 +1,14 @@
+First, find the outer volume of one box: 5 in * 6 in * 4 in = 120 cubic inches.
+
+Next, find the inner dimensions of one box. Since the walls are 1 inch thick on each side, we subtract 2 inches from each dimension:
+Length: 5 in - 2 in = 3 in
+Width: 6 in - 2 in = 4 in
+Height: 4 in - 2 in = 2 in
+
+Now, find the inner volume of one box: 3 in * 4 in * 2 in = 24 cubic inches.
+
+Finally, find the total inner volume of all 3 boxes: 24 cubic inches/box * 3 boxes = 72 cubic inches.
+
+#### 72 [end of text]
+
+

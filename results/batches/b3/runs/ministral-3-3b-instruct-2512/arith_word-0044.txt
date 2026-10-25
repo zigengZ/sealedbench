@@ -1,0 +1,7 @@
+Ivy reads 24 pages/day × 3 days = 72 pages.
+Then she reads 19 more pages, totaling 72 + 19 = 91 pages.
+Skipping 65 blank pages doesn’t change the count.
+
+#### 91 [end of text]
+
+

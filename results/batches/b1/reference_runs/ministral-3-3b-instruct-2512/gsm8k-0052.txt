@@ -1,0 +1,11 @@
+Let’s break it down step by step:
+
+1. **Total weight reduction needed:** 15 pounds.
+2. **Weight of comic books removed:** 30 comic books × (1/4 pound each) = 7.5 pounds.
+3. **Remaining weight to remove:** 15 pounds - 7.5 pounds = 7.5 pounds.
+4. **Weight of each toy:** 1/2 pound.
+5. **Number of toys to remove:** 7.5 pounds ÷ (1/2 pound each) = 15 toys.
+
+#### 15 [end of text]
+
+

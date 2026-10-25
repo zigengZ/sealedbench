@@ -1,0 +1,15 @@
+First, let's determine the amount of laundry Sarah does. We know Sarah does 4 times as much laundry as David. Since Sarah does 400 pounds of laundry, we can calculate David's laundry as follows:
+
+\[ \text{David's laundry} = \frac{400 \text{ pounds}}{4} = 100 \text{ pounds} \]
+
+Next, we calculate Raymond's laundry, which is half of Sarah's laundry:
+
+\[ \text{Raymond's laundry} = \frac{400 \text{ pounds}}{2} = 200 \text{ pounds} \]
+
+Finally, we find the difference in the amount of laundry Raymond and David do:
+
+\[ \text{Difference} = 200 \text{ pounds} - 100 \text{ pounds} = 100 \text{ pounds} \]
+
+#### 100 [end of text]
+
+

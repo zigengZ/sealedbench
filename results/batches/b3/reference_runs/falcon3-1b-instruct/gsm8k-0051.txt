@@ -1,0 +1,20 @@
+To find out how long it takes Tom to travel back, we need to calculate the total distance he travels and then divide that by his speed.
+
+1. **Calculate the distance traveled from 1 PM to 4 PM:**
+   - The distance is the difference in time between 4 PM and 1 PM.
+   - Time difference = 4 PM - 1 PM = 3 hours.
+
+2. **Calculate the distance traveled back:**
+   - Speed = 6 mph.
+   - Distance = Speed × Time = 6 mph × 3 hours = 18 miles.
+
+3. **Calculate the total distance traveled:**
+   - Total distance = Distance from 1 PM to 4 PM + Distance back = 18 miles + 18 miles = 36 miles.
+
+4. **Calculate the time taken to travel back:**
+   - Speed = 6 mph.
+   - Time = Distance / Speed = 36 miles / 6 mph = 6 hours.
+
+#### 6 [end of text]
+
+

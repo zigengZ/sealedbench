@@ -1,0 +1,16 @@
+Samir buys two sets of packs:
+
+- First: 8 packs × 6 marbles = 48 marbles  
+- Second: 5 packs × 6 marbles = 30 marbles  
+
+Total marbles before giving any away:  
+48 + 30 = 78 marbles  
+
+Then Samir gives 32 marbles to Jamal:  
+78 - 32 = 46 marbles  
+
+So, Samir has **46** marbles left.
+
+#### 46 [end of text]
+
+

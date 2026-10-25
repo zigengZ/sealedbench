@@ -1,0 +1,106 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Ash, Cleo, Dove, Glen, Kai, Oak, Poe, Uri
+
+We are to find the **shortest path from Ash to Dove**, and report the **total weight** of that path.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash — Uri: 5  
+- Cleo — Dove: 1  
+- Cleo — Oak: 7  
+- Cleo — Uri: 6  
+- Dove — Glen: 7  
+- Dove — Uri: 7  
+- Glen — Kai: 5  
+- Glen — Uri: 4  
+- Kai — Uri: 4  
+- Oak — Poe: 9  
+- Oak — Uri: 8  
+- Poe — Uri: 7  
+
+---
+
+### Step 2: Goal — Shortest path from **Ash** to **Dove**
+
+We need to find the shortest path from Ash to Dove.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), but since the graph is small, we can do a manual shortest path search.
+
+---
+
+### Step 3: Explore paths from Ash to Dove
+
+Ash is only directly connected to **Uri** (weight 5).
+
+So, from Ash → Uri (5)
+
+Now, from Uri, we can go to many nodes:
+
+- Dove (7)  
+- Glen (4)  
+- Kai (4)  
+- Oak (8)  
+- Poe (7)
+
+So, from Ash → Uri → Dove:  
+Ash → Uri → Dove = 5 + 7 = **12**
+
+Is there a shorter path?
+
+Let’s consider other paths.
+
+#### Path 1: Ash → Uri → Glen → Dove  
+- Ash → Uri: 5  
+- Uri → Glen: 4  
+- Glen → Dove: 7  
+Total: 5 + 4 + 7 = **16** → longer than 12
+
+#### Path 2: Ash → Uri → Kai → ???  
+Kai → Uri (4), but no direct edge from Kai to Dove or Glen (except via Uri).  
+Kai → Uri → Dove: 4 + 7 = 11, plus Ash → Uri = 5 → total = 5 + 4 + 7 = 16 → longer
+
+#### Path 3: Ash → Uri → Oak → Poe → Uri → Dove?  
+Too long, and loops.
+
+#### Path 4: Ash → Uri → Oak → ???  
+Oak → Poe (9), Poe → Uri (7), not helpful.
+
+Any path through Cleo?
+
+Ash is not directly connected to Cleo.
+
+But is there a path from Ash → Uri → Cleo?
+
+Yes: Uri → Cleo: 6
+
+So: Ash → Uri → Cleo → Dove:  
+5 + 6 + 1 = **12**
+
+Same as before.
+
+Any shorter?
+
+Cleo → Dove: 1 → that’s the only edge from Cleo to Dove.
+
+So Ash → Uri → Cleo → Dove = 5 + 6 + 1 = 12
+
+Any other path?
+
+What about Ash → Uri → Glen → Kai → Uri → Cleo → Dove?  
+Too long: 5 + 4 + 5 + 4 + 6 + 1 = 25 → worse
+
+Is there a path from Ash to Dove via Glen?
+
+Ash → Uri → Glen → Dove: 5 + 4 + 7 = 16 → worse
+
+Any path from Ash to Dove not going through Uri?
+
+Ash is only connected to Uri. So **all paths from Ash must go through Uri**.
+
+Therefore, **every path
+

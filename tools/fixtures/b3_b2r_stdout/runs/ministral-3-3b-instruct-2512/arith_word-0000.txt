@@ -1,0 +1,8 @@
+Yara starts with 6 packs × 5 tokens = 30 tokens.
+After giving 16 to Pavel, she has 30 - 16 = 14 tokens left.
+Pavel then gives her 15 more tokens, so she now has 14 + 15 = 29 tokens.
+Each token is worth $9, so 29 × 9 = 261 dollars.
+
+#### 261 [end of text]
+
+

@@ -1,0 +1,47 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** between **Quill** and **Sage**.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash — Nell: 5  
+- Cleo — Fern: 4  
+- Drew — Fern: 8  
+- Fern — Jules: 7  
+- Fern — Nell: 2  
+- Fern — Sage: 2  
+- Jules — Vale: 8  
+- Nell — Quill: 8  
+- Nell — Sage: 7  
+- Sage — Vale: 4  
+- Sage — Zed: 3  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Quill** to **Sage**
+
+We need to find the minimum total weight path from Quill to Sage.
+
+Let’s consider possible paths from Quill to Sage.
+
+---
+
+### Path 1: Quill → Nell → Sage  
+- Quill to Nell: 8  
+- Nell to Sage: 7  
+→ Total: 8 + 7 = **15**
+
+---
+
+### Path 2: Quill → Nell → Fern → Sage  
+- Quill → Nell: 8  
+- Nell → Fern: 2 (via edge Fern–Nell)  
+- Fern → Sage: 2  
+→ Total: 8 + 2 + 2 = **12**
+
+
+

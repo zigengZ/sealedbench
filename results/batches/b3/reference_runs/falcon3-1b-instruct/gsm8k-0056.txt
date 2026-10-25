@@ -1,0 +1,16 @@
+To determine how many times Peter can go to the movies, we need to calculate the total cost for one trip and then divide the total amount of money he has by this cost.
+
+**Step 1: Calculate the cost of one movie and popcorn.**
+- Ticket: $7
+- Popcorn: $7
+- Total cost per trip: $7 + $7 = $14
+
+**Step 2: Calculate the number of trips Peter can make.**
+- Peter has $42.
+- Number of trips: $42 ÷ $14 = 3
+
+Peter can go to the movies 3 times with $42.
+
+#### 3 [end of text]
+
+

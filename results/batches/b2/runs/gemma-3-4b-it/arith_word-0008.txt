@@ -1,0 +1,8 @@
+First, find the total number of ribbons Rosa has: 7 packs * 7 ribbons/pack = 49 ribbons.
+Then, subtract the ribbons Rosa gave to Samir: 49 ribbons - 31 ribbons = 18 ribbons.
+Next, add the ribbons Samir gave back to Rosa: 18 ribbons + 22 ribbons = 40 ribbons.
+Finally, calculate the total value of Rosa's ribbons: 40 ribbons * 9 dollars/ribbon = 360 dollars.
+
+#### 360 [end of text]
+
+

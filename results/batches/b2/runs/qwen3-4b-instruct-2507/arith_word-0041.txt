@@ -1,0 +1,22 @@
+Let's break down what Rosa reads each week and then multiply by 2 weeks.
+
+**First book:**
+- 16 pages/day for 2 days  
+= 16 × 2 = 32 pages
+
+**Second book:**
+- 16 pages/day for 5 days  
+= 16 × 5 = 80 pages
+
+**Total pages read in one week (before skipping):**  
+32 + 80 = 112 pages
+
+**Then, Rosa skips 13 blank pages** — these don't count, so we subtract them:  
+112 − 13 = 99 pages per week
+
+She repeats this **for 2 weeks**:  
+99 × 2 = 198 pages
+
+#### 198 [end of text]
+
+

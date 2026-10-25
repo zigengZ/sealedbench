@@ -1,0 +1,7 @@
+First, find the total number of tokens in the packs: 4 packs * 12 tokens/pack = 48 tokens.
+Then, add the tokens Zane gives Quinn: 48 tokens + 13 tokens = 61 tokens.
+
+####61
+ [end of text]
+
+

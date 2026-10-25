@@ -1,0 +1,15 @@
+First, calculate the total number of stickers Farid initially has:
+
+2 packs * 7 stickers/pack = 14 stickers
+
+Then, add the 5 stickers Farid gives to Ben:
+
+14 stickers + 5 stickers = 19 stickers
+
+Next, subtract the 3 stickers Ben gives Farid:
+
+19 stickers - 3 stickers = 16 stickers
+
+So, Farid has #### 16 stickers. [end of text]
+
+

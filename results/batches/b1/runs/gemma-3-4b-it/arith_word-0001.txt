@@ -1,0 +1,11 @@
+First, calculate the total number of oranges from the 8 packs: 8 packs * 12 oranges/pack = 96 oranges.
+
+Next, calculate the number of oranges from the 2 packs: 2 packs * 7 oranges/pack = 14 oranges.
+
+Then, find the total number of oranges: 96 oranges + 14 oranges = 110 oranges.
+
+Finally, divide the total number of oranges by the number of people: 110 oranges / 2 people = 55 oranges/person.
+
+#### 55 [end of text]
+
+

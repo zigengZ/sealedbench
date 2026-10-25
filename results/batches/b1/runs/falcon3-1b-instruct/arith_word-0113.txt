@@ -1,0 +1,12 @@
+First, calculate the total number of pages Ben reads in the first 4 days:
+12 pages/day * 4 days = 48 pages
+
+Then, add the 19 additional pages he reads:
+48 pages + 19 pages = 67 pages
+
+Next, subtract the 55 pages he skips:
+67 pages - 55 pages = 12 pages
+
+So, Ben reads a total of #### 12. [end of text]
+
+

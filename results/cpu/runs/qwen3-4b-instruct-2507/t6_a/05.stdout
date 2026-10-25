@@ -1,0 +1,26 @@
+We are told:
+
+- The first glass costs $5.
+- Every **second glass** (i.e., the 2nd, 4th, 6th, etc.) costs only **60%** of the price.
+- Kylar wants to buy **16 glasses**.
+
+Let’s break this down:
+
+### Step 1: Understand the pricing pattern
+- Glasses are priced in pairs: first glass at full price, second at 60% of full price.
+- So, for every **pair of glasses**, the cost is:
+  - First glass: $5
+  - Second glass: 60% of $5 = $3
+  - Total for a pair: $5 + $3 = $8
+
+### Step 2: How many such pairs in 16 glasses?
+16 ÷ 2 = 8 pairs
+
+### Step 3: Total cost
+8 pairs × $8 = $64
+
+#### 64
+
+#### 64 [end of text]
+
+

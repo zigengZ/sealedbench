@@ -1,0 +1,9 @@
+First, calculate the total number of crayons Elena has: 3 packs * 4 crayons/pack = 12 crayons.
+
+Next, subtract the 9 crayons she gave to Yara: 12 crayons - 9 crayons = 3 crayons.
+
+Now, divide the remaining crayons equally among 3 people: 3 crayons / 3 people = 1 crayon per person.
+
+#### 1 [end of text]
+
+

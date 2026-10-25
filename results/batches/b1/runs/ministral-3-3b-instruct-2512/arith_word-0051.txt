@@ -1,0 +1,7 @@
+Ava reads **30 pages** from the first book (10 pages/day × 3 days).
+She reads **95 pages** from the second book (19 pages/day × 5 days).
+Subtracting the blank pages: **30 + 95 - 26 = 99 pages**.
+
+#### 99 [end of text]
+
+

@@ -1,0 +1,18 @@
+```python
+values = [3, 18, 17, 15, 0, 7, 17, 0]
+total = 3
+for value in values:
+    if value < 13:
+        total = total + 2
+    else:
+        total = total + 2
+print(total)
+```
+
+The exact standard output of the given Python 3 program is:
+
+```
+11
+``` [end of text]
+
+

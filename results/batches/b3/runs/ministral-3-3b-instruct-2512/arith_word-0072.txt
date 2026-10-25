@@ -1,0 +1,7 @@
+Hugo reads **8 pages/day × 5 days = 40 pages** from the first book.
+From the second book, Hugo reads **13 pages/day × 3 days = 39 pages**.
+After skipping 45 blank pages, the total pages read is **40 + 39 = 79 pages**.
+
+#### 79 [end of text]
+
+

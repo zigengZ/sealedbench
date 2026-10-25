@@ -1,0 +1,14 @@
+First, let's calculate the total number of tickets Diego bought.
+
+For the 5 packs of tickets:
+5 packs * 12 tickets/pack = 60 tickets
+
+Then, for the 3 packs of tickets:
+3 packs * 5 tickets/pack = 15 tickets
+
+Now, add the number of tickets from both sets of packs:
+60 tickets + 15 tickets = 75 tickets
+
+So, Diego has #### 75 tickets. [end of text]
+
+

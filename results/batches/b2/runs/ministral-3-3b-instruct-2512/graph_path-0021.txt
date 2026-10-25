@@ -1,0 +1,32 @@
+To find the shortest path from **Oak** to **Uri**, we can use Dijkstra's algorithm or explore all possible paths manually.
+
+### Possible Paths:
+1. **Oak → Fern → Uri**
+   - Oak → Fern: 5
+   - Fern → Uri: 5
+   - Total: **10**
+
+2. **Oak → Glen → Uri**
+   - Oak → Glen: Not directly connected (no edge).
+   - Alternative: Oak → Quill → Glen → Uri (not valid since Quill-Glen is 7, but we need Oak-Glen).
+   - **No valid path via Glen.**
+
+3. **Oak → Jules → Uri**
+   - Oak → Jules: Not directly connected (no edge).
+   - Alternative: Oak → Fern → Jules → Uri (not valid since Fern-Jules is not an edge).
+   - **No valid path via Jules.**
+
+4. **Oak → Quill → Glen → Uri**
+   - Oak → Quill: 7
+   - Quill → Glen: 7
+   - Glen → Uri: 4
+   - Total: **18** (longer than 10)
+
+5. **Oak → Fern → Glen → Uri** (invalid, no edge Fern-Glen)
+
+### Valid Shortest Path:
+The shortest valid path is **Oak → Fern → Uri** with a total weight of **10**.
+
+#### 10 [end of text]
+
+

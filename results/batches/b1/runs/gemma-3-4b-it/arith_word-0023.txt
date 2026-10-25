@@ -1,0 +1,11 @@
+First, let's calculate the number of crayons Nico gets from the first 3 packs: 3 packs * 4 crayons/pack = 12 crayons.
+
+Next, let's calculate the number of crayons Nico gets from the 2 packs with 6 crayons each: 2 packs * 6 crayons/pack = 12 crayons.
+
+Now, let's find the total number of crayons Nico has before giving any to Pavel: 12 crayons + 12 crayons = 24 crayons.
+
+Finally, let's subtract the 12 crayons Nico gives to Pavel: 24 crayons - 12 crayons = 12 crayons.
+
+#### 12 [end of text]
+
+

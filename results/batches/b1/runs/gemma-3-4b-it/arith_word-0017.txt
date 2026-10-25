@@ -1,0 +1,8 @@
+First, we calculate Tara's earnings on day 1: 18 dollars/hour * 6 hours = 108 dollars.
+Next, we calculate Tara's earnings on day 2: 18 dollars/hour * 6 hours = 108 dollars.
+Then, we calculate Tara's total earnings: 108 dollars + 108 dollars = 216 dollars.
+Finally, we subtract her spending from her total earnings: 216 dollars - 204 dollars = 12 dollars.
+
+####12 [end of text]
+
+

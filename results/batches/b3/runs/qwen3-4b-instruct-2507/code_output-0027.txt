@@ -1,0 +1,55 @@
+Let's trace through the program step by step:
+
+```python
+words = ['lilac', 'kelp', 'delta', 'juniper', 'pine']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 2 == 1:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '/' + piece
+print(out)
+```
+
+The list `words` has 5 elements:
+- index 0: 'lilac'
+- index 1: 'kelp'
+- index 2: 'delta'
+- index 3: 'juniper'
+- index 4: 'pine'
+
+We iterate over each index:
+
+- index 0: 
+  - piece = 'lilac'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is "" → set out = 'lilac'
+
+- index 1:
+  - piece = 'kelp'
+  - index % 2 == 1 → True → piece becomes 'KELP'
+  - out is not "" → out = 'lilac' + '/' + 'KELP' → 'lilac/KELP'
+
+- index 2:
+  - piece = 'delta'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is not "" → out = 'lilac/KELP' + '/' + 'delta' → 'lilac/KELP/delta'
+
+- index 3:
+  - piece = 'juniper'
+  - index % 2 == 1 → True → piece becomes 'JUNIPER'
+  - out is not "" → out = 'lilac/KELP/delta' + '/' + 'JUNIPER' → 'lilac/KELP/delta/JUNIPER'
+
+- index 4:
+  - piece = 'pine'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is not "" → out = 'lilac/KELP/delta/JUNIPER' + '/' + 'pine' → 'lilac/KELP/delta/JUNIPER/pine'
+
+Final output: `lilac/KELP/delta/JUNIPER/pine`
+
+```python
+lilac/KELP/delta/JUNIPER/pine
+

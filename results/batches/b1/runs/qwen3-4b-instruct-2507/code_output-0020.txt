@@ -1,0 +1,30 @@
+Let's evaluate the program step by step:
+
+```python
+values = [10, 10, 3, 6, 13]
+total = 0
+for value in values:
+    if value > 9:
+        total = total + 5
+    else:
+        total = total + value
+print(total)
+```
+
+We iterate through each value in the list `[10, 10, 3, 6, 13]`:
+
+1. `value = 10`: `10 > 9` → True → `total = 0 + 5 = 5`
+2. `value = 10`: `10 > 9` → True → `total = 5 + 5 = 10`
+3. `value = 3`: `3 > 9` → False → `total = 10 + 3 = 13`
+4. `value = 6`: `6 > 9` → False → `total = 13 + 6 = 19`
+5. `value = 13`: `13 > 9` → True → `total = 19 + 5 = 24`
+
+Final value of `total` is `24`.
+
+The program prints `24`.
+
+```
+24
+``` [end of text]
+
+

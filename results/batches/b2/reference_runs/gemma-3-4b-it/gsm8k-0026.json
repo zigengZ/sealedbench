@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "gsm8k",
+  "gen_tokens": 129,
+  "gen_tps": 7.98,
+  "hit_cap": false,
+  "item_id": "gsm8k-0026",
+  "model": "gemma-3-4b-it",
+  "n_predict": 768,
+  "prompt_tokens": 109,
+  "prompt_tps": 55.19,
+  "returncode": 0,
+  "seconds": 19.478,
+  "stdout_bytes": 292,
+  "stdout_sha256": "e4c3d665caaf3ee2859faaacb8d6fd2ee6ce429f1dfbe494a89440979a28340e"
+}

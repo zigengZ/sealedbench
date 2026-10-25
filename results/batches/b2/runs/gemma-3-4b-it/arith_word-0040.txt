@@ -1,0 +1,13 @@
+First, let's calculate the total number of seats Zane initially sets out: 8 rows * 9 seats/row = 72 seats.
+
+Next, let's calculate the number of seats added: 4 rows * 10 seats/row = 40 seats.
+
+Now, let's find the total number of seats: 72 seats + 40 seats = 112 seats.
+
+Then, let's calculate the number of unsold seats: 112 seats - 48 seats = 64 seats.
+
+Finally, let's calculate the total value of the unsold seats: 64 seats * $6/seat = $384.
+
+####384 [end of text]
+
+

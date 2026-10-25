@@ -1,0 +1,15 @@
+First, find the total number of seats:
+
+11 rows × 13 seats per row = 143 seats
+
+Then, subtract the number of seats sold:
+
+143 seats − 100 sold = 43 unsold seats
+
+Each unsold seat is worth $2, so:
+
+43 seats × $2 = $86
+
+#### 86 [end of text]
+
+

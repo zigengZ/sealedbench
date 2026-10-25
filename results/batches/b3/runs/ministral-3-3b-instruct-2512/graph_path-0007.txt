@@ -1,0 +1,48 @@
+To find the shortest path from **Hart** to **Vale**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Hart** with distance = 0.
+   - All other nodes have distance = ∞.
+   - Priority queue (min-heap) initialized with `(Hart, 0)`.
+
+2. **Relax edges from Hart**:
+   - Only neighbor: **Zed** (distance = 6).
+   - Update: `Zed = 6`.
+
+3. **Next node: Zed** (distance = 6):
+   - Neighbors: **Fern** (distance = 6 + 5 = 11).
+   - Update: `Fern = 11`.
+
+4. **Next node: Fern** (distance = 11):
+   - Neighbors: **Vale** (distance = 11 + 9 = 20).
+   - Update: `Vale = 20`.
+   - No better path found yet.
+
+5. **Next node: Vale** (distance = 20):
+   - Neighbors: **Bay** (distance = 20 + 6 = 26), **Cedar** (distance = 20 + 8 = 28), **Fern** (already shorter).
+   - No improvement.
+
+6. **Next node: Drew** (distance = 20 via Bay or Cleo, but not yet reached directly):
+   - Wait, we missed **Drew** via **Bay** or **Cedar** earlier. Let’s re-examine:
+     - **Bay** is reachable via **Hart → Zed → Fern → Vale → Bay** (but this is longer).
+     - **Drew** is reachable via **Bay → Drew** (distance = 6 + 4 = 10) or **Cedar → Drew** (distance = 8 + 6 = 14).
+     - Update: `Drew = 10` (via Bay).
+
+7. **Next node: Drew** (distance = 10):
+   - Neighbors: **Bay** (already shorter), **Cedar** (distance = 10 + 6 = 16), **Cleo** (distance = 10 + 4 = 14).
+   - Update: `Cedar = 16`, `Cleo = 14`.
+
+8. **Next node: Cleo** (distance = 14):
+   - No neighbors improve `Vale` (already 20).
+
+9. **Next node: Cedar** (distance = 16):
+   - Neighbors: **Bay** (already shorter), **Vale** (distance = 16 + 8 = 24).
+   - Update: `Vale = 20` (unchanged).
+
+10. **Final check**:
+    - The shortest path to **Vale** is via **Hart → Zed → Fern → Vale** with total weight **20**.
+
+#### 20 [end of text]
+
+

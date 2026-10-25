@@ -1,0 +1,19 @@
+To find the shortest path between Cedar and Jules, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to the starting node (Ced) as 0 and all other nodes as infinity.
+   - Distances: [0, ∞, ∞, ∞, ∞, ∞, ∞]
+
+2. **Distribute Distances:**
+   - Start with the node 'Ced' and update its distance to 'Jules'.
+   - Distance to 'Jules': 7 (from 'Ced')
+   - Update distances to 'Reed' and 'Reed' (since 'Jules' is directly connected to 'Reed' with 5 edges): 7 + 5 = 12
+
+3. **Distribute Distances:**
+   - Update the distance to 'Reed' (from 'Jules'): 12 + 5 = 17
+   - Update the distance to 'Reed' (from 'Jules'): 17 + 5 = 22
+
+4. **Distribute Distances:**
+   - Update the distance to 'Nell' (from 'Reed'): 22 + 7 = 29
+   - Update the distance to 'Nell' (from
+

@@ -1,0 +1,9 @@
+Samir earns 20 dollars per hour. 
+On day 1, he works 2 hours, so he earns 20 * 2 = 40 dollars.
+On day 2, he works 4 hours, so he earns 20 * 4 = 80 dollars.
+On day 3, he works 5 hours, so he earns 20 * 5 = 100 dollars.
+
+Total earnings = 40 + 80 + 100 = 220 dollars.
+#### 220 [end of text]
+
+

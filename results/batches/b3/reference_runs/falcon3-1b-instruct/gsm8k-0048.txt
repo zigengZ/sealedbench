@@ -1,0 +1,11 @@
+First, we need to convert the length of the wire from feet to inches. Since 1 foot equals 12 inches, 4 feet equals 4 * 12 = 48 inches.
+
+Next, we divide the total length of the wire (48 inches) by the length of each piece (6 inches).
+
+48 inches / 6 inches = 8
+
+So, Tracy obtained 8 pieces of wire.
+
+#### 8 [end of text]
+
+

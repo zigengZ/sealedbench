@@ -1,0 +1,8 @@
+Ava first buys 7 packs of 7 erasers each, totaling **49 erasers** (7 × 7 = 49).
+Then she buys 3 packs of 9 erasers each, totaling **27 erasers** (3 × 9 = 27).
+Combined, she has **76 erasers** (49 + 27 = 76).
+Divided equally among 2 people, each gets **38 erasers**.
+
+#### 38 [end of text]
+
+

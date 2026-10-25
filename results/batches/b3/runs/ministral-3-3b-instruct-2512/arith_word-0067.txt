@@ -1,0 +1,7 @@
+Tara starts with 4 packs × 4 muffins = 16 muffins.
+After giving 5 to Chloe: 16 - 5 = 11 muffins.
+Chloe gives back 10 muffins: 11 + 10 = 21 muffins.
+
+#### 21 [end of text]
+
+

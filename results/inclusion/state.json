@@ -1,0 +1,2435 @@
+{
+  "started_utc": "2026-10-17T15:09:56.658Z",
+  "started_ms": 1792249796658,
+  "items": {
+    "qtBHFF6J34ss2HzZLMt-Kjh_wj604ilRjtCzbj9o3Mk": {
+      "txid": "qtBHFF6J34ss2HzZLMt-Kjh_wj604ilRjtCzbj9o3Mk",
+      "label": "probe-00",
+      "group": "phase1",
+      "expected_sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+      "receipt_ts_ms": 1792228374483,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:09:58.229Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 70836,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://arweave.net",
+        "height": 2023095,
+        "confirmations": 166,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 72079,
+        "length": 800,
+        "got": 800,
+        "sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+        "ok": true,
+        "utc": "2026-10-17T15:10:03.122Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:03.669Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:03.669Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:03.919Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:03.919Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:05.240Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:05.240Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T15:30:29.782Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 517.5169999599457
+    },
+    "_reewlLUOJHWaMpqeXnN4ZI-t8cl6jM-siymq9kSWZQ": {
+      "txid": "_reewlLUOJHWaMpqeXnN4ZI-t8cl6jM-siymq9kSWZQ",
+      "label": "probe-01",
+      "group": "phase1",
+      "expected_sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+      "receipt_ts_ms": 1792228376010,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:06.978Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 72879,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 74122,
+        "length": 800,
+        "got": 800,
+        "sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+        "ok": true,
+        "utc": "2026-10-17T15:10:10.641Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:11.189Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:11.189Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:11.441Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:11.441Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:12.607Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:12.607Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T15:42:30.714Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 515.9900000095367
+    },
+    "UpFIj3OwjQcKH52J4C1oNd6gfM3lzceyUciDUVb05jY": {
+      "txid": "UpFIj3OwjQcKH52J4C1oNd6gfM3lzceyUciDUVb05jY",
+      "label": "probe-02",
+      "group": "phase1",
+      "expected_sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+      "receipt_ts_ms": 1792228376210,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:14.339Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 74922,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 76165,
+        "length": 800,
+        "got": 800,
+        "sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+        "ok": true,
+        "utc": "2026-10-17T15:10:18.273Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:18.816Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:18.816Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:19.068Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:19.068Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:20.215Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:20.215Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T15:54:31.659Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 515.789999961853
+    },
+    "oTKjcJa9WBxFY1gWMQAsbXkXop6D9nT1thdY_cb2-yY": {
+      "txid": "oTKjcJa9WBxFY1gWMQAsbXkXop6D9nT1thdY_cb2-yY",
+      "label": "probe-03",
+      "group": "phase1",
+      "expected_sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+      "receipt_ts_ms": 1792228376408,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:21.951Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 78967,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 80210,
+        "length": 800,
+        "got": 800,
+        "sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+        "ok": true,
+        "utc": "2026-10-17T15:10:24.732Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:25.280Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:25.280Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:25.528Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:25.528Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:26.847Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:26.847Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T16:06:32.592Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 515.5920000076294
+    },
+    "OjYHb4NwvZQccACjFKZ5OvK93H6RLhfUjb9il0mz0h4": {
+      "txid": "OjYHb4NwvZQccACjFKZ5OvK93H6RLhfUjb9il0mz0h4",
+      "label": "probe-04",
+      "group": "phase1",
+      "expected_sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+      "receipt_ts_ms": 1792228376611,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:28.567Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 81010,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 82253,
+        "length": 800,
+        "got": 800,
+        "sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+        "ok": true,
+        "utc": "2026-10-17T15:10:32.034Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:32.579Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:32.579Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:32.827Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:32.827Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:33.980Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:33.980Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T16:18:33.535Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 515.3889999389648
+    },
+    "2dsxxyOPq_zrrB2LagjVGX7KBI84WGWf9s2Fk30QqGo": {
+      "txid": "2dsxxyOPq_zrrB2LagjVGX7KBI84WGWf9s2Fk30QqGo",
+      "label": "probe-05",
+      "group": "phase1",
+      "expected_sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+      "receipt_ts_ms": 1792228376806,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:35.707Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 83053,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 84296,
+        "length": 800,
+        "got": 800,
+        "sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+        "ok": true,
+        "utc": "2026-10-17T15:10:39.585Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:40.143Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:40.143Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:40.376Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:40.376Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:41.589Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:41.589Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T16:30:34.483Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 515.194000005722
+    },
+    "Ysde_nVmF4WqIIhtxnBbI1V0s5dh_0-5AWCAmppQddo": {
+      "txid": "Ysde_nVmF4WqIIhtxnBbI1V0s5dh_0-5AWCAmppQddo",
+      "label": "probe-06",
+      "group": "phase1",
+      "expected_sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+      "receipt_ts_ms": 1792228377005,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:43.327Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 85096,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 86339,
+        "length": 800,
+        "got": 800,
+        "sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+        "ok": true,
+        "utc": "2026-10-17T15:10:47.527Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:48.070Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:48.070Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:48.321Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:48.321Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:49.486Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:49.486Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T16:42:35.415Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 514.9949998855591
+    },
+    "1hN7jJv3R2B1HWEN_N9XVzIDB3L7WlyQvgqWXJKJF4E": {
+      "txid": "1hN7jJv3R2B1HWEN_N9XVzIDB3L7WlyQvgqWXJKJF4E",
+      "label": "probe-07",
+      "group": "phase1",
+      "expected_sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+      "receipt_ts_ms": 1792228377201,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:51.222Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 87139,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 88382,
+        "length": 800,
+        "got": 800,
+        "sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+        "ok": true,
+        "utc": "2026-10-17T15:10:54.102Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:54.647Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:54.647Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:54.868Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:54.868Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:10:56.038Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:10:56.038Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T16:54:36.362Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 514.7990000247955
+    },
+    "EZBexqvdFK9YUriDlQ9usrrklD501wdKN8VaVuiN6o0": {
+      "txid": "EZBexqvdFK9YUriDlQ9usrrklD501wdKN8VaVuiN6o0",
+      "label": "probe-08",
+      "group": "phase1",
+      "expected_sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+      "receipt_ts_ms": 1792228377393,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:10:57.769Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 89182,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 90425,
+        "length": 800,
+        "got": 800,
+        "sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+        "ok": true,
+        "utc": "2026-10-17T15:11:01.435Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:01.979Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:01.979Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:02.230Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:02.230Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:03.393Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:03.393Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T17:06:37.330Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 514.6070001125336
+    },
+    "ivrOrlVWxya7C19mPCZnSD1LXwskvQJMkPJafrM-4vc": {
+      "txid": "ivrOrlVWxya7C19mPCZnSD1LXwskvQJMkPJafrM-4vc",
+      "label": "probe-09",
+      "group": "phase1",
+      "expected_sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+      "receipt_ts_ms": 1792228377589,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:05.125Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 91225,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 92468,
+        "length": 800,
+        "got": 800,
+        "sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+        "ok": true,
+        "utc": "2026-10-17T15:11:09.095Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:09.644Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:09.644Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:09.879Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:09.879Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:11.164Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:11.164Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T17:18:38.266Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 514.4110000133514
+    },
+    "RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI": {
+      "txid": "RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI",
+      "label": "probe-10",
+      "group": "phase1",
+      "expected_sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+      "receipt_ts_ms": 1792228377787,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:12.889Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 93268,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 167,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 94511,
+        "length": 800,
+        "got": 800,
+        "sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+        "ok": true,
+        "utc": "2026-10-17T15:11:16.152Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:16.700Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:16.700Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:16.932Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:16.932Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:18.101Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:18.101Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T17:30:39.218Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 514.2130000591278
+    },
+    "Vx1kwpnNAN4Z1OYvZyh5saJG6TpGQMldWkGC0TUxEno": {
+      "txid": "Vx1kwpnNAN4Z1OYvZyh5saJG6TpGQMldWkGC0TUxEno",
+      "label": "probe-11",
+      "group": "phase1",
+      "expected_sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+      "receipt_ts_ms": 1792228377981,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:19.838Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 95311,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 168,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 96554,
+        "length": 800,
+        "got": 800,
+        "sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+        "ok": true,
+        "utc": "2026-10-17T15:11:23.738Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:24.287Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:24.287Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:24.523Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:24.523Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:25.706Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:25.706Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T17:42:40.155Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 514.0190000534058
+    },
+    "jpxYAzH_FE4F2C1kTWqBG_dGzqWxs31j0Gt0HidlLds": {
+      "txid": "jpxYAzH_FE4F2C1kTWqBG_dGzqWxs31j0Gt0HidlLds",
+      "label": "probe-12",
+      "group": "phase1",
+      "expected_sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+      "receipt_ts_ms": 1792228378178,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:27.443Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 97354,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 98597,
+        "length": 800,
+        "got": 800,
+        "sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+        "ok": true,
+        "utc": "2026-10-17T15:11:29.908Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:30.459Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:30.459Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:30.693Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:30.693Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:31.972Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:31.972Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T17:54:41.132Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 513.8220000267029
+    },
+    "i0GGQvXot5v33Ob3X5bTBFLSQdBSjwhmpfdqcYP-_Rs": {
+      "txid": "i0GGQvXot5v33Ob3X5bTBFLSQdBSjwhmpfdqcYP-_Rs",
+      "label": "probe-13",
+      "group": "phase1",
+      "expected_sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+      "receipt_ts_ms": 1792228378376,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:33.694Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 99397,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 100640,
+        "length": 800,
+        "got": 800,
+        "sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+        "ok": true,
+        "utc": "2026-10-17T15:11:36.227Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:36.770Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:36.770Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:37.008Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:37.008Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:38.173Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:38.173Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T18:06:42.077Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 513.6240000724792
+    },
+    "GBtFqkCwGeFM6wIfBvn8Y-sfA6b43ATajDdEBoDMvJk": {
+      "txid": "GBtFqkCwGeFM6wIfBvn8Y-sfA6b43ATajDdEBoDMvJk",
+      "label": "probe-14",
+      "group": "phase1",
+      "expected_sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+      "receipt_ts_ms": 1792228378594,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:39.902Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 101440,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 102683,
+        "length": 800,
+        "got": 800,
+        "sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+        "ok": true,
+        "utc": "2026-10-17T15:11:43.208Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:43.752Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:43.752Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:44.001Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:44.001Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:45.171Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:45.171Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T18:18:43.005Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 513.4059998989105
+    },
+    "jqGC6J1gPrwfUNDHktizBwvP1jMks05SHmH74i31Oto": {
+      "txid": "jqGC6J1gPrwfUNDHktizBwvP1jMks05SHmH74i31Oto",
+      "label": "probe-15",
+      "group": "phase1",
+      "expected_sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+      "receipt_ts_ms": 1792228380340,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:46.901Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 103483,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 104726,
+        "length": 800,
+        "got": 800,
+        "sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+        "ok": true,
+        "utc": "2026-10-17T15:11:50.041Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:50.590Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:50.590Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:50.837Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:50.837Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:51.988Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:51.988Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T18:30:44.001Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 511.6600000858307
+    },
+    "SIBdQ0O1TR4qAEzWUwSVPHVomhAuxUzsO9X8VvBUz_E": {
+      "txid": "SIBdQ0O1TR4qAEzWUwSVPHVomhAuxUzsO9X8VvBUz_E",
+      "label": "probe-16",
+      "group": "phase1",
+      "expected_sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+      "receipt_ts_ms": 1792228380534,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:11:53.721Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 105526,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 106769,
+        "length": 800,
+        "got": 800,
+        "sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+        "ok": true,
+        "utc": "2026-10-17T15:11:57.350Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:57.951Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:57.951Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:58.184Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:58.184Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:11:59.383Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:11:59.383Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T18:42:44.911Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 511.46600008010864
+    },
+    "v0G5wQKAwAXvI_PV8fG9LN4UcJcQywxYY3gjDP7107A": {
+      "txid": "v0G5wQKAwAXvI_PV8fG9LN4UcJcQywxYY3gjDP7107A",
+      "label": "probe-17",
+      "group": "phase1",
+      "expected_sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+      "receipt_ts_ms": 1792228380728,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:12:01.116Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 107569,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 108812,
+        "length": 800,
+        "got": 800,
+        "sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+        "ok": true,
+        "utc": "2026-10-17T15:12:05.363Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:05.909Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:05.909Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:06.139Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:06.139Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:07.302Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:07.302Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T18:54:45.871Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 511.2720000743866
+    },
+    "INMPr65C_QHRDY7S93KsQZ4Yv-Gkql4mRlzKM5svdTM": {
+      "txid": "INMPr65C_QHRDY7S93KsQZ4Yv-Gkql4mRlzKM5svdTM",
+      "label": "probe-18",
+      "group": "phase1",
+      "expected_sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+      "receipt_ts_ms": 1792228380926,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:12:09.037Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 109612,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 110855,
+        "length": 800,
+        "got": 800,
+        "sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+        "ok": true,
+        "utc": "2026-10-17T15:12:12.094Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:12.637Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:12.637Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:12.888Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:12.888Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:14.227Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:14.227Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T19:06:46.815Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 511.0739998817444
+    },
+    "qXLLQ1qIY1n9OaWOrPPJ1n7kvQ8JAjHs4YaBsubLO1Q": {
+      "txid": "qXLLQ1qIY1n9OaWOrPPJ1n7kvQ8JAjHs4YaBsubLO1Q",
+      "label": "probe-19",
+      "group": "phase1",
+      "expected_sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+      "receipt_ts_ms": 1792228381122,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:12:15.949Z",
+        "status": "FINALIZED",
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+        "info": "permanent",
+        "start_offset": 111655,
+        "payload_data_start": 1243,
+        "payload_length": 800
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "confirmations": 169,
+        "bundle_id": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023095,
+        "timestamp": 1792228892,
+        "timestamp_utc": "2026-10-17T09:21:32Z",
+        "indep_hash": "gtQa0tcJNlXA7QdSV6XwAx7NNQCRd1rctfTZTP6_m2H15pAyJGEJUay_bzyrnADa"
+      },
+      "payload": {
+        "http": 206,
+        "absolute_offset": 112898,
+        "length": 800,
+        "got": 800,
+        "sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+        "ok": true,
+        "utc": "2026-10-17T15:12:19.737Z"
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:20.279Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:20.279Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:20.523Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:20.523Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+          "match": true,
+          "bytes": 800,
+          "first_match_utc": "2026-10-17T15:12:21.678Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:21.678Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T19:18:47.771Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023095
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023095
+        }
+      ],
+      "inclusion_latency_s": 510.87800002098083
+    },
+    "510sRNPxwIwK4D_xXkujpyih8M1pcww9DcZgOaLkkzU": {
+      "txid": "510sRNPxwIwK4D_xXkujpyih8M1pcww9DcZgOaLkkzU",
+      "label": "b1/manifest",
+      "group": "b1",
+      "expected_sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+      "receipt_ts_ms": 1792249536779,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:22:09.691Z",
+        "status": "CONFIRMED",
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "info": "pending",
+        "start_offset": 3396,
+        "payload_data_start": 1159,
+        "payload_length": 25560
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "confirmations": 127,
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "confirmations_at_first_observation": 1,
+        "confirmations_utc": "2026-10-17T20:08:54Z"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "timestamp": 1792250460,
+        "timestamp_utc": "2026-10-17T15:21:00Z",
+        "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY"
+      },
+      "payload": {
+        "http": 206,
+        "host": "https://ar-io.dev",
+        "absolute_offset": 4555,
+        "length": 25560,
+        "got": 25560,
+        "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+        "ok": true,
+        "utc": "2026-10-17T20:08:54Z",
+        "content_range_total": 185260,
+        "earlier_attempt": {
+          "http": 404,
+          "absolute_offset": 4555,
+          "length": 25560,
+          "got": 9,
+          "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+          "ok": false,
+          "utc": "2026-10-17T15:16:45.665Z"
+        },
+        "note": "First range read returned HTTP 404 before the bundle bytes were readable. This recheck, after L1 block 2023266, matched the uploaded sha256."
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+          "match": true,
+          "bytes": 25560,
+          "first_match_utc": "2026-10-17T15:12:24.090Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:24.090Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+          "match": true,
+          "bytes": 25560,
+          "first_match_utc": "2026-10-17T15:12:24.339Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:24.339Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+          "match": true,
+          "bytes": 25560,
+          "first_match_utc": "2026-10-17T15:12:25.370Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:25.370Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T19:30:48.723Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023266
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023266
+        }
+      ],
+      "inclusion_latency_s": 923.220999956131
+    },
+    "57E6ydKUep6BKQ6L8wUSgrsDYkvq5r8pNmlUXzpxd7o": {
+      "txid": "57E6ydKUep6BKQ6L8wUSgrsDYkvq5r8pNmlUXzpxd7o",
+      "label": "b1/generator-ciphertext",
+      "group": "b1",
+      "expected_sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+      "receipt_ts_ms": 1792249537445,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:22:15.419Z",
+        "status": "CONFIRMED",
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "info": "pending",
+        "start_offset": 30115,
+        "payload_data_start": 1165,
+        "payload_length": 15685
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "confirmations": 127,
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "confirmations_at_first_observation": 1,
+        "confirmations_utc": "2026-10-17T20:08:54Z"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "timestamp": 1792250460,
+        "timestamp_utc": "2026-10-17T15:21:00Z",
+        "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY"
+      },
+      "payload": {
+        "http": 206,
+        "host": "https://ar-io.dev",
+        "absolute_offset": 31280,
+        "length": 15685,
+        "got": 15685,
+        "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+        "ok": true,
+        "utc": "2026-10-17T20:08:54Z",
+        "content_range_total": 185260,
+        "earlier_attempt": {
+          "http": 404,
+          "absolute_offset": 31280,
+          "length": 15685,
+          "got": 9,
+          "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+          "ok": false,
+          "utc": "2026-10-17T15:17:10.858Z"
+        },
+        "note": "First range read returned HTTP 404 before the bundle bytes were readable. This recheck, after L1 block 2023266, matched the uploaded sha256."
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+          "match": true,
+          "bytes": 15685,
+          "first_match_utc": "2026-10-17T15:12:27.481Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:27.481Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+          "match": true,
+          "bytes": 15685,
+          "first_match_utc": "2026-10-17T15:12:27.716Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:27.716Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+          "match": true,
+          "bytes": 15685,
+          "first_match_utc": "2026-10-17T15:12:28.736Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:28.736Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T19:42:49.666Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "http": 429,
+          "height": null
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023266
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023266
+        }
+      ],
+      "inclusion_latency_s": 922.5550000667572
+    },
+    "lkdeMQV1Cit1HArMK5gPDQm1oFIReGhRmntjdW8VjF0": {
+      "txid": "lkdeMQV1Cit1HArMK5gPDQm1oFIReGhRmntjdW8VjF0",
+      "label": "cap/manifest",
+      "group": "cap",
+      "expected_sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+      "receipt_ts_ms": 1792249537785,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:22:20.369Z",
+        "status": "CONFIRMED",
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "info": "pending",
+        "start_offset": 46965,
+        "payload_data_start": 1160,
+        "payload_length": 25561
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "confirmations": 127,
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "confirmations_at_first_observation": 1,
+        "confirmations_utc": "2026-10-17T20:08:54Z"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "timestamp": 1792250460,
+        "timestamp_utc": "2026-10-17T15:21:00Z",
+        "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY"
+      },
+      "payload": {
+        "http": 206,
+        "host": "https://ar-io.dev",
+        "absolute_offset": 48125,
+        "length": 25561,
+        "got": 25561,
+        "sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+        "ok": true,
+        "utc": "2026-10-17T20:08:54Z",
+        "content_range_total": 185260,
+        "earlier_attempt": {
+          "http": 404,
+          "absolute_offset": 48125,
+          "length": 25561,
+          "got": 9,
+          "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+          "ok": false,
+          "utc": "2026-10-17T15:17:35.763Z"
+        },
+        "note": "First range read returned HTTP 404 before the bundle bytes were readable. This recheck, after L1 block 2023266, matched the uploaded sha256."
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+          "match": true,
+          "bytes": 25561,
+          "first_match_utc": "2026-10-17T15:12:30.854Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:30.854Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+          "match": true,
+          "bytes": 25561,
+          "first_match_utc": "2026-10-17T15:12:31.087Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:31.087Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+          "match": true,
+          "bytes": 25561,
+          "first_match_utc": "2026-10-17T15:12:32.107Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:32.107Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T19:54:50.706Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023266
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023266
+        }
+      ],
+      "inclusion_latency_s": 922.2149999141693
+    },
+    "q5O5v8XwkxCJkAyuZHd9V1pBV6XCWEtmCU5_2bactb0": {
+      "txid": "q5O5v8XwkxCJkAyuZHd9V1pBV6XCWEtmCU5_2bactb0",
+      "label": "cap/generator-ciphertext",
+      "group": "cap",
+      "expected_sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+      "receipt_ts_ms": 1792249538114,
+      "turbo": {
+        "http": 200,
+        "utc": "2026-10-17T15:22:25.602Z",
+        "status": "CONFIRMED",
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "info": "pending",
+        "start_offset": 73686,
+        "payload_data_start": 1166,
+        "payload_length": 15685
+      },
+      "l1": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "confirmations": 127,
+        "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+        "confirmations_at_first_observation": 1,
+        "confirmations_utc": "2026-10-17T20:08:54Z"
+      },
+      "block": {
+        "source": "https://ar-io.dev",
+        "height": 2023266,
+        "timestamp": 1792250460,
+        "timestamp_utc": "2026-10-17T15:21:00Z",
+        "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY"
+      },
+      "payload": {
+        "http": 206,
+        "host": "https://ar-io.dev",
+        "absolute_offset": 74852,
+        "length": 15685,
+        "got": 15685,
+        "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+        "ok": true,
+        "utc": "2026-10-17T20:08:54Z",
+        "content_range_total": 185260,
+        "earlier_attempt": {
+          "http": 404,
+          "absolute_offset": 74852,
+          "length": 15685,
+          "got": 9,
+          "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+          "ok": false,
+          "utc": "2026-10-17T15:18:00.826Z"
+        },
+        "note": "First range read returned HTTP 404 before the bundle bytes were readable. This recheck, after L1 block 2023266, matched the uploaded sha256."
+      },
+      "gateways": {
+        "https://ar-io.dev": {
+          "http": 200,
+          "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+          "match": true,
+          "bytes": 15685,
+          "first_match_utc": "2026-10-17T15:12:34.352Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:34.352Z"
+        },
+        "https://ario.zigza.xyz": {
+          "http": 200,
+          "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+          "match": true,
+          "bytes": 15685,
+          "first_match_utc": "2026-10-17T15:12:35.155Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:35.155Z"
+        },
+        "https://turbo-gateway.com": {
+          "http": 200,
+          "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+          "match": true,
+          "bytes": 15685,
+          "first_match_utc": "2026-10-17T15:12:36.198Z",
+          "tries": 1,
+          "last_utc": "2026-10-17T15:12:36.198Z"
+        },
+        "https://arweave.net": {
+          "http": 429,
+          "match": false,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "bytes": 169,
+          "first_match_utc": null,
+          "tries": 1,
+          "last_utc": "2026-10-17T20:06:51.607Z"
+        }
+      },
+      "l1_attempts": [
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 202,
+          "height": null
+        },
+        {
+          "host": "https://arweave.net",
+          "skipped": "arweave cooldown"
+        },
+        {
+          "host": "https://ar-io.dev",
+          "http": 200,
+          "height": 2023266
+        },
+        {
+          "host": "https://ario.zigza.xyz",
+          "http": 200,
+          "height": 2023266
+        }
+      ],
+      "inclusion_latency_s": 921.885999917984
+    }
+  },
+  "arweave_last_ms": 1792267611315,
+  "arweave_attempts": 26,
+  "notes": []
+}

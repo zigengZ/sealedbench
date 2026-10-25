@@ -1,0 +1,8 @@
+First, find the total number of apples Mina buys: 4 packs * 10 apples/pack = 40 apples.
+Then, Mina gives away 35 apples: 40 apples - 35 apples = 5 apples.
+Finally, Hugo gives Mina 8 apples: 5 apples + 8 apples = 13 apples.
+
+####13
+ [end of text]
+
+

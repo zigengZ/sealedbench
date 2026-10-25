@@ -1,0 +1,6 @@
+First, find the total number of flowers Ryan plants: 2 flowers/day * 15 days = 30 flowers.
+Then, subtract the number of flowers that didn't grow: 30 flowers - 5 flowers = 25 flowers.
+
+####25 [end of text]
+
+

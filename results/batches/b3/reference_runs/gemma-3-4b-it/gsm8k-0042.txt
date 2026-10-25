@@ -1,0 +1,6 @@
+First, find the total number of pie pieces: 5 pies * 8 pieces/pie = 40 pieces.
+Then, subtract the remaining pieces from the total pieces to find the number taken: 40 pieces - 14 pieces = 26 pieces.
+
+####26 [end of text]
+
+

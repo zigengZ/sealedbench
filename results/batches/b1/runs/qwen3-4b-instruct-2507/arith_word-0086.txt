@@ -1,0 +1,19 @@
+Kira earns $26 per hour.
+
+On **day 1**, she works 4 hours:  
+$ 4 \times 26 = 104 $ dollars
+
+On **day 2**, she works 5 hours:  
+$ 5 \times 26 = 130 $ dollars
+
+Total earnings:  
+$ 104 + 130 = 234 $ dollars
+
+She spends $151.
+
+Money left:  
+$ 234 - 151 = 83 $ dollars
+
+#### 83 [end of text]
+
+

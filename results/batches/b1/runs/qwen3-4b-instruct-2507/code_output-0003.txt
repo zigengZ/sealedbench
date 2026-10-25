@@ -1,0 +1,35 @@
+Let's trace through the program step by step:
+
+Initial setup:
+- `words = ['timber', 'kelp', 'delta']`
+- `out = ""`
+
+Loop over `range(len(words))`, which is `range(3)` → indices 0, 1, 2.
+
+**Index 0:**
+- `piece = words[0] = 'timber'`
+- `index % 2 == 0` → True → `piece = 'TIMBER'`
+- `out == ""` → True → `out = 'TIMBER'`
+
+**Index 1:**
+- `piece = words[1] = 'kelp'`
+- `index % 2 == 0` → False → `piece = 'kelp'`
+- `out != ""` → True → `out = out + ' ' + piece` → `'TIMBER kelp'`
+
+**Index 2:**
+- `piece = words[2] = 'delta'`
+- `index % 2 == 0` → False → `piece = 'delta'`
+- `out != ""` → True → `out = out + ' ' + piece` → `'TIMBER kelp delta'`
+
+Final `out` is `'TIMBER kelp delta'`
+
+Output:
+```
+TIMBER kelp delta
+```
+
+``` 
+TIMBER kelp delta
+``` [end of text]
+
+

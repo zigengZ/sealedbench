@@ -1,0 +1,9 @@
+Tara has a total of 9 rows × 12 seats = 108 seats.
+
+Seats sold = 89, so unsold seats = 108 - 89 = 19.
+
+Each unsold seat is worth $11, so total value = 19 × 11 = $209.
+
+#### 209 [end of text]
+
+

@@ -1,0 +1,4 @@
+Zane earns 9 dollars an hour. He works 3 hours, so his total earnings are 9 * 3 = 27 dollars. After spending 4 dollars, Zane has 27 - 4 = 23 dollars left.
+#### 23 [end of text]
+
+

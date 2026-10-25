@@ -1,0 +1,24 @@
+Let's denote the number of boxes as \( x \).
+
+The weight of the boxes is \( 15x \) pounds.
+The combined weight of the driver and the empty truck is 3755 pounds.
+
+The total weight the truck can carry is 5000 pounds.
+
+So, we set up the equation:
+\[ 15x + 3755 \leq 5000 \]
+
+Subtract 3755 from both sides:
+\[ 15x \leq 1245 \]
+
+Divide both sides by 15:
+\[ x \leq \frac{1245}{15} \]
+
+Calculate the division:
+\[ x \leq 82.7333 \]
+
+Since \( x \) must be a whole number (you can't load a fraction of a box), the maximum integer value for \( x \) is 82.
+
+#### 82 [end of text]
+
+

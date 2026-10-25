@@ -1,0 +1,18 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+10
+```
+
+Here's the reasoning:
+
+1. The program initializes a variable `total` to 0.
+2. It then enters a `for` loop that iterates 5 times (from 0 to 4).
+3. Inside the loop, it checks if the current value (`value`) is equal to 4.
+4. If `value` is 4, it adds 0 to `total`, effectively skipping the addition of 4.
+5. If `value` is not 4, it adds the current value (`value`) to `total`.
+6. After the loop completes, the program prints the final value of `total`, which is 10.
+
+Therefore, the output is `10`. [end of text]
+
+

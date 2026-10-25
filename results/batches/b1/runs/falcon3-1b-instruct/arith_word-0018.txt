@@ -1,0 +1,12 @@
+First, calculate the total number of pages Aisha reads in the first 4 days:
+14 pages/day * 4 days = 56 pages
+
+Then, add the 7 more pages she reads:
+56 pages + 7 pages = 63 pages
+
+Next, subtract the 31 pages she skips:
+63 pages - 31 pages = 32 pages
+
+So, Aisha reads a total of #### 32 pages. [end of text]
+
+

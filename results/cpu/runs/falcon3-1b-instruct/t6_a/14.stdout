@@ -1,0 +1,18 @@
+First, let's determine the number of students enrolled in hip-hop dance.
+
+1. **Total Students:** 20
+2. **Contemporary Dance:** 20% of 20 = 0.20 * 20 = 4 students
+3. **Remaining Students:** 20 - 4 = 16 students
+4. **Jazz Dance:** 25% of 16 = 0.25 * 16 = 4 students
+5. **Remaining Students:** 16 - 4 = 12 students
+6. **Hip-Hop Dance:** 12 students
+
+Now, to find the percentage of the entire students enrolled in hip-hop dance:
+
+\[
+\text{Percentage of hip-hop students} = \left(\frac{12}{20}\right) \times 100\% = 60\%
+\]
+
+#### 60 [end of text]
+
+

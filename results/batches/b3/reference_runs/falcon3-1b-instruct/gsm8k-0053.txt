@@ -1,0 +1,18 @@
+First, calculate the revenue from repairing truck tires:
+- Each truck tire is repaired for $60.
+- The mechanic repairs 6 truck tires.
+- Revenue from truck tires = 6 tires × $60/tire = $360.
+
+Next, calculate the revenue from repairing car tires:
+- Each car tire is repaired for $40.
+- The mechanic repairs 4 car tires.
+- Revenue from car tires = 4 tires × $40/tire = $160.
+
+Now, find the difference in revenue between the two days:
+- Difference in revenue = Revenue from car tires - Revenue from truck tires = $160 - $360 = -$200.
+
+The mechanic earned $200 less on Friday compared to Thursday.
+
+#### 200 [end of text]
+
+

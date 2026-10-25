@@ -1,0 +1,17 @@
+First, find the total number of beads Jamal buys:
+
+- 8 packs × 10 beads = 80 beads  
+- 6 packs × 4 beads = 24 beads  
+- Total beads = 80 + 24 = 104 beads
+
+Then, Jamal gives 93 beads to Tara, so the number of beads he has left is:
+
+104 - 93 = 11 beads
+
+Each bead is worth $4, so the value of Jamal's remaining beads is:
+
+11 × 4 = 44 dollars
+
+#### 44 [end of text]
+
+

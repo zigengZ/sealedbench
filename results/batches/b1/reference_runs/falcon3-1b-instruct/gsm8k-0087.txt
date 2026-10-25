@@ -1,0 +1,28 @@
+First, let's calculate Sylvie's initial salary.
+
+Initial salary = $600
+
+Next, we calculate the increase in salary for each year.
+
+Increase per year = 10% of initial salary
+Increase per year = 0.10 * $600 = $60
+
+Now, let's calculate the salary after three more years of service.
+
+Salary after 5 years = Initial salary + (Number of years * Increase per year)
+Salary after 5 years = $600 + (3 * $60)
+Salary after 5 years = $600 + $180
+Salary after 5 years = $780
+
+Now, we calculate the salary after the next three years.
+
+Salary after 6 years = Salary after 5 years + (Number of years * Increase per year)
+Salary after 6 years = $780 + (3 * $60)
+Salary after 6 years = $780 + $180
+Salary after 6 years = $960
+
+Finally, we calculate the salary after the next three years.
+
+Salary after 7 years = Salary after 6 years + (Number of years * Increase per year)
+Salary after 7 years
+

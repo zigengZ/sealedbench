@@ -1,0 +1,12 @@
+First, calculate the total number of pages Yara reads in the first 2 days:
+20 pages/day * 2 days = 40 pages
+
+Then, add the additional 18 pages:
+40 pages + 18 pages = 58 pages
+
+Next, subtract the 26 pages that were blank:
+58 pages - 26 pages = 32 pages
+
+So, Yara reads #### 32. [end of text]
+
+

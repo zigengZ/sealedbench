@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "path": "results/batches/b1/manifest.json",
+      "type": "manifest",
+      "batch": "b1",
+      "round": 33170212,
+      "content_type": "application/json"
+    },
+    {
+      "path": "results/batches/b1/generator.tlock",
+      "type": "generator-ciphertext",
+      "batch": "b1",
+      "round": 33170212,
+      "content_type": "text/plain"
+    },
+    {
+      "path": "results/batches/cap/manifest.json",
+      "type": "manifest",
+      "batch": "cap",
+      "round": 33980212,
+      "content_type": "application/json"
+    },
+    {
+      "path": "results/batches/cap/generator.tlock",
+      "type": "generator-ciphertext",
+      "batch": "cap",
+      "round": 33980212,
+      "content_type": "text/plain"
+    }
+  ]
+}

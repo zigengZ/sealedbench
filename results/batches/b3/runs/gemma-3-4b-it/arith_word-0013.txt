@@ -1,0 +1,7 @@
+First, Farid reads 6 pages/day * 5 days = 30 pages.
+Then he reads 20 more pages, so he has read 30 + 20 = 50 pages.
+Finally, he skips 8 pages, so he reads 50 - 8 = 42 pages.
+
+####42 [end of text]
+
+

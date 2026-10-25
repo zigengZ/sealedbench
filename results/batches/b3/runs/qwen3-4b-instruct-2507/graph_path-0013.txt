@@ -1,0 +1,95 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Glen, Indigo, Jules, Oak, Reed, Vale, York  
+**Edges and weights**:
+- Glen — Indigo: 5  
+- Glen — Reed: 1  
+- Indigo — Oak: 9  
+- Jules — Oak: 1  
+- Jules — Vale: 3  
+- Jules — York: 3  
+- Oak — York: 9  
+- Reed — York: 9  
+
+We are to find the **shortest path from Reed to Vale**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We need to find the shortest path from **Reed** to **Vale**.
+
+Let’s list all possible paths from Reed to Vale, and compute their total weights.
+
+---
+
+### Path 1: Reed → York → Jules → Vale  
+- Reed to York: 9  
+- York to Jules: 3  
+- Jules to Vale: 3  
+→ Total = 9 + 3 + 3 = **15**
+
+---
+
+### Path 2: Reed → Glen → Indigo → Oak → Jules → Vale  
+- Reed → Glen: 1  
+- Glen → Indigo: 5  
+- Indigo → Oak: 9  
+- Oak → Jules: 1  
+- Jules → Vale: 3  
+→ Total = 1 + 5 + 9 + 1 + 3 = **19**
+
+---
+
+### Path 3: Reed → Glen → Indigo → Oak → York → Jules → Vale  
+- Reed → Glen: 1  
+- Glen → Indigo: 5  
+- Indigo → Oak: 9  
+- Oak → York: 9  
+- York → Jules: 3  
+- Jules → Vale: 3  
+→ Total = 1 + 5 + 9 + 9 + 3 + 3 = **30** → too long
+
+---
+
+### Path 4: Reed → York → Oak → Jules → Vale  
+- Reed → York: 9  
+- York → Oak: 9  
+- Oak → Jules: 1  
+- Jules → Vale: 3  
+→ Total = 9 + 9 + 1 + 3 = **22** → worse than 15
+
+---
+
+### Path 5: Reed → Glen → Indigo → Oak → York → Jules → Vale  
+Already considered — longer.
+
+---
+
+### Is there a shorter path?
+
+What about going directly from Reed to Vale?  
+No direct edge.
+
+Any other path?
+
+Only connections are as listed.
+
+So the shortest path is:
+
+**Reed → York → Jules → Vale** = 9 + 3 + 3 = **15**
+
+Is there a shorter path via other nodes?
+
+What about Reed → Glen → Indigo → Oak → Jules → Vale?  
+We already computed: 1 + 5 + 9 + 1 + 3 = 19 → longer.
+
+Any other route?
+
+No — all other paths go through longer edges.
+
+So the shortest path is **15**.
+
+#### 15 [end of text]
+
+

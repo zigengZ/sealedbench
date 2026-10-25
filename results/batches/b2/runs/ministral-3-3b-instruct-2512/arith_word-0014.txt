@@ -1,0 +1,10 @@
+Elena earns **$95** in total.
+
+Reasoning:
+- Day 1: 5 hours × $19/hour = $95
+- Day 2: 5 hours × $19/hour = $95
+- Total: $95 + $95 = $190
+
+#### 190 [end of text]
+
+

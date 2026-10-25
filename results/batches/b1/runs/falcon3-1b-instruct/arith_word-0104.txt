@@ -1,0 +1,28 @@
+First, let's calculate the total number of tokens Boris initially has.
+
+**Step 1: Calculate tokens from packs Boris bought initially.**
+- Boris buys 6 packs of tokens.
+- Each pack contains 4 tokens.
+
+**Calculation:**
+\[ 6 \text{ packs} \times 4 \text{ tokens/pack} = 24 \text{ tokens} \]
+
+**Step 2: Calculate tokens from packs Boris bought second.**
+- Boris buys 3 packs with 3 tokens in each pack.
+
+**Calculation:**
+\[ 3 \text{ packs} \times 3 \text{ tokens/pack} = 9 \text{ tokens} \]
+
+**Step 3: Calculate total tokens Boris has after both purchases.**
+
+**Calculation:**
+\[ 24 \text{ tokens (initial)} + 9 \text{ tokens (second)} = 33 \text{ tokens} \]
+
+**Step 4: Subtract tokens Boris gives to Chloe.**
+
+**Calculation:**
+\[ 33 \text{ tokens} - 4 \text{ tokens} = 29 \text{ tokens} \]
+
+#### 29 [end of text]
+
+

@@ -1,0 +1,5 @@
+Jamal reads 12 pages a day for 2 days, so he reads 12 * 2 = 24 pages. Then he reads 9 more pages, making it 24 + 9 = 33 pages. After skipping 23 blank pages, Jamal reads 33 - 23 = 10 pages.
+
+#### 10 [end of text]
+
+

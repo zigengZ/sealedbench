@@ -1,0 +1,11 @@
+First, let's calculate the number of balloons from the first set of packs: 4 packs * 6 balloons/pack = 24 balloons.
+
+Next, let's calculate the number of balloons from the second set of packs: 4 packs * 9 balloons/pack = 36 balloons.
+
+Now, let's find the total number of balloons: 24 balloons + 36 balloons = 60 balloons.
+
+Finally, let's divide the total number of balloons by the number of people: 60 balloons / 4 people = 15 balloons/person.
+
+#### 15 [end of text]
+
+

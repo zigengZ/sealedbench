@@ -1,0 +1,9 @@
+Ted needs to calculate the total potato salad required for both adults and children.
+
+- **Adults:** 20 adults × 10 lbs each = 200 lbs
+- **Children:** 5 children × (10 lbs ÷ 2) = 25 lbs
+- **Total:** 200 lbs + 25 lbs = 225 lbs
+
+#### 225 [end of text]
+
+

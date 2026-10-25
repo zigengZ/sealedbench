@@ -1,0 +1,7 @@
+Samir has a total of 6 rows × 12 seats = 72 seats.
+After 3 seats are sold, there are 72 - 3 = 69 unsold seats.
+Each unsold seat is worth $5, so 69 × 5 = $345.
+
+#### 345 [end of text]
+
+

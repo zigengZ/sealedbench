@@ -1,0 +1,11 @@
+John has 3 children, and he buys 2 pairs of shoes for each child.
+
+So, total pairs of shoes = 3 children × 2 pairs = 6 pairs.
+
+Each pair costs $60.
+
+Total cost = 6 pairs × $60 = $360.
+
+#### 360 [end of text]
+
+

@@ -1,0 +1,13 @@
+Leo buys 4 packs of tokens, and each pack has 4 tokens.  
+So, total tokens Leo has:  
+4 packs × 4 tokens = 16 tokens  
+
+Then Leo gives 8 tokens to Hugo, so he keeps:  
+16 − 8 = 8 tokens  
+
+Each token is worth $9, so the value of Leo's remaining tokens is:  
+8 tokens × $9 = $72  
+
+#### 72 [end of text]
+
+

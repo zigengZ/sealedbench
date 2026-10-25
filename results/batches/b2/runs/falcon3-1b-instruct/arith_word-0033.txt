@@ -1,0 +1,14 @@
+First, calculate the total number of erasers Ava bought:
+7 packs * 7 erasers/pack = 49 erasers
+
+Then, add the erasers from the 3 additional packs:
+3 packs * 9 erasers/pack = 27 erasers
+
+Total erasers: 49 + 27 = 76 erasers
+
+Now, divide the total erasers by the number of people:
+76 erasers / 2 people = 38 erasers/person
+
+#### 38 [end of text]
+
+

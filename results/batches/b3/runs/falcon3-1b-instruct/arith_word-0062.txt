@@ -1,0 +1,14 @@
+First, calculate the total number of stamps Chloe bought:
+8 packs * 11 stamps/pack = 88 stamps
+
+Next, calculate the total number of stamps Chloe bought:
+4 packs * 2 stamps/pack = 8 stamps
+
+Total stamps Chloe bought: 88 + 8 = 96 stamps
+
+Now, divide the total stamps by the number of people:
+96 stamps / 3 people = 32 stamps/person
+
+#### 32 [end of text]
+
+

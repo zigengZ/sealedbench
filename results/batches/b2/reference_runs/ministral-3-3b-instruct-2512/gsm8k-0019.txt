@@ -1,0 +1,11 @@
+Marissa's total distance is 12 miles, and she has already covered 6 miles (4 + 2) in 2 hours (1 + 1). Her current speed for these 6 miles is 3 mph.
+
+To achieve an average speed of 4 mph over 12 miles, the total time required is 12 / 4 = 3 hours.
+
+She has already spent 2 hours, so she needs to walk the remaining 6 miles in 1 hour.
+
+Therefore, her required speed for the remaining distance is 6 miles / 1 hour = 6 mph.
+
+#### 6 [end of text]
+
+

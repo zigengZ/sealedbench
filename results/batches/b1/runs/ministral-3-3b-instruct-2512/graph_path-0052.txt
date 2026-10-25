@@ -1,0 +1,25 @@
+To find the shortest path from **Hart** to **Lark**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Hart → Hart: 0
+   - All others: ∞
+
+2. **Priority queue (min-heap)**:
+   - Start with Hart (distance 0).
+
+3. **Relax edges**:
+   - From Hart (6):
+     - Hart → Kai (8): Update Kai’s distance to min(∞, 0 + 8) = **8**
+     - Hart → Poe (7): Update Poe’s distance to min(∞, 0 + 7) = **7**
+   - Next, pick Kai (8):
+     - Kai → Bay (9): No update (Bay is unreachable from Hart).
+     - Kai → Fern (1): Update Fern’s distance to min(∞, 8 + 1) = **9**
+     - Kai → Lark (4): Update Lark’s distance to min(∞, 8 + 4) = **12**
+     - Kai → Sage (5): Update Sage’s distance to min(∞, 8 + 5) = **13**
+   - Next, pick Poe (7):
+     - Poe → Hart (7): No update (already visited).
+     - Poe → Kai (9): No update (Kai’s distance is already 8).
+   - Next, pick Fern (9):
+     -
+

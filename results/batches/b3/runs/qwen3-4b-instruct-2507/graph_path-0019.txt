@@ -1,0 +1,112 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Bay, Fern, Glen, Hart, Moss, Poe, Sage, Xen  
+**Edges and weights**:
+
+- Bay – Sage: 6  
+- Fern – Hart: 9  
+- Glen – Sage: 9  
+- Hart – Sage: 7  
+- Moss – Poe: 9  
+- Moss – Xen: 6  
+- Poe – Sage: 1  
+- Poe – Xen: 3  
+- Sage – Xen: 2  
+
+We are to find the **shortest path from Fern to Glen**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We need to go from **Fern** to **Glen**.
+
+Fern is only directly connected to **Hart** (weight 9).
+
+Glen is only directly connected to **Sage** (weight 9).
+
+So, one possible path is:
+
+**Fern → Hart → Sage → Glen**  
+Weights:  
+- Fern–Hart: 9  
+- Hart–Sage: 7  
+- Sage–Glen: 9  
+→ Total: 9 + 7 + 9 = **25**
+
+But is there a shorter path?
+
+Let’s explore if we can go through other nodes to reduce the total.
+
+Note: All other nodes (Bay, Moss, Poe, Xen) are not directly connected to Fern or Glen, so we must go through intermediate nodes.
+
+Let’s consider if there’s a path via **Sage**, which is a central hub.
+
+We can go:
+
+**Fern → Hart → Sage → Glen** → already considered: 25
+
+Can we go from Hart to Sage via other paths? No — Hart only connects to Fern and Sage.
+
+Can we go from Hart to Sage via Xen or Poe?
+
+Let’s see if we can go:
+
+**Fern → Hart → Sage → Xen → Poe → Sage → Glen** — that’s longer, and we’re going in circles.
+
+Alternatively, can we go from Hart to Sage via other routes?
+
+No — Hart only connects to Fern and Sage.
+
+So Hart is only connected to Fern and Sage.
+
+Similarly, Glen only connects to Sage.
+
+So the only way from Fern to Glen is through **Sage**.
+
+So any path must go:
+
+Fern → Hart → Sage → Glen  
+or  
+Fern → Hart → Sage → (some other node) → Sage → Glen — but that would be longer.
+
+But wait — is there a way to reach Sage from Hart via another route?
+
+No — Hart only connects to Fern and Sage.
+
+So the only path from Fern to Sage is **Fern → Hart → Sage** (weight 9 + 7 = 16)
+
+Then from Sage to Glen is 9.
+
+So total: 16 + 9 = 25
+
+But is there a shorter path via other nodes?
+
+Let’s check if we can go from Hart to Sage via Xen or Poe?
+
+For example:
+
+Can we go:  
+Fern → Hart → ? → ? → Sage → Glen?
+
+But Hart only connects to Fern and Sage. So no other edges from Hart.
+
+So Hart is a leaf node except for Sage.
+
+Similarly, Glen only connects to Sage.
+
+So the only path from Fern to Glen is through Sage, and the only way to get to Sage from Fern is via Hart.
+
+So the only path is:
+
+Fern → Hart → Sage → Glen  
+Total: 9 + 7 + 9 = **25**
+
+But wait — is there a path via Poe or Xen?
+
+For example:
+
+Fern → Hart → Sage → Xen → Poe → Sage → Glen?  
+That would be:  
+Hart–Sage: 
+

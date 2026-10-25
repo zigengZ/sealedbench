@@ -1,0 +1,5 @@
+Yara starts with 5 packs, each containing 7 ribbons, so she has 5 × 7 = 35 ribbons. Boris gives her 8 more ribbons, so she now has 35 + 8 = 43 ribbons.
+
+#### 43 [end of text]
+
+

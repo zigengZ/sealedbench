@@ -1,0 +1,20 @@
+First, calculate the total cost of the lumber Sasha bought:
+- 10 boards of 2x4x10 at $10 each: 10 × $10 = $100
+- 5 boards of 4x4x10 at $16 each: 5 × $16 = $80
+Total cost = $100 + $80 = $180
+
+Next, calculate the new price after a 50% increase:
+- New price for 2x4x10 boards: $10 × 1.5 = $15 each
+- New price for 4x4x10 boards: $16 × 1.5 = $24 each
+
+Now, calculate the total revenue from selling all boards:
+- Revenue from 2x4x10 boards: 10 × $15 = $150
+- Revenue from 4x4x10 boards: 5 × $24 = $120
+Total revenue = $150 + $120 = $270
+
+Finally, calculate the profit:
+Profit = Total revenue - Total cost = $270 - $180 = $90
+
+#### 90 [end of text]
+
+

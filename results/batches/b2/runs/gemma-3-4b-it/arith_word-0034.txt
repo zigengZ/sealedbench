@@ -1,0 +1,6 @@
+First, we calculate Esme's total earnings: 24 dollars/hour * 5 hours = 120 dollars.
+Then, we subtract the amount she spent from her earnings: 120 dollars - 90 dollars = 30 dollars.
+
+####30 [end of text]
+
+

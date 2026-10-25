@@ -1,0 +1,10 @@
+Felix reads **20 pages/day × 4 days = 80 pages** from the first book.
+He reads **17 pages/day × 2 days = 34 pages** from the second book.
+Total pages before skipping: **80 + 34 = 114 pages**.
+After skipping 80 blank pages: **114 - 80 = 34 pages per week**.
+
+For 3 weeks: **34 pages/week × 3 weeks = 102 pages**.
+
+#### 102 [end of text]
+
+

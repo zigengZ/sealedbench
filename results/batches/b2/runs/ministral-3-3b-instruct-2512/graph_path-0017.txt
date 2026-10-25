@@ -1,0 +1,23 @@
+To find the shortest path from **Bay** to **Glen**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Bay → Dove → Glen**
+   - Bay → Dove: 8
+   - Dove → Glen: 2
+   - **Total:** 8 + 2 = **10**
+
+2. **Bay → Eden → Fern → Glen**
+   - Bay → Eden: 5
+   - Eden → Fern: 4
+   - Fern → Glen: 4
+   - **Total:** 5 + 4 + 4 = **13** (Longer than 10)
+
+3. **Bay → Eden → Fern → Zed → Glen** (Not valid, as Zed → Glen is not an edge)
+
+4. **Bay → Eden → (no direct path to Glen via other nodes)**
+
+The shortest valid path is **Bay → Dove → Glen** with a total weight of **10**.
+
+#### 10 [end of text]
+
+

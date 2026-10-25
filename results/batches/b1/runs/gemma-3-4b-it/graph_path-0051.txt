@@ -1,0 +1,13 @@
+We want to find the shortest path between Fern and Quill in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Fern to Quill:
+1. Fern -> Dove -> Poe -> Quill: Weight = 3 + 5 + 3 = 11
+2. Fern -> Tess -> Cedar -> Quill: Weight = 2 + 2 + 4 = 8
+3. Fern -> Tess -> Poe -> Quill: Weight = 2 + 6 + 3 = 11
+4. Fern -> Dove -> Cedar -> Quill: Weight = 3 + 8 + 4 = 15
+
+Comparing the weights, the shortest path is Fern -> Tess -> Cedar -> Quill with a total weight of 8.
+
+#### 8 [end of text]
+
+

@@ -1,0 +1,47 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path from Dove to Fern** and compute its **total weight**.
+
+---
+
+### Step 1: List all edges with weights
+
+Edges:
+- Amber – Moss: 7  
+- Ash – Jules: 9  
+- Ash – Kai: 3  
+- Dove – Kai: 2  
+- Dove – Moss: 6  
+- Dove – Tess: 8  
+- Fern – Jules: 7  
+- Fern – Uri: 9  
+- Jules – Uri: 3  
+- Moss – Uri: 1  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Dove** to **Fern**
+
+We will consider possible paths from Dove to Fern, using the available edges.
+
+Let’s explore possible paths step by step.
+
+---
+
+#### Path 1: Dove → Kai → Ash → Jules → Fern  
+- Dove → Kai: 2  
+- Kai → Ash: 3  
+- Ash → Jules: 9  
+- Jules → Fern: 7  
+Total: 2 + 3 + 9 + 7 = **21**
+
+---
+
+#### Path 2: Dove → Kai → Ash → Jules → Uri → Fern  
+- Dove → Kai: 2  
+- Kai → Ash: 3  
+- Ash → Jules: 9  
+- Jules → Uri: 3  
+- Uri → Fern: 9  
+Total:
+

@@ -1,0 +1,10 @@
+{
+  "batch_id": "b2",
+  "batch_valid": null,
+  "beacon_relays_ok": 2,
+  "bls_verified": true,
+  "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+  "n_items": 140,
+  "question_set_sha256": "473acec24390a708a3323d51fe8a1cd2265591bcf8a4039f4564f49ab1833bdb",
+  "seed_input": "BLS signature bytes plus the sealed 32-byte secret"
+}

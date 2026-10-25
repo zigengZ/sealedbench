@@ -1,0 +1,7 @@
+Gina earns 11 dollars an hour. She works 8 hours, so her total earnings are 11 * 8 = 88 dollars.
+
+After spending 70 dollars, Gina has 88 - 70 = 18 dollars left.
+
+#### 18 [end of text]
+
+

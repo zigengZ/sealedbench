@@ -1,0 +1,36 @@
+We are told:
+
+- Gretchen has 110 coins in total.
+- There are 30 more gold coins than silver coins.
+
+Let’s define:
+
+- Let $ s $ = number of silver coins
+- Then gold coins = $ s + 30 $
+
+Total coins:  
+$$
+s + (s + 30) = 110
+$$
+
+Simplify:  
+$$
+2s + 30 = 110
+$$
+
+Subtract 30 from both sides:  
+$$
+2s = 80
+$$
+
+Divide by 2:  
+$$
+s = 40
+$$
+
+So silver coins = 40  
+Gold coins = $ 40 + 30 = 70 $
+
+#### 70 [end of text]
+
+

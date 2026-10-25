@@ -1,0 +1,34 @@
+To find the shortest path from **Drew** to **Tess**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Drew: 0
+   - All others: ∞
+
+2. **Priority queue (start with Drew)**:
+   - (0, Drew)
+
+3. **Relax edges**:
+   - From Drew → Fern (9): Update Fern = min(∞, 0+9) = 9
+   - From Drew → Kai (4): Update Kai = min(∞, 0+4) = 4
+   - Next, pick Fern (9) or Kai (4). Kai is closer, so process Kai first.
+
+4. **From Kai**:
+   - Kai → Oak (2): Update Oak = min(∞, 4+2) = 6
+   - Kai → Tess (1): Update Tess = min(∞, 4+1) = 5
+
+5. **From Fern (9)**:
+   - Fern → West (7): No update (Tess already closer via Kai).
+
+6. **From Oak (6)**:
+   - No outgoing edges to improve Tess.
+
+7. **From Tess (5)**:
+   - No updates needed.
+
+### Shortest Path:
+**Drew → Kai → Tess** with total weight **5**.
+
+#### 5 [end of text]
+
+

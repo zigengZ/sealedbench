@@ -1,0 +1,20 @@
+Let $s$ be the number of teaspoons of sugar and $w$ be the number of cups of water.
+We are given that the ratio of sugar to water is 7:13, so we can write this as $\frac{s}{w} = \frac{7}{13}$.
+We are also given that the total amount of sugar and water is 120, so $s + w = 120$.
+
+From the ratio, we have $13s = 7w$, so $w = \frac{13}{7}s$.
+Substituting this into the equation $s + w = 120$, we get:
+$s + \frac{13}{7}s = 120$
+Multiplying by 7 to eliminate the fraction, we have:
+$7s + 13s = 120 \times 7$
+$20s = 840$
+$s = \frac{840}{20}$
+$s = 42$
+
+So, Katy used 42 teaspoons of sugar.
+We can also find the number of cups of water: $w = 120 - 42 = 78$.
+Check the ratio: $\frac{42}{78} = \frac{21}{39} = \frac{7}{13}$.
+
+####42 [end of text]
+
+

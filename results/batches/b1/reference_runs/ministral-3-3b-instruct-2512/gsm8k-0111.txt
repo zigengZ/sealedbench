@@ -1,0 +1,9 @@
+Julia rows at a speed of 20 feet / 16 seconds = 1.25 feet per second.
+
+In 64 seconds, she rows 64 * 1.25 = 80 feet.
+
+For every 10 feet rowed, 2 liters of water enter. So for 80 feet, that's 80 / 10 * 2 = 16 liters.
+
+#### 16 [end of text]
+
+

@@ -1,0 +1,21 @@
+To find the shortest path from **Cleo** to **Eden**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward for weighted graphs).
+
+### Step-by-Step Reasoning:
+1. **Start at Cleo** (distance = 0).
+2. **Neighbors of Cleo**:
+   - Bay (distance = 2 via Amber → Bay, but direct edge Cleo-Bay does not exist).
+   - Tess (distance = 2 via Cleo-Tess edge).
+   - Amber (distance = 6 via Amber-Cleo edge).
+   - **Best immediate neighbor**: **Tess (distance = 2)**.
+
+3. **From Tess**:
+   - Bay (via Tess-Kai-Bay: 2 + 2 + 8 = 12, or Tess-Indigo-Tess-Bay: longer).
+   - Eden (via Tess-Blair-Eden: 2 + 3 + 3 = 8, or Tess-Kai-Eden: 2 + 6 = 8).
+   - **Best neighbor**: **Eden (distance = 8)**.
+
+4. **Alternative path via Amber**:
+   - Amber → Bay → Kai → Eden: 9 + 8 + 6 = 23 (longer).
+   - Amber → Cleo → Tess → Eden: 6 + 2 + 8 = 16 (longer).
+
+5. **Shortest path confirmed**: **Cleo → Tess → Eden** with
+

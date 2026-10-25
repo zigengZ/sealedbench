@@ -1,0 +1,10 @@
+**Reasoning:**
+1. Total students = 200.
+2. Boys = (2/5) × 200 = 80.
+3. Girls = 200 - 80 = 120.
+4. Girl Scouts = (2/3) × 120 = 80.
+5. Girls not in Girl Scouts = 120 - 80 = 40.
+
+#### 40 [end of text]
+
+

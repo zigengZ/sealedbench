@@ -1,0 +1,17 @@
+To find the shortest path from **Cleo** to **Vale**, we can use Dijkstra's algorithm or explore paths manually.
+
+### Step-by-Step Reasoning:
+1. **Cleo's neighbors**: Only connected to **Sage** (weight = 8).
+2. **From Sage**:
+   - Path: Cleo → Sage → Vale (8 + 5 = 13)
+   - Path: Cleo → Sage → Oak → Sage → Vale (8 + 2 + 2 + 5 = 17) → Not optimal.
+   - Path: Cleo → Sage → Uri → Vale (8 + 4 + 4 = 16) → Not optimal.
+3. **Alternative paths**:
+   - Cleo → Sage → Vale (13) is the shortest.
+
+### Shortest Path:
+**Cleo → Sage → Vale** with total weight **13**.
+
+#### 13 [end of text]
+
+

@@ -1,0 +1,28 @@
+The exact standard output of the given Python 3 program is:
+
+```
+22
+5
+```
+
+Explanation:
+
+1. The program initializes a list `digits` with the values `[4, 0, 9, 3, 9]`.
+2. It then initializes a variable `total` to 0.
+3. The program iterates over each element `digit` in the `digits` list using a `for` loop.
+4. For each `digit`, it adds it to the `total` variable.
+5. After the loop completes, the program prints the final value of `total`, which is 22.
+6. The program also prints the length of the `digits` list, which is 5.
+
+Here is the Python code block with the output:
+
+```python
+digits = [4, 0, 9, 3, 9]
+total = 0
+for digit in digits:
+    total = total + digit
+print(total)  # Output: 22
+print(len(digits))  # Output: 5
+``` [end of text]
+
+

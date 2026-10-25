@@ -1,0 +1,11 @@
+Let Darrell's age be 7x and Allen's age be 11x.
+Their total age is 7x + 11x = 18x.
+We are given that their total age is 162, so 18x = 162.
+Dividing both sides by 18, we get x = 162/18 = 9.
+Darrell's age is 7x = 7 * 9 = 63.
+Allen's age is 11x = 11 * 9 = 99.
+Allen's age 10 years from now will be 99 + 10 = 109.
+
+####109 [end of text]
+
+

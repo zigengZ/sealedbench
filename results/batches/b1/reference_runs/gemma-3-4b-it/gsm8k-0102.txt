@@ -1,0 +1,9 @@
+John drinks water 4 times a day (breakfast, lunch, dinner, and before bed) during the weekdays. There are 5 weekdays in a week. So, he drinks 4 * 5 = 20 glasses of water during the weekdays.
+
+On the weekends, he drinks soda with dinner instead of water. So, he drinks 0 glasses of water on the weekends.
+
+Total glasses of water in a week = 20 + 0 = 20.
+
+#### 20 [end of text]
+
+

@@ -1,0 +1,13 @@
+We want to find the shortest path from Bay to Vale in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Bay to Vale:
+1. Bay -> Zed -> Moss -> Vale: 5 + 4 + 7 = 16
+2. Bay -> Zed -> Drew -> Oak -> Vale: 5 + 6 + 3 + 1 = 15
+3. Bay -> Zed -> Poe -> Vale: 5 + 2 + 4 = 11
+4. Bay -> Zed -> Sage -> (no path to Vale)
+
+Comparing the paths, the shortest path is Bay -> Zed -> Moss -> Vale with a total weight of 16.
+
+#### 16 [end of text]
+
+

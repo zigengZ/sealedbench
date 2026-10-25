@@ -1,0 +1,20 @@
+First, let's calculate each friend's guess:
+
+1. **First Friend's Guess:** 80 jelly beans
+
+2. **Second Friend's Guess:** 20 more than half the first friend's guess
+   - Half of 80 is 40
+   - 20 more than 40 is 60
+
+3. **Third Friend's Guess:** 25% more than the first friend's guess
+   - 25% of 80 is 20
+   - 20 more than 20 is 20
+
+Now, let's find the average of these guesses:
+
+- Add the guesses: 80 + 60 + 20 = 160
+- Divide by the number of friends: 160 / 3 = 53.33
+
+#### 53.33 [end of text]
+
+

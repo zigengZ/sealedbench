@@ -1,0 +1,108 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Fern, Glen, Indigo, Moss, Nell, Oak, Reed, West**
+
+And edges with weights:
+
+- Bay–Nell: 4  
+- Bay–West: 3  
+- Fern–Indigo: 4  
+- Fern–Moss: 3  
+- Glen–Indigo: 3  
+- Glen–Moss: 7  
+- Indigo–Nell: 6  
+- Moss–Reed: 7  
+- Moss–West: 8  
+- Oak–Reed: 2  
+- Oak–West: 1  
+
+We are to find the **shortest path from Indigo to Oak**, in terms of total weight.
+
+---
+
+### Step 1: Identify possible paths from Indigo to Oak
+
+We need to find paths from **Indigo** to **Oak**, and compute their total weights.
+
+Let’s explore possible routes.
+
+---
+
+#### Path 1: Indigo → Fern → Moss → Reed → Oak  
+- Indigo–Fern: 4  
+- Fern–Moss: 3  
+- Moss–Reed: 7  
+- Reed–Oak: 2  
+→ Total = 4 + 3 + 7 + 2 = **16**
+
+---
+
+#### Path 2: Indigo → Glen → Moss → Reed → Oak  
+- Indigo–Glen: 3  
+- Glen–Moss: 7  
+- Moss–Reed: 7  
+- Reed–Oak: 2  
+→ Total = 3 + 7 + 7 + 2 = **19**
+
+---
+
+#### Path 3: Indigo → Nell → Bay → West → Oak  
+- Indigo–Nell: 6  
+- Nell–Bay: 4  
+- Bay–West: 3  
+- West–Oak: 1  
+→ Total = 6 + 4 + 3 + 1 = **14**
+
+---
+
+#### Path 4: Indigo → Nell → Bay → West → Reed → Oak  
+- Indigo–Nell: 6  
+- Nell–Bay: 4  
+- Bay–West: 3  
+- West–Reed? → No direct edge  
+→ West to Reed? Not listed. So invalid.
+
+Only edges are as given. So no West–Reed.
+
+So only valid path via West is to Oak directly.
+
+---
+
+#### Path 5: Indigo → Moss → West → Oak  
+- Indigo–Moss? → Not directly listed.  
+Wait — is there an edge from Indigo to Moss?
+
+No. So Indigo cannot go directly to Moss.
+
+Indigo is connected to:
+- Fern (4)
+- Nell (6)
+- Glen (3)
+
+So only those.
+
+So from Indigo, only options: Fern, Nell, Glen.
+
+So any path must go through one of those.
+
+We already have:
+
+- Indigo → Fern → Moss → Reed → Oak: 16  
+- Indigo → Glen → Moss → Reed → Oak: 19  
+- Indigo → Nell → Bay → West → Oak: 14  
+
+Any other?
+
+#### Path 6: Indigo → Nell → Bay → West → Reed → Oak?  
+West to Reed? No edge.  
+So invalid.
+
+#### Path 7: Indigo → Fern → Moss → West → Oak?  
+- Indigo → Fern: 4  
+- Fern → Moss: 3  
+- Moss → West: 8  
+- West → Oak: 1  
+→ Total = 4 + 3 + 8 + 1 = **16**
+
+Same as path 1
+

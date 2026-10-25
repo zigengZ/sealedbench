@@ -1,0 +1,16 @@
+First, let's calculate the total number of roses Dan has.
+
+Number of rose bushes = 3
+Number of roses per bush = 25
+
+Total number of roses = 3 * 25 = 75
+
+Next, let's calculate the total number of thorns.
+
+Each rose has 8 thorns.
+
+Total number of thorns = 75 * 8 = 600
+
+So, there are #### 600 thorns in total. [end of text]
+
+

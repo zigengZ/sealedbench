@@ -1,0 +1,46 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Ash, Drew, Fern, Hart, Jules, Kai, Oak, Tess, West  
+We are to find the **shortest path from Drew to Tess** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash–Drew: 5  
+- Ash–Hart: 8  
+- Ash–Jules: 1  
+- Ash–Tess: 7  
+- Drew–Fern: 9  
+- Drew–Kai: 4  
+- Fern–Kai: 5  
+- Fern–West: 7  
+- Hart–Jules: 3  
+- Kai–Oak: 2  
+- Kai–Tess: 1  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Drew** to **Tess**
+
+We will consider possible paths from Drew to Tess and compute their total weights.
+
+---
+
+#### Option 1: Drew → Kai → Tess  
+- Drew–Kai: 4  
+- Kai–Tess: 1  
+→ Total = 4 + 1 = **5**
+
+#### Option 2: Drew → Fern → Kai → Tess  
+- Drew–Fern: 9  
+- Fern–Kai: 5  
+- Kai–Tess: 1  
+→ Total = 9 + 5 + 1 = **15** → worse
+
+#### Option 3: Drew → Fern
+

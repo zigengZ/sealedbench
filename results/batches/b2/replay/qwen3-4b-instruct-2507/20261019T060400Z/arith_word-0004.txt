@@ -1,0 +1,19 @@
+First, find the total number of marbles Farid buys:
+
+- 9 packs with 4 marbles each:  
+  $ 9 \times 4 = 36 $ marbles
+
+- 4 packs with 3 marbles each:  
+  $ 4 \times 3 = 12 $ marbles
+
+Total marbles:  
+$ 36 + 12 = 48 $ marbles
+
+These are shared equally among 3 people:  
+$ 48 \div 3 = 16 $
+
+Each person gets 16 marbles.
+
+#### 16 [end of text]
+
+

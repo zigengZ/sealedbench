@@ -1,0 +1,13 @@
+Let’s denote the number of cookies Henry baked last year as **x**.
+
+1. **Twice as many as last year**: Henry wanted to bake **2x** cookies.
+2. **Extra cookies baked**: He actually baked **2x + 15** cookies.
+3. **Cookies dropped**: After dropping 5, he has **2x + 15 - 5 = 2x + 10** cookies.
+4. **Final count**: This equals 110, so **2x + 10 = 110**.
+5. **Solve for x**:
+   - Subtract 10 from both sides: **2x = 100**.
+   - Divide by 2: **x = 50**.
+
+#### 50 [end of text]
+
+

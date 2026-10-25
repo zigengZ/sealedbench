@@ -1,0 +1,19 @@
+First, find the total number of balloons Ava buys:
+
+- 2 packs with 9 balloons each:  
+  $2 \times 9 = 18$ balloons
+
+- 5 packs with 8 balloons each:  
+  $5 \times 8 = 40$ balloons
+
+Add them together:  
+$18 + 40 = 58$ balloons
+
+Then Ava gives 48 balloons to Quinn:  
+$58 - 48 = 10$ balloons
+
+So, Ava has **10** balloons left.
+
+#### 10 [end of text]
+
+

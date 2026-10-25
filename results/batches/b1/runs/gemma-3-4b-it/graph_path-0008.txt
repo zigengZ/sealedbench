@@ -1,0 +1,13 @@
+We want to find the shortest path between Fern and Indigo in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Fern to Indigo:
+1. Fern -> Bay -> Indigo: Weight = 7 + 6 = 13
+2. Fern -> Cleo -> Indigo: Weight = 1 + 1 = 2
+3. Fern -> Oak -> Bay -> Indigo: Weight = 7 + 1 + 6 = 14
+4. Fern -> Cedar -> Cleo -> Indigo: Weight = 9 + 8 + 1 = 18
+
+The shortest path is Fern -> Cleo -> Indigo with a total weight of 2.
+
+#### 2 [end of text]
+
+

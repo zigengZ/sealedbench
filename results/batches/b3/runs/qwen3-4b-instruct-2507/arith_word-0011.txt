@@ -1,0 +1,19 @@
+First, find the total number of seats Jamal set up.
+
+- 4 rows with 5 seats each:  
+  $4 \times 5 = 20$ seats
+
+- 6 rows with 7 seats each:  
+  $6 \times 7 = 42$ seats
+
+Total seats = $20 + 42 = 62$ seats
+
+Then, 39 seats are sold, so the number of unsold seats is:  
+$62 - 39 = 23$ seats
+
+Each unsold seat is worth $8, so the total value of unsold seats is:  
+$23 \times 8 = 184$ dollars
+
+#### 184 [end of text]
+
+

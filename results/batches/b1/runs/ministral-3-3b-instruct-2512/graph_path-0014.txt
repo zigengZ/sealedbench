@@ -1,0 +1,23 @@
+To find the shortest path from **Glen** to **Moss**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Glen** = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Min-Heap)**:
+   - Start with `Glen` (distance = 0).
+   - Next, explore neighbors of **Glen**:
+     - **Blair** (via `Blair Glen 4`) → tentative distance = 4.
+     - **Fern** (via `Fern Glen 9`) → tentative distance = 9.
+   - Update heap: `[Blair (4), Fern (9), ...]`.
+
+3. **Process `Blair` (distance = 4)**:
+   - Neighbors: **Glen** (already visited), **Jules** (via `Blair Jules 8`), **Moss** (via `Blair Moss 1`).
+   - Update `Moss` to `4 + 1 = 5` (better than ∞).
+   - Update heap: `[Fern (9), Moss (5), Jules (12), ...]`.
+
+4. **Process `Moss` (distance = 5)**:
+   - Neighbors: **Blair** (visited), **Fern** (via `Fern Moss 5`), **Poe**
+

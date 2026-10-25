@@ -1,0 +1,19 @@
+Elena earns $25 per hour.
+
+On day 1, she works 3 hours:  
+$ 3 \times 25 = 75 $ dollars
+
+On day 2, she works 5 hours:  
+$ 5 \times 25 = 125 $ dollars
+
+Total earnings:  
+$ 75 + 125 = 200 $ dollars
+
+She spends $155.
+
+Money left:  
+$ 200 - 155 = 45 $ dollars
+
+#### 45 [end of text]
+
+

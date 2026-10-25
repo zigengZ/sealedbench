@@ -1,0 +1,9 @@
+Kira buys 7 packs of balloons, and each pack has 4 balloons.  
+So, total balloons = 7 × 4 = 28 balloons.
+
+Then she gives 4 balloons to Hugo.  
+So, balloons left = 28 − 4 = 24.
+
+#### 24 [end of text]
+
+

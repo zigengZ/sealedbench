@@ -1,0 +1,22 @@
+**Reasoning:**
+1. **Weekdays (Monday–Friday):**
+   - Classes per day: 5
+   - Days per week: 5
+   - Total weekday classes: 5 × 5 = 25
+   - Students per class: 15
+   - Total weekday students: 25 × 15 = 375
+   - Revenue per student: $15.00
+   - Weekday revenue: 375 × $15 = $5,625
+
+2. **Saturday:**
+   - Classes: 8
+   - Students per class: 15
+   - Total Saturday students: 8 × 15 = 120
+   - Revenue: 120 × $15 = $1,800
+
+3. **Total weekly revenue:**
+   - $5,625 (weekdays) + $1,800 (Saturday) = $7,425
+
+#### 7425 [end of text]
+
+

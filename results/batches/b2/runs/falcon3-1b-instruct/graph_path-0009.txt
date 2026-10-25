@@ -1,0 +1,64 @@
+To find the shortest path between Oak and Xen, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Oak) as 0.
+   - Set the distance to all other nodes as infinity.
+   - Create a priority queue to store nodes and their distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+   - The distance to Oak will be the shortest path weight.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Ash', 'Bay', 'Dove', 'Nell', 'Oak', 'Poe', 'West', 'Xe', 'York']
+weights = {
+    'Amber': 1,
+    'Ash': 3,
+    'Ash': 4,
+    'Bay': 2,
+    'Bay': 8,
+    'Bay': 4,
+    'Nell': 5,
+    'Nell': 6,
+    'Nell': 3,
+    'West': 6,
+    'Xe': 2
+}
+
+# Priority queue to store nodes and their distances
+distances = {node: float('infinity') for node in nodes}
+heapq.heapify(distances)
+
+# Process the priority queue
+while heapq.size(heapq.heappop(distances))) > 0:
+    current_node = heapq.heappop(distances)
+    if current_node == 'Oak':
+        return weights['Oak']
+
+# Update distances for neighbors
+for neighbor in [node for node in nodes if node != current_node]:
+    new_distance = distances[current_node] + weights[current_node][neighbor]
+    if new_distance < distances[neighbor]:
+        distances[neighbor] = new_distance
+        heapq.heappush(distances, neighbor)
+
+# Oak to Xen
+distance = distances['Oak']
+print(distance)
+```
+
+Running this code will give us the total weight of the shortest path between Oak and Xen.
+
+#### 10 [end of text]
+
+

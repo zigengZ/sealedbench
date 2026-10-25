@@ -1,0 +1,43 @@
+We are told:
+
+- The boat takes on **2 liters of water for every 10 feet** rowed.
+- Julia rows **20 feet in 16 seconds**.
+- The total distance to the shore is such that it takes **64 seconds** to reach shore.
+
+We are to find **how much water** the boat has taken on by the time Julia reaches shore.
+
+---
+
+### Step 1: Find how many feet Julia rows in 64 seconds.
+
+First, find her rowing rate in feet per second.
+
+She rows 20 feet in 16 seconds:
+
+$$
+\text{Rate} = \frac{20}{16} = 1.25 \text{ feet per second}
+$$
+
+Now, total distance to shore:
+
+$$
+\text{Distance} = \text{Rate} \times \text{Time} = 1.25 \times 64 = 80 \text{ feet}
+$$
+
+---
+
+### Step 2: How much water is taken on over 80 feet?
+
+The boat takes on **2 liters per 10 feet**.
+
+So, for 80 feet:
+
+$$
+\text{Water taken on} = \left( \frac{80}{10} \right) \times 2 = 8 \times 2 = 16 \text{ liters}
+$$
+
+---
+
+#### 16 [end of text]
+
+

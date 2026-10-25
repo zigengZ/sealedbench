@@ -1,0 +1,12 @@
+Each school has:
+- 2 teams (girls and boys)
+- Each team has 5 players → 2 teams × 5 players = 10 players per school
+- 2 coaches (one per team) → 2 coaches per school
+
+Total per school = 10 players + 2 coaches = 12 people
+
+For 4 schools: 4 × 12 = 48 people
+
+#### 48 [end of text]
+
+

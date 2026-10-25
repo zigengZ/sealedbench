@@ -1,0 +1,17 @@
+First, let's calculate the total number of pages Nico reads:
+
+1. **Pages read in 5 days:**
+   - Nico reads 7 pages per day.
+   - Over 5 days, the total pages read = 7 pages/day * 5 days = 35 pages.
+
+2. **Pages read after 11 more pages:**
+   - After reading 35 pages, Nico reads 11 more pages.
+   - Total pages after 11 more pages = 35 pages + 11 pages = 46 pages.
+
+3. **Pages skipped:**
+   - Nico skips 44 pages that were blank.
+   - Total pages Nico reads = 46 pages (after 11 more pages) - 44 pages (skipped) = 2 pages.
+
+So, Nico reads a total of #### 2 pages. [end of text]
+
+

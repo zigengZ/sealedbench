@@ -1,0 +1,29 @@
+{
+  "batch_id": "cap",
+  "items": {
+    "manifest": {
+      "txid": "lkdeMQV1Cit1HArMK5gPDQm1oFIReGhRmntjdW8VjF0",
+      "sha256": "9ed1d0ae31c8a9a08caa26e50dc93646e094af161cbf3ec66769870ee69ab4b7",
+      "bytes": 25561,
+      "round": 33980212,
+      "content_type": "application/json",
+      "uploaded_utc": "2026-10-17T15:05:37Z",
+      "winc": "0",
+      "receipt_timestamp_ms": 1792249537785,
+      "receipt_path": "results/batches/cap/receipts/manifest.json",
+      "signature_variant": "dha-team-arbundles-deepHash"
+    },
+    "generator-ciphertext": {
+      "txid": "q5O5v8XwkxCJkAyuZHd9V1pBV6XCWEtmCU5_2bactb0",
+      "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+      "bytes": 15685,
+      "round": 33980212,
+      "content_type": "text/plain",
+      "uploaded_utc": "2026-10-17T15:05:37Z",
+      "winc": "0",
+      "receipt_timestamp_ms": 1792249538114,
+      "receipt_path": "results/batches/cap/receipts/generator-ciphertext.json",
+      "signature_variant": "dha-team-arbundles-deepHash"
+    }
+  }
+}

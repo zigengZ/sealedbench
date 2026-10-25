@@ -1,0 +1,17 @@
+Let's solve this step by step.
+
+1. **Identify the ages of James and Corey:**
+   - James is 10 years old.
+   - James is 1 year younger than Corey, so Corey is 10 + 1 = 11 years old.
+
+2. **Determine the ages of Amy:**
+   - Amy is 2 years younger than Corey.
+   - Therefore, Amy is 11 - 2 = 9 years old.
+
+3. **Determine the ages of Jackson:**
+   - Jackson is 5 years older than Amy.
+   - Therefore, Jackson is 9 + 5 = 14 years old.
+
+#### 14 [end of text]
+
+

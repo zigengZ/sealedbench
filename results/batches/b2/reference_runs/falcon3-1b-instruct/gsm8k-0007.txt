@@ -1,0 +1,30 @@
+First, let's calculate the time Carla spends downloading the file without any interruptions.
+
+1. **Initial Download Time:**
+   - Total file size: 200 GB
+   - Initial download speed: 2 GB/minute
+   - Total time without interruptions: \( \frac{200 \text{ GB}}{2 \text{ GB/minute}} = 100 \text{ minutes} \)
+
+2. **Restart Due to Windows Updates:**
+   - Windows forces a restart after 40% of the file is downloaded.
+   - 40% of 200 GB: \( 0.40 \times 200 \text{ GB} = 80 \text{ GB} \)
+   - Time for restart: 20 minutes
+
+3. **Total Download Time with Restart:**
+   - Total time with restart: \( 100 \text{ minutes} + 20 \text{ minutes} = 120 \text{ minutes} \)
+
+4. **Download Time Without Restart:**
+   - Total time without interruptions: 100 minutes
+
+5. **Total Download Time:**
+   - Total download time: \( 120 \text{ minutes} - 100 \text{ minutes} = 20 \text{ minutes} \)
+
+Now, let's calculate the total load (time) Carla spends downloading the file.
+
+6. **Load Calculation:**
+   - Load (time) = Total download time - Restart time
+   - Load = 20 minutes - 20 minutes = 0 minutes
+
+#### 0 [end of text]
+
+

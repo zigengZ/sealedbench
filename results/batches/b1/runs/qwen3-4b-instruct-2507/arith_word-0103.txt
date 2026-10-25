@@ -1,0 +1,16 @@
+Mina earns $19 per hour.
+
+On day 1 and day 2, she works 6 hours each day:
+
+- Day 1: 6 hours × $19 = $114  
+- Day 2: 6 hours × $19 = $114  
+
+Total earnings = $114 + $114 = $228
+
+Then she spends $57.
+
+Money left = $228 - $57 = $171
+
+#### 171 [end of text]
+
+

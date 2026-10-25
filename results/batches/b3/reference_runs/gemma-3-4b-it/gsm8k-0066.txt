@@ -1,0 +1,10 @@
+Let's break down the problem step by step:
+
+1. **Players per school:** Each school sends 5 girls + 5 boys = 10 players.
+2. **Coaches per school:** Each school sends 1 coach for the girls' team and 1 coach for the boys' team, so 2 coaches per school.
+3. **Total people per school:** Each school sends 10 players + 2 coaches = 12 people.
+4. **Total people for all schools:** There are 4 schools, so the total number of people is 4 * 12 = 48 people.
+
+#### 48 [end of text]
+
+

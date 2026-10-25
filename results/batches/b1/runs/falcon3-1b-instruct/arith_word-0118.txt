@@ -1,0 +1,7 @@
+First, calculate the total number of buttons from the first set of packs: 8 packs * 4 buttons/pack = 32 buttons.
+Then, calculate the total number of buttons from the second set of packs: 6 packs * 8 buttons/pack = 48 buttons.
+Add the two totals together: 32 buttons + 48 buttons = 80 buttons.
+
+#### 80 [end of text]
+
+

@@ -1,0 +1,94 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Amber, Cedar, Cleo, Dove, Glen, Jules, Oak, Poe, Uri  
+**Edges and weights**:
+
+- Amber–Cleo: 3  
+- Amber–Poe: 7  
+- Amber–Uri: 7  
+- Cedar–Cleo: 9  
+- Cleo–Jules: 1  
+- Cleo–Oak: 1  
+- Dove–Glen: 5  
+- Dove–Poe: 5  
+- Glen–Oak: 2  
+- Oak–Poe: 1  
+
+We are to find the **shortest path from Dove to Uri**, in terms of total edge weight.
+
+---
+
+### Step 1: Understand the graph structure
+
+We need to find the shortest path from **Dove** to **Uri**.
+
+Let’s list all edges again with weights:
+
+- Dove ↔ Glen: 5  
+- Dove ↔ Poe: 5  
+- Glen ↔ Oak: 2  
+- Oak ↔ Poe: 1  
+- Cleo ↔ Jules: 1  
+- Cleo ↔ Oak: 1  
+- Amber ↔ Cleo: 3  
+- Amber ↔ Poe: 7  
+- Amber ↔ Uri: 7  
+- Cedar ↔ Cleo: 9  
+
+Note: All edges are undirected.
+
+We can now consider possible paths from **Dove** to **Uri**.
+
+---
+
+### Step 2: Explore paths from Dove to Uri
+
+#### Path 1: Dove → Poe → Uri  
+- Dove to Poe: 5  
+- Poe to Uri: ? → Not directly connected.  
+No edge from Poe to Uri. So this path fails.
+
+#### Path 2: Dove → Glen → Oak → Poe → Uri?  
+- Poe to Uri? Still no direct edge.  
+No edge from Poe to Uri. So invalid.
+
+#### Path 3: Dove → Glen → Oak → Cleo → Amber → Uri  
+- Dove → Glen: 5  
+- Glen → Oak: 2  
+- Oak → Cleo: 1  
+- Cleo → Amber: 3  
+- Amber → Uri: 7  
+
+Total: 5 + 2 + 1 + 3 + 7 = **18**
+
+#### Path 4: Dove → Poe → Oak → Cleo → Amber → Uri  
+- Dove → Poe: 5  
+- Poe → Oak: 1  
+- Oak → Cleo: 1  
+- Cleo → Amber: 3  
+- Amber → Uri: 7  
+
+Total: 5 + 1 + 1 + 3 + 7 = **17**
+
+Better than 18.
+
+#### Path 5: Dove → Poe → Oak → Cleo → Jules?  
+Jules has no connection to Uri. So dead end.
+
+#### Path 6: Dove → Glen → Oak → Poe → Amber → Uri  
+- Dove → Glen: 5  
+- Glen → Oak: 2  
+- Oak → Poe: 1  
+- Poe → Amber: 7  
+- Amber → Uri: 7  
+
+Total: 5 + 2 + 1 + 7 + 7 = **22** → worse
+
+#### Path 7: Dove → Glen → Oak → Cleo → Amber → Uri → same as path 3 → 18
+
+#### Path 8: Is there a path through Cedar?  
+Cedar only connects to Cleo (9). Cleo connects to Amber, Oak, Jules.  
+But no path from Cleo to Uri directly.  
+Cleo → Amber → Uri: 3 + 7 = 10  
+So from Dove → Glen → Oak → Cle
+

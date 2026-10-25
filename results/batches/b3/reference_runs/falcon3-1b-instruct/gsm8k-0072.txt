@@ -1,0 +1,24 @@
+First, let's calculate the total amount raised from selling brownies.
+
+Number of brownies sold = 43
+Price per brownie = $3
+
+Total money from brownies = Number of brownies sold × Price per brownie
+Total money from brownies = 43 × $3 = $129
+
+Next, let's calculate the total amount raised from selling cheesecakes.
+
+Number of cheesecakes sold = 23
+Price per cheesecake = $4
+
+Total money from cheesecakes = Number of cheesecakes sold × Price per cheesecake
+Total money from cheesecakes = 23 × $4 = $92
+
+Now, we add the money raised from both brownies and cheesecakes to find the total amount raised.
+
+Total money raised = Total money from brownies + Total money from cheesecakes
+Total money raised = $129 + $92 = $221
+
+#### 221 [end of text]
+
+

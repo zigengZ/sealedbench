@@ -1,0 +1,8 @@
+First, calculate Hugo's earnings on day 1: 20 dollars/hour * 4 hours = 80 dollars.
+Next, calculate Hugo's earnings on day 2: 20 dollars/hour * 6 hours = 120 dollars.
+Then, calculate Hugo's total earnings: 80 dollars + 120 dollars = 200 dollars.
+Finally, subtract the amount Hugo spends: 200 dollars - 28 dollars = 172 dollars.
+
+####172 [end of text]
+
+

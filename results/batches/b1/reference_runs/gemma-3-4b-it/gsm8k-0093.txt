@@ -1,0 +1,11 @@
+Let $L$ be the original time Lee took to run the 400-meter hurdles, and $G$ be the original time Gerald took to run the 400-meter hurdles.
+We are given that Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald, so $L = G - 2$.
+Gerald's speed improved by 10%, so his new time $G'$ is $G - 0.1G = 0.9G$.
+We are given that Lee runs the 400-meter hurdles in 38 seconds, so $L = 38$.
+Since $L = G - 2$, we have $38 = G - 2$, which gives $G = 38 + 2 = 40$.
+Gerald's new time is $G' = 0.9G = 0.9(40) = 36$.
+Therefore, Gerald can run the 400-meter hurdles in 36 seconds with his improved diet.
+
+#### 36 [end of text]
+
+

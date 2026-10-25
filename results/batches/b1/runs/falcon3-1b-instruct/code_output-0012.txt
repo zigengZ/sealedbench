@@ -1,0 +1,21 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+15
+```
+
+Explanation:
+
+The program initializes a list `values` with the elements `[15, 11, 0, 6, 6]`. It then initializes a variable `total` to 0.
+
+The `for` loop iterates over each element in the `values` list. For each iteration, it checks if the current value is greater than 4. If it is, the `total` is incremented by 3. Otherwise, the `total` is incremented by the current value.
+
+After the loop completes, the `total` is printed, which in this case is `15`.
+
+Therefore, the final value of `total` is `15`, and the exact standard output is:
+
+```python
+15
+``` [end of text]
+
+

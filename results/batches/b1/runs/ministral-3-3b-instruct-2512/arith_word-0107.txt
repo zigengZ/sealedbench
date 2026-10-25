@@ -1,0 +1,7 @@
+Mina starts with 4 packs × 10 apples = 40 apples.
+After giving 35 to Hugo, she has 40 - 35 = 5 apples left.
+Hugo then gives her 8 more apples, so 5 + 8 = 13 apples.
+
+#### 13 [end of text]
+
+

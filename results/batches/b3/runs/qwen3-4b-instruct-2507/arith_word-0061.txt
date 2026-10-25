@@ -1,0 +1,13 @@
+Hugo buys 9 packs of notebooks, and each pack has 4 notebooks.  
+So, total notebooks Hugo has:  
+9 × 4 = 36 notebooks
+
+He gives 5 notebooks to Elena, so he keeps:  
+36 − 5 = 31 notebooks
+
+Each notebook is worth $7, so the worth of Hugo's remaining notebooks is:  
+31 × 7 = 217 dollars
+
+#### 217 [end of text]
+
+

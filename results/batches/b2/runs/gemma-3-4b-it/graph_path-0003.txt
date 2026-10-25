@@ -1,0 +1,15 @@
+We want to find the shortest path between Cedar and Xen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cedar to Xen:
+1. Cedar -> Reed -> Bay -> Xen: 3 + 5 + 6 = 14
+2. Cedar -> Uri -> (no path to Xen)
+3. Cedar -> Nell -> Tess -> Xen: 5 + 6 + 2 = 13
+4. Cedar -> Reed -> Bay -> Xen: 3 + 5 + 6 = 14
+5. Cedar -> Uri -> (no path to Xen)
+6. Cedar -> Nell -> Tess -> Xen: 5 + 6 + 2 = 13
+
+Comparing the paths, the shortest path is Cedar -> Nell -> Tess -> Xen with a total weight of 13.
+
+#### 13 [end of text]
+
+

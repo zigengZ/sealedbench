@@ -1,0 +1,17 @@
+Kira starts with 8 packs of 10 tickets each:
+8 packs × 10 tickets = 80 tickets.
+
+Then she buys 4 packs of 2 tickets each:
+4 packs × 2 tickets = 8 tickets.
+
+Total tickets now: 80 + 8 = 88 tickets.
+
+She gives 3 tickets to Gina, so remaining tickets:
+88 - 3 = 85 tickets.
+
+Each ticket is worth $3, so total value:
+85 × 3 = 255 dollars.
+
+#### 255 [end of text]
+
+

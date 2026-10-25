@@ -1,0 +1,12 @@
+We want to find the shortest path between Fern and Zed in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Fern to Zed:
+1. Fern -> Hart -> York -> Zed: Weight = 2 + 7 + 6 = 15
+2. Fern -> Hart -> Zed: Weight = 2 + 2 = 4
+3. Fern -> Cleo -> Hart -> Zed: Weight = 2 + 2 + 2 = 6
+
+The shortest path is Fern -> Hart -> Zed with a total weight of 4.
+
+#### 4 [end of text]
+
+

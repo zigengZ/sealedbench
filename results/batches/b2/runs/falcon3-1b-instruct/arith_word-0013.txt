@@ -1,0 +1,14 @@
+First, calculate the total number of pencils Victor initially bought:
+3 packs * 6 pencils/pack = 18 pencils
+
+Then, calculate the total number of pencils Victor bought after the second purchase:
+3 packs * 7 pencils/pack = 21 pencils
+
+Total pencils bought: 18 + 21 = 39 pencils
+
+Now, calculate the total value of the pencils:
+39 pencils * $2/pencil = $78
+
+#### 78 [end of text]
+
+

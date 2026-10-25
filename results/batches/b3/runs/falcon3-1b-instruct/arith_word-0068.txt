@@ -1,0 +1,28 @@
+First, let's calculate the total number of pages Willa reads in one week.
+
+**Week 1:**
+- Pages read from the first book: \(11 \text{ pages/day} \times 6 \text{ days} = 66 \text{ pages}\)
+- Pages read from the second book: \(6 \text{ pages/day} \times 4 \text{ days} = 24 \text{ pages}\)
+- Total pages read in Week 1: \(66 + 24 = 90 \text{ pages}\)
+
+**Week 2:**
+- Pages read from the first book: \(11 \text{ pages/day} \times 6 \text{ days} = 66 \text{ pages}\)
+- Pages read from the second book: \(6 \text{ pages/day} \times 4 \text{ days} = 24 \text{ pages}\)
+- Total pages read in Week 2: \(66 + 24 = 90 \text{ pages}\)
+
+**Week 3:**
+- Pages read from the first book: \(11 \text{ pages/day} \times 6 \text{ days} = 66 \text{ pages}\)
+- Pages read from the second book: \(6 \text{ pages/day} \times 4 \text{ days} = 24 \text{ pages}\)
+- Total pages read in Week 3: \(66 + 24 = 90 \text{ pages}\)
+
+**Week 4:**
+- Pages read from the first book: \(11 \text{ pages/day} \times 6 \text{ days} = 66 \text{ pages}\)
+- Pages read from the second book: \(6 \text{ pages/day} \times 4 \text{ days} = 24 \text{ pages}\)
+- Total pages read in Week 4: \(66 + 24 = 90 \text{ pages}\)
+
+**Total pages read in 4 weeks:**
+\[ 90 \text{ pages/week} \times 4 \text{ weeks} = 360 \text{ pages} \]
+
+#### 360 [end of text]
+
+

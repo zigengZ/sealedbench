@@ -1,0 +1,107 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Cedar to Uri**, and report the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Cedar, Dove, Jules, Lark, Moss, Nell, Reed, Sage, Uri, West
+
+---
+
+### Step 2: List all edges with weights
+
+- Cedar – Lark: 8  
+- Cedar – Nell: 8  
+- Dove – Lark: 9  
+- Dove – Reed: 4  
+- Jules – Lark: 7  
+- Jules – Reed: 5  
+- Lark – Reed: 8  
+- Lark – West: 7  
+- Moss – Sage: 9  
+- Nell – Sage: 6  
+- Nell – West: 5  
+- Reed – Sage: 2  
+- Uri – West: 8  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Goal — Shortest path from Cedar to Uri
+
+We need to find the shortest path from **Cedar** to **Uri**.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive).
+
+But since the graph is small, we can do a manual shortest path exploration.
+
+---
+
+### Step 4: Explore possible paths from Cedar to Uri
+
+Start from Cedar.
+
+From Cedar:
+- To Lark (8)
+- To Nell (8)
+
+So, two initial neighbors.
+
+Let’s explore paths from both.
+
+---
+
+#### Path 1: Cedar → Lark → ?
+
+From Lark:
+- To Dove (9)
+- To Jules (7)
+- To Reed (8)
+- To West (7)
+
+So from Lark:
+- Lark → West (7) → then West → Uri (8) → total: 8 + 7 = 15  
+  So Cedar → Lark → West → Uri: 8 + 7 + 8 = **23**
+
+- Lark → Reed (8) → then Reed → Sage (2), Sage → Nell (6), Nell → West (5), West → Uri (8)  
+  That’s long. Let's see if we can get shorter.
+
+But let's go back.
+
+From Cedar → Nell (8)
+
+From Nell:
+- To Sage (6)
+- To West (5)
+
+So:
+- Cedar → Nell → West → Uri: 8 + 5 + 8 = **21**
+
+Better than 23.
+
+Now, from Nell → Sage (6):  
+Sage → Reed (2), Reed → Dove (4), Dove → Lark (9), etc. — but that may not help.
+
+Can we go from Sage to West?  
+Sage → Reed (2), Reed → West?  
+Reed → Lark (8), Lark → West (7), or Reed → Dove (4), Dove → Lark (9), etc.
+
+But is there a path from Cedar → Nell → Sage → Reed → West → Uri?
+
+Let’s compute that:
+
+Cedar → Nell: 8  
+Nell → Sage: 6  
+Sage → Reed: 2  
+Reed → West: ?  
+Wait — is there a direct edge from Reed to West? No.
+
+Reed → Lark → West: 8 + 7 = 15 → too long.
+
+Reed → Dove → Lark → West: 4 + 9 + 7 = 20 → too long.
+
+So Reed → West not direct.
+
+Only way to West from Reed is via Lark (8) or Dove
+

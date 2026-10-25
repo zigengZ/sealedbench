@@ -1,0 +1,21 @@
+To find the number of containers imported on the second day, we first determine the total number of vehicles from the first day.
+
+For the first day:
+- Each container has 5 vehicles.
+- There are 2 containers.
+
+Total vehicles from the first day = 2 containers × 5 vehicles/container = 10 vehicles.
+
+The total number of vehicles at the port after the second day is 30.
+
+To find the number of containers imported on the second day, subtract the vehicles counted on the first day from the total on the second day:
+
+30 vehicles (total on second day) - 10 vehicles (from first day) = 20 vehicles.
+
+Since each container contains 5 vehicles, the number of containers imported on the second day is:
+
+20 vehicles ÷ 5 vehicles/container = 4 containers.
+
+#### 4 [end of text]
+
+

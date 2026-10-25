@@ -1,0 +1,13 @@
+Gene has been vacationing since he was 23 and is now 34.
+
+So, the number of years he has vacationed is:
+
+34 - 23 = 11 years
+
+He goes on 4 vacations per year, so the total number of vacations (and thus quilt blocks) is:
+
+11 years × 4 vacations per year = 44 quilt blocks
+
+#### 44 [end of text]
+
+

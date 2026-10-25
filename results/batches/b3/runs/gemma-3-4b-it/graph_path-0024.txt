@@ -1,0 +1,15 @@
+We want to find the shortest path between Poe and Vale in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Poe to Vale:
+1. Poe -> Uri -> Vale: Weight = 1 + 7 = 8
+2. Poe -> Hart -> Uri -> Vale: Weight = 6 + 3 + 7 = 16
+3. Poe -> Moss -> Hart -> Uri -> Vale: Weight = 4 + 2 + 3 + 7 = 16
+4. Poe -> Hart -> Quill -> Uri -> Vale: Weight = 6 + 1 + 7 + 7 = 21
+5. Poe -> Uri -> Dove -> Vale: Weight = 1 + 4 + 8 = 13
+6. Poe -> Moss -> Hart -> York -> Vale: Weight = 4 + 2 + 7 + (no direct edge) - This path is not possible.
+
+Comparing the paths, the shortest path is Poe -> Uri -> Vale with a total weight of 8.
+
+#### 8 [end of text]
+
+

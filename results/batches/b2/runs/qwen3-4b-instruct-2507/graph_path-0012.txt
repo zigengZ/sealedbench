@@ -1,0 +1,98 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Amber, Drew, Eden, Indigo, Kai, Moss, Sage, Uri  
+We are to find the **shortest path from Amber to Moss** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+- Amber – Indigo: 9  
+- Amber – Sage: 5  
+- Amber – Uri: 6  
+- Drew – Eden: 1  
+- Drew – Kai: 4  
+- Drew – Sage: 6  
+- Eden – Indigo: 2  
+- Eden – Sage: 4  
+- Indigo – Moss: 8  
+- Indigo – Sage: 8  
+- Kai – Moss: 2  
+- Moss – Uri: 1  
+
+---
+
+We want the shortest path from **Amber to Moss**.
+
+We'll consider possible paths from Amber to Moss, using the edges.
+
+---
+
+### Step 2: Explore paths from Amber to Moss
+
+#### Path 1: Amber → Uri → Moss  
+- Amber → Uri: 6  
+- Uri → Moss: 1  
+→ Total: 6 + 1 = **7**
+
+#### Path 2: Amber → Indigo → Moss  
+- Amber → Indigo: 9  
+- Indigo → Moss: 8  
+→ Total: 9 + 8 = **17**
+
+#### Path 3: Amber → Sage → Eden → Indigo → Moss  
+- Amber → Sage: 5  
+- Sage → Eden: 4  
+- Eden → Indigo: 2  
+- Indigo → Moss: 8  
+→ 5 + 4 + 2 + 8 = **19**
+
+#### Path 4: Amber → Sage → Eden → Kai → Moss  
+- Amber → Sage: 5  
+- Sage → Eden: 4  
+- Eden → Kai? No direct edge.  
+Wait — no edge from Eden to Kai.  
+Only edges: Drew–Eden, Drew–Kai, Eden–Sage, etc.
+
+So no direct Eden–Kai.
+
+But:  
+Can we go Amber → Drew? No direct edge from Amber to Drew.
+
+So we need to find if any path through Drew.
+
+#### Path 5: Amber → Sage → Drew → Kai → Moss  
+- Amber → Sage: 5  
+- Sage → Drew: 6 (edge exists: Drew–Sage: 6)  
+- Drew → Kai: 4  
+- Kai → Moss: 2  
+→ 5 + 6 + 4 + 2 = **17**
+
+#### Path 6: Amber → Sage → Eden → Drew → Kai → Moss  
+- Amber → Sage: 5  
+- Sage → Eden: 4  
+- Eden → Drew: 1  
+- Drew → Kai: 4  
+- Kai → Moss: 2  
+→ 5 + 4 + 1 + 4 + 2 = **16**
+
+#### Path 7: Amber → Indigo → Sage → Eden → Drew → Kai → Moss  
+Too long: 9 + 8 + 4 + 1 + 4 + 2 = 28 → worse
+
+#### Path 8: Amber → Uri → Moss → (no help)
+
+We already have:
+
+- Amber → Uri → Moss: 7  
+- Amber → Sage → Eden → Drew → Kai → Moss: 16  
+- Amber → Sage → Drew → Kai → Moss: 17  
+- Amber → Indigo → Moss: 17  
+
+So far, **7** is the smallest.
+
+Is there a shorter path?
+
+What about:  
+Amber → Sage → Indigo → Moss?  
+
+

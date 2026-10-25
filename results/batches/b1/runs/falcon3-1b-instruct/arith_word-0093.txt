@@ -1,0 +1,7 @@
+Mina earns 15 dollars per hour. She works 3 hours, so she earns 15 * 3 = 45 dollars.
+
+Mina spends 31 dollars. To find out how many dollars she has left, subtract the amount she spent from her earnings: 45 - 31 = 14.
+
+#### 14 [end of text]
+
+

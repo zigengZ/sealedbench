@@ -1,0 +1,19 @@
+First, find the total number of seats Cara sets up.
+
+She sets out:
+- 10 rows with 12 seats each:  
+  $10 \times 12 = 120$ seats
+
+Then she adds:
+- 8 rows with 7 seats each:  
+  $8 \times 7 = 56$ seats
+
+Total seats = $120 + 56 = 176$
+
+Then, 45 seats are sold.
+
+So, unsold seats = $176 - 45 = 131$
+
+#### 131 [end of text]
+
+

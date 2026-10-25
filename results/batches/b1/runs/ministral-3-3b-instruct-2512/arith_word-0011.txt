@@ -1,0 +1,6 @@
+Rosa starts with 6 packs × 3 tokens each = 18 tokens.
+Adding Zane’s 18 tokens gives 18 + 18 = 36 tokens.
+
+#### 36 [end of text]
+
+

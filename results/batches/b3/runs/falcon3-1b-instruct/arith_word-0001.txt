@@ -1,0 +1,24 @@
+First, let's calculate the total number of pages Ivy reads from both books.
+
+**First Book:**
+- Pages read per day: 13
+- Days: 5
+- Total pages from first book = 13 pages/day * 5 days = 65 pages
+
+**Second Book:**
+- Pages read per day: 14
+- Days: 4
+- Total pages from second book = 14 pages/day * 4 days = 56 pages
+
+**Total Pages from Both Books:**
+- Total pages = 65 pages (first book) + 56 pages (second book) = 121 pages
+
+**Blank Pages:**
+- Ivy skips 108 pages that were blank.
+
+**Total Pages After Skipping:**
+- Total pages after skipping = 121 pages - 108 pages = 13 pages
+
+So, Ivy reads a total of #### 13. [end of text]
+
+

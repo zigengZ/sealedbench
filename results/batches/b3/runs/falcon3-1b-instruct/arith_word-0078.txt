@@ -1,0 +1,17 @@
+First, calculate the total number of cards Tara bought:
+5 packs * 12 cards/pack = 60 cards
+
+Then, calculate the total number of cards Tara bought:
+2 packs * 7 cards/pack = 14 cards
+
+Total cards Tara bought: 60 + 14 = 74 cards
+
+Tara gives 34 cards to Diego, so she keeps:
+74 cards - 34 cards = 40 cards
+
+Each card is worth 6 dollars, so the total value of Tara's cards is:
+40 cards * $6/card = $240
+
+#### 240 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, find the total number of notebooks Dmitri buys: 9 packs * 4 notebooks/pack = 36 notebooks.
+Then, Dmitri gives away 13 notebooks: 36 notebooks - 13 notebooks = 23 notebooks.
+Finally, Gina gives Dmitri 23 notebooks: 23 notebooks + 23 notebooks = 46 notebooks.
+
+####46 [end of text]
+
+

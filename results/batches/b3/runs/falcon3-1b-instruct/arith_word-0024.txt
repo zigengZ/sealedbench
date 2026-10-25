@@ -1,0 +1,15 @@
+First, calculate the total number of pencils Tara has:
+6 packs * 7 pencils/pack = 42 pencils
+
+Next, subtract the pencils given to Hugo:
+42 pencils - 18 pencils = 24 pencils
+
+Then, add the pencils given back to Tara:
+24 pencils + 4 pencils = 28 pencils
+
+Finally, calculate the total value of the pencils:
+28 pencils * 3 dollars/pencil = 84 dollars
+
+#### 84 [end of text]
+
+

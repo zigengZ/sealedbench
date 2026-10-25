@@ -1,0 +1,4 @@
+Boris reads 19 pages a day for 2 days. So he reads 19 * 2 = 38 pages. Then he reads 25 more pages. Thus, Boris reads 38 + 25 = 63 pages. After skipping 44 pages that were blank, Boris reads 63 - 44 = 19 pages.
+#### 19 [end of text]
+
+

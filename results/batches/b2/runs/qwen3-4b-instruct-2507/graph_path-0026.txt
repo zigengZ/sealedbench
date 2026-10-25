@@ -1,0 +1,96 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Lark, Moss, Poe, Reed, Sage, Zed  
+**Edges and weights**:
+
+- Amber – Lark: 7  
+- Amber – Moss: 1  
+- Amber – Poe: 8  
+- Amber – Reed: 3  
+- Amber – Sage: 4  
+- Amber – Zed: 8  
+- Lark – Sage: 8  
+- Moss – Zed: 4  
+- Poe – Reed: 1  
+
+We are to find the **shortest path from Poe to Zed** in terms of total weight.
+
+---
+
+### Step 1: List all possible paths from Poe to Zed
+
+We'll consider paths using the edges and try to find the shortest one.
+
+#### Option 1: Poe → Reed → Zed  
+- Poe to Reed: 1  
+- Reed to Zed? → Not directly listed.  
+No edge from Reed to Zed. So invalid.
+
+#### Option 2: Poe → Amber → Zed  
+- Poe to Amber: 8  
+- Amber to Zed: 8  
+→ Total: 8 + 8 = **16**
+
+#### Option 3: Poe → Reed → Amber → Zed  
+- Poe → Reed: 1  
+- Reed → Amber: 3  
+- Amber → Zed: 8  
+→ Total: 1 + 3 + 8 = **12**
+
+#### Option 4: Poe → Amber → Moss → Zed  
+- Poe → Amber: 8  
+- Amber → Moss: 1  
+- Moss → Zed: 4  
+→ Total: 8 + 1 + 4 = **13**
+
+#### Option 5: Poe → Reed → Amber → Sage → Lark → ?  
+Lark has edge to Sage (8), but no path from Lark to Zed.  
+No connection from Sage or Lark to Zed. So this path won't help.
+
+#### Option 6: Poe → Reed → Amber → Sage → Lark → ???  
+Still no path from Lark to Zed. So dead end.
+
+#### Option 7: Poe → Amber → Lark → Sage → ???  
+No path from Sage to Zed. So no.
+
+#### Option 8: Poe → Reed → Amber → Moss → Zed  
+- Poe → Reed: 1  
+- Reed → Amber: 3  
+- Amber → Moss: 1  
+- Moss → Zed: 4  
+→ Total: 1 + 3 + 1 + 4 = **9**
+
+That's better than previous ones.
+
+#### Option 9: Poe → Amber → Moss → Zed  
+Already considered: 8 + 1 + 4 = 13 → worse than 9.
+
+#### Option 10: Poe → Reed → Amber → Zed → 1 + 3 + 8 = 12 → worse than 9.
+
+So far, best is **9** via:  
+**Poe → Reed → Amber → Moss → Zed**
+
+Is there any shorter?
+
+Can we go from Reed to Moss? No direct edge.  
+From Reed to Sage? No.  
+From Reed to Lark? No.  
+So only connections are through Amber.
+
+Any other path?
+
+What about:  
+Poe → Amber → Sage → Lark → ??? → no path to Zed.
+
+No.
+
+So only viable paths go through Amber or Reed.
+
+We already have:
+
+- Poe → Reed → Amber → Moss → Zed = 1 + 3 + 1 + 4 = **9**
+
+Is there a path via Sage?
+
+Poe → Reed → Amber
+

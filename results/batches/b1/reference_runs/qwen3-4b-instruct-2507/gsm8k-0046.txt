@@ -1,0 +1,17 @@
+Candice originally had 80 post-it notes.
+
+She used some post-it notes at work — one on each of 220 cups of coffee, so she used **220** post-it notes.
+
+After using 220, she had **23** left.
+
+So, the total number of post-it notes she had **after** buying the package is:
+
+> 23 (remaining) + 220 (used) = 243
+
+She started with 80, so the number she **added** (from the package) is:
+
+> 243 - 80 = 163
+
+#### 163 [end of text]
+
+

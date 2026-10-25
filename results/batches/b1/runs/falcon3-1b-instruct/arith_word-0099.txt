@@ -1,0 +1,20 @@
+To find the total worth of the unsold seats, we first calculate the total number of seats set out.
+
+Number of rows = 3
+Number of seats per row = 10
+
+Total seats = 3 rows × 10 seats/row = 30 seats
+
+Now, we subtract the number of seats sold from the total number of seats:
+
+Sold seats = 17
+
+Unsold seats = Total seats - Sold seats = 30 - 17 = 13 seats
+
+Each unsold seat is worth 9 dollars. Therefore, the total worth of the unsold seats is:
+
+Total worth = Unsold seats × Worth per unsold seat = 13 seats × 9 dollars/seat = 117 dollars
+
+#### 117 [end of text]
+
+

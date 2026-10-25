@@ -1,0 +1,31 @@
+We want to find the shortest path between Quill and Uri in the given undirected weighted graph. The nodes are Blair, Drew, Indigo, Oak, Quill, Uri. The edges and their weights are:
+- Blair Quill 4
+- Blair Uri 2
+- Drew Quill 1
+- Drew Uri 5
+- Indigo Oak 7
+- Indigo Quill 1
+- Oak Uri 9
+- Quill Uri 7
+
+We can consider the possible paths between Quill and Uri:
+1. Quill -> Uri: Weight = 7
+2. Quill -> Blair -> Uri: Weight = 4 + 2 = 6
+3. Quill -> Drew -> Uri: Weight = 1 + 5 = 6
+4. Quill -> Indigo -> Oak -> Uri: Weight = 1 + 7 + 9 = 17
+5. Quill -> Blair -> Uri: Weight = 4 + 2 = 6
+6. Quill -> Drew -> Uri: Weight = 1 + 5 = 6
+
+Comparing the weights of the paths, the shortest path is Quill -> Uri with a weight of 7.
+
+Alternatively, we can use Dijkstra's algorithm.
+1. Initialize distances:
+   - dist(Quill) = 0
+   - dist(Blair) = infinity
+   - dist(Drew) = infinity
+   - dist(Indigo) = infinity
+   - dist(Oak) = infinity
+   - dist(Uri) = infinity
+2. Visit Quill:
+   - Update dist(
+

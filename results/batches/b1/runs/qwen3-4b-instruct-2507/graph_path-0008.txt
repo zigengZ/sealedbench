@@ -1,0 +1,38 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Bay, Cedar, Cleo, Fern, Indigo, Oak  
+**Edges and weights**:
+
+- Bay – Cleo: 9  
+- Bay – Fern: 7  
+- Bay – Indigo: 6  
+- Bay – Oak: 1  
+- Cedar – Cleo: 8  
+- Cedar – Fern: 9  
+- Cleo – Fern: 1  
+- Cleo – Indigo: 1  
+- Fern – Oak: 7  
+
+We are to find the **shortest path (in total weight) from Fern to Indigo**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build adjacency list for clarity:
+
+- Bay: Cleo(9), Fern(7), Indigo(6), Oak(1)  
+- Cedar: Cleo(8), Fern(9)  
+- Cleo: Bay(9), Cedar(8), Fern(1), Indigo(1), Oak(9)  
+- Fern: Bay(7), Cedar(9), Cleo(1), Oak(7)  
+- Indigo: Bay(6), Cleo(1)  
+- Oak: Bay(1), Fern(7), Cleo(9)
+
+We want the shortest path from **Fern to Indigo**.
+
+---
+
+### Step 2: Use Dijkstra’s algorithm (since all weights are positive)
+
+We start from **Fern** and compute shortest distances to all other nodes, including **Indigo
+

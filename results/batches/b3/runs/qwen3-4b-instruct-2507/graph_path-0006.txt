@@ -1,0 +1,110 @@
+We are given an undirected weighted graph with nodes and edges, and we are to find the **shortest path from Bay to Quill** in terms of total weight.
+
+---
+
+### Step 1: List all nodes
+Nodes: Bay, Cedar, Dove, Eden, Fern, Glen, Indigo, Jules, Quill, Xen
+
+---
+
+### Step 2: List all edges with weights
+
+- Bay — Xen: 3  
+- Cedar — Dove: 9  
+- Cedar — Quill: 1  
+- Dove — Eden: 1  
+- Dove — Indigo: 3  
+- Eden — Fern: 7  
+- Eden — Indigo: 6  
+- Eden — Jules: 4  
+- Glen — Jules: 3  
+- Indigo — Xen: 9  
+- Quill — Xen: 1  
+
+---
+
+### Step 3: Goal — Shortest path from **Bay to Quill**
+
+We can use **Dijkstra’s algorithm** (since all weights are positive) to compute shortest paths from Bay to all other nodes.
+
+But since the graph is small, we can do a manual shortest path search or trace possible paths.
+
+---
+
+### Step 4: Explore possible paths from Bay to Quill
+
+#### Path 1: Bay → Xen → Quill  
+- Bay to Xen: 3  
+- Xen to Quill: 1  
+→ Total: 3 + 1 = **4**
+
+#### Path 2: Bay → Xen → Indigo → Dove → Cedar → Quill  
+- Bay → Xen: 3  
+- Xen → Indigo: 9  
+- Indigo → Dove: 3  
+- Dove → Cedar: 9  
+- Cedar → Quill: 1  
+→ Total: 3 + 9 + 3 + 9 + 1 = **25** → too long
+
+#### Path 3: Bay → Xen → Indigo → Eden → Jules → Glen → ???  
+No connection to Quill. Quill is only connected to Cedar and Xen.
+
+So Quill is only reachable via:
+- Cedar (edge: 1)
+- Xen (edge: 1)
+
+So to reach Quill, we must go through **Cedar** or **Xen**.
+
+So possible routes:
+- Bay → ... → Xen → Quill (weight 4)
+- Bay → ... → Cedar → Quill (weight 1)
+
+So we need to find shortest path from Bay to **Cedar** or to **Xen**, then go to Quill.
+
+Let’s compute shortest path from Bay to **Xen** and from Bay to **Cedar**.
+
+---
+
+### Step 5: Find shortest path from Bay to Xen
+
+Direct: 3
+
+Any alternative?
+
+Bay → ? → ? → Xen?
+
+Check if any path from Bay to Xen via other nodes.
+
+Bay → Xen: 3 (direct)
+
+Is there a longer path?
+
+Try Bay → Cedar → Dove → Eden → Indigo → Xen?
+
+- Bay → Cedar: not directly connected
+- Bay → Cedar: no edge
+
+So Bay is only connected to Xen.
+
+So **Bay is only connected to Xen**.
+
+Therefore, the only path from Bay is through Xen.
+
+So from Bay, only neighbor is Xen.
+
+Thus, **all paths from Bay go through Xen**.
+
+So from Bay to Quill:
+- Bay → Xen → Quill: 3 + 1 = 4
+
+Is there a path from Bay to Cedar?
+
+No direct edge from Bay to Cedar.
+
+Bay → Xen → Indigo → Dove → Cedar?
+
+- Bay → Xen: 3  
+- Xen → Indigo: 9  
+- Indigo → Dove: 3  
+- Dove → Cedar: 
+

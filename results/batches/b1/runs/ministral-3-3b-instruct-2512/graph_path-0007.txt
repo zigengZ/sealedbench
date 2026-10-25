@@ -1,0 +1,20 @@
+To find the shortest path from **Amber** to **Hart**, we can use Dijkstra's algorithm or explore paths manually.
+
+### Step-by-Step Reasoning:
+1. **Direct Paths from Amber:**
+   - Amber → Glen (2)
+   - Amber → Uri (8)
+
+2. **From Glen:**
+   - Glen → Hart (2) → **Total: 2 + 2 = 4**
+   - Glen → Jules (4) → Jules → Hart (3) → **Total: 2 + 4 + 3 = 9** (longer than 4)
+
+3. **From Uri:**
+   - Uri → Hart (1) → **Total: 8 + 1 = 9** (longer than 4)
+   - Uri → York → Lark → Eden → Hart (6) → **Total: 8 + 4 + 7 + 6 = 25** (longer)
+
+The shortest path is **Amber → Glen → Hart** with a total weight of **4**.
+
+#### 4 [end of text]
+
+

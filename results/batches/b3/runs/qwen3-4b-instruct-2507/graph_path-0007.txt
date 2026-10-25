@@ -1,0 +1,99 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Cedar, Cleo, Drew, Fern, Hart, Vale, Zed**
+
+Edges and weights:
+
+- Bay–Drew: 4  
+- Bay–Vale: 6  
+- Cedar–Drew: 6  
+- Cedar–Vale: 8  
+- Cleo–Drew: 4  
+- Drew–Hart: 5  
+- Fern–Vale: 9  
+- Fern–Zed: 5  
+- Hart–Zed: 6  
+
+We are to find the **shortest path from Hart to Vale**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We want the shortest path from **Hart** to **Vale**.
+
+Let’s list all possible paths from Hart to Vale, and compute their weights.
+
+---
+
+### Step 2: Find paths from Hart to Vale
+
+#### Path 1: Hart → Drew → Vale  
+- Hart–Drew = 5  
+- Drew–Vale = ? → Not directly given.  
+Wait — is there a direct edge from Drew to Vale?  
+No.  
+We have:  
+- Bay–Drew, Bay–Vale  
+- Cedar–Drew, Cedar–Vale  
+- Cleo–Drew  
+- Drew–Hart  
+- Fern–Vale, Fern–Zed  
+- Hart–Zed  
+
+So, no direct edge from Drew to Vale.
+
+But we can go through other nodes.
+
+#### Path 2: Hart → Zed → Vale  
+- Hart–Zed = 6  
+- Zed–Vale? → Not directly given.  
+We have:  
+- Fern–Zed = 5  
+- Fern–Vale = 9  
+So Zed–Vale is not directly connected.
+
+So no direct edge from Zed to Vale.
+
+So we must go through Fern?
+
+#### Path 3: Hart → Zed → Fern → Vale  
+- Hart–Zed = 6  
+- Zed–Fern = 5  
+- Fern–Vale = 9  
+Total = 6 + 5 + 9 = **20**
+
+#### Path 4: Hart → Drew → Cedar → Vale  
+- Hart–Drew = 5  
+- Drew–Cedar = 6  
+- Cedar–Vale = 8  
+Total = 5 + 6 + 8 = **19**
+
+#### Path 5: Hart → Drew → Bay → Vale  
+- Hart–Drew = 5  
+- Drew–Bay = 4  
+- Bay–Vale = 6  
+Total = 5 + 4 + 6 = **15**
+
+#### Path 6: Hart → Drew → Cleo → ???  
+Cleo has only edge to Drew. No other connections. So no path from Cleo to Vale.
+
+#### Path 7: Hart → Zed → Fern → Vale → same as Path 3 → 20
+
+#### Path 8: Hart → Drew → Cedar → Bay → Vale  
+- Hart–Drew = 5  
+- Drew–Cedar = 6  
+- Cedar–Bay? → Not given  
+No edge between Cedar and Bay → invalid
+
+#### Path 9: Hart → Drew → Bay → Cedar → Vale  
+- Hart–Drew = 5  
+- Drew–Bay = 4  
+- Bay–Cedar? → Not given → invalid
+
+So only valid paths are:
+
+- Hart → Drew → Cedar → Vale → 5+6+8 = 19  
+- Hart → Drew → Bay → Vale → 5+4+6 = 15  
+-
+

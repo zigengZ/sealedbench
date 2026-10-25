@@ -1,0 +1,13 @@
+We want to find the shortest path between Fern and Tess in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Fern to Tess:
+1. Fern -> Jules -> Tess: Weight = 7 + 8 = 15
+2. Fern -> Jules -> Oak -> Tess: Weight = 7 + 7 + 4 = 18
+3. Fern -> Jules -> Oak -> Dove -> Tess: Weight = 7 + 7 + 9 + 2 = 25
+4. Fern -> Jules -> Tess: Weight = 7 + 8 = 15
+
+The shortest path is Fern -> Jules -> Tess with a total weight of 15.
+
+#### 15 [end of text]
+
+

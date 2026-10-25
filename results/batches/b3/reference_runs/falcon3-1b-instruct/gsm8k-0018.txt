@@ -1,0 +1,15 @@
+First, let's determine how many eggs Claire eats in one day.
+
+Since she makes an omelet every morning, and there are 7 days in a week, she makes 3 eggs per day.
+
+In one week, she eats 3 eggs/day * 7 days/week = 21 eggs.
+
+In 4 weeks, she eats 21 eggs/week * 4 weeks = 84 eggs.
+
+To convert eggs to dozens, we divide by 12 (since 1 dozen = 12 eggs).
+
+84 eggs / 12 eggs/dozen = 7 dozens.
+
+#### 7 [end of text]
+
+

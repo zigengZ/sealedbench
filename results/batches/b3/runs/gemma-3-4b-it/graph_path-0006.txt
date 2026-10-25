@@ -1,0 +1,11 @@
+We want to find the shortest path between Bay and Quill in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Bay to Quill:
+1. Bay -> Xen -> Quill: Weight = 3 + 1 = 4
+2. Bay -> (other nodes) -> Quill:  Since there are no direct edges from Bay to any other nodes besides Xen, we can't reach Quill directly through other nodes.
+
+The shortest path is Bay -> Xen -> Quill with a total weight of 4.
+
+#### 4 [end of text]
+
+

@@ -1,0 +1,4 @@
+Quinn starts with 8 rows * 12 seats/row = 96 seats. After selling 7 seats, he has 96 - 7 = 89 seats left. Each unsold seat is worth $12, so the total worth of the unsold seats is 89 * 12 = 1068 dollars.
+#### 1068 [end of text]
+
+

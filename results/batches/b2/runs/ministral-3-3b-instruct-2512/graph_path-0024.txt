@@ -1,0 +1,16 @@
+To find the shortest path from **Tess** to **West**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Possible paths from Tess:**
+   - Tess → Cleo → West (6 + 3 = **9**)
+   - Tess → Cleo → Kai → Poe → West (2 + 4 + 4 + 6 = **16**)
+   - Tess → Cleo → Moss → Zed → West (2 + 7 + 1 + 3 = **13**)
+   - Tess → Cleo → Moss → Zed → Nell → West (2 + 7 + 5 + 5 = **19**)
+   - Tess → Cleo → Kai → Poe → Nell → West (2 + 4 + 8 + 5 = **19**)
+   - Tess → Cleo → Kai → Poe → Zed → West (2 + 4 + 4 + 3 = **13**)
+
+2. The shortest path is **Tess → Cleo → West** with a total weight of **9**.
+
+#### 9 [end of text]
+
+

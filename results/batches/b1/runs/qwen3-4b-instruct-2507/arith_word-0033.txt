@@ -1,0 +1,11 @@
+Olga reads the first book at 23 pages per day for 3 days:  
+23 × 3 = 69 pages.
+
+She reads the second book at 12 pages per day for 5 days:  
+12 × 5 = 60 pages.
+
+Total pages read = 69 + 60 = 129 pages.
+
+#### 129 [end of text]
+
+

@@ -1,0 +1,22 @@
+{
+  "i": 23,
+  "run": "t6_a",
+  "model": "falcon3-1b-instruct",
+  "threads": 6,
+  "batch": 2048,
+  "ubatch": 512,
+  "returncode": 0,
+  "error": null,
+  "seconds": 8.495,
+  "gold": "8",
+  "pred": "8",
+  "match": true,
+  "hit_cap": false,
+  "prompt_tps": null,
+  "gen_tps": null,
+  "prompt_tokens": null,
+  "gen_tokens": null,
+  "n_ctx_train": null,
+  "stdout_sha256": "c23c8f840bbfed78776be33a2ce68ca2a7b84447616f95ccbd9285ea8ca35a94",
+  "stdout_bytes": 330
+}

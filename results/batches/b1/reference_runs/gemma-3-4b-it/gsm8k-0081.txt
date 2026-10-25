@@ -1,0 +1,12 @@
+First, let's find the total number of stickers Charlie had: 10 + 21 + 23 = 54 stickers.
+
+Next, let's subtract the stickers he gave to his sister: 54 - 9 = 45 stickers.
+
+Then, let's subtract the stickers he used for the greeting card: 45 - 28 = 17 stickers.
+
+So, Charlie has 17 stickers left.
+
+####17
+ [end of text]
+
+

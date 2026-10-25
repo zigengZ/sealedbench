@@ -1,0 +1,5 @@
+The truck's total weight limit is **5000 pounds**. Subtract the driver and truck weight (**3755 pounds**), leaving **1245 pounds** for boxes. Each box weighs **15 pounds**, so divide **1245 ÷ 15 = 83**.
+
+#### 83 [end of text]
+
+

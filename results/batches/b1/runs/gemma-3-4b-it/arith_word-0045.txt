@@ -1,0 +1,7 @@
+First, find the total number of notebooks Nico buys: 5 packs * 8 notebooks/pack = 40 notebooks.
+Then, add the notebooks Mina gives him: 40 notebooks + 7 notebooks = 47 notebooks.
+
+####47
+ [end of text]
+
+

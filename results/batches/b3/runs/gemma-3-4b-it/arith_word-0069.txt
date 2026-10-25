@@ -1,0 +1,13 @@
+First, let's calculate the total number of seats in the first 6 rows: 6 rows * 5 seats/row = 30 seats.
+
+Next, let's calculate the total number of seats in the 7 additional rows: 7 rows * 6 seats/row = 42 seats.
+
+Now, let's find the total number of seats: 30 seats + 42 seats = 72 seats.
+
+Then, let's subtract the number of seats sold: 72 seats - 15 seats = 57 seats.
+
+Finally, let's calculate the total value of the unsold seats: 57 seats * $9/seat = $513.
+
+####513 [end of text]
+
+

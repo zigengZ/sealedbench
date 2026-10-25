@@ -1,0 +1,24 @@
+We want to find the shortest path between Cedar and Drew in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Amber Cedar 8
+- Amber Drew 9
+- Amber Xen 6
+- Cedar Eden 8
+- Cedar Fern 9
+- Drew Kai 3
+- Drew Zed 2
+- Fern Kai 7
+- Fern Xen 7
+
+We can consider the possible paths from Cedar to Drew:
+1. Cedar -> Drew: No direct edge.
+2. Cedar -> Amber -> Drew: Weight = 8 + 9 = 17
+3. Cedar -> Fern -> Kai -> Drew: Weight = 9 + 7 + 3 = 19
+4. Cedar -> Eden: No path from Eden to Drew.
+
+The shortest path is Cedar -> Amber -> Drew with a total weight of 17.
+
+#### 17 [end of text]
+
+

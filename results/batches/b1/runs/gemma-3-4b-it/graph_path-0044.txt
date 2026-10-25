@@ -1,0 +1,14 @@
+We want to find the shortest path between Glen and Vale in the given undirected weighted graph. We can use Dijkstra's algorithm or simply enumerate the possible paths and their weights.
+
+Possible paths from Glen to Vale:
+1. Glen -> Vale: Weight = 6
+2. Glen -> Oak -> Vale: Weight = 4 + 8 = 12
+3. Glen -> Moss -> Vale: Weight = 2 + 1 = 3
+4. Glen -> Indigo -> Tess: This path doesn't lead to Vale.
+5. Glen -> Ash: This path doesn't lead to Vale.
+
+Comparing the weights of the possible paths, the shortest path is Glen -> Vale with a weight of 6.
+
+#### 6 [end of text]
+
+

@@ -1,0 +1,21 @@
+First, let's calculate the total number of tokens Victor initially has:
+
+6 packs * 8 tokens/pack = 48 tokens
+
+Then, Victor gives away 33 tokens:
+
+48 tokens - 33 tokens = 15 tokens
+
+After giving away tokens, Victor has:
+
+15 tokens - 16 tokens = -1 tokens
+
+Since Victor can't have a negative number of tokens, this means he has 0 tokens left.
+
+Each token is worth 7 dollars, so:
+
+0 tokens * $7/token = $0
+
+#### 0 [end of text]
+
+

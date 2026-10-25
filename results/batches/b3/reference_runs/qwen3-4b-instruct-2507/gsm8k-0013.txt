@@ -1,0 +1,44 @@
+Let's work through the problem step by step.
+
+Let the original number of vacuum cleaners Melanie started with be **x**.
+
+1. She sold **a third** of them at the green house:  
+   → Sold: $ \frac{1}{3}x $  
+   → Left: $ x - \frac{1}{3}x = \frac{2}{3}x $
+
+2. Then she sold **2 more** to the red house:  
+   → Left: $ \frac{2}{3}x - 2 $
+
+3. Then she sold **half of what was left** at the orange house:  
+   → Sold half of $ \frac{2}{3}x - 2 $, so left with half:  
+   → Left: $ \frac{1}{2} \left( \frac{2}{3}x - 2 \right) $
+
+We are told that after all this, she has **5 vacuum cleaners left**.
+
+So:
+
+$$
+\frac{1}{2} \left( \frac{2}{3}x - 2 \right) = 5
+$$
+
+Multiply both sides by 2:
+
+$$
+\frac{2}{3}x - 2 = 10
+$$
+
+Add 2 to both sides:
+
+$$
+\frac{2}{3}x = 12
+$$
+
+Multiply both sides by $ \frac{3}{2} $:
+
+$$
+x = 12 \times \frac{3}{2} = 18
+$$
+
+#### 18 [end of text]
+
+

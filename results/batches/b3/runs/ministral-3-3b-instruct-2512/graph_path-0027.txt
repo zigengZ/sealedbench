@@ -1,0 +1,40 @@
+To find the shortest path from **Blair** to **Quill**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Blair** with distance `0`.
+   - All other nodes have distance `∞`.
+   - Priority queue: `[(Blair, 0)]`.
+
+2. **Expand Blair**:
+   - Only neighbor: **Tess** (distance = 8).
+   - Update: `Tess = 8`.
+   - Queue: `[(Tess, 8)]`.
+
+3. **Expand Tess**:
+   - Neighbors: **Blair (8)**, **Quill (8+7=15)**, **Jules (8+2=10)**.
+   - Update: `Quill = 15`, `Jules = 10`.
+   - Queue: `[(Jules, 10), (Quill, 15)]`.
+
+4. **Expand Jules**:
+   - Neighbors: **Tess (10+2=12)**, **Quill (10+5=15)**, **Uri (10+5=15)**, **Vale (10+7=17)**.
+   - Update: `Quill` (already 15), `Uri = 15`, `Vale = 17`.
+   - Queue: `[(Quill, 15), (Uri, 15)]`.
+
+5. **Expand Quill** (already reached, no improvement).
+6. **Expand Uri**:
+   - Neighbors: **Fern (15+9=24)**, **Jules (15+5=20)**, **Kai (15+7=22)**, **Moss (15+7=22)**, **Tess (15+2=17)**.
+   - Update: `Tess = 17` (better than 15? No, already 8+7=15).
+   - Queue: `[(Tess, 17), (Kai, 22), (Moss, 22), (Vale, 17)]`.
+
+7. **Expand Tess** (distance 17):
+   - Neighbors: **Blair (17+8=25)**, **Quill (17+7=24)**.
+   - No improvement for Quill.
+
+8. **Best remaining path to Quill**:
+   - **Blair → Tess → Quill** (8 + 7 = **15**).
+
+### Final Answer:
+#### 15 [end of text]
+
+

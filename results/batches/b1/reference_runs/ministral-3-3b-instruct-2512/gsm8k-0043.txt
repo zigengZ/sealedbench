@@ -1,0 +1,10 @@
+You've already eaten **200 calories**, leaving **200 calories** to consume.
+
+Each serving is **300g / 5 = 60g**, and each serving has **250 calories**.
+So, **200 calories ÷ 250 = 0.8 servings**.
+
+Multiply by the serving size: **0.8 × 60g = 48g**.
+
+#### 48 [end of text]
+
+

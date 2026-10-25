@@ -1,0 +1,19 @@
+First, find the total number of erasers Ava buys:
+
+- 7 packs with 7 erasers each:  
+  $7 \times 7 = 49$ erasers
+
+- 3 packs with 9 erasers each:  
+  $3 \times 9 = 27$ erasers
+
+Total erasers:  
+$49 + 27 = 76$ erasers
+
+These are shared equally among 2 people:  
+$76 \div 2 = 38$
+
+So, each person gets 38 erasers.
+
+#### 38 [end of text]
+
+

@@ -1,0 +1,32 @@
+To find the shortest path from **Oak** to **Poe**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Possible paths from Oak to Poe:**
+   - Oak → Indigo → Moss → Poe
+     - Oak → Indigo: 5
+     - Indigo → Moss: Not directly connected (no edge).
+     - Alternative: Oak → Moss → Poe (but no direct edge from Oak to Moss).
+     - **Correction:** The only viable path is:
+       - Oak → Indigo → Moss → Poe
+       - But **Indigo does not connect directly to Moss** (no edge). So, this path is invalid.
+
+   - Oak → Moss → Poe
+     - Oak → Moss: No direct edge (no edge from Oak to Moss).
+     - **No valid path found directly.**
+
+   - Oak → Indigo → West → Dove → Moss → Poe
+     - Oak → Indigo: 5
+     - Indigo → West: 1
+     - West → Dove: 3
+     - Dove → Moss: 6
+     - Moss → Poe: 8
+     - **Total weight = 5 + 1 + 3 + 6 + 8 = 23**
+
+   - Oak → Indigo → York → (no direct path to Poe)
+     - No valid path here.
+
+   - Oak → Moss (no direct edge) → **No valid path.**
+
+   - **Alternative valid path:**
+     - Oak → Indigo
+

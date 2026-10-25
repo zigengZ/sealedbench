@@ -1,0 +1,7 @@
+Sarah does 400 pounds, so David does 400 ÷ 4 = 100 pounds.
+Raymond does half of Sarah’s load, so 400 ÷ 2 = 200 pounds.
+Difference: 200 - 100 = 100 pounds.
+
+#### 100 [end of text]
+
+

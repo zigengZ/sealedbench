@@ -1,0 +1,11 @@
+First, let's calculate the number of pages Ben reads from the first book: 20 pages/day * 4 days = 80 pages.
+
+Next, let's calculate the number of pages Ben reads from the second book: 18 pages/day * 3 days = 54 pages.
+
+Then, let's calculate the total number of pages Ben reads in one week: 80 pages + 54 pages = 134 pages.
+
+Finally, let's calculate the total number of pages Ben reads in 4 weeks: 134 pages/week * 4 weeks = 536 pages.
+
+####536 [end of text]
+
+

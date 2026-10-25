@@ -1,0 +1,15 @@
+First, calculate the total number of stamps Jamal initially has:
+5 packs * 6 stamps/pack = 30 stamps
+
+Then, subtract the 14 stamps given to Felix:
+30 stamps - 14 stamps = 16 stamps
+
+Next, add the 20 stamps given by Felix:
+16 stamps + 20 stamps = 36 stamps
+
+Finally, calculate the total value of the stamps:
+36 stamps * 2 dollars/stamp = 72 dollars
+
+#### 72 [end of text]
+
+

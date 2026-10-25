@@ -1,0 +1,9 @@
+Jamal buys 5 packs of apples, and each pack has 10 apples.  
+So, total apples = 5 × 10 = 50 apples.  
+
+Then he gives 1 apple to Xavier.  
+So, apples left = 50 - 1 = 49.  
+
+#### 49 [end of text]
+
+

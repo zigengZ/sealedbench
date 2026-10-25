@@ -1,0 +1,8 @@
+Mina starts with 2 packs of 10 crayons: 2 × 10 = 20 crayons.
+Then she buys 3 packs of 7 crayons: 3 × 7 = 21 crayons.
+Total crayons before giving any away: 20 + 21 = 41 crayons.
+After giving 16 crayons to Olga: 41 - 16 = 25 crayons.
+
+#### 25 [end of text]
+
+

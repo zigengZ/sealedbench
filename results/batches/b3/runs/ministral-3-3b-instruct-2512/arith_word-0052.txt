@@ -1,0 +1,7 @@
+Willa reads **75** pages initially (15 pages/day × 5 days).
+Adding the extra 23 pages gives **98** pages.
+Skipping the 97 blank pages leaves her with **1** page read.
+
+#### 1 [end of text]
+
+

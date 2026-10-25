@@ -1,0 +1,49 @@
+To find the shortest path from **Ash** to **Dove**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to Ash = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Priority: Distance)**:
+   - Start with Ash (distance = 0).
+   - Next, explore neighbors of Ash:
+     - **Uri** (distance = 5).
+     - Others remain ∞.
+
+3. **Update Distances**:
+   - From Uri, check all neighbors:
+     - **Ash** (already visited).
+     - **Cleo** (via Ash-Uri-Cleo: 5 + 6 = 11).
+     - **Dove** (via Ash-Uri-Dove: 5 + 7 = 12).
+     - **Glen** (via Ash-Uri-Glen: 5 + 4 = 9).
+     - **Kai** (via Ash-Uri-Kai: 5 + 4 = 9).
+     - **Oak** (via Ash-Uri-Oak: 8 + 8 = 16).
+     - **Poe** (via Ash-Uri-Poe: 7 + 7 = 14).
+
+4. **Next Node to Visit**:
+   - **Glen** (distance = 9) is next.
+   - From Glen, check neighbors:
+     - **Dove** (via Glen-Dove: 9 + 7 = 16) → worse than current 12.
+     - **Kai** (already visited).
+     - **Uri** (already visited).
+
+5. **Next Node to Visit**:
+   - **Kai** (distance = 9) is next.
+   - From Kai, check neighbors:
+     - **Uri** (already visited).
+
+6. **Next Node to Visit**:
+   - **Cleo** (distance = 11) is next.
+   - From Cleo, check neighbors:
+     - **Dove** (via Cleo-Dove: 11 + 1 = 12) → same as current.
+     - **Oak** (via Cleo-Oak: 11 + 7 = 18) → worse.
+     - **Uri** (already visited).
+
+7. **Final Check**:
+   - The shortest path to Dove is **Ash → Uri → Dove** with a total weight of **12**.
+
+#### 12 [end of text]
+
+

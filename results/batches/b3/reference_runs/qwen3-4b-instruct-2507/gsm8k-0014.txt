@@ -1,0 +1,58 @@
+We are given:
+
+- Total students = 20  
+- 20% enrolled in **contemporary dance**  
+- 25% of the **remaining** students enrolled in **jazz dance**  
+- The **rest** enrolled in **hip-hop dance**
+
+We are to find the **percentage** of the entire class that enrolled in **hip-hop dance**.
+
+---
+
+**Step 1: Contemporary dance**
+
+20% of 20 students:
+
+$$
+20\% \times 20 = 0.20 \times 20 = 4 \text{ students}
+$$
+
+Remaining students:
+
+$$
+20 - 4 = 16 \text{ students}
+$$
+
+---
+
+**Step 2: Jazz dance**
+
+25% of the **remaining** (16 students):
+
+$$
+25\% \times 16 = 0.25 \times 16 = 4 \text{ students}
+$$
+
+---
+
+**Step 3: Hip-hop dance**
+
+Remaining students:
+
+$$
+16 - 4 = 12 \text{ students}
+$$
+
+So, 12 students enrolled in hip-hop.
+
+Now, what **percentage** of the entire class is that?
+
+$$
+\frac{12}{20} \times 100 = 60\%
+$$
+
+---
+
+#### 60 [end of text]
+
+

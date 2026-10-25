@@ -1,0 +1,35 @@
+Let's trace through the program step by step:
+
+Initial setup:
+- `words = ['ivory', 'north', 'brook']`
+- `out = ""`
+
+Loop over `range(len(words))`, which is `range(3)` → indices 0, 1, 2.
+
+**Index 0:**
+- `piece = words[0] = 'ivory'`
+- `index % 2 == 0` → True → `piece = piece.upper()` → `'IVORY'`
+- `out == ""` → True → `out = piece` → `out = 'IVORY'`
+
+**Index 1:**
+- `piece = words[1] = 'north'`
+- `index % 2 == 0` → False → `piece` remains `'north'`
+- `out != ""` → True → `out = out + ' ' + piece` → `'IVORY north'`
+
+**Index 2:**
+- `piece = words[2] = 'brook'`
+- `index % 2 == 0` → False → `piece` remains `'brook'`
+- `out != ""` → True → `out = out + ' ' + piece` → `'IVORY north brook'`
+
+Final `out` is `'IVORY north brook'`
+
+Output:
+```
+IVORY north brook
+```
+
+``` 
+IVORY north brook
+``` [end of text]
+
+

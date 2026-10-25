@@ -1,0 +1,15 @@
+First, calculate the number of seats in the original 8 rows:
+
+8 rows × 10 seats per row = 80 seats
+
+Then, add the seats from the 2 new rows:
+
+2 rows × 6 seats per row = 12 seats
+
+Now, add both amounts:
+
+80 + 12 = 92 seats
+
+#### 92 [end of text]
+
+

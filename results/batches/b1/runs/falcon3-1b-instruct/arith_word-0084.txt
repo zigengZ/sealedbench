@@ -1,0 +1,21 @@
+First, let's calculate the total number of cards Chloe has after the transactions.
+
+Chloe buys 5 packs of cards, and each pack contains 4 cards.
+So, the total number of cards Chloe has initially is:
+5 packs * 4 cards/pack = 20 cards
+
+Chloe then gives 17 cards to Ben.
+So, the number of cards Chloe has left is:
+20 cards - 17 cards = 3 cards
+
+Ben gives Chloe 18 more cards.
+So, the total number of cards Chloe has after receiving the additional cards is:
+3 cards + 18 cards = 21 cards
+
+Each card is worth 5 dollars.
+So, the total value of Chloe's cards is:
+21 cards * 5 dollars/card = 105 dollars
+
+#### 105 [end of text]
+
+

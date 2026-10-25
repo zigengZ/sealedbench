@@ -1,0 +1,25 @@
+To find the shortest path from **Quill** to **Sage**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward here).
+
+### Step-by-Step Reasoning:
+1. **Start at Quill** (distance = 0).
+2. **Neighbors of Quill**:
+   - Quill → Oak (weight = 9)
+   - Quill → Xen (weight = 4)
+   - Update distances: `Oak = 9`, `Xen = 4`.
+3. **Next, visit Xen** (shortest unvisited neighbor).
+   - Xen → Fern (weight = 6, but Fern is unreachable from Sage, so ignore).
+   - Xen → Sage (weight = 5, new distance: `Sage = 4 + 5 = 9`).
+   - Xen → Oak (already visited).
+4. **Next, visit Oak** (distance = 9).
+   - Oak → Fern (unreachable).
+   - Oak → Jules (unreachable).
+   - Oak → Quill (already visited).
+   - Oak → Xen (already visited).
+5. **No shorter path found to Sage** after visiting Oak.
+
+### Shortest Path:
+**Quill → Xen → Sage** with total weight **9**.
+
+#### 9 [end of text]
+
+

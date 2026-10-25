@@ -1,0 +1,40 @@
+Let's step through the code carefully:
+
+We have a list: `words = ['ember', 'juniper', 'harbor']`
+
+We initialize `out = ""`
+
+Then, we loop over `range(len(words))`, which is `range(3)` → indices 0, 1, 2.
+
+For each index:
+
+- index = 0:
+  - piece = words[0] = 'ember'
+  - index % 3 == 0 → not 1 → no upper()
+  - out is "" → so set out = 'ember'
+
+- index = 1:
+  - piece = words[1] = 'juniper'
+  - index % 3 == 1 → True → piece becomes 'JUNIPER'
+  - out is not "" → so out = out + '-' + piece → 'ember-juniper'
+
+- index = 2:
+  - piece = words[2] = 'harbor'
+  - index % 3 == 2 → not 1 → no upper()
+  - out is not "" → so out = out + '-' + piece → 'ember-juniper-harbor'
+
+Finally, print(out) → prints 'ember-juniper-harbor'
+
+Note: Only the word at index 1 (which is 1 mod 3 == 1) is converted to uppercase.
+
+So the output is:
+
+```
+ember-juniper-harbor
+```
+
+``` 
+ember-juniper-harbor
+``` [end of text]
+
+

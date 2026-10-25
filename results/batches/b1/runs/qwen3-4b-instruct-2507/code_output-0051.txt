@@ -1,0 +1,57 @@
+Let's trace through the program step by step:
+
+```python
+words = ['ember', 'lilac', 'quartz', 'river', 'grove']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 3 == 0:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '/' + piece
+print(out)
+```
+
+The list `words` has 5 elements:
+- index 0: 'ember'
+- index 1: 'lilac'
+- index 2: 'quartz'
+- index 3: 'river'
+- index 4: 'grove'
+
+We iterate over indices 0 to 4.
+
+**index = 0:**
+- piece = 'ember'
+- index % 3 == 0 → True → piece becomes 'EMBER'
+- out is initially "" → so out = 'EMBER'
+
+**index = 1:**
+- piece = 'lilac'
+- index % 3 == 1 → False → piece remains 'lilac'
+- out is not "" → out = 'EMBER' + '/' + 'lilac' → 'EMBER/lilac'
+
+**index = 2:**
+- piece = 'quartz'
+- index % 3 == 2 → False → piece remains 'quartz'
+- out is not "" → out = 'EMBER/lilac' + '/' + 'quartz' → 'EMBER/lilac/quartz'
+
+**index = 3:**
+- piece = 'river'
+- index % 3 == 0? 3 % 3 = 0 → True → piece becomes 'RIVER'
+- out is not "" → out = 'EMBER/lilac/quartz' + '/' + 'RIVER' → 'EMBER/lilac/quartz/RIVER'
+
+**index = 4:**
+- piece = 'grove'
+- index % 3 == 1 → False → piece remains 'grove'
+- out is not "" → out = 'EMBER/lilac/quartz/RIVER' + '/' + 'grove' → 'EMBER/lilac/quartz/RIVER/grove'
+
+Final output: `EMBER/lilac/quartz/RIVER/grove`
+
+```python
+EMBER/lilac/quartz/RIVER/grove
+``` [end of text]
+
+

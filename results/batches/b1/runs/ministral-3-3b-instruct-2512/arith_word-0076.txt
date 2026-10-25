@@ -1,0 +1,5 @@
+Jamal starts with 5 packs, each containing 10 apples, so he has 5 × 10 = 50 apples. After giving 1 apple to Xavier, Jamal has 50 - 1 = 49 apples left.
+
+#### 49 [end of text]
+
+

@@ -1,0 +1,13 @@
+We want to find the shortest path between Cleo and Drew in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Cleo to Drew:
+1. Cleo -> Drew: Weight = 0 (direct edge)
+2. Cleo -> Hart -> Reed -> Drew: Weight = 1 + 7 + 5 = 13
+3. Cleo -> Reed -> Drew: Weight = 8 + 5 = 13
+4. Cleo -> Uri -> Reed -> Drew: Weight = 8 + 1 + 5 = 14
+
+Comparing the weights, the shortest path is Cleo -> Drew with a weight of 0.
+
+#### 0 [end of text]
+
+

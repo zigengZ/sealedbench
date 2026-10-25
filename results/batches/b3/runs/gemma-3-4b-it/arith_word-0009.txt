@@ -1,0 +1,7 @@
+First, calculate the total pages read in the first 6 days: 17 pages/day * 6 days = 102 pages.
+Next, add the additional 36 pages: 102 pages + 36 pages = 138 pages.
+Finally, subtract the blank pages: 138 pages - 107 pages = 31 pages.
+
+####31 [end of text]
+
+

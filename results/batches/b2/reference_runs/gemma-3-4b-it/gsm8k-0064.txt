@@ -1,0 +1,9 @@
+First, we find the miles per gallon (MPG) she got on her last fill-up: 100 miles / 4 gallons = 25 miles/gallon.
+
+Next, we calculate how many miles she can drive on a full 12-gallon tank: 12 gallons * 25 miles/gallon = 300 miles.
+
+Therefore, Sophia can drive 300 miles on a single tank of gas.
+
+#### 300 [end of text]
+
+

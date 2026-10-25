@@ -1,0 +1,11 @@
+First, let's calculate the number of seats in the initial 7 rows: 7 rows * 6 seats/row = 42 seats.
+
+Next, let's calculate the number of seats in the additional 6 rows: 6 rows * 3 seats/row = 18 seats.
+
+Now, let's find the total number of seats: 42 seats + 18 seats = 60 seats.
+
+Finally, let's subtract the number of seats sold from the total number of seats: 60 seats - 29 seats = 31 seats.
+
+####31 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, Pavel buys 5 packs of 10 oranges each, so he has 5 * 10 = 50 oranges.
+Then he buys 5 packs of 9 oranges each, so he has 5 * 9 = 45 oranges.
+In total, Pavel has 50 + 45 = 95 oranges.
+He gives 30 oranges to Chloe, so he has 95 - 30 = 65 oranges left.
+The oranges are shared equally among 5 people, so each person gets 65 / 5 = 13 oranges.
+
+#### 13 [end of text]
+
+

@@ -1,0 +1,5 @@
+Uma reads **54 pages** from the first book (18 pages/day × 3 days) and **32 pages** from the second book (16 pages/day × 2 days), totaling **86 pages**. After skipping 17 blank pages, she reads **69 pages**.
+
+#### 69 [end of text]
+
+

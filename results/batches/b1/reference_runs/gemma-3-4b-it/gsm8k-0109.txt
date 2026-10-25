@@ -1,0 +1,7 @@
+First, calculate the total cost of the gas: 10 gallons * $3.00/gallon = $30.00.
+Next, calculate the total cashback: 10 gallons * $0.20/gallon = $2.00.
+Finally, subtract the cashback from the total cost: $30.00 - $2.00 = $28.00.
+
+####28 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, calculate the total number of seats Nico initially has:
+7 rows × 14 seats/row = 98 seats
+
+Next, calculate the total number of seats added:
+4 rows × 3 seats/row = 12 seats
+
+Now, add these to the initial total:
+98 seats + 12 seats = 110 seats
+
+Finally, subtract the number of seats sold from the total:
+110 seats - 90 seats = 20 seats
+
+#### 20 [end of text]
+
+

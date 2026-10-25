@@ -1,0 +1,37 @@
+Let's walk through the program step by step:
+
+Initial values:
+- `values = [14, 17, 11, 14, 6, 13]`
+- `total = 2`
+
+We iterate through each value in `values`:
+
+1. `value = 14`:  
+   `14 <= 17`, so we do `total = total + value` → `total = 2 + 14 = 16`
+
+2. `value = 17`:  
+   `17 <= 17`, so we do `total = total + value` → `total = 16 + 17 = 33`
+
+3. `value = 11`:  
+   `11 <= 17`, so we do `total = total + value` → `total = 33 + 11 = 44`
+
+4. `value = 14`:  
+   `14 <= 17`, so we do `total = total + value` → `total = 44 + 14 = 58`
+
+5. `value = 6`:  
+   `6 <= 17`, so we do `total = total + value` → `total = 58 + 6 = 64`
+
+6. `value = 13`:  
+   `13 <= 17`, so we do `total = total + value` → `total = 64 + 13 = 77`
+
+No value in the list is greater than 17, so the `if value > 17` condition is never triggered.
+
+Final value of `total` is `77`.
+
+The program prints `77`.
+
+```python
+77
+``` [end of text]
+
+

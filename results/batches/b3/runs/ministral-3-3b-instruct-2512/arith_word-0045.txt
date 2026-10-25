@@ -1,0 +1,9 @@
+Xavier has a total of 9 rows × 14 seats = 126 seats.
+
+Seats sold = 63, so unsold seats = 126 - 63 = 63.
+
+Each unsold seat is worth $9, so total value = 63 × 9 = $567.
+
+#### 567 [end of text]
+
+

@@ -1,0 +1,17 @@
+Let's break it down step by step:
+
+1. Charlie started with **10** stickers.  
+2. He bought **21** more:  
+   10 + 21 = 31  
+3. He got **23** for his birthday:  
+   31 + 23 = 54  
+4. He gave **9** to his sister:  
+   54 - 9 = 45  
+5. He used **28** to decorate a card:  
+   45 - 28 = 17  
+
+So, Charlie has **17** stickers left.
+
+#### 17 [end of text]
+
+

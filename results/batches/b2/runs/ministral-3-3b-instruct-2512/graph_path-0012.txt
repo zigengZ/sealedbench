@@ -1,0 +1,43 @@
+To find the shortest path from **Amber** to **Moss**, we can use **Dijkstra's algorithm** (since all weights are non-negative).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Amber: 0
+   - All others: ∞
+
+2. **Priority queue (start with Amber)**:
+   - Amber (0), then explore neighbors:
+     - **Indigo (9)**, **Sage (5)**, **Uri (6)**
+
+3. **Next shortest (Sage, 5)**:
+   - Update neighbors:
+     - Eden: min(∞, 5+4) = **9**
+     - Drew: min(∞, 5+6) = **11**
+     - Indigo: min(9, 5+8) = **9** (no change)
+
+4. **Next shortest (Indigo, 9)**:
+   - Update neighbors:
+     - Amber: already 0
+     - Eden: min(9, 9+2) = **9** (no change)
+     - Sage: min(5, 9+8) = **5** (no change)
+     - Moss: min(∞, 9+8) = **17**
+
+5. **Next shortest (Uri, 6)**:
+   - Update neighbors:
+     - Moss: min(17, 6+1) = **7** (new shortest!)
+
+6. **Next shortest (Eden, 9)**:
+   - Update neighbors:
+     - Sage: min(5, 9+4) = **5** (no change)
+     - Indigo: min(9, 9+2) = **9** (no change)
+     - Drew: min(11, 9+1) = **10** (no change)
+
+7. **Next shortest (Moss, 7)**:
+   - No new updates (all neighbors already shorter or equal).
+
+### Shortest Path:
+**Amber → Sage → Uri → Moss** with total weight **7**.
+
+#### 7 [end of text]
+
+

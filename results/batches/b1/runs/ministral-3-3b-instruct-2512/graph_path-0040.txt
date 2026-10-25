@@ -1,0 +1,19 @@
+To find the shortest path from **Tess** to **York**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Tess (Tess → York)**:
+   - Direct edge: **Tess → Sage (1)** → **Sage → York (9)** → Total = **10**.
+   - Alternative via Nell: **Tess → Sage (1)** → **Sage → Nell (5)** → **Nell → York (via Jules or Kai)**.
+     - **Nell → Jules (2)** → **Jules → York (7)** → Total = **1 + 5 + 2 + 7 = 15** (longer).
+     - **Nell → Kai (6)** → **Kai → York (no direct edge)** → Not viable.
+   - Alternative via Jules: **Tess → Jules (7)** → **Jules → York (7)** → Total = **14** (longer).
+   - Alternative via Nell → Sage → Tess (cycle, not useful).
+
+2. **Optimal path found**:
+   - **Tess → Sage (1)** → **Sage → York (9)** → **Total = 10**.
+
+No shorter path exists (e.g., via Nell or Jules adds extra weight).
+
+#### 10 [end of text]
+
+

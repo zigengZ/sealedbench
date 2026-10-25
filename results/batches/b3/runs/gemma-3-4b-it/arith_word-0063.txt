@@ -1,0 +1,8 @@
+First, find the total number of pages read from the first book: 13 pages/day * 4 days = 52 pages.
+Next, find the total number of pages read from the second book: 17 pages/day * 4 days = 68 pages.
+Then, add the pages read from both books: 52 pages + 68 pages = 120 pages.
+Finally, subtract the blank pages: 120 pages - 66 pages = 54 pages.
+
+####54 [end of text]
+
+

@@ -1,0 +1,12 @@
+Nico reads **two books** simultaneously:
+- First book: 12 pages/day × 4 days = **48 pages**
+- Second book: 9 pages/day × 4 days = **36 pages**
+Total per week before skipping: 48 + 36 = **84 pages**
+
+After skipping 78 blank pages: 84 - 78 = **6 pages per week**
+
+For 3 weeks: 6 pages/week × 3 weeks = **18 pages**
+
+#### 18 [end of text]
+
+

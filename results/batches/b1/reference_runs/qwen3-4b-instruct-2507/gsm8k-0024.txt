@@ -1,0 +1,21 @@
+Kyle bought the book for $19.50, which is after a 25% discount. That means $19.50 is 75% of the original price (since 100% - 25% = 75%).
+
+Let the original price be $ x $.
+
+We can write:
+
+$$
+0.75x = 19.50
+$$
+
+To find $ x $, divide both sides by 0.75:
+
+$$
+x = \frac{19.50}{0.75} = 26
+$$
+
+So, the original price was $26.00.
+
+#### 26 [end of text]
+
+

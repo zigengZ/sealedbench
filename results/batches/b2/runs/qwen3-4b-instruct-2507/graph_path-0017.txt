@@ -1,0 +1,101 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Dove, Drew, Eden, Fern, Glen, Hart, Zed**
+
+We are to find the **shortest path from Bay to Glen** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+- Bay — Dove: 8  
+- Bay — Eden: 5  
+- Dove — Glen: 2  
+- Dove — Hart: 8  
+- Drew — Glen: 5  
+- Drew — Hart: 4  
+- Drew — Zed: 8  
+- Eden — Fern: 4  
+- Fern — Glen: 4  
+- Fern — Zed: 6  
+- Glen — Zed: 5  
+
+---
+
+We want the shortest path from **Bay to Glen**.
+
+We'll consider possible paths from Bay to Glen, using the edges.
+
+---
+
+### Step 2: Explore paths from Bay to Glen
+
+#### Path 1: Bay → Dove → Glen  
+- Bay to Dove: 8  
+- Dove to Glen: 2  
+- Total: 8 + 2 = **10**
+
+#### Path 2: Bay → Eden → Fern → Glen  
+- Bay to Eden: 5  
+- Eden to Fern: 4  
+- Fern to Glen: 4  
+- Total: 5 + 4 + 4 = **13**
+
+#### Path 3: Bay → Dove → Hart → Drew → Glen  
+- Bay → Dove: 8  
+- Dove → Hart: 8  
+- Hart → Drew: 4  
+- Drew → Glen: 5  
+- Total: 8 + 8 + 4 + 5 = **25** → too long
+
+#### Path 4: Bay → Eden → Fern → Zed → Glen  
+- Bay → Eden: 5  
+- Eden → Fern: 4  
+- Fern → Zed: 6  
+- Zed → Glen: 5  
+- Total: 5 + 4 + 6 + 5 = **20**
+
+#### Path 5: Bay → Dove → Hart → Drew → Zed → Glen  
+- Bay → Dove: 8  
+- Dove → Hart: 8  
+- Hart → Drew: 4  
+- Drew → Zed: 8  
+- Zed → Glen: 5  
+- Total: 8+8+4+8+5 = **33** → worse
+
+#### Path 6: Bay → Eden → Fern → Glen → (already considered)
+
+Any path going through Zed or Hart seems longer.
+
+#### Path 7: Bay → Dove → Glen → (already considered)
+
+Is there a shorter path than 10?
+
+What about via Drew?
+
+Bay → Eden → Fern → Glen = 13  
+Bay → Dove → Glen = 10  
+Any other?
+
+What about Bay → Dove → Hart → Drew → Glen? = 8+8+4+5 = 25 → worse
+
+Is there a path like Bay → Eden → Fern → Zed → Glen? = 5+4+6+5 = 20 → worse
+
+So far, **Bay → Dove → Glen = 10** is best.
+
+Wait — is there a path via Drew and then Glen?
+
+Bay → Bay → ? → Glen
+
+Only direct edges from Bay are to Dove and Eden.
+
+So from Bay, only two options: Dove (8) or Eden (5)
+
+From Eden: only to Fern (4)
+
+From Dove: to Glen (2), Hart (8)
+
+From Drew: to Glen (5), Hart (4), Zed (8)
+
+From Fern: to Eden (4), Glen (4), Zed (6
+

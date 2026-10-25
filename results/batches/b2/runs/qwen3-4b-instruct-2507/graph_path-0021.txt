@@ -1,0 +1,85 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Fern, Glen, Jules, Oak, Quill, Uri  
+**Edges and weights**:
+- Fern – Oak: 5  
+- Fern – Uri: 5  
+- Glen – Quill: 7  
+- Glen – Uri: 4  
+- Jules – Oak: 2  
+- Jules – Uri: 2  
+- Oak – Quill: 7  
+- Oak – Uri: 9  
+
+We are to find the **shortest path from Oak to Uri**.
+
+---
+
+### Step 1: List all possible paths from Oak to Uri
+
+We'll consider direct and indirect paths.
+
+#### Direct path:
+- Oak → Uri: weight = 9
+
+#### Paths via other nodes:
+
+**Via Jules**:
+- Oak → Jules → Uri  
+  - Oak to Jules: 2  
+  - Jules to Uri: 2  
+  - Total: 2 + 2 = **4**
+
+**Via Fern**:
+- Oak → Fern → Uri  
+  - Oak to Fern: 5  
+  - Fern to Uri: 5  
+  - Total: 5 + 5 = **10**
+
+**Via Glen**:
+- Oak → Glen → Uri  
+  - But there is **no direct edge from Oak to Glen**.  
+  - So we need to go through another node.
+
+Can we go Oak → Quill → Glen?
+- Oak → Quill: 7  
+- Quill → Glen: 7  
+- Then Glen → Uri: 4  
+- Total: 7 + 7 + 4 = **18**
+
+Or Oak → Quill → Glen → Uri: 7 + 7 + 4 = 18
+
+Or Oak → Quill → Uri?  
+- Oak → Quill: 7  
+- Quill → Uri? → Not directly given.  
+No edge between Quill and Uri.
+
+So no path via Quill to Uri directly.
+
+**Via Jules is best so far: 4**
+
+Compare:
+- Direct: 9  
+- Oak → Jules → Uri: 4  
+- Oak → Fern → Uri: 10  
+- Oak → Quill → Glen → Uri: 18  
+
+Is there any shorter path?
+
+What about Oak → Jules → Uri = 4 — that's the best.
+
+Is there a path like Oak → Fern → ??? → Uri?  
+Fern → Uri is direct, but Fern → Oak is 5, so that's longer.
+
+Any other connections?
+
+No edge from Oak to Glen or Fern to Glen, etc.
+
+So the shortest path is **Oak → Jules → Uri** with total weight:
+
+**2 + 2 = 4**
+
+#### Final Answer:
+#### 4 [end of text]
+
+

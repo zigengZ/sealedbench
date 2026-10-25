@@ -1,0 +1,18 @@
+Let's denote the initial amount of money Bailey had as \( x \).
+
+Bailey receives a weekly allowance of $5 for 8 weeks. This means she receives a total of \( 5 \times 8 = 40 \) dollars.
+
+At the end of the 8 weeks, she has a total of $100. Therefore, the initial amount of money \( x \) plus the $40 she received equals $100.
+
+We can set up the equation:
+\[ x + 40 = 100 \]
+
+To find \( x \), subtract 40 from both sides of the equation:
+\[ x = 100 - 40 \]
+\[ x = 60 \]
+
+Bailey started with $60.
+
+#### 60 [end of text]
+
+

@@ -1,0 +1,9 @@
+Quinn reads 8 pages a day for 6 days, so the total pages read from the first book is 8 pages/day * 6 days = 48 pages.
+
+Quinn also reads a second book at 8 pages a day for 5 days, so the total pages read from the second book is 8 pages/day * 5 days = 40 pages.
+
+To find the total number of pages Quinn reads, add the pages from both books: 48 pages + 40 pages = 88 pages.
+
+#### 88 [end of text]
+
+

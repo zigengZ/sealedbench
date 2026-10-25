@@ -1,0 +1,101 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** from **Fern** to **Poe**.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Cedar, Fern, Indigo, Jules, Nell, Poe, Quill, Reed, Tess, Zed
+
+---
+
+### Step 2: List all edges with weights
+
+- Cedar — Fern: 8  
+- Cedar — Jules: 1  
+- Cedar — Tess: 9  
+- Fern — Quill: 4  
+- Indigo — Tess: 8  
+- Jules — Poe: 6  
+- Jules — Reed: 9  
+- Jules — Tess: 6  
+- Nell — Tess: 1  
+- Poe — Quill: 2  
+- Poe — Zed: 3  
+- Reed — Tess: 9  
+- Tess — Zed: 7  
+
+---
+
+### Step 3: Goal — Shortest path from **Fern** to **Poe**
+
+We will use **Dijkstra’s algorithm** (since all weights are positive) to compute the shortest path from Fern to Poe.
+
+We start at **Fern** and compute shortest distances to all other nodes.
+
+---
+
+### Step 4: Build adjacency list
+
+We'll build the graph as an undirected graph.
+
+- Fern: [Cedar (8), Quill (4)]  
+- Cedar: [Fern (8), Jules (1), Tess (9)]  
+- Jules: [Cedar (1), Poe (6), Tess (6), Reed (9)]  
+- Poe: [Jules (6), Quill (2), Zed (3)]  
+- Quill: [Fern (4), Poe (2)]  
+- Tess: [Cedar (9), Jules (6), Indigo (8), Nell (1), Zed (7)]  
+- Indigo: [Tess (8)]  
+- Nell: [Tess (1)]  
+- Reed: [Jules (9), Tess (9)]  
+- Zed: [Poe (3), Tess (7)]
+
+---
+
+### Step 5: Run Dijkstra from Fern
+
+Initialize distances:
+- dist[Fern] = 0  
+- All others = ∞
+
+**Queue**: (Fern, 0)
+
+---
+
+**1. Process Fern (0)**  
+From Fern:
+- To Cedar: 8 → dist[Cedar] = 8  
+- To Quill: 4 → dist[Quill] = 4  
+
+Queue: (Cedar, 8), (Quill, 4)
+
+---
+
+**2. Process Quill (4)**  
+From Quill:
+- To Fern: already visited  
+- To Poe: 2 → dist[Poe] = 4 + 2 = 6  
+
+Now dist[Poe] = 6
+
+Queue: (Cedar, 8)
+
+---
+
+**3. Process Cedar (8)**  
+From Cedar:
+- To Fern: already visited  
+- To Jules: 1 → new path to Jules: 8 + 1 = 9  
+- To Tess: 9 → new path to Tess: 8 + 9 = 17  
+
+Update:
+- dist[Jules] = 9  
+- dist[Tess] = 17  
+
+Queue: (Jules, 9), (Tess, 17)
+
+---
+
+**4. Process Jules (9)**  
+From Jules:
+- To Poe: 6 → current dist[Poe] = 6, new path = 9 + 6 = 1
+

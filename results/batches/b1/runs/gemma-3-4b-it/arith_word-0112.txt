@@ -1,0 +1,6 @@
+First, find the total number of badges Leo has: 5 packs * 3 badges/pack = 15 badges.
+Then, subtract the number of badges Leo gave to Yara: 15 badges - 11 badges = 4 badges.
+
+#### 4 [end of text]
+
+

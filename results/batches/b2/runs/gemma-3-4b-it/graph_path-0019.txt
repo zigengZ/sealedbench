@@ -1,0 +1,15 @@
+We want to find the shortest path between Moss and York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Moss to York:
+1. Moss -> West -> York: Weight = 8 + 4 = 12
+2. Moss -> Uri -> York: Weight = 7 + 5 = 12
+3. Moss -> Nell -> Hart -> Uri -> York: Weight = 2 + 2 + 6 + 5 = 15
+4. Moss -> Uri -> Cleo -> Uri -> York: Weight = 7 + 4 + 4 + 5 = 20
+5. Moss -> Uri -> Fern -> York: Weight = 7 + 9 = 16
+6. Moss -> West -> York: Weight = 8 + 4 = 12
+
+Comparing the weights of the paths, the shortest path is Moss -> West -> York with a total weight of 12.
+
+#### 12 [end of text]
+
+

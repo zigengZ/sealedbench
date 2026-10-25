@@ -1,0 +1,17 @@
+First, find the total number of apples Boris buys:
+
+8 packs × 12 apples per pack = 96 apples
+
+Then, Boris gives 15 apples to Yara:
+
+96 - 15 = 81 apples remain
+
+These 81 apples are shared equally among 3 people:
+
+81 ÷ 3 = 27
+
+So, each person gets 27 apples.
+
+#### 27 [end of text]
+
+

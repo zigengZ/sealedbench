@@ -1,0 +1,7 @@
+First, find the total number of notebooks Ben buys: 5 packs * 10 notebooks/pack = 50 notebooks.
+Then, subtract the number of notebooks Ben gives to Yara: 50 notebooks - 40 notebooks = 10 notebooks.
+
+####10
+ [end of text]
+
+

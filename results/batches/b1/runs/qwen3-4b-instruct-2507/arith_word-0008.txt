@@ -1,0 +1,19 @@
+First, find the total number of balloons Quinn buys:
+
+- 4 packs with 6 balloons each:  
+  $4 \times 6 = 24$ balloons
+
+- 4 packs with 9 balloons each:  
+  $4 \times 9 = 36$ balloons
+
+Total balloons:  
+$24 + 36 = 60$ balloons
+
+These are shared equally among 4 people:  
+$60 \div 4 = 15$
+
+Each person gets 15 balloons.
+
+#### 15 [end of text]
+
+

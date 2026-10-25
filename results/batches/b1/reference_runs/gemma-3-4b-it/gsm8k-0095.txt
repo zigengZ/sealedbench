@@ -1,0 +1,8 @@
+First, find the number of boys: (2/5) * 200 = 80 boys.
+Then, find the number of girls: 200 - 80 = 120 girls.
+Next, find the number of girls in the girl scout: (2/3) * 120 = 80 girls.
+Finally, find the number of girls not in the girl scout: 120 - 80 = 40 girls.
+
+####40 [end of text]
+
+

@@ -1,0 +1,26 @@
+To find the shortest path between Quill and Uri, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to the starting node (Quill) as 0.
+   - Set the distance to all other nodes as infinity.
+
+2. **Distribute Distances:**
+   - Start with the source node (Quill) and update the distances to its neighbors.
+   - For Quill, the distances to Drew and Uri are 0 and 2, respectively.
+
+3. **Select the Node with Minimum Distance:**
+   - Choose the node with the minimum distance (Quill) and update its neighbors.
+   - For Quill, the minimum distance is 0, so update the distances to Drew and Uri.
+
+4. **Repeat Until All Nodes are Visited:**
+   - Continue updating the distances to the neighbors of the selected node until all nodes are visited.
+   - For Quill, the updated distances are:
+     - Drew: 0 (from Quill) + 1 (from Drew) = 1
+     - Uri: 0 (from Quill) + 2 (from Uri) = 2
+
+5. **Final Distances:**
+   - The shortest path from Quill to Uri is through Drew with a total weight of 1 + 2 = 3.
+
+#### 3 [end of text]
+
+

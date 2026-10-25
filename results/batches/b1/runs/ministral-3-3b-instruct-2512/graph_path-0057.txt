@@ -1,0 +1,32 @@
+To find the shortest path from **Sage** to **Vale**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Sage → Nell → Vale**
+   - Sage → Nell: 8
+   - Nell → Vale: 3
+   - Total: **11**
+
+2. **Sage → Quill → Vale**
+   - Sage → Quill: 6
+   - Quill → Vale: 7
+   - Total: **13**
+
+3. **Sage → Quill → Blair → Xen → Eden → Vale**
+   - Sage → Quill: 6
+   - Quill → Blair: 4 (reverse edge)
+   - Blair → Xen: 8
+   - Xen → Eden: 8 (reverse edge)
+   - Eden → Vale: 2
+   - Total: **28** (longer than 11)
+
+4. **Sage → Quill → Oak → Vale**
+   - Sage → Quill: 6
+   - Quill → Oak: 6
+   - Oak → Vale: 7
+   - Total: **19** (longer than 11)
+
+The shortest path is **Sage → Nell → Vale** with a total weight of **11**.
+
+#### 11 [end of text]
+
+

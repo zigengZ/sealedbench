@@ -1,0 +1,11 @@
+Leo starts with 4 rows of 16 seats each:
+4 × 16 = 64 seats.
+
+Then adds 2 rows of 3 seats each:
+2 × 3 = 6 seats.
+
+Total seats = 64 + 6 = 70 seats.
+
+#### 70 [end of text]
+
+

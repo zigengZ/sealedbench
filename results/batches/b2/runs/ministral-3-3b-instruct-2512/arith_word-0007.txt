@@ -1,0 +1,5 @@
+Samir initially sets up 9 rows with 11 seats each, which totals **9 × 11 = 99 seats**. Then, he adds 3 more rows with 7 seats each, adding **3 × 7 = 21 seats**. Combining both, the total number of seats is **99 + 21 = 120**.
+
+#### 120 [end of text]
+
+

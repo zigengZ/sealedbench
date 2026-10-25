@@ -1,0 +1,7 @@
+First, calculate the total number of seats in the initial 9 rows: 9 rows * 16 seats/row = 144 seats.
+Then, calculate the total number of seats in the additional 5 rows: 5 rows * 3 seats/row = 15 seats.
+Finally, add the seats from both sets to find the total number of seats: 144 seats + 15 seats = 159 seats.
+
+#### 159 [end of text]
+
+

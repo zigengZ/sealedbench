@@ -1,0 +1,7 @@
+Farid reads **30 pages** in the first 5 days (6 pages/day × 5 days = 30 pages).
+Adding the extra 20 pages gives **50 pages**.
+Skipping 8 blank pages doesn’t change the total count of pages read.
+
+#### 50 [end of text]
+
+

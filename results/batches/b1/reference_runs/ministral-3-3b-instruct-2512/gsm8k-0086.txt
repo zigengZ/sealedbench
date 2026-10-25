@@ -1,0 +1,11 @@
+Let's break it down step by step:
+
+1. **First ring:** Greg hears the alarm ring **4 times**.
+2. **Second ring:** It rings **three times as long** as the first time, so **3 × 4 = 12 times**.
+3. **Third ring:** It rings **half as long** as the second time, so **12 ÷ 2 = 6 times**.
+
+Now, add them up: **4 + 12 + 6 = 22 times**.
+
+#### 22 [end of text]
+
+

@@ -1,0 +1,17 @@
+First, find the total number of tickets Kira buys:
+
+- 8 packs × 10 tickets each = 80 tickets  
+- 4 packs × 2 tickets each = 8 tickets  
+- Total tickets = 80 + 8 = 88 tickets
+
+Then, Kira gives 3 tickets to Gina, so she has:
+
+88 - 3 = 85 tickets left
+
+Each ticket is worth $3, so the total value of Kira's tickets is:
+
+85 × 3 = 255 dollars
+
+#### 255 [end of text]
+
+

@@ -1,0 +1,28 @@
+To find the shortest path from **Fern** to **Indigo**, we can use **Dijkstra's algorithm** (or a breadth-first search with priority queue for unweighted graphs, but here weights are involved).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Fern** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Update distances**:
+   - From **Fern**, update neighbors:
+     - **Cleo**: 1 (Fern → Cleo)
+     - **Oak**: 7 (Fern → Oak)
+   - Now, distances: Fern=0, Cleo=1, Oak=7, others=∞.
+
+3. **Next node to explore**: **Cleo** (smallest distance).
+   - Update neighbors:
+     - **Bay**: 1 + 9 = 10 (via Cleo → Bay)
+     - **Indigo**: 1 + 1 = 2 (via Cleo → Indigo)
+     - **Oak**: min(7, 1 + 9) = 7 (no change)
+   - Now, distances: Fern=0, Cleo=1, Indigo=2, Oak=7, Bay=10.
+
+4. **Next node to explore**: **Indigo** (smallest distance).
+   - No updates needed (already shortest).
+
+### Shortest Path:
+- **Fern → Cleo → Indigo** with total weight = **1 + 1 = 2**.
+
+
+

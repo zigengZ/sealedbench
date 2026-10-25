@@ -1,0 +1,16 @@
+The program initializes a list of words called `words`. It then initializes an empty string called `out`. The code iterates through the `words` list using a `for` loop and the `range` function. In each iteration, it assigns the current word to the variable `piece`. If the index of the word is even, the word is converted to uppercase. If `out` is empty, the `piece` is assigned to `out`. Otherwise, a hyphen is added to `out`, followed by the `piece`. Finally, the value of `out` is printed.
+
+Let's trace the execution:
+
+- `index` = 0, `piece` = 'harbor'. `index % 2 == 0` is true. `piece` becomes 'HARBOR'. `out` is initially empty, so `out` becomes 'HARBOR'.
+- `index` = 1, `piece` = 'river'. `index % 2 == 0` is false. `out` is 'HARBOR', so `out` becomes 'HARBOR-river'.
+- `index` = 2, `piece` = 'quartz'. `index % 2 == 0` is false. `out` is 'HARBOR-river', so `out` becomes 'HARBOR-river-quartz'.
+- `index` = 3, `piece` = 'juniper'. `index % 2 == 0` is true. `piece` becomes 'JUNIPER'. `out` is 'HARBOR-river-quartz', so `out` becomes 'HARBOR-river-quartz-JUNIPER'.
+- `index` = 4, `piece` = 'brook'. `index % 2 == 0` is false. `out` is 'HARBOR-river-quartz-JUNIPER', so `out` becomes 'HARBOR-river-quartz-JUNIPER-brook'.
+- `index` = 5, `piece` = 'delta'. `index % 2 == 0` is true. `piece` becomes 'DELTA'. `out` is 'HARBOR-river-quartz-JUNIPER-brook', so `out` becomes 'HARBOR-river-quartz-JUNIPER-brook-DELTA'.
+
+The program then prints the final value of `out`.
+
+```python
+HARBOR-river-quartz-JUNIPER-brook-DELTA
+

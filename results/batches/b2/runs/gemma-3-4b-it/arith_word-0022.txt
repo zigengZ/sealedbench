@@ -1,0 +1,7 @@
+First, we calculate Victor's earnings on day 1: 25 dollars/hour * 6 hours = 150 dollars.
+Next, we calculate Victor's earnings on day 2: 25 dollars/hour * 8 hours = 200 dollars.
+Finally, we add the earnings from both days: 150 dollars + 200 dollars = 350 dollars.
+
+####350 [end of text]
+
+

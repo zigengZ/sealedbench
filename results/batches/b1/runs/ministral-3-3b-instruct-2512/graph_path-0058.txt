@@ -1,0 +1,17 @@
+To find the shortest path from **Jules** to **Oak**, we can use Dijkstra's algorithm or explore paths manually.
+
+### Step-by-Step Reasoning:
+1. **Jules → Nell (9)** → **Nell → Oak (1)** → **Total = 9 + 1 = 10**
+   - Path: Jules → Nell → Oak (weight = 9 + 1 = 10)
+
+2. **Jules → Nell (9)** → **Nell → York (4)** → **York → Oak (1)** → **Total = 9 + 4 + 1 = 14**
+   - Longer than the first path.
+
+3. **Jules → Nell (9)** → **Nell → Lark (7)** → **Lark → Blair (6)** → **Blair → Oak (1)** → **Total = 9 + 7 + 6 + 1 = 23**
+   - Much longer.
+
+4. **Jules → Nell (9)** → **Nell → Dove (4)** → **Drew → York (9)** → **York → Oak (1)** → **Total = 9 + 4 + 9 + 1 = 23**
+   - Longer.
+
+5. **Jules → Nell (9)** → **Nell → Lark (7)** → **Dove (2)** → **Lark (2)** → **Blair (6)** → **Oak (1)** → **Total = 9 + 7 + 2
+

@@ -1,0 +1,19 @@
+First, find the total number of buttons Esme buys:
+
+- 7 packs × 11 buttons = 77 buttons  
+- 5 packs × 4 buttons = 20 buttons  
+
+Total buttons bought:  
+77 + 20 = 97 buttons
+
+Then Esme gives 34 buttons to Uma:  
+97 - 34 = 63 buttons left
+
+These 63 buttons are shared equally among 3 people:  
+63 ÷ 3 = 21
+
+Each person gets 21 buttons.
+
+#### 21 [end of text]
+
+

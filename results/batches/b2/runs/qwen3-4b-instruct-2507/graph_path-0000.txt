@@ -1,0 +1,115 @@
+We are given an undirected weighted graph with nodes and edges, and we are to find the **shortest path weight** between **Bay** and **Oak**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Ash, Bay, Cedar, Drew, Kai, Oak, Reed, Vale, West, York
+
+---
+
+### Step 2: List all edges with weights
+
+- Ash–Drew: 3  
+- Ash–West: 8  
+- Ash–York: 7  
+- Bay–York: 5  
+- Cedar–West: 9  
+- Cedar–York: 5  
+- Drew–West: 6  
+- Kai–West: 5  
+- Kai–York: 1  
+- Oak–Vale: 1  
+- Oak–West: 8  
+- Reed–Vale: 5  
+
+---
+
+### Step 3: Goal — Shortest path from **Bay** to **Oak**
+
+We need to find the shortest path from Bay to Oak.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), or reason through possible paths.
+
+---
+
+### Step 4: Explore possible paths from Bay to Oak
+
+#### Path 1: Bay → York → ? → Oak
+
+From Bay:
+- Bay → York: 5
+
+From York, possible connections:
+- York–Ash: 7  
+- York–Cedar: 5  
+- York–Kai: 1  
+- York–West: ? → not directly listed  
+Wait — is there a direct edge from York to West?
+
+No. So no direct edge from York to West.
+
+But we can go from York to Kai (1), Kai to West (5), then West to Oak (8)
+
+So:
+- Bay → York (5)
+- York → Kai (1)
+- Kai → West (5)
+- West → Oak (8)
+
+Total: 5 + 1 + 5 + 8 = **19**
+
+Alternative from York:
+- York → Cedar (5), then Cedar → West (9), then West → Oak (8)
+
+→ 5 + 5 + 9 + 8 = 27 → worse
+
+York → Ash (7), Ash → West (8), West → Oak (8):  
+7 + 8 + 8 = 23 → worse
+
+So best via York is **19**
+
+---
+
+#### Path 2: Bay → York → Kai → West → Oak → same as above
+
+Already considered.
+
+Any other path?
+
+Is there a path through Vale?
+
+Oak is connected to Vale (1), and Vale is connected to Reed (5). But no connection from Bay to Reed or Vale directly.
+
+Can we go from Bay to York → Kai → West → Reed → Vale → Oak?
+
+But that would be:
+- Bay → York: 5  
+- York → Kai: 1  
+- Kai → West: 5  
+- West → Reed? → No edge listed  
+- Reed → Vale: 5  
+- Vale → Oak: 1  
+
+But no edge from West to Reed. So invalid.
+
+No path from West to Reed.
+
+Only connections:
+- West: connected to Ash, Cedar, Drew, Kai, Oak  
+- Vale: connected to Oak, Reed  
+- Reed: only to Vale
+
+So no path from West to Reed or Vale.
+
+So only way to reach Oak is:
+- Directly from West (8)
+- From Vale (1), but only if we can reach Vale
+
+So to reach Vale, must go through Reed → Vale → Oak
+
+But to reach Reed, must go through Vale → Reed, but no incoming edges from elsewhere.
+
+So only way to reach Oak is:
+- From West (8), or
+
+

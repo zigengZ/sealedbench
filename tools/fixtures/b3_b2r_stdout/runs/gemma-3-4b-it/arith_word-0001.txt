@@ -1,0 +1,10 @@
+First, calculate the number of pages Hugo reads from the first book: 22 pages/day * 4 days = 88 pages.
+
+Next, calculate the number of pages Hugo reads from the second book: 9 pages/day * 3 days = 27 pages.
+
+Finally, add the pages from both books: 88 pages + 27 pages = 115 pages.
+
+Hugo reads 115 pages.
+####115 [end of text]
+
+

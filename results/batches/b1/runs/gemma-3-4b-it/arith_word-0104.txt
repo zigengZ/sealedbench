@@ -1,0 +1,8 @@
+First, let's calculate the number of tokens from the 6 packs: 6 packs * 4 tokens/pack = 24 tokens.
+Next, let's calculate the number of tokens from the 3 packs: 3 packs * 3 tokens/pack = 9 tokens.
+Now, let's add the tokens from both sets of packs: 24 tokens + 9 tokens = 33 tokens.
+Finally, let's subtract the tokens Boris gave to Chloe: 33 tokens - 4 tokens = 29 tokens.
+
+####29 [end of text]
+
+

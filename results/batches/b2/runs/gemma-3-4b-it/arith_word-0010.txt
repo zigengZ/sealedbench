@@ -1,0 +1,8 @@
+First, calculate Cara's earnings on day 1: 13 dollars/hour * 3 hours = 39 dollars.
+Next, calculate Cara's earnings on day 2: 13 dollars/hour * 6 hours = 78 dollars.
+Then, calculate Cara's earnings on day 3: 13 dollars/hour * 2 hours = 26 dollars.
+Finally, add up the earnings from all three days: 39 + 78 + 26 = 143 dollars.
+
+####143 [end of text]
+
+

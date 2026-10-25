@@ -1,0 +1,16 @@
+We want to find the shortest path between Poe and West in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Poe to West:
+
+1. Poe -> Indigo -> Nell -> Reed -> West: 3 + 8 + 2 + 7 = 20
+2. Poe -> Indigo -> Reed -> Blair -> West: 3 + 4 + 7 + 7 = 21
+3. Poe -> Eden -> Blair -> West: 8 + 4 + 7 = 19
+4. Poe -> Indigo -> Jules -> Blair -> West: 3 + 5 + 7 + 7 = 22
+5. Poe -> Fern -> Jules -> Blair -> West: Not possible to reach West from Jules to Blair.
+6. Poe -> Fern -> Reed -> Blair -> West: Not possible to reach West from Reed to Blair.
+
+Comparing the paths, the shortest path is Poe -> Eden -> Blair -> West with a total weight of 19.
+
+#### 19 [end of text]
+
+

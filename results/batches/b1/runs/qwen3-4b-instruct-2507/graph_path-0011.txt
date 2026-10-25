@@ -1,0 +1,45 @@
+We are given an undirected weighted graph with nodes:
+
+**Cedar, Lark, Moss, Oak, Poe, Xen, York, Zed**
+
+Edges and weights:
+
+- Cedar – Lark: 3  
+- Cedar – Moss: 7  
+- Cedar – Poe: 5  
+- Cedar – York: 2  
+- Lark – Xen: 5  
+- Moss – Xen: 3  
+- Moss – Zed: 8  
+- Oak – Xen: 4  
+- Oak – York: 4  
+- Poe – York: 3  
+- Xen – Zed: 2  
+
+We are to find the **shortest path from Cedar to Oak** in terms of total weight.
+
+---
+
+### Step 1: Understand the structure
+
+We need to find the shortest path from **Cedar** to **Oak**.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), but since the graph is small, we can do a manual shortest path search.
+
+Start from Cedar and explore paths to Oak.
+
+---
+
+### Step 2: Explore paths from Cedar to Oak
+
+#### Path 1: Cedar → York → Oak  
+- Cedar to York: 2  
+- York to Oak: 4  
+- Total: 2 + 4 = **6**
+
+#### Path 2: Cedar → Poe → York → Oak  
+- Cedar → Poe: 5  
+- Poe → York: 3  
+- York → Oak: 4  
+- Total: 5 + 3 + 4 = **12**
+

@@ -1,0 +1,19 @@
+First, let's calculate the total cost of the chicken meal, 5 packs of milk, and 4 apples.
+
+1. Cost of the chicken meal: $12
+2. Cost of 5 packs of milk: 5 * $3 = $15
+3. Cost of 4 apples: 4 * $1.50 = $6
+
+Total cost for these items: $12 + $15 + $6 = $33
+
+Now, let's subtract the total cost of the chicken meal, 5 packs of milk, and 4 apples from the total amount Marie paid:
+
+$50 (total amount paid) - $33 (total cost of chicken meal, milk, and apples) = $17
+
+This remaining amount is the cost of the boxes of pizza. Each box costs $8.50, so we divide the remaining amount by the cost per box:
+
+$17 / $8.50 = 2 boxes
+
+Therefore, Marie ordered #### 2 boxes of pizza. [end of text]
+
+

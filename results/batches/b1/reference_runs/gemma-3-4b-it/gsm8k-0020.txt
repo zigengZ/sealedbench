@@ -1,0 +1,17 @@
+First, let's calculate the amount of water in the initial 10 liters of orange drink.
+Water in orange drink = (2/3) * 10 liters = 20/3 liters.
+The amount of orange drink remaining after spilling 1 liter is 10 - 1 = 9 liters.
+The amount of water in the remaining orange drink = (2/3) * 9 liters = 6 liters.
+
+Next, let's calculate the amount of water in the 15 liters of pineapple drink.
+Water in pineapple drink = (3/5) * 15 liters = 9 liters.
+
+Now, we combine the remaining orange drink and pineapple drink.
+Total volume = 9 liters (orange) + 15 liters (pineapple) = 24 liters.
+Total water = 6 liters (orange) + 9 liters (pineapple) = 15 liters.
+
+Therefore, the amount of water in the remaining 24 liters is 15 liters.
+
+#### 15 [end of text]
+
+

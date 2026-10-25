@@ -1,0 +1,28 @@
+To find the shortest path between Bay and Vale, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Bay) as 0 and all other nodes as infinity.
+   - Create a priority queue to store nodes and their distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+4. **Extract Path**:
+   - Once the shortest path is found, trace back from the destination node (Vale) to the starting node (Bay) to get the path.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Bay': {'Bay': 0, 'Zed': 5},
+    'Drew': {'Bay': 5, 'Moss': 5, 'Zed': 6, 'Zed': 4, 'Vale': 7},
+    'Moss': {'Bay': 5, 
+

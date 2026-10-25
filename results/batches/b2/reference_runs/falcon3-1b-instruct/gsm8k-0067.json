@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "gsm8k",
+  "gen_tokens": 170,
+  "gen_tps": 20.92,
+  "hit_cap": false,
+  "item_id": "gsm8k-0067",
+  "model": "falcon3-1b-instruct",
+  "n_predict": 768,
+  "prompt_tokens": 101,
+  "prompt_tps": 152.07,
+  "returncode": 0,
+  "seconds": 9.481,
+  "stdout_bytes": 454,
+  "stdout_sha256": "7cdbcc5372abce0fb31e0a627c637c633cc835231f695e00d53b7bda359d33cf"
+}

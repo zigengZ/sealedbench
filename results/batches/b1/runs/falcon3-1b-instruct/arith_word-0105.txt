@@ -1,0 +1,19 @@
+First, calculate the total number of magnets Willa bought:
+
+6 packs * 8 magnets/pack = 48 magnets
+
+Then, calculate the total number of magnets Willa bought:
+
+48 magnets + 4 packs * 6 magnets/pack = 48 + 24 = 72 magnets
+
+Next, determine how many magnets Willa gave to Olga:
+
+22 magnets
+
+Finally, calculate the total worth of the magnets Willa gave to Olga:
+
+72 magnets * 5 dollars/magnet = 360 dollars
+
+#### 360 [end of text]
+
+

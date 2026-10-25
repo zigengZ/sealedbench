@@ -1,0 +1,12 @@
+Diego starts with 5 packs of 12 tickets each:
+5 × 12 = 60 tickets.
+
+Then he buys 3 packs of 5 tickets each:
+3 × 5 = 15 tickets.
+
+Adding them together:
+60 + 15 = 75 tickets.
+
+#### 75 [end of text]
+
+

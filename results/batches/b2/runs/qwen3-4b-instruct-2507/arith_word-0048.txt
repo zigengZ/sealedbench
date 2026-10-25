@@ -1,0 +1,17 @@
+Samir sets out 6 rows with 12 seats in each row.
+
+First, find the total number of seats:
+
+6 rows × 12 seats = 72 seats
+
+Then, 3 seats are sold, so the number of unsold seats is:
+
+72 - 3 = 69 unsold seats
+
+Each unsold seat is worth $5, so the total value is:
+
+69 × 5 = 345 dollars
+
+#### 345 [end of text]
+
+

@@ -1,0 +1,33 @@
+Let's break down how many pages Farid reads in one week:
+
+1. **First book**:  
+   Farid reads 9 pages/day for 5 days:  
+   $ 9 \times 5 = 45 $ pages
+
+2. **Second book**:  
+   Farid reads 20 pages/day for 3 days:  
+   $ 20 \times 3 = 60 $ pages
+
+3. **Skipped pages**:  
+   He skips 61 pages that don't count — so these **do not** count toward reading.
+
+So, total pages **read** in one week:  
+$ 45 + 60 = 105 $ pages  
+(We subtract the 61 blank pages, but since they are skipped and not read, they are not included in the reading total.)
+
+Wait — the problem says:  
+"Farid skips 61 pages that were blank and do not count."  
+So those 61 pages are **not read**, meaning they are **not part of the total pages read**.
+
+So the total pages **read** in one week is:  
+$ 45 + 60 = 105 $ pages  
+(No need to subtract the 61 blank pages because they were never read — they were skipped.)
+
+Now, this pattern repeats for **3 weeks**.
+
+So total pages read in 3 weeks:  
+$ 105 \times 3 = 315 $
+
+#### 315 [end of text]
+
+

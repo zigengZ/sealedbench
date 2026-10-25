@@ -1,0 +1,24 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+5
+[9, 12, 6, 0]
+```
+
+Explanation:
+
+1. The program starts by defining a list `nums` containing the numbers `[9, 10, 12, 6, 2, 0, 9]`.
+
+2. It initializes an empty list `kept` to store the numbers that are greater than 11.
+
+3. The program then iterates over each number `num` in the `nums` list using a `for` loop.
+
+4. Inside the loop, it checks if `num` is greater than 11. If it is, the number is appended to the `kept` list using the `append()` method.
+
+5. After the loop completes, the program prints the length of the `kept` list using `len(kept)`.
+
+6. Finally, it prints the `kept` list itself.
+
+The output indicates that the program successfully kept the numbers `[9, 12, 6, 0]` and printed them as `[9, 12, 6, 0]`. [end of text]
+
+

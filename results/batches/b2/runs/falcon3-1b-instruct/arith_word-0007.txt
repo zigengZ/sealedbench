@@ -1,0 +1,12 @@
+First, calculate the total number of seats in the initial 9 rows:
+9 rows × 11 seats/row = 99 seats
+
+Next, calculate the total number of seats in the additional 3 rows:
+3 rows × 7 seats/row = 21 seats
+
+Now, add the seats from both sets of rows to find the total number of seats:
+99 seats + 21 seats = 120 seats
+
+#### 120 [end of text]
+
+

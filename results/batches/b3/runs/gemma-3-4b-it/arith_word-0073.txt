@@ -1,0 +1,11 @@
+First, calculate the total number of magnets from the first purchase: 2 packs * 12 magnets/pack = 24 magnets.
+
+Next, calculate the total number of magnets from the second purchase: 3 packs * 7 magnets/pack = 21 magnets.
+
+Then, find the total number of magnets: 24 magnets + 21 magnets = 45 magnets.
+
+Finally, divide the total number of magnets by the number of people: 45 magnets / 3 people = 15 magnets/person.
+
+#### 15 [end of text]
+
+

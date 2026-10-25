@@ -1,0 +1,19 @@
+Let's calculate the total TV time Frankie watched.
+- Monday and Tuesday: 1 hour/night * 2 nights = 2 hours
+- Wednesday: Let $x$ be the number of 30-minute episodes.  Each episode is 30 minutes, so the total time is $30x$ minutes.  Since 30 minutes = 0.5 hours, the time watched on Wednesday is $0.5x$ hours.
+- Thursday: 1 hour + 30 minutes = 1.5 hours
+- Friday: 2 hours
+Total TV time = 2 + 0.5x + 1.5 + 2 = 5.5 + 0.5x
+
+We are given that he watched 7 hours of TV in all. So,
+5.5 + 0.5x = 7
+0.5x = 7 - 5.5
+0.5x = 1.5
+x = 1.5 / 0.5
+x = 3
+
+Therefore, Frankie watched 3 episodes of the 30-minute show on Wednesday.
+
+####3 [end of text]
+
+

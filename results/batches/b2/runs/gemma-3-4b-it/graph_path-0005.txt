@@ -1,0 +1,14 @@
+We want to find the shortest path between Ash and York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Ash to York:
+1. Ash -> Hart -> York: Weight = 8 + 6 = 14
+2. Ash -> Eden -> Lark -> Reed -> Uri -> York: Weight = 1 + 7 + 2 + 4 + 1 = 15
+3. Ash -> Eden -> Moss -> Hart -> York: Weight = 1 + 5 + 5 + 6 = 17
+4. Ash -> Hart -> Moss -> Eden -> Lark -> Reed -> Uri -> York: Weight = 8 + 5 + 5 + 7 + 2 + 4 + 1 = 32
+5. Ash -> Hart -> Uri -> York: Weight = 8 + 6 + 1 = 15
+
+The shortest path is Ash -> Hart -> York with a total weight of 14.
+
+#### 14 [end of text]
+
+

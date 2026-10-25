@@ -1,0 +1,103 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** between **Xen** and **York**.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Amber, Bay, Blair, Eden, Glen, Kai, Oak, Tess, Xen, York
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber – Glen: 9  
+- Amber – Oak: 2  
+- Amber – Tess: 5  
+- Bay – Tess: 4  
+- Blair – Eden: 2  
+- Eden – Kai: 2  
+- Eden – Xen: 8  
+- Glen – Oak: 3  
+- Glen – Tess: 9  
+- Kai – Oak: 8  
+- Kai – York: 9  
+
+Note: All edges are undirected, so each edge is bidirectional.
+
+---
+
+### Step 3: Goal — Shortest path from **Xen** to **York**
+
+We need to find the shortest path (in terms of total edge weight) from **Xen** to **York**.
+
+We can use **Breadth-First Search (BFS)** or **Dijkstra’s algorithm** since all weights are positive.
+
+We’ll use **Dijkstra’s algorithm** to compute shortest paths from Xen to all other nodes.
+
+---
+
+### Step 4: Build adjacency list
+
+We’ll build the graph from the edges:
+
+- Amber: Glen(9), Oak(2), Tess(5)  
+- Bay: Tess(4)  
+- Blair: Eden(2)  
+- Eden: Blair(2), Kai(2), Xen(8)  
+- Glen: Amber(9), Oak(3), Tess(9)  
+- Kai: Eden(2), Oak(8), York(9)  
+- Oak: Amber(2), Glen(3), Kai(8)  
+- Tess: Amber(5), Bay(4), Glen(9)  
+- Xen: Eden(8)  
+- York: Kai(9)
+
+---
+
+### Step 5: Run Dijkstra from Xen
+
+We start at **Xen**, and want to reach **York**.
+
+Initialize distances:
+- dist[Xen] = 0
+- All others = ∞
+
+Queue: (Xen, 0)
+
+---
+
+**Step 1**: Process Xen (dist = 0)  
+From Xen: only edge to Eden (weight 8)  
+→ Update dist[Eden] = 8
+
+Queue: (Eden, 8)
+
+---
+
+**Step 2**: Process Eden (dist = 8)  
+From Eden:  
+- to Blair (2): 8 + 2 = 10 → update dist[Blair] = 10  
+- to Kai (2): 8 + 2 = 10 → update dist[Kai] = 10  
+- to Xen (8): already visited  
+
+Queue: (Blair, 10), (Kai, 10)
+
+---
+
+**Step 3**: Process Blair (dist = 10)  
+Blair only connects to Eden (already processed) → no new updates
+
+Queue: (Kai, 10)
+
+---
+
+**Step 4**: Process Kai (dist = 10)  
+From Kai:  
+- to Eden (2): already visited  
+- to Oak (8): 10 + 8 = 18 → update dist[Oak] = 18  
+- to York (9): 10 + 9 = 19 → update dist[York] = 19  
+
+Now we have:
+- dist[York] = 19
+

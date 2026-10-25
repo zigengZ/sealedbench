@@ -1,0 +1,20 @@
+To find the shortest path from **Cleo** to **Eden**, we use Dijkstra's algorithm (or a modified BFS for unweighted graphs, but here weights are involved).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Cleo → Eden = ∞` (initially unreachable)
+   - All other distances set to `∞` except `Cleo → Cleo = 0`.
+
+2. **Priority Queue (PQ) starts with `Cleo` (distance 0)**.
+   - Explore neighbors of `Cleo`:
+     - `Cleo → Glen = 1` (update `Glen = 1`).
+     - `Cleo → Jules = 3` (update `Jules = 3`).
+
+3. **Next, process `Glen` (distance 1)**:
+   - Neighbors: `Amber (1+4=5)`, `Bay (1+9=10)`, `Eden (1+3=4)`, `Cleo (1+1=2)` (ignored).
+   - Update `Eden = 4` (new shortest path).
+
+4. **Next, process `Jules` (distance 3)**:
+   - Neighbors: `Bay (3+2=5)`, `Cedar (3+4=7)`, `Cleo (3+3=6)` (ignored), `Kai (3+9=12)`.
+   - No updates to `Eden
+

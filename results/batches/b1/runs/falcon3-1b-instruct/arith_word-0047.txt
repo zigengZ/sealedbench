@@ -1,0 +1,4 @@
+Diego earns 19 dollars an hour. Diego works 3 hours, so he earns 19 * 3 = 57 dollars. After spending 4 dollars, Diego has 57 - 4 = 53 dollars left.
+#### 53 [end of text]
+
+

@@ -1,0 +1,90 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Cedar, Cleo, Lark, Nell, Poe, Quill, Sage, Tess, York  
+**Edges and weights**:
+
+- Cedar–Cleo: 8  
+- Cedar–Lark: 5  
+- Cedar–Nell: 6  
+- Cedar–Poe: 3  
+- Cedar–Sage: 2  
+- Cedar–Tess: 4  
+- Cleo–Lark: 8  
+- Cleo–York: 3  
+- Lark–Nell: 1  
+- Nell–Tess: 6  
+- Nell–York: 2  
+- Quill–Sage: 9  
+
+We are to find the **shortest path from Quill to Tess** in terms of total weight.
+
+---
+
+### Step 1: Understand the structure
+
+Quill is only directly connected to **Sage** (weight 9).  
+Tess is connected to:  
+- Cedar (4)  
+- Nell (6)
+
+So, to get from Quill to Tess, we must go through Sage (only direct connection), and then from Sage to some node that connects to Tess.
+
+Sage is connected to:
+- Cedar (2)
+- Quill (9)
+
+So from Sage, we can go to Cedar (weight 2), and from Cedar we can go to Tess (weight 4).  
+So one possible path:
+**Quill → Sage → Cedar → Tess**  
+Total weight: 9 + 2 + 4 = 15
+
+Are there any other paths?
+
+Let’s explore alternatives.
+
+Can we go from Sage to other nodes?  
+Sage is only connected to Cedar and Quill. So no other direct edges.
+
+So from Sage, only options are:
+- Quill (back)
+- Cedar (weight 2)
+
+So from Cedar, we can go to:
+- Cleo (8)
+- Lark (5)
+- Nell (6)
+- Poe (3)
+- Tess (4)
+
+So from Cedar → Tess is direct (4), which is better than going through others.
+
+Can we go from Sage → Cedar → Lark → Nell → Tess?  
+Path: Quill → Sage → Cedar → Lark → Nell → Tess  
+Weights:  
+9 (Quill→Sage) + 2 (Sage→Cedar) + 5 (Cedar→Lark) + 1 (Lark→Nell) + 6 (Nell→Tess) =  
+9 + 2 + 5 + 1 + 6 = 23 → worse than 15
+
+Cedar → Cleo → York → Nell → Tess?  
+Cedar → Cleo: 8  
+Cleo → York: 3  
+York → Nell: 2  
+Nell → Tess: 6  
+Total: 8+3+2+6 = 19 → plus 9+2 = 21 → total = 9+2+8+3+2+6 = 30 → worse
+
+Cedar → Poe? (3), but Poe has no connections to others. So dead end.
+
+Cedar → Nell → Tess: 6 → so from Cedar to Tess via Nell is 6, but Cedar to Tess directly is 4 → better.
+
+So best from Cedar to Tess is direct: 4.
+
+So best path from Quill to Tess is:
+
+**Quill → Sage → Cedar → Tess**  
+Total: 9 + 2 + 4 = 15
+
+Is there a shorter path?
+
+What about going through York?
+
+Can we
+

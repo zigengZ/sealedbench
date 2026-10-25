@@ -1,0 +1,5 @@
+Aisha starts with 4 packs, each containing 4 buttons, so she has 4 × 4 = 16 buttons. Chloe gives her 4 more buttons, so she now has 16 + 4 = 20 buttons.
+
+#### 20 [end of text]
+
+

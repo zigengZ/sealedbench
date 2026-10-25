@@ -1,0 +1,12 @@
+First, let's calculate the total running time per week.
+He runs 3 hours on the first day.
+He runs half as much on the other two days, so he runs 3/2 = 1.5 hours each of those days.
+Total running time = 3 + 1.5 + 1.5 = 6 hours.
+
+Now, we know he runs 60 miles in 6 hours.
+To find his speed, we divide the distance by the time:
+Speed = 60 miles / 6 hours = 10 miles per hour.
+
+####10 [end of text]
+
+

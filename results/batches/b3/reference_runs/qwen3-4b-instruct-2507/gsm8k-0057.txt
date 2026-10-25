@@ -1,0 +1,52 @@
+We are given:
+
+- The bridge can carry **no more than 5000 pounds**.
+- The **driver and empty truck** weigh **3755 pounds**.
+- Each **box weighs 15 pounds**.
+- We need to find the **maximum number of boxes** that can be added without exceeding 5000 pounds.
+
+---
+
+### Step 1: Find how much weight is left for the boxes
+
+Subtract the weight of the driver and truck from the bridge limit:
+
+$$
+5000 - 3755 = 1245 \text{ pounds}
+$$
+
+This is the maximum weight the boxes can have.
+
+---
+
+### Step 2: Divide by the weight per box
+
+Each box is 15 pounds, so:
+
+$$
+1245 \div 15 = 83
+$$
+
+---
+
+### Step 3: Check if 83 boxes work
+
+$$
+83 \times 15 = 1245 \text{ pounds}
+$$
+
+Add to truck and driver:
+
+$$
+3755 + 1245 = 5000 \text{ pounds} \quad \text{(exactly the limit)}
+$$
+
+So, 83 boxes is acceptable.
+
+---
+
+### Final Answer:
+
+#### 83 [end of text]
+
+

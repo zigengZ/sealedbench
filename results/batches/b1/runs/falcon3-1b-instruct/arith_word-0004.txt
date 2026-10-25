@@ -1,0 +1,6 @@
+Victor reads 15 pages a day for 2 days, so he reads 15 * 2 = 30 pages.
+He also reads a second book at 14 pages a day for 4 days, so he reads 14 * 4 = 56 pages.
+In total, Victor reads 30 + 56 = 86 pages.
+#### 86 [end of text]
+
+

@@ -1,0 +1,9 @@
+Ben reads **20 pages/day × 4 days = 80 pages** from the first book.
+He reads **18 pages/day × 3 days = 54 pages** from the second book.
+Total pages before skipping: **80 + 54 = 134 pages**.
+After skipping 96 blank pages: **134 - 96 = 38 pages per week**.
+For 4 weeks: **38 × 4 = 152 pages**.
+
+#### 152 [end of text]
+
+

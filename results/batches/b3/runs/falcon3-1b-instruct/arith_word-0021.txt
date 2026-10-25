@@ -1,0 +1,18 @@
+First, let's calculate the number of pages Uma reads from the first book.
+
+Pages read from the first book = Number of pages per day × Number of days
+Pages read from the first book = 21 pages/day × 5 days = 105 pages
+
+Next, let's calculate the number of pages Uma reads from the second book.
+
+Pages read from the second book = Number of pages per day × Number of days
+Pages read from the second book = 10 pages/day × 5 days = 50 pages
+
+Now, let's add the pages read from both books to find the total number of pages Uma reads.
+
+Total pages read = Pages read from the first book + Pages read from the second book
+Total pages read = 105 pages + 50 pages = 155 pages
+
+#### 155 [end of text]
+
+

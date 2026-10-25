@@ -1,0 +1,24 @@
+To find the shortest path from **Kai** to **Nell**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Kai** with distance 0.
+2. **Update neighbors**:
+   - **Kai → West** (weight 2) → distance to West = 2.
+   - **Kai → Oak** (weight 8) → distance to Oak = 8.
+3. **Next, explore West** (distance 2):
+   - **West → Hart** (via Hart-West edge, but Hart is not yet visited; no direct edge from West to Hart).
+   - **West → Kai** (already visited).
+   - **West → Oak** (weight 6, but Oak already has a shorter path via Kai).
+   - **West → Vale** (no direct edge).
+   - **West → Hart** (no direct edge).
+   - **West → Drew** (no direct edge).
+   - **West → Cedar** (no direct edge).
+   - **West → Glen** (no direct edge).
+   - **West → Nell** (no direct edge).
+   - **West → Hart** (no direct edge).
+   - **West → Hart** (no direct edge).
+   - **West → Hart** (no direct edge).
+   - **West → Hart** (no direct edge).
+   - **West → Hart** (no direct edge).
+   - **West
+

@@ -1,0 +1,14 @@
+First, let's determine the number of pets each person has:
+
+- Cindy has 4 pets.
+- Marcia has 2 more pets than Cindy, so Marcia has \(4 + 2 = 6\) pets.
+- Jan has three times the number of pets as Marcia, so Jan has \(6 \times 3 = 18\) pets.
+
+Now, let's calculate the total number of pets:
+
+Total pets = Pets by Cindy + Pets by Marcia + Pets by Jan
+Total pets = 4 + 6 + 18 = 28
+
+#### 28 [end of text]
+
+

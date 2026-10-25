@@ -1,0 +1,7 @@
+First, find the number of instructions in the second recipe: 20 instructions * 2 = 40 instructions.
+
+Then, add the number of instructions in both recipes: 20 instructions + 40 instructions = 60 instructions.
+
+#### 60 [end of text]
+
+

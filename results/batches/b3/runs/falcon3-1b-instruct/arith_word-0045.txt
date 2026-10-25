@@ -1,0 +1,15 @@
+First, let's calculate the total number of seats Xavier initially had:
+
+9 rows * 14 seats/row = 126 seats
+
+Since 63 seats were sold, the number of unsold seats is:
+
+126 seats - 63 seats = 63 seats
+
+Each unsold seat is worth $9. To find the total worth of the unsold seats, we multiply the number of unsold seats by the value per seat:
+
+63 seats * $9/seat = $567
+
+So, the unsold seats are worth #### 567. [end of text]
+
+

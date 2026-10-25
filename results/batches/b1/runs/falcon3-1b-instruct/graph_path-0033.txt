@@ -1,0 +1,33 @@
+To find the shortest path between Oak and York, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Oak as 0 and to York as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ["Cleo", "Eden", "Jules", "Oak", "Poe", "Xen", "York"]
+distances = {node: float('inf') for node in nodes}
+
+# Edges with weights
+edges = {
+    "Cleo Jules": 9,
+    "Cleo York": 6,
+    "Eden Oak": 5,
+    "Eden Xen": 3,
+    "Jules Oak": 9,
+    "Jules Poe": 2,
+    "Jules Xen
+

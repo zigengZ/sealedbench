@@ -1,0 +1,4 @@
+Elena earns 19 dollars per hour. On day 1, she works 5 hours, so her earnings are 19 * 5 = 95 dollars. On day 2, she works 5 hours, so her earnings are 19 * 5 = 95 dollars. In total, Elena earns 95 + 95 = 190 dollars.
+#### 190 [end of text]
+
+

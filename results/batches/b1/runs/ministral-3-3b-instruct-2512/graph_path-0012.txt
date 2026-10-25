@@ -1,0 +1,18 @@
+To find the shortest path from **Cedar** to **Zed**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Possible Paths from Cedar to Zed:**
+   - **Cedar → Fern → Glen → Moss → Zed**
+     - Weights: 4 (Cedar-Fern) + 3 (Fern-Glen) + 2 (Glen-Moss) + 5 (Moss-Zed) = **14**
+   - **Cedar → Fern → Xen → Moss → Zed**
+     - Weights: 4 (Cedar-Fern) + 4 (Fern-Xen) + 8 (Moss-Xen) + 5 (Moss-Zed) = **21** (longer)
+   - **Cedar → West → Zed**
+     - Weights: 4 (Cedar-West) + 3 (West-Zed) = **7** (shorter)
+   - **Cedar → Sage → (no direct path to Zed)**
+     - Not viable.
+
+2. The shortest path is **Cedar → West → Zed** with a total weight of **7**.
+
+#### 7 [end of text]
+
+

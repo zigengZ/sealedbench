@@ -1,0 +1,31 @@
+To find the shortest path between Moss and Xen, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Moss as 0 and to Xen as infinity.
+   - Create a priority queue and insert Moss with a distance of 0.
+
+2. **Process**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance (Moss).
+     - For each neighbor of Moss, calculate the new distance if the current path through Moss is shorter.
+     - If the new distance is less than the current distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Result**:
+   - The distance to Moss is 0, and the distance to Xen is the maximum of the current distances plus the weight of the edge from Moss to Xen.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Bay', 'Dove', 'Indigo', 'Lark', 'Moss', 'Poe', 'Quill', 'Xen']
+weights = {
+    'Amber': 5,
+    'Amber': 4,
+    'Amber': 5,
+    'Amber': 6,
+    'Bay': 5,
+    'Bay': 9,
+    
+

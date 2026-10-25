@@ -1,0 +1,19 @@
+```python
+values = [9, 4, 8, 6, 8, 2]
+best = 0
+for start in range(5):
+    total = 0
+    for offset in range(2):
+        total = total + values[start + offset]
+    if total > best:
+        best = total
+print(best)
+```
+
+The exact standard output of this Python 3 program is:
+
+```
+20
+``` [end of text]
+
+

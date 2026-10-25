@@ -1,0 +1,20 @@
+To find the shortest path between Poe and West, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Poe as 0 and to West as infinity.
+   - Create a priority queue and insert Poe with a distance of 0.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance (Poe).
+     - For each neighbor of Poe, calculate the new distance if the edge weight is less than the current known distance.
+     - If the new distance is less, update the neighbor's distance and insert it into the priority queue.
+
+3. **Termination**:
+   - Continue until the priority queue is empty.
+
+After performing these steps, we find the shortest path from Poe to West.
+
+#### 10 and nothing after it. [end of text]
+
+

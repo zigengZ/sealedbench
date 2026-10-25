@@ -1,0 +1,13 @@
+We want to find the shortest path between Drew and Lark in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Drew to Lark:
+1. Drew -> Jules -> Lark: Weight = 6 + 2 = 8
+2. Drew -> West -> Uri -> Lark: Weight = 8 + 7 + 4 = 19
+3. Drew -> Jules -> Poe -> Uri -> Lark: Weight = 6 + 5 + 5 + 4 = 20
+4. Drew -> West -> Nell -> Uri -> Lark: Weight = 8 + 7 + 7 + 4 = 26
+
+The shortest path is Drew -> Jules -> Lark with a total weight of 8.
+
+#### 8 [end of text]
+
+

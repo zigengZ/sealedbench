@@ -1,0 +1,106 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path from Cedar to York** in terms of total edge weight.
+
+---
+
+### Step 1: List all nodes
+Nodes: Ash, Blair, Cedar, Eden, Fern, Glen, Quill, Vale, York
+
+---
+
+### Step 2: List all edges with weights
+
+- Ash — Eden: 3  
+- Ash — Fern: 6  
+- Ash — Quill: 3  
+- Blair — Cedar: 3  
+- Blair — Eden: 4  
+- Blair — York: 3  
+- Cedar — Vale: 7  
+- Eden — Vale: 3  
+- Fern — York: 8  
+- Glen — Quill: 2  
+- Glen — Vale: 2  
+- Glen — York: 5  
+
+---
+
+### Step 3: Goal — Shortest path from **Cedar** to **York**
+
+We will explore possible paths from Cedar to York using Dijkstra’s algorithm (since all weights are positive).
+
+---
+
+### Step 4: Start from Cedar
+
+We perform a shortest path search from Cedar.
+
+#### Path 1: Cedar → Vale → York  
+- Cedar to Vale: 7  
+- Vale to York: ? → Not directly given.  
+Wait — no edge from Vale to York.  
+We have:  
+- Vale — Eden: 3  
+- Vale — Glen: 2  
+- Vale — Cedar: 7  
+So Vale → York? Not directly.
+
+So this path is invalid.
+
+#### Path 2: Cedar → Blair → York  
+- Cedar to Blair: 3  
+- Blair to York: 3  
+→ Total: 3 + 3 = **6**
+
+Is this valid?  
+Yes — Cedar — Blair (3), Blair — York (3).  
+Total: 6
+
+#### Path 3: Cedar → Vale → Eden → Blair → York  
+- Cedar → Vale: 7  
+- Vale → Eden: 3  
+- Eden → Blair: 4  
+- Blair → York: 3  
+Total: 7 + 3 + 4 + 3 = **17** → worse than 6
+
+#### Path 4: Cedar → Vale → Glen → York  
+- Cedar → Vale: 7  
+- Vale → Glen: 2  
+- Glen → York: 5  
+Total: 7 + 2 + 5 = **14** → worse than 6
+
+#### Path 5: Cedar → Blair → Eden → Vale → Glen → York  
+- Cedar → Blair: 3  
+- Blair → Eden: 4  
+- Eden → Vale: 3  
+- Vale → Glen: 2  
+- Glen → York: 5  
+Total: 3 + 4 + 3 + 2 + 5 = **17** → worse
+
+#### Path 6: Cedar → Blair → Eden → Vale → Glen → York → same as above
+
+#### Path 7: Cedar → Vale → Glen → Quill → Ash → Fern → York?  
+Too long and not helpful.
+
+Is there a shorter path than 6?
+
+What about via Glen?
+
+Cedar → Vale → Glen → York: 7 + 2 + 5 = 14 → worse
+
+Cedar → Blair → Eden → Fern → York?  
+- Cedar → Blair: 3  
+- Blair → Eden: 4  
+- Eden → Fern: ? → Not directly given  
+No edge between Eden and Fern.
+
+Fern → York: 8  
+But no direct link from Eden to Fern.
+
+So Eden → Fern? Not present.
+
+So no path from Eden to Fern.
+
+What about via Quill?
+
+Cedar
+

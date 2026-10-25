@@ -1,0 +1,13 @@
+First, let's calculate the number of crayons from the first set of packs: 4 packs * 8 crayons/pack = 32 crayons.
+
+Next, let's calculate the number of crayons from the second set of packs: 4 packs * 3 crayons/pack = 12 crayons.
+
+Now, let's find the total number of crayons Tara has: 32 crayons + 12 crayons = 44 crayons.
+
+Tara gives away 3 crayons, so she has 44 crayons - 3 crayons = 41 crayons left.
+
+Each crayon is worth $7, so the total value of Tara's crayons is 41 crayons * $7/crayon = $287.
+
+####287 [end of text]
+
+

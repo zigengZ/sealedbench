@@ -1,0 +1,17 @@
+First, find the total number of magnets Diego buys:
+
+7 packs × 7 magnets per pack = 49 magnets
+
+Then, Diego gives 11 magnets to Cara, so subtract those:
+
+49 - 11 = 38 magnets left
+
+These 38 magnets are shared equally among 2 people:
+
+38 ÷ 2 = 19
+
+So, each person gets 19 magnets.
+
+#### 19 [end of text]
+
+

@@ -1,0 +1,19 @@
+First, find the total number of notebooks Diego buys:
+
+- From the first 8 packs:  
+  $8 \text{ packs} \times 12 \text{ notebooks} = 96$ notebooks
+
+- From the next 5 packs:  
+  $5 \text{ packs} \times 8 \text{ notebooks} = 40$ notebooks
+
+Add them together:  
+$96 + 40 = 136$ notebooks
+
+Then Diego gives 60 notebooks to Quinn:  
+$136 - 60 = 76$ notebooks
+
+So, Diego has **76** notebooks left.
+
+#### 76 [end of text]
+
+

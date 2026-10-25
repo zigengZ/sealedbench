@@ -1,0 +1,20 @@
+Let's break down how many pages Willa reads in one week:
+
+1. **First book**:  
+   11 pages/day × 6 days = 66 pages
+
+2. **Second book**:  
+   6 pages/day × 4 days = 24 pages
+
+3. **Total pages read in one week (before skipping)**:  
+   66 + 24 = 90 pages
+
+4. **She skips 28 blank pages** — these don't count, so we subtract them:  
+   90 - 28 = 62 pages per week
+
+5. **She repeats this for 4 weeks**:  
+   62 pages/week × 4 weeks = 248 pages
+
+#### 248 [end of text]
+
+

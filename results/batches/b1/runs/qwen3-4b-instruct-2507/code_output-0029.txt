@@ -1,0 +1,50 @@
+Let's step through the code carefully:
+
+```python
+words = ['north', 'maple', 'stone']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 3 == 0:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + ',' + piece
+print(out)
+```
+
+The list `words` has 3 elements: `['north', 'maple', 'stone']`.
+
+We loop over `index` from 0 to 2 (inclusive), since `len(words)` is 3.
+
+---
+
+**Iteration 1: index = 0**
+- `piece = words[0] = 'north'`
+- `index % 3 == 0` → True → `piece = 'NORTH'`
+- `out == ""` → True → `out = 'NORTH'`
+
+**Iteration 2: index = 1**
+- `piece = words[1] = 'maple'`
+- `index % 3 == 0` → False → `piece = 'maple'`
+- `out != ""` → True → `out = 'NORTH' + ',' + 'maple'` → `'NORTH,maple'`
+
+**Iteration 3: index = 2**
+- `piece = words[2] = 'stone'`
+- `index % 3 == 0` → False → `piece = 'stone'`
+- `out != ""` → True → `out = 'NORTH,maple' + ',' + 'stone'` → `'NORTH,maple,stone'`
+
+Finally, `print(out)` outputs:
+
+```
+NORTH,maple,stone
+```
+
+✅ This is the exact standard output.
+
+```
+NORTH,maple,stone
+``` [end of text]
+
+

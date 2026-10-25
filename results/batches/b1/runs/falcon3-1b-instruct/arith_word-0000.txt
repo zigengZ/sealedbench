@@ -1,0 +1,19 @@
+First, let's calculate the total number of buttons Olga has after buying the packs and giving some to Boris.
+
+1. Olga buys 3 packs of buttons.
+2. Each pack contains 3 buttons.
+3. Total buttons = 3 packs * 3 buttons/pack = 9 buttons.
+
+Next, Olga gives 4 buttons to Boris.
+
+4. Total buttons after giving some to Boris = 9 buttons - 4 buttons = 5 buttons.
+
+Each button is worth 9 dollars.
+
+So, the total worth of Olga's buttons is:
+
+5 buttons * 9 dollars/button = 45 dollars.
+
+#### 45 [end of text]
+
+

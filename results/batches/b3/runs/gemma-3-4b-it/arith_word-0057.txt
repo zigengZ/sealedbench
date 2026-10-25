@@ -1,0 +1,6 @@
+Zane earns 9 dollars/hour * 3 hours = 27 dollars.
+Zane spends 4 dollars, so he has 27 dollars - 4 dollars = 23 dollars left.
+
+####23 [end of text]
+
+

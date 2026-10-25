@@ -1,0 +1,20 @@
+First, find the total number of seats:
+
+- Ivy sets out 10 rows with 16 seats each:  
+  $10 \times 16 = 160$ seats
+
+- Then adds 3 rows with 5 seats each:  
+  $3 \times 5 = 15$ seats
+
+- Total seats:  
+  $160 + 15 = 175$ seats
+
+Then, 41 seats are sold, so the number of unsold seats is:  
+$175 - 41 = 134$ seats
+
+Each unsold seat is worth $10, so the total value is:  
+$134 \times 10 = 1340$ dollars
+
+#### 1340 [end of text]
+
+

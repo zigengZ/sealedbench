@@ -1,0 +1,16 @@
+Elena buys 3 packs of muffins, and each pack has 3 muffins.
+
+So total muffins = 3 packs × 3 muffins = 9 muffins.
+
+She gives 1 muffin to Olga, so now she has:
+
+9 - 1 = 8 muffins.
+
+These 8 muffins are shared equally among 4 people.
+
+So each person gets:  
+8 ÷ 4 = 2 muffins.
+
+#### 2 [end of text]
+
+

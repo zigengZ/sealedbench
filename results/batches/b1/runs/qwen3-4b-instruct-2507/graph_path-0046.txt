@@ -1,0 +1,49 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Ash, Blair, Dove, Drew, Oak, Reed
+
+**Edges and weights**:
+- Ash–Drew: 2  
+- Ash–Reed: 3  
+- Blair–Dove: 4  
+- Blair–Drew: 5  
+- Blair–Oak: 1  
+- Blair–Reed: 1  
+- Dove–Drew: 3  
+- Dove–Reed: 2  
+- Drew–Reed: 2  
+- Oak–Reed: 8  
+
+We are to find the **shortest path from Oak to Reed**.
+
+---
+
+### Step 1: Understand the connections
+
+We want the shortest path from **Oak** to **Reed**.
+
+Let’s list all paths from Oak to Reed, and compute their total weights.
+
+---
+
+### Path 1: Oak → Blair → Reed  
+- Oak–Blair: 1  
+- Blair–Reed: 1  
+→ Total: 1 + 1 = **2**
+
+---
+
+### Path 2: Oak → Blair → Dove → Reed  
+- Oak–Blair: 1  
+- Blair–Dove: 4  
+- Dove–Reed: 2  
+→ Total: 1 + 4 + 2 = **7**
+
+---
+
+### Path 3: Oak → Blair → Drew → Reed  
+- Oak–Blair: 1  
+- Blair–Drew: 5  
+- Drew–Reed: 2  
+
+

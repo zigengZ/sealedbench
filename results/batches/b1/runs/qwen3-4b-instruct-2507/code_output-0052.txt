@@ -1,0 +1,54 @@
+Let's trace through the program step by step:
+
+We have a list:  
+`words = ['lilac', 'river', 'kelp', 'juniper', 'timber']`
+
+We initialize `out = ""`
+
+We loop over `index` from 0 to 4 (since `len(words) = 5`):
+
+---
+
+**index = 0**  
+- `piece = words[0] = 'lilac'`  
+- `index % 3 == 0` → True → `piece = 'LILAC'`  
+- `out == ""` → True → `out = 'LILAC'`
+
+---
+
+**index = 1**  
+- `piece = words[1] = 'river'`  
+- `index % 3 == 0` → False → remains `'river'`  
+- `out != ""` → True → `out = 'LILAC' + '/' + 'river'` → `'LILAC/river'`
+
+---
+
+**index = 2**  
+- `piece = words[2] = 'kelp'`  
+- `index % 3 == 0` → False → remains `'kelp'`  
+- `out != ""` → True → `out = 'LILAC/river' + '/' + 'kelp'` → `'LILAC/river/kelp'`
+
+---
+
+**index = 3**  
+- `piece = words[3] = 'juniper'`  
+- `index % 3 == 0` → False → remains `'juniper'`  
+- `out != ""` → True → `out = 'LILAC/river/kelp' + '/' + 'juniper'` → `'LILAC/river/kelp/juniper'`
+
+---
+
+**index = 4**  
+- `piece = words[4] = 'timber'`  
+- `index % 3 == 0` → False → remains `'timber'`  
+- `out != ""` → True → `out = 'LILAC/river/kelp/juniper' + '/' + 'timber'` → `'LILAC/river/kelp/juniper/timber'`
+
+---
+
+Final `out` is: `'LILAC/river/kelp/juniper/timber'`
+
+Print this value.
+
+```text
+LILAC/river/kelp/juniper/timber
+
+

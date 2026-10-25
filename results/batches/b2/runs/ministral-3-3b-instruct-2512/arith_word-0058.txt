@@ -1,0 +1,7 @@
+Gina reads **24 pages/day × 2 days = 48 pages** from the first book.
+She reads **20 pages/day × 4 days = 80 pages** from the second book.
+Total pages read: **48 + 80 = 128 pages**
+
+#### 128 [end of text]
+
+

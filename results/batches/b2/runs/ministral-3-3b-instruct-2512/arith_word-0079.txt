@@ -1,0 +1,7 @@
+Elena starts with 3 packs × 3 muffins = 9 muffins.
+After giving 1 to Olga, she has 9 - 1 = 8 muffins left.
+Sharing equally among 4 people: 8 ÷ 4 = 2 muffins per person.
+
+#### 2 [end of text]
+
+

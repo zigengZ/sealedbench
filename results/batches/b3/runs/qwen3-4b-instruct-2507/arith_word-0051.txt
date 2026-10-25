@@ -1,0 +1,19 @@
+Rosa earns $20 per hour.
+
+On **day 1**, she works 3 hours:  
+$ 3 \times 20 = 60 $ dollars
+
+On **day 2**, she works 2 hours:  
+$ 2 \times 20 = 40 $ dollars
+
+Total earnings:  
+$ 60 + 40 = 100 $ dollars
+
+She then spends $44.
+
+Money left:  
+$ 100 - 44 = 56 $ dollars
+
+#### 56 [end of text]
+
+

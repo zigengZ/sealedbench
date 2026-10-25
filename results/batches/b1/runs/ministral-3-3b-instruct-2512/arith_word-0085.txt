@@ -1,0 +1,5 @@
+Felix starts with 9 packs × 10 oranges = 90 oranges. After giving 42 to Mina, he has 90 - 42 = 48 oranges left.
+
+#### 48 [end of text]
+
+

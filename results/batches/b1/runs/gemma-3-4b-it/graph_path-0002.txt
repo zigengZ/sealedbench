@@ -1,0 +1,21 @@
+We want to find the shortest path between Hart and Nell in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Bay Sage 9
+- Cleo Hart 4
+- Cleo Nell 4
+- Hart York 8
+- Nell Sage 6
+- Nell York 4
+- Quill Sage 4
+- Quill York 1
+
+We can consider possible paths from Hart to Nell:
+1. Hart -> York -> Nell: Weight = 8 + 4 = 12
+2. Hart -> Cleo -> Nell: Weight = 4 + 4 = 8
+
+The shortest path is Hart -> Cleo -> Nell with a total weight of 8.
+
+#### 8 [end of text]
+
+

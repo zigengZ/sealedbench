@@ -1,0 +1,15 @@
+Peter spends $7 on a movie ticket and $7 on popcorn, so each movie visit costs:
+
+$7 + $7 = $14
+
+He has $42 total.
+
+To find out how many times he can go to the movies, divide the total money by the cost per visit:
+
+$42 ÷ $14 = 3
+
+So, Peter can go to the movies 3 times.
+
+#### 3 [end of text]
+
+

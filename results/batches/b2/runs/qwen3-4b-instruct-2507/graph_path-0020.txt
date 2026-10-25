@@ -1,0 +1,87 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Cleo, Drew, Fern, Lark, Moss, Nell, West, Xen, York  
+We are to find the **shortest path from Moss to Xen** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Cleo — Moss: 9  
+- Cleo — Nell: 8  
+- Cleo — Xen: 2  
+- Drew — Fern: 1  
+- Drew — West: 6  
+- Fern — Moss: 3  
+- Fern — Xen: 5  
+- Lark — Moss: 3  
+- Lark — Nell: 5  
+- Lark — Xen: 2  
+- Nell — York: 1  
+- West — York: 3  
+
+---
+
+### Step 2: Goal — Shortest path from **Moss to Xen**
+
+We will consider possible paths from Moss to Xen and compute their total weights.
+
+---
+
+#### Option 1: Moss → Fern → Xen  
+- Moss to Fern: 3  
+- Fern to Xen: 5  
+→ Total: 3 + 5 = **8**
+
+#### Option 2: Moss → Lark → Xen  
+- Moss to Lark: 3  
+- Lark to Xen: 2  
+→ Total: 3 + 2 = **5**
+
+That’s better than 8.
+
+#### Option 3: Moss → Cleo → Xen  
+- Moss to Cleo: 9  
+- Cleo to Xen: 2  
+→ Total: 9 + 2 = **11** → worse
+
+#### Option 4: Moss → Fern → Drew → West → York → Nell → York → ?  
+This seems long and indirect. Let's see if any path through other nodes gives a shorter path.
+
+Can we go Moss → Fern → Drew → West → York → Nell → ? → Xen?
+
+But no direct edge from Nell to Xen.  
+Nell → York (1), York → West (3), West → Drew (6), etc.  
+No edge from Nell to Xen or to any node directly connected to Xen except Fern, Lark, Cleo.
+
+So, only connections to Xen are:
+- Cleo (2)
+- Fern (5)
+- Lark (2)
+
+So, any path to Xen must go through one of these.
+
+So, possible paths from Moss to Xen:
+
+1. Moss → Fern → Xen: 3 + 5 = 8  
+2. Moss → Lark → Xen: 3 + 2 = 5  
+3. Moss → Cleo → Xen: 9 + 2 = 11  
+4. Moss → Fern → Drew → West → York → Nell → ? → Xen? → No, no path from Nell to Xen  
+5. Moss → Lark → Nell → York → West → Drew → Fern → Xen?  
+   - Moss → Lark: 3  
+   - Lark → Nell: 5  
+   - Nell → York: 1  
+   - York → West: 3  
+   - West → Drew: 6  
+   - Drew → Fern: 1  
+   - Fern → Xen: 5  
+   → Total: 3+5+1+3+6+1+5 = **24** → too long
+
+6. Moss → Fern → Moss → Lark → Xen? → No cycles, and not helpful.
+
+So, the shortest path is clearly **Moss → Lark → Xen** with total weight **5**.
+
+Wait — is there a path via Cleo or Fern that is shorter
+

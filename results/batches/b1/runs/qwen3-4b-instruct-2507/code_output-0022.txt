@@ -1,0 +1,42 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['ivory', 'delta', 'amber', 'opal', 'juniper']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 4 (inclusive):
+
+- **index = 0**:
+  - `piece = words[0] = 'ivory'`
+  - `index % 2 == 0` → True → `piece = 'IVORY'`
+  - `out == ""` → True → `out = 'IVORY'`
+
+- **index = 1**:
+  - `piece = words[1] = 'delta'`
+  - `index % 2 == 0` → False → `piece = 'delta'`
+  - `out != ""` → True → `out = 'IVORY delta'`
+
+- **index = 2**:
+  - `piece = words[2] = 'amber'`
+  - `index % 2 == 0` → True → `piece = 'AMBER'`
+  - `out != ""` → True → `out = 'IVORY delta AMBER'`
+
+- **index = 3**:
+  - `piece = words[3] = 'opal'`
+  - `index % 2 == 0` → False → `piece = 'opal'`
+  - `out != ""` → True → `out = 'IVORY delta AMBER opal'`
+
+- **index = 4**:
+  - `piece = words[4] = 'juniper'`
+  - `index % 2 == 0` → False → `piece = 'juniper'`
+  - `out != ""` → True → `out = 'IVORY delta AMBER opal juniper'`
+
+Final `out` is `'IVORY delta AMBER opal juniper'`
+
+The program prints this string.
+
+``` 
+IVORY delta AMBER opal juniper
+``` [end of text]
+
+

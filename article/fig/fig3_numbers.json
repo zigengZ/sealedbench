@@ -1,0 +1,36 @@
+{
+  "bundles": [
+    {
+      "name": "probes",
+      "bundle": "ppP0MDrvyDX0uCeDTVww7FC4iGbkcbZiIazuQrcSIWE",
+      "seconds": 518,
+      "receipt": "2026-10-17T09:12:54Z",
+      "block": "2026-10-17T09:21:32Z",
+      "height": 2023095
+    },
+    {
+      "name": "b1+cap",
+      "bundle": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+      "seconds": 924,
+      "receipt": "2026-10-17T15:05:36Z",
+      "block": "2026-10-17T15:21:00Z",
+      "height": 2023266
+    },
+    {
+      "name": "b2+cap2",
+      "bundle": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+      "seconds": 193,
+      "receipt": "2026-10-17T20:02:46Z",
+      "block": "2026-10-17T20:05:59Z",
+      "height": 2023391
+    },
+    {
+      "name": "b3+cap3",
+      "bundle": "J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys",
+      "seconds": 396,
+      "receipt": "2026-10-18T08:04:26Z",
+      "block": "2026-10-18T08:11:02Z",
+      "height": 2023739
+    }
+  ]
+}

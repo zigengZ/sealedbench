@@ -1,0 +1,18 @@
+```python
+nums = [6, 10, 5, 9, 12, 1]
+kept = []
+for num in nums:
+    if num >= 4:
+        kept.append(num)
+print(len(kept))
+print(kept)
+```
+
+The exact standard output of this Python 3 program is:
+
+```
+4
+[6, 10, 9, 12]
+``` [end of text]
+
+

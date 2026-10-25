@@ -1,0 +1,11 @@
+Raymond has **40** jewels.
+
+Half of Raymond's jewels = 40 ÷ 2 = **20**.
+
+Aaron has 5 more than half of Raymond's jewels = 20 + 5 = **25**.
+
+Siobhan has 2 fewer jewels than Aaron = 25 - 2 = **23**.
+
+#### 23 [end of text]
+
+

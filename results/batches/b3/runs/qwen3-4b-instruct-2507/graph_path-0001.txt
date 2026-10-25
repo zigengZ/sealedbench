@@ -1,0 +1,73 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Cedar, Drew, Glen, Nell, Poe, Quill  
+**Edges and weights**:
+- Cedar – Drew: 7  
+- Drew – Glen: 7  
+- Drew – Quill: 5  
+- Glen – Poe: 2  
+- Glen – Quill: 9  
+- Nell – Quill: 8  
+- Poe – Quill: 9  
+
+We are to find the **shortest path from Cedar to Poe** in terms of total weight.
+
+---
+
+### Step 1: Understand the connections
+
+We want to go from **Cedar → Poe**.
+
+Let’s list possible paths from Cedar to Poe:
+
+---
+
+**Path 1: Cedar → Drew → Glen → Poe**  
+- Cedar–Drew: 7  
+- Drew–Glen: 7  
+- Glen–Poe: 2  
+→ Total = 7 + 7 + 2 = **16**
+
+---
+
+**Path 2: Cedar → Drew → Quill → Poe**  
+- Cedar–Drew: 7  
+- Drew–Quill: 5  
+- Quill–Poe: 9  
+→ Total = 7 + 5 + 9 = **21**
+
+---
+
+**Path 3: Cedar → Drew → Glen → Quill → Poe**  
+- Cedar–Drew: 7  
+- Drew–Glen: 7  
+- Glen–Quill: 9  
+- Quill–Poe: 9  
+→ Total = 7 + 7 + 9 + 9 = **32** → too long
+
+---
+
+**Path 4: Cedar → Drew → Quill → Nell → ???**  
+No connection from Nell to anyone else. Nell only connects to Quill. So no path from Nell to Poe. This path is dead end.
+
+---
+
+**Path 5: Any path through Nell?**  
+Nell only connects to Quill. So unless we go through Quill, we can't reach Poe from Nell. But that doesn't help us go from Cedar to Poe directly.
+
+So only viable paths are the ones above.
+
+---
+
+### Compare all viable paths:
+
+- Cedar → Drew → Glen → Poe: **16**
+- Cedar → Drew → Quill → Poe: **21**
+
+No other paths exist.
+
+Thus, the **shortest path** is **16**.
+
+#### 16 [end of text]
+
+

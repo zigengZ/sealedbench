@@ -1,0 +1,21 @@
+We want to find the shortest path from Ash to West in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Ash Bay: 1
+- Ash Cedar: 2
+- Ash Glen: 6
+- Bay West: 7
+- Bay Zed: 7
+- Glen West: 5
+- Glen Zed: 7
+
+Possible paths from Ash to West:
+1. Ash -> Bay -> West: Weight = 1 + 7 = 8
+2. Ash -> Cedar -> West: Not possible, no edge between Cedar and West.
+3. Ash -> Glen -> West: Weight = 6 + 5 = 11
+
+The shortest path is Ash -> Bay -> West with a total weight of 8.
+
+#### 8 [end of text]
+
+

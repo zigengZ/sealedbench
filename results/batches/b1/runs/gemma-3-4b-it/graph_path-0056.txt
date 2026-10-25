@@ -1,0 +1,31 @@
+We want to find the shortest path between Nell and Sage in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Amber Sage 3
+- Amber Vale 6
+- Amber West 6
+- Cleo Nell 1
+- Jules Zed 9
+- Kai Nell 3
+- Kai West 7
+- Nell West 2
+- Sage Vale 2
+- Vale Zed 1
+- West Zed 8
+
+We can consider possible paths from Nell to Sage:
+
+1. Nell -> Sage: No direct edge.
+2. Nell -> West -> Sage:  This path doesn't exist.
+3. Nell -> Kai -> West -> Sage: No direct edge from West to Sage.
+4. Nell -> Cleo: No path from Cleo to Sage.
+5. Nell -> West -> Amber -> Sage: Weight = 2 + 6 + 3 = 11
+6. Nell -> Kai -> West -> Amber -> Sage: Weight = 3 + 7 + 6 + 3 = 19
+7. Nell -> West -> Zed -> Jules: No path from Jules to Sage.
+8. Nell -> West -> Vale -> Sage: Weight = 2 + 1 + 2 = 5
+9. Nell -> Kai -> West -> Vale -> Sage: Weight = 3 + 7 + 1 + 2 = 13
+
+The shortest path is Nell -> West -> Vale -> Sage with a total weight of 5.
+
+Alternatively, we
+

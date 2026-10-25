@@ -1,0 +1,14 @@
+First, let's calculate the total number of seats Boris has initially.
+
+For the 2 rows with 5 seats each: 
+2 rows × 5 seats/row = 10 seats
+
+For the 4 rows with 10 seats each: 
+4 rows × 10 seats/row = 40 seats
+
+Now, add the initial seats to the additional seats:
+10 seats + 40 seats = 50 seats
+
+So, Boris has a total of #### 50 seats. [end of text]
+
+

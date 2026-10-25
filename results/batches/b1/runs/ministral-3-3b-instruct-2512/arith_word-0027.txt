@@ -1,0 +1,5 @@
+Mina starts with 12 rows of 12 seats each, which totals **144 seats** (12 × 12). Then she adds 4 rows of 10 seats each, totaling **40 seats** (4 × 10). Adding these together gives **184 seats**.
+
+#### 184 [end of text]
+
+

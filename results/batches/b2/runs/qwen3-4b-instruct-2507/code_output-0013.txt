@@ -1,0 +1,56 @@
+Let's trace through the program step by step:
+
+```python
+words = ['ivory', 'grove', 'maple', 'quartz', 'stone', 'river']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 2 == 1:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '-' + piece
+print(out)
+```
+
+The list `words` has 6 elements:
+- index 0: 'ivory'
+- index 1: 'grove'
+- index 2: 'maple'
+- index 3: 'quartz'
+- index 4: 'stone'
+- index 5: 'river'
+
+We iterate over each index:
+
+- index 0: 
+  - piece = 'ivory'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is "" → set out = 'ivory'
+
+- index 1:
+  - piece = 'grove'
+  - index % 2 == 1 → True → piece becomes 'GROVE'
+  - out is not "" → out = 'ivory' + '-' + 'GROVE' → 'ivory-GROVE'
+
+- index 2:
+  - piece = 'maple'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is not "" → out = 'ivory-GROVE' + '-' + 'maple' → 'ivory-GROVE-maple'
+
+- index 3:
+  - piece = 'quartz'
+  - index % 2 == 1 → True → piece becomes 'QUARTZ'
+  - out is not "" → out = 'ivory-GROVE-maple' + '-' + 'QUARTZ' → 'ivory-GROVE-maple-QUARTZ'
+
+- index 4:
+  - piece = 'stone'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is not "" → out = 'ivory-GROVE-maple-QUARTZ' + '-' + 'stone' → 'ivory-GROVE-maple-QUARTZ-stone'
+
+- index 5:
+  - piece = 'river'
+  - index % 2 == 1 → True → piece becomes 'RIVER'
+  - out is not
+

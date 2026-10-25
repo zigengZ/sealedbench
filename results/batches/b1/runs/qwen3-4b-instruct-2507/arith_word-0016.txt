@@ -1,0 +1,15 @@
+Boris reads 6 pages a day for 6 days:
+
+6 pages/day × 6 days = 36 pages
+
+Then he reads 3 more pages:
+
+36 + 3 = 39 pages
+
+Then he skips 36 blank pages — these do **not** count toward the total pages he reads.
+
+So, the total number of pages **he reads** is still 39.
+
+#### 39 [end of text]
+
+

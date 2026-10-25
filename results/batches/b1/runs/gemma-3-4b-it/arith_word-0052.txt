@@ -1,0 +1,8 @@
+First, calculate the number of seats in the first two rows: 2 rows * 6 seats/row = 12 seats.
+Next, calculate the number of seats in the additional two rows: 2 rows * 3 seats/row = 6 seats.
+Then, find the total number of seats: 12 seats + 6 seats = 18 seats.
+Finally, subtract the number of seats sold: 18 seats - 4 seats = 14 seats.
+
+####14 [end of text]
+
+

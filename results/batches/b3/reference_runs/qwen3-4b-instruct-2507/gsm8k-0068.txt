@@ -1,0 +1,39 @@
+We are told:
+
+- There are twice as many boys as girls.
+- There are 60 girls.
+- There are 5 students for every teacher.
+
+---
+
+**Step 1: Find the number of boys.**
+
+Twice as many boys as girls:
+
+$$
+\text{Boys} = 2 \times 60 = 120
+$$
+
+---
+
+**Step 2: Find the total number of students.**
+
+$$
+\text{Total students} = \text{Girls} + \text{Boys} = 60 + 120 = 180
+$$
+
+---
+
+**Step 3: Find the number of teachers.**
+
+There are 5 students per teacher, so:
+
+$$
+\text{Number of teachers} = \frac{180}{5} = 36
+$$
+
+---
+
+#### 36 [end of text]
+
+

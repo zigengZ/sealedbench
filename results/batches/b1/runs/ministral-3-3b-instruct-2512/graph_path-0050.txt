@@ -1,0 +1,13 @@
+To find the shortest path from **Ash** to **West**, we can use Dijkstra's algorithm or explore all possible paths manually.
+
+### Possible Paths:
+1. **Ash → Bay → West** (1 + 7 = **8**)
+2. **Ash → Cedar → (no direct path to West)**
+3. **Ash → Glen → West** (6 + 5 = **11**)
+4. **Ash → Bay → Zed → (no direct path to West)**
+
+The shortest path is **Ash → Bay → West** with a total weight of **8**.
+
+#### 8 [end of text]
+
+

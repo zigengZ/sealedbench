@@ -1,0 +1,38 @@
+We are given:
+
+- Initial monthly salary = $600  
+- Annual salary increase of 10% for employees who have stayed for 5 years or more  
+- Sylvie has just completed 5 years (last December), so she starts getting the 10% annual raise **from that point onward**  
+- We are to find her **annual salary after three more years** of service (i.e., after 8 years total)
+
+---
+
+### Step 1: Find the annual salary
+
+Monthly salary = $600  
+Annual salary = $600 × 12 = $7,200
+
+---
+
+### Step 2: Apply 10% annual raise each year
+
+The raise is **10% of the initial salary** each year — note: it says "10% of the initial salary", not 10% of the current salary.
+
+So, each year, the salary increases by:
+
+10% of $600 = 0.10 × 600 = $60
+
+This increase is **added each year**, not compounded.
+
+So, after 3 more years, the total increase = 3 × $60 = $180
+
+Therefore, her annual salary after 3 more years =  
+$7,200 + $180 = **$7,380**
+
+---
+
+#### $7,380
+
+#### 7380 [end of text]
+
+

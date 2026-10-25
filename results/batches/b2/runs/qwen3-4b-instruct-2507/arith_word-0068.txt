@@ -1,0 +1,20 @@
+Let's break down what Ivy reads each week:
+
+1. **First book**: 19 pages/day for 5 days  
+   $ 19 \times 5 = 95 $ pages
+
+2. **Second book**: 17 pages/day for 5 days  
+   $ 17 \times 5 = 85 $ pages
+
+3. **Total pages read in one week (before skipping)**:  
+   $ 95 + 85 = 180 $ pages
+
+4. **Ivy skips 19 blank pages** — these don't count, so we subtract them:  
+   $ 180 - 19 = 161 $ pages per week
+
+5. **She repeats this for 2 weeks**:  
+   $ 161 \times 2 = 322 $ pages
+
+#### 322 [end of text]
+
+

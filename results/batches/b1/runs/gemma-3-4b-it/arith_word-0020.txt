@@ -1,0 +1,9 @@
+First, let's calculate the number of erasers from the 6 packs with 9 erasers each: 6 packs * 9 erasers/pack = 54 erasers.
+
+Next, let's calculate the number of erasers from the 2 packs with 4 erasers each: 2 packs * 4 erasers/pack = 8 erasers.
+
+Finally, let's add the two amounts together: 54 erasers + 8 erasers = 62 erasers.
+
+####62 [end of text]
+
+

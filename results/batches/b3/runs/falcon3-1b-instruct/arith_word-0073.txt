@@ -1,0 +1,12 @@
+First, calculate the total number of magnets Ivy buys:
+2 packs * 12 magnets/pack = 24 magnets
+
+Then, add the additional magnets from the 3 packs:
+24 magnets + 3 packs * 7 magnets/pack = 24 + 21 = 45 magnets
+
+Now, divide the total number of magnets by the number of people:
+45 magnets / 3 people = 15 magnets/person
+
+#### 15 [end of text]
+
+

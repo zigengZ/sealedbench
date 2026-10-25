@@ -1,0 +1,13 @@
+We want to find the shortest path between Ash and Cleo in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Ash to Cleo:
+1. Ash -> Xen -> Cleo: Weight = 1 + 4 = 5
+2. Ash -> Xen -> Moss -> Vale -> Cleo: Weight = 1 + 5 + 2 + 6 = 14
+3. Ash -> Xen -> Cedar -> Vale -> Cleo: Weight = 1 + 4 + 1 + 6 = 12
+4. Ash -> Xen -> Moss -> Hart: This path doesn't lead to Cleo.
+
+The shortest path is Ash -> Xen -> Cleo with a total weight of 5.
+
+#### 5 [end of text]
+
+

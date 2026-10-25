@@ -1,0 +1,23 @@
+To solve this problem, let's first calculate the total hours of TV Frankie watched from Monday to Friday.
+
+- Monday: 1 hour
+- Tuesday: 1 hour
+- Wednesday: 30 minutes (1 hour = 60 minutes)
+- Thursday: 1 hour + 30 minutes = 90 minutes (1 hour = 60 minutes)
+- Friday: 2 * 1 hour = 2 hours = 120 minutes
+
+Now, add up all the hours:
+
+1 hour (Monday) + 1 hour (Tuesday) + 1 hour (Wednesday) + 90 minutes (Thursday) + 120 minutes (Friday) = 220 minutes
+
+Since there are 60 minutes in an hour, we convert 220 minutes to hours:
+
+220 minutes ÷ 60 minutes/hour = 3.67 hours
+
+Since Frankie watched 7 hours of TV in total, and 3.67 hours is less than 7 hours, he must have watched 30-minute episodes on Wednesday.
+
+#### 30
+
+The answer is: 30. [end of text]
+
+

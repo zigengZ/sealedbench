@@ -1,0 +1,19 @@
+Willa earns $27 per hour.
+
+On **day 1**, she works 3 hours:  
+$ 3 \times 27 = 81 $ dollars
+
+On **day 2**, she works 7 hours:  
+$ 7 \times 27 = 189 $ dollars
+
+Total earnings:  
+$ 81 + 189 = 270 $ dollars
+
+She then spends $101.
+
+Money left:  
+$ 270 - 101 = 169 $ dollars
+
+#### 169 [end of text]
+
+

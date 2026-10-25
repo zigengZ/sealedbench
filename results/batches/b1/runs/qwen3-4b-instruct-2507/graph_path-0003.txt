@@ -1,0 +1,47 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Drew, Moss, Oak, Poe, Sage, Vale, Zed**
+
+We are to find the **shortest path from Bay to Vale** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Bay — Zed: 5  
+- Drew — Moss: 5  
+- Drew — Oak: 3  
+- Drew — Zed: 6  
+- Moss — Poe: 8  
+- Moss — Vale: 7  
+- Moss — Zed: 4  
+- Oak — Vale: 1  
+- Oak — Zed: 7  
+- Poe — Vale: 4  
+- Poe — Zed: 2  
+- Sage — Zed: 5  
+
+Note: The graph is undirected, so each edge is bidirectional.
+
+We are to find the shortest path from **Bay to Vale**.
+
+---
+
+### Step 2: Consider possible paths from Bay to Vale
+
+Bay is only directly connected to **Zed** (weight 5).  
+So all paths from Bay must go through Zed (or through other nodes connected to Zed).
+
+So we can think of paths as:
+
+**Bay → Zed → ... → Vale**
+
+Or possibly through other intermediate nodes, but since Bay only connects to Zed, all paths must go through Zed.
+
+So we can reframe the problem:  
+Find the shortest path from **Zed to Vale**, then add the 5 from Bay → Zed.
+
+
+

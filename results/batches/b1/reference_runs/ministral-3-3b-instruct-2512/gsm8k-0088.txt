@@ -1,0 +1,14 @@
+Let’s denote Harald's sales as **H**. Marilyn sold **10H** copies.
+
+Combined sales:
+**H + 10H = 88,000**
+
+Simplify:
+**11H = 88,000**
+
+Divide both sides by 11:
+**H = 8,000**
+
+#### 8000 [end of text]
+
+

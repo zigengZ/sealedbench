@@ -1,0 +1,13 @@
+Let R be the amount of laundry Raymond does, S be the amount of laundry Sarah does, and D be the amount of laundry David does.
+We are given that Raymond does half as much laundry as Sarah, so R = (1/2)S.
+We are also given that Sarah does 4 times as much laundry as David, so S = 4D.
+We are given that Sarah does 400 pounds of laundry, so S = 400.
+
+Now we can find the amount of laundry Raymond does: R = (1/2)S = (1/2)(400) = 200.
+And we can find the amount of laundry David does: S = 4D, so 400 = 4D, which means D = 400/4 = 100.
+
+The difference in the amount of laundry Raymond and David do is R - D = 200 - 100 = 100.
+
+####100 [end of text]
+
+

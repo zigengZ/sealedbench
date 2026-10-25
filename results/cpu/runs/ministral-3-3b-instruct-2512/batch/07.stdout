@@ -1,0 +1,14 @@
+Carla downloads 200 GB at 2 GB/minute for 40% of the file:
+40% of 200 GB = 80 GB
+Time taken = 80 GB / 2 GB/minute = 40 minutes
+
+During the restart, she loses the remaining 120 GB (60% of 200 GB), and the download starts again from 0 GB.
+
+Now, she downloads the full 200 GB at 2 GB/minute:
+Time taken = 200 GB / 2 GB/minute = 100 minutes
+
+Total time = 40 minutes + 20 minutes (restart) + 100 minutes = 160 minutes
+
+#### 160 [end of text]
+
+

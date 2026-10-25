@@ -1,0 +1,15 @@
+First, calculate the total number of beads Kira initially has:
+5 packs * 8 beads/pack = 40 beads
+
+Then, subtract the beads given to Olga:
+40 beads - 34 beads = 6 beads
+
+Next, add the beads given to Olga back to the remaining beads:
+6 beads + 22 beads = 28 beads
+
+Finally, calculate the total worth of the beads:
+28 beads * 4 dollars/bead = 112 dollars
+
+#### 112 [end of text]
+
+

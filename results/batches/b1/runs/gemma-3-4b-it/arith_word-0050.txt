@@ -1,0 +1,7 @@
+First, find the total number of erasers Samir buys: 5 packs * 4 erasers/pack = 20 erasers.
+Then, Samir gives away 11 erasers, so he has 20 - 11 = 9 erasers left.
+Finally, the 9 erasers are shared equally among 3 people, so each person gets 9 / 3 = 3 erasers.
+
+#### 3 [end of text]
+
+

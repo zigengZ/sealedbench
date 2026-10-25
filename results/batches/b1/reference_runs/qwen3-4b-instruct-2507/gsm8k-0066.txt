@@ -1,0 +1,23 @@
+We are given:
+
+- 4 schools.
+- Each school sends:
+  - A girls’ basketball team with 5 players.
+  - A boys’ basketball team with 5 players.
+  - A coach for each team (so one coach per girls’ team and one per boys’ team).
+
+So per school:
+
+- Girls’ team: 5 players
+- Boys’ team: 5 players
+- Coach for girls’ team: 1
+- Coach for boys’ team: 1
+
+Total per school = 5 + 5 + 1 + 1 = 12 people
+
+For 4 schools:  
+4 × 12 = 48 people
+
+#### 48 [end of text]
+
+

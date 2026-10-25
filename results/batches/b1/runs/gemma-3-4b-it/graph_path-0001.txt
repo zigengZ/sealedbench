@@ -1,0 +1,14 @@
+We want to find the shortest path between Glen and York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Glen to York:
+1. Glen -> Hart -> Dove -> York: 2 + 2 + 5 = 9
+2. Glen -> Sage -> Quill -> York: 5 + 7 + 9 = 21
+3. Glen -> Hart -> Dove -> Quill -> York: 2 + 2 + 2 + 9 = 15
+4. Glen -> Hart -> Dove -> York: 2 + 2 + 5 = 9
+5. Glen -> Sage -> Quill -> York: 5 + 7 + 9 = 21
+
+Comparing the paths, the shortest path is Glen -> Hart -> Dove -> York with a total weight of 9.
+
+#### 9 [end of text]
+
+

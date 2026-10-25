@@ -1,0 +1,8 @@
+First, calculate Quinn's earnings on day 1: 9 dollars/hour * 2 hours = 18 dollars.
+Next, calculate Quinn's earnings on day 2: 9 dollars/hour * 6 hours = 54 dollars.
+Then, calculate Quinn's total earnings: 18 dollars + 54 dollars = 72 dollars.
+Finally, subtract the amount Quinn spends: 72 dollars - 21 dollars = 51 dollars.
+
+####51 [end of text]
+
+

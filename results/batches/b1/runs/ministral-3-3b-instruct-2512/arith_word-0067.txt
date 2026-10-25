@@ -1,0 +1,5 @@
+Gina starts with 10 rows of 9 seats each, which totals **90 seats** (10 × 9 = 90). Then she adds 8 rows of 10 seats each, totaling **80 seats** (8 × 10 = 80). Adding both gives **170 seats**.
+
+#### 170 [end of text]
+
+

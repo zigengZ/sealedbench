@@ -1,0 +1,36 @@
+We are given:
+
+- 1 serving of chips = 250 calories  
+- A 300g bag has 5 servings  
+- Daily calorie target = 2000  
+- Already consumed = 1800 calories  
+- We need to find how many grams of chips we can eat without exceeding the daily calorie limit.
+
+---
+
+**Step 1: Find remaining calories**
+
+2000 - 1800 = 200 calories remaining
+
+---
+
+**Step 2: Find how many servings fit in 200 calories**
+
+Each serving = 250 calories  
+So, number of servings we can eat =  
+200 ÷ 250 = 0.8 servings
+
+---
+
+**Step 3: Convert servings to grams**
+
+Total bag = 300g for 5 servings  
+So, grams per serving = 300 ÷ 5 = 60 grams per serving
+
+0.8 servings × 60 grams/serving = 48 grams
+
+---
+
+#### 48 [end of text]
+
+

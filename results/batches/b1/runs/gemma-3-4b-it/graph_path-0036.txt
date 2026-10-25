@@ -1,0 +1,14 @@
+We want to find the shortest path between Indigo and Vale in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Indigo to Vale:
+1. Indigo -> Tess -> Vale: Weight = 2 + 2 = 4
+2. Indigo -> Poe -> Sage -> Vale: Weight = 6 + 1 + 4 = 11
+3. Indigo -> Amber -> Vale: Weight = 9 + 6 = 15
+4. Indigo -> Tess -> Sage -> Vale: Weight = 2 + 5 + 4 = 11
+5. Indigo -> Poe -> Sage -> Tess -> Vale: Weight = 6 + 1 + 5 + 2 = 14
+
+The shortest path is Indigo -> Tess -> Vale with a total weight of 4.
+
+#### 4 [end of text]
+
+

@@ -1,0 +1,8 @@
+First, Poppy places a quarter of the pieces, which is 1000 / 4 = 250 pieces.
+The remaining pieces are 1000 - 250 = 750 pieces.
+Then, her mom places a third of the remaining pieces, which is 750 / 3 = 250 pieces.
+The number of pieces left to be placed is 750 - 250 = 500 pieces.
+
+####500 [end of text]
+
+

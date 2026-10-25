@@ -1,0 +1,53 @@
+Hugo reads:
+
+- First book: 22 pages/day for 4 days  
+  $ 22 \times 4 = 88 $ pages
+
+- Second book: 9 pages/day for 3 days  
+  $ 9 \times 3 = 27 $ pages
+
+Total pages read (before skipping):  
+$ 88 + 27 = 115 $ pages
+
+Hugo skips 88 blank pages — these do **not** count as read pages.
+
+So, the number of pages Hugo **actually reads** is:  
+$ 115 - 88 = 27 $
+
+Wait — but the blank pages were skipped **before** reading, so if he read 115 pages and then skipped 88 blank ones, that means the 88 blank pages were part of a book he didn't actually read.
+
+But the question is: **How many pages does Hugo read?**
+
+He reads 88 + 27 = 115 pages. The 88 blank pages are not read — they are skipped.
+
+So the total pages **he reads** is **115**, because skipping blank pages means they weren't read in the first place.
+
+Wait — the problem says: "Hugo skips 88 pages that were blank and do not count."
+
+So those 88 pages were **not** read — they were skipped.
+
+Therefore, the total pages Hugo **reads** is the sum of the pages he read in the two books, **excluding** the blank ones.
+
+But the blank pages were not part of the reading — so if he read 88 + 27 = 115 pages, and then skipped 88 blank ones, that doesn't subtract from the reading — because the blank pages weren't read in the first place.
+
+So the 88 blank pages were not read — they were skipped **after** reading?
+
+But the problem says: "Hugo skips 88 pages that were blank and do not count."
+
+So likely, those 88 pages were part of a book, and he skipped them — meaning he didn't read them.
+
+So the total pages he **read** is:
+
+- First book: 22 × 4 = 88  
+- Second book: 9 × 3 = 27  
+- Blank pages skipped: 88 — not read
+
+So total pages **read** = 88 + 27 = 115
+
+The blank pages were not read — so they don't count.
+
+Therefore, Hugo reads **115 pages**.
+
+#### 115 [end of text]
+
+

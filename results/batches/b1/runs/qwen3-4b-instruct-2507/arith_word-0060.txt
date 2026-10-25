@@ -1,0 +1,13 @@
+First, find the total number of seats:
+
+6 rows × 14 seats per row = 84 seats
+
+Then, subtract the number of seats sold:
+
+84 seats - 11 seats = 73 seats
+
+So, the number of unsold seats is 73.
+
+#### 73 [end of text]
+
+

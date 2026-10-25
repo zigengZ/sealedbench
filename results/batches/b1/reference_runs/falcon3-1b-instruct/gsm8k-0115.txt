@@ -1,0 +1,27 @@
+First, let's calculate the cost of the leftover 2x4x10 boards.
+
+Cost of leftover boards = Number of boards × Cost per board
+= 10 boards × $10/board
+= $100
+
+Next, let's calculate the cost of the five 4x4x10 boards she bought.
+
+Cost of bought boards = Number of boards × Cost per board
+= 5 boards × $16/board
+= $80
+
+Now, let's find the total cost of all boards.
+
+Total cost = Cost of leftover boards + Cost of bought boards
+= $100 + $80
+= $180
+
+Finally, let's calculate the profit.
+
+Profit = Total cost - Total revenue
+= $180 - $100
+= $80
+
+So, Sasha makes a profit of #### 80. [end of text]
+
+

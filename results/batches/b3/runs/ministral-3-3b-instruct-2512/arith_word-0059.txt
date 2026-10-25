@@ -1,0 +1,7 @@
+Ivy starts with 10 rows of 5 seats each, which totals **50 seats**. Adding 2 more rows of 4 seats each gives **2 extra seats**, making the total seats **52**.
+
+If 29 seats are sold, the unsold seats are **52 - 29 = 23**.
+
+#### 23 [end of text]
+
+

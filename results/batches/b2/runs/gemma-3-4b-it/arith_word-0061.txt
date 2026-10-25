@@ -1,0 +1,7 @@
+First, find the total number of badges Dmitri buys: 2 packs * 10 badges/pack = 20 badges.
+Then, subtract the number of badges he gives away: 20 badges - 14 badges = 6 badges.
+
+####6
+ [end of text]
+
+

@@ -1,0 +1,14 @@
+Sylvie's initial salary was $600.
+She receives a 10% increase every year for five years.
+After 5 years, her salary increases by 10% of $600, which is 0.10 * $600 = $60.
+Her new salary is $600 + $60 = $660.
+She continues to work for three more years, so she will receive another 10% increase each year.
+After 1 year: Salary increase = 10% of $660 = 0.10 * $660 = $66. New salary = $660 + $66 = $726.
+After 2 years: Salary increase = 10% of $726 = 0.10 * $726 = $72.60. New salary = $726 + $72.60 = $798.60.
+After 3 years: Salary increase = 10% of $798.60 = 0.10 * $798.60 = $79.86. New salary = $798.60 + $79.86 = $878.46.
+
+Therefore, Sylvie's annual salary after three more years of service is $878.46.
+
+#### 878 [end of text]
+
+

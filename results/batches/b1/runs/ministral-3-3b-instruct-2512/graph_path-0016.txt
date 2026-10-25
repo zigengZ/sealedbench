@@ -1,0 +1,24 @@
+To find the shortest path from **Blair** to **Glen**, we use **Dijkstra's algorithm** (since all weights are positive).
+
+1. **Initialization**:
+   - Distance to Blair = 0, others = ∞.
+   - Priority queue: `[(Blair, 0)]`.
+
+2. **Expand Blair**:
+   - Only neighbor: **Dove** (weight 5).
+   - Update: `Dove = 5`.
+   - Queue: `[(Dove, 5)]`.
+
+3. **Expand Dove**:
+   - Neighbors: Glen (5+6=11), Sage (5+3=8), Vale (5+4=9), Xen (5+7=12).
+   - Update: `Glen=11`, `Sage=8`, `Vale=9`, `Xen=12`.
+   - Queue: `[(Sage, 8), (Vale, 9), (Glen, 11), (Xen, 12)]`.
+
+4. **Expand Sage** (next shortest):
+   - Neighbors: Vale (8+2=10), Xen (8+1=9).
+   - Update: `Vale=min(9,10)=9`, `Xen=min(12,9)=9`.
+   - Queue: `[(Vale, 9), (Glen, 11), (Xen, 9)]`.
+
+5. **Expand Vale** (next shortest):
+
+

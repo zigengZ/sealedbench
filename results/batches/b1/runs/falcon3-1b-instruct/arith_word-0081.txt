@@ -1,0 +1,19 @@
+First, let's calculate the total number of oranges Nico initially bought.
+
+6 packs * 12 oranges/pack = 72 oranges
+
+Next, let's find out how many oranges Nico has after buying 2 more packs.
+
+72 oranges + 2 packs * 8 oranges/pack = 72 + 16 = 88 oranges
+
+Now, Nico gives away 41 oranges.
+
+88 oranges - 41 oranges = 47 oranges
+
+Each orange is worth 7 dollars. So, the total value of Nico's oranges is:
+
+47 oranges * 7 dollars/orange = 329 dollars
+
+#### 329 [end of text]
+
+

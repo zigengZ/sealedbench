@@ -1,0 +1,8 @@
+First, calculate Willa's earnings on day 1: 27 dollars/hour * 3 hours = 81 dollars.
+Next, calculate Willa's earnings on day 2: 27 dollars/hour * 7 hours = 189 dollars.
+Then, calculate Willa's total earnings: 81 dollars + 189 dollars = 270 dollars.
+Finally, subtract the amount spent from her total earnings: 270 dollars - 101 dollars = 169 dollars.
+
+####169 [end of text]
+
+

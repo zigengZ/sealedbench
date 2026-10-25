@@ -1,0 +1,13 @@
+First, let's calculate the number of badges Nico gets from the first 9 packs: 9 packs * 10 badges/pack = 90 badges.
+
+Next, let's calculate the number of badges Nico gets from the 6 packs: 6 packs * 5 badges/pack = 30 badges.
+
+Now, let's find the total number of badges Nico has: 90 badges + 30 badges = 120 badges.
+
+Then, Nico gives away 80 badges, so he has 120 badges - 80 badges = 40 badges left.
+
+Finally, let's calculate the total value of Nico's remaining badges: 40 badges * 2 dollars/badge = 80 dollars.
+
+#### 80 [end of text]
+
+

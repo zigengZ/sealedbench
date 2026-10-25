@@ -1,0 +1,13 @@
+To find the total time it takes for the fog bank to cover the entire city, we need to determine how many 3-mile segments there are in the city and then multiply that by the time it takes to cover each segment.
+
+The city is 42 miles long, and each segment is 3 miles.
+
+Number of segments = Total miles / Miles per segment = 42 miles / 3 miles = 14 segments
+
+Since it takes 10 minutes to cover each segment, the total time to cover the entire city is:
+
+Total time = Number of segments × Time per segment = 14 segments × 10 minutes/segment = 140 minutes
+
+#### 140 [end of text]
+
+

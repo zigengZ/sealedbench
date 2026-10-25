@@ -1,0 +1,33 @@
+Let's evaluate the program step by step:
+
+```python
+values = [16, 16, 7, 3, 17, 11, 5, 16]
+total = 0
+for value in values:
+    if value < 14:
+        total = total + 2
+    else:
+        total = total + value
+print(total)
+```
+
+We go through each value in the list:
+
+1. value = 16 → 16 ≥ 14 → add 16 → total = 0 + 16 = 16  
+2. value = 16 → 16 ≥ 14 → add 16 → total = 16 + 16 = 32  
+3. value = 7 → 7 < 14 → add 2 → total = 32 + 2 = 34  
+4. value = 3 → 3 < 14 → add 2 → total = 34 + 2 = 36  
+5. value = 17 → 17 ≥ 14 → add 17 → total = 36 + 17 = 53  
+6. value = 11 → 11 < 14 → add 2 → total = 53 + 2 = 55  
+7. value = 5 → 5 < 14 → add 2 → total = 55 + 2 = 57  
+8. value = 16 → 16 ≥ 14 → add 16 → total = 57 + 16 = 73  
+
+Final total = 73
+
+The program prints this value.
+
+```
+73
+``` [end of text]
+
+

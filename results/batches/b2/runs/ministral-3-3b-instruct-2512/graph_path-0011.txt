@@ -1,0 +1,15 @@
+To find the shortest path from Nell to Poe, we can use Dijkstra's algorithm or explore possible paths manually.
+
+**Possible Paths:**
+1. Nell → Lark → Poe (7 + 4 = 11)
+2. Nell → Quill → Reed → Poe (4 + 8 + 9 = 21)
+3. Nell → Quill → Vale → Zed → Lark → Poe (4 + 1 + 9 + 7 = 21)
+4. Nell → Vale → Zed → Lark → Poe (7 + 9 + 7 = 23)
+5. Nell → Reed → Poe (Not directly connected, invalid)
+6. Nell → Quill → Reed → Zed → Lark → Poe (4 + 8 + 4 + 7 = 23)
+
+The shortest path is **Nell → Lark → Poe** with a total weight of **11**.
+
+#### 11 [end of text]
+
+

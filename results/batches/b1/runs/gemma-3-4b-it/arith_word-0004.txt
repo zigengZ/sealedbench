@@ -1,0 +1,7 @@
+First, calculate the number of pages Victor reads from the first book: 15 pages/day * 2 days = 30 pages.
+Next, calculate the number of pages Victor reads from the second book: 14 pages/day * 4 days = 56 pages.
+Finally, add the pages from both books: 30 pages + 56 pages = 86 pages.
+
+#### 86 [end of text]
+
+

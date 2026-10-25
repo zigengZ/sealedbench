@@ -1,0 +1,21 @@
+Chloe buys 5 packs of cards, and each pack has 4 cards:
+
+5 packs × 4 cards = 20 cards
+
+So Chloe starts with 20 cards.
+
+Then she gives 17 cards to Ben:
+
+20 - 17 = 3 cards left with Chloe.
+
+Then Ben gives Chloe 18 more cards:
+
+3 + 18 = 21 cards now with Chloe.
+
+Each card is worth $5, so:
+
+21 cards × $5 = $105
+
+#### 105 [end of text]
+
+

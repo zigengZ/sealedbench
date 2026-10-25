@@ -1,0 +1,7 @@
+Aleena pays **$140** for the first 6 months.
+For the second 6 months, she pays 10% less: **$140 × 0.9 = $126**.
+Total paid: **$140 + $126 = $266**
+
+#### 266 [end of text]
+
+

@@ -1,0 +1,20 @@
+Let's break down how many pages Victor reads in one week:
+
+1. **First book**:  
+   17 pages/day × 4 days = 68 pages
+
+2. **Second book**:  
+   18 pages/day × 2 days = 36 pages
+
+3. **Total pages read in one week (before skipping)**:  
+   68 + 36 = 104 pages
+
+4. **Victor skips 34 blank pages** — these don't count, so we subtract them:  
+   104 - 34 = 70 pages per week
+
+5. **He repeats this for 4 weeks**:  
+   70 pages/week × 4 weeks = 280 pages
+
+#### 280 [end of text]
+
+

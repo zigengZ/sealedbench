@@ -1,0 +1,19 @@
+Felix buys 8 packs of apples, and each pack has 9 apples:
+
+8 × 9 = 72 apples
+
+Then Felix gives 8 apples to Leo, so he has:
+
+72 − 8 = 64 apples left
+
+Then Leo gives Felix 11 more apples, so Felix now has:
+
+64 + 11 = 75 apples
+
+Each apple is worth $6, so the total value is:
+
+75 × 6 = 450 dollars
+
+#### 450 [end of text]
+
+

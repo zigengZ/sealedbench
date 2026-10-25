@@ -1,0 +1,15 @@
+To find the number of unsold seats, first calculate the total number of seats Jamal initially had:
+
+11 rows * 7 seats/row = 77 seats
+
+Then subtract the number of seats sold:
+
+77 seats - 59 seats = 18 seats
+
+Each unsold seat is worth $12. Therefore, the total value of the unsold seats is:
+
+18 seats * $12/seat = $216
+
+#### 216 [end of text]
+
+

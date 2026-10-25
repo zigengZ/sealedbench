@@ -1,0 +1,23 @@
+Let's denote the number of games the team lost as \( L \). According to the problem, they won 8 more than they lost. Therefore, the number of games they won can be expressed as \( W = L + 8 \).
+
+Since the total number of games played is 22, we can set up the equation:
+\[ L + W = 22 \]
+
+Substituting \( W = L + 8 \) into the equation gives:
+\[ L + (L + 8) = 22 \]
+
+Simplifying this equation:
+\[ 2L + 8 = 22 \]
+
+Subtract 8 from both sides:
+\[ 2L = 14 \]
+
+Divide both sides by 2:
+\[ L = 7 \]
+
+Now, substituting \( L = 7 \) back into the equation for \( W \):
+\[ W = 7 + 8 = 15 \]
+
+So, the team won #### 15. [end of text]
+
+

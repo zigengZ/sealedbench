@@ -1,0 +1,7 @@
+First, find the total number of stickers Quinn has: 4 packs * 4 stickers/pack = 16 stickers.
+Then, Quinn gives away 13 stickers, leaving her with 16 - 13 = 3 stickers.
+Finally, the 3 stickers are shared equally among 3 people, so each person gets 3 stickers / 3 people = 1 sticker/person.
+
+#### 1 [end of text]
+
+

@@ -1,0 +1,26 @@
+We want to find the shortest path between Ash and Drew in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Amber Dove: 3
+- Amber Nell: 2
+- Amber Quill: 6
+- Ash Nell: 7
+- Ash Quill: 2
+- Dove Uri: 4
+- Dove York: 9
+- Drew Nell: 1
+- Drew York: 3
+- Eden Uri: 5
+- Nell York: 7
+
+We can consider possible paths between Ash and Drew:
+1. Ash -> Nell -> Drew: Weight = 7 + 1 = 8
+2. Ash -> Quill -> Amber -> Nell -> Drew: Weight = 2 + 6 + 2 + 1 = 11
+3. Ash -> Nell -> York -> Drew: Weight = 7 + 7 + 3 = 17
+4. Ash -> Quill -> Amber -> Dove -> Uri -> Drew: This path is longer than the first one.
+
+The shortest path is Ash -> Nell -> Drew with a total weight of 8.
+
+#### 8 [end of text]
+
+

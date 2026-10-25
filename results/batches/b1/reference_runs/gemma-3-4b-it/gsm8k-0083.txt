@@ -1,0 +1,6 @@
+First, find the total number of roses: 3 bushes * 25 roses/bush = 75 roses.
+Then, find the total number of thorns: 75 roses * 8 thorns/rose = 600 thorns.
+
+####600 [end of text]
+
+

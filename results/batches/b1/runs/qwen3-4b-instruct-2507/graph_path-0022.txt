@@ -1,0 +1,41 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Fern, Lark, Nell, Reed, Vale, York  
+**Edges and weights**:
+- Fern – Reed: 6  
+- Fern – Vale: 6  
+- Lark – Reed: 8  
+- Lark – Vale: 4  
+- Nell – Vale: 3  
+- Nell – York: 6  
+- Reed – York: 4  
+
+We are to find the **shortest path weight from Reed to Vale**.
+
+---
+
+### Step 1: List all possible paths from Reed to Vale
+
+We'll consider direct and indirect paths.
+
+#### Direct path:
+- Reed → Vale  
+  Weight = 6
+
+#### Indirect paths:
+
+1. Reed → Lark → Vale  
+   Weight = 8 (Reed–Lark) + 4 (Lark–Vale) = 12 → longer than 6
+
+2. Reed → York → Vale?  
+   But there is **no edge from York to Vale**.  
+   So this path is invalid.
+
+3. Reed → York → Nell → Vale  
+   - Reed → York: 4  
+   - York → Nell: not directly given  
+     We have Nell–York: 6 → so yes, York–Nell: 6  
+   - Nell → Vale: 3  
+   So path: Reed → York → Nell → Vale  
+   Weight = 4 + 6 + 3 = 13 →
+

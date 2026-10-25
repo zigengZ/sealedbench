@@ -1,0 +1,14 @@
+Victor earns $25 per hour.
+
+On day 1, he works 6 hours:  
+6 hours × $25 = $150
+
+On day 2, he works 8 hours:  
+8 hours × $25 = $200
+
+Total earnings:  
+$150 + $200 = $350
+
+#### 350 [end of text]
+
+

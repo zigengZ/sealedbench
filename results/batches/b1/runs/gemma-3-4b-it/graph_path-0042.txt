@@ -1,0 +1,24 @@
+We want to find the shortest path between Indigo and York in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Amber Indigo 3
+- Amber Kai 6
+- Ash Eden 9
+- Ash Indigo 8
+- Ash Kai 7
+- Ash York 1
+- Eden York 9
+- Indigo Kai 6
+
+We can consider possible paths from Indigo to York:
+1. Indigo -> Ash -> York: Weight = 8 + 1 = 9
+2. Indigo -> Kai -> Amber -> (no path to York)
+3. Indigo -> Kai -> Ash -> York: Weight = 6 + 7 + 1 = 14
+4. Indigo -> Amber -> Kai -> Ash -> York: Weight = 3 + 6 + 7 + 1 = 17
+5. Indigo -> Ash -> Eden -> York: Weight = 8 + 9 + 9 = 26
+
+The shortest path is Indigo -> Ash -> York with a total weight of 9.
+
+#### 9 [end of text]
+
+

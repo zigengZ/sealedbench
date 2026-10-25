@@ -1,0 +1,26 @@
+First, let's calculate the total number of pages Boris reads from both books.
+
+For the first book:
+- Pages read per day: 9
+- Number of days: 5
+
+Total pages from the first book = 9 pages/day * 5 days = 45 pages
+
+For the second book:
+- Pages read per day: 11
+- Number of days: 4
+
+Total pages from the second book = 11 pages/day * 4 days = 44 pages
+
+Now, let's add the total pages from both books:
+Total pages = 45 pages + 44 pages = 89 pages
+
+Boris skips 42 pages that were blank. So, we subtract these 42 pages from the total:
+
+Pages skipped = 42 pages
+
+Remaining pages = Total pages - Pages skipped = 89 pages - 42 pages = 47 pages
+
+Therefore, Boris reads #### 47 pages. [end of text]
+
+

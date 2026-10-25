@@ -1,0 +1,8 @@
+First, calculate Elena's earnings on day 1: 25 dollars/hour * 3 hours = 75 dollars.
+Next, calculate Elena's earnings on day 2: 25 dollars/hour * 5 hours = 125 dollars.
+Then, calculate Elena's total earnings: 75 dollars + 125 dollars = 200 dollars.
+Finally, subtract the amount she spent from her total earnings: 200 dollars - 155 dollars = 45 dollars.
+
+####45 [end of text]
+
+

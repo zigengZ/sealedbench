@@ -1,0 +1,16 @@
+First, let's calculate the total number of potted plants Mary has already on the window ledges.
+
+She has 2 potted plants on each of the 40 window ledges.
+So, the total number of potted plants on the ledges is:
+2 plants/ledge * 40 ledges = 80 plants.
+
+Mary decides to give 1 potted plant from each ledge to friends and family.
+Thus, she gives away a total of:
+1 plant/ledge * 40 ledges = 40 plants.
+
+Now, let's subtract the number of plants she gave away from the total number of plants she had:
+80 plants (total) - 40 plants (given away) = 40 plants.
+
+Mary will remain with #### 40. [end of text]
+
+

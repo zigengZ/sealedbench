@@ -1,0 +1,8 @@
+Ben starts with **7 packs × 11 erasers = 77 erasers**.
+After giving 67 to Felix: **77 – 67 = 10 erasers**.
+Felix then gives back 16: **10 + 16 = 26 erasers**.
+Each eraser is worth $9, so **26 × 9 = 234 dollars**.
+
+#### 234 [end of text]
+
+

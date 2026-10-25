@@ -1,0 +1,15 @@
+Ivy first sets out 3 rows with 4 seats in each row:
+
+3 rows × 4 seats = 12 seats
+
+Then she adds 3 more rows with 5 seats in each row:
+
+3 rows × 5 seats = 15 seats
+
+Now, add both amounts:
+
+12 + 15 = 27 seats
+
+#### 27 [end of text]
+
+

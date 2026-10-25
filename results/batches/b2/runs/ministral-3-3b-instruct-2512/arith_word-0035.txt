@@ -1,0 +1,7 @@
+Boris starts with 8 packs × 12 apples = 96 apples.
+After giving 15 to Yara, he has 96 - 15 = 81 apples left.
+Sharing equally among 3 people gives 81 ÷ 3 = 27 apples per person.
+
+#### 27 [end of text]
+
+

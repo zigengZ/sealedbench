@@ -1,0 +1,22 @@
+First, let's calculate the total number of pages Boris reads:
+
+1. Boris reads 6 pages a day for 6 days:
+   \[
+   6 \text{ pages/day} \times 6 \text{ days} = 36 \text{ pages}
+   \]
+
+2. Boris reads 3 more pages:
+   \[
+   36 \text{ pages} + 3 \text{ pages} = 39 \text{ pages}
+   \]
+
+3. Boris skips 36 pages that were blank:
+   \[
+   39 \text{ pages} - 36 \text{ pages} = 3 \text{ pages}
+   \]
+
+Now, let's summarize the total number of pages Boris reads:
+
+#### 39 and 3 [end of text]
+
+

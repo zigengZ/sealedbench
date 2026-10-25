@@ -1,0 +1,16 @@
+Let's calculate the cost of buying 18 flowers using each option.
+
+Option 1: Buying packages of 3 flowers.
+To get 18 flowers, Vincent needs 18 / 3 = 6 packages.
+The cost would be 6 * $2.50 = $15.00.
+
+Option 2: Buying packages of 2 flowers.
+To get 18 flowers, Vincent needs 18 / 2 = 9 packages.
+The cost would be 9 * $1.00 = $9.00.
+
+The better price is buying packages of 2 flowers, which costs $9.00.
+The savings is $15.00 - $9.00 = $6.00.
+
+#### 6 [end of text]
+
+

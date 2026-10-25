@@ -1,0 +1,6 @@
+First, find the total number of tickets in the packs: 2 packs * 5 tickets/pack = 10 tickets.
+Then, add the tickets Jamal gave her: 10 tickets + 22 tickets = 32 tickets.
+
+####32 [end of text]
+
+

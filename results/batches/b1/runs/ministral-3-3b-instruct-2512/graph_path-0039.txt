@@ -1,0 +1,20 @@
+To find the shortest path from **Cleo** to **Drew**, we can use **Dijkstra's algorithm** (or a brute-force approach since the graph is small).
+
+### Step-by-Step Reasoning:
+1. **Cleo → Reed** via Cleo-Reed (8) or Cleo-Uri-Reed (8+1=9). The cheaper is **8** (Cleo → Reed).
+2. From **Reed**, possible paths:
+   - Reed → Drew (5) → Total: **8 + 5 = 13**
+   - Reed → Hart → Drew (7 + ?). Hart has no direct edge to Drew, so this path is invalid.
+   - Reed → Uri → Drew (1 + ?). Uri has no direct edge to Drew, so invalid.
+   - Reed → Bay → ... (not helpful).
+   The only valid path from Reed to Drew is **Reed → Drew (5)**.
+
+3. **Alternative path via Hart**:
+   - Cleo → Hart (1) → Hart → Reed (7) → Reed → Drew (5) → Total: **1 + 7 + 5 = 13** (same as above).
+   - Cleo → Hart → ... (no better path).
+
+4. **Alternative path via Uri**:
+   - Cleo → Uri (8) → Uri → Reed (1) → Reed → Drew (5) → Total: **8 + 1 + 5 = 14** (worse).
+
+Thus, the shortest path is **
+

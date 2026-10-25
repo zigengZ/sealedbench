@@ -1,0 +1,17 @@
+First, find the total number of tokens Boris buys:
+
+- 6 packs with 4 tokens each:  
+  $6 \times 4 = 24$ tokens
+
+- 3 packs with 3 tokens each:  
+  $3 \times 3 = 9$ tokens
+
+Add them together:  
+$24 + 9 = 33$ tokens
+
+Then Boris gives 4 tokens to Chloe:  
+$33 - 4 = 29$ tokens
+
+#### 29 [end of text]
+
+

@@ -1,0 +1,19 @@
+First, find the total number of seats Esme set up.
+
+She sets out:
+- 7 rows with 7 seats each:  
+  $7 \times 7 = 49$ seats
+
+Then she adds:
+- 5 rows with 6 seats each:  
+  $5 \times 6 = 30$ seats
+
+Total seats = $49 + 30 = 79$
+
+Then, 56 seats are sold.
+
+So, unsold seats = $79 - 56 = 23$
+
+#### 23 [end of text]
+
+

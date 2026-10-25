@@ -1,0 +1,8 @@
+Kira starts with beads: 5 packs × 8 beads = **40 beads**.
+After giving 34 to Olga: 40 - 34 = **6 beads**.
+Olga gives back 22 beads: 6 + 22 = **28 beads**.
+Total value: 28 beads × $4 = **$112**.
+
+#### 112 [end of text]
+
+

@@ -1,0 +1,40 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Ash, Bay, Cedar, Glen, Jules, Nell, Reed  
+**Edges and weights**:
+- Ash–Bay: 8  
+- Ash–Cedar: 7  
+- Bay–Cedar: 5  
+- Bay–Reed: 5  
+- Cedar–Glen: 7  
+- Cedar–Nell: 7  
+- Cedar–Reed: 3  
+- Glen–Jules: 8  
+- Jules–Reed: 7  
+
+We are to find the **shortest path from Cedar to Jules** in terms of total weight.
+
+---
+
+### Step 1: Identify possible paths from Cedar to Jules
+
+We can go through intermediate nodes. Let's list possible paths:
+
+#### Path 1: Cedar → Glen → Jules  
+- Cedar to Glen: 7  
+- Glen to Jules: 8  
+→ Total: 7 + 8 = **15**
+
+#### Path 2: Cedar → Reed → Jules  
+- Cedar to Reed: 3  
+- Reed to Jules: 7  
+→ Total: 3 + 7 = **10**
+
+#### Path 3: Cedar → Bay → Reed → Jules  
+- Cedar → Bay: 5  
+- Bay → Reed: 5  
+- Reed → Jules: 7  
+→ Total: 5 + 5 + 7 = **17**
+
+#### Path 4: Cedar → Ash → Bay →
+

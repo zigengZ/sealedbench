@@ -1,0 +1,19 @@
+Let's break down how many pages Yara reads in one week:
+
+1. First book: 10 pages/day for 5 days  
+   $ 10 \times 5 = 50 $ pages
+
+2. Second book: 9 pages/day for 3 days  
+   $ 9 \times 3 = 27 $ pages
+
+3. Then she skips 50 blank pages — these **do not count** as read pages.
+
+So, total pages **read** in one week:  
+$ 50 + 27 = 77 $ pages
+
+She repeats this pattern for **2 weeks**, so:  
+$ 77 \times 2 = 154 $ pages
+
+#### 154 [end of text]
+
+

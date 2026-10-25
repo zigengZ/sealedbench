@@ -1,0 +1,14 @@
+Jim spends 2 hours watching TV each time.  
+He reads for half as long, so he reads for $ \frac{2}{2} = 1 $ hour each time.  
+
+So, each time he spends $ 2 + 1 = 3 $ hours on TV and reading.  
+
+He does this 3 times a week, so per week:  
+$ 3 \text{ times} \times 3 \text{ hours} = 9 $ hours per week.  
+
+Over 4 weeks:  
+$ 9 \times 4 = 36 $ hours.  
+
+#### 36 [end of text]
+
+

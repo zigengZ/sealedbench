@@ -1,0 +1,7 @@
+Jamal reads **24 pages** in the first two days (12 pages/day × 2 days = 24 pages).
+Adding the extra 9 pages gives **33 pages**.
+Skipping 23 blank pages doesn’t change the total count.
+
+#### 33 [end of text]
+
+

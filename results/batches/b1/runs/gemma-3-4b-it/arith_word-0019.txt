@@ -1,0 +1,7 @@
+First, find the number of pages Elena reads from the first book: 17 pages/day * 6 days = 102 pages.
+Next, find the number of pages Elena reads from the second book: 18 pages/day * 4 days = 72 pages.
+Finally, add the pages from both books: 102 pages + 72 pages = 174 pages.
+
+####174 [end of text]
+
+

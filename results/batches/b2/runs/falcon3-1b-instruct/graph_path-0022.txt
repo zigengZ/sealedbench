@@ -1,0 +1,67 @@
+To find the shortest path between Fern and Poe, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Fern as 0 and to Poe as infinity.
+   - Create a priority queue and insert Fern with a distance of 0.
+
+2. **Process**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If this new distance is less than the current known distance to the neighbor, update the distance.
+       - Insert the neighbor into the priority queue with the updated distance.
+
+3. **Result**:
+   - The distance from Fern to Poe will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ["Cedar", "Fern", "Indigo", "Jules", "Nell", "Poe", "Quill", "Reed", "Tess", "Zed"]
+weights = {
+    "Cedar": 8,
+    "Fern": 1,
+    "Jules": 6,
+    "Jules": 9,
+    "Nell": 1,
+    "Poe": 3,
+    "Quill": 4,
+    "Reed": 9,
+    "Tess": 7,
+    "Zed": 3
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in nodes}
+distances["Fern"] = 0
+distances["Poe"] = float('infinity')
+
+# Priority queue
+priority_queue = [(0, ["Fern"])]
+
+# Process
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    if current_distance > distances[current_node]:
+        continue
+    
+    for neighbor, weight in weights.items():
+        new_distance = current_distance + weight
+        if distances[neighbor] > new_distance:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance, neighbor))
+
+# Shortest path weight from Fern to Poe
+shortest_path_weight = distances["Poe"]
+print(shortest_path_weight)
+```
+
+Running this code will give us the shortest path weight between Fern and Poe.
+
+#### 10 [end of text]
+
+

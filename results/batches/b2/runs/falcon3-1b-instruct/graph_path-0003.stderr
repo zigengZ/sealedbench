@@ -1,0 +1,37 @@
+llama_completion: llama backend init
+llama_completion: load the model and apply lora adapter, if any
+load: model vocab missing newline token, using special_pad_id instead
+cmn          init: llama threadpool init, n_threads = 6
+llama_completion: chat template is available, enabling conversation mode (disable it with -no-cnv)
+llama_completion: chat template example:
+<|system|>
+You are a helpful assistant
+<|user|>
+Hello
+<|assistant|>
+Hi there<|endoftext|>
+<|user|>
+How are you?
+<|assistant|>
+
+
+system_info: n_threads = 6 (n_threads_batch = 6) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+
+sampler seed: 4294967295
+sampler params: 
+	repeat_last_n = 64, repeat_penalty = 1.000, frequency_penalty = 0.000, presence_penalty = 0.000
+	dry_multiplier = 0.000, dry_base = 1.750, dry_allowed_length = 2, dry_penalty_last_n = 64
+	top_k = 1, top_p = 1.000, min_p = 0.000, xtc_probability = 0.000, xtc_threshold = 0.100, typical_p = 1.000, top_n_sigma = -1.000, temp = 0.000
+	mirostat = 0, mirostat_lr = 0.100, mirostat_ent = 5.000, adaptive_target = -1.000, adaptive_decay = 0.900
+sampler chain: logits -> ?penalties -> ?dry -> ?top-n-sigma -> top-k -> ?typical -> ?top-p -> ?min-p -> ?xtc -> temp-ext -> greedy 
+generate: n_ctx = 2048, n_batch = 2048, n_predict = 768, n_keep = 0
+
+common_perf_print:    sampling time =      79.78 ms
+common_perf_print:    samplers time =      29.61 ms /   684 tokens
+common_perf_print:        load time =     818.30 ms
+common_perf_print: prompt eval time =     817.15 ms /   150 tokens (    5.45 ms per token,   183.57 tokens per second)
+common_perf_print:        eval time =   21892.08 ms /   533 runs   (   41.07 ms per token,    24.35 tokens per second)
+common_perf_print:       total time =   22811.56 ms /   683 tokens
+common_perf_print: unaccounted time =      22.54 ms /   0.1 %      (total - sampling - prompt eval - eval) / (total)
+common_perf_print:    graphs reused =        530
+common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)

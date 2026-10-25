@@ -1,0 +1,844 @@
+{
+  "batch_id": "b2",
+  "batch_valid": null,
+  "models": {
+    "falcon3-1b-instruct": {
+      "arith_minus_gsm8k": {
+        "diff": 0.0125,
+        "newcombe95": [
+          -0.03445940372198131,
+          0.06746270077668666
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.0125,
+          "accuracy_among_parsed": 1.0,
+          "baseline": {
+            "distinct_observed_answers": 60,
+            "uniform_over_observed_answers": 0.016666666666666666
+          },
+          "correct": 1,
+          "invalid": 79,
+          "invalid_rate": 0.9875,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 1,
+          "templates": {
+            "buy_give": 2,
+            "buy_give_price": 2,
+            "buy_give_receive": 1,
+            "buy_give_receive_price": 3,
+            "buy_give_share": 5,
+            "buy_receive": 3,
+            "days_plus": 5,
+            "days_plus_skip": 5,
+            "one_day_spend": 7,
+            "rows_left": 3,
+            "rows_price": 6,
+            "three_days": 4,
+            "two_books": 2,
+            "two_books_skip": 2,
+            "two_books_weeks": 4,
+            "two_buys": 3,
+            "two_buys_give": 3,
+            "two_buys_give_price": 5,
+            "two_buys_give_share": 1,
+            "two_buys_share": 2,
+            "two_days": 4,
+            "two_days_spend": 4,
+            "two_sections": 2,
+            "two_sections_price": 1,
+            "two_sections_sold": 1
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.0022099755204522675,
+            0.06746270077668666
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.06666666666666667,
+          "accuracy_among_parsed": 0.06666666666666667,
+          "baseline": {
+            "distinct_observed_answers": 29,
+            "uniform_over_observed_answers": 0.034482758620689655
+          },
+          "correct": 2,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 30,
+          "templates": {
+            "acc": 3,
+            "filter": 2,
+            "nested": 5,
+            "pairs": 5,
+            "range_sum": 8,
+            "string": 5,
+            "window": 2
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.0,
+          "accuracy_among_parsed": 0.0,
+          "baseline": {
+            "distinct_observed_answers": 13,
+            "uniform_over_observed_answers": 0.07692307692307693
+          },
+          "correct": 0,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 2
+          },
+          "invalid": 27,
+          "invalid_rate": 0.9,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 3,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 5,
+            "nodes-7": 2,
+            "nodes-8": 5,
+            "nodes-9": 10
+          },
+          "truncated": 1,
+          "truncated_rate": 0.03333333333333333,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.0,
+        "accuracy_among_parsed": 0.0,
+        "correct": 0,
+        "invalid": 79,
+        "invalid_rate": 0.9875,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 1,
+        "truncated": 1,
+        "truncated_rate": 0.0125,
+        "wilson95": [
+          0.0,
+          0.0458181295355271
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    },
+    "gemma-3-4b-it": {
+      "arith_minus_gsm8k": {
+        "diff": 0.0,
+        "newcombe95": [
+          -0.0458181295355271,
+          0.0458181295355271
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.0,
+          "accuracy_among_parsed": null,
+          "baseline": {
+            "distinct_observed_answers": 60,
+            "uniform_over_observed_answers": 0.016666666666666666
+          },
+          "correct": 0,
+          "invalid": 80,
+          "invalid_rate": 1.0,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 0,
+          "templates": {
+            "buy_give": 2,
+            "buy_give_price": 2,
+            "buy_give_receive": 1,
+            "buy_give_receive_price": 3,
+            "buy_give_share": 5,
+            "buy_receive": 3,
+            "days_plus": 5,
+            "days_plus_skip": 5,
+            "one_day_spend": 7,
+            "rows_left": 3,
+            "rows_price": 6,
+            "three_days": 4,
+            "two_books": 2,
+            "two_books_skip": 2,
+            "two_books_weeks": 4,
+            "two_buys": 3,
+            "two_buys_give": 3,
+            "two_buys_give_price": 5,
+            "two_buys_give_share": 1,
+            "two_buys_share": 2,
+            "two_days": 4,
+            "two_days_spend": 4,
+            "two_sections": 2,
+            "two_sections_price": 1,
+            "two_sections_sold": 1
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0458181295355271
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.4666666666666667,
+          "accuracy_among_parsed": 0.8235294117647058,
+          "baseline": {
+            "distinct_observed_answers": 29,
+            "uniform_over_observed_answers": 0.034482758620689655
+          },
+          "correct": 14,
+          "invalid": 13,
+          "invalid_rate": 0.43333333333333335,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 17,
+          "templates": {
+            "acc": 3,
+            "filter": 2,
+            "nested": 5,
+            "pairs": 5,
+            "range_sum": 8,
+            "string": 5,
+            "window": 2
+          },
+          "truncated": 13,
+          "truncated_rate": 0.43333333333333335,
+          "wilson95": [
+            0.30232388907699753,
+            0.638577003801267
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.0,
+          "accuracy_among_parsed": null,
+          "baseline": {
+            "distinct_observed_answers": 13,
+            "uniform_over_observed_answers": 0.07692307692307693
+          },
+          "correct": 0,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 2
+          },
+          "invalid": 30,
+          "invalid_rate": 1.0,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 0,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 5,
+            "nodes-7": 2,
+            "nodes-8": 5,
+            "nodes-9": 10
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.0,
+        "accuracy_among_parsed": null,
+        "correct": 0,
+        "invalid": 80,
+        "invalid_rate": 1.0,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 0,
+        "truncated": 2,
+        "truncated_rate": 0.025,
+        "wilson95": [
+          0.0,
+          0.0458181295355271
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    },
+    "ministral-3-3b-instruct-2512": {
+      "arith_minus_gsm8k": {
+        "diff": 0.0,
+        "newcombe95": [
+          -0.0458181295355271,
+          0.0458181295355271
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.0,
+          "accuracy_among_parsed": null,
+          "baseline": {
+            "distinct_observed_answers": 60,
+            "uniform_over_observed_answers": 0.016666666666666666
+          },
+          "correct": 0,
+          "invalid": 80,
+          "invalid_rate": 1.0,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 0,
+          "templates": {
+            "buy_give": 2,
+            "buy_give_price": 2,
+            "buy_give_receive": 1,
+            "buy_give_receive_price": 3,
+            "buy_give_share": 5,
+            "buy_receive": 3,
+            "days_plus": 5,
+            "days_plus_skip": 5,
+            "one_day_spend": 7,
+            "rows_left": 3,
+            "rows_price": 6,
+            "three_days": 4,
+            "two_books": 2,
+            "two_books_skip": 2,
+            "two_books_weeks": 4,
+            "two_buys": 3,
+            "two_buys_give": 3,
+            "two_buys_give_price": 5,
+            "two_buys_give_share": 1,
+            "two_buys_share": 2,
+            "two_days": 4,
+            "two_days_spend": 4,
+            "two_sections": 2,
+            "two_sections_price": 1,
+            "two_sections_sold": 1
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0458181295355271
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.06666666666666667,
+          "accuracy_among_parsed": 0.06666666666666667,
+          "baseline": {
+            "distinct_observed_answers": 29,
+            "uniform_over_observed_answers": 0.034482758620689655
+          },
+          "correct": 2,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 30,
+          "templates": {
+            "acc": 3,
+            "filter": 2,
+            "nested": 5,
+            "pairs": 5,
+            "range_sum": 8,
+            "string": 5,
+            "window": 2
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.018477023791270378,
+            0.2132345836261692
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.0,
+          "accuracy_among_parsed": null,
+          "baseline": {
+            "distinct_observed_answers": 13,
+            "uniform_over_observed_answers": 0.07692307692307693
+          },
+          "correct": 0,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 2
+          },
+          "invalid": 30,
+          "invalid_rate": 1.0,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 0,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 5,
+            "nodes-7": 2,
+            "nodes-8": 5,
+            "nodes-9": 10
+          },
+          "truncated": 2,
+          "truncated_rate": 0.06666666666666667,
+          "wilson95": [
+            0.0,
+            0.11351339317396876
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.0,
+        "accuracy_among_parsed": null,
+        "correct": 0,
+        "invalid": 80,
+        "invalid_rate": 1.0,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 0,
+        "truncated": 1,
+        "truncated_rate": 0.0125,
+        "wilson95": [
+          0.0,
+          0.0458181295355271
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    },
+    "qwen3-4b-instruct-2507": {
+      "arith_minus_gsm8k": {
+        "diff": -0.0375,
+        "newcombe95": [
+          -0.10454720090045116,
+          0.014535415675296967
+        ]
+      },
+      "families": {
+        "arith_word": {
+          "accuracy": 0.0,
+          "accuracy_among_parsed": null,
+          "baseline": {
+            "distinct_observed_answers": 60,
+            "uniform_over_observed_answers": 0.016666666666666666
+          },
+          "correct": 0,
+          "invalid": 80,
+          "invalid_rate": 1.0,
+          "n": 80,
+          "no_show_or_failed": 0,
+          "parsed": 0,
+          "templates": {
+            "buy_give": 2,
+            "buy_give_price": 2,
+            "buy_give_receive": 1,
+            "buy_give_receive_price": 3,
+            "buy_give_share": 5,
+            "buy_receive": 3,
+            "days_plus": 5,
+            "days_plus_skip": 5,
+            "one_day_spend": 7,
+            "rows_left": 3,
+            "rows_price": 6,
+            "three_days": 4,
+            "two_books": 2,
+            "two_books_skip": 2,
+            "two_books_weeks": 4,
+            "two_buys": 3,
+            "two_buys_give": 3,
+            "two_buys_give_price": 5,
+            "two_buys_give_share": 1,
+            "two_buys_share": 2,
+            "two_days": 4,
+            "two_days_spend": 4,
+            "two_sections": 2,
+            "two_sections_price": 1,
+            "two_sections_sold": 1
+          },
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.0,
+            0.0458181295355271
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.6,
+          "accuracy_among_parsed": 1.0,
+          "baseline": {
+            "distinct_observed_answers": 29,
+            "uniform_over_observed_answers": 0.034482758620689655
+          },
+          "correct": 18,
+          "invalid": 12,
+          "invalid_rate": 0.4,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 18,
+          "templates": {
+            "acc": 3,
+            "filter": 2,
+            "nested": 5,
+            "pairs": 5,
+            "range_sum": 8,
+            "string": 5,
+            "window": 2
+          },
+          "truncated": 12,
+          "truncated_rate": 0.4,
+          "wilson95": [
+            0.42320360253322475,
+            0.7540937188319815
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.03333333333333333,
+          "accuracy_among_parsed": 1.0,
+          "baseline": {
+            "distinct_observed_answers": 13,
+            "uniform_over_observed_answers": 0.07692307692307693
+          },
+          "correct": 1,
+          "direct_edge_baseline": {
+            "direct_edge_equals_answer": 0,
+            "items_with_direct_edge": 2
+          },
+          "invalid": 29,
+          "invalid_rate": 0.9666666666666667,
+          "n": 30,
+          "no_show_or_failed": 0,
+          "parsed": 1,
+          "templates": {
+            "nodes-10": 8,
+            "nodes-6": 5,
+            "nodes-7": 2,
+            "nodes-8": 5,
+            "nodes-9": 10
+          },
+          "truncated": 24,
+          "truncated_rate": 0.8,
+          "wilson95": [
+            0.005908590381612455,
+            0.16670390991409173
+          ]
+        }
+      },
+      "gsm8k": {
+        "accuracy": 0.0375,
+        "accuracy_among_parsed": 0.75,
+        "correct": 3,
+        "invalid": 76,
+        "invalid_rate": 0.95,
+        "n": 80,
+        "no_show_or_failed": 0,
+        "parsed": 4,
+        "truncated": 0,
+        "truncated_rate": 0.0,
+        "wilson95": [
+          0.012834568919911402,
+          0.10454720090045115
+        ]
+      },
+      "no_show_or_failed": 0,
+      "status": "COMPLETE"
+    }
+  },
+  "posthoc_sentinel_normalization": {
+    "label": "POST-HOC",
+    "method": "Same items, same truncation rule on the raw stdout, with the b3 grader-input normalization from sealedbench/v2/grade_b3.py applied before the registered integer and code rules. Not the registered primary endpoint.",
+    "models": {
+      "falcon3-1b-instruct": {
+        "arith_minus_gsm8k": {
+          "diff": 0.43749999999999994,
+          "newcombe95": [
+            0.2866172484138846,
+            0.5600877630684398
+          ]
+        },
+        "families": {
+          "arith_word": {
+            "accuracy": 0.7,
+            "accuracy_among_parsed": 0.8235294117647058,
+            "correct": 56,
+            "invalid": 12,
+            "invalid_rate": 0.15,
+            "n": 80,
+            "parsed": 68,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.5923184607866026,
+              0.7893542873991866
+            ]
+          },
+          "code_output": {
+            "accuracy": 0.06666666666666667,
+            "accuracy_among_parsed": 0.06666666666666667,
+            "correct": 2,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "n": 30,
+            "parsed": 30,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.018477023791270378,
+              0.2132345836261692
+            ]
+          },
+          "graph_path": {
+            "accuracy": 0.03333333333333333,
+            "accuracy_among_parsed": 0.058823529411764705,
+            "correct": 1,
+            "invalid": 13,
+            "invalid_rate": 0.43333333333333335,
+            "n": 30,
+            "parsed": 17,
+            "truncated": 1,
+            "truncated_rate": 0.03333333333333333,
+            "wilson95": [
+              0.005908590381612455,
+              0.16670390991409173
+            ]
+          }
+        },
+        "gsm8k": {
+          "accuracy": 0.2625,
+          "accuracy_among_parsed": 0.42,
+          "correct": 21,
+          "invalid": 30,
+          "invalid_rate": 0.375,
+          "n": 80,
+          "parsed": 50,
+          "truncated": 1,
+          "truncated_rate": 0.0125,
+          "wilson95": [
+            0.1785740148850936,
+            0.36818959664428175
+          ]
+        }
+      },
+      "gemma-3-4b-it": {
+        "arith_minus_gsm8k": {
+          "diff": -0.1375,
+          "newcombe95": [
+            -0.26694334579582835,
+            -0.0019103996304833948
+          ]
+        },
+        "families": {
+          "arith_word": {
+            "accuracy": 0.1875,
+            "accuracy_among_parsed": 0.9375,
+            "correct": 15,
+            "invalid": 64,
+            "invalid_rate": 0.8,
+            "n": 80,
+            "parsed": 16,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.11705310466977323,
+              0.28658322628993116
+            ]
+          },
+          "code_output": {
+            "accuracy": 0.4666666666666667,
+            "accuracy_among_parsed": 0.8235294117647058,
+            "correct": 14,
+            "invalid": 13,
+            "invalid_rate": 0.43333333333333335,
+            "n": 30,
+            "parsed": 17,
+            "truncated": 13,
+            "truncated_rate": 0.43333333333333335,
+            "wilson95": [
+              0.30232388907699753,
+              0.638577003801267
+            ]
+          },
+          "graph_path": {
+            "accuracy": 0.7,
+            "accuracy_among_parsed": 0.7,
+            "correct": 21,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "n": 30,
+            "parsed": 30,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.5212421254128504,
+              0.8333525173175619
+            ]
+          }
+        },
+        "gsm8k": {
+          "accuracy": 0.325,
+          "accuracy_among_parsed": 0.8666666666666667,
+          "correct": 26,
+          "invalid": 50,
+          "invalid_rate": 0.625,
+          "n": 80,
+          "parsed": 30,
+          "truncated": 2,
+          "truncated_rate": 0.025,
+          "wilson95": [
+            0.2324416184435817,
+            0.4335947268938527
+          ]
+        }
+      },
+      "ministral-3-3b-instruct-2512": {
+        "arith_minus_gsm8k": {
+          "diff": 0.09999999999999998,
+          "newcombe95": [
+            -0.008308732314132358,
+            0.20860427522677194
+          ]
+        },
+        "families": {
+          "arith_word": {
+            "accuracy": 0.9125,
+            "accuracy_among_parsed": 0.9125,
+            "correct": 73,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "n": 80,
+            "parsed": 80,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.8302320449152499,
+              0.9569679982179401
+            ]
+          },
+          "code_output": {
+            "accuracy": 0.06666666666666667,
+            "accuracy_among_parsed": 0.06666666666666667,
+            "correct": 2,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "n": 30,
+            "parsed": 30,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.018477023791270378,
+              0.2132345836261692
+            ]
+          },
+          "graph_path": {
+            "accuracy": 0.5666666666666667,
+            "accuracy_among_parsed": 0.6071428571428571,
+            "correct": 17,
+            "invalid": 2,
+            "invalid_rate": 0.06666666666666667,
+            "n": 30,
+            "parsed": 28,
+            "truncated": 2,
+            "truncated_rate": 0.06666666666666667,
+            "wilson95": [
+              0.3919730700081361,
+              0.7262251442353347
+            ]
+          }
+        },
+        "gsm8k": {
+          "accuracy": 0.8125,
+          "accuracy_among_parsed": 0.8552631578947368,
+          "correct": 65,
+          "invalid": 4,
+          "invalid_rate": 0.05,
+          "n": 80,
+          "parsed": 76,
+          "truncated": 1,
+          "truncated_rate": 0.0125,
+          "wilson95": [
+            0.7134167737100688,
+            0.8829468953302267
+          ]
+        }
+      },
+      "qwen3-4b-instruct-2507": {
+        "arith_minus_gsm8k": {
+          "diff": -0.050000000000000044,
+          "newcombe95": [
+            -0.13588597047360562,
+            0.030453278454617205
+          ]
+        },
+        "families": {
+          "arith_word": {
+            "accuracy": 0.9125,
+            "accuracy_among_parsed": 0.9125,
+            "correct": 73,
+            "invalid": 0,
+            "invalid_rate": 0.0,
+            "n": 80,
+            "parsed": 80,
+            "truncated": 0,
+            "truncated_rate": 0.0,
+            "wilson95": [
+              0.8302320449152499,
+              0.9569679982179401
+            ]
+          },
+          "code_output": {
+            "accuracy": 0.6,
+            "accuracy_among_parsed": 1.0,
+            "correct": 18,
+            "invalid": 12,
+            "invalid_rate": 0.4,
+            "n": 30,
+            "parsed": 18,
+            "truncated": 12,
+            "truncated_rate": 0.4,
+            "wilson95": [
+              0.42320360253322475,
+              0.7540937188319815
+            ]
+          },
+          "graph_path": {
+            "accuracy": 0.2,
+            "accuracy_among_parsed": 1.0,
+            "correct": 6,
+            "invalid": 24,
+            "invalid_rate": 0.8,
+            "n": 30,
+            "parsed": 6,
+            "truncated": 24,
+            "truncated_rate": 0.8,
+            "wilson95": [
+              0.0950510717728987,
+              0.3730569641314825
+            ]
+          }
+        },
+        "gsm8k": {
+          "accuracy": 0.9625,
+          "accuracy_among_parsed": 0.9625,
+          "correct": 77,
+          "invalid": 0,
+          "invalid_rate": 0.0,
+          "n": 80,
+          "parsed": 80,
+          "truncated": 0,
+          "truncated_rate": 0.0,
+          "wilson95": [
+            0.8954527990995489,
+            0.9871654310800886
+          ]
+        }
+      }
+    },
+    "registered_primary": false
+  },
+  "primary_endpoint": "Per model and per family, accuracy with invalid and truncated answers counted as wrong.",
+  "protocol_version": "sealedbench/v2",
+  "question_set_sha256": "473acec24390a708a3323d51fe8a1cd2265591bcf8a4039f4564f49ab1833bdb"
+}

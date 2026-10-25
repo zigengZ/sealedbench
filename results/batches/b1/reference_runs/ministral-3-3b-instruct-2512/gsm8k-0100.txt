@@ -1,0 +1,13 @@
+Let's break it down step-by-step:
+
+1. **First friend's rings**: 20
+2. **Second friend's rings**: 20 + (1/4 × 20) = 20 + 5 = 25
+3. **Fourth friend's rings**: Given as 60
+4. **Third friend's rings**: 60 + 10 = 70
+
+Now, add them all together:
+20 + 25 + 70 + 60 = 175
+
+#### 175 [end of text]
+
+

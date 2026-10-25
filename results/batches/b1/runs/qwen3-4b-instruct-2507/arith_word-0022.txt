@@ -1,0 +1,15 @@
+Boris first sets out 2 rows with 5 seats each:
+
+2 rows × 5 seats = 10 seats
+
+Then he adds 4 rows with 10 seats each:
+
+4 rows × 10 seats = 40 seats
+
+Now, add both amounts:
+
+10 + 40 = 50 seats
+
+#### 50 [end of text]
+
+

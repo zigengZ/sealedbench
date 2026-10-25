@@ -1,0 +1,18 @@
+To find the shortest path between Nell and Sage, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to Nell (N) as 0 and to Sage (S) as infinity (∞).
+   - Set the distance to Amber (A) as infinity (∞) and to all other nodes as 0.
+
+2. **Distribute Distances:**
+   - Start from Nell (N) and update the distances to all other nodes.
+   - Update the distance to Sage (S) from Nell (N) as 0 + 2 (Amber Sage 3).
+
+3. **Repeat Until Distances Are Updated:**
+   - Continue updating distances to all other nodes from Nell (N).
+   - Update the distance to Sage (S) from Nell (N) as 0 + 2 (Amber Sage 3).
+   - Update the distance to Sage (S) from Nell (N) as 0 + 1 (Cleo Nell 1).
+   - Update the distance to Sage (S) from Nell (N) as 0 + 2 (Amber Vale 6).
+   - Update the distance to Sage (S) from Nell (N) as 0 + 3 (Amber West 6).
+   - Update the
+

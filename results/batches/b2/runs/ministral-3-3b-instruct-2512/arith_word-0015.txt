@@ -1,0 +1,10 @@
+Hugo reads **55** pages.
+
+Reasoning:
+- 11 pages/day × 5 days = 55 pages
+- 55 pages + 20 pages = 75 pages
+- 75 pages - 26 blank pages = **55 pages**
+
+#### 55 [end of text]
+
+

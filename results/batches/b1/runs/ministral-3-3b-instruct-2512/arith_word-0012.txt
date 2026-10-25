@@ -1,0 +1,7 @@
+Pavel starts with 4 packs × 3 ribbons = 12 ribbons.
+After giving 9 to Kira: 12 - 9 = 3 ribbons.
+Kira then gives back 18 ribbons: 3 + 18 = 21 ribbons.
+
+#### 21 [end of text]
+
+

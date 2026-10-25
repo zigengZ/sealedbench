@@ -1,0 +1,23 @@
+We are given:
+
+- Cindy has 4 pets.
+- Marcia has 2 more pets than Cindy.
+- Jan has three times the number of pets as Marcia.
+
+Step 1: Find how many pets Marcia has.  
+Marcia has 2 more than Cindy:  
+$ 4 + 2 = 6 $ pets.
+
+Step 2: Find how many pets Jan has.  
+Jan has three times as many as Marcia:  
+$ 3 \times 6 = 18 $ pets.
+
+Step 3: Add up all the pets.  
+Cindy: 4  
+Marcia: 6  
+Jan: 18  
+Total: $ 4 + 6 + 18 = 28 $
+
+#### 28 [end of text]
+
+

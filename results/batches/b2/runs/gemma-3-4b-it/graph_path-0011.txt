@@ -1,0 +1,15 @@
+We want to find the shortest path between Nell and Poe in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Nell to Poe:
+1. Nell -> Quill -> Reed -> Poe: 4 + 8 + 9 = 21
+2. Nell -> Vale -> Zed -> Blair (not leading to Poe)
+3. Nell -> Ash (not leading to Poe)
+4. Nell -> Quill -> Vale (not leading to Poe)
+5. Nell -> Reed -> Poe: 7 + 9 = 16
+6. Nell -> Lark -> Poe: 4 + 4 = 8
+
+Comparing the paths, the shortest path is Nell -> Lark -> Poe with a total weight of 8.
+
+#### 8 [end of text]
+
+

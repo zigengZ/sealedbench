@@ -1,0 +1,11 @@
+Nico starts with 12 rows of 13 seats each:
+12 × 13 = 156 seats.
+
+Then adds 2 rows of 5 seats each:
+2 × 5 = 10 seats.
+
+Total seats = 156 + 10 = 166 seats.
+
+#### 166 [end of text]
+
+

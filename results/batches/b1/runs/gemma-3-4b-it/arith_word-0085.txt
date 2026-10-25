@@ -1,0 +1,6 @@
+First, find the total number of oranges Felix bought: 9 packs * 10 oranges/pack = 90 oranges.
+Then, subtract the number of oranges Felix gave to Mina: 90 oranges - 42 oranges = 48 oranges.
+
+####48 [end of text]
+
+

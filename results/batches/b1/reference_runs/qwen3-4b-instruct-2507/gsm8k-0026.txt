@@ -1,0 +1,25 @@
+Mishka bought:
+
+- 3 pairs of shorts at $16.50 each  
+- 3 pairs of pants at $22.50 each  
+- 3 pairs of shoes at $42 each  
+
+First, calculate the cost for each type:
+
+**Shorts:**  
+3 × $16.50 = $49.50
+
+**Pants:**  
+3 × $22.50 = $67.50
+
+**Shoes:**  
+3 × $42 = $126
+
+Now, add them all together:
+
+$49.50 + $67.50 + $126 =  
+= $117 + $126 = $243
+
+#### 243 [end of text]
+
+

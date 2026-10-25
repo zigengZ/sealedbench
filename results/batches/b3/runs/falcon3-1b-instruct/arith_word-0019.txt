@@ -1,0 +1,7 @@
+Olga starts with 10 rows of seats, each with 9 seats. So, the total number of seats is 10 rows * 9 seats/row = 90 seats.
+
+After 7 seats are sold, the number of unsold seats is 90 seats - 7 seats = 83 seats.
+
+#### 83 [end of text]
+
+

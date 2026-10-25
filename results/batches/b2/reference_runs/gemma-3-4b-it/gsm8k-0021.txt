@@ -1,0 +1,42 @@
+Let R be Raymond's birth year and S be Samantha's birth year.
+We are given that Raymond was born 6 years before Samantha, so R = S - 6.
+Raymond had a son at the age of 23. This means Raymond was 23 years old when his son was born.
+So, Raymond's birth year - 23 = son's birth year.
+Let son's birth year be x. Then R - 23 = x.
+Samantha is now 31. So, S = current year - 31.
+We know R = S - 6, so R = (current year - 31) - 6 = current year - 37.
+Also, R - 23 = x, so (current year - 37) - 23 = x.
+Thus, x = current year - 60.
+We want to find how many years ago Raymond's son was born. Let this be y.
+Then x - y = son's current age.
+Since Raymond had a son at age 23, the son's current age is 23.
+So, x - y = 23.
+We have x = current year - 60, so (current year - 60) - y = 23.
+current year - 60 - y = 23
+current year - y = 83
+We know Samantha is 31 now, so current year = 31 + S.
+Since R = S - 6, current year = 31 + (R + 6) = 37 + R.
+So, (37 + R) - y = 83
+R - y = 83 - 37 = 46
+We also know R - 23 = x, so R = x + 23.
+Substituting this into R - y = 46, we get (x + 23) - y = 46
+x - y = 46 - 23 = 23.
+This is the same as x - y = 23, which we already knew.
+
+Let's find the current year.
+Samantha is 31, so current year = 31 + S.
+Raymond was born 6 years before Samantha, so R = S - 6.
+Raymond had a son at age 23, so Raymond was 23 when his son was born.
+So, Raymond's age when his son was born is 23.
+Raymond's son's age now is 23 - (current year - Raymond's birth year).
+Let the current year be C.
+Samantha's age is 31, so S = C - 31.
+Raymond's age is R = C - 31 - 6 = C - 37.
+Raymond's son was born when Raymond was 23, so son's birth year = C - 37 - 23 = C - 60.
+The son's age now is C - 60 - (C - 31) = C - 60 - C + 31 = -29. This is incorrect.
+
+Let's consider the son's age.
+Raymond was 23 when his son was born.
+So, son's age at birth = 23 - (current year - Raymond's birth year).
+Let the current year be Y.
+

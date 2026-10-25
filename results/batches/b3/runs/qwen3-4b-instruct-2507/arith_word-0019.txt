@@ -1,0 +1,11 @@
+First, find the total number of seats:
+
+10 rows × 9 seats per row = 90 seats
+
+Then, subtract the number of seats sold:
+
+90 seats - 7 sold = 83 seats still unsold
+
+#### 83 [end of text]
+
+

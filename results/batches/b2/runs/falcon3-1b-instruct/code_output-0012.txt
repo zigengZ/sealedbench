@@ -1,0 +1,15 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+9
+```
+
+Explanation:
+
+The program initializes a variable `total` to 0. It then iterates over the range from 0 to 8 (inclusive). For each iteration, it checks if the current value (`value`) is 0. If it is, it adds 0 to `total`. Otherwise, it adds the current value to `total`.
+
+After the loop completes, the final value of `total` is printed. In this case, `total` is 9, which is the sum of 0 (from the first iteration) and 9 (from the remaining iterations).
+
+Therefore, the final result is 9. [end of text]
+
+

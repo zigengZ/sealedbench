@@ -1,0 +1,47 @@
+To solve this problem, we need to calculate the total number of cups of dog food Cecilia will use over the first year.
+
+**Step 1: Calculate the number of days the puppy will be fed.**
+
+- The puppy is fed for 180 days initially.
+- After the initial 180 days, the puppy will be fed for the rest of its life.
+
+**Step 2: Calculate the number of days the puppy will be fed after the initial 180 days.**
+
+- The puppy will be fed for \(180 - 180 = 0\) days after the initial 180 days.
+
+**Step 3: Calculate the total number of days the puppy will be fed.**
+
+- Total days = 180 (initial) + 0 (remaining) = 180 days.
+
+**Step 4: Calculate the total number of cups of dog food used.**
+
+- For the initial 180 days, the puppy is fed 1 cup per day.
+  \[
+  180 \text{ days} \times 1 \text{ cup/day} = 180 \text{ cups}
+  \]
+
+- For the remaining 0 days, the puppy is fed 2 cups per day.
+  \[
+  0 \text{ days} \times 2 \text{ cups/day} = 0 \text{ cups}
+  \]
+
+**Step 5: Calculate the total number of cups of dog food used.**
+
+- Total cups = 180 (initial) + 0 (remaining) = 180 cups.
+
+**Step 6: Determine how many bags of dog food are needed.**
+
+- One bag contains 110 cups.
+- Number of bags = Total cups / Cups per bag = 180 / 110.
+
+**Step 7: Perform the division to find the number of bags.**
+
+\[
+\frac{180}{110} \approx 1.6363636363636363
+\]
+
+Since Cecilia cannot buy a fraction of a bag, she will need to round up to the nearest whole number.
+
+#### 2 [end of text]
+
+

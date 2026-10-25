@@ -1,0 +1,12 @@
+Let the original price be $x$.
+The discount is 25% of the original price, which is 0.25x.
+The price after the discount is the original price minus the discount, so $x - 0.25x = 0.75x$.
+We are given that the price after the discount is $19.50.
+Therefore, $0.75x = 19.50$.
+To find the original price, we divide both sides by 0.75:
+$x = \frac{19.50}{0.75} = \frac{1950}{75} = \frac{390}{15} = \frac{78}{3} = 26$.
+The original price of the book was $26.
+
+#### 26 [end of text]
+
+

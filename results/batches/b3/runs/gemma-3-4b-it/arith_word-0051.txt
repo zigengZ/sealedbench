@@ -1,0 +1,8 @@
+First, calculate Rosa's earnings on day 1: 20 dollars/hour * 3 hours = 60 dollars.
+Next, calculate Rosa's earnings on day 2: 20 dollars/hour * 2 hours = 40 dollars.
+Then, calculate Rosa's total earnings: 60 dollars + 40 dollars = 100 dollars.
+Finally, subtract the amount she spent from her total earnings: 100 dollars - 44 dollars = 56 dollars.
+
+####56 [end of text]
+
+

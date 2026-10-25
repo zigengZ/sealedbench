@@ -1,0 +1,15 @@
+First, calculate the total number of magnets Tara initially had:
+
+3 packs * 8 magnets/pack = 24 magnets
+
+Next, subtract the 14 magnets given to Pavel:
+
+24 magnets - 14 magnets = 10 magnets
+
+Then, add the 17 magnets given by Pavel:
+
+10 magnets + 17 magnets = 27 magnets
+
+So, Tara now has #### 27 magnets. [end of text]
+
+

@@ -1,0 +1,60 @@
+{
+  "batch_id": "b2",
+  "compared": 10,
+  "items": [
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0000",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0001",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0002",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0003",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0004",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0005",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0006",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0007",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0008",
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0009",
+      "returncode": 0
+    }
+  ],
+  "k": 10,
+  "matches": 10,
+  "model": "qwen3-4b-instruct-2507",
+  "output_dir": "/root/codes/sealedbench-p2r/results/batches/b2/replay/qwen3-4b-instruct-2507/20261019T060400Z"
+}

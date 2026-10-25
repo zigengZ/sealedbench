@@ -1,0 +1,12 @@
+First, calculate the total number of marbles Zane initially has:
+5 packs * 7 marbles/pack = 35 marbles
+
+Next, subtract the marbles given to Hugo:
+35 marbles - 19 marbles = 16 marbles
+
+Then, add the marbles given to Hugo back to the remaining marbles:
+16 marbles + 14 marbles = 30 marbles
+
+So, Zane has #### 30 marbles. [end of text]
+
+

@@ -1,0 +1,13 @@
+Ryan plants 2 flowers per day for 15 days.
+
+First, find the total number of flowers planted:
+
+2 flowers/day × 15 days = 30 flowers planted.
+
+But 5 of them did not grow, so we subtract those:
+
+30 - 5 = 25 flowers that grew.
+
+#### 25 [end of text]
+
+

@@ -1,0 +1,5 @@
+Ivy starts with 3 rows of 4 seats each, which totals **12 seats** (3 × 4 = 12). Then she adds 3 rows of 5 seats each, totaling **15 seats** (3 × 5 = 15). Adding both gives **27 seats** in total.
+
+#### 27 [end of text]
+
+

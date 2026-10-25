@@ -1,0 +1,11 @@
+First, find out how much a child eats: A child eats half as much as an adult, so a child eats 10 lbs / 2 = 5 lbs.
+
+Next, find the total amount adults will eat: 20 adults * 10 lbs/adult = 200 lbs.
+
+Then, find the total amount children will eat: 5 children * 5 lbs/child = 25 lbs.
+
+Finally, find the total amount of potato salad needed: 200 lbs + 25 lbs = 225 lbs.
+
+####225 [end of text]
+
+

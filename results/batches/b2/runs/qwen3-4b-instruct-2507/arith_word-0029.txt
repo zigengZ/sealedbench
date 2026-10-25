@@ -1,0 +1,19 @@
+First, find the total number of cookies Gina buys:
+
+- From the first 9 packs:  
+  $ 9 \text{ packs} \times 8 \text{ cookies} = 72 \text{ cookies} $
+
+- From the next 4 packs:  
+  $ 4 \text{ packs} \times 9 \text{ cookies} = 36 \text{ cookies} $
+
+Add them together:  
+$ 72 + 36 = 108 $ cookies
+
+Then Gina gives 37 cookies to Dmitri:  
+$ 108 - 37 = 71 $ cookies
+
+So, Gina has **71** cookies left.
+
+#### 71 [end of text]
+
+

@@ -1,0 +1,30 @@
+Let's trace through the program step by step:
+
+Initial setup:
+- `words = ['cloud', 'ivory', 'timber']`
+- `out = ""`
+
+Loop over `range(len(words))`, which is `range(3)` → indices 0, 1, 2.
+
+**Index 0:**
+- `piece = words[0] = 'cloud'`
+- `index % 2 == 0` → True → `piece = 'CLOUD'`
+- `out == ""` → True → `out = 'CLOUD'`
+
+**Index 1:**
+- `piece = words[1] = 'ivory'`
+- `index % 2 == 0` → False → `piece = 'ivory'` (no change)
+- `out != ""` → True → `out = out + '-' + piece` → `'CLOUD-ivory'`
+
+**Index 2:**
+- `piece = words[2] = 'timber'`
+- `index % 2 == 0` → False → `piece = 'timber'` (no change)
+- `out != ""` → True → `out = out + '-' + piece` → `'CLOUD-ivory-timber'`
+
+Final output: `'CLOUD-ivory-timber'`
+
+``` 
+CLOUD-ivory-timber
+``` [end of text]
+
+

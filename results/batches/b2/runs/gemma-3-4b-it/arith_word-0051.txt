@@ -1,0 +1,11 @@
+First, let's calculate the number of stamps from the first 9 packs: 9 packs * 3 stamps/pack = 27 stamps.
+
+Next, let's calculate the number of stamps from the 4 packs with 9 stamps each: 4 packs * 9 stamps/pack = 36 stamps.
+
+Now, let's add the stamps from both sets of packs: 27 stamps + 36 stamps = 63 stamps.
+
+Finally, let's subtract the 2 stamps Ivy gave to Mina: 63 stamps - 2 stamps = 61 stamps.
+
+#### 61 [end of text]
+
+

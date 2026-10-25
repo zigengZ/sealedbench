@@ -1,0 +1,17 @@
+Zane buys 5 packs of marbles, and each pack has 7 marbles:
+
+5 × 7 = 35 marbles.
+
+Then Zane gives 19 marbles to Hugo:
+
+35 − 19 = 16 marbles left with Zane.
+
+Then Hugo gives Zane 14 more marbles:
+
+16 + 14 = 30 marbles.
+
+So, Zane now has 30 marbles.
+
+#### 30 [end of text]
+
+

@@ -1,0 +1,27 @@
+Let's denote the number of silver coins Gretchen has as \( S \).
+
+According to the problem, Gretchen has 30 more gold coins than silver coins. Therefore, the number of gold coins she has is \( S + 30 \).
+
+We know that Gretchen has a total of 110 coins. Thus, we can set up the following equation:
+
+\[ S + (S + 30) = 110 \]
+
+Combine like terms:
+
+\[ 2S + 30 = 110 \]
+
+Subtract 30 from both sides:
+
+\[ 2S = 80 \]
+
+Divide both sides by 2:
+
+\[ S = 40 \]
+
+Now, to find the number of gold coins, substitute \( S = 40 \) back into the expression for gold coins:
+
+\[ \text{Gold coins} = S + 30 = 40 + 30 = 70 \]
+
+So, Gretchen has #### 70 gold coins. [end of text]
+
+

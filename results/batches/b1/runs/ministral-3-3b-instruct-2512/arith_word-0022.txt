@@ -1,0 +1,5 @@
+Boris starts with 2 rows of 5 seats each, which totals **10 seats** (2 × 5 = 10). Then he adds 4 rows of 10 seats each, totaling **40 seats** (4 × 10 = 40). Adding these together gives **50 seats** in total.
+
+#### 50 [end of text]
+
+

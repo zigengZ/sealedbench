@@ -1,0 +1,7 @@
+Ben has 4 packs × 4 oranges = 16 oranges.
+After giving 7 to Willa, he has 16 - 7 = 9 oranges left.
+Each orange is worth $2, so 9 × 2 = $18.
+
+#### 18 [end of text]
+
+

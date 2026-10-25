@@ -1,0 +1,52 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Blair, Drew, Fern, Glen, Jules, Moss, Poe**
+
+And the edges with weights:
+
+- Bay–Drew: 5  
+- Bay–Jules: 2  
+- Blair–Glen: 4  
+- Blair–Jules: 8  
+- Blair–Moss: 1  
+- Drew–Poe: 9  
+- Fern–Glen: 9  
+- Fern–Moss: 5  
+- Fern–Poe: 1  
+- Glen–Poe: 4  
+- Moss–Poe: 5  
+
+We are to find the **shortest path from Glen to Moss**.
+
+---
+
+### Step 1: List all edges with weights
+
+We can represent the graph as an undirected graph, so each edge is bidirectional.
+
+We want the shortest path from **Glen** to **Moss**.
+
+Let’s consider possible paths from Glen to Moss.
+
+---
+
+### Step 2: Consider direct and indirect paths
+
+**Direct path?**  
+Is there a direct edge between Glen and Moss?  
+No. So we must go through intermediate nodes.
+
+---
+
+### Path 1: Glen → Poe → Moss  
+- Glen–Poe: 4  
+- Poe–Moss: 5  
+→ Total: 4 + 5 = **9**
+
+---
+
+### Path 2: Glen → Fern → Moss  
+- Glen–Fern: 9  
+- Fern–Moss: 5  
+→ Total: 
+

@@ -1,0 +1,13 @@
+Leo buys 9 packs of ribbons, with 7 ribbons in each pack. So, he has 9 * 7 = 63 ribbons.
+
+Then, Leo buys 6 packs with 5 ribbons in each pack. This adds 6 * 5 = 30 ribbons.
+
+In total, Leo has 63 + 30 = 93 ribbons.
+
+Leo gives 25 ribbons to Ava.
+
+The total worth of the ribbons is 93 * 9 = 857 dollars.
+
+#### 857 [end of text]
+
+

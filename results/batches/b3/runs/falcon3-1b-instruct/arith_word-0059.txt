@@ -1,0 +1,23 @@
+First, calculate the total number of seats initially:
+
+10 rows * 5 seats/row = 50 seats
+
+Then, add the additional rows:
+
+2 rows * 4 seats/row = 8 seats
+
+Total seats after additions:
+
+50 seats + 8 seats = 58 seats
+
+Seats sold:
+
+29 seats
+
+Seats still unsold:
+
+58 seats - 29 seats = 29 seats
+
+#### 29 [end of text]
+
+

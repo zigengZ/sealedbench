@@ -1,0 +1,27 @@
+To determine the maximum profit, we need to calculate the profit for each purchase plan and then compare them.
+
+**Jewelry Plan:**
+- Initial price: $5,000
+- Profit percentage: 2.5%
+
+Profit for jewelry = Initial price * Profit percentage / 100
+= $5,000 * 2.5 / 100
+= $125
+
+**Electronic Gadgets Plan:**
+- Initial price: $8,000
+- Profit percentage: 1.2%
+
+Profit for electronic gadgets = Initial price * Profit percentage / 100
+= $8,000 * 1.2 / 100
+= $96
+
+**Comparison:**
+- Jewelry profit: $125
+- Electronic gadgets profit: $96
+
+The merchant should choose the electronic gadgets plan to maximize profit, as it yields a higher profit of $96 compared to the jewelry plan's $125.
+
+#### 96 [end of text]
+
+

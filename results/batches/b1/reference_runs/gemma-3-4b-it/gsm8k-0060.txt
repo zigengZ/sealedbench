@@ -1,0 +1,14 @@
+First, let's find the number of unripe oranges: 20% of 25 = 0.20 * 25 = 5 oranges.
+
+Next, let's find the number of bad oranges: 1 orange.
+
+Then, let's find the number of sour oranges: 2 oranges.
+
+Now, let's find the total number of oranges that are bad, unripe, or sour: 1 + 5 + 2 = 8 oranges.
+
+Finally, let's find the number of good oranges: 25 - 8 = 17 oranges.
+
+####17
+ [end of text]
+
+

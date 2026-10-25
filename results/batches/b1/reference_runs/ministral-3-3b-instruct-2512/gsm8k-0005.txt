@@ -1,0 +1,9 @@
+Kylar buys 16 glasses with a discount every second glass.
+
+- First 8 glasses: 8 × $5 = $40
+- Next 8 glasses (every second glass): 4 × (60% of $5) = 4 × $3 = $12
+- Total cost: $40 + $12 = $52
+
+#### 52 [end of text]
+
+

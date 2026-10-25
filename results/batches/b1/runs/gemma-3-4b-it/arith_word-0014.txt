@@ -1,0 +1,11 @@
+First, let's calculate the total pages Nico reads in one day: 12 pages/day + 9 pages/day = 21 pages/day.
+
+Next, let's calculate the total pages Nico reads in 4 days: 21 pages/day * 4 days = 84 pages.
+
+Then, let's calculate the total pages Nico reads in one week (4 days): 84 pages.
+
+Finally, let's calculate the total pages Nico reads in 3 weeks: 84 pages/week * 3 weeks = 252 pages.
+
+####252 [end of text]
+
+

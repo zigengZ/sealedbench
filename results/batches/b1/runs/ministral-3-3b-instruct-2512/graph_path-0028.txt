@@ -1,0 +1,23 @@
+To find the shortest path from **Cleo** to **Xen**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward here).
+
+### Step-by-Step Reasoning:
+1. **Start at Cleo** (distance = 0).
+2. **Neighbors of Cleo**:
+   - **Blair** (distance = 7).
+   - **Poe** (distance = 1).
+3. **Update distances**:
+   - Poe (1) is closer than any other path to Poe.
+   - Blair (7) is now the only candidate for further expansion.
+4. **Expand Poe** (distance = 1):
+   - Poe connects to **Eden** (distance = 1 + 9 = 10).
+   - Poe connects to **Cleo** (already visited).
+5. **Expand Blair** (distance = 7):
+   - Blair connects to **Fern** (7 + 5 = 12).
+   - Blair connects to **Kai** (7 + 5 = 12).
+   - Blair connects to **Tess** (7 + 9 = 16).
+6. **Expand Eden** (distance = 10):
+   - Eden connects to **Tess** (10 + 6 = 16).
+   - Eden connects to **Poe** (already visited).
+7. **Expand Fern** (distance = 12):
+   - Fern connects to **Tess** (12 +
+

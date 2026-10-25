@@ -1,0 +1,13 @@
+Diego earns $23 per hour and works 3 hours.  
+
+First, calculate his total earnings:  
+$23 \times 3 = 69$ dollars.  
+
+Then, he spends $68.  
+
+Subtract the amount spent from his earnings:  
+$69 - 68 = 1$ dollar.  
+
+#### 1 [end of text]
+
+

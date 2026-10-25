@@ -1,0 +1,8 @@
+First, find the amount of water each girl got: 1/6 of 24 liters is (1/6) * 24 = 4 liters.
+Since there are two girls, they got a total of 2 * 4 = 8 liters.
+Then, add the water the boy got: 8 liters + 6 liters = 14 liters.
+Finally, subtract the total water used from the original amount: 24 liters - 14 liters = 10 liters.
+
+####10 [end of text]
+
+

@@ -1,0 +1,20 @@
+Let's denote Darrell's age as \(7x\) and Allen's age as \(11x\), where \(x\) is a common factor.
+
+According to the problem, the sum of their ages is 162:
+\[ 7x + 11x = 162 \]
+
+Combine the terms:
+\[ 18x = 162 \]
+
+Solve for \(x\):
+\[ x = \frac{162}{18} = 9 \]
+
+Now, Allen's current age is:
+\[ 11x = 11 \times 9 = 99 \]
+
+Allen's age 10 years from now will be:
+\[ 99 + 10 = 109 \]
+
+So, Allen's age 10 years from now is #### 109. [end of text]
+
+

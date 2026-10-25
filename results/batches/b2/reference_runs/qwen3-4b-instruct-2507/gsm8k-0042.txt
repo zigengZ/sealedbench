@@ -1,0 +1,14 @@
+Grandma baked 5 apple pies.  
+Each pie was cut into 8 pieces, so the total number of pieces is:
+
+5 pies × 8 pieces per pie = 40 pieces
+
+At the end, 14 pieces were left.
+
+So, the number of pieces taken by the guests is:
+
+40 total pieces − 14 remaining pieces = 26 pieces
+
+#### 26 [end of text]
+
+

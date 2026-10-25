@@ -1,0 +1,116 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path between Reed and Xen**, and report the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes: Amber, Ash, Cedar, Dove, Eden, Glen, Nell, Reed, Xen, York
+
+We are to find the shortest path from **Reed to Xen**.
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber – Ash: 2  
+- Amber – Nell: 2  
+- Ash – Cedar: 2  
+- Cedar – Eden: 5  
+- Cedar – Glen: 4  
+- Cedar – Nell: 4  
+- Cedar – Xen: 2  
+- Dove – Eden: 4  
+- Dove – Reed: 6  
+- Eden – Glen: 3  
+- Eden – Reed: 3  
+- Eden – Xen: 9  
+- Eden – York: 8  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Focus on path from Reed to Xen
+
+We want the shortest path from **Reed** to **Xen**.
+
+Let’s consider possible paths.
+
+---
+
+#### Option 1: Direct edge?
+Is there a direct edge between Reed and Xen?  
+No. The edges involving Reed:  
+- Reed – Dove: 6  
+- Reed – Eden: 3  
+
+Edges involving Xen:  
+- Xen – Cedar: 2  
+- Xen – Eden: 9  
+
+So no direct Reed–Xen edge.
+
+---
+
+#### Option 2: Reed → Eden → Xen  
+- Reed to Eden: 3  
+- Eden to Xen: 9  
+→ Total: 3 + 9 = **12**
+
+---
+
+#### Option 3: Reed → Dove → Eden → Xen  
+- Reed → Dove: 6  
+- Dove → Eden: 4  
+- Eden → Xen: 9  
+→ Total: 6 + 4 + 9 = **19** → worse
+
+---
+
+#### Option 4: Reed → Eden → Glen → Cedar → Xen  
+- Reed → Eden: 3  
+- Eden → Glen: 3  
+- Glen → Cedar: 4 (since Cedar–Glen is 4)  
+- Cedar → Xen: 2  
+→ Total: 3 + 3 + 4 + 2 = **12**
+
+Same as Option 2.
+
+---
+
+#### Option 5: Reed → Eden → Cedar → Xen  
+- Reed → Eden: 3  
+- Eden → Cedar: 5  
+- Cedar → Xen: 2  
+→ Total: 3 + 5 + 2 = **10**
+
+Wait — is Eden–Cedar an edge? Yes: Cedar–Eden: 5 → valid.
+
+So this path: **Reed → Eden → Cedar → Xen**  
+Weight: 3 + 5 + 2 = **10**
+
+Better than previous 12.
+
+Is this valid? Yes.
+
+---
+
+#### Option 6: Reed → Dove → Eden → Cedar → Xen  
+- Reed → Dove: 6  
+- Dove → Eden: 4  
+- Eden → Cedar: 5  
+- Cedar → Xen: 2  
+→ 6 + 4 + 5 + 2 = 17 → worse
+
+---
+
+#### Option 7: Reed → Eden → Glen → Cedar → Xen  
+- Reed → Eden: 3  
+- Eden → Glen: 3  
+- Glen → Cedar: 4  
+- Cedar → Xen: 2  
+→ 3 + 3 + 4 + 2 = 12 → worse than 10
+
+
+

@@ -1,0 +1,22 @@
+Let's break down how many pages Elena reads each week.
+
+**First book:**  
+She reads 16 pages a day for 6 days:  
+16 × 6 = 96 pages
+
+**Second book:**  
+She reads 10 pages a day for 3 days:  
+10 × 3 = 30 pages
+
+**Total pages read in one week (before skipping):**  
+96 + 30 = 126 pages
+
+**She skips 31 blank pages** — these don't count, so we subtract them:  
+126 − 31 = 95 pages per week (actual pages read)
+
+Now, she repeats this **each week for 3 weeks**:  
+95 × 3 = 285 pages
+
+#### 285 [end of text]
+
+

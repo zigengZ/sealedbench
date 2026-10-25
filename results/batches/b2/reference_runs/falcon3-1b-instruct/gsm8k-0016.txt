@@ -1,0 +1,14 @@
+**Reasoning:**
+
+1. **First Day:**
+   - Both trains travel 80 miles westward.
+   - Since they travel in opposite directions, the distance covered by each train is 80 miles.
+
+2. **Second Day:**
+   - Both trains travel 150 miles northward.
+   - Again, since they travel in opposite directions, the distance covered by each train is 150 miles.
+
+**Final Answer:**
+80 miles and 150 miles. [end of text]
+
+

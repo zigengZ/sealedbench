@@ -1,0 +1,7 @@
+First, we calculate Gina's total earnings: 11 dollars/hour * 8 hours = 88 dollars.
+Then, we subtract the amount she spent from her earnings: 88 dollars - 70 dollars = 18 dollars.
+
+####18
+ [end of text]
+
+

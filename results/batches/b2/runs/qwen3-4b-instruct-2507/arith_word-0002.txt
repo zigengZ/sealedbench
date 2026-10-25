@@ -1,0 +1,11 @@
+Leo earns $26 per hour and works 7 hours.  
+So, his total earnings are:  
+$26 \times 7 = 182$ dollars.
+
+Then, he spends $54.  
+So, the amount left is:  
+$182 - 54 = 128$ dollars.
+
+#### 128 [end of text]
+
+

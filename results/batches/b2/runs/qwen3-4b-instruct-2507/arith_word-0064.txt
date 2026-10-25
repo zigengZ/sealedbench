@@ -1,0 +1,19 @@
+First, find out how many tokens Victor originally buys:
+
+6 packs × 8 tokens per pack = 48 tokens
+
+Then, Victor gives 33 tokens to Xavier, so he has:
+
+48 - 33 = 15 tokens left
+
+Then, Xavier gives Victor 16 more tokens, so Victor now has:
+
+15 + 16 = 31 tokens
+
+Each token is worth $7, so the total value is:
+
+31 × 7 = 217 dollars
+
+#### 217 [end of text]
+
+

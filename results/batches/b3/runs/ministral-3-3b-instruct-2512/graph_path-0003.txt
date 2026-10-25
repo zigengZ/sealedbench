@@ -1,0 +1,48 @@
+To find the shortest path from **Indigo** to **Oak**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Indigo → Indigo = 0`
+   - All other nodes: `∞`
+
+2. **Priority queue (pq) starts with `Indigo` (distance 0)**.
+   - Update neighbors:
+     - `Fern (4)`, `Glen (3)`, `Nell (6)`
+   - `pq = [(3, Glen), (4, Fern), (6, Nell)]`
+
+3. **Process `Glen` (distance 3)**:
+   - Update `Indigo` (already ≤3), `Moss` (3 + 7 = 10)
+   - `pq = [(4, Fern), (6, Nell), (10, Moss)]`
+
+4. **Process `Fern` (distance 4)**:
+   - Update `Indigo` (already ≤4), `Moss` (4 + 3 = 7)
+   - `pq = [(6, Nell), (7, Moss), (10, Moss)]`
+
+5. **Process `Nell` (distance 6)**:
+   - Update `Bay` (6 + 4 = 10), `Indigo` (already ≤6)
+   - `pq = [(7, Moss), (10, Bay), (10, Moss)]`
+
+6. **Process `Moss` (distance 7)**:
+   - Update `Reed` (7 + 7 = 14), `West` (7 + 8 = 15)
+   - `pq = [(10, Bay), (10, Moss), (14, Reed), (15, West)]`
+
+7. **Process `Bay` (distance 10)**:
+   - Update `Nell` (10 + 4 = 14), `West` (10 + 3 = 13)
+   - `pq = [(10, Moss), (13, West), (14, Nell), (14, Reed)]`
+
+8. **Process `West` (distance 13)**:
+   - Update `Bay` (13 + 3 = 16), `Oak` (13 + 1 = 14)
+   - `pq = [(10, Moss), (14, Oak), (14, Nell), (14, Reed)]`
+
+9. **Process `Moss` (distance 10)**:
+   - No updates (already ≤10).
+
+10. **Process `Oak` (distance 14)**:
+    - Reached target (`Oak`).
+
+### Shortest Path:
+**Indigo → Glen → Moss → West → Oak** with total weight **14**.
+
+#### 14 [end of text]
+
+

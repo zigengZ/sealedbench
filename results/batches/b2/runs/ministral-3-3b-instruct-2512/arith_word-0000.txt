@@ -1,0 +1,11 @@
+Quinn's earnings:
+- Day 1: 9 dollars/hour × 2 hours = 18 dollars
+- Day 2: 9 dollars/hour × 6 hours = 54 dollars
+Total earnings = 18 + 54 = 72 dollars
+
+After spending 21 dollars:
+72 - 21 = 51 dollars left
+
+#### 51 [end of text]
+
+

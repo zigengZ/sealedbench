@@ -1,0 +1,19 @@
+First, find the total number of seats Yara sets out.
+
+She has:
+- 4 rows with 9 seats each:  
+  $4 \times 9 = 36$ seats
+
+Then she adds:
+- 5 rows with 5 seats each:  
+  $5 \times 5 = 25$ seats
+
+Total seats = $36 + 25 = 61$
+
+Then, 45 seats are sold.
+
+So, unsold seats = $61 - 45 = 16$
+
+#### 16 [end of text]
+
+

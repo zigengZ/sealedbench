@@ -1,0 +1,9 @@
+Esme starts with 6 packs of 3 oranges each: 6 × 3 = 18 oranges.
+Then she buys 5 packs of 4 oranges each: 5 × 4 = 20 oranges.
+Total oranges before giving to Ben: 18 + 20 = 38.
+After giving 35 to Ben: 38 - 35 = 3 oranges left.
+Shared equally among 3 people: 3 ÷ 3 = 1.
+
+#### 1 [end of text]
+
+

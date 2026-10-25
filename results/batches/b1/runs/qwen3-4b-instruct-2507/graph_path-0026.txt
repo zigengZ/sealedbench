@@ -1,0 +1,49 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path (in terms of total weight)** between **Moss** and **Xen**.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Amber, Bay, Dove, Hart, Indigo, Lark, Moss, Poe, Quill, Xen
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber – Bay: 5  
+- Amber – Dove: 4  
+- Amber – Hart: 5  
+- Amber – Quill: 6  
+- Amber – Xen: 8  
+- Bay – Lark: 5  
+- Bay – Poe: 9  
+- Dove – Xen: 4  
+- Indigo – Lark: 4  
+- Lark – Moss: 9  
+- Lark – Poe: 8  
+- Lark – Quill: 9  
+- Lark – Xen: 9  
+- Moss – Poe: 1  
+
+Note: All edges are undirected, so each edge appears once.
+
+---
+
+### Step 3: Goal — Shortest path from **Moss** to **Xen**
+
+We will perform a shortest path algorithm (like Dijkstra’s) from Moss to Xen.
+
+We can do this manually by exploring paths and computing their total weights.
+
+---
+
+### Step 4: Start from Moss
+
+From Moss:
+- Moss → Poe: 1  
+- Moss → Lark: 9  
+
+So from Moss, we
+

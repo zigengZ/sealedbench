@@ -1,0 +1,11 @@
+Cara buys 8 packs of oranges, and each pack has 9 oranges.  
+So, total oranges Cara has initially:  
+8 × 9 = 72 oranges.
+
+Then she gives 46 oranges to Gina.  
+So, oranges left with Cara:  
+72 − 46 = 26 oranges.
+
+#### 26 [end of text]
+
+

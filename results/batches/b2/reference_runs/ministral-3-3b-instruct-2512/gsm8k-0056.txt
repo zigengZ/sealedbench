@@ -1,0 +1,7 @@
+Peter's total cost per movie outing is $7 (ticket) + $7 (popcorn) = $14.
+
+With $42, he can go to the movies **3** times.
+
+#### 3 [end of text]
+
+

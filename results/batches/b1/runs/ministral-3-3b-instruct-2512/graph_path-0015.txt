@@ -1,0 +1,21 @@
+To find the shortest path from **Ash** to **Cleo**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Ash** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Relaxation Steps**:
+   - **Ash → Xen (1)**: Update Xen’s distance to 1.
+   - From **Xen**, explore neighbors:
+     - **Xen → Ash** (already visited).
+     - **Xen → Cedar (4)**: Update Cedar’s distance to 1 + 4 = 5.
+     - **Xen → Cleo (4)**: Update Cleo’s distance to 1 + 4 = 5.
+     - **Xen → Moss (5)**: Update Moss’s distance to 1 + 5 = 6.
+   - Next, explore **Cedar** (distance = 5):
+     - **Cedar → Vale (1)**: Update Vale’s distance to 5 + 1 = 6.
+     - **Cedar → Xen** (already visited).
+   - Next, explore **Moss** (distance = 6):
+     - **Moss → Vale (2)**: Update Vale’s distance to min(6, 6 + 2) = 6 (no change).
+     - **Moss → Hart (4)**: Update Hart’s distance to 6 +
+

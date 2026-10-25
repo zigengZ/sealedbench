@@ -1,0 +1,17 @@
+First, find the total number of seats Ivy sets out.
+
+- 2 rows with 6 seats each:  
+  $2 \times 6 = 12$ seats
+
+- 2 more rows with 3 seats each:  
+  $2 \times 3 = 6$ seats
+
+Total seats = $12 + 6 = 18$ seats
+
+Then, 4 seats are sold.
+
+Unsold seats = $18 - 4 = 14$
+
+#### 14 [end of text]
+
+

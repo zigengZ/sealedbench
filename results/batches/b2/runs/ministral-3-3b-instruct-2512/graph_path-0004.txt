@@ -1,0 +1,40 @@
+To find the shortest path from **Cedar** to **Xen**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Cedar: 0
+   - All others: ∞
+
+2. **Relax edges from Cedar**:
+   - Cedar → Drew (7): Update Drew to 7.
+
+3. **Process Drew (next smallest distance = 7)**:
+   - Drew → Hart (5): Update Hart to 7 + 5 = 12.
+   - Drew → Quill (3): Update Quill to 7 + 3 = 10.
+
+4. **Process Quill (next smallest = 10)**:
+   - Quill → Uri (9): Update Uri to 10 + 9 = 19.
+   - Quill → Xen (4): Update Xen to 10 + 4 = 14.
+
+5. **Process Hart (next smallest = 12)**:
+   - Hart → Nell (2): Update Nell to 12 + 2 = 14.
+   - Hart → Poe (4): Update Poe to 12 + 4 = 16.
+   - Hart → Xen (4): Already 14 (no update).
+
+6. **Process Nell (next smallest = 14)**:
+   - Nell → Oak (5): Update Oak to 14 + 5 = 19.
+   - Nell → Poe (7): Update Poe to 14 + 7 = 21 (no better than 16).
+   - Nell → Quill (2): Already 10 (no update).
+
+7. **Process Poe (next smallest = 16)**:
+   - Poe → (no outgoing edges to reduce distance).
+
+8. **Process Xen (next smallest = 14)**:
+   - Xen → (no further updates needed).
+
+### Shortest Path:
+- **Cedar → Drew → Quill → Xen** with total weight **14**.
+
+#### 14 [end of text]
+
+

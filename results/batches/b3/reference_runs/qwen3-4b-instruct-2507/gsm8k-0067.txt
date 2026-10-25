@@ -1,0 +1,18 @@
+We are given:
+
+- Number of diamonds = 175  
+- Number of rubies = 35 fewer than diamonds  
+- Number of emeralds = twice the number of rubies  
+
+Step 1: Find the number of rubies  
+Rubies = Diamonds - 35 = 175 - 35 = 140  
+
+Step 2: Find the number of emeralds  
+Emeralds = 2 × Rubies = 2 × 140 = 280  
+
+Step 3: Total gems = Diamonds + Rubies + Emeralds  
+Total = 175 + 140 + 280 = 595  
+
+#### 595 [end of text]
+
+

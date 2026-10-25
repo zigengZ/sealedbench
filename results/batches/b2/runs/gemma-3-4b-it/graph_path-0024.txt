@@ -1,0 +1,14 @@
+We want to find the shortest path between Tess and West in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Tess to West:
+1. Tess -> Cleo -> Bay -> West: 2 + 6 + 3 = 11
+2. Tess -> Cleo -> Moss -> Zed -> West: 2 + 7 + 1 + 3 = 13
+3. Tess -> Cleo -> Kai -> Poe -> West: 2 + 4 + 4 + 6 = 16
+4. Tess -> Cleo -> Nell -> West: 2 + 5 + 5 = 12
+5. Tess -> Cleo -> Nell -> Zed -> West: 2 + 5 + 5 + 3 = 15
+
+The shortest path is Tess -> Cleo -> Bay -> West with a total weight of 11.
+
+#### 11 [end of text]
+
+

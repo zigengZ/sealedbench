@@ -1,0 +1,8 @@
+Samir earns $22 per hour.
+On day 1, he works 6 hours, so he earns 6 * $22 = $132.
+On day 2, he works 6 hours, so he earns 6 * $22 = $132.
+Total earnings are $132 + $132 = $264.
+
+####264 [end of text]
+
+

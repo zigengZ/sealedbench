@@ -1,0 +1,45 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Indigo, Poe, Sage, Tess, Vale  
+**Edges and weights**:
+
+- Amber – Indigo: 9  
+- Amber – Poe: 1  
+- Amber – Tess: 5  
+- Amber – Vale: 6  
+- Indigo – Poe: 6  
+- Indigo – Tess: 2  
+- Poe – Sage: 1  
+- Sage – Tess: 5  
+- Sage – Vale: 4  
+- Tess – Vale: 2  
+
+We are to find the **shortest path from Indigo to Vale**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can model this as a graph and apply a shortest path algorithm (like Dijkstra’s), since all weights are positive.
+
+We start from **Indigo** and want to reach **Vale**.
+
+Let’s explore possible paths from Indigo to Vale.
+
+---
+
+### Step 2: List all possible paths from Indigo to Vale
+
+#### Path 1: Indigo → Tess → Vale  
+- Indigo to Tess: 2  
+- Tess to Vale: 2  
+- Total: 2 + 2 = **4**
+
+#### Path 2: Indigo → Poe → Sage → Vale  
+- Indigo to Poe: 6  
+- Poe to Sage: 1  
+- Sage to Vale: 4  
+- Total: 6 + 1 + 4 = **11**
+
+#### Path 3: Indigo → Poe
+

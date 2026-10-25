@@ -1,0 +1,13 @@
+Let's break it down step-by-step:
+
+1. **Top level (Level 4):** 16 square feet (given).
+2. **Level 3:** Half of Level 4 → 16 / 2 = 8 square feet.
+3. **Level 2:** Half of Level 3 → 8 / 2 = 4 square feet.
+4. **Level 1:** Half of Level 2 → 4 / 2 = 2 square feet.
+
+Now, sum all levels: 16 + 8 + 4 + 2 = 30 square feet.
+Average = Total / Number of levels = 30 / 4 = 7.5 square feet.
+
+#### 7 [end of text]
+
+

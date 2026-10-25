@@ -1,0 +1,6 @@
+First, calculate Leo's total earnings: 27 dollars/hour * 2 hours = 54 dollars.
+Then, subtract the amount he spent: 54 dollars - 14 dollars = 40 dollars.
+
+####40 [end of text]
+
+

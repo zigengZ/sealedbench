@@ -1,0 +1,20 @@
+First, find the total number of stickers Yara buys:
+
+- 3 packs of 12 stickers:  
+  $3 \times 12 = 36$ stickers
+
+- 4 packs of 2 stickers:  
+  $4 \times 2 = 8$ stickers
+
+Total stickers:  
+$36 + 8 = 44$ stickers
+
+Yara gives 36 stickers to Ben, so she has:  
+$44 - 36 = 8$ stickers left
+
+Each sticker is worth $4, so the value of her remaining stickers is:  
+$8 \times 4 = 32$ dollars
+
+#### 32 [end of text]
+
+

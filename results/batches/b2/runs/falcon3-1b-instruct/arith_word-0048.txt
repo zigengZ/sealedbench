@@ -1,0 +1,9 @@
+First, calculate the total number of seats: 6 rows * 12 seats/row = 72 seats.
+
+Then, subtract the sold seats: 72 seats - 3 seats = 69 seats.
+
+Each unsold seat is worth 5 dollars, so the total worth is: 69 seats * $5/seat = $345.
+
+#### 345 [end of text]
+
+

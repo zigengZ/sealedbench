@@ -1,0 +1,17 @@
+First, find the total number of beads Uma buys:
+
+- 4 packs × 12 beads = 48 beads  
+- 6 packs × 6 beads = 36 beads  
+- Total beads = 48 + 36 = 84 beads
+
+Then, Uma gives 19 beads to Aisha, so she has:
+
+84 - 19 = 65 beads left
+
+Each bead is worth $7, so the total value of Uma's beads is:
+
+65 × 7 = 455 dollars
+
+#### 455 [end of text]
+
+

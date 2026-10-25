@@ -1,0 +1,8 @@
+First, we calculate Quinn's earnings on day 1: 12 dollars/hour * 5 hours = 60 dollars.
+Next, we calculate Quinn's earnings on day 2: 12 dollars/hour * 5 hours = 60 dollars.
+Then, we calculate Quinn's earnings on day 3: 12 dollars/hour * 2 hours = 24 dollars.
+Finally, we add up the earnings from all three days: 60 + 60 + 24 = 144 dollars.
+
+####144 [end of text]
+
+

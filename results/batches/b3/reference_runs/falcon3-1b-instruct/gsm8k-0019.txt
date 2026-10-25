@@ -1,0 +1,27 @@
+To find Marissa's required speed, we first calculate the total time she spent hiking.
+
+She walked the first 4 miles in 1 hour and the next 2 miles in 1 hour, for a total of 1 + 1 = 2 hours.
+
+Her total hiking time is 2 hours.
+
+To achieve an average speed of 4 miles per hour, the total distance she needs to cover is 12 miles.
+
+Using the formula for average speed, which is total distance divided by total time, we get:
+
+\[ \text{Average Speed} = \frac{\text{Total Distance}}{\text{Total Time}} \]
+
+Substituting the known values:
+
+\[ 4 = \frac{12}{2} \]
+
+This confirms that Marissa's average speed is indeed 4 miles per hour.
+
+To find the remaining distance, subtract the total distance already covered from the total distance:
+
+\[ \text{Remaining Distance} = 12 - 12 = 0 \]
+
+Since Marissa has already covered the entire 12-mile trail, she does not need to walk any additional distance.
+
+#### 0 [end of text]
+
+

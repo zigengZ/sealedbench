@@ -1,0 +1,5 @@
+Ryan plants 2 flowers each day for 15 days, so he plants \(2 \times 15 = 30\) flowers. If 5 did not grow, he has \(30 - 5 = 25\) flowers.
+
+#### 25 [end of text]
+
+

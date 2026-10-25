@@ -1,0 +1,5 @@
+Quinn starts with **9 packs × 11 ribbons = 99 ribbons**. After giving away 19, she has **99 - 19 = 80 ribbons left**. Each ribbon is worth $4, so the total value is **80 × 4 = 320 dollars**.
+
+#### 320 [end of text]
+
+

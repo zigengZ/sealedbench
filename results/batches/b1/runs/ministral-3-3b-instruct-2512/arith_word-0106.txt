@@ -1,0 +1,5 @@
+Ben starts with 2 packs × 8 oranges = 16 oranges. After giving 3 to Aisha, he has 16 - 3 = 13 oranges left.
+
+#### 13 [end of text]
+
+

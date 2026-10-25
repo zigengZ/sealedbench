@@ -1,0 +1,13 @@
+First, let's calculate the number of seats in the initial 7 rows: 7 rows * 14 seats/row = 98 seats.
+
+Next, let's calculate the number of seats in the added 8 rows: 8 rows * 5 seats/row = 40 seats.
+
+Now, let's find the total number of seats: 98 seats + 40 seats = 138 seats.
+
+Then, let's find the number of unsold seats: 138 seats - 39 seats = 99 seats.
+
+Finally, let's calculate the total value of the unsold seats: 99 seats * $7/seat = $693.
+
+####693 [end of text]
+
+

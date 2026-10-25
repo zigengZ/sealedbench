@@ -1,0 +1,13 @@
+Ivy reads 16 pages a day for 2 days:  
+16 × 2 = 32 pages.
+
+Then she reads 6 more pages:  
+32 + 6 = 38 pages.
+
+She skips 11 blank pages — these do **not** count toward the total pages she reads.
+
+So, the total number of pages she **reads** is still 38.
+
+#### 38 [end of text]
+
+

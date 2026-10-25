@@ -1,0 +1,8 @@
+Leo starts with 3 rows of 10 seats: 3 × 10 = 30 seats.
+Then adds 8 rows of 9 seats: 8 × 9 = 72 seats.
+Total seats = 30 + 72 = 102 seats.
+Unsold seats = 102 - 68 = 34 seats.
+
+#### 34 [end of text]
+
+

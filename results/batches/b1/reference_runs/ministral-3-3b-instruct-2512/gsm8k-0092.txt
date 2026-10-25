@@ -1,0 +1,10 @@
+Let's break it down step by step:
+
+1. **James's age**: Given as 10 years old.
+2. **Corey's age**: James is 1 year younger than Corey, so Corey is 10 + 1 = **11 years old**.
+3. **Amy's age**: Amy is 2 years younger than Corey, so Amy is 11 - 2 = **9 years old**.
+4. **Jackson's age**: Amy is 5 years older than Jackson, so Jackson is 9 - 5 = **4 years old**.
+
+#### 4 [end of text]
+
+

@@ -1,0 +1,91 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Amber to Reed** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Amber – Glen: 4  
+- Amber – Poe: 1  
+- Amber – Tess: 2  
+- Dove – Reed: 6  
+- Dove – York: 6  
+- Glen – Quill: 4  
+- Glen – York: 3  
+- Nell – Oak: 8  
+- Nell – Quill: 5  
+- Nell – York: 3  
+- Oak – Reed: 1  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Amber** to **Reed**
+
+We will explore possible paths from Amber to Reed, using the available edges.
+
+---
+
+### Step 3: Explore paths from Amber to Reed
+
+#### Path 1: Amber → Poe  
+- Amber to Poe: 1  
+- Poe to Reed? → No direct edge.  
+- Poe to others? Not connected to Reed directly.  
+→ Need to go from Poe to somewhere else?
+
+Check connections of Poe: only Amber. So Poe is a leaf node.  
+→ Cannot reach Reed from Poe.
+
+#### Path 2: Amber → Tess  
+- Amber to Tess: 2  
+- Tess has no other connections → dead end.
+
+#### Path 3: Amber → Glen  
+- Amber to Glen: 4  
+- From Glen:  
+  - Glen → Quill: 4  
+  - Glen → York: 3  
+
+So from Glen, we can go to Quill or York.
+
+##### Option A: Amber → Glen → York  
+- Weight: 4 + 3 = 7  
+- From York → Reed?  
+  - York – Reed? → No direct edge.  
+  - York – Dove: 6  
+  - York – Nell: 3  
+  - York – Oak? Not listed  
+  - York – Quill? Not listed  
+  - So from York: can go to Dove or Nell  
+
+From York → Dove: 6  
+Dove → Reed: 6  
+So: Amber → Glen → York → Dove → Reed  
+Total: 4 + 3 + 6 + 6 = **19**
+
+From York → Nell: 3  
+Nell → Oak: 8  
+Oak → Reed: 1  
+So: Amber → Glen → York → Nell → Oak → Reed  
+Total: 4 + 3 + 3 + 8 + 1 = **19**
+
+Same total.
+
+##### Option B: Amber → Glen → Quill  
+- Glen → Quill: 4 → total so far: 4 + 4 = 8  
+- Quill connections:  
+  - Quill – Glen: 4  
+  - Quill – Nell: 5  
+  - Quill – others? No  
+→ So Quill → Nell: 5  
+Nell → York: 3  
+York → Dove: 6 → Dove → Reed: 6 → too long  
+Or Nell → Oak: 8 → Oak → Reed: 1  
+
+So: Amber → Glen → Quill → Nell → Oak → Reed  
+Weight: 4 (Amber→Glen) + 4 (Glen→Quill) + 5 (Quill→Nell) + 8 (Nell→Oak) + 1 (Oak→Reed)  
+= 4 + 4 + 5 + 8 + 1 = **22** →
+

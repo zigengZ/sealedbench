@@ -1,0 +1,5 @@
+Kira starts with 4 packs, each containing 5 tickets, so she has 4 × 5 = 20 tickets. Esme gives her 18 more tickets, so she now has 20 + 18 = 38 tickets.
+
+#### 38 [end of text]
+
+

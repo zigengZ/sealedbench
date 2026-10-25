@@ -1,0 +1,50 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Ash, Bay, Cedar, Cleo, Hart, Moss, Vale, Xen  
+**Edges and weights**:
+
+- Ash — Xen: 1  
+- Bay — Cleo: 8  
+- Bay — Moss: 6  
+- Cedar — Vale: 1  
+- Cedar — Xen: 4  
+- Cleo — Vale: 6  
+- Cleo — Xen: 4  
+- Hart — Moss: 4  
+- Moss — Vale: 2  
+- Moss — Xen: 5  
+
+We are to find the **shortest path from Ash to Cleo** in terms of total weight.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build the graph and look for paths from **Ash** to **Cleo**.
+
+Start from **Ash**. The only direct edge is to **Xen** (weight 1).
+
+From **Xen**, we can go to:
+- Ash (1)
+- Cedar (4)
+- Cleo (4)
+- Moss (5)
+
+So from Ash → Xen → Cleo: weight = 1 + 4 = **5**
+
+Is there a shorter path?
+
+Let’s explore other possible paths.
+
+---
+
+### Path 1: Ash → Xen → Cleo  
+Weight: 1 + 4 = **5**
+
+---
+
+### Path 2: Ash → Xen → Moss → Cleo  
+Ash → Xen: 1  
+Xen → Moss: 5  
+Moss → Cleo? → No
+

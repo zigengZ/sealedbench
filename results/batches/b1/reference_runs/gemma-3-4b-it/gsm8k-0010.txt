@@ -1,0 +1,11 @@
+First, find the number of downloads in the second month: 60 downloads * 3 = 180 downloads.
+
+Next, calculate the reduction in downloads for the third month: 180 downloads * 30% = 54 downloads.
+
+Then, find the number of downloads in the third month: 180 downloads - 54 downloads = 126 downloads.
+
+Finally, calculate the total number of downloads over the three months: 60 downloads + 180 downloads + 126 downloads = 366 downloads.
+
+#### 366 [end of text]
+
+

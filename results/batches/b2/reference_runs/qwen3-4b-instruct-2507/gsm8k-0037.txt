@@ -1,0 +1,9 @@
+John sells all his Lego sets, so he doesn't have any left after selling them.
+
+The question asks: **"How many lego sets does he still have?"**
+
+Since he plans to sell **all** of them, and there's no mention of him keeping any, the answer is:
+
+#### 0 [end of text]
+
+

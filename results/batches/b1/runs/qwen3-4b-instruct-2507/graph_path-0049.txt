@@ -1,0 +1,54 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Cleo to Eden**, and report the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Amber, Bay, Cedar, Cleo, Eden, Glen, Hart, Jules, Kai, Poe
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber — Eden: 1  
+- Amber — Glen: 4  
+- Bay — Glen: 9  
+- Bay — Jules: 2  
+- Cedar — Eden: 6  
+- Cedar — Jules: 4  
+- Cedar — Kai: 9  
+- Cleo — Glen: 1  
+- Cleo — Jules: 3  
+- Eden — Glen: 3  
+- Eden — Hart: 3  
+- Glen — Kai: 3  
+- Glen — Poe: 5  
+- Kai — Poe: 1  
+
+---
+
+### Step 3: Goal — Shortest path from **Cleo** to **Eden**
+
+We will perform a shortest path algorithm (like Dijkstra’s) from Cleo to Eden.
+
+We can do this manually by exploring possible paths.
+
+---
+
+### Step 4: Explore paths from Cleo to Eden
+
+Start at **Cleo**
+
+From Cleo, direct neighbors:
+- Glen (1)
+- Jules (3)
+
+So two immediate options:
+
+---
+
+#### Path 1: Cleo → Glen → Eden  
+- Cle
+

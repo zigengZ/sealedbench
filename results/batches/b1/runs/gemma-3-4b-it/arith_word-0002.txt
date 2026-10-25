@@ -1,0 +1,13 @@
+First, let's calculate the total number of seats in the initial 4 rows: 4 rows * 12 seats/row = 48 seats.
+
+Next, let's calculate the total number of seats in the additional 4 rows: 4 rows * 4 seats/row = 16 seats.
+
+Now, let's find the total number of seats Mina sets out: 48 seats + 16 seats = 64 seats.
+
+Then, let's find the number of unsold seats after 1 seat is sold: 64 seats - 1 seat = 63 seats.
+
+Finally, let's calculate the total value of the unsold seats: 63 seats * $2/seat = $126.
+
+####126 [end of text]
+
+

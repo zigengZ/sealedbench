@@ -1,0 +1,15 @@
+First, calculate the total number of seats initially:
+
+10 rows * 12 seats/row = 120 seats
+
+Then, calculate the total number of seats after adding 8 more rows:
+
+120 seats + 8 rows * 7 seats/row = 120 + 56 = 176 seats
+
+Finally, subtract the number of seats sold from the total:
+
+176 seats - 45 seats = 131 seats
+
+#### 131 [end of text]
+
+

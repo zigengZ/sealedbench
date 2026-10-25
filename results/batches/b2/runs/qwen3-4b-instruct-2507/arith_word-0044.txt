@@ -1,0 +1,11 @@
+First, find the total number of seats:
+
+12 rows × 16 seats per row = 192 seats
+
+Then subtract the number of seats sold:
+
+192 - 165 = 27 seats unsold
+
+#### 27 [end of text]
+
+

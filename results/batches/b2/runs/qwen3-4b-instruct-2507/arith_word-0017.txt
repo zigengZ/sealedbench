@@ -1,0 +1,17 @@
+First, find the total number of notebooks Victor buys:
+
+- 8 packs × 4 notebooks per pack = 32 notebooks  
+- 2 packs × 6 notebooks per pack = 12 notebooks  
+- Total notebooks bought = 32 + 12 = 44 notebooks
+
+Then, Victor gives 14 notebooks to Jamal, so he keeps:
+
+44 - 14 = 30 notebooks
+
+Each notebook is worth $4, so the total value of Victor's notebooks is:
+
+30 × 4 = 120 dollars
+
+#### 120 [end of text]
+
+

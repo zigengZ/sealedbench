@@ -1,0 +1,7 @@
+First, we calculate the number of pages Chloe reads from the first book: 11 pages/day * 5 days = 55 pages.
+Next, we calculate the number of pages Chloe reads from the second book: 11 pages/day * 5 days = 55 pages.
+Finally, we add the pages from both books: 55 pages + 55 pages = 110 pages.
+
+####110 [end of text]
+
+

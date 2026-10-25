@@ -1,0 +1,37 @@
+To find the shortest path from **Cedar** to **York**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Cedar → York = ∞` (unreachable initially)
+   - All other nodes start with `∞` except `Cedar` itself (`0`).
+
+2. **Expand from Cedar**:
+   - Neighbors: `Blair` (3), `Vale` (7).
+   - Update: `Blair = 3`, `Vale = 7`.
+
+3. **Expand from Blair** (next shortest):
+   - Neighbors: `Eden` (3 + 4 = 7), `York` (3 + 3 = 6).
+   - Update: `York = 6` (new shortest).
+
+4. **Expand from Vale** (next shortest):
+   - Neighbors: `Eden` (7 + 3 = 10), `Glen` (7 + 2 = 9), `Quill` (7 + 2 = 9).
+   - No improvement for `York`.
+
+5. **Expand from Eden** (next shortest):
+   - Neighbors: `Ash` (7 + 3 = 10), `Blair` (already shorter), `Vale` (already shorter).
+   - No improvement.
+
+6. **Expand from Glen** (next shortest):
+   - Neighbors: `Quill` (9 + 2 = 11), `Vale` (9 + 2 = 11), `York` (9 + 5 = 14).
+   - `York` is already shorter (`6`).
+
+7. **Expand from Quill** (next shortest):
+   - Neighbors: `Ash` (9 + 3 = 12), `Glen` (9 + 2 = 11), `Vale` (9 + 2 = 11).
+   - No improvement.
+
+8. **Final shortest path**:
+   - `Cedar → Blair → York` with total weight **6**.
+
+#### 6 [end of text]
+
+

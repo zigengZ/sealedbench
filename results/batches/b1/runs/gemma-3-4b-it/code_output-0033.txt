@@ -1,0 +1,16 @@
+The program initializes `values` to `[14, 17, 11, 14, 6, 13]` and `total` to 2. It then iterates through the `values` list.
+
+- For `value = 14`: `value > 17` is false, so `total = 2 + 14 = 16`.
+- For `value = 17`: `value > 17` is false, so `total = 16 + 17 = 33`.
+- For `value = 11`: `value > 17` is false, so `total = 33 + 11 = 44`.
+- For `value = 14`: `value > 17` is false, so `total = 44 + 14 = 58`.
+- For `value = 6`: `value > 17` is false, so `total = 58 + 6 = 64`.
+- For `value = 13`: `value > 17` is false, so `total = 64 + 13 = 77`.
+
+Finally, the program prints the value of `total`, which is 77.
+
+```python
+77
+``` [end of text]
+
+

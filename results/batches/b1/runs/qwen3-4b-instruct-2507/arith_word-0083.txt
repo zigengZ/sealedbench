@@ -1,0 +1,18 @@
+First, find the total number of stamps Esme buys:
+
+- 9 packs × 3 stamps per pack = 27 stamps  
+- 2 packs × 8 stamps per pack = 16 stamps  
+
+Total stamps = 27 + 16 = 43 stamps
+
+Then, Esme gives 2 stamps to Felix, so she has:
+
+43 - 2 = 41 stamps left
+
+Each stamp is worth $6, so the total value is:
+
+41 × 6 = 246 dollars
+
+#### 246 [end of text]
+
+

@@ -1,0 +1,94 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Uri, West, Xen, York, Zed  
+**Edges and weights**:
+
+- Amber — Uri: 4  
+- Amber — Xen: 9  
+- Amber — York: 2  
+- Amber — Zed: 9  
+- Uri — Xen: 2  
+- West — Xen: 5  
+- West — York: 5  
+- West — Zed: 4  
+- Xen — York: 2  
+- York — Zed: 8  
+
+We are to find the **shortest path from Uri to Zed** in terms of total weight.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can model this as an undirected graph, so all edges are bidirectional.
+
+We want the shortest path from **Uri** to **Zed**.
+
+Let’s consider possible paths from Uri to Zed.
+
+---
+
+### Step 2: Explore possible paths from Uri to Zed
+
+#### Path 1: Uri → Xen → York → Zed  
+- Uri → Xen: 2  
+- Xen → York: 2  
+- York → Zed: 8  
+→ Total: 2 + 2 + 8 = **12**
+
+#### Path 2: Uri → Xen → West → Zed  
+- Uri → Xen: 2  
+- Xen → West: 5  
+- West → Zed: 4  
+→ Total: 2 + 5 + 4 = **11**
+
+#### Path 3: Uri → Amber → York → Zed  
+- Uri → Amber: 4  
+- Amber → York: 2  
+- York → Zed: 8  
+→ Total: 4 + 2 + 8 = **14**
+
+#### Path 4: Uri → Amber → Xen → York → Zed  
+- Uri → Amber: 4  
+- Amber → Xen: 9  
+- Xen → York: 2  
+- York → Zed: 8  
+→ Total: 4 + 9 + 2 + 8 = **23** → too long
+
+#### Path 5: Uri → Amber → West → Zed  
+- Uri → Amber: 4  
+- Amber → West? → No direct edge  
+→ Invalid
+
+#### Path 6: Uri → Amber → West → York → Zed  
+- Uri → Amber: 4  
+- Amber → West? No  
+→ Invalid
+
+#### Path 7: Uri → Xen → York → West → Zed  
+- Uri → Xen: 2  
+- Xen → York: 2  
+- York → West: 5  
+- West → Zed: 4  
+→ Total: 2 + 2 + 5 + 4 = **13** → worse than 11
+
+#### Path 8: Uri → West? → No direct edge  
+→ So no path from Uri to West directly
+
+#### Path 9: Uri → Amber → York → West → Zed  
+- Uri → Amber: 4  
+- Amber → York: 2  
+- York → West: 5  
+- West → Zed: 4  
+→ Total: 4 + 2 + 5 + 4 = **15**
+
+So far, the best is **Path 2: Uri → Xen → West → Zed = 11**
+
+Is there a better one?
+
+What about: Uri → Xen → York → West → Zed? → 2+2+5+4 = 13 → worse
+
+Uri → Amber → Xen → West → Zed?  
+- Uri → Amber: 4  
+- Amber → Xen:
+

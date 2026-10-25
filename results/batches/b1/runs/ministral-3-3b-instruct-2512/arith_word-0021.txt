@@ -1,0 +1,7 @@
+Ben reads **7 pages/day × 2 days = 14 pages** from the first book.
+He reads **12 pages/day × 4 days = 48 pages** from the second book.
+Total pages read: **14 + 48 = 62 pages**
+
+#### 62 [end of text]
+
+

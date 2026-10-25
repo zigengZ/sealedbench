@@ -1,0 +1,614 @@
+{
+  "created_utc": "2026-10-17T09:12:36Z",
+  "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+  "scheme": "bls-unchained-g1-rfc9380",
+  "period_s": 3,
+  "genesis": 1692803367,
+  "n": 20,
+  "tle": "github.com/drand/tlock/cmd/tle@v1.2.0",
+  "tlock_js": "0.9.0",
+  "armor": true,
+  "note": "Ciphertexts are public probes, not exams. Plaintext is committed so a third party can check the decrypt.",
+  "probes": [
+    {
+      "probe_id": "probe-00",
+      "created_utc": "2026-10-17T09:12:30Z",
+      "round": 33142062,
+      "unlock_unix": 1792229550,
+      "unlock_utc": "2026-10-17T09:32:30Z",
+      "seconds_from_encrypt_to_unlock": 1200,
+      "plaintext_sha256": "681ef60ba78504bfa4f8eeade195fe4de7c72ef9b19f81ea59e26e602ad30c80",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "7f99135fdf82aa3cc7520149eaaa08860e50cb7fe6c4da6f0581368798b0b8fc",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-00.json",
+      "ciphertext_path": "results/day1/cipher/probe-00.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:30Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142062 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:30Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142062"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-01",
+      "created_utc": "2026-10-17T09:12:30Z",
+      "round": 33142066,
+      "unlock_unix": 1792229562,
+      "unlock_utc": "2026-10-17T09:32:42Z",
+      "seconds_from_encrypt_to_unlock": 1211,
+      "plaintext_sha256": "2f20ec337eff137268f627322bb834b07fa4f16e81812f856dae9a6b7d8466a2",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "3a694ba2378a356a54b38b7d4ef4c68a9b76ef3597efce3541141d7eb5970997",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-01.json",
+      "ciphertext_path": "results/day1/cipher/probe-01.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:30Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142066 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:31Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142066"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-02",
+      "created_utc": "2026-10-17T09:12:31Z",
+      "round": 33142070,
+      "unlock_unix": 1792229574,
+      "unlock_utc": "2026-10-17T09:32:54Z",
+      "seconds_from_encrypt_to_unlock": 1223,
+      "plaintext_sha256": "4be03c349f55b2db1582b4ba0368e2a2acbbec136fe229b77716046397df4980",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-02.json",
+      "ciphertext_path": "results/day1/cipher/probe-02.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:31Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142070 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:31Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142070"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-03",
+      "created_utc": "2026-10-17T09:12:31Z",
+      "round": 33142074,
+      "unlock_unix": 1792229586,
+      "unlock_utc": "2026-10-17T09:33:06Z",
+      "seconds_from_encrypt_to_unlock": 1235,
+      "plaintext_sha256": "ca5aed8b4be48258888ad733ecd7f9d582d2a7e33ca14cff2a1eefdcf6943c8e",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "03c4e9ace4b62da50db48f56f8df822b5b0306f01b4a08e8b44a7aa90d61da2f",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-03.json",
+      "ciphertext_path": "results/day1/cipher/probe-03.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:31Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142074 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:31Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142074"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-04",
+      "created_utc": "2026-10-17T09:12:31Z",
+      "round": 33142078,
+      "unlock_unix": 1792229598,
+      "unlock_utc": "2026-10-17T09:33:18Z",
+      "seconds_from_encrypt_to_unlock": 1246,
+      "plaintext_sha256": "b46b7718a86754794cfd39b0d7cf40f22a38e45547f7dc926431f50fc868ffe7",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "02f6ffa826e67a61f7ea2411512556168669d9966433ee6d040e64bdc8f213f3",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-04.json",
+      "ciphertext_path": "results/day1/cipher/probe-04.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:31Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142078 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:31Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142078"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-05",
+      "created_utc": "2026-10-17T09:12:31Z",
+      "round": 33142082,
+      "unlock_unix": 1792229610,
+      "unlock_utc": "2026-10-17T09:33:30Z",
+      "seconds_from_encrypt_to_unlock": 1258,
+      "plaintext_sha256": "03cc3e2d52aaa19fb3556527233ed55373e7d819464e0945aeb844bbead1b70b",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "3899020d2f36de7f7fb98b7e2147b85fb9846a6b69b446ae3f26a9dd8c65d8b9",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-05.json",
+      "ciphertext_path": "results/day1/cipher/probe-05.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:32Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142082 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:32Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142082"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-06",
+      "created_utc": "2026-10-17T09:12:32Z",
+      "round": 33142086,
+      "unlock_unix": 1792229622,
+      "unlock_utc": "2026-10-17T09:33:42Z",
+      "seconds_from_encrypt_to_unlock": 1270,
+      "plaintext_sha256": "c66af3a1bb50f9cd89cd144b9a55f676cff956ec1cbd6bad9fbffcdd14165931",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "83ae0b4a6266aaa2ad82d9f38b9f0caebe559999c527288f6cae129d6514eefe",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-06.json",
+      "ciphertext_path": "results/day1/cipher/probe-06.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:32Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142086 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:32Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142086"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-07",
+      "created_utc": "2026-10-17T09:12:32Z",
+      "round": 33142090,
+      "unlock_unix": 1792229634,
+      "unlock_utc": "2026-10-17T09:33:54Z",
+      "seconds_from_encrypt_to_unlock": 1281,
+      "plaintext_sha256": "1f50def5908ce45e3e2f652b874ec34ed33ca67c77f6c2f0cee2791d87195ee5",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "2081c3dd4353e6582d10e08d94dc6696d79043d51e3147c29d594c66b2bf7e01",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-07.json",
+      "ciphertext_path": "results/day1/cipher/probe-07.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:32Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142090 > 33141662 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:32Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142090"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-08",
+      "created_utc": "2026-10-17T09:12:32Z",
+      "round": 33142094,
+      "unlock_unix": 1792229646,
+      "unlock_utc": "2026-10-17T09:34:06Z",
+      "seconds_from_encrypt_to_unlock": 1293,
+      "plaintext_sha256": "125058fbeba1c2583bf33d203078f28a3726cbc3c1385e3f7b5b433b88d7978c",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "a6671018ef4cb5c502f7018c0ab772ae4f36c4e1a744479850fe331c7a3f85b7",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-08.json",
+      "ciphertext_path": "results/day1/cipher/probe-08.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:32Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142094 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:33Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142094"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-09",
+      "created_utc": "2026-10-17T09:12:33Z",
+      "round": 33142099,
+      "unlock_unix": 1792229661,
+      "unlock_utc": "2026-10-17T09:34:21Z",
+      "seconds_from_encrypt_to_unlock": 1308,
+      "plaintext_sha256": "b8c26b27e691bbe8bb52a5255551907b1262dc4b3fea46486d07abb4bde9d367",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "e87c95c571d3d5afe6e8c50653d97f7d695e4f00962c82ef256271b3ffbdb917",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-09.json",
+      "ciphertext_path": "results/day1/cipher/probe-09.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:33Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142099 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:33Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142099"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-10",
+      "created_utc": "2026-10-17T09:12:33Z",
+      "round": 33142103,
+      "unlock_unix": 1792229673,
+      "unlock_utc": "2026-10-17T09:34:33Z",
+      "seconds_from_encrypt_to_unlock": 1320,
+      "plaintext_sha256": "ec8d397616ae00d18ffee1ba437214a92a46de2bcada340f2614af59929b3d6e",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-10.json",
+      "ciphertext_path": "results/day1/cipher/probe-10.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:33Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142103 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:33Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142103"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-11",
+      "created_utc": "2026-10-17T09:12:33Z",
+      "round": 33142107,
+      "unlock_unix": 1792229685,
+      "unlock_utc": "2026-10-17T09:34:45Z",
+      "seconds_from_encrypt_to_unlock": 1331,
+      "plaintext_sha256": "9c9abc201ee45f90182b5f8aa8226858dc200ea4c47620ff44d8ad59846f6562",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "daabf7c930815b8185d73604289c09c002285ea9246f902fb9ba37ac627f6392",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-11.json",
+      "ciphertext_path": "results/day1/cipher/probe-11.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:33Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142107 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:34Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142107"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-12",
+      "created_utc": "2026-10-17T09:12:34Z",
+      "round": 33142111,
+      "unlock_unix": 1792229697,
+      "unlock_utc": "2026-10-17T09:34:57Z",
+      "seconds_from_encrypt_to_unlock": 1343,
+      "plaintext_sha256": "c5f42755bb1af4d86dad7956f0f280cbea45b03c30e0eca647ebfbfbd00afbb7",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "154ed17d7fa1a466c33beae5890581474addee41e8402e4d8904bd32e76aa28c",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-12.json",
+      "ciphertext_path": "results/day1/cipher/probe-12.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:34Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142111 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:34Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142111"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-13",
+      "created_utc": "2026-10-17T09:12:34Z",
+      "round": 33142115,
+      "unlock_unix": 1792229709,
+      "unlock_utc": "2026-10-17T09:35:09Z",
+      "seconds_from_encrypt_to_unlock": 1355,
+      "plaintext_sha256": "7cf3300ac4459086ff8fbf0ec844efa076a3f8cfe1cd763547ef224fb90f3e14",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "7c856eb0ba438b1895e6f65cec6090793ab172650d659f88a1a15d9336b22276",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-13.json",
+      "ciphertext_path": "results/day1/cipher/probe-13.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:34Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142115 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:34Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142115"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-14",
+      "created_utc": "2026-10-17T09:12:34Z",
+      "round": 33142119,
+      "unlock_unix": 1792229721,
+      "unlock_utc": "2026-10-17T09:35:21Z",
+      "seconds_from_encrypt_to_unlock": 1366,
+      "plaintext_sha256": "e5119a0ce4e43b370d8b784343b7f1c603a9c3566183e1565e3624b207a92a50",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "e09415ec76ddccedc44ae454e36184ca4cf93bfdc8b2b90c1ec796e373475997",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-14.json",
+      "ciphertext_path": "results/day1/cipher/probe-14.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:34Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142119 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:34Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142119"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-15",
+      "created_utc": "2026-10-17T09:12:34Z",
+      "round": 33142123,
+      "unlock_unix": 1792229733,
+      "unlock_utc": "2026-10-17T09:35:33Z",
+      "seconds_from_encrypt_to_unlock": 1378,
+      "plaintext_sha256": "a0a3323ea4186c5e3326d8a94d5d8c9a510945ecf54ad7bad329321c56b254f2",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "1c9a008ba4659fe2e6f4f44a6a581a13c37d764bc206b17cc1e9b36f4522ab71",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-15.json",
+      "ciphertext_path": "results/day1/cipher/probe-15.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:35Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142123 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:35Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142123"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-16",
+      "created_utc": "2026-10-17T09:12:35Z",
+      "round": 33142127,
+      "unlock_unix": 1792229745,
+      "unlock_utc": "2026-10-17T09:35:45Z",
+      "seconds_from_encrypt_to_unlock": 1390,
+      "plaintext_sha256": "12d12fca1b92b8e82973b481415e2c31e9843dd646a3e70ed42fd67bcb2772ae",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "d56c05822c0406b7aa74644ab16eec7b4ba123184f06b963fcb0f8bd67bc117b",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-16.json",
+      "ciphertext_path": "results/day1/cipher/probe-16.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:35Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142127 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:35Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142127"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-17",
+      "created_utc": "2026-10-17T09:12:35Z",
+      "round": 33142131,
+      "unlock_unix": 1792229757,
+      "unlock_utc": "2026-10-17T09:35:57Z",
+      "seconds_from_encrypt_to_unlock": 1401,
+      "plaintext_sha256": "627f350c508ff09ddf5ce1be118945430ff38589e8bf61f72b31dc7c9f8e5abd",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "370464be28baf7eea694c64ac81572190bc46f63d0a8c4dce897a71da94982b7",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-17.json",
+      "ciphertext_path": "results/day1/cipher/probe-17.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:35Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142131 > 33141663 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:35Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142131"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-18",
+      "created_utc": "2026-10-17T09:12:35Z",
+      "round": 33142135,
+      "unlock_unix": 1792229769,
+      "unlock_utc": "2026-10-17T09:36:09Z",
+      "seconds_from_encrypt_to_unlock": 1413,
+      "plaintext_sha256": "84fc319b8b2beb74f9f157bc6bdcd8c131b8a2eb6f9ca0825be297847bcdd9f4",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "f620d45b424cdb9a087be2d0a36000f68dbf315d887399e5afb02546f6363c6b",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-18.json",
+      "ciphertext_path": "results/day1/cipher/probe-18.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:36Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142135 > 33141664 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:36Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142135"
+        }
+      }
+    },
+    {
+      "probe_id": "probe-19",
+      "created_utc": "2026-10-17T09:12:36Z",
+      "round": 33142140,
+      "unlock_unix": 1792229784,
+      "unlock_utc": "2026-10-17T09:36:24Z",
+      "seconds_from_encrypt_to_unlock": 1428,
+      "plaintext_sha256": "e468cf1ccdb28c988001b8980394a67a4efd0e0211e625ece754c6dfe18f4f5a",
+      "plaintext_bytes": 181,
+      "ciphertext_sha256": "99d6b0ff728261a9055b18fd573d55dcc5cbe5b5dfb31089cced8007257509c3",
+      "ciphertext_bytes": 800,
+      "plaintext_path": "results/day1/plain/probe-19.json",
+      "ciphertext_path": "results/day1/cipher/probe-19.tlock",
+      "early_decrypt": {
+        "go": {
+          "utc": "2026-10-17T09:12:36Z",
+          "exit_code": 1,
+          "ok": false,
+          "stderr": "too early to decrypt: expected round 33142140 > 33141664 current round",
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0
+        },
+        "js": {
+          "utc": "2026-10-17T09:12:36Z",
+          "ok": false,
+          "error_name": "Error",
+          "error_message": "It's too early to decrypt the ciphertext - decryptable at round 33142140"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+First, find the total number of stamps Pavel has: 9 packs * 5 stamps/pack = 45 stamps.
+Then, Pavel has 45 - 3 = 42 stamps left.
+Finally, calculate the total value: 42 stamps * $9/stamp = $378.
+
+####378 [end of text]
+
+

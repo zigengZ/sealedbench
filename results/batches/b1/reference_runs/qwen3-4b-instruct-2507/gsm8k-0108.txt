@@ -1,0 +1,33 @@
+Let's break down the problem step by step.
+
+Let **x** be the number of cookies Henry **meant to bake** last year.
+
+This year, he wants to make **twice as many** as last year, so he **intended** to bake **2x** cookies.
+
+But he actually baked **15 more than he meant to**, so he baked:
+
+> 2x + 15
+
+Then, he **drops 5 cookies**, so the number of cookies he has left is:
+
+> (2x + 15) - 5 = 2x + 10
+
+We are told that after dropping 5, he has **110 cookies**:
+
+> 2x + 10 = 110
+
+Now solve for x:
+
+Subtract 10 from both sides:
+
+> 2x = 100
+
+Divide by 2:
+
+> x = 50
+
+So, Henry baked **50 cookies last year**.
+
+#### 50 [end of text]
+
+

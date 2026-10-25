@@ -1,0 +1,7 @@
+First, calculate the total pages read in the first 4 days: 19 pages/day * 4 days = 76 pages.
+Then, add the 8 more pages: 76 pages + 8 pages = 84 pages.
+Finally, subtract the blank pages: 84 pages - 37 pages = 47 pages.
+
+####47 [end of text]
+
+

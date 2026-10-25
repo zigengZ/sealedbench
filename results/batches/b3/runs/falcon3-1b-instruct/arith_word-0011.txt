@@ -1,0 +1,14 @@
+First, calculate the total number of seats Jamal initially had:
+4 rows × 5 seats/row = 20 seats
+Then, calculate the total number of seats after adding 6 more rows:
+20 seats + 6 rows × 7 seats/row = 20 + 42 = 62 seats
+
+Next, subtract the number of seats sold:
+62 seats - 39 seats = 23 seats
+
+Finally, calculate the worth of the unsold seats:
+23 seats × 8 dollars/seat = 184 dollars
+
+#### 184 [end of text]
+
+

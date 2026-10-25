@@ -1,0 +1,7 @@
+First, find the total number of balloons in the packs: 6 packs * 12 balloons/pack = 72 balloons.
+Then, add the balloons Yara gives him: 72 balloons + 20 balloons = 92 balloons.
+
+####92
+ [end of text]
+
+

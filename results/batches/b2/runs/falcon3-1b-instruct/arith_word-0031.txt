@@ -1,0 +1,9 @@
+First, calculate the total number of ribbons Yara initially has:
+5 packs * 7 ribbons/pack = 35 ribbons
+
+Then, add the 8 ribbons Boris gives her:
+35 ribbons + 8 ribbons = 43 ribbons
+
+So, Yara has #### 43 ribbons. [end of text]
+
+

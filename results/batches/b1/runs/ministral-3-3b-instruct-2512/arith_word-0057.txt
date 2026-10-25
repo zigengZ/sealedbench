@@ -1,0 +1,9 @@
+Ivy has a total of 8 rows × 12 seats = 96 seats.
+
+Seats sold = 81, so unsold seats = 96 - 81 = 15.
+
+Each unsold seat is worth $2, so total value = 15 × 2 = $30.
+
+#### 30 [end of text]
+
+

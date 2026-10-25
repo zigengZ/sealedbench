@@ -1,0 +1,17 @@
+First, let's find out how many pages Willa reads in one day from each book:
+
+- First book: 19 pages/day for 5 days → $19 \times 5 = 95$ pages
+- Second book: 14 pages/day for 3 days → $14 \times 3 = 42$ pages
+
+Total pages read in one week (before skipping):  
+$95 + 42 = 137$ pages
+
+Then, Willa skips 36 pages that don't count. So, the actual pages she reads in one week:  
+$137 - 36 = 101$ pages
+
+She repeats this pattern for 4 weeks:  
+$101 \times 4 = 404$ pages
+
+#### 404 [end of text]
+
+

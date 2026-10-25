@@ -1,0 +1,7 @@
+First, find the total number of ribbons Gina has: 6 packs * 8 ribbons/pack = 48 ribbons.
+Then, Gina gives away 44 ribbons, so she has 48 - 44 = 4 ribbons left.
+Each ribbon is worth $6, so Gina's remaining ribbons are worth 4 ribbons * $6/ribbon = $24.
+
+####24 [end of text]
+
+

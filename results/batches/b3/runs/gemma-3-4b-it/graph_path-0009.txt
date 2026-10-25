@@ -1,0 +1,22 @@
+We want to find the shortest path between Uri and Zed in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Dove Moss 5
+- Dove Uri 5
+- Dove Zed 1
+- Drew Moss 6
+- Drew Uri 2
+- Moss Uri 2
+- Uri Vale 2
+
+We can consider the possible paths from Uri to Zed:
+1. Uri -> Dove -> Zed: Weight = 5 + 1 = 6
+2. Uri -> Moss -> Dove -> Zed: Weight = 2 + 5 + 1 = 8
+3. Uri -> Vale: No path from Vale to Zed.
+4. Uri -> Drew: No path from Drew to Zed.
+
+The shortest path is Uri -> Dove -> Zed with a total weight of 6.
+
+#### 6 [end of text]
+
+

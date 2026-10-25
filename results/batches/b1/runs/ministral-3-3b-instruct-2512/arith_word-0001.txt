@@ -1,0 +1,15 @@
+Felix first buys 8 packs of oranges, each containing 12 oranges:
+8 packs × 12 oranges = 96 oranges.
+
+Next, he buys 2 packs with 7 oranges each:
+2 packs × 7 oranges = 14 oranges.
+
+Adding these together gives a total of:
+96 oranges + 14 oranges = 110 oranges.
+
+Sharing equally among 2 people:
+110 ÷ 2 = 55 oranges.
+
+#### 55 [end of text]
+
+

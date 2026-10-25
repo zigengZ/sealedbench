@@ -1,0 +1,7 @@
+Uma reads **21 pages/day × 5 days = 105 pages** in the first book.
+She reads **10 pages/day × 5 days = 50 pages** in the second book.
+Total pages read: **105 + 50 = 155 pages**.
+
+#### 155 [end of text]
+
+

@@ -1,0 +1,12 @@
+First, calculate the total number of balloons Gina has:
+7 packs * 9 balloons/pack = 63 balloons
+
+Next, subtract the balloons given to Kira:
+63 balloons - 7 balloons = 56 balloons
+
+Finally, calculate the total worth of the remaining balloons:
+56 balloons * $7/balloon = $392
+
+#### 392 [end of text]
+
+

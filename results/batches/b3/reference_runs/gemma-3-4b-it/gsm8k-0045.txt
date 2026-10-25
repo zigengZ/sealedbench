@@ -1,0 +1,11 @@
+Let's calculate the number of articles Meredith wrote each day.
+On Monday, she wrote 5 articles.
+On Tuesday, she wrote 2/5 times more articles than on Monday, so she wrote 5 + (2/5)*5 = 5 + 2 = 7 articles.
+On Wednesday, she wrote twice the number of articles she wrote on Tuesday, so she wrote 2 * 7 = 14 articles.
+
+Total number of articles written in the three days is 5 + 7 + 14 = 26 articles.
+Each article takes 4 hours to write, so the total number of hours spent writing is 26 * 4 = 104 hours.
+
+####104 [end of text]
+
+

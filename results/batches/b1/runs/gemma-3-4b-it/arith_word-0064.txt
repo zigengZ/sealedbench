@@ -1,0 +1,11 @@
+First, let's calculate the number of pages Yara reads in the first 5 days: 10 pages/day * 5 days = 50 pages.
+
+Next, let's calculate the number of pages Yara reads in the next 3 days: 9 pages/day * 3 days = 27 pages.
+
+Then, let's calculate the total number of pages read in one week: 50 pages + 27 pages = 77 pages.
+
+Finally, let's calculate the total number of pages read in 2 weeks: 77 pages/week * 2 weeks = 154 pages.
+
+####154 [end of text]
+
+

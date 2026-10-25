@@ -1,0 +1,13 @@
+Olga earns $11 per hour and works 4 hours.  
+
+So, her total earnings are:  
+$11 \times 4 = 44$ dollars.
+
+Then she spends $42.  
+
+So, the amount she has left is:  
+$44 - 42 = 2$ dollars.
+
+#### 2 [end of text]
+
+

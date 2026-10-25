@@ -1,0 +1,87 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Ash, Hart, Lark, Quill, York  
+**Edges and weights**:
+- Amber – Ash: 9  
+- Amber – Hart: 5  
+- Amber – Quill: 9  
+- Ash – Lark: 1  
+- Ash – Quill: 9  
+- Ash – York: 4  
+- Lark – York: 4  
+
+We are to find the **shortest path weight from Hart to Quill**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build the connections:
+
+- Hart is connected to Amber (5)
+- Amber is connected to Ash (9), Quill (9), Hart (5)
+- Ash is connected to Lark (1), Quill (9), York (4)
+- Lark is connected to York (4)
+- York is connected to Ash (4), Lark (4)
+
+We want the shortest path from **Hart to Quill**.
+
+---
+
+### Step 2: Use BFS or Dijkstra (since all weights are positive)
+
+We can use Dijkstra’s algorithm to compute shortest paths from Hart to all other nodes.
+
+Start at **Hart**.
+
+#### Initialize:
+- Distance to Hart: 0
+- All others: ∞
+
+#### Step-by-step propagation:
+
+1. From Hart:
+   - Edge to Amber: weight 5 → distance to Amber = 5
+
+2. From Amber:
+   - To Ash: 9 → total = 5 + 9 = 14
+   - To Quill: 9 → total = 5 + 9 = 14
+   - To Hart: already visited
+
+3. From Ash (distance 14):
+   - To Lark: 1 → total = 14 + 1 = 15
+   - To Quill: 9 → total = 14 + 9 = 23 → but we already have Quill at 14 via Amber → so 14 is better
+   - To York: 4 → total = 14 + 4 = 18
+
+4. From Lark (distance 15):
+   - To York: 4 → total = 15 + 4 = 19 → but York already has 18 → so update only if better (19 > 18, skip)
+
+5. From York (distance 18):
+   - Already connected to Ash and Lark → no new paths
+
+Now, we have:
+- Quill: reached via Amber → 5 (Hart → Amber) + 9 (Amber → Quill) = **14**
+
+Is there a shorter path?
+
+Alternative path?
+- Hart → Amber → Ash → Quill: 5 + 9 + 9 = 23 → worse
+- Hart → Amber → Ash → Lark → York → ??? → no direct edge to Quill
+- Hart → Amber → Ash → York → ??? → no edge to Quill
+
+So only direct path from Hart to Quill is via Amber.
+
+Any other path?
+
+What about Hart → Amber → Ash → Lark → York → ??? → no connection to Quill.
+
+So no alternative.
+
+Thus, the shortest path is:
+**Hart → Amber → Quill**  
+Total weight: 5 + 9 = **14**
+
+#### Final Answer:
+#### 14 [end of text]
+
+

@@ -1,0 +1,8 @@
+Ivy reads **13 pages/day × 5 days = 65 pages** from the first book.
+She reads **14 pages/day × 4 days = 56 pages** from the second book.
+Total pages read before skipping: **65 + 56 = 121 pages**.
+After skipping 108 blank pages: **121 - 108 = 13 pages**.
+
+#### 13 [end of text]
+
+

@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "gsm8k",
+  "gen_tokens": 110,
+  "gen_tps": 8.95,
+  "hit_cap": false,
+  "item_id": "gsm8k-0058",
+  "model": "ministral-3-3b-instruct-2512",
+  "n_predict": 768,
+  "prompt_tokens": 123,
+  "prompt_tps": 62.34,
+  "returncode": 0,
+  "seconds": 15.384,
+  "stdout_bytes": 278,
+  "stdout_sha256": "37e7da019819271884f89d85c02223d94a373bd85bd7e39d7a8d3cb144a0a6a9"
+}

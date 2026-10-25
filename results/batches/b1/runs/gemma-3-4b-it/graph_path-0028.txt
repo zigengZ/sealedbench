@@ -1,0 +1,13 @@
+We want to find the shortest path between Cleo and Xen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cleo to Xen:
+1. Cleo -> Poe -> Eden -> Tess -> Xen: Weight = 1 + 9 + 6 + 3 = 19
+2. Cleo -> Blair -> Fern -> Tess -> Xen: Weight = 7 + 5 + 6 + 3 = 21
+3. Cleo -> Blair -> Kai -> (no path to Xen)
+4. Cleo -> Blair -> Tess -> Xen: Weight = 7 + 9 + 3 = 19
+
+Comparing the paths, the shortest path is Cleo -> Poe -> Eden -> Tess -> Xen with a total weight of 19.
+
+#### 19 [end of text]
+
+

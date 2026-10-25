@@ -1,0 +1,9 @@
+First, calculate the total number of tickets Kira initially bought:
+4 packs * 5 tickets/pack = 20 tickets
+
+Next, add the 18 additional tickets Esme gave:
+20 tickets + 18 tickets = 38 tickets
+
+So, Kira has #### 38 tickets. [end of text]
+
+

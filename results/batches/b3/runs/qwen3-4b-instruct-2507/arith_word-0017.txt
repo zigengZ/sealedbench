@@ -1,0 +1,11 @@
+Olga buys 3 packs of ribbons, and each pack has 12 ribbons.  
+So, total ribbons Olga has initially:  
+3 × 12 = 36 ribbons  
+
+Then she gives 17 ribbons to Boris.  
+So, ribbons left with Olga:  
+36 − 17 = 19  
+
+#### 19 [end of text]
+
+

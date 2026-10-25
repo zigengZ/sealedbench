@@ -1,0 +1,7 @@
+First, we calculate Mina's total earnings: 15 dollars/hour * 3 hours = 45 dollars.
+Then, we subtract the amount she spent from her earnings: 45 dollars - 31 dollars = 14 dollars.
+
+####14
+ [end of text]
+
+

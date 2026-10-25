@@ -1,0 +1,16 @@
+We want to find the shortest path between Quill and West in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Quill to West:
+1. Quill -> Indigo -> Eden -> West: Weight = 6 + 2 + 8 = 16
+2. Quill -> Indigo -> Zed -> Eden -> West: Weight = 6 + 4 + 3 + 8 = 21
+3. Quill -> Indigo -> Zed -> West: No direct edge from Zed to West.
+4. Quill -> Oak -> Eden -> West: No direct edge from Quill to Oak.
+5. Quill -> Oak -> Xen -> West: No direct edge from Quill to Oak.
+6. Quill -> Zed -> Eden -> West: Weight = 4 + 3 + 8 = 15
+7. Quill -> Zed -> Xen -> West: Weight = 4 + 6 + 6 = 16
+
+Comparing the paths, the shortest path is Quill -> Indigo -> Eden -> West with a total weight of 16.
+
+#### 16 [end of text]
+
+

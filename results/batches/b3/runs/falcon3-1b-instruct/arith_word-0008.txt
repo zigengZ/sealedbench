@@ -1,0 +1,18 @@
+First, calculate the total number of cards Mina initially bought:
+9 packs * 11 cards/pack = 99 cards
+
+Next, calculate the total number of cards Mina bought after the second purchase:
+6 packs * 2 cards/pack = 12 cards
+
+Now, add the two quantities of cards:
+99 cards + 12 cards = 111 cards
+
+Mina then gives 49 cards to Ben:
+111 cards - 49 cards = 62 cards
+
+The cards are shared equally among 2 people:
+62 cards / 2 people = 31 cards/person
+
+#### 31 [end of text]
+
+

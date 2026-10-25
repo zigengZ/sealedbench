@@ -1,0 +1,82 @@
+We are given:
+
+- Total oranges = 25  
+- 1 is bad  
+- 20% are unripe  
+- 2 are sour  
+- The rest are good  
+
+We are to find how many oranges are **good**.
+
+---
+
+Step 1: Understand what "bad" means.
+
+It says **1 is bad**. So, that one is not good.
+
+Step 2: Are "sour" oranges included in the bad ones?
+
+The problem says:  
+- 1 is bad  
+- 2 are sour  
+- The rest are good  
+
+This suggests that **sour** and **bad** are separate categories. So, we assume that the sour oranges are not necessarily bad.
+
+So, total oranges = 25  
+Bad = 1  
+Sour = 2  
+So, the rest (not bad and not sour) are good?
+
+Wait — but the problem says "20% are unripe", which is another category.
+
+So we have three categories:
+
+- Bad: 1  
+- Unripe: 20% of 25  
+- Sour: 2  
+- Good: the rest?
+
+But we must be careful: could some oranges be both sour and bad? Or unripe and bad?
+
+The problem doesn't specify overlaps, so we assume **no overlap** unless stated.
+
+So let's compute each:
+
+1. Unripe: 20% of 25 = 0.20 × 25 = 5 oranges
+
+2. Bad: 1 orange
+
+3. Sour: 2 oranges
+
+Now, total oranges accounted for:
+
+Unripe (5) + Bad (1) + Sour (2) = 8
+
+So, the rest are good.
+
+Total oranges = 25  
+So, good = 25 - (5 + 1 + 2) = 25 - 8 = 17
+
+But wait — is it possible that "bad" and "sour" overlap? Or is "bad" a subset of "sour"?
+
+The problem says: "1 is bad, 2 are sour and the rest are good."
+
+This suggests that the bad one is separate from the sour ones.
+
+Also, unripe is a separate category.
+
+So unless specified, we assume disjoint categories.
+
+Therefore:
+
+- Unripe: 5  
+- Bad: 1  
+- Sour: 2  
+- Good: rest
+
+So good = 25 - (5 + 1 + 2) = 17
+
+#### 17 [end of text]
+
+

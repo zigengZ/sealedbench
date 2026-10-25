@@ -1,0 +1,18 @@
+First, let's calculate the total weight of the comic books Uriah has.
+
+Comic books weigh 1/4 pound each, and he has 30 comic books.
+Total weight of comic books = 30 * (1/4) = 30 * 0.25 = 7.5 pounds.
+
+Now, let's subtract the weight of the comic books from the total weight of the book bag to find out how much weight is left.
+
+Remaining weight = 15 pounds - 7.5 pounds = 7.5 pounds.
+
+Next, we need to determine how many toys Uriah needs to remove to reach the remaining weight of 7.5 pounds.
+
+Toys weigh 1/2 pound each, so we divide the remaining weight by the weight of each toy.
+
+Number of toys = 7.5 pounds / (1/2 pound/toy) = 7.5 * 2 = 15 toys.
+
+Thus, Uriah needs to remove #### 15. [end of text]
+
+

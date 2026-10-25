@@ -1,0 +1,81 @@
+We are given an undirected weighted graph with nodes:
+
+**Cleo, Dove, Fern, Hart, Lark, Nell, Poe, Quill**
+
+Edges and weights:
+
+- Cleo — Hart: 9  
+- Cleo — Quill: 5  
+- Dove — Lark: 9  
+- Fern — Hart: 8  
+- Fern — Quill: 8  
+- Hart — Lark: 4  
+- Hart — Poe: 9  
+- Lark — Nell: 9  
+- Lark — Poe: 9  
+- Poe — Quill: 5  
+
+We are to find the **shortest path from Cleo to Dove**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the structure
+
+We need to go from **Cleo** to **Dove**.
+
+Direct edge?  
+No direct edge between Cleo and Dove.
+
+So we must go through intermediate nodes.
+
+We can use **Dijkstra’s algorithm** or manually explore shortest paths.
+
+Let’s try to find possible paths from Cleo to Dove.
+
+---
+
+### Step 2: Explore possible paths from Cleo to Dove
+
+#### Path 1: Cleo → Hart → Lark → Dove  
+- Cleo → Hart: 9  
+- Hart → Lark: 4  
+- Lark → Dove: 9  
+→ Total: 9 + 4 + 9 = **22**
+
+#### Path 2: Cleo → Quill → Fern → Hart → Dove?  
+But no edge from Fern to Dove.  
+Fern → Hart: 8, Hart → Lark → Dove: 4 + 9 = 13 → total:  
+Cleo → Quill: 5  
+Quill → Fern: 8  
+Fern → Hart: 8  
+Hart → Lark → Dove: 4 + 9 = 13  
+Total: 5 + 8 + 8 + 4 + 9 = **34** → too long
+
+#### Path 3: Cleo → Quill → Poe → Lark → Dove  
+- Cleo → Quill: 5  
+- Quill → Poe: 5  
+- Poe → Lark: 9  
+- Lark → Dove: 9  
+→ Total: 5 + 5 + 9 + 9 = **28**
+
+#### Path 4: Cleo → Quill → Poe → Hart → Lark → Dove  
+- Cleo → Quill: 5  
+- Quill → Poe: 5  
+- Poe → Hart: 9  
+- Hart → Lark: 4  
+- Lark → Dove: 9  
+→ Total: 5 + 5 + 9 + 4 + 9 = **32**
+
+#### Path 5: Cleo → Hart → Fern → Quill → ??? → Dove?  
+No path from Quill to Dove. Quill → Poe → Lark → Dove: 5 + 9 + 9 = 23, but that would be from Quill to Dove via Poe → Lark → Dove.  
+So Cleo → Hart → Fern → Quill → Poe → Lark → Dove  
+- Cleo → Hart: 9  
+- Hart → Fern: 8  
+- Fern → Quill: 8  
+- Quill → Poe: 5  
+- Poe → Lark: 9  
+- Lark → Dove: 9  
+→ Total: 9 + 8 + 8 + 5 + 9 + 9 = **50** → too long
+
+#### Path 6: Cleo → Quill → Fern → Hart → Lark → Dove
+

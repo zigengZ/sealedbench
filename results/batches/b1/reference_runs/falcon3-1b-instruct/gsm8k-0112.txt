@@ -1,0 +1,7 @@
+Each teacher uses the whiteboard for 2 lessons per day. Since there are 4 teachers, the total number of lessons per day is 4 * 2 = 8 lessons.
+
+Each lesson uses the whiteboard 3 times. Therefore, the total number of times the whiteboard is cleaned in a day is 8 lessons * 3 cleanings/lesson = 24 cleanings.
+
+#### 24 [end of text]
+
+

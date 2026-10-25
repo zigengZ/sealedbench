@@ -1,0 +1,5 @@
+Kelian has 20 instructions for the first recipe and twice that for the second, so 20 + (2 × 20) = 60 instructions total.
+
+#### 60 [end of text]
+
+

@@ -1,0 +1,11 @@
+Gina earns $18 per hour and works 7 hours.  
+So, her total earnings are:  
+$18 \times 7 = 126$ dollars.
+
+Then she spends $55.  
+So, the amount she has left is:  
+$126 - 55 = 71$ dollars.
+
+#### 71 [end of text]
+
+

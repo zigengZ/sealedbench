@@ -1,0 +1,7 @@
+First, calculate the total number of fruit from the clusters: 6 clusters * 20 fruit/cluster = 120 fruit.
+Then, add the individual fruit: 120 fruit + 67 fruit = 187 fruit.
+
+####187
+ [end of text]
+
+

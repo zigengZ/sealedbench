@@ -1,0 +1,9 @@
+Ben buys 2 packs of oranges, and each pack has 8 oranges.  
+So, total oranges = 2 × 8 = 16 oranges.  
+
+Then Ben gives 3 oranges to Aisha.  
+So, oranges left with Ben = 16 - 3 = 13.  
+
+#### 13 [end of text]
+
+

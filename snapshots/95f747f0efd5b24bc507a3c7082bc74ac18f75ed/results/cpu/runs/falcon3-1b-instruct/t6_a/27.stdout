@@ -1,0 +1,13 @@
+First, let's determine how many cartons Cynthia needs to buy. Since she eats one serving per night and there are 7 days in a week, she eats 1 serving per week. Over 60 days, she will consume 60 servings.
+
+Each carton contains 15 servings, so to find out how many cartons she needs, we divide the total servings by the servings per carton:
+
+\[ \text{Number of cartons} = \frac{60 \text{ servings}}{15 \text{ servings per carton}} = 4 \text{ cartons} \]
+
+Now, let's calculate the total cost. Each carton costs $4.00, so for 4 cartons:
+
+\[ \text{Total cost} = 4 \text{ cartons} \times \$4.00 \text{ per carton} = \$16.00 \]
+
+#### 16 [end of text]
+
+

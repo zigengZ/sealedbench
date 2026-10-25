@@ -1,0 +1,12 @@
+Let $J$ be the number of pets Jan has, $M$ be the number of pets Marcia has, and $C$ be the number of pets Cindy has.
+We are given that Jan has three times the number of pets as Marcia, so $J = 3M$.
+We are also given that Marcia has two more pets than Cindy, so $M = C + 2$.
+We are given that Cindy has four pets, so $C = 4$.
+
+Now we can find the number of pets Marcia has: $M = C + 2 = 4 + 2 = 6$.
+Next, we can find the number of pets Jan has: $J = 3M = 3(6) = 18$.
+Finally, we can find the total number of pets the three have: $Total = J + M + C = 18 + 6 + 4 = 28$.
+
+####28 [end of text]
+
+

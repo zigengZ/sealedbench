@@ -1,0 +1,13 @@
+We want to find the shortest path from Bay to Glen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Bay to Glen:
+1. Bay -> Dove -> Glen: 8 + 2 = 10
+2. Bay -> Eden -> Fern -> Glen: 5 + 4 + 4 = 13
+3. Bay -> Dove -> Hart -> Drew -> Glen: 8 + 8 + 5 + 5 = 26 (This is longer)
+4. Bay -> Eden -> Fern -> Zed -> Glen: 5 + 4 + 6 + 5 = 20 (This is longer)
+
+The shortest path is Bay -> Dove -> Glen with a total weight of 10.
+
+#### 10 [end of text]
+
+

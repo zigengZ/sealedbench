@@ -1,0 +1,11 @@
+Xavier reads 12 pages a day for 2 days:  
+12 pages/day × 2 days = 24 pages
+
+He also reads a second book at 17 pages a day for 3 days:  
+17 pages/day × 3 days = 51 pages
+
+Total pages read = 24 + 51 = 75 pages
+
+#### 75 [end of text]
+
+

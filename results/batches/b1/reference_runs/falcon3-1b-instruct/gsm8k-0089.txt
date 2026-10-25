@@ -1,0 +1,25 @@
+To find out how much Christina will spend, we first need to calculate the total number of gift bags she needs.
+
+1. Calculate the number of attendees who don't show up:
+   \[
+   \text{Attendees who don't show up} = \frac{1}{4} \times 16 = 4
+   \]
+
+2. Calculate the total number of gift bags needed:
+   \[
+   \text{Total gift bags} = 16 + 4 = 20
+   \]
+
+3. Determine the cost per gift bag:
+   \[
+   \text{Cost per gift bag} = \$2
+   \]
+
+4. Calculate the total cost:
+   \[
+   \text{Total cost} = 20 \times 2 = \$40
+   \]
+
+#### 40 [end of text]
+
+

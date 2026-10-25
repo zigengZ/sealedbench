@@ -1,0 +1,17 @@
+The program initializes a list `digits` with values `[1, 2, 2, 5, 7, 1]` and a variable `total` set to 0. It then iterates over each digit in the list, adding it to `total`. The sum of the digits is calculated as:
+
+1 + 2 + 2 + 5 + 7 + 1 = 18
+
+After the loop, it prints the total (18) and then the length of the digits list, which is 6.
+
+The standard output will be:
+
+18
+6
+
+```python
+18
+6
+``` [end of text]
+
+

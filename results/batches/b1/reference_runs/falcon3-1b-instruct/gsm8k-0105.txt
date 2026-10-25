@@ -1,0 +1,11 @@
+#### 15
+
+Reasoning:
+- Cody eats three times as many cookies as Amir eats.
+- Amir eats 5 cookies.
+- Therefore, Cody eats \(3 \times 5 = 15\) cookies.
+- Together, they eat \(5 + 15 = 20\) cookies.
+
+#### 20 [end of text]
+
+

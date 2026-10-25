@@ -1,0 +1,12 @@
+First, calculate the total number of seats Tara initially had:
+9 rows * 12 seats/row = 108 seats
+
+Next, subtract the number of seats sold:
+108 seats - 89 seats = 9 seats
+
+Each unsold seat is worth $11. Therefore, the total worth of the unsold seats is:
+9 seats * $11/seat = $99
+
+#### 99 [end of text]
+
+

@@ -1,0 +1,7 @@
+Ryan plants 2 flowers a day for 15 days. So, he plants a total of 2 * 15 = 30 flowers.
+
+However, 5 flowers did not grow. Therefore, the total number of flowers Ryan has is 30 - 5 = 25.
+
+#### 25 [end of text]
+
+

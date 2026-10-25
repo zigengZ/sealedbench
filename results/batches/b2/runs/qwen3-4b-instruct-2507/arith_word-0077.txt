@@ -1,0 +1,13 @@
+Willa sets out 3 rows with 12 seats in each row.
+
+First, find the total number of seats:
+
+3 rows × 12 seats = 36 seats
+
+Then, 3 seats are sold, so subtract those from the total:
+
+36 - 3 = 33 seats still unsold.
+
+#### 33 [end of text]
+
+

@@ -1,0 +1,58 @@
+Let's trace through the program step by step:
+
+```python
+words = ['north', 'lilac', 'timber', 'river', 'amber']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 3 == 0:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + ' ' + piece
+print(out)
+```
+
+The list `words` has 5 elements:
+- index 0: 'north'
+- index 1: 'lilac'
+- index 2: 'timber'
+- index 3: 'river'
+- index 4: 'amber'
+
+We iterate over indices 0 to 4.
+
+**index = 0:**
+- piece = 'north'
+- 0 % 3 == 0 → True → piece becomes 'NORTH'
+- out is initially "" → so out = 'NORTH'
+
+**index = 1:**
+- piece = 'lilac'
+- 1 % 3 == 0 → False → piece remains 'lilac'
+- out is not "" → out = 'NORTH' + ' ' + 'lilac' → 'NORTH lilac'
+
+**index = 2:**
+- piece = 'timber'
+- 2 % 3 == 0 → False → piece remains 'timber'
+- out is not "" → out = 'NORTH lilac' + ' ' + 'timber' → 'NORTH lilac timber'
+
+**index = 3:**
+- piece = 'river'
+- 3 % 3 == 0 → True → piece becomes 'RIVER'
+- out is not "" → out = 'NORTH lilac timber' + ' ' + 'RIVER' → 'NORTH lilac timber RIVER'
+
+**index = 4:**
+- piece = 'amber'
+- 4 % 3 == 0 → False → piece remains 'amber'
+- out is not "" → out = 'NORTH lilac timber RIVER' + ' ' + 'amber' → 'NORTH lilac timber RIVER amber'
+
+Final output is:
+`NORTH lilac timber RIVER amber`
+
+``` 
+NORTH lilac timber RIVER amber
+``` [end of text]
+
+

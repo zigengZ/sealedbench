@@ -1,0 +1,37 @@
+To find the shortest path from **Cedar** to **Poe**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Cedar** = 0
+   - All other nodes: ∞
+   - Predecessor: None
+
+2. **Expand Cedar**:
+   - Update neighbors:
+     - **Drew**: 0 + 7 = **7**
+     - Others remain ∞
+
+3. **Expand Drew** (next shortest):
+   - Update neighbors:
+     - **Glen**: 7 + 7 = **14**
+     - **Quill**: 7 + 5 = **12**
+     - Others remain unchanged
+
+4. **Expand Quill** (next shortest):
+   - Update neighbors:
+     - **Nell**: 12 + 8 = **20** (but Nell is irrelevant)
+     - **Poe**: 12 + 9 = **21** (via Quill)
+     - **Glen**: min(14, 12 + 9) = **14** (no change)
+     - **Poe** via Quill is now 21, but we can find a better path via Glen.
+
+5. **Expand Glen** (next shortest):
+   - Update neighbors:
+     - **Poe**: min(21, 14 + 2) = **16** (via Glen → Poe)
+     - **Quill**: min(12, 14 + 9) = **12** (no change)
+
+6. **Final Shortest Path**:
+   - **Cedar → Drew → Glen → Poe** with total weight **16**.
+
+#### 16 [end of text]
+
+

@@ -1,0 +1,10 @@
+Grace weighs **125 pounds**.
+
+Alex weighs:
+4 × Grace’s weight – 2 = 4 × 125 – 2 = 500 – 2 = **498 pounds**.
+
+Combined weight = 125 + 498 = **623 pounds**
+
+#### 623 [end of text]
+
+

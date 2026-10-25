@@ -1,0 +1,24 @@
+We want to find the shortest path between Moss and Xen in the given undirected weighted graph. We can use Dijkstra's algorithm to find the shortest path.
+
+1.  **Initialization:**
+    *   Distance to Moss = 0
+    *   Distance to all other nodes = infinity
+    *   Unvisited nodes = {Amber, Bay, Dove, Hart, Indigo, Lark, Moss, Poe, Quill, Xen}
+
+2.  **Iteration 1:**
+    *   Current node: Moss
+    *   Neighbors of Moss: Poe (weight 1)
+    *   Distance to Poe = 1
+    *   Unvisited nodes = {Amber, Bay, Dove, Hart, Indigo, Lark, Xen, Quill, Poe}
+
+3.  **Iteration 2:**
+    *   Current node: Poe (smallest distance among unvisited nodes)
+    *   Neighbors of Poe: Bay (weight 9), Lark (weight 8), Moss (weight 1)
+    *   Distance to Bay = min(infinity, 1 + 9) = 10
+    *   Distance to Lark = min(infinity, 1 + 8) = 9
+    *   Unvisited nodes = {Amber, Dove, Hart, Indigo, Lark, Xen, Quill}
+
+4.  **Iteration 3:**
+    *   Current node: Lark (smallest distance among unvisited nodes)
+    *   Neighbors of Lark: Bay (weight 5), Indigo (weight 4), Moss (
+

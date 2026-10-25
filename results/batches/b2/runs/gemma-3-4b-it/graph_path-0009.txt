@@ -1,0 +1,15 @@
+We want to find the shortest path between Oak and Xen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Oak to Xen:
+1. Oak -> Nell -> Xen: Weight = 5 + 3 = 8
+2. Oak -> Nell -> York -> Xen: Weight = 5 + 3 + 2 = 10
+3. Oak -> Nell -> Ash -> Xen: Weight = 5 + 3 + 4 = 12
+4. Oak -> Nell -> Poe -> (no path to Xen)
+5. Oak -> Bay -> (no path to Xen)
+6. Oak -> West -> (no path to Xen)
+
+The shortest path is Oak -> Nell -> Xen with a total weight of 8.
+
+#### 8 [end of text]
+
+

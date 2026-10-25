@@ -1,0 +1,23 @@
+Let's break down how many pages Felix reads each week.
+
+**First book:**  
+Felix reads 20 pages a day for 4 days:  
+$ 20 \times 4 = 80 $ pages
+
+**Second book:**  
+Felix reads 17 pages a day for 2 days:  
+$ 17 \times 2 = 34 $ pages
+
+**Total pages read in one week (before skipping):**  
+$ 80 + 34 = 114 $ pages
+
+**Skipping 80 blank pages:**  
+These don't count, so we subtract them:  
+$ 114 - 80 = 34 $ pages actually read per week
+
+Now, Felix repeats this **each week for 3 weeks**:  
+$ 34 \times 3 = 102 $ pages
+
+#### 102 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, we calculate Cara's total earnings: 12 dollars/hour * 5 hours = 60 dollars.
+Then, we subtract the amount she spent from her earnings: 60 dollars - 54 dollars = 6 dollars.
+
+####6
+ [end of text]
+
+

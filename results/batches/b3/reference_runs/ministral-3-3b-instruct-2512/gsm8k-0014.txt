@@ -1,0 +1,12 @@
+1. **Contemporary Dance**: 20% of 20 students = 4 students.
+   Remaining students = 20 - 4 = 16.
+
+2. **Jazz Dance**: 25% of the remaining 16 students = 4 students.
+   Remaining students = 16 - 4 = 12.
+
+3. **Hip-Hop Dance**: The rest = 12 students.
+   Percentage = (12 / 20) * 100 = 60%.
+
+#### 60 [end of text]
+
+

@@ -1,0 +1,7 @@
+Pavel buys 9 packs × 5 stamps each = **45 stamps**.
+He gives away 3 stamps, so he has **42 stamps left**.
+Each stamp is worth $9, so 42 × 9 = **378 dollars**.
+
+#### 378 [end of text]
+
+

@@ -1,0 +1,14 @@
+We want to find the shortest path between Cedar and Jules in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cedar to Jules:
+1. Cedar -> Glen -> Jules: Weight = 7 + 8 = 15
+2. Cedar -> Reed -> Jules: Weight = 3 + 7 = 10
+3. Cedar -> Bay -> Reed -> Jules: Weight = 5 + 5 + 7 = 17
+4. Cedar -> Ash -> Bay -> Reed -> Jules: Weight = 7 + 8 + 5 + 7 = 27
+5. Cedar -> Nell -> (no path to Jules)
+
+Comparing the weights of the possible paths, the shortest path is Cedar -> Reed -> Jules with a total weight of 10.
+
+#### 10 [end of text]
+
+

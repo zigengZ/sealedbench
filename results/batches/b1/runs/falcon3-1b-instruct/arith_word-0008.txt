@@ -1,0 +1,12 @@
+First, calculate the total number of balloons Quinn bought:
+4 packs * 6 balloons/pack = 24 balloons
+
+Then, add the balloons from the second set of packs:
+24 balloons + 4 packs * 9 balloons/pack = 24 balloons + 36 balloons = 60 balloons
+
+Now, divide the total number of balloons by the number of people:
+60 balloons / 4 people = 15 balloons/person
+
+#### 15 [end of text]
+
+

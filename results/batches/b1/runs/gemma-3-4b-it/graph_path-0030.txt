@@ -1,0 +1,14 @@
+We want to find the shortest path between Hart and Tess in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Hart to Tess:
+1. Hart -> Bay -> Tess: Weight = 6 + 4 = 10
+2. Hart -> Moss -> (no path to Tess)
+3. Hart -> Dove -> Poe -> Tess: Weight = 3 + 7 + 7 = 17
+4. Hart -> Bay -> Eden -> Poe -> Tess: Weight = 6 + 7 + 6 + 7 = 26
+5. Hart -> Bay -> Tess: Weight = 6 + 4 = 10
+
+The shortest path is Hart -> Bay -> Tess with a total weight of 10.
+
+#### 10 [end of text]
+
+

@@ -1,0 +1,23 @@
+To find the shortest path from **Amber** to **Blair**, we use Dijkstra's algorithm (or a modified BFS for unweighted graphs, but here we account for weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Amber (distance = 0)**.
+2. **Neighbors of Amber**:
+   - Lark (distance = 3).
+3. **Update distances**:
+   - Lark: 3.
+4. **Next, explore Lark (shortest unvisited node)**:
+   - Neighbors: Amber (already visited), Quill (3 + 8 = 11), Xen (3 + 8 = 11), York (3 + 1 = 4).
+   - Update York: 4 (better than existing).
+5. **Next, explore York (distance = 4)**:
+   - Neighbors: Lark (visited), Drew (4 + 6 = 10).
+   - Update Drew: 10.
+6. **Next, explore Drew (distance = 10)**:
+   - Neighbors: Lark (visited), Tess (10 + 2 = 12), York (visited).
+   - Update Tess: 12.
+7. **Next, explore Lark (already visited via York)** or Tess (distance = 12).
+8. **Next, explore Tess (distance = 12)**:
+   - Neighbors: Drew (visited), Xen (12 + 8 = 20).
+   - Update Xen: 20.
+
+

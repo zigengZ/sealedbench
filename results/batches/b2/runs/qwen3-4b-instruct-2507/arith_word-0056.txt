@@ -1,0 +1,9 @@
+Samir buys 6 packs of cookies, and each pack has 4 cookies.  
+So, total cookies = 6 × 4 = 24 cookies.
+
+Then he gives 16 cookies to Chloe.  
+So, cookies left = 24 − 16 = 8 cookies.
+
+#### 8 [end of text]
+
+

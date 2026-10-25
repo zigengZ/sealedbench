@@ -1,0 +1,95 @@
+{
+  "Falcon3-1B-Instruct-q8_0.gguf": {
+    "gguf_version": 3,
+    "tensors": 165,
+    "kv": 38,
+    "meta": {
+      "general.architecture": "llama",
+      "general.type": "model",
+      "general.name": "Falcon3 1B Instruct",
+      "general.finetune": "Instruct",
+      "general.basename": "Falcon3",
+      "general.size_label": "1B",
+      "general.license": "other",
+      "general.license.name": "falcon-llm-license",
+      "general.license.link": "https://falconllm.tii.ae/falcon-terms-and-conditions.html",
+      "general.base_model.count": 1,
+      "general.base_model.0.name": "Falcon3 1B Base",
+      "general.base_model.0.organization": "Tiiuae",
+      "general.base_model.0.repo_url": "https://huggingface.co/tiiuae/Falcon3-1B-Base",
+      "general.languages": "str[4]",
+      "llama.block_count": 18,
+      "llama.context_length": 8192,
+      "llama.embedding_length": 2048,
+      "general.quantization_version": 2,
+      "general.file_type": 7
+    }
+  },
+  "Ministral-3-3B-Instruct-2512-Q8_0.gguf": {
+    "gguf_version": 3,
+    "tensors": 236,
+    "kv": 46,
+    "meta": {
+      "general.architecture": "mistral3",
+      "general.type": "model",
+      "general.size_label": "3.4B",
+      "general.license": "apache-2.0",
+      "general.base_model.count": 1,
+      "general.base_model.0.name": "Ministral 3 3B Base 2512",
+      "general.base_model.0.version": "2512",
+      "general.base_model.0.organization": "Mistralai",
+      "general.base_model.0.repo_url": "https://huggingface.co/mistralai/Ministral-3-3B-Base-2512",
+      "general.languages": "str[11]",
+      "mistral3.block_count": 26,
+      "mistral3.context_length": 262144,
+      "mistral3.embedding_length": 3072,
+      "general.file_type": 7,
+      "mistral3.rope.scaling.original_context_length": 16384,
+      "general.quantization_version": 2
+    }
+  },
+  "gemma-3-4b-it-Q8_0.gguf": {
+    "gguf_version": 3,
+    "tensors": 444,
+    "kv": 40,
+    "meta": {
+      "general.architecture": "gemma3",
+      "general.type": "model",
+      "general.name": "Gemma 3 4b It",
+      "general.finetune": "it",
+      "general.basename": "gemma-3",
+      "general.size_label": "4B",
+      "general.license": "gemma",
+      "general.base_model.count": 1,
+      "general.base_model.0.name": "Gemma 3 4b Pt",
+      "general.base_model.0.organization": "Google",
+      "general.base_model.0.repo_url": "https://huggingface.co/google/gemma-3-4b-pt",
+      "gemma3.context_length": 131072,
+      "gemma3.embedding_length": 2560,
+      "gemma3.block_count": 34,
+      "general.file_type": 7,
+      "general.quantization_version": 2
+    }
+  },
+  "qwen3-4b-instruct-2507-q8_0.gguf": {
+    "gguf_version": 3,
+    "tensors": 398,
+    "kv": 32,
+    "meta": {
+      "general.architecture": "qwen3",
+      "general.type": "model",
+      "general.name": "Qwen3 4B Instruct 2507",
+      "general.version": "2507",
+      "general.finetune": "Instruct",
+      "general.basename": "Qwen3",
+      "general.size_label": "4B",
+      "general.license": "apache-2.0",
+      "general.license.link": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507/blob/main/LICENSE",
+      "qwen3.block_count": 36,
+      "qwen3.context_length": 262144,
+      "qwen3.embedding_length": 2560,
+      "general.quantization_version": 2,
+      "general.file_type": 7
+    }
+  }
+}

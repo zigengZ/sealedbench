@@ -1,0 +1,35 @@
+Let's trace through the program step by step.
+
+We initialize `count = 0`.
+
+Outer loop: `i` ranges from 0 to 2 (inclusive), so `i` takes values 0, 1, 2.
+
+Inner loop: `j` ranges from 0 to 1 (inclusive), so `j` takes values 0, 1.
+
+For each combination of `(i, j)`, we check if `(i + j) % 2 == 0`. If true, we add `i + 1` to `count`. Otherwise, we add `j + 1`.
+
+Let's go through each pair:
+
+---
+
+**i = 0:**
+- j = 0: (0 + 0) % 2 = 0 → even → add `0 + 1 = 1` → count = 0 + 1 = 1
+- j = 1: (0 + 1) % 2 = 1 → odd → add `1 + 1 = 2` → count = 1 + 2 = 3
+
+**i = 1:**
+- j = 0: (1 + 0) % 2 = 1 → odd → add `0 + 1 = 1` → count = 3 + 1 = 4
+- j = 1: (1 + 1) % 2 = 0 → even → add `1 + 1 = 2` → count = 4 + 2 = 6
+
+**i = 2:**
+- j = 0: (2 + 0) % 2 = 0 → even → add `2 + 1 = 3` → count = 6 + 3 = 9
+- j = 1: (2 + 1) % 2 = 1 → odd → add `1 + 1 = 2` → count = 9 + 2 = 11
+
+Final value of `count` is 11.
+
+Output: `11`
+
+```python
+11
+``` [end of text]
+
+

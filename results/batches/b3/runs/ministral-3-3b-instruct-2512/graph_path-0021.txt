@@ -1,0 +1,14 @@
+To find the shortest path from Nell to Quill, we can use Dijkstra's algorithm or explore possible paths manually.
+
+**Possible paths and their weights:**
+1. Nell → Quill: **8**
+2. Nell → Zed → Quill: **3 + 1 = 4**
+3. Nell → Kai → Lark → Zed → Quill: **8 + 5 + 3 + 1 = 17** (too long)
+4. Nell → Drew → Quill: **9 + 6 = 15** (too long)
+5. Nell → Kai → Drew → Quill: **8 + 3 + 6 = 17** (too long)
+
+The shortest path is **Nell → Zed → Quill** with a total weight of **4**.
+
+#### 4 [end of text]
+
+

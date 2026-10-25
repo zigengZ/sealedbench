@@ -1,0 +1,12 @@
+First, calculate the total number of magnets Farid bought initially:
+7 packs × 5 magnets/pack = 35 magnets
+
+Then, calculate the total number of magnets Farid bought in the second set:
+3 packs × 7 magnets/pack = 21 magnets
+
+Next, add the two totals together to find the total number of magnets Farid has:
+35 magnets + 21 magnets = 56 magnets
+
+#### 56 [end of text]
+
+

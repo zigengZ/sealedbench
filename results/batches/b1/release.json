@@ -1,0 +1,51 @@
+{
+  "batch_id": "b1",
+  "batch_valid": true,
+  "beacon_binding": "randomness == sha256(signature); seed still uses the randomness field",
+  "beacon_relay_errors": [],
+  "beacon_relays_ok": 2,
+  "beacon_round": 33170212,
+  "ciphertext_inclusion": "PASS",
+  "ciphertext_sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+  "decrypt_tool": "tle -d (Go tlock v1.2.0) verified the beacon signature by decrypting",
+  "download_gateways": [
+    {
+      "bytes": 15685,
+      "host": "https://ar-io.dev",
+      "http": 200,
+      "match": true,
+      "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc"
+    },
+    {
+      "bytes": 169,
+      "host": "https://arweave.net",
+      "http": 429,
+      "match": false,
+      "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135"
+    },
+    {
+      "bytes": 15685,
+      "host": "https://ario.zigza.xyz",
+      "http": 200,
+      "match": true,
+      "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc"
+    },
+    {
+      "bytes": 15685,
+      "host": "https://turbo-gateway.com",
+      "http": 200,
+      "match": true,
+      "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc"
+    }
+  ],
+  "generator_sha256": "e054f1ab7824fde33e6ac399252098cf25c29815ff4ffacabbd311da05eac9c2",
+  "js_decrypt_match": true,
+  "js_decrypt_note": "received: {\"round\":33170212,\"randomness\":\"cf7f68e653dc1e92eb6a6757e8d905bab561ab42b508f86ece81b19fe0a00c74\",\"signature\":\"8bfa0f5706c9a6dce60d64a575ffec7770d7ccb0a2e73700c224a1a5ac3132ce4bdf021624c7589c4337b64516fcf9ee\"}\nJS_DECRYPT_OK\n(node:2740958) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+  "manifest_inclusion": "PASS",
+  "n_items": 240,
+  "payload_in_bundle_ciphertext": true,
+  "payload_in_bundle_manifest": true,
+  "question_set_sha256": "a91b6dab74eee35c8aaba81f8323610a5604fc7d73529bc7229aa3c6e1668193",
+  "randomness_sha256": "331a6dbb8a2a18b35ecf87a1f1c24581c1aada9432eaea22b359ee314bf4cf81",
+  "validity_note": "Manifest bundle L1 timestamp 2026-10-17T15:21:00Z and ciphertext bundle L1 timestamp 2026-10-17T15:21:00Z are before 2026-10-18T09:00:00Z. L1 status source manifest=https://ar-io.dev ciphertext=https://ar-io.dev."
+}

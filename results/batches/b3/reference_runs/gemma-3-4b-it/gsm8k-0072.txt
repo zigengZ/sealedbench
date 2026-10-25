@@ -1,0 +1,7 @@
+First, calculate the money raised from selling brownies: 43 brownies * $3/brownie = $129
+Next, calculate the money raised from selling cheesecakes: 23 cheesecakes * $4/cheesecake = $92
+Finally, add the money from brownies and cheesecakes: $129 + $92 = $221
+
+####221 [end of text]
+
+

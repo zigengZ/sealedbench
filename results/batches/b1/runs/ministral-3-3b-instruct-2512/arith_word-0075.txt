@@ -1,0 +1,8 @@
+Diego starts with 8 packs of 12 notebooks: 8 × 12 = 96 notebooks.
+Then he buys 5 packs of 8 notebooks: 5 × 8 = 40 notebooks.
+Total notebooks before giving any away: 96 + 40 = 136.
+After giving 60 notebooks to Quinn: 136 - 60 = 76.
+
+#### 76 [end of text]
+
+

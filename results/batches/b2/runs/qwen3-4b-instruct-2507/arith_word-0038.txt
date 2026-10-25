@@ -1,0 +1,23 @@
+Mina sets out 8 rows with 4 seats in each row.
+
+First, find the total number of seats:
+
+$$
+8 \text{ rows} \times 4 \text{ seats per row} = 32 \text{ seats}
+$$
+
+Then, 20 seats are sold, so the number of unsold seats is:
+
+$$
+32 - 20 = 12 \text{ unsold seats}
+$$
+
+Each unsold seat is worth $8, so the total value of unsold seats is:
+
+$$
+12 \times 8 = 96 \text{ dollars}
+$$
+
+#### 96 [end of text]
+
+

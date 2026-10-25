@@ -1,0 +1,15 @@
+Elena first buys 8 packs of balloons with 9 balloons each:
+8 × 9 = 72 balloons.
+
+Next, she buys 6 packs with 5 balloons each:
+6 × 5 = 30 balloons.
+
+Adding these together:
+72 + 30 = 102 balloons.
+
+After giving 70 balloons to Nico:
+102 - 70 = 32 balloons.
+
+#### 32 [end of text]
+
+

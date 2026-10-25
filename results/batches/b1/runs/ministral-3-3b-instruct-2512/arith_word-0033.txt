@@ -1,0 +1,7 @@
+Olga reads **23 pages/day × 3 days = 69 pages** from the first book.
+She reads **12 pages/day × 5 days = 60 pages** from the second book.
+Total pages read: **69 + 60 = 129 pages**
+
+#### 129 [end of text]
+
+

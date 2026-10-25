@@ -1,0 +1,24 @@
+To find the shortest path between Hart and Tess in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to Hart as 0 (since it's directly connected to Hart with an edge of weight 6).
+   - Set the distance to Tess as infinity (since it's initially unknown).
+
+2. **Distribute Distances:**
+   - Start from Hart with a distance of 0.
+   - Update the distances to all other nodes:
+     - From Hart to Bay: 7 (Bay to Hart)
+     - From Hart to Dove: 0 (Hart to Dove)
+     - From Hart to Eden: 0 (Hart to Eden)
+     - From Hart to Moss: 0 (Hart to Moss)
+     - From Hart to Poe: 0 (Hart to Poe)
+     - From Hart to Tess: 0 (Hart to Tess)
+
+3. **Continue Updating Distances:**
+   - From Tess, update the distances to all other nodes:
+     - From Tess to Bay: 7 (Bay to Tess)
+     - From Tess to Dove: 0 (Tess to Dove)
+     - From Tess to Eden: 0 (Tess to Eden)
+     - From Tess to Hart: 0 (Tess to Hart)
+     - From Tess
+

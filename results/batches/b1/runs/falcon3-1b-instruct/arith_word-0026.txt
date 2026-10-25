@@ -1,0 +1,23 @@
+First, calculate the total number of seats Nico initially had:
+
+10 rows × 16 seats/row = 160 seats
+
+Then, add the additional rows:
+
+3 rows × 7 seats/row = 21 seats
+
+Total seats after additions:
+
+160 seats + 21 seats = 181 seats
+
+Seats sold:
+
+126 seats
+
+Seats still unsold:
+
+181 seats - 126 seats = 55 seats
+
+#### 55 [end of text]
+
+

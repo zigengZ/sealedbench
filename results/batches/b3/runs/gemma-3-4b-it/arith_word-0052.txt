@@ -1,0 +1,7 @@
+First, calculate the total pages read in the first 5 days: 15 pages/day * 5 days = 75 pages.
+Next, add the additional 23 pages: 75 pages + 23 pages = 98 pages.
+Finally, subtract the blank pages: 98 pages - 97 pages = 1 page.
+
+#### 1 [end of text]
+
+

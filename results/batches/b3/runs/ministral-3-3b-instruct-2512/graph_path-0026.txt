@@ -1,0 +1,25 @@
+To find the shortest path from **Fern** to **Tess**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Fern** with distance = 0.
+   - All other nodes have distance = ∞ (infinity).
+
+2. **Relaxation Steps**:
+   - **Fern → Jules (7)**: Update distance to **Jules** = 7.
+   - From **Jules**, explore neighbors:
+     - **Jules → Oak (7)**: Current distance to **Oak** = ∞ → Update to 7 + 7 = 14.
+     - **Jules → Tess (8)**: Current distance to **Tess** = ∞ → Update to 7 + 8 = 15.
+   - From **Oak**, explore neighbors:
+     - **Oak → Tess (4)**: Current distance to **Tess** = 15 → Update to 14 + 4 = 18 (no improvement).
+     - **Oak → Zed (7)**: Not needed for **Tess**.
+   - From **Tess**, explore neighbors:
+     - **Tess → Dove (2)**: Not needed for **Tess**.
+     - **Tess → Zed (5)**: Not needed for **Tess**.
+
+3. **Optimal Path**:
+   - The shortest path is **Fern → Jules → Oak → Tess** with total weight = **7 + 7 + 4 = 18**.
+
+#### 18 [end of text]
+
+

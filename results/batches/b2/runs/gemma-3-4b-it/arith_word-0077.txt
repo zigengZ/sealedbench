@@ -1,0 +1,6 @@
+First, find the total number of seats: 3 rows * 12 seats/row = 36 seats.
+Then, subtract the number of seats sold: 36 seats - 3 seats = 33 seats.
+
+####33 [end of text]
+
+

@@ -1,0 +1,20 @@
+To find the shortest path from **Moss** to **York**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Moss → West → York**
+   - Weight: 8 (Moss → West) + 4 (West → York) = **12**
+
+2. **Moss → Uri → York**
+   - Weight: 7 (Moss → Uri) + 5 (Uri → York) = **12**
+
+3. **Moss → Nell → Hart → Uri → York** (longer than above)
+   - Weight: 2 (Moss → Nell) + 2 (Nell → Hart) + 6 (Hart → Uri) + 5 (Uri → York) = **15**
+
+4. **Moss → Nell → Fern → York** (longer than above)
+   - Weight: 2 (Moss → Nell) + 7 (Nell → Fern) + 9 (Fern → York) = **18**
+
+The shortest paths both have a total weight of **12**.
+
+#### 12 [end of text]
+
+

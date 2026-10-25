@@ -1,0 +1,13 @@
+Tara buys 2 packs of stickers, and each pack has 7 stickers.  
+So, total stickers = 2 × 7 = 14 stickers.
+
+She gives 2 stickers to Mina, so now she has:  
+14 − 2 = 12 stickers left.
+
+These 12 stickers are shared equally among 2 people.  
+So, each person gets:  
+12 ÷ 2 = 6 stickers.
+
+#### 6 [end of text]
+
+

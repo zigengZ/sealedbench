@@ -1,0 +1,19 @@
+First, find the total number of balloons Elena buys:
+
+- From the first 8 packs:  
+  $8 \times 9 = 72$ balloons
+
+- From the next 6 packs:  
+  $6 \times 5 = 30$ balloons
+
+Add them together:  
+$72 + 30 = 102$ balloons
+
+Then, she gives 70 balloons to Nico:  
+$102 - 70 = 32$ balloons
+
+So, Elena has **32** balloons left.
+
+#### 32 [end of text]
+
+

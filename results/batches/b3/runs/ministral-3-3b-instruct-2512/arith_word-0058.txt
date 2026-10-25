@@ -1,0 +1,5 @@
+Cara starts with 8 packs, each containing 9 oranges, so she has 8 × 9 = 72 oranges initially. After giving 46 to Gina, she has 72 - 46 = 26 oranges left.
+
+#### 26 [end of text]
+
+

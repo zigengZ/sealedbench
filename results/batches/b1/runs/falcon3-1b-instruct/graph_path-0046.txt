@@ -1,0 +1,25 @@
+To find the shortest path between Oak and Reed, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to Oak (Oak) as 0 and to Reed (Reed) as infinity.
+   - Set the distance to all other nodes as infinity.
+
+2. **Distribute Initial Distances:**
+   - Start with Oak (0) and set its distance to all other nodes as infinity.
+   - Update the distances to Blair (1), Drew (2), and Reed (∞).
+
+3. **Select the Node with Minimum Distance:**
+   - Select Oak (0) as the current node.
+   - Update the distances to Blair (1), Drew (2), and Reed (∞).
+
+4. **Repeat Until All Nodes are Visited:**
+   - Select Oak (0) again as the current node.
+   - Update the distances to Blair (1), Drew (2), and Reed (∞).
+   - Select Oak (0) again as the current node.
+   - Update the distances to Blair (1), Drew (2), and Reed (∞).
+
+5. **Final Distances:**
+   - Oak (0) to Blair (1) = 1
+   - Oak (0) to Drew (2) = 2
+
+

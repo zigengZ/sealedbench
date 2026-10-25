@@ -1,0 +1,20 @@
+{
+  "batch_id": "b1",
+  "batch_valid": true,
+  "ciphertext_sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+  "ciphertext_txid": "57E6ydKUep6BKQ6L8wUSgrsDYkvq5r8pNmlUXzpxd7o",
+  "completions": {
+    "bytes": 193525,
+    "repo_path": "results/batches/b1/completions.tar.gz",
+    "sha256": "6c111634519f65f493aabaacdc658734a7cb1ec5a4441e9acf5524f573714992",
+    "uploaded": false
+  },
+  "manifest_sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+  "manifest_txid": "510sRNPxwIwK4D_xXkujpyih8M1pcww9DcZgOaLkkzU",
+  "protocol_version": "sealedbench/v1",
+  "question_set_sha256": "a91b6dab74eee35c8aaba81f8323610a5604fc7d73529bc7229aa3c6e1668193",
+  "release_round": 33170212,
+  "results_sha256": "1e2d56781993b8b7e2a00d5f33c34c3d2c763c4f502d81ef22ee5585bc425de5",
+  "results_txid": "BOFo42noKTNkoslu4DsoDSKysCJQ67PkmKJQEXlupEc",
+  "unlock_utc": "2026-10-18T09:00:00Z"
+}

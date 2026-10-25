@@ -1,0 +1,13 @@
+To find the shortest path from Amber to Ash, we can use Dijkstra's algorithm or explore all possible paths manually.
+
+**Possible paths and their weights:**
+1. Amber → Blair → Uri → Ash: 2 + 5 + 3 = 10
+2. Amber → Jules → Blair → Uri → Ash: 5 + 4 + 5 + 3 = 17 (longer)
+3. Amber → Jules → West → Blair → Uri → Ash: 5 + 3 + 4 + 5 + 3 = 20 (longer)
+4. Amber → Blair → West → Jules → Ash: Not valid (no direct edge from Jules to Ash)
+
+The shortest valid path is **Amber → Blair → Uri → Ash** with a total weight of **10**.
+
+#### 10 [end of text]
+
+

@@ -1,0 +1,11 @@
+Willa buys 4 packs with 7 marbles each:  
+4 × 7 = 28 marbles
+
+She also buys 6 packs with 4 marbles each:  
+6 × 4 = 24 marbles
+
+Total marbles = 28 + 24 = 52
+
+#### 52 [end of text]
+
+

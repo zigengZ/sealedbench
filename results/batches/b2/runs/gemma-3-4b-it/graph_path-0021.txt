@@ -1,0 +1,22 @@
+We want to find the shortest path between Oak and Uri in the given undirected weighted graph. The edges and their weights are:
+- Fern Oak 5
+- Fern Uri 5
+- Glen Quill 7
+- Glen Uri 4
+- Jules Oak 2
+- Jules Uri 2
+- Oak Quill 7
+- Oak Uri 9
+- Quill Uri 6
+
+Possible paths from Oak to Uri:
+1. Oak -> Uri: Weight = 9
+2. Oak -> Jules -> Uri: Weight = 2 + 2 = 4
+3. Oak -> Fern -> Uri: Weight = 5 + 5 = 10
+4. Oak -> Quill -> Uri: Weight = 7 + 6 = 13
+
+The shortest path is Oak -> Jules -> Uri with a total weight of 4.
+
+#### 4 [end of text]
+
+

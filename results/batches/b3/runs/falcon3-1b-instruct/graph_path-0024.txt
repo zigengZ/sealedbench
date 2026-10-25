@@ -1,0 +1,66 @@
+To find the shortest path between Poe and Vale, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Poe as 0 and to Vale as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If this new distance is less than the current known distance, update the distance.
+       - Insert the neighbor into the priority queue with the updated distance.
+
+3. **Result**:
+   - The distance from Poe to Vale will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ["Dove", "Hart", "Lark", "Moss", "Poe", "Quill", "Uri", "Vale", "York"]
+distances = {node: float('inf') for node in nodes}
+
+# Edges with weights
+edges = {
+    "Dove Uri": 4,
+    "Dove Vale": 8,
+    "Hart Moss": 2,
+    "Hart Poe": 6,
+    "Hart Quill": 1,
+    "Hart Uri": 3,
+    "Hart York": 7,
+    "Lark Quill": 1,
+    "Lark York": 5,
+    "Moss Poe": 4,
+    "Poe Uri": 1,
+    "Quill Uri": 7,
+    "Uri Vale": 7
+}
+
+# Priority queue to store nodes with their distances
+priority_queue = [(0, nodes)]
+
+# Dijkstra's algorithm
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in edges.items():
+        new_distance = current_distance + weight
+        if new_distance < distances[neighbor]:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance, neighbor))
+
+# Distance from Poe to Vale
+distance_from_poe_to_vale = distances["Poe"]
+
+print(f"The total weight of the shortest path between Poe and Vale is {distance_from_poe_to_vale}")
+```
+
+Running this code will give us the final answer. [end of text]
+
+

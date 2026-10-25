@@ -1,0 +1,43 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Ash, Eden, Indigo, Kai, York  
+**Edges and weights**:
+- Amber – Indigo: 3  
+- Amber – Kai: 6  
+- Ash – Eden: 9  
+- Ash – Indigo: 8  
+- Ash – Kai: 7  
+- Ash – York: 1  
+- Eden – York: 9  
+- Indigo – Kai: 6  
+
+We are to find the **shortest path from Indigo to York** in terms of total weight.
+
+---
+
+### Step 1: List all possible paths from Indigo to York
+
+We'll consider paths through various intermediate nodes.
+
+---
+
+#### Path 1: Indigo → Kai → York  
+- Indigo to Kai: 6  
+- Kai to York? → Not directly listed.  
+No edge from Kai to York. So invalid.
+
+#### Path 2: Indigo → Ash → York  
+- Indigo to Ash: 8  
+- Ash to York: 1  
+→ Total: 8 + 1 = **9**
+
+#### Path 3: Indigo → Amber → Kai → ? → York  
+- Indigo to Amber: 3  
+- Amber to Kai: 6  
+- Kai to York? → No direct edge.  
+No path from Kai to York. So invalid.
+
+#### Path 4: Indigo → Amber → ? → York  
+- Amber to Ash? → Not listed.  
+No edge between Amber and Ash. So
+

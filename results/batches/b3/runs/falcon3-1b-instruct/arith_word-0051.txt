@@ -1,0 +1,8 @@
+Rosa earns $20/hour.
+Day 1: 3 hours * $20/hour = $60
+Day 2: 2 hours * $20/hour = $40
+Total wages: $60 + $40 = $100
+Spent: $100 - $44 = $56
+Rosa has #### 56 dollars left. [end of text]
+
+

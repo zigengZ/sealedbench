@@ -1,0 +1,9 @@
+First, calculate the total number of stickers Quinn has: 4 packs * 4 stickers/pack = 16 stickers.
+
+Next, subtract the stickers given to Mina: 16 stickers - 13 stickers = 3 stickers.
+
+Finally, divide the remaining stickers equally among 3 people: 3 stickers / 3 people = 1 sticker per person.
+
+#### 1 [end of text]
+
+

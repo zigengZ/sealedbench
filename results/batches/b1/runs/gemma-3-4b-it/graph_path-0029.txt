@@ -1,0 +1,26 @@
+We want to find the shortest path between Cleo and Kai in the given undirected weighted graph.
+
+Nodes: Ash, Cleo, Drew, Hart, Jules, Kai, Quill, Tess, Zed
+Edges:
+Ash Quill 1
+Cleo Tess 5
+Drew Hart 8
+Drew Jules 3
+Drew Tess 3
+Drew Zed 7
+Hart Jules 2
+Jules Kai 6
+Jules Quill 1
+Kai Tess 2
+
+Possible paths from Cleo to Kai:
+1. Cleo -> Tess -> Kai: Weight = 5 + 2 = 7
+2. Cleo -> Tess -> Drew -> Jules -> Kai: Weight = 5 + 3 + 3 + 6 = 17
+3. Cleo -> Tess -> Drew -> Zed: This path doesn't lead to Kai.
+4. Cleo -> Tess -> Kai: Weight = 5 + 2 = 7
+
+The shortest path is Cleo -> Tess -> Kai with a total weight of 7.
+
+#### 7 [end of text]
+
+

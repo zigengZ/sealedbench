@@ -1,0 +1,17 @@
+Esme buys 8 packs of badges, and each pack has 3 badges:
+
+8 packs × 3 badges = 24 badges
+
+So Esme starts with 24 badges.
+
+Then she gives 22 badges to Willa:
+
+24 − 22 = 2 badges left with Esme.
+
+Then Willa gives Esme 8 more badges:
+
+2 + 8 = 10 badges.
+
+#### 10 [end of text]
+
+

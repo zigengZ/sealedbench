@@ -1,0 +1,20 @@
+Let's solve this step by step.
+
+1. **Determine Samantha's current age:**
+   Samantha is 31 years old.
+
+2. **Determine Raymond's current age:**
+   Raymond was born 6 years before Samantha.
+   \[
+   \text{Raymond's current age} = 31 - 6 = 25
+   \]
+
+3. **Determine Raymond's son's current age:**
+   Raymond's son is 23 years old.
+
+4. **Calculate the number of years Raymond's son was born:**
+   Raymond's son was born 23 years ago.
+
+#### 23 [end of text]
+
+

@@ -1,0 +1,11 @@
+Let $k$ be the number of adopted kittens the Doubtfire sisters brought home. We are given that $k = 7$.
+Patchy had thrice the number of adopted kittens, so Patchy had $3k = 3 \times 7 = 21$ kittens.
+Trixie had 12 kittens.
+The total number of kittens the Doubtfire family now has is the sum of the adopted kittens, Patchy's kittens, and Trixie's kittens.
+Total kittens = adopted kittens + Patchy's kittens + Trixie's kittens
+Total kittens = $7 + 21 + 12$
+Total kittens = $40$
+
+####40 [end of text]
+
+

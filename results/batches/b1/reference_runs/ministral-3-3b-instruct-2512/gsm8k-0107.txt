@@ -1,0 +1,17 @@
+Frankie watched:
+- 2 hours on Monday and Tuesday (2 episodes × 1 hour each)
+- 30 minutes on Wednesday (let’s call this *x* episodes × 30 minutes each)
+- 1 hour + 30 minutes on Thursday (1 episode + 1 episode × 30 minutes)
+- 2 hours on Friday (2 episodes × 1 hour each)
+
+Total time equation:
+2 + 0.5x + 1.5 + 2 = 7
+
+Simplify:
+5 + 0.5x = 7
+0.5x = 2
+x = 4
+
+#### 4 [end of text]
+
+

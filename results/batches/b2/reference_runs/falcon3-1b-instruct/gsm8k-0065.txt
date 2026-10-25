@@ -1,0 +1,18 @@
+First, let's calculate the time Jim spends on TV and reading per session:
+
+- Watching TV: 2 hours
+- Reading: Half of 2 hours = 1 hour
+
+Total time spent per session = 2 hours (TV) + 1 hour (reading) = 3 hours
+
+Since Jim does this 3 times a week, we calculate the weekly time spent:
+
+Weekly time = 3 sessions × 3 hours/session = 9 hours
+
+Now, let's calculate the total time spent over 4 weeks:
+
+Total time over 4 weeks = 9 hours/week × 4 weeks = 36 hours
+
+#### 36 [end of text]
+
+

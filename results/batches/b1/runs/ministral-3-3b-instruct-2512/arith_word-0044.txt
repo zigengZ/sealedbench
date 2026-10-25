@@ -1,0 +1,8 @@
+Yara starts with 4 rows of 9 seats each: 4 × 9 = 36 seats.
+Then adds 5 rows of 5 seats each: 5 × 5 = 25 seats.
+Total seats = 36 + 25 = 61.
+Subtract sold seats: 61 - 45 = 16.
+
+#### 16 [end of text]
+
+

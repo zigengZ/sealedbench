@@ -1,0 +1,36 @@
+{
+  "ciphertext": {
+    "b2": {
+      "sha256": "a7911be4af063978284e703f6f64cf21378531e27d7cdff6c8665ea8ad9b8bc9",
+      "bytes": 21368,
+      "plaintext_sha256": "622d67e90d5b6f191f2c0625fdb8a6230e484c3c6b4ae807f3d847bea08c0703",
+      "plaintext_bytes": 15369
+    },
+    "cap2": {
+      "sha256": "39d0d1145a0521285d7125dbb394f13a8f4ec917e60c3129445b0a3ee04776ef",
+      "bytes": 21368,
+      "plaintext_sha256": "bfe30a88f9306ddc799cd31b952e8805e2f7d031d3e7c35cbf7876a5bed22b57",
+      "plaintext_bytes": 15369
+    }
+  },
+  "early_decrypt": {
+    "b2": {
+      "go_exit": 1,
+      "go_stderr": "too early to decrypt: expected round 33188212 > 33154651 current round\n",
+      "js": "REFUSED It's too early to decrypt the ciphertext - decryptable at round 33188212\n(node:4037657) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.\n(Use `node --trace-warnings ...` to show where the warning was created)"
+    },
+    "cap2": {
+      "go_exit": 1,
+      "go_stderr": "too early to decrypt: expected round 33980212 > 33154652 current round\n",
+      "js": "REFUSED It's too early to decrypt the ciphertext - decryptable at round 33980212\n(node:4037769) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.\n(Use `node --trace-warnings ...` to show where the warning was created)"
+    }
+  },
+  "reference_sha256": "8782dc2d2625723118f7fffa68bfb8dbf3b03efde65cf62bfac5c723a30e40d0",
+  "reference_bytes": 62213,
+  "diversity_gate_pass": true,
+  "vector_rounds": [
+    1000,
+    1000000,
+    33000000
+  ]
+}

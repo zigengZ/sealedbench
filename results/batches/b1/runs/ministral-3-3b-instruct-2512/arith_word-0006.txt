@@ -1,0 +1,7 @@
+Nico reads **6 pages/day × 5 days = 30 pages** from the first book.
+Then, Nico reads **7 pages/day × 3 days = 21 pages** from the second book.
+Total pages read: **30 + 21 = 51 pages**
+
+#### 51 [end of text]
+
+

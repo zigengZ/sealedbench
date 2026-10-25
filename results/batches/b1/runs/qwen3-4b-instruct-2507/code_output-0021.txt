@@ -1,0 +1,42 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['grove', 'river', 'delta', 'amber', 'north']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 4 (inclusive):
+
+- **index = 0**:
+  - `piece = words[0] = 'grove'`
+  - `index % 3 == 0` → True → `piece = 'GROVE'`
+  - `out == ""` → True → `out = 'GROVE'`
+
+- **index = 1**:
+  - `piece = words[1] = 'river'`
+  - `index % 3 == 0` → False → `piece = 'river'`
+  - `out != ""` → True → `out = 'GROVE/river'`
+
+- **index = 2**:
+  - `piece = words[2] = 'delta'`
+  - `index % 3 == 0` → False → `piece = 'delta'`
+  - `out != ""` → True → `out = 'GROVE/river/delta'`
+
+- **index = 3**:
+  - `piece = words[3] = 'amber'`
+  - `index % 3 == 0` → False → `piece = 'amber'`
+  - `out != ""` → True → `out = 'GROVE/river/delta/amber'`
+
+- **index = 4**:
+  - `piece = words[4] = 'north'`
+  - `index % 3 == 0` → False → `piece = 'north'`
+  - `out != ""` → True → `out = 'GROVE/river/delta/amber/north'`
+
+Final `out` is `'GROVE/river/delta/amber/north'`
+
+Print this value.
+
+```text
+GROVE/river/delta/amber/north
+``` [end of text]
+
+

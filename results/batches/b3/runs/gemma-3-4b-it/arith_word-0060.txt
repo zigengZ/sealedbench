@@ -1,0 +1,7 @@
+First, Nico buys 4 packs of buttons, and each pack has 5 buttons, so he has 4 * 5 = 20 buttons.
+Then he gives 1 button to Dmitri, so he has 20 - 1 = 19 buttons.
+Finally, Dmitri gives him 16 more buttons, so he has 19 + 16 = 35 buttons.
+
+####35 [end of text]
+
+

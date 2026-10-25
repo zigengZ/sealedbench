@@ -1,0 +1,9 @@
+Willa reads **11 pages/day × 6 days = 66 pages** from the first book.
+She reads **6 pages/day × 4 days = 24 pages** from the second book.
+Total pages before skipping: **66 + 24 = 90 pages**.
+After skipping 28 blank pages: **90 - 28 = 62 pages per week**.
+For 4 weeks: **62 × 4 = 248 pages**.
+
+#### 248 [end of text]
+
+

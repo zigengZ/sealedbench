@@ -1,0 +1,13 @@
+Ben sets out 2 rows with 5 seats in each row:
+
+2 rows × 5 seats = 10 seats total.
+
+Then 3 seats are sold.
+
+So, the number of unsold seats is:
+
+10 - 3 = 7.
+
+#### 7 [end of text]
+
+

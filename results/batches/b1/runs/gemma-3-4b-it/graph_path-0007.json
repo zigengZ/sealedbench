@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "graph_path",
+  "gen_tokens": 102,
+  "gen_tps": 4.75,
+  "hit_cap": false,
+  "item_id": "graph_path-0007",
+  "model": "gemma-3-4b-it",
+  "n_predict": 320,
+  "prompt_tokens": 155,
+  "prompt_tps": 34.3,
+  "returncode": 0,
+  "seconds": 27.478,
+  "stdout_bytes": 396,
+  "stdout_sha256": "a822e39867f249704db368b0e240b3c584a941a1569e51adaecebe266577f769"
+}

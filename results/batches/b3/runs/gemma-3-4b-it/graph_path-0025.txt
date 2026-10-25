@@ -1,0 +1,29 @@
+We want to find the shortest path between Hart and Moss in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Blair Hart: 5
+- Blair Jules: 5
+- Blair Kai: 1
+- Blair Xen: 2
+- Hart Oak: 4
+- Hart Poe: 1
+- Jules Oak: 8
+- Kai Poe: 1
+- Moss Oak: 8
+
+We can use Dijkstra's algorithm or simply explore possible paths.
+
+Path 1: Hart -> Oak -> Moss
+Weight: 4 + 8 = 12
+
+Path 2: Hart -> Poe -> (no path to Moss)
+
+Path 3: Hart -> Blair -> Kai -> Poe -> Moss (This is longer than Path 1)
+Path 4: Hart -> Blair -> Jules -> Oak -> Moss (This is longer than Path 1)
+Path 5: Hart -> Blair -> Xen -> (no path to Moss)
+
+The shortest path is Hart -> Oak -> Moss with a total weight of 12.
+
+#### 12 [end of text]
+
+

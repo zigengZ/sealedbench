@@ -1,0 +1,64 @@
+To find the shortest path between Cedar and Uri, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Cedar) as 0.
+   - Set the distance to all other nodes as infinity.
+   - Create a priority queue to store nodes and their distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is closer.
+   - Update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue until the priority queue is empty.
+   - The distance to Cedar (the starting node) will be the total weight of the shortest path.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Cedar': 8,
+    'Lark': 8,
+    'Dove': 9,
+    'Jules': 7,
+    'Lark': 5,
+    'Reed': 8,
+    'Sage': 9,
+    'Uri': 8,
+    'West': 7
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Cedar'] = 0
+
+# Priority queue to store nodes and their distances
+priority_queue = [(0, 'Cedar')]
+
+# Process nodes
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in graph.items():
+        if distances[neighbor] + weight < current_distance:
+            distances[neighbor] = current_distance + weight
+            heapq.heappush(priority_queue, (distances[neighbor] + weight, neighbor))
+    
+    # Update the current node
+    current_node = neighbor
+
+# Total weight of the shortest path between Cedar and Uri
+total_weight = distances['Cedar']
+print(total_weight)
+```
+
+#### 15
+
+The total weight of the shortest path between Cedar and Uri is \(\boxed{15}\). [end of text]
+
+

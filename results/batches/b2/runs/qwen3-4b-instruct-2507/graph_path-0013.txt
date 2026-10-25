@@ -1,0 +1,120 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** from **Oak** to **Vale**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Amber, Cedar, Cleo, Kai, Oak, Poe, Sage, Uri, Vale, West
+
+We are to compute the shortest path from **Oak** to **Vale**.
+
+---
+
+### Step 2: List all edges with weights
+
+- Amber – Cedar: 9  
+- Amber – Sage: 4  
+- Cedar – Uri: 4  
+- Cedar – West: 4  
+- Cleo – Oak: 5  
+- Cleo – Uri: 4  
+- Kai – Sage: 1  
+- Poe – Sage: 6  
+- Poe – Uri: 4  
+- Sage – Uri: 1  
+- Sage – Vale: 2  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Find path from Oak to Vale
+
+We start at **Oak** and want to reach **Vale**.
+
+Oak is only directly connected to **Cleo** (weight 5).
+
+So from Oak → Cleo (5)
+
+From Cleo, connections:
+- Cleo – Oak (5)
+- Cleo – Uri (4)
+
+So Cleo → Uri (4)
+
+Now from Uri, we can go to:
+- Cedar (4)
+- Cleo (4)
+- Poe (4)
+- Sage (1)
+
+So Uri → Sage (1)
+
+From Sage:
+- Sage → Amber (4)
+- Sage → Kai (1)
+- Sage → Vale (2)
+- Sage → Uri (1)
+
+So from Sage → Vale (2)
+
+Thus, one possible path:
+
+**Oak → Cleo → Uri → Sage → Vale**
+
+Compute total weight:
+- Oak → Cleo: 5  
+- Cleo → Uri: 4  
+- Uri → Sage: 1  
+- Sage → Vale: 2  
+→ Total = 5 + 4 + 1 + 2 = **12**
+
+---
+
+Is there a shorter path?
+
+Let’s explore alternatives.
+
+Can we go through other nodes?
+
+From Oak → Cleo → Uri → Poe → ?  
+Poe → Uri (4), Poe → Sage (6)
+
+Poe → Sage → Vale: 6 + 2 = 8  
+So path: Oak → Cleo → Uri → Poe → Sage → Vale  
+= 5 + 4 + 4 + 6 + 2 = 21 → longer
+
+Uri → Cedar → West → ?  
+Cedar → Uri (4), Cedar → West (4), but West has no connection to others. West is a dead end.
+
+Uri → Sage → Kai → ?  
+Kai only connects to Sage (1). No path from Kai to Vale.
+
+Uri → Sage → Amber → Cedar → ?  
+Amber → Cedar (9), Cedar → Uri (4), but that loops.
+
+No useful path from Amber or West.
+
+So all other paths either go through longer edges or dead ends.
+
+What about Oak → Cleo → Uri → Sage → Vale (already considered) → 12
+
+Any alternative path from Oak?
+
+Only connection from Oak is to Cleo.
+
+So all paths from Oak must go through Cleo.
+
+From Cleo, only connection is to Oak and Uri.
+
+So only path from Oak is via Cleo → Uri.
+
+From Uri, we can go to:
+- Cedar (4)
+- Poe (4)
+- Sage (1)
+
+Sage → Vale (2) is the only way to Vale.
+
+So best path is:
+Oak → Cleo → Uri → Sage → Vale = 5 + 4 + 1
+

@@ -1,0 +1,5 @@
+Hugo reads 11 pages a day for 5 days, so he reads 11 * 5 = 55 pages. Then Hugo reads 20 more pages, making the total 55 + 20 = 75 pages. After skipping 26 pages that were blank, Hugo reads 75 - 26 = 49 pages.
+
+#### 49 [end of text]
+
+

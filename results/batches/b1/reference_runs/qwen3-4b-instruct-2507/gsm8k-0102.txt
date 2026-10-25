@@ -1,0 +1,27 @@
+John drinks a glass of water with breakfast, lunch, and dinner on weekdays (Monday to Friday), and also before bed on weekdays.
+
+So, each weekday:
+- Breakfast: 1 glass
+- Lunch: 1 glass
+- Dinner: 1 glass
+- Before bed: 1 glass  
+→ 4 glasses per weekday
+
+There are 5 weekdays, so:
+5 days × 4 glasses = 20 glasses
+
+On weekends (Saturday and Sunday), he has a soda with dinner, so he does **not** have water with dinner. But he still has:
+- Breakfast
+- Lunch
+- Before bed
+
+So, 3 glasses per weekend day.
+
+2 weekend days × 3 glasses = 6 glasses
+
+Total glasses in a week:
+20 (weekdays) + 6 (weekends) = 26
+
+#### 26 [end of text]
+
+

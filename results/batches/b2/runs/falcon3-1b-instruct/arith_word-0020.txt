@@ -1,0 +1,14 @@
+First, calculate Zane's total earnings for the two days:
+
+Day 1: 11 dollars/hour * 2 hours = 22 dollars
+Day 2: 11 dollars/hour * 5 hours = 55 dollars
+
+Total earnings: 22 dollars + 55 dollars = 77 dollars
+
+Next, subtract the amount Zane spends:
+
+77 dollars - 6 dollars = 71 dollars
+
+So, Zane has #### 71 dollars left. [end of text]
+
+

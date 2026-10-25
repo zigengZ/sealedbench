@@ -1,0 +1,33 @@
+PASS     b3 ciphertext binding: MU3l3e_pbboAuVH8dtiLJP4XMGKGaFR530w-TauzteM
+PASS     b3 grader: source hash
+PASS     b3 reference: file hash
+PASS     b3 manifest https://ar-io.dev: HTTP 200
+PASS     b3 manifest https://turbo-gateway.com: HTTP 200
+UNKNOWN  b3 manifest bundle proof https://ar-io.dev: range unavailable HTTP 0 bytes=0 at 0
+UNKNOWN  b3 manifest inclusion: need agreeing height, block hash, timestamp and payload on two independent gateways
+UNKNOWN  b3 ciphertext bundle proof https://ar-io.dev: range unavailable HTTP 0 bytes=0 at 0
+UNKNOWN  b3 ciphertext inclusion: need agreeing height, block hash, timestamp and payload on two independent gateways
+UNKNOWN  b3 reference bundle proof https://ar-io.dev: range unavailable HTTP 0 bytes=0 at 0
+UNKNOWN  b3 reference inclusion: need agreeing height, block hash, timestamp and payload on two independent gateways
+PASS     b3 BLS: 33202612
+PASS     b3 regrade: strict grader, truncation, all models and references
+PASS     b3 published scores https://ar-io.dev: HTTP 200
+PASS     b3 published scores https://turbo-gateway.com: HTTP 200
+PASS     b3 completions qwen3-4b-instruct-2507 local answers: archive members equal regraded run files
+PASS     b3 completions qwen3-4b-instruct-2507 served https://ar-io.dev: HTTP 200
+PASS     b3 completions qwen3-4b-instruct-2507 served https://turbo-gateway.com: HTTP 200
+PASS     b3 completions gemma-3-4b-it local answers: archive members equal regraded run files
+PASS     b3 completions gemma-3-4b-it served https://ar-io.dev: HTTP 200
+PASS     b3 completions gemma-3-4b-it served https://turbo-gateway.com: HTTP 200
+PASS     b3 completions ministral-3-3b-instruct-2512 local answers: archive members equal regraded run files
+PASS     b3 completions ministral-3-3b-instruct-2512 served https://ar-io.dev: HTTP 200
+PASS     b3 completions ministral-3-3b-instruct-2512 served https://turbo-gateway.com: HTTP 200
+PASS     b3 completions falcon3-1b-instruct local answers: archive members equal regraded run files
+PASS     b3 completions falcon3-1b-instruct served https://ar-io.dev: HTTP 200
+PASS     b3 completions falcon3-1b-instruct served https://turbo-gateway.com: HTTP 200
+PASS     b3 template bank: sealed bytes
+PASS     b3 regeneration: items from sealed bytes
+PASS     b3 declares b2: ciphertext sha256
+PASS     b3 declares cap2: ciphertext sha256
+PASS     b3 peer: cross-ciphertext hash
+RESULT UNKNOWN

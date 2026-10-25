@@ -1,0 +1,21 @@
+First, find the total number of seats Esme set up.
+
+She sets out:
+- 10 rows with 7 seats each:  
+  $10 \times 7 = 70$ seats
+
+Then adds:
+- 6 rows with 9 seats each:  
+  $6 \times 9 = 54$ seats
+
+Total seats = $70 + 54 = 124$ seats
+
+Then, 114 seats are sold, so the number of unsold seats is:  
+$124 - 114 = 10$ seats
+
+Each unsold seat is worth $11, so total value of unsold seats is:  
+$10 \times 11 = 110$ dollars
+
+#### 110 [end of text]
+
+

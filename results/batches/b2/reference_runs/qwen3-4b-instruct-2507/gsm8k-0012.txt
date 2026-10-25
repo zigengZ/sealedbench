@@ -1,0 +1,43 @@
+We need to find out after how many years Carlos starts earning money from his lemon tree.
+
+### Step 1: Understand the costs and income
+- **Initial cost to plant the tree**: $90 (one-time)
+- **Each year**:
+  - The tree produces **7 lemons**
+  - Each lemon sells for **$1.50**
+  - So, annual income = 7 × $1.50 = **$10.50**
+  - Annual cost to water and feed = **$3**
+  - So, **net annual profit** = $10.50 - $3 = **$7.50**
+
+### Step 2: When does Carlos start earning money?
+He starts earning money **after** the initial $90 cost is covered by the net annual profit.
+
+We need to find the smallest number of years, *n*, such that:
+
+$$
+\text{Total net profit after } n \text{ years} \geq 90
+$$
+
+$$
+7.50 \times n \geq 90
+$$
+
+$$
+n \geq \frac{90}{7.50} = 12
+$$
+
+So, after **12 years**, the net profit will cover the initial cost.
+
+### Step 3: Does he start earning money *before* year 12?
+- After 11 years: $7.50 × 11 = $82.50 → still less than $90 → not yet covering cost
+- After 12 years: $7.50 × 12 = $90 → exactly covers cost
+
+So, **at the end of year 12**, he breaks even. That means **he starts earning money in year 12**.
+
+> Note: "Starts earning money" means when the cumulative profit exceeds or equals the initial cost. So, it's the first year when the net profit covers the initial cost.
+
+#### 12
+
+#### 12 [end of text]
+
+

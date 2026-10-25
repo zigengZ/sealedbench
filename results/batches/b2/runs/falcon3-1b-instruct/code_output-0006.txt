@@ -1,0 +1,25 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+2
+```
+
+Explanation:
+
+The program initializes a variable `total` to 0. It then iterates over the range from 0 to 3 (inclusive). For each iteration, it checks if the current value (`value`) is equal to 1. If it is, `total` is incremented by 0, which does not change the value of `total`. If `value` is not 1, `total` is incremented by the current value (`value`).
+
+After the loop completes, `total` holds the sum of all values from 0 to 3, which is 4. Therefore, the final value of `total` is 4.
+
+The program prints this value, which is `2` (since `total` is 4 and `2` is the integer part of `4/2`).
+
+```python
+total = 0
+for value in range(4):
+    if value == 1:
+        total = total + 0
+    else:
+        total = total + value
+print(total)
+``` [end of text]
+
+

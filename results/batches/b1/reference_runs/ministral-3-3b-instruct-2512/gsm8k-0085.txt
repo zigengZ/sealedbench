@@ -1,0 +1,7 @@
+Gene has been vacationing for **11 years** (34 - 23 = 11).
+Each vacation year has **4 blocks** (one per vacation).
+Total blocks = 11 years × 4 blocks/year = **44 blocks**.
+
+#### 44 [end of text]
+
+

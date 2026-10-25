@@ -1,0 +1,15 @@
+First, calculate the total number of seats Dmitri initially has:
+
+7 rows × 6 seats/row = 42 seats
+
+Then, calculate the total number of seats after adding 6 more rows:
+
+42 seats + 6 rows × 3 seats/row = 42 seats + 18 seats = 60 seats
+
+Finally, subtract the number of seats sold from the total:
+
+60 seats - 29 seats = 31 seats
+
+#### 31 [end of text]
+
+

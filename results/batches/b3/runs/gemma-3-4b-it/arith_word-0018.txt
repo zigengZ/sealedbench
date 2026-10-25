@@ -1,0 +1,13 @@
+First, let's calculate the number of ribbons Leo gets from the first 9 packs: 9 packs * 7 ribbons/pack = 63 ribbons.
+
+Next, let's calculate the number of ribbons Leo gets from the 6 packs: 6 packs * 5 ribbons/pack = 30 ribbons.
+
+Now, let's find the total number of ribbons Leo has: 63 ribbons + 30 ribbons = 93 ribbons.
+
+Then, Leo gives away 25 ribbons, so he has 93 - 25 = 68 ribbons left.
+
+Finally, let's calculate the total value of Leo's ribbons: 68 ribbons * $9/ribbon = $612.
+
+####612 [end of text]
+
+

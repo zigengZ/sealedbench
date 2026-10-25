@@ -1,0 +1,13 @@
+We want to find the shortest path between Ash and Kai in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Ash to Kai:
+1. Ash -> Drew -> Kai: Weight = 8 + 3 = 11
+2. Ash -> Dove -> Kai: Weight = 2 + 4 = 6
+3. Ash -> Drew -> Dove -> Kai: Weight = 8 + 5 + 4 = 17
+4. Ash -> Drew -> Moss -> Kai: Weight = 8 + 7 + 3 = 18
+
+Comparing the weights of the paths, the shortest path is Ash -> Dove -> Kai with a total weight of 6.
+
+#### 6 [end of text]
+
+

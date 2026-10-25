@@ -1,0 +1,24 @@
+First, let's calculate the total number of pages Willa reads from both books.
+
+1. **First Book:**
+   - Pages read per day: 6
+   - Days: 3
+   - Total pages from the first book = 6 pages/day * 3 days = 18 pages
+
+2. **Second Book:**
+   - Pages read per day: 7
+   - Days: 4
+   - Total pages from the second book = 7 pages/day * 4 days = 28 pages
+
+3. **Total Pages from Both Books:**
+   - Total pages = 18 pages (first book) + 28 pages (second book) = 46 pages
+
+4. **Blank Pages:**
+   - Pages skipped = 40
+
+5. **Total Pages After Skipping:**
+   - Total pages after skipping = 46 pages - 40 pages = 6 pages
+
+So, Willa reads a total of #### 6. [end of text]
+
+

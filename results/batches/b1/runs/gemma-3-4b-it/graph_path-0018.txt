@@ -1,0 +1,15 @@
+We want to find the shortest path between Drew and Tess in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Drew to Tess:
+1. Drew -> Kai -> Tess: Weight = 4 + 1 = 5
+2. Drew -> Fern -> Kai -> Tess: Weight = 9 + 5 + 1 = 15
+3. Drew -> Ash -> Jules -> Kai -> Tess: Weight = 5 + 1 + 1 + 1 = 8
+4. Drew -> Ash -> Tess: Weight = 5 + 7 = 12
+5. Drew -> Fern -> West: This path doesn't lead to Tess.
+6. Drew -> Kai -> Oak: This path doesn't lead to Tess.
+
+Comparing the paths, the shortest path is Drew -> Kai -> Tess with a total weight of 5.
+
+#### 5 [end of text]
+
+

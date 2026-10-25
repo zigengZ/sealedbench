@@ -1,0 +1,17 @@
+First, calculate the total number of marbles Samir initially bought:
+
+8 packs * 6 marbles/pack = 48 marbles
+
+Then, calculate the total number of marbles Samir bought after the second purchase:
+
+5 packs * 6 marbles/pack = 30 marbles
+
+Total marbles after the second purchase: 48 + 30 = 78 marbles
+
+Samir gives 32 marbles to Jamal. To find out how many marbles Samir has left, subtract the marbles given away from the total:
+
+78 marbles - 32 marbles = 46 marbles
+
+Samir has #### 46 marbles. [end of text]
+
+

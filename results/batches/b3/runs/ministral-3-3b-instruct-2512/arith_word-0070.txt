@@ -1,0 +1,12 @@
+Jamal earns **$36** in total.
+
+Reasoning:
+- Hourly wage: $18/hour
+- Hours worked per day: 2 hours/day × 3 days = 6 hours
+- Total earnings: 6 hours × $18/hour = $108
+
+Correction: The initial breakdown was incorrect. Jamal works 2 hours each day for 3 days, totaling 6 hours. So, $18/hour × 6 hours = $108.
+
+#### 108 [end of text]
+
+

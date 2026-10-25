@@ -1,0 +1,12 @@
+Vincent saves $0.50 by buying 18 flowers at the better price.
+
+Here's the reasoning:
+1. The cost per flower at $2.50 for 3 flowers is $2.50 / 3 = $0.83 per flower.
+2. The cost per flower at $1 for 2 flowers is $1 / 2 = $0.50 per flower.
+3. To find the savings, subtract the cost per flower at the better price from the cost per flower at the worse price: $0.83 - $0.50 = $0.33.
+4. Since Vincent wants to buy 18 flowers, multiply the savings per flower by 18: $0.33 * 18 = $5.94.
+5. However, since we're looking for the savings in dollars, we consider the whole amount: $5.94.
+
+#### 5.94 [end of text]
+
+

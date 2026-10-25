@@ -1,0 +1,5 @@
+Samir earns 14 dollars per hour. On day 1, he works 6 hours, so he earns 14 * 6 = 84 dollars. On day 2, he works 5 hours, earning 14 * 5 = 70 dollars. On day 3, he works 6 hours, earning 14 * 6 = 84 dollars. Adding these amounts together, Samir earns a total of 84 + 70 + 84 = 238 dollars.
+
+#### 238 [end of text]
+
+

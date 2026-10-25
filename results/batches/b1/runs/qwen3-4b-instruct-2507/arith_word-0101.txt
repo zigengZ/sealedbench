@@ -1,0 +1,17 @@
+Esme buys 7 packs of tickets, and each pack has 3 tickets:
+
+7 packs × 3 tickets = 21 tickets
+
+So Esme starts with 21 tickets.
+
+Then she gives 6 tickets to Uma:
+
+21 − 6 = 15 tickets left with Esme.
+
+Then Uma gives Esme 22 more tickets:
+
+15 + 22 = 37 tickets.
+
+#### 37 [end of text]
+
+

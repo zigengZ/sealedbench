@@ -1,0 +1,23 @@
+We are given:
+
+- There are **4 teachers**.
+- Each teacher has **2 lessons per day**.
+- Each lesson uses the whiteboard.
+- The whiteboard is **cleaned 3 times per lesson**.
+
+### Step 1: Find total number of lessons in a day
+Each teacher has 2 lessons, and there are 4 teachers:
+
+$$
+4 \text{ teachers} \times 2 \text{ lessons} = 8 \text{ lessons per day}
+$$
+
+### Step 2: Each lesson requires 3 cleanings
+
+$$
+8 \text{ lessons} \times 3 \text{ cleanings per lesson} = 24 \text{ cleanings per day}
+$$
+
+#### 24 [end of text]
+
+

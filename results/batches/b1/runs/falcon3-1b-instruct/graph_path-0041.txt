@@ -1,0 +1,25 @@
+To find the shortest path between Ash and Kai, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Ash as 0 and to all other nodes as infinity.
+   - Create a priority queue and insert Ash with a distance of 0.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance (Ash).
+     - For each neighbor of Ash:
+       - Calculate the new distance if the path through Ash to the neighbor is shorter than the current known distance.
+       - If the new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue with the new distance.
+
+3. **Result**:
+   - The distance from Ash to Kai will be the smallest value in the priority queue.
+
+Let's perform the calculations:
+
+- **Ash**: 0, 0
+- **Ash's Neighbors**: **Ash** (2), **Dove** (5)
+- **Dove**: 5, 4
+- **Ash's Neighbors**: **Ash** (2), **Dove** (5)
+- **Dove's Neighbors**: **Ash** (2), **Dove** (5)
+- **Ash's Neighbors**: 
+

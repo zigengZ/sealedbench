@@ -1,0 +1,35 @@
+Let's break down how many pages Nico reads each week.
+
+**First book:**  
+Nico reads 12 pages a day for 4 days:  
+12 × 4 = 48 pages
+
+**Second book:**  
+Nico reads 9 pages a day for 4 days:  
+9 × 4 = 36 pages
+
+**Total pages read per week (before skipping):**  
+48 + 36 = 84 pages
+
+**Skipping blank pages:**  
+Nico skips 78 pages that don't count. But the problem says he *skips* those pages — so they are **not** counted in the total.
+
+So, the actual pages he reads per week is:  
+84 − 78 = 6 pages
+
+Wait — that seems too low. Let's re-read the problem.
+
+> "Nico skips 78 pages that were blank and do not count."
+
+This suggests that the 78 pages are **not read**, so they are **subtracted** from the total.
+
+But if he reads 84 pages in a week, and skips 78 blank pages, then he only reads 84 − 78 = 6 pages?
+
+That seems inconsistent with the context — skipping blank pages that were *already* in the book? Or is it a typo?
+
+Wait — perhaps the 78 pages are **not** part of the reading — maybe it's a mistake in interpretation.
+
+Let’s re-express the problem:
+
+> "Nico reads 12 pages a day
+

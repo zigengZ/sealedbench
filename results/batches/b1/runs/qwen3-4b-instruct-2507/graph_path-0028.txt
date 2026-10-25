@@ -1,0 +1,47 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Blair, Cleo, Eden, Fern, Kai, Poe, Tess, Xen  
+**Edges and weights**:
+
+- Blair–Cleo: 7  
+- Blair–Fern: 5  
+- Blair–Kai: 5  
+- Blair–Tess: 9  
+- Cleo–Poe: 1  
+- Eden–Poe: 9  
+- Eden–Tess: 6  
+- Fern–Tess: 6  
+- Tess–Xen: 3  
+
+We are to find the **shortest path from Cleo to Xen**, and return the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We need to go from **Cleo** to **Xen**.
+
+Let’s list all possible paths from Cleo to Xen, and compute their total weights.
+
+---
+
+### Path 1: Cleo → Poe → Eden → Tess → Xen  
+- Cleo–Poe: 1  
+- Poe–Eden: 9  
+- Eden–Tess: 6  
+- Tess–Xen: 3  
+→ Total = 1 + 9 + 6 + 3 = **19**
+
+---
+
+### Path 2: Cleo → Poe → Eden → Tess → Xen (same as above)
+
+No alternative from Poe to Eden.
+
+---
+
+### Path 3: Cleo → Poe → ? → Tess → Xen  
+Poe only connects to Cleo and Eden. So no other path from Poe.
+
+
+

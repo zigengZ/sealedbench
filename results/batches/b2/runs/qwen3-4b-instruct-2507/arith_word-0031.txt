@@ -1,0 +1,10 @@
+Yara buys 5 packs of ribbons, and each pack has 7 ribbons.  
+So, the number of ribbons from the packs is:  
+5 × 7 = 35 ribbons.
+
+Then Boris gives her 8 more ribbons.  
+So, total ribbons = 35 + 8 = 43.
+
+#### 43 [end of text]
+
+

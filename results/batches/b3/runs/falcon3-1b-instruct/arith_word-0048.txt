@@ -1,0 +1,8 @@
+First, calculate the total number of seats in the first row: 8 seats.
+Then, calculate the total number of seats in the second row: 6 seats.
+Next, calculate the total number of seats in the third row: 6 seats.
+Now, add the seats from all three rows: 8 + 6 + 6 = 20 seats.
+
+#### 20 [end of text]
+
+

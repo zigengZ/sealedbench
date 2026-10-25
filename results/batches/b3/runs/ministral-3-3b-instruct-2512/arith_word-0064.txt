@@ -1,0 +1,8 @@
+Yara starts with 2 packs of 4 cookies each: 2 × 4 = 8 cookies.
+Then she buys 2 packs of 7 cookies each: 2 × 7 = 14 cookies.
+Total cookies before giving any away: 8 + 14 = 22.
+After giving 13 cookies to Esme: 22 - 13 = 9.
+
+#### 9 [end of text]
+
+

@@ -1,0 +1,18 @@
+Rosa reads:
+
+- 14 pages a day for 4 days:  
+  $14 \times 4 = 56$ pages
+
+- 15 pages a day for 2 days:  
+  $15 \times 2 = 30$ pages
+
+Total pages read (before skipping):  
+$56 + 30 = 86$ pages
+
+She skips 2 blank pages that do not count, so we subtract those:
+
+$86 - 2 = 84$ pages
+
+#### 84 [end of text]
+
+

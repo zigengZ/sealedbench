@@ -1,0 +1,7 @@
+Tara starts with 3 packs × 8 magnets = 24 magnets.
+After giving 14 to Pavel, she has 24 - 14 = 10 magnets left.
+Pavel then gives her 17 more, so 10 + 17 = 27 magnets.
+
+#### 27 [end of text]
+
+

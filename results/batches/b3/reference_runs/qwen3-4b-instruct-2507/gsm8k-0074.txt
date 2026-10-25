@@ -1,0 +1,25 @@
+We are told Artie rounds all flower prices to the nearest dollar before selling.
+
+First, let's round each flower price to the nearest dollar:
+
+- Marigolds: $2.74 → rounds to $3 (since 0.74 ≥ 0.5)
+- Petunias: $1.87 → rounds to $2 (since 0.87 ≥ 0.5)
+- Begonias: $2.12 → rounds to $2 (since 0.12 < 0.5)
+
+Now, calculate total revenue from each type:
+
+- 12 pots of marigolds at $3 each:  
+  $12 \times 3 = 36$
+
+- 9 pots of petunias at $2 each:  
+  $9 \times 2 = 18$
+
+- 17 pots of begonias at $2 each:  
+  $17 \times 2 = 34$
+
+Now add them up:  
+$36 + 18 + 34 = 88$
+
+#### 88 [end of text]
+
+

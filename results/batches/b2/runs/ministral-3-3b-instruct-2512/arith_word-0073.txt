@@ -1,0 +1,7 @@
+Leo buys 4 packs × 4 tokens each = **16 tokens**.
+After giving 8 tokens to Hugo, Leo has **8 tokens left**.
+Each token is worth $9, so 8 × 9 = **72 dollars**.
+
+#### 72 [end of text]
+
+

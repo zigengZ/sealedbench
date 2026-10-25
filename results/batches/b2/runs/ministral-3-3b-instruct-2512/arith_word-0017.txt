@@ -1,0 +1,9 @@
+Victor starts with notebooks from the first purchase: 8 packs × 4 notebooks = 32 notebooks.
+Then he adds notebooks from the second purchase: 2 packs × 6 notebooks = 12 notebooks.
+Total notebooks = 32 + 12 = 44 notebooks.
+After giving 14 to Jamal, Victor has 44 - 14 = 30 notebooks left.
+Each notebook is worth $4, so total value = 30 × 4 = 120 dollars.
+
+#### 120 [end of text]
+
+

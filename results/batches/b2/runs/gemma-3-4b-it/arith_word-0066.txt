@@ -1,0 +1,7 @@
+First, find the total number of pages Hugo reads in the first 4 days: 20 pages/day * 4 days = 80 pages.
+Then, add the additional 34 pages: 80 pages + 34 pages = 114 pages.
+
+####114
+ [end of text]
+
+

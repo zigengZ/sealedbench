@@ -1,0 +1,5 @@
+Ivy reads 23 pages a day for 5 days, so she reads 23 * 5 = 115 pages. Then she reads 32 more pages, making the total 115 + 32 = 147 pages.
+
+#### 147 [end of text]
+
+

@@ -1,0 +1,31 @@
+We are given:
+
+- 1 chicken meal: $12  
+- 5 packs of milk: $3 each → 5 × $3 = $15  
+- 4 apples: $1.50 each → 4 × $1.50 = $6  
+- Some boxes of pizza: each costs $8.50  
+- Total paid: $50  
+
+Let’s find the total cost of the known items:
+
+$$
+12 + 15 + 6 = 33
+$$
+
+So, the amount spent on pizza is:
+
+$$
+50 - 33 = 17
+$$
+
+Each box of pizza costs $8.50. So, number of boxes:
+
+$$
+17 ÷ 8.50 = 2
+$$
+
+✅ Check: 2 × 8.50 = 17 → correct.
+
+#### 2 [end of text]
+
+

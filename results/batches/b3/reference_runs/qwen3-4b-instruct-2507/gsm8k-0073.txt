@@ -1,0 +1,37 @@
+Shiela bought 5 cell phones at $150 each.
+
+First, find the total cost of the phones:
+
+$$
+5 \times 150 = 750 \text{ dollars}
+$$
+
+A 2% interest is charged **for each unit**. Since she bought 5 units, we apply 2% interest on each phone.
+
+So, interest per phone = 2% of $150:
+
+$$
+0.02 \times 150 = 3 \text{ dollars per phone}
+$$
+
+Total interest for 5 phones:
+
+$$
+5 \times 3 = 15 \text{ dollars}
+$$
+
+Total amount to be paid (including interest):
+
+$$
+750 + 15 = 765 \text{ dollars}
+$$
+
+This is to be paid over 3 months in equal installments:
+
+$$
+765 \div 3 = 255 \text{ dollars per month}
+$$
+
+#### 255 [end of text]
+
+

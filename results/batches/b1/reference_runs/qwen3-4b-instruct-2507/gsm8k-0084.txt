@@ -1,0 +1,16 @@
+Let’s say the team lost **L** games.  
+Then they won **L + 8** games.  
+
+Total games = wins + losses  
+So:  
+L + (L + 8) = 22  
+2L + 8 = 22  
+2L = 14  
+L = 7  
+
+So they lost 7 games.  
+Then they won 7 + 8 = **15** games.
+
+#### 15 [end of text]
+
+

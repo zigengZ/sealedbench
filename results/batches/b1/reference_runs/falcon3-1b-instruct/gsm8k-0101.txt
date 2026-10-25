@@ -1,0 +1,11 @@
+First, let's calculate the total number of pages Solo needs to read:
+
+4 pages (Science) + 20 pages (Social Studies) + 7 pages (History) + 8 pages (Geography) = 41 pages
+
+Solo has 4 more days to complete his reading. So, we divide the total number of pages by the number of days:
+
+41 pages / 4 days = 10.25 pages per day
+
+On average, Solo needs to read #### 10.25 pages and nothing after it. [end of text]
+
+

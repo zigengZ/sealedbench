@@ -1,0 +1,9 @@
+First, find the total cost of one movie trip: $7 (ticket) + $7 (popcorn) = $14.
+
+Then, divide the total amount of money he has by the cost of one trip: $42 / $14 = 3.
+
+So, Peter can go to the movies 3 times.
+
+#### 3 [end of text]
+
+

@@ -1,0 +1,5 @@
+Kira earns 29 dollars an hour. Kira works 2 hours, so she earns 29 * 2 = 58 dollars. Kira then spends 37 dollars. To find out how many dollars Kira has left, subtract the amount she spent from her earnings: 58 - 37 = 21.
+
+#### 21 [end of text]
+
+

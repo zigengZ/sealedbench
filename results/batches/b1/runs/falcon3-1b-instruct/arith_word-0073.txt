@@ -1,0 +1,22 @@
+First, let's calculate the total number of pages Nico reads:
+
+1. **Pages read in the first 6 days:**
+   \[
+   19 \text{ pages/day} \times 6 \text{ days} = 114 \text{ pages}
+   \]
+
+2. **Pages read after reading 17 more pages:**
+   \[
+   114 \text{ pages} + 17 \text{ pages} = 131 \text{ pages}
+   \]
+
+3. **Pages skipped:**
+   \[
+   131 \text{ pages} - 95 \text{ pages} = 36 \text{ pages}
+   \]
+
+Now, let's summarize the total number of pages Nico reads:
+
+#### 36 [end of text]
+
+

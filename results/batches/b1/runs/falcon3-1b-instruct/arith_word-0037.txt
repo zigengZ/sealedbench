@@ -1,0 +1,5 @@
+Ava reads 20 pages a day for 4 days, so she reads 20 * 4 = 80 pages. Then she reads 20 more pages, making it 80 + 20 = 100 pages. After skipping 18 blank pages, Ava reads 100 - 18 = 82 pages.
+
+#### 82 [end of text]
+
+

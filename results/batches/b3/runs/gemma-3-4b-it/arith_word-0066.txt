@@ -1,0 +1,7 @@
+First, find the total number of crayons Kira has from the packs: 8 packs * 12 crayons/pack = 96 crayons.
+Then, add the crayons Gina gives her: 96 crayons + 17 crayons = 113 crayons.
+
+####113
+ [end of text]
+
+

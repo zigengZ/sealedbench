@@ -1,0 +1,46 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Amber, Ash, Bay, Eden, Hart, Nell, Poe, Sage, Uri
+
+**Edges and weights**:
+
+- Amber–Ash: 5  
+- Amber–Nell: 6  
+- Amber–Poe: 6  
+- Amber–Sage: 6  
+- Ash–Bay: 6  
+- Ash–Hart: 9  
+- Bay–Eden: 6  
+- Eden–Poe: 1  
+- Poe–Uri: 2  
+- Sage–Uri: 7  
+
+We are to find the **shortest path from Hart to Uri**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the structure
+
+We need to find the shortest path from **Hart** to **Uri**.
+
+Start from Hart and explore paths to Uri.
+
+From Hart:
+- Direct edge: Hart–Ash (9) → then from Ash we can go to others.
+
+So one path:
+- Hart → Ash → Bay → Eden → Poe → Uri  
+Let’s compute that:
+
+- Hart–Ash: 9  
+- Ash–Bay: 6  
+- Bay–Eden: 6  
+- Eden–Poe: 1  
+- Poe–Uri: 2  
+→ Total = 9 + 6 + 6 + 1 + 2 = **24**
+
+Another path:
+- Hart → Ash → Poe?  
+Is there a direct Ash–Poe? No.  
+But Ash → Bay →
+

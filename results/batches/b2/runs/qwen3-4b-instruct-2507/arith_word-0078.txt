@@ -1,0 +1,20 @@
+First, find the total number of crayons Tara buys:
+
+- 4 packs of 8 crayons:  
+  $4 \times 8 = 32$ crayons
+
+- 4 packs of 3 crayons:  
+  $4 \times 3 = 12$ crayons
+
+Total crayons before giving any away:  
+$32 + 12 = 44$ crayons
+
+Tara gives 3 crayons to Nico, so she has:  
+$44 - 3 = 41$ crayons left
+
+Each crayon is worth $7, so the total value of Tara's crayons is:  
+$41 \times 7 = 287$ dollars
+
+#### 287 [end of text]
+
+

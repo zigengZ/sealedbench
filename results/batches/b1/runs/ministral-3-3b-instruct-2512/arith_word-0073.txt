@@ -1,0 +1,5 @@
+Nico reads **19 pages/day × 6 days = 114 pages**, then adds **17 pages**, totaling **131 pages**. Skipping **95 blank pages** doesn’t change the count, so Nico reads **131 pages**.
+
+#### 131 [end of text]
+
+

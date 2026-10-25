@@ -1,0 +1,18 @@
+First, let's calculate the total number of oranges Ben has.
+
+Ben buys 4 packs of oranges, and each pack contains 4 oranges.
+So, the total number of oranges Ben has is:
+4 packs * 4 oranges/pack = 16 oranges
+
+Next, Ben gives 7 oranges to Willa.
+
+Now, let's calculate the total number of oranges Ben has after giving some to Willa.
+
+Total oranges after giving = 16 - 7 = 9 oranges
+
+Since each orange is worth 2 dollars, the total value of Ben's oranges is:
+9 oranges * 2 dollars/orange = 18 dollars
+
+#### 18 [end of text]
+
+

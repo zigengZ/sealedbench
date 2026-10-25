@@ -1,0 +1,17 @@
+First, let's calculate the total number of oranges Felix initially has.
+
+Felix buys 9 packs of oranges, and each pack contains 10 oranges.
+
+Total oranges = Number of packs × Oranges per pack
+Total oranges = 9 × 10 = 90
+
+Next, Felix gives 42 oranges to Mina.
+
+Now, let's find out how many oranges Felix has left.
+
+Oranges left = Total oranges - Oranges given
+Oranges left = 90 - 42 = 48
+
+So, Felix has #### 48 oranges. [end of text]
+
+

@@ -1,0 +1,7 @@
+First, calculate the total number of seats: 4 rows * 5 seats/row = 20 seats.
+
+Then subtract the number of seats sold: 20 seats - 16 seats = 4 seats.
+
+#### 4 [end of text]
+
+

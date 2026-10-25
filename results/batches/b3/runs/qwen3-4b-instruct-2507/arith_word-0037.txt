@@ -1,0 +1,19 @@
+Dmitri buys 4 packs of erasers, and each pack has 8 erasers:
+
+4 × 8 = 32 erasers
+
+Then he gives 17 erasers to Esme:
+
+32 − 17 = 15 erasers left with Dmitri
+
+Then Esme gives Dmitri 18 more erasers:
+
+15 + 18 = 33 erasers now with Dmitri
+
+Each eraser is worth $3, so the total value is:
+
+33 × 3 = 99 dollars
+
+#### 99 [end of text]
+
+

@@ -1,0 +1,8 @@
+First, find the total number of cards Chloe has: 5 packs * 4 cards/pack = 20 cards.
+Then, Chloe gives away 17 cards, leaving her with 20 - 17 = 3 cards.
+Next, Ben gives Chloe 18 cards, so she now has 3 + 18 = 21 cards.
+Finally, calculate the total value of Chloe's cards: 21 cards * $5/card = $105.
+
+#### 105 [end of text]
+
+

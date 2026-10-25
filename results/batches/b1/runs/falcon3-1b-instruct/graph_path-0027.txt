@@ -1,0 +1,33 @@
+To find the shortest path between Cleo and Drew, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Cleo as 0 and to Drew as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance to Drew will be the minimum distance found.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Blair', 'Cleo', 'Drew', 'Indigo', 'Moss', 'Poe', 'Tess', 'Zed']
+distances = {node: float('infinity') for node in nodes}
+
+# Initialize distances
+distances['Cleo'] = 0
+distances['Drew'] = float('infinity')
+
+# Priority queue
+priority_queue = [(0, 'Cleo
+

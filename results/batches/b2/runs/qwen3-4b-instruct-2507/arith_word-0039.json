@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "arith_word",
+  "gen_tokens": 70,
+  "gen_tps": 7.38,
+  "hit_cap": false,
+  "item_id": "arith_word-0039",
+  "model": "qwen3-4b-instruct-2507",
+  "n_predict": 768,
+  "prompt_tokens": 73,
+  "prompt_tps": 49.08,
+  "returncode": 0,
+  "seconds": 12.023,
+  "stdout_bytes": 178,
+  "stdout_sha256": "450babd1e6d25bbd787ebe666aa1f47fc73cca06ed66f492aac97428245b13a2"
+}

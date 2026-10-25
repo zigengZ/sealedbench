@@ -1,0 +1,10 @@
+James runs 3 sprints each time, and each sprint is 60 meters.  
+So, in one session, he runs:  
+3 sprints × 60 meters = 180 meters  
+
+He does this 3 times a week, so total meters per week:  
+180 meters × 3 = 540 meters  
+
+#### 540 [end of text]
+
+

@@ -1,0 +1,6 @@
+First, we calculate Willa's total earnings: 25 dollars/hour * 7 hours = 175 dollars.
+Then, we subtract the amount she spent from her earnings: 175 dollars - 129 dollars = 46 dollars.
+
+####46 [end of text]
+
+

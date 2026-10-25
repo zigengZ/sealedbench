@@ -1,0 +1,15 @@
+First, find the total number of ribbons Quinn buys:
+
+9 packs × 11 ribbons per pack = 99 ribbons
+
+Then, Quinn gives 19 ribbons to Farid, so the number of ribbons Quinn has left is:
+
+99 - 19 = 80 ribbons
+
+Each ribbon is worth $4, so the total value of Quinn's ribbons is:
+
+80 × 4 = 320 dollars
+
+#### 320 [end of text]
+
+

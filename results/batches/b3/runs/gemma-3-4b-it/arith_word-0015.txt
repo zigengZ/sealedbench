@@ -1,0 +1,13 @@
+First, let's calculate the number of beads from the first 8 packs: 8 packs * 10 beads/pack = 80 beads.
+
+Next, let's calculate the number of beads from the 6 packs: 6 packs * 4 beads/pack = 24 beads.
+
+Now, let's find the total number of beads Jamal has: 80 beads + 24 beads = 104 beads.
+
+Jamal gives away 93 beads, so he has 104 beads - 93 beads = 11 beads left.
+
+Each bead is worth $4, so Jamal's beads are worth 11 beads * $4/bead = $44.
+
+####44 [end of text]
+
+

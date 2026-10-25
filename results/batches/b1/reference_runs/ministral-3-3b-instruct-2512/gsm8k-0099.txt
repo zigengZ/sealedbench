@@ -1,0 +1,14 @@
+Mary starts with:
+- 2 plants per ledge × 40 ledges = 80 plants.
+
+She receives 18 new plants, so total becomes:
+- 80 + 18 = 98 plants.
+
+She gives away 1 plant per ledge × 40 ledges = 40 plants.
+
+Remaining plants:
+- 98 - 40 = 58
+
+#### 58 [end of text]
+
+

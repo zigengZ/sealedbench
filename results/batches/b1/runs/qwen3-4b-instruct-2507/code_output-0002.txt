@@ -1,0 +1,44 @@
+Let's trace through the program step by step:
+
+```python
+words = ['delta', 'pine', 'ivory']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 3 == 0:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '/' + piece
+print(out)
+```
+
+The list `words` has 3 elements: `['delta', 'pine', 'ivory']`.
+
+We loop over `index` from 0 to 2 (inclusive).
+
+---
+
+**Index 0:**
+- `piece = words[0] = 'delta'`
+- `index % 3 == 0` → True → `piece = 'DELTA'`
+- `out == ""` → True → `out = 'DELTA'`
+
+**Index 1:**
+- `piece = words[1] = 'pine'`
+- `index % 3 == 0` → False → `piece = 'pine'`
+- `out != ""` → True → `out = 'DELTA' + '/' + 'pine' = 'DELTA/pine'`
+
+**Index 2:**
+- `piece = words[2] = 'ivory'`
+- `index % 3 == 0` → False → `piece = 'ivory'`
+- `out != ""` → True → `out = 'DELTA/pine' + '/' + 'ivory' = 'DELTA/pine/ivory'`
+
+Final output: `'DELTA/pine/ivory'`
+
+```python
+DELTA/pine/ivory
+``` [end of text]
+
+

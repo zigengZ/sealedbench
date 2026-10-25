@@ -1,0 +1,43 @@
+We are given an undirected weighted graph with nodes:  
+**Bay, Eden, Fern, Nell, Poe, Uri, Vale**
+
+Edges and their weights:
+- Bay – Nell: 3  
+- Bay – Poe: 4  
+- Bay – Vale: 1  
+- Eden – Poe: 4  
+- Fern – Nell: 8  
+- Nell – Poe: 9  
+- Nell – Vale: 1  
+- Poe – Uri: 3  
+- Uri – Vale: 3  
+
+We are to find the **shortest path from Nell to Poe**.
+
+---
+
+### Step 1: List all possible paths from Nell to Poe
+
+We can go directly:
+- **Nell → Poe**: weight = 9
+
+Other paths (via intermediate nodes):
+
+#### Path 1: Nell → Vale → Poe  
+- Nell → Vale: 1  
+- Vale → Poe? → Not directly listed.  
+Check edges:  
+- Vale is connected to Bay (1), Nell (1), Uri (3)  
+- Poe is connected to Bay (4), Eden (4), Uri (3)  
+→ So Vale → Poe? No direct edge.  
+But Vale → Uri → Poe? Yes.
+
+So:
+- Nell → Vale: 1  
+- Vale → Uri: 3  
+- Uri → Poe: 3  
+→ Total: 1 + 3 + 3 = **7**
+
+#### Path 2: Nell → Bay → Poe  
+- Nell → Bay: not listed
+

@@ -1,0 +1,49 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Jules, Kai, Nell, Sage, Tess, York**
+
+Edges and weights:
+
+- Bay — Jules: 9  
+- Bay — Nell: 2  
+- Jules — Kai: 7  
+- Jules — Nell: 2  
+- Jules — Tess: 7  
+- Jules — York: 7  
+- Kai — Nell: 6  
+- Nell — Sage: 5  
+- Sage — Tess: 1  
+- Sage — York: 9  
+
+We are to find the **shortest path from Tess to York**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build the graph and look for paths from **Tess** to **York**.
+
+We note that the graph is undirected, so all edges go both ways.
+
+Let’s list all edges again with bidirectional nature:
+
+- Bay–Jules (9)
+- Bay–Nell (2)
+- Jules–Kai (7)
+- Jules–Nell (2)
+- Jules–Tess (7)
+- Jules–York (7)
+- Kai–Nell (6)
+- Nell–Sage (5)
+- Sage–Tess (1)
+- Sage–York (9)
+
+---
+
+### Step 2: Find shortest path from Tess to York
+
+We can consider possible paths from Tess to York.
+
+#### Option 1: Tess → Jules → York  
+-
+

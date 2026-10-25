@@ -1,0 +1,19 @@
+Zane earns $11 per hour.
+
+On **day 1**, he works 2 hours:  
+$ 2 \times 11 = 22 $ dollars
+
+On **day 2**, he works 5 hours:  
+$ 5 \times 11 = 55 $ dollars
+
+Total earnings:  
+$ 22 + 55 = 77 $ dollars
+
+Then he spends $6.
+
+Money left:  
+$ 77 - 6 = 71 $ dollars
+
+#### 71 [end of text]
+
+

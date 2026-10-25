@@ -1,0 +1,9 @@
+First, calculate the total number of seats Ava initially had:
+7 rows * 16 seats/row = 112 seats
+
+Then, subtract the number of seats sold:
+112 seats - 17 seats = 95 seats
+
+So, there are #### 95 seats still unsold. [end of text]
+
+

@@ -1,0 +1,8 @@
+Ivy starts with 2 packs of 12 magnets each, totaling **24** magnets.
+Then she adds 3 packs of 7 magnets each, totaling **21** magnets.
+Combined, she has **45** magnets.
+Dividing equally among 3 people gives **15** magnets per person.
+
+#### 15 [end of text]
+
+

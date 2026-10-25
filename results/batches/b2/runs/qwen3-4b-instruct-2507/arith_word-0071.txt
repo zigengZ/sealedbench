@@ -1,0 +1,13 @@
+Cara earns $12 per hour and works 5 hours.  
+
+So, her total earnings are:  
+$12 \times 5 = 60$ dollars.
+
+Then she spends $54.  
+
+So, the amount she has left is:  
+$60 - 54 = 6$ dollars.
+
+#### 6 [end of text]
+
+

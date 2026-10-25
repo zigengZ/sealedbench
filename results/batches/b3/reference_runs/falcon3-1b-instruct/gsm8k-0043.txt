@@ -1,0 +1,19 @@
+First, let's calculate the number of calories in the 300g bag.
+
+Calories in 300g bag = 300g * 250 calories/serving = 75,000 calories.
+
+Since the daily calorie target is 2000 calories, we subtract the calories already consumed from the target:
+
+Remaining calories needed = 2000 calories - 1800 calories = 200 calories.
+
+Now, we need to find out how many servings of 300g can be consumed with 200 calories.
+
+Servings = Remaining calories / Calories per serving
+= 200 calories / 250 calories/serving
+= 0.8 servings.
+
+Since you can't eat a fraction of a serving, you can eat 0 servings of the 300g bag.
+
+#### 0 [end of text]
+
+

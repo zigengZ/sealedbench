@@ -1,0 +1,8 @@
+Quinn earns 12 dollars per hour. 
+On day 1, Quinn works 5 hours, so Quinn earns 5 * 12 = 60 dollars.
+On day 2, Quinn works 5 hours, so Quinn earns 5 * 12 = 60 dollars.
+On day 3, Quinn works 2 hours, so Quinn earns 2 * 12 = 24 dollars.
+In total, Quinn earns 60 + 60 + 24 = 144 dollars.
+#### 144 [end of text]
+
+

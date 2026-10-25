@@ -1,0 +1,21 @@
+First, calculate the total cost Janet paid for the brooch:
+
+1. Material cost: $500
+2. Jewelry cost: $800
+
+Total cost = Material cost + Jewelry cost
+Total cost = $500 + $800 = $1300
+
+Next, calculate 10% of the total cost to get the insurance premium:
+
+Insurance premium = 10% of Total cost
+Insurance premium = 0.10 × $1300 = $130
+
+Finally, add the insurance premium to the total cost to find the total amount Janet paid:
+
+Total amount paid = Total cost + Insurance premium
+Total amount paid = $1300 + $130 = $1430
+
+#### 1430 [end of text]
+
+

@@ -1,0 +1,24 @@
+We want to find the shortest path between Amber and Ash in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Amber Blair: 2
+- Amber Jules: 5
+- Ash Uri: 3
+- Blair Jules: 4
+- Blair Uri: 5
+- Blair West: 4
+- Jules West: 3
+- Uri West: 5
+
+We can consider possible paths from Amber to Ash:
+
+1. Amber -> Blair -> Uri -> Ash: Weight = 2 + 5 + 3 = 10
+2. Amber -> Jules -> West -> Uri -> Ash: Weight = 5 + 3 + 5 + 3 = 16
+3. Amber -> Blair -> West -> Uri -> Ash: Weight = 2 + 4 + 5 + 3 = 14
+4. Amber -> Jules -> West -> Uri -> Ash: Weight = 5 + 3 + 5 + 3 = 16
+
+The shortest path is Amber -> Blair -> Uri -> Ash with a total weight of 10.
+
+#### 10 [end of text]
+
+

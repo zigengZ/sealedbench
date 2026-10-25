@@ -1,0 +1,12 @@
+First, calculate the total number of pages Ivy reads in the first 2 days:
+16 pages/day * 2 days = 32 pages
+
+Then, add the 6 additional pages she reads:
+32 pages + 6 pages = 38 pages
+
+Next, subtract the 11 pages she skips:
+38 pages - 11 pages = 27 pages
+
+So, Ivy reads #### 27. [end of text]
+
+

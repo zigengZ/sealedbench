@@ -1,0 +1,19 @@
+First, find the total number of magnets Ivy buys:
+
+- 2 packs with 12 magnets each:  
+  $2 \times 12 = 24$ magnets
+
+- 3 packs with 7 magnets each:  
+  $3 \times 7 = 21$ magnets
+
+Total magnets:  
+$24 + 21 = 45$ magnets
+
+These are shared equally among 3 people:  
+$45 \div 3 = 15$
+
+So, each person gets 15 magnets.
+
+#### 15 [end of text]
+
+

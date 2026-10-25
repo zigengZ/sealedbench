@@ -1,0 +1,17 @@
+Tara buys 3 packs of magnets, and each pack has 8 magnets:
+
+3 × 8 = 24 magnets
+
+Then she gives 14 magnets to Pavel:
+
+24 − 14 = 10 magnets left
+
+Then Pavel gives her 17 more magnets:
+
+10 + 17 = 27 magnets
+
+So Tara now has 27 magnets.
+
+#### 27 [end of text]
+
+

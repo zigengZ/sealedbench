@@ -1,0 +1,10 @@
+Dan plants 3 rose bushes.  
+Each rose bush has 25 roses.  
+So, total roses = 3 × 25 = 75 roses.  
+
+Each rose has 8 thorns.  
+So, total thorns = 75 × 8 = 600 thorns.  
+
+#### 600 [end of text]
+
+

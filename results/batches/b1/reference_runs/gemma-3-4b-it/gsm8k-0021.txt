@@ -1,0 +1,18 @@
+Let R be Raymond's birth year and S be Samantha's birth year.
+We are given that Raymond was born 6 years before Samantha, so R = S - 6.
+Raymond had a son at the age of 23. This means Raymond was 23 years old when his son was born.
+So, Raymond's birth year - 23 = son's birth year.
+Let son's birth year be x. Then R - 23 = x.
+Samantha is now 31. So, S = current year - 31.
+We know R = S - 6, so R = (current year - 31) - 6 = current year - 37.
+Also, R - 23 = x, so (current year - 37) - 23 = x.
+Thus, x = current year - 60.
+We want to find how many years ago Raymond's son was born. Let this be y.
+Then x - y = son's current age.
+Since Raymond had a son at age 23, the son's current age is 23.
+So, x - y = 23.
+We have x = current year - 60, so (current year - 60) - y = 23.
+current year - 60 - y = 23
+current year - y = 83
+We know Samantha is 31
+

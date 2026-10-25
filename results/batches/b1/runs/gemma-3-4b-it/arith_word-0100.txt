@@ -1,0 +1,6 @@
+First, find the total number of seats: 11 rows * 8 seats/row = 88 seats.
+Then, subtract the number of seats sold from the total number of seats: 88 seats - 34 seats = 54 seats.
+
+####54 [end of text]
+
+

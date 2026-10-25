@@ -1,0 +1,20 @@
+First, find the total number of cards Mina buys:
+
+- 9 packs × 11 cards = 99 cards  
+- 6 packs × 2 cards = 12 cards  
+
+Total cards = 99 + 12 = 111 cards
+
+Then Mina gives 49 cards to Ben, so:
+
+111 - 49 = 62 cards left
+
+These 62 cards are shared equally among 2 people:
+
+62 ÷ 2 = 31
+
+So each person gets 31 cards.
+
+#### 31 [end of text]
+
+

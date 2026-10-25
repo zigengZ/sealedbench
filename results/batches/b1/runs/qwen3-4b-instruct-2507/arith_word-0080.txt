@@ -1,0 +1,11 @@
+Chloe buys 6 packs with 12 tickets each:  
+6 × 12 = 72 tickets
+
+She also buys 2 packs with 3 tickets each:  
+2 × 3 = 6 tickets
+
+Total tickets = 72 + 6 = 78
+
+#### 78 [end of text]
+
+

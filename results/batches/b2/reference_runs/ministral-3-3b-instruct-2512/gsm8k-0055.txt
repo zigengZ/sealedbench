@@ -1,0 +1,6 @@
+Jean starts with 30 lollipops and eats 2, leaving 28.
+Dividing 28 by 2 gives 14 bags.
+
+#### 14 [end of text]
+
+

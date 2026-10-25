@@ -1,0 +1,12 @@
+First, calculate the total number of crayons Uma bought initially:
+6 packs * 10 crayons/pack = 60 crayons
+
+Then, calculate the total number of crayons Uma bought in the second set:
+4 packs * 7 crayons/pack = 28 crayons
+
+Next, add the two totals together to find the total number of crayons Uma has:
+60 crayons + 28 crayons = 88 crayons
+
+#### 88 [end of text]
+
+

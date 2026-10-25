@@ -1,0 +1,5 @@
+Elena initially has 2 packs * 5 tickets/pack = 10 tickets.
+Then she receives 22 more tickets, so the total number of tickets is 10 + 22 = 32.
+#### 32 [end of text]
+
+

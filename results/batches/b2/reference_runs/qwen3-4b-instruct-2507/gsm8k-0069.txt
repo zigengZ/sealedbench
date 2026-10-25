@@ -1,0 +1,11 @@
+Bailey receives $5 per week for 8 weeks.  
+So, total allowance received = $5 × 8 = $40.
+
+At the end of 8 weeks, she has $100.  
+This means the money she started with plus the $40 allowance equals $100.
+
+So, money she started with = $100 - $40 = $60.
+
+#### 60 [end of text]
+
+

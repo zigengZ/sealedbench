@@ -1,0 +1,7 @@
+First, Yara reads 20 pages/day * 2 days = 40 pages.
+Then she reads 18 more pages, so she has read 40 + 18 = 58 pages.
+Finally, she skips 26 pages, so she has read 58 - 26 = 32 pages.
+
+####32 [end of text]
+
+

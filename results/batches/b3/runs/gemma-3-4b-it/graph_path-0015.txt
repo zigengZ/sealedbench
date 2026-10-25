@@ -1,0 +1,14 @@
+We want to find the shortest path between Reed and Xen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Reed to Xen:
+1. Reed -> Eden -> Xen: Weight = 3 + 9 = 12
+2. Reed -> Dove -> Eden -> Xen: Weight = 6 + 4 + 9 = 19
+3. Reed -> Eden -> Cedar -> Xen: Weight = 3 + 5 + 2 = 10
+4. Reed -> Eden -> Glen -> Cedar -> Xen: Weight = 3 + 3 + 4 + 2 = 12
+5. Reed -> Dove -> Eden -> Glen -> Cedar -> Xen: Weight = 6 + 4 + 3 + 4 + 2 = 19
+
+Comparing the weights of the paths, the shortest path is Reed -> Eden -> Cedar -> Xen with a total weight of 10.
+
+#### 10 [end of text]
+
+

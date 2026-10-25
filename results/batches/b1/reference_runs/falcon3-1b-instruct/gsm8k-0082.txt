@@ -1,0 +1,20 @@
+First, let's find out how much Alex weighs.
+
+Alex weighs 2 pounds less than 4 times what Grace weighs.
+Grace weighs 125 pounds.
+
+So, Alex weighs:
+4 * Grace's weight - 2
+4 * 125 - 2
+500 - 2
+498
+
+Now, let's find the combined weights of Grace and Alex.
+
+Combined weight = Grace's weight + Alex's weight
+Combined weight = 125 + 498
+Combined weight = 623
+
+#### 623 [end of text]
+
+

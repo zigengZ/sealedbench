@@ -1,0 +1,29 @@
+The program iterates through the list `nums` and appends only those numbers greater than 7 to the list `kept`.
+
+Given `nums = [15, 4, 9, 3, 15, 2, 7]`:
+- 15 > 7 → append 15
+- 4 ≤ 7 → skip
+- 9 > 7 → append 9
+- 3 ≤ 7 → skip
+- 15 > 7 → append 15
+- 2 ≤ 7 → skip
+- 7 ≤ 7 → skip
+
+So, `kept = [15, 9, 15]`
+
+Then:
+- `print(len(kept))` outputs `3`
+- `print(kept)` outputs `[15, 9, 15]`
+
+The standard output is:
+```
+3
+[15, 9, 15]
+```
+
+``` 
+3
+[15, 9, 15]
+``` [end of text]
+
+

@@ -1,0 +1,12 @@
+We want to find the shortest path between Moss and Xen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Moss to Xen:
+1. Moss -> Cleo -> Xen: 9 + 2 = 11
+2. Moss -> Fern -> Xen: 3 + 5 = 8
+3. Moss -> Lark -> Xen: 3 + 2 = 5
+
+The shortest path is Moss -> Fern -> Xen with a total weight of 8.
+
+#### 8 [end of text]
+
+

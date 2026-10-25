@@ -1,0 +1,44 @@
+To find the shortest path from **Bay** to **Oak**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Bay → York → West → Oak**
+   - Bay → York: 5
+   - York → West: 5 (via Cedar or directly, but no direct edge)
+   - **Correction:** No direct edge from York to West. Instead:
+     - York → Cedar → West: 5 + 9 = 14
+     - York → Ash → West: 5 + 8 = 13
+     - York → Drew → West: 5 + 6 = 11
+   - Best path: York → Drew → West → Oak: 5 + 6 + 8 = **19**
+
+2. **Bay → York → Cedar → West → Oak**
+   - Bay → York: 5
+   - York → Cedar: 5
+   - Cedar → West: 9
+   - West → Oak: 8
+   - Total: 5 + 5 + 9 + 8 = **27** (longer)
+
+3. **Bay → York → Ash → West → Oak**
+   - Bay → York: 5
+   - York → Ash: 7
+   - Ash → West: 8
+   - West → Oak: 8
+   - Total: 5 + 7 + 8 + 8 = **28** (longer)
+
+4. **Bay → York → Kai → West → Oak**
+   - Bay → York: 5
+   - York → Kai: 1
+   - Kai → West: 5
+   - West → Oak: 8
+   - Total: 5 + 1 + 5 + 8 = **19** (same as above)
+
+5. **Bay → York → Reed → Vale → Oak**
+   - Bay → York: 5
+   - York → Reed: No direct edge
+   - **No valid path here.**
+
+### Optimal Path:
+The shortest path is **Bay → York → Drew → West → Oak** with a total weight of **19**.
+
+#### 19 [end of text]
+
+

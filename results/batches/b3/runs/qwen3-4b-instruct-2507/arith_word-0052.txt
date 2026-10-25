@@ -1,0 +1,17 @@
+Willa reads 15 pages a day for 5 days:
+
+15 pages/day × 5 days = 75 pages
+
+Then she reads 23 more pages:
+
+75 + 23 = 98 pages
+
+She skips 97 blank pages — these do **not** count toward the total pages she reads.
+
+So, the total number of pages she **reads** is:
+
+98 pages
+
+#### 98 [end of text]
+
+

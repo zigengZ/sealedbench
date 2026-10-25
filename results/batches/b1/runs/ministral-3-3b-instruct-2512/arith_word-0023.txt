@@ -1,0 +1,8 @@
+Nico starts with 3 packs of 4 crayons each: 3 × 4 = 12 crayons.
+Then he buys 2 packs of 6 crayons each: 2 × 6 = 12 crayons.
+Total crayons before giving any away: 12 + 12 = 24 crayons.
+After giving 12 crayons to Pavel: 24 - 12 = 12 crayons.
+
+#### 12 [end of text]
+
+

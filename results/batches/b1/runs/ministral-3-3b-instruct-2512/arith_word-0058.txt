@@ -1,0 +1,12 @@
+Nico starts with:
+- 9 packs × 10 badges = 90 badges
+- 6 packs × 5 badges = 30 badges
+Total badges before giving away: 90 + 30 = 120 badges
+
+After giving 80 badges to Felix: 120 - 80 = 40 badges left
+
+Each badge is worth $2, so 40 × 2 = 80 dollars
+
+#### 80 [end of text]
+
+

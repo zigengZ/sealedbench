@@ -1,0 +1,27 @@
+To find the shortest path from **Bay** to **Quill**, we can use Dijkstra's algorithm since all edge weights are non-negative.
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Bay** = 0, all others = ∞.
+   - Predecessor of **Bay** = None.
+
+2. **Priority Queue (PQ)**:
+   - Start with **Bay** (distance = 0).
+   - Next candidates: **Xen** (distance = 3).
+
+3. **Update Distances**:
+   - From **Xen**, update **Quill** via **Bay-Xen-Quill** (3 + 1 = 4).
+   - From **Xen**, update **Indigo** via **Bay-Xen-Indigo** (3 + 9 = 12).
+   - From **Xen**, update **Cedar** via **Bay-Xen-Quill-Cedar** (3 + 1 + 1 = 5) but this is worse than direct **Cedar-Quill** (1).
+
+4. **Next Node**:
+   - **Quill** is now at distance 4 (via **Xen**).
+   - Update neighbors: **Cedar** (via **Quill-Cedar**, but 4 + 1 = 5 > existing 1).
+   - No further updates.
+
+5. **Shortest Path**:
+   - **Bay → Xen → Quill** with total weight **4**.
+
+#### 4 [end of text]
+
+

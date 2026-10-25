@@ -1,0 +1,10 @@
+First, we need to find the number of fruit roll-ups in each roll.
+Beatrice's roll-up is 2 roll-ups wide and 24 roll-ups long, so the total number of roll-ups is 2 * 24 = 48.
+Marcell's roll-up is 3 roll-ups wide and 14 roll-ups long, so the total number of roll-ups is 3 * 14 = 42.
+
+Now, we add the number of roll-ups each person ate: 48 + 42 = 90.
+Finally, we divide the total number of roll-ups by the number of people (2): 90 / 2 = 45.
+
+#### 45 [end of text]
+
+

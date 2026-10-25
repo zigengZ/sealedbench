@@ -1,0 +1,13 @@
+First, find out how far Tom travels from 1 PM to 4 PM.
+
+He sails for 3 hours (from 1 to 4 PM), at 10 miles per hour.
+
+Distance = speed × time = 10 mph × 3 hours = 30 miles.
+
+Now, he travels back at 6 mph. We need to find the time it takes to go 30 miles at 6 mph.
+
+Time = distance ÷ speed = 30 miles ÷ 6 mph = 5 hours.
+
+#### 5 [end of text]
+
+

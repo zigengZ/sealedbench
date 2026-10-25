@@ -1,0 +1,21 @@
+First, let's calculate the total number of erasers Ben initially has:
+
+7 packs * 11 erasers/pack = 77 erasers
+
+Next, Ben gives away 67 erasers:
+
+67 erasers - 67 erasers = 0 erasers
+
+So, Ben has 77 erasers left.
+
+Then Felix gives Ben 16 more erasers:
+
+77 erasers + 16 erasers = 93 erasers
+
+Each eraser is worth 9 dollars, so the total value of Ben's erasers is:
+
+93 erasers * 9 dollars/eraser = 827 dollars
+
+#### 827 [end of text]
+
+

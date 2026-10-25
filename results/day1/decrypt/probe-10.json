@@ -1,0 +1,88 @@
+{
+  "probe_id": "probe-10",
+  "data_item_id": "RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI",
+  "round": 33142103,
+  "unlock_utc": "2026-10-17T09:34:33Z",
+  "done": true,
+  "served_by": "https://ario.zigza.xyz",
+  "drand_randomness": "71489024a307295a1e54fcee3066890ab17230a3ef2d992cb32d0366b334fa66",
+  "drand_signature": "b89599dacfdd2891ae3757055ef74336983b3c904e19ba2adc7bf17dcda06637f6801aef8ade8e65ee768f986cacfdbf",
+  "go_match": true,
+  "js_match": true,
+  "attempts": [
+    {
+      "utc": "2026-10-17T09:36:02Z",
+      "gateways": {
+        "https://arweave.net": {
+          "url": "https://arweave.net/RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI",
+          "utc": "2026-10-17T09:36:02Z",
+          "http_status": 429,
+          "bytes": 169,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "content_type": "text/html",
+          "retry_after_s": 299,
+          "matches_local_ciphertext": false
+        },
+        "https://ario.zigza.xyz": {
+          "url": "https://ario.zigza.xyz/RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI",
+          "utc": "2026-10-17T09:36:02Z",
+          "http_status": 404,
+          "bytes": 9,
+          "sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+          "content_type": "text/html; charset=utf-8",
+          "retry_after_s": 0,
+          "matches_local_ciphertext": false
+        }
+      },
+      "decrypt": null
+    },
+    {
+      "utc": "2026-10-17T09:37:28Z",
+      "gateways": {
+        "https://arweave.net": {
+          "url": "https://arweave.net/RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI",
+          "utc": "2026-10-17T09:37:28Z",
+          "http_status": 429,
+          "bytes": 169,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "content_type": "text/html",
+          "retry_after_s": 299,
+          "matches_local_ciphertext": false
+        },
+        "https://ario.zigza.xyz": {
+          "url": "https://ario.zigza.xyz/RnaDkN0RIM991VExIuYsrRkhXcy15LBQIQORj5rkYCI",
+          "utc": "2026-10-17T09:37:28Z",
+          "http_status": 200,
+          "bytes": 800,
+          "sha256": "7c657a93180af7321d2c551f035e7feaa62c518cdcf3e843533d5521c82d381e",
+          "content_type": "text/plain; charset=utf-8",
+          "retry_after_s": 0,
+          "matches_local_ciphertext": true
+        }
+      },
+      "served_by": "https://ario.zigza.xyz",
+      "decrypt": {
+        "go": {
+          "exit_code": 0,
+          "sha256": "ec8d397616ae00d18ffee1ba437214a92a46de2bcada340f2614af59929b3d6e",
+          "matches_plaintext": true,
+          "stderr": ""
+        },
+        "js": {
+          "sha256": "ec8d397616ae00d18ffee1ba437214a92a46de2bcada340f2614af59929b3d6e",
+          "matches_plaintext": true,
+          "error": null
+        }
+      },
+      "drand": {
+        "http_status": 200,
+        "body": {
+          "round": 33142103,
+          "randomness": "71489024a307295a1e54fcee3066890ab17230a3ef2d992cb32d0366b334fa66",
+          "signature": "b89599dacfdd2891ae3757055ef74336983b3c904e19ba2adc7bf17dcda06637f6801aef8ade8e65ee768f986cacfdbf"
+        }
+      },
+      "plaintext_sha256": "ec8d397616ae00d18ffee1ba437214a92a46de2bcada340f2614af59929b3d6e"
+    }
+  ]
+}

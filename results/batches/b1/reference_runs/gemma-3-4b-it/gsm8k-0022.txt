@@ -1,0 +1,10 @@
+First, let's calculate the DVDs sold by the first 3 customers: 3 customers * 1 DVD/customer = 3 DVDs.
+
+Next, let's calculate the DVDs sold by the next 2 customers: 2 customers * 2 DVDs/customer = 4 DVDs.
+
+Finally, let's add the DVDs sold by all customers: 3 DVDs + 4 DVDs = 7 DVDs.
+
+Billy sold 7 DVDs on Tuesday.
+#### 7 [end of text]
+
+

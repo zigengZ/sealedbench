@@ -1,0 +1,11 @@
+First, let's calculate the number of pages Elena reads from the first book: 16 pages/day * 6 days = 96 pages.
+
+Next, let's calculate the number of pages Elena reads from the second book: 10 pages/day * 3 days = 30 pages.
+
+Now, let's find the total number of pages Elena reads in one week: 96 pages + 30 pages = 126 pages.
+
+Finally, let's calculate the total number of pages Elena reads in 3 weeks: 126 pages/week * 3 weeks = 378 pages.
+
+####378 [end of text]
+
+

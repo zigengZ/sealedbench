@@ -1,0 +1,17 @@
+First, find the total number of crayons Nico buys:
+
+- 3 packs with 4 crayons each:  
+  $3 \times 4 = 12$ crayons
+
+- 2 packs with 6 crayons each:  
+  $2 \times 6 = 12$ crayons
+
+Total crayons bought:  
+$12 + 12 = 24$ crayons
+
+Then Nico gives 12 crayons to Pavel:  
+$24 - 12 = 12$ crayons left
+
+#### 12 [end of text]
+
+

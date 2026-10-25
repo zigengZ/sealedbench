@@ -1,0 +1,8 @@
+Gina starts with 9 packs of 8 cookies each: 9 × 8 = 72 cookies.
+Then she buys 4 packs of 9 cookies each: 4 × 9 = 36 cookies.
+Total cookies Gina has: 72 + 36 = 108.
+After giving 37 to Dmitri: 108 - 37 = 71.
+
+#### 71 [end of text]
+
+

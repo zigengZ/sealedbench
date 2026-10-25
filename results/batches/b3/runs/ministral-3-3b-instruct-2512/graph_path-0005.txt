@@ -1,0 +1,29 @@
+To find the shortest path from **Ash** to **Drew**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Ash** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Relaxation Steps**:
+   - **Ash → Nell** (7) → Update Nell’s distance to 7.
+   - **Ash → Quill** (2) → Update Quill’s distance to 2.
+   - From **Quill** (2):
+     - **Quill → Amber** (6) → Amber’s distance = 2 + 6 = 8.
+     - **Quill → Nell** (already 7, no update).
+     - **Quill → Ash** (already 0).
+   - From **Nell** (7):
+     - **Nell → Amber** (2) → Amber’s distance = min(8, 7 + 2) = 8 (no change).
+     - **Nell → Ash** (already 0).
+     - **Nell → Drew** (1) → Drew’s distance = 7 + 1 = 8.
+     - **Nell → York** (7) → York’s distance = 7 + 7 = 14.
+   - From **Drew** (8):
+     - **Drew → Nell** (1) → Nell’s distance = min(7, 8 + 1) = 7 (no change).
+     - **Drew → York** (3) → York’s distance = min(14, 8 + 3) = 11.
+
+3. **Shortest Path**:
+   - The shortest path is **Ash → Quill → Nell → Drew** with total weight = **2 + 1 + 1 = 4**.
+
+#### 4 [end of text]
+
+

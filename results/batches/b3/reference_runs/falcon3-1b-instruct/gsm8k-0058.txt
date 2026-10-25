@@ -1,0 +1,19 @@
+First, let's calculate the total cost before the delivery fees:
+
+$40.00 (final bill) - $3.00 (delivery fee) - $4.00 (tip) = $36.00
+
+Now, we add the delivery fee to find the total cost before the 25% fee:
+
+$36.00 (total before fee) + $3.00 (delivery fee) = $39.00
+
+Finally, we calculate the 25% fee on the total cost before the delivery fee:
+
+$39.00 (total before fee) * 25% = $39.00 * 0.25 = $9.75
+
+Now, we add the 25% fee to the total cost before the delivery fee to find the final price:
+
+$39.00 (total before fee) + $9.75 (25% fee) = $48.75
+
+#### 48.75 [end of text]
+
+

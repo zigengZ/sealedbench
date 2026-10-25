@@ -1,0 +1,27 @@
+{
+  "name": "sealedbench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zigengZ/sealedbench.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zigengZ/sealedbench/issues"
+  },
+  "homepage": "https://github.com/zigengZ/sealedbench#readme",
+  "dependencies": {
+    "@ardrive/turbo-sdk": "^2.1.1",
+    "@dha-team/arbundles": "1.0.4",
+    "arbundles": "^0.11.2",
+    "arweave": "^1.15.7",
+    "tlock-js": "^0.9.0"
+  }
+}

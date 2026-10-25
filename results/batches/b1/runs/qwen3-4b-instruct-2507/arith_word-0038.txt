@@ -1,0 +1,10 @@
+Hugo buys 6 packs of balloons, and each pack has 12 balloons.  
+So, the number of balloons from the packs is:  
+6 × 12 = 72 balloons.
+
+Yara gives Hugo 20 more balloons.  
+So, total balloons = 72 + 20 = 92.
+
+#### 92 [end of text]
+
+

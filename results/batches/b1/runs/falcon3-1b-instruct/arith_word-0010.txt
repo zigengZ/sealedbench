@@ -1,0 +1,16 @@
+First, let's calculate the total number of pages Victor reads from both books.
+
+For the first book:
+Pages read = 24 pages/day * 6 days = 144 pages
+
+For the second book:
+Pages read = 18 pages/day * 4 days = 72 pages
+
+Total pages read from both books = 144 pages + 72 pages = 216 pages
+
+Next, we subtract the 78 pages that were blank:
+Total pages read = 216 pages - 78 pages = 138 pages
+
+So, Victor reads #### 138 pages. [end of text]
+
+

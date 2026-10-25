@@ -1,0 +1,12 @@
+First, calculate the number of rubies:
+Rubies = Diamonds - 35 = 175 - 35 = 140
+
+Next, calculate the number of emeralds:
+Emeralds = 2 × Rubies = 2 × 140 = 280
+
+Finally, add all the gems together:
+Total gems = Diamonds + Rubies + Emeralds = 175 + 140 + 280 = 595
+
+#### 595 [end of text]
+
+

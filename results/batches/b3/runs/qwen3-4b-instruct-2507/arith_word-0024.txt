@@ -1,0 +1,19 @@
+Tara buys 6 packs of pencils, and each pack has 7 pencils:
+
+6 × 7 = 42 pencils
+
+Then Tara gives 18 pencils to Hugo, so she has:
+
+42 − 18 = 24 pencils left
+
+Then Hugo gives Tara 4 more pencils, so Tara now has:
+
+24 + 4 = 28 pencils
+
+Each pencil is worth $3, so the total value of Tara's pencils is:
+
+28 × 3 = 84 dollars
+
+#### 84 [end of text]
+
+

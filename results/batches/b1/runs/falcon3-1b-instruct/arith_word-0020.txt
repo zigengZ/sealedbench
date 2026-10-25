@@ -1,0 +1,14 @@
+First, let's calculate the total number of erasers Ava buys.
+
+For the 6 packs of erasers:
+6 packs × 9 erasers/pack = 54 erasers
+
+For the 2 packs of erasers:
+2 packs × 4 erasers/pack = 8 erasers
+
+Now, add the total number of erasers from both purchases:
+54 erasers + 8 erasers = 62 erasers
+
+Ava has #### 62 erasers. [end of text]
+
+

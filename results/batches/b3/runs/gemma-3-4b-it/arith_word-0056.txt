@@ -1,0 +1,6 @@
+First, find the total number of balloons Kira buys: 7 packs * 4 balloons/pack = 28 balloons.
+Then, subtract the balloons Kira gives away: 28 balloons - 4 balloons = 24 balloons.
+
+####24 [end of text]
+
+

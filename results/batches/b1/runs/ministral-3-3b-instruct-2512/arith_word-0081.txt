@@ -1,0 +1,18 @@
+Nico starts with 6 packs of 12 oranges each:
+6 × 12 = 72 oranges.
+
+Then he buys 2 packs of 8 oranges each:
+2 × 8 = 16 oranges.
+
+Total oranges before giving any away:
+72 + 16 = 88 oranges.
+
+After giving 41 oranges to Xavier:
+88 - 41 = 47 oranges.
+
+Each orange is worth $7, so total value:
+47 × 7 = 329 dollars.
+
+#### 329 [end of text]
+
+

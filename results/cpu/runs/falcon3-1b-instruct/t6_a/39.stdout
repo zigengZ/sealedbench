@@ -1,0 +1,22 @@
+First, let's determine the time spent running and walking.
+
+1. **Time spent running:**
+   - Dana can run at a rate that is four times faster than she walks.
+   - She spends one-third of the time running.
+   - Let \( t \) be the time spent walking.
+   - Then, the time spent running is \( \frac{1}{3}t \).
+   - The speed of running is \( 4 \times \text{walking speed} \).
+   - The speed of running is \( 4 \times 3 = 12 \) miles per hour.
+   - Therefore, \( \frac{1}{3}t = 12 \).
+   - Solving for \( t \), we get \( t = 36 \) hours.
+
+2. **Time spent walking:**
+   - The time spent walking is \( \frac{2}{3} \) of the time spent running.
+   - Therefore, the time spent walking is \( \frac{2}{3} \times 36 = 24 \) hours.
+
+3. **Total time spent:**
+   - Total time = Time spent running + Time spent walking
+   - Total time = \( 12 + 24 = 36 \) hours.
+
+4
+

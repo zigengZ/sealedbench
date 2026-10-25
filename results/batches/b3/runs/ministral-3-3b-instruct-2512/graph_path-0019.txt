@@ -1,0 +1,18 @@
+To find the shortest path from **Fern** to **Glen**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Fern → Hart → Sage → Glen**
+   - Fern → Hart: 9
+   - Hart → Sage: 7
+   - Sage → Glen: 9
+   - **Total:** 9 + 7 + 9 = **25**
+
+2. **Fern → Hart → Sage → Poe → Xen → Moss → Sage → Glen** (longer, not optimal)
+
+3. **Fern → Hart → Sage → Poe → Sage → Glen** (also longer)
+
+The shortest path is **Fern → Hart → Sage → Glen** with a total weight of **25**.
+
+#### 25 [end of text]
+
+

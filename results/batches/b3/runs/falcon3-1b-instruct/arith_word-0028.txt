@@ -1,0 +1,7 @@
+Willa earns $27 * 3 = 81$ dollars in 3 hours.
+In 7 hours, she earns $27 * 7 = 189$ dollars.
+So, she earns a total of $81 + 189 = 270$ dollars.
+Willa spends $101, leaving her with $270 - 101 = 169$ dollars.
+#### 169 [end of text]
+
+

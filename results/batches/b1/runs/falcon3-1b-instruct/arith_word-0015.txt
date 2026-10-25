@@ -1,0 +1,12 @@
+First, calculate the total number of pages Felix reads in the first 4 days:
+19 pages/day * 4 days = 76 pages
+
+Then, add the 8 more pages he reads:
+76 pages + 8 pages = 84 pages
+
+Next, subtract the 37 pages he skips:
+84 pages - 37 pages = 47 pages
+
+So, Felix reads #### 47 pages. [end of text]
+
+

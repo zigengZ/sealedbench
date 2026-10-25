@@ -1,0 +1,7 @@
+Gina starts with 6 packs × 8 ribbons = 48 ribbons.
+After giving 44 to Ava, she has 48 - 44 = 4 ribbons left.
+Each ribbon is worth $6, so 4 × 6 = 24 dollars.
+
+#### 24 [end of text]
+
+

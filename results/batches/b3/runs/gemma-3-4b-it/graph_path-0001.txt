@@ -1,0 +1,12 @@
+We want to find the shortest path from Cedar to Poe in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cedar to Poe:
+1. Cedar -> Drew -> Glen -> Poe: 7 + 7 + 2 = 16
+2. Cedar -> Drew -> Quill -> Poe: 7 + 5 + 9 = 21
+3. Cedar -> Drew -> Quill -> Nell -> Poe: This path is not possible as there is no edge from Nell to Poe.
+
+The shortest path is Cedar -> Drew -> Glen -> Poe with a total weight of 16.
+
+#### 16 [end of text]
+
+

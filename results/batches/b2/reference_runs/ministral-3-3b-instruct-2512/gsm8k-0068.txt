@@ -1,0 +1,10 @@
+**Reasoning:**
+1. Number of girls = 60.
+2. Number of boys = 2 × number of girls = 2 × 60 = 120.
+3. Total students = girls + boys = 60 + 120 = 180.
+4. Students per teacher = 5.
+5. Number of teachers = total students ÷ students per teacher = 180 ÷ 5 = 36.
+
+#### 36 [end of text]
+
+

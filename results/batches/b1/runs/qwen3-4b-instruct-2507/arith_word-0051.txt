@@ -1,0 +1,19 @@
+Ava reads:
+
+- 10 pages a day for 3 days:  
+  $10 \times 3 = 30$ pages
+
+- 19 pages a day for 5 days:  
+  $19 \times 5 = 95$ pages
+
+Total pages read (before skipping):  
+$30 + 95 = 125$ pages
+
+She skips 26 blank pages that do not count — these are **not** part of the reading, so we **do not** add them.
+
+So, the total number of pages Ava **reads** is:  
+$125$
+
+#### 125 [end of text]
+
+

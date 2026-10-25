@@ -1,0 +1,16 @@
+Let $c_1$ be the number of containers imported on the first day, and $v_1$ be the number of vehicles in each container on the first day.
+Let $c_2$ be the number of containers imported on the second day, and $v_2$ be the number of vehicles in each container on the second day.
+We are given that $c_1 = 2$ and $v_1 = 5$.
+The total number of vehicles on the first day is $c_1 \times v_1 = 2 \times 5 = 10$.
+On the second day, the total number of vehicles at the port became 30.
+The total number of vehicles on the second day is $c_2 \times v_2 = c_2 \times 5$.
+The total number of vehicles on the first and second days is $10 + c_2 \times 5$.
+We are given that the total number of vehicles on the second day is 30.
+So, $10 + c_2 \times 5 = 30$.
+Subtracting 10 from both sides, we get $c_2 \times 5 = 30 - 10 = 20$.
+Dividing both sides by 5, we get $c_2 = \frac{20}{5} = 4$.
+Therefore, the number of containers imported on the second day is 4.
+
+#### 4 [end of text]
+
+

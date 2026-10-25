@@ -1,0 +1,7 @@
+Pavel has a total of 3 rows × 10 seats = 30 seats.
+Seats sold = 17, so unsold seats = 30 - 17 = 13.
+Each unsold seat is worth $9, so total value = 13 × 9 = $117.
+
+#### 117 [end of text]
+
+

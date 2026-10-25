@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with nodes and edges. We need to find the **shortest path from Kai to Zed** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash — Tess: 2  
+- Kai — Quill: 8  
+- Oak — Sage: 7  
+- Oak — Uri: 5  
+- Poe — Tess: 5  
+- Quill — Tess: 1  
+- Sage — Tess: 2  
+- Sage — Zed: 1  
+- Tess — Uri: 7  
+- Tess — Zed: 9  
+
+Note: All edges are undirected, so each edge can be traversed in both directions.
+
+---
+
+### Step 2: Goal — Shortest path from **Kai** to **Zed**
+
+We start at Kai and want to reach Zed.
+
+We can use **Breadth-First Search (BFS)** or **Dijkstra’s algorithm** since all weights are positive. Dijkstra is more appropriate here due to weights.
+
+But since the graph is small, we can manually trace possible paths.
+
+---
+
+### Step 3: Build adjacency list
+
+Let’s build the adjacency list:
+
+- Ash: Tess (2)  
+- Kai: Quill (8)  
+- Oak: Sage (7), Uri (5)  
+- Poe: Tess (5)  
+- Quill: Kai (8), Tess (1)  
+- Sage: Oak (7), Tess (2), Zed (1)
+

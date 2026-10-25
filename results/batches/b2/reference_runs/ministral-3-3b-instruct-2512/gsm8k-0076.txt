@@ -1,0 +1,18 @@
+For the first 180 days, Cecilia feeds 1 cup/day:
+180 days × 1 cup = 180 cups.
+
+Since a year has 365 days, the remaining days are:
+365 - 180 = 185 days.
+
+For the remaining 185 days, she feeds 2 cups/day:
+185 days × 2 cups = 370 cups.
+
+Total cups in the first year:
+180 + 370 = 550 cups.
+
+Number of bags needed (each bag contains 110 cups):
+550 ÷ 110 = 5 bags.
+
+#### 5 [end of text]
+
+

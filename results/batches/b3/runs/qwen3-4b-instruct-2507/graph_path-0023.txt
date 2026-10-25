@@ -1,0 +1,85 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Dove to Oak** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash–Moss: 7  
+- Ash–York: 9  
+- Blair–Kai: 5  
+- Dove–Indigo: 5  
+- Dove–Oak: 9  
+- Dove–York: 1  
+- Indigo–Kai: 1  
+- Indigo–Poe: 4  
+- Kai–Oak: 6  
+- Kai–Uri: 3  
+- Moss–York: 1  
+- Oak–York: 3  
+
+---
+
+### Step 2: Goal — Shortest path from **Dove** to **Oak**
+
+We will consider possible paths from Dove to Oak.
+
+---
+
+#### Option 1: Direct edge  
+Dove → Oak: **9**
+
+---
+
+#### Option 2: Dove → York → Oak  
+- Dove–York: 1  
+- York–Oak: 3  
+→ Total: 1 + 3 = **4**
+
+Better than 9.
+
+---
+
+#### Option 3: Dove → Indigo → Kai → Oak  
+- Dove–Indigo: 5  
+- Indigo–Kai: 1  
+- Kai–Oak: 6  
+→ Total: 5 + 1 + 6 = **12** → worse than 4
+
+---
+
+#### Option 4: Dove → Indigo → Poe → ?  
+Poe has no outgoing edges to Oak or others (only to Indigo). So no path from Poe to Oak. Discard.
+
+---
+
+#### Option 5: Dove → York → Moss → ?  
+Moss has only edges to Ash and York. No connection to Oak or Kai. So no path from Moss to Oak. Discard.
+
+---
+
+#### Option 6: Dove → Indigo → Kai → Uri → ?  
+Uri has only edge to Kai. No connection to Oak. So dead end.
+
+---
+
+#### Option 7: Dove → York → Ash → Moss → ?  
+No connection from Ash or Moss to Oak. Dead end.
+
+---
+
+So only viable paths:
+
+- Dove → Oak: 9  
+- Dove → York → Oak: 1 + 3 = **4**  
+- Dove → Indigo → Kai → Oak: 5 + 1 + 6 = 12  
+
+Best is **4**
+
+---
+
+### Final Answer:
+#### 4 [end of text]
+
+

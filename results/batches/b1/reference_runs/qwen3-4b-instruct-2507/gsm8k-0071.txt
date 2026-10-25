@@ -1,0 +1,10 @@
+The first recipe has 20 instructions.  
+The second recipe has twice as many as the first, so:  
+2 × 20 = 40 instructions.
+
+To prepare both dishes, Kelian has to read:  
+20 + 40 = 60 instructions.
+
+#### 60 [end of text]
+
+

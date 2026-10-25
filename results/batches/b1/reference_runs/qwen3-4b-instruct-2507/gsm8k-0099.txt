@@ -1,0 +1,17 @@
+Mary currently has 2 potted plants on each of 40 window ledges.
+
+So, total plants she already has:  
+2 × 40 = 80 plants
+
+She receives 18 new plants:  
+80 + 18 = 98 plants total
+
+She plans to give away 1 plant from each ledge:  
+40 plants given away
+
+So, plants she will remain with:  
+98 − 40 = 58
+
+#### 58 [end of text]
+
+

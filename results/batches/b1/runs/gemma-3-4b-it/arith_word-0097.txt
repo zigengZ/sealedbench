@@ -1,0 +1,7 @@
+First, find the total number of notebooks in the packs: 6 packs * 5 notebooks/pack = 30 notebooks.
+Then, add the notebooks Rosa gives him: 30 notebooks + 4 notebooks = 34 notebooks.
+
+####34
+ [end of text]
+
+

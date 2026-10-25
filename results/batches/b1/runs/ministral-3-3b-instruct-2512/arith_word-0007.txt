@@ -1,0 +1,9 @@
+Farid reads **9 pages/day × 5 days = 45 pages** from the first book.
+Then, **20 pages/day × 3 days = 60 pages** from the second book.
+Total pages before skipping: **45 + 60 = 105 pages**.
+After skipping 61 blank pages: **105 - 61 = 44 pages per week**.
+For 3 weeks: **44 × 3 = 132 pages**.
+
+#### 132 [end of text]
+
+

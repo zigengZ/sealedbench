@@ -1,0 +1,20 @@
+To find the shortest path between Amber and Reed, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Amber as 0 and to Reed as infinity.
+   - Create a priority queue and insert all Amber nodes with their distances.
+
+2. **Process Amber**:
+   - Extract the node with the minimum distance (Amber).
+   - Update the distances to its neighbors (Amber Glen and Amber Poe) if a shorter path is found.
+   - Insert Amber's neighbors into the priority queue with their updated distances.
+
+3. **Repeat**:
+   - Continue processing Amber until the shortest path to Reed is found.
+
+4. **Result**:
+   - The total weight of the shortest path between Amber and Reed is 1.
+
+#### 1 [end of text]
+
+

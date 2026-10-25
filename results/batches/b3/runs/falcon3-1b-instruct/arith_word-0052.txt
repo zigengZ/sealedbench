@@ -1,0 +1,12 @@
+First, calculate the total number of pages Willa reads in the first 5 days:
+15 pages/day * 5 days = 75 pages
+
+Then, add the 23 additional pages she reads:
+75 pages + 23 pages = 98 pages
+
+Next, subtract the 97 pages she skips:
+98 pages - 97 pages = 1 page
+
+So, Willa reads #### 1. [end of text]
+
+

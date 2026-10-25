@@ -1,0 +1,30 @@
+First, let's calculate the total distance Marissa has already walked: 4 miles + 2 miles = 6 miles.
+
+Next, let's calculate the total time she has already spent walking: 1 hour + 1 hour = 2 hours.
+
+The remaining distance is 12 miles - 6 miles = 6 miles.
+
+To have an average speed of 4 miles per hour over the entire 12-mile trail, she needs to cover the remaining 6 miles in a time such that the total time divided by the total distance equals 4 miles per hour.
+
+Let $s$ be the speed she needs to walk the remaining distance in miles per hour.  The time to walk the remaining 6 miles is $\frac{6}{s}$ hours.
+
+The total time is 2 hours + $\frac{6}{s}$ hours = $\frac{2s+6}{s}$ hours.
+
+The total distance is 12 miles.  We want the average speed to be 4 miles per hour, so:
+
+$\frac{\text{total distance}}{\text{total time}} = 4$
+
+$\frac{12}{\frac{2s+6}{s}} = 4$
+
+$\frac{12s}{2s+6} = 4$
+
+$12s = 4(2s+6)$
+
+$12s = 8s + 24$
+
+$4s = 24$
+
+$s = 6$
+
+Mar
+

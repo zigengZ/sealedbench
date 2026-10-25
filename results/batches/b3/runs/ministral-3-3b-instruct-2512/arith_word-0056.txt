@@ -1,0 +1,5 @@
+Kira starts with 7 packs, each containing 4 balloons, so she has 7 × 4 = 28 balloons. After giving 4 to Hugo, she has 28 − 4 = 24 balloons left.
+
+#### 24 [end of text]
+
+

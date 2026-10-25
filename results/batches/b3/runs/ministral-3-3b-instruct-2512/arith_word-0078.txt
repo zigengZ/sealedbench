@@ -1,0 +1,14 @@
+Tara starts with:
+5 packs × 12 cards = 60 cards
++ 2 packs × 7 cards = 14 cards
+Total cards = 60 + 14 = 74 cards
+
+After giving 34 cards to Diego:
+74 - 34 = 40 cards
+
+Each card is worth $6:
+40 × 6 = 240 dollars
+
+#### 240 [end of text]
+
+

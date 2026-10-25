@@ -1,0 +1,7 @@
+First, find the total number of pages Gina reads in the first 4 days: 21 pages/day * 4 days = 84 pages.
+Then, add the additional 30 pages: 84 pages + 30 pages = 114 pages.
+
+####114
+ [end of text]
+
+

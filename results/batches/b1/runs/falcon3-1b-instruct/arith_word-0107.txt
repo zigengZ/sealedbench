@@ -1,0 +1,12 @@
+First, calculate the total number of apples Mina initially has:
+4 packs * 10 apples/pack = 40 apples
+
+Then, subtract the apples given to Hugo:
+40 apples - 35 apples = 5 apples
+
+Finally, add the apples given to Hugo back to the remaining apples:
+5 apples + 8 apples = 13 apples
+
+Mina has #### 13 apples. [end of text]
+
+

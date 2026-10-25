@@ -1,0 +1,36 @@
+We are given:
+
+- Darrell and Allen's ages are in the ratio 7:11.
+- Their total age now is 162.
+- We need to find Allen's age **10 years from now**.
+
+---
+
+### Step 1: Let the ages be in ratio form
+
+Let Darrell's age = 7x  
+Let Allen's age = 11x
+
+Then, their total age is:
+
+7x + 11x = 18x
+
+We are told this total is 162:
+
+18x = 162
+
+### Step 2: Solve for x
+
+x = 162 ÷ 18 = 9
+
+### Step 3: Find Allen's current age
+
+Allen's age = 11x = 11 × 9 = 99
+
+### Step 4: Find Allen's age 10 years from now
+
+99 + 10 = 109
+
+#### 109 [end of text]
+
+

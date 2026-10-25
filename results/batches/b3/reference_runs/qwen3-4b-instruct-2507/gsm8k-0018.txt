@@ -1,0 +1,15 @@
+Wait — the question says "How many dozens of eggs will she eat?" But Claire makes a 3-egg omelet every morning. That means she **uses** 3 eggs each morning, not eats them. But the question says "will she eat" — which might be a mistake in wording.
+
+However, assuming the question means: *How many dozens of eggs will Claire use in 4 weeks?* (since she makes omelets, she uses the eggs), then:
+
+1. Each day: 3 eggs  
+2. One week = 7 days  
+3. 4 weeks = 4 × 7 = 28 days  
+4. Total eggs used = 28 × 3 = 84 eggs  
+5. Dozens = 84 ÷ 12 = 7
+
+So, she uses 7 dozen eggs in 4 weeks.
+
+#### 7 [end of text]
+
+

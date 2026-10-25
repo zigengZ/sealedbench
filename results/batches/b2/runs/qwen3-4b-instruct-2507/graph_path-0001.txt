@@ -1,0 +1,89 @@
+We are given an undirected weighted graph with nodes:
+
+**Cleo, Eden, Fern, Hart, Lark, Moss, York, Zed**
+
+Edges and weights:
+
+- Cleo — Fern: 2  
+- Cleo — Hart: 2  
+- Cleo — Lark: 5  
+- Eden — Hart: 1  
+- Eden — Moss: 8  
+- Fern — Hart: 2  
+- Hart — York: 7  
+- Hart — Zed: 2  
+- York — Zed: 6  
+
+We are to find the **shortest path from Fern to Zed** in terms of total weight.
+
+---
+
+### Step 1: Understand the connections
+
+We want the shortest path from **Fern** to **Zed**.
+
+Let’s list all possible paths from Fern to Zed, and compute their total weights.
+
+---
+
+### Path 1: Fern → Hart → Zed  
+- Fern to Hart: 2  
+- Hart to Zed: 2  
+→ Total: 2 + 2 = **4**
+
+---
+
+### Path 2: Fern → Hart → York → Zed  
+- Fern → Hart: 2  
+- Hart → York: 7  
+- York → Zed: 6  
+→ Total: 2 + 7 + 6 = **15**
+
+→ Longer than 4.
+
+---
+
+### Path 3: Fern → Cleo → Hart → Zed  
+- Fern → Cleo: 2 (reverse of Cleo–Fern)  
+- Cleo → Hart: 2  
+- Hart → Zed: 2  
+→ Total: 2 + 2 + 2 = **6**
+
+→ Longer than 4.
+
+---
+
+### Path 4: Fern → Cleo → Lark → ...?  
+Lark has no connections to others. So no path from Lark to Zed. Discard.
+
+---
+
+### Path 5: Fern → Hart → Eden → Moss → ?  
+Moss has no connection to Zed or others. So dead end.
+
+---
+
+### Path 6: Fern → Cleo → Eden → Hart → Zed  
+- Fern → Cleo: 2  
+- Cleo → Eden: ? → No direct edge.  
+Wait — no edge between Cleo and Eden. So this path is invalid.
+
+Only edges are as listed.
+
+So the only valid paths from Fern to Zed are:
+
+- Fern → Hart → Zed: **4**
+- Fern → Cleo → Hart → Zed: 2 + 2 + 2 = 6
+- Fern → Hart → York → Zed: 2 + 7 + 6 = 15
+
+All others are invalid or longer.
+
+---
+
+### Conclusion:
+
+The shortest path is **Fern → Hart → Zed** with total weight **4**.
+
+#### 4 [end of text]
+
+

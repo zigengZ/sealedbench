@@ -1,0 +1,12 @@
+First, calculate the total number of marbles Farid bought:
+9 packs * 4 marbles/pack = 36 marbles
+
+Then, calculate the total number of marbles after Farid buys 4 more packs:
+36 marbles + 4 packs * 3 marbles/pack = 36 + 12 = 48 marbles
+
+Finally, divide the total number of marbles by 3 to find out how many marbles each person gets:
+48 marbles / 3 people = 16 marbles/person
+
+#### 16 [end of text]
+
+

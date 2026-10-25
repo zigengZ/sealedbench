@@ -1,0 +1,7 @@
+Gina starts with **7 packs × 9 balloons = 63 balloons**.
+After giving 7 to Kira, she has **63 - 7 = 56 balloons**.
+Each balloon is worth **7 dollars**, so her balloons are worth **56 × 7 = 392 dollars**.
+
+#### 392 [end of text]
+
+

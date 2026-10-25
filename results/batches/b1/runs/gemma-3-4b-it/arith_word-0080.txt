@@ -1,0 +1,9 @@
+First, let's calculate the number of tickets from the 6 packs with 12 tickets each: 6 packs * 12 tickets/pack = 72 tickets.
+
+Next, let's calculate the number of tickets from the 2 packs with 3 tickets each: 2 packs * 3 tickets/pack = 6 tickets.
+
+Finally, let's add the two amounts together: 72 tickets + 6 tickets = 78 tickets.
+
+#### 78 [end of text]
+
+

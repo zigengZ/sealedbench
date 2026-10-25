@@ -1,0 +1,6 @@
+First, find the total number of buttons in the packs: 4 packs * 4 buttons/pack = 16 buttons.
+Then, add the buttons Chloe gives her: 16 buttons + 4 buttons = 20 buttons.
+
+####20 [end of text]
+
+

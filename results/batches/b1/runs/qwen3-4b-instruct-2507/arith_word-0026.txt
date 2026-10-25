@@ -1,0 +1,31 @@
+First, find the total number of seats Nico set up.
+
+Nico sets out 10 rows with 16 seats each:
+
+$$
+10 \times 16 = 160 \text{ seats}
+$$
+
+Then he adds 3 more rows with 7 seats each:
+
+$$
+3 \times 7 = 21 \text{ seats}
+$$
+
+Total seats:
+
+$$
+160 + 21 = 181 \text{ seats}
+$$
+
+Then 126 seats are sold.
+
+So, unsold seats:
+
+$$
+181 - 126 = 55
+$$
+
+#### 55 [end of text]
+
+

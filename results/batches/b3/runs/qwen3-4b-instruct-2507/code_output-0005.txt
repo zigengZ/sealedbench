@@ -1,0 +1,39 @@
+Let's analyze the Python code step by step:
+
+```python
+total = 0
+for value in range(11):
+    if value == 6:
+        total = total + 0
+    else:
+        total = total + value
+print(total)
+```
+
+- `range(11)` generates numbers from 0 to 10 (inclusive).
+- The loop iterates over each value in that range.
+- For each value:
+  - If `value == 6`, we add 0 to `total`.
+  - Otherwise, we add the value itself to `total`.
+
+So, we are summing all values from 0 to 10, **except** that when `value == 6`, we add 0 instead of 6.
+
+The sum of numbers from 0 to 10 is:
+```
+0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
+```
+
+But when `value == 6`, instead of adding 6, we add 0. So we subtract 6 and add 0 → net change is -6.
+
+Therefore, the total becomes:
+```
+55 - 6 = 49
+```
+
+Thus, the program prints `49`.
+
+```python
+49
+``` [end of text]
+
+

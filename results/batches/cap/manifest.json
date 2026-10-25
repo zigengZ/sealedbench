@@ -1,0 +1,720 @@
+{
+  "app_version": "0.1.0",
+  "batch_id": "cap",
+  "ciphertext": {
+    "armor": true,
+    "bytes": 15685,
+    "sha256": "ae58d4306691970ce34394e85a413a39bf3fd46374eed53b9f1b0ca369b7068c",
+    "tool": "github.com/drand/tlock/cmd/tle@v1.2.0"
+  },
+  "declared_batches": [
+    "b1",
+    "cap"
+  ],
+  "drand": {
+    "beacon_url_template": "https://api.drand.sh/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/{round}",
+    "chain_hash": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971",
+    "genesis_unix": 1692803367,
+    "period_s": 3,
+    "public_key": "83cf0f2896adee7eb8b5f01fcad3912212c437e0073e911fb90022d3e760183c8c4b450b6a0a6c3ac6a5776a2d1064510d1fec758c921cc22b0e17e63aaf4bcb5ed66304de9cf809bd274ca73bab4af5a6e9c76a4bc09e76eae8991ef5ece45a",
+    "scheme": "bls-unchained-g1-rfc9380"
+  },
+  "generator": {
+    "families": [
+      {
+        "n": 120,
+        "name": "arith_word"
+      },
+      {
+        "n": 60,
+        "name": "code_output"
+      },
+      {
+        "n": 60,
+        "name": "graph_path"
+      }
+    ],
+    "generator_sha256": "e054f1ab7824fde33e6ac399252098cf25c29815ff4ffacabbd311da05eac9c2",
+    "git_commit": "95f747f0efd5b24bc507a3c7082bc74ac18f75ed",
+    "item_ordering": "Families run in the order arith_word, code_output, graph_path. item_id is '{family}-{index:04d}' starting at 0 inside the family. family_seed = SHA-256(ASCII('sealedbench/v1/family\\n') || seed_bytes || ASCII('\\n') || ASCII(family) || ASCII('\\n') || ASCII(n)), where seed_bytes is the raw 32-byte digest from the seed rule. Candidates are drawn in RNG order and rejected when they are degenerate (integer answer 0, empty program output, a one-edge shortest path), when the prompt was already kept, or when a program errors or times out. The first n accepted candidates form the family.",
+    "python": "3.12.3",
+    "sealed_paths": [
+      "sealedbench/__init__.py",
+      "sealedbench/seed.py",
+      "sealedbench/rng.py",
+      "sealedbench/extract.py",
+      "sealedbench/grade.py",
+      "sealedbench/items.py",
+      "sealedbench/generate.py",
+      "sealedbench/families/__init__.py",
+      "sealedbench/families/arith_word.py",
+      "sealedbench/families/code_output.py",
+      "sealedbench/families/graph_path.py"
+    ],
+    "tarball_bytes": 11171,
+    "tarball_encoding": "ustar, mtime 0, uid 0, gid 0, then gzip -n (mtime 0, no filename)"
+  },
+  "grader": {
+    "code_normalization": "last fenced block; CRLF to LF; rstrip each line; drop one trailing empty line",
+    "files": [
+      "sealedbench/extract.py",
+      "sealedbench/grade.py"
+    ],
+    "integer_normalization": "strip commas; strip a trailing .0; exact string match",
+    "invalid_policy": "unparseable output is invalid and counts as wrong",
+    "regexes": {
+      "code_fence": "```[ \\t]*([A-Za-z0-9_+-]*)[ \\t]*\\n(.*?)```",
+      "gsm8k_gold": "####\\s*(-?\\d[\\d,]*)",
+      "integer_bare_fallback": "-?\\d[\\d,]*(?:\\.\\d+)?",
+      "integer_hash": "####\\s*(-?\\d[\\d,]*(?:\\.\\d+)?)"
+    },
+    "sha256": "2075763a8194cd90bb98560f88ac7f84089c17fb6133919a610523d793ed46fe",
+    "sha256_method": "SHA-256 over sorted relative paths, each as path bytes, NUL, file bytes, NUL"
+  },
+  "host": {
+    "cgroup": "sealedbench-p2.scope",
+    "cpu_max": "600000 100000",
+    "cpu_model": "AMD Ryzen 7 7700 8-Core Processor",
+    "memory_max": "19327352832",
+    "note": "Phase 2 runs inside sealedbench-p2.scope. The quotas match Phase 1 sealedbench-p1.scope: 600000/100000 CPU (about 6 CPUs) and 18 GiB."
+  },
+  "models": [
+    {
+      "bytes": 4280403520,
+      "chat_template_capture": {
+        "bytes": 498,
+        "note": "SHA-256 of the Phase 1 debug prompt captured with --jinja for the first GSM8K question. It fingerprints the chat template together with that system prompt and question.",
+        "path": "results/cpu/rendered/qwen3-4b-instruct-2507.txt",
+        "sha256": "d013fd0cbe6c4319a336769fd8acc21f8755181f69ec9025ed6fca704bd58070"
+      },
+      "file": "qwen3-4b-instruct-2507-q8_0.gguf",
+      "id": "qwen3-4b-instruct-2507",
+      "sha256": "ae916ede1c010a26955ee8ae2e908bf8815a3f135ec860439ab924701c69d5f1",
+      "source_url": "https://huggingface.co/ggml-org/Qwen3-4B-Instruct-2507-Q8_0-GGUF/resolve/main/qwen3-4b-instruct-2507-q8_0.gguf"
+    },
+    {
+      "bytes": 4130226336,
+      "chat_template_capture": {
+        "bytes": 475,
+        "note": "SHA-256 of the Phase 1 debug prompt captured with --jinja for the first GSM8K question. It fingerprints the chat template together with that system prompt and question.",
+        "path": "results/cpu/rendered/gemma-3-4b-it.txt",
+        "sha256": "b617e4f52945baccc027e9232c10ffb2f57b866b7f1d463ad8b852cea5dc306a"
+      },
+      "file": "gemma-3-4b-it-Q8_0.gguf",
+      "id": "gemma-3-4b-it",
+      "sha256": "97b06383df48336e7d2f9b56b6ce545e0fa476407a62c0bd081b53447a58e644",
+      "source_url": "https://huggingface.co/ggml-org/gemma-3-4b-it-GGUF/resolve/main/gemma-3-4b-it-Q8_0.gguf"
+    },
+    {
+      "bytes": 3651679744,
+      "chat_template_capture": {
+        "bytes": 462,
+        "note": "SHA-256 of the Phase 1 debug prompt captured with --jinja for the first GSM8K question. It fingerprints the chat template together with that system prompt and question.",
+        "path": "results/cpu/rendered/ministral-3-3b-instruct-2512.txt",
+        "sha256": "93b2d2a1cc8c05535b20d31bb22a440115eb055e77eb366d7d1aed861a270977"
+      },
+      "file": "Ministral-3-3B-Instruct-2512-Q8_0.gguf",
+      "id": "ministral-3-3b-instruct-2512",
+      "sha256": "70c6e5b77435062a46bfa3f0b9fa21744a10161ed23eabe9fdc47b3fb6711ad3",
+      "source_url": "https://huggingface.co/ggml-org/Ministral-3-3B-Instruct-2512-GGUF/resolve/main/Ministral-3-3B-Instruct-2512-Q8_0.gguf"
+    },
+    {
+      "bytes": 1778710656,
+      "chat_template_capture": {
+        "bytes": 454,
+        "note": "SHA-256 of the Phase 1 debug prompt captured with --jinja for the first GSM8K question. It fingerprints the chat template together with that system prompt and question.",
+        "path": "results/cpu/rendered/falcon3-1b-instruct.txt",
+        "sha256": "227fa354934a1cda4f3181000d6354842ffac5e31db80bba866e391148074a64"
+      },
+      "file": "Falcon3-1B-Instruct-q8_0.gguf",
+      "id": "falcon3-1b-instruct",
+      "sha256": "dda44709157103fc272ea3c44ae0deb7fbec5b2d82b313362680dec08e66f57a",
+      "source_url": "https://huggingface.co/tiiuae/Falcon3-1B-Instruct-GGUF/resolve/main/Falcon3-1B-Instruct-q8_0.gguf"
+    }
+  ],
+  "protocol_version": "sealedbench/v1",
+  "reference": {
+    "compare_family": "arith_word",
+    "dataset": "GSM8K-test",
+    "fresh_only_families": [
+      "code_output",
+      "graph_path"
+    ],
+    "indexes": "0..119",
+    "items": [
+      {
+        "index": 0,
+        "sha256": "690e0530eaa9cbad0c5a73f0232af2181e7d6418226f58078e755d0e22798e58"
+      },
+      {
+        "index": 1,
+        "sha256": "a1433f0a901dce9036a87b6dc3a421fe335764bd136b82155fdbe7fd54febfa7"
+      },
+      {
+        "index": 2,
+        "sha256": "2d5ad16672166414eb2da5a396a9832d77e6ec7d8adfffb8004887174c759f2e"
+      },
+      {
+        "index": 3,
+        "sha256": "9a239b08df60c5a66733c2c7d3633a8005bed9602afb70cd5b024f988a86a64b"
+      },
+      {
+        "index": 4,
+        "sha256": "e0aa4f2259a6d83b1a5cd6f3b1b92c676849cb94ad3d01498816f96b31313c16"
+      },
+      {
+        "index": 5,
+        "sha256": "465c73684cc6ae028c1c2b77a676e632612825542d6a5c7e0fb8e80d5e23f478"
+      },
+      {
+        "index": 6,
+        "sha256": "cae6335f8c2d068bffc757827ccacff12abe9c15abb1088c57bd74ca3a82ee35"
+      },
+      {
+        "index": 7,
+        "sha256": "be86534386cccbf99a6d968f3ca70c7b8a7228d4dccaea7dadfa7d3cc60ca59d"
+      },
+      {
+        "index": 8,
+        "sha256": "f8dc1932551dd8266587e4a8f3f9cb84465c9b05eca2b76788c6582a9ecd21fa"
+      },
+      {
+        "index": 9,
+        "sha256": "24f37b08c35c81aeacbe7ad56a0e6dd0e478b98872bf854975fdd45d57fd5d46"
+      },
+      {
+        "index": 10,
+        "sha256": "6cb7266290df33247efe780a072a14736e523d27f72fb917c2d2b96cd986502e"
+      },
+      {
+        "index": 11,
+        "sha256": "b57bf22e37f8c744e77183f7152ae2ffa5952719742c4e4e0c2ea8b7e926509a"
+      },
+      {
+        "index": 12,
+        "sha256": "23e2df479692d9b5e73acc9fc74c5ebe61bfe1ea8f7183819dbe045c2ec552e3"
+      },
+      {
+        "index": 13,
+        "sha256": "4b291213a8badf0204266c9b5e66f2028efac662a42bfa1bb66e341b30996d1a"
+      },
+      {
+        "index": 14,
+        "sha256": "161ed4545c93791c2e582ec0fa1895983621c0471fea4ea5c82ee954293efa5c"
+      },
+      {
+        "index": 15,
+        "sha256": "c3193995b02461e75a6681f63a29ba11e7fc78ae0ea9cfdbb495164cb037e934"
+      },
+      {
+        "index": 16,
+        "sha256": "7dda2e14abc849c96d755e8fe2454b371821bb07dd01e9c9bb7fbe850a3f597e"
+      },
+      {
+        "index": 17,
+        "sha256": "376f9958fdc66e46ab551d144633109a3a772db9bd266db12d7287787d1661d9"
+      },
+      {
+        "index": 18,
+        "sha256": "7ecdf2d95e690a44ee2b21fc188993ebdaf366048e3325375ce066afa94a9bd3"
+      },
+      {
+        "index": 19,
+        "sha256": "0bfdb1a680d398468f5d50b946075b365edffe5e7322250ec51f5a380e326406"
+      },
+      {
+        "index": 20,
+        "sha256": "c9171d8b3df896bc4a0db06238f64f08b20730f576e842d9ce436e61f48af551"
+      },
+      {
+        "index": 21,
+        "sha256": "02b950750a0d27490fa20a5d4583d3991a8db53d9315dbb1d51c9bd0e9437b5d"
+      },
+      {
+        "index": 22,
+        "sha256": "26639db3981c76343fa9ab0693d6a491a48a38abce7695a12b0406e0ea831180"
+      },
+      {
+        "index": 23,
+        "sha256": "5a2ff2cdf8a03bc539e1f55f8f3b30e17a565f72e35c2f7eb0becad79467874c"
+      },
+      {
+        "index": 24,
+        "sha256": "9482b3efaf6b19edabcb3f9f8eb27c2cb749f0c878cec553bce39240b7944a20"
+      },
+      {
+        "index": 25,
+        "sha256": "073b526a5ba02ef15f6d9ad8675af9df0a86deda73d31c1a56649753961d41b4"
+      },
+      {
+        "index": 26,
+        "sha256": "4d692efb4be1032074d11d1aeea9bb27063cc1c58a04cd8566f1e143119ea829"
+      },
+      {
+        "index": 27,
+        "sha256": "fb08f5b11555a2adedef7f37dbe5d0d02f51e5c36040f33ff6f006f24d35232c"
+      },
+      {
+        "index": 28,
+        "sha256": "67a43144fe848f7158fad88db5112f5bae7bf8c988fc720d090dc714bb9d2cd5"
+      },
+      {
+        "index": 29,
+        "sha256": "32f41ec46041b9baebf17e767880771012618ab3a0bbb0cb2335c0aae88670e4"
+      },
+      {
+        "index": 30,
+        "sha256": "cbed674daf6ecc1e6ead8f9af8be7ebf9d16607f53f5df85da03cc67bfb578cc"
+      },
+      {
+        "index": 31,
+        "sha256": "bf8a78f79adc58dab29b203d55baf45a6e14cf96e4fc5056e68aca41c3cd61d6"
+      },
+      {
+        "index": 32,
+        "sha256": "639b9acb5a47494d3224afc680885032bbd05267ee1ad906f74db740f41c421b"
+      },
+      {
+        "index": 33,
+        "sha256": "f817dbe0e033b8ca8e95ab0df5b8827d8c9a0aa1896879a7d0e66bfeb0864dc8"
+      },
+      {
+        "index": 34,
+        "sha256": "0b21d535a5ee93a7ac96fca26dce13f7df05509b17818cb92d842aa4d16ed840"
+      },
+      {
+        "index": 35,
+        "sha256": "6077efe9d8fcbbb345f53bc0cc0697df06d93cc020c5f7541786a77984ecfdc5"
+      },
+      {
+        "index": 36,
+        "sha256": "4434a2a1a92a83571d65804c59c08b7a344f3d83e92773c4ea5fcb44c41e21aa"
+      },
+      {
+        "index": 37,
+        "sha256": "9bca8875d332438ec93d9b12030d9867815f18ce3f1409595b0394f5de463a23"
+      },
+      {
+        "index": 38,
+        "sha256": "225c5d0dbade4474e82947485d2e88a6d9a188620cfcca235e8da2ab6a18c14a"
+      },
+      {
+        "index": 39,
+        "sha256": "f17de81cb77d1bad596fbf3b097119c991f1f526bab23104cf25d6dae9914088"
+      },
+      {
+        "index": 40,
+        "sha256": "c5601d8b9a561e606e783385c234c25fee3e0b1955697672294dfbb16fb284e3"
+      },
+      {
+        "index": 41,
+        "sha256": "790d280afee941fb06ea5f27428d2d68887e30445d6b4a0a898e6bcb76d96886"
+      },
+      {
+        "index": 42,
+        "sha256": "58434d3eb64578e651fb85c9993b014447f926514b2da900235bd773c7b7ab2c"
+      },
+      {
+        "index": 43,
+        "sha256": "931f3e0efdacb850149c323a75a54e4831ef6807e791577bf141ad3173cd6fbb"
+      },
+      {
+        "index": 44,
+        "sha256": "68e62ef1109e7e2c068c6f22126215508851f4cd1bb5e026b9f97fda1d3725f2"
+      },
+      {
+        "index": 45,
+        "sha256": "1390df16de5c9c2d30f7481c4f88f5ae9767d952cb2bc9bd080f480c06756385"
+      },
+      {
+        "index": 46,
+        "sha256": "3d6b80937dd1971957e72373ebeda7209f75822a92c2880f75e9c2085b29699c"
+      },
+      {
+        "index": 47,
+        "sha256": "7c0a03821687ad85aab768bd4197cd2fb90f7ad02c061f95524aedad0265dd41"
+      },
+      {
+        "index": 48,
+        "sha256": "80d95d16005a6769685726ea8eff2f701c01e5d9f32c93baa7897d37db120363"
+      },
+      {
+        "index": 49,
+        "sha256": "e895b7240eeeed307fae5ba00af3203f7666696495d1c7cd72bcbf7306ae4ab8"
+      },
+      {
+        "index": 50,
+        "sha256": "7710226d68ac538730c2b8a3690009014b6617fe21243ef940949b7972899db8"
+      },
+      {
+        "index": 51,
+        "sha256": "f92f5a56bdcb8fc2598f9f86bab22852444c35b014cf0e2b03656dcbb36275ac"
+      },
+      {
+        "index": 52,
+        "sha256": "5e591ed2a5c2f5c4ed14c518af3a518133da71cd7936fd52a143dc9a17c54011"
+      },
+      {
+        "index": 53,
+        "sha256": "3725813d513cf4d20bdff4581564611238abc86ad925391448b57ae0491cae7f"
+      },
+      {
+        "index": 54,
+        "sha256": "a100b15b78ba031f3a20ec4e5944b962aab0eef1c3bea23af3e89f227fa89797"
+      },
+      {
+        "index": 55,
+        "sha256": "ac0fdca72e134ebe4259307dcb3bb526077fb6ec803b145c58451e35c371c2aa"
+      },
+      {
+        "index": 56,
+        "sha256": "d7c2be5294e6fd2ed5655bb6a3d1a8b3f306cf855b2f99653ee79045d9165871"
+      },
+      {
+        "index": 57,
+        "sha256": "45a2d1a18171c7eecb532234479e0129feca06ecb6624d2f518da67e59f3f52c"
+      },
+      {
+        "index": 58,
+        "sha256": "4a88e9ed810be46f6ecfe424161a06a881491985209eb7863ce137ffcaed60f7"
+      },
+      {
+        "index": 59,
+        "sha256": "111195a1ece9a0e28393329ddda55c27e7afb37e281123ee7460da05ee143546"
+      },
+      {
+        "index": 60,
+        "sha256": "e29c70b8f0168d9d6b03667160a846ed06c83f73befd1efdfdd18fb251a12525"
+      },
+      {
+        "index": 61,
+        "sha256": "616d1f3956a13b401f8ebd3fc90cea203702ae13067b0b194648d9b3e72d08ee"
+      },
+      {
+        "index": 62,
+        "sha256": "1cc7f7e5d86984a0bffd9be5e8288e9c77550fce42160e52d31e7727ce9ccb4c"
+      },
+      {
+        "index": 63,
+        "sha256": "94b56bced362c1154592c541fce9516e3c375bd72e3d5f443e698418d27fe992"
+      },
+      {
+        "index": 64,
+        "sha256": "d1e044cd40470294c4cdd1d645f7608d4347a2261f299fe9b7ebefef756addc9"
+      },
+      {
+        "index": 65,
+        "sha256": "9860d79173c357c89ec8eb71a3fe2c1d0e5086af48df96d5ed4629e69b76f0b3"
+      },
+      {
+        "index": 66,
+        "sha256": "f66f3b518ec6e7b26392a26b3a63bbac3be4162e7e658f83bce12bb6606fa375"
+      },
+      {
+        "index": 67,
+        "sha256": "fb98881d03a6bb9809dc2f15c041592c4d5462f8c222f8955a8da30a03093a74"
+      },
+      {
+        "index": 68,
+        "sha256": "a1df497a4977161a94781c16edf82505b4f0772ff20066db68ec2ab28ff7740d"
+      },
+      {
+        "index": 69,
+        "sha256": "2a47a6dfc6f2c7dc54ebabe3cdeea055d58384cdbbb6dfb20d6c30752e8dda49"
+      },
+      {
+        "index": 70,
+        "sha256": "222e309efbddf56ff3e7f0ddd6a41574a440f307970af3baab07402aa8c3b918"
+      },
+      {
+        "index": 71,
+        "sha256": "c04efb9461c6e14c81607e8245f1c51f248a7aff0ef0ed34a88231b6d908c6e4"
+      },
+      {
+        "index": 72,
+        "sha256": "7bddc4bc7a0c55efa2d6e195a8db7b563efe710228e5dcbe87ea2251ec0a8518"
+      },
+      {
+        "index": 73,
+        "sha256": "fa62fee474c6e22a0df0bc08a4f968c8cc852de3a66732619164502352a1cf57"
+      },
+      {
+        "index": 74,
+        "sha256": "028fd9dbeec0b06027270b530262c0fd3911a652038a5f8454fea3d15736911b"
+      },
+      {
+        "index": 75,
+        "sha256": "a7b37bdacd5e4ea39b25e5d7214616de11f6e4a9ac302f1a10b011e47af61961"
+      },
+      {
+        "index": 76,
+        "sha256": "bf57b7797cb0feddf23adb4d66a752b473f5c65494cf33636272d58935cfe9ce"
+      },
+      {
+        "index": 77,
+        "sha256": "9e0b146811b520329442e1edcf77a2bd4214915eb217c94df7e03ce6ef5188b9"
+      },
+      {
+        "index": 78,
+        "sha256": "d341ca4c8e8645b7069e954f999113fa3872f8aabafdea52cbd85960190663fe"
+      },
+      {
+        "index": 79,
+        "sha256": "a6e68824b4f89fdf0747ac666e3e58b76568f29290d25945967fad13e1b8184b"
+      },
+      {
+        "index": 80,
+        "sha256": "f3fd164f68939d1299f17dee709cfa27e202d4fc36ed000bcb6816cb92319b9b"
+      },
+      {
+        "index": 81,
+        "sha256": "41a519909fbfd2a13a8ce4293f556859ea57c2b716b631f28baec7acbb5be1d2"
+      },
+      {
+        "index": 82,
+        "sha256": "5e5dc668b2797dd35842ef4f805316150ee8a9b2b524ff7d9906a6b5b47523e5"
+      },
+      {
+        "index": 83,
+        "sha256": "30bf34ab3216ab43ac585775b3ab9c50700c9aa11bbc536b629e7966d7dab8dd"
+      },
+      {
+        "index": 84,
+        "sha256": "f0afb6cd5f1e91ee6867f8d1f1bf8c7136c92d8c0b4694d3cf9f21123bb55fd5"
+      },
+      {
+        "index": 85,
+        "sha256": "594f6842236d070754657c65fac1b4eb3a5f8785147e3417f96179865fea7c90"
+      },
+      {
+        "index": 86,
+        "sha256": "b5b295e2b833a65dcbd1b39baa58acf7b58191740a6fab1d2f6210738ab1ae9d"
+      },
+      {
+        "index": 87,
+        "sha256": "3e1852b6bd4aeb8ad846eea483bfd0502cd1680abe351f7f75a40597d64b404d"
+      },
+      {
+        "index": 88,
+        "sha256": "3df6135744a6c2b3569ff4e46e6831cfebbaf65ca464b5c51ca15c5f3ce568a9"
+      },
+      {
+        "index": 89,
+        "sha256": "249a2e81d5b84b87e19591535854ffefe337d794382bb1e62024d118a59e7252"
+      },
+      {
+        "index": 90,
+        "sha256": "22e017b74e53ab4f78cdce697bbc8cfc33685f2544add89ef2b2bc7812c568cc"
+      },
+      {
+        "index": 91,
+        "sha256": "30fd88f4171bf5b8a870db7b81dd76891a13e55634c25ca7e54e3e2c262291d1"
+      },
+      {
+        "index": 92,
+        "sha256": "2a32e33cc652a4bdff8b0eed1beb9a47423231d223c7ca3a44840358b312f23a"
+      },
+      {
+        "index": 93,
+        "sha256": "f2bb514b18ed53ba8288ecb13d934d2cd73abc0be78e233823a81f19a1dd2415"
+      },
+      {
+        "index": 94,
+        "sha256": "ddd82fdc1a2829eee0042d4c7c642d1449cdb6cd992e68974881ecc827d1a834"
+      },
+      {
+        "index": 95,
+        "sha256": "9320e9b29f071f18dfeec34733a6710ac3114945ddd03b9200e251d627a6456a"
+      },
+      {
+        "index": 96,
+        "sha256": "9e1c9cb79db16ea082a8fb687bbda0efa99aa122e9b12dd33f9d4298d0b8b647"
+      },
+      {
+        "index": 97,
+        "sha256": "b0e0530999e398c841f144a26aa98b77a9f3da4209ab83fee6adb15686231b6d"
+      },
+      {
+        "index": 98,
+        "sha256": "13e8ecb2a0e56024df4ddc6a21dc7c2a23279676982e75d122a2107b0d398349"
+      },
+      {
+        "index": 99,
+        "sha256": "4573215eff7e5cb84965dd707744739503dc4e86fc571530b63ac69a144c4a16"
+      },
+      {
+        "index": 100,
+        "sha256": "82929592fba1c268b4d4d32e80cd1b2d356bbd5dc948eba07e02f2ddcf78a731"
+      },
+      {
+        "index": 101,
+        "sha256": "94eb238d7b145ca417ef727b1f9b3656c0307a127f417d41b67c466707798b91"
+      },
+      {
+        "index": 102,
+        "sha256": "3a591ab10d571f9e1babb39746a8ddc6b13ac10c34d8590338b3443117cf2ad7"
+      },
+      {
+        "index": 103,
+        "sha256": "94fbdf75ab059a91daa16c428376738a8f28d35ea092c573195eeb5e07e8e872"
+      },
+      {
+        "index": 104,
+        "sha256": "3461b382f94d30c1b2588539f37418ebe1b585d1f3507b0ef5c3d13f8de15457"
+      },
+      {
+        "index": 105,
+        "sha256": "4e52acd66ec45799071016dae94e744f934e68c9d4ea25363c8e70a027822fa3"
+      },
+      {
+        "index": 106,
+        "sha256": "d3b21e04c388e2c6aa8634a567dc44f8ecd9d0c538ccc71dc22bd6b9d9eda4c3"
+      },
+      {
+        "index": 107,
+        "sha256": "d3cbf0d83f63ed322f7f698b7afd914ecc6ae095f9e2addac543c84da920200a"
+      },
+      {
+        "index": 108,
+        "sha256": "c161d5eab69e3316124cb14f569b46fa0cda44bf53bca73d556b3811d60debe7"
+      },
+      {
+        "index": 109,
+        "sha256": "371d094c51076f363f0ab5f032d0f2e4cc51167dc084a36eca6238c9bd0e0828"
+      },
+      {
+        "index": 110,
+        "sha256": "fb8526e804b88948b4aedc18f26535092c965291ee2f7995056e927b7b196ffc"
+      },
+      {
+        "index": 111,
+        "sha256": "139c1661adb5978546b4c8f6863a44211303261183912f963c3bb2a8cecae372"
+      },
+      {
+        "index": 112,
+        "sha256": "86138a8ec5193e73594aec395f75998423e0a1c3ef858ab97cf6624bef38ba46"
+      },
+      {
+        "index": 113,
+        "sha256": "9be29ed85d7dacb598763669baeb42b5d5575172a49c18b6cc86883e8faaa937"
+      },
+      {
+        "index": 114,
+        "sha256": "5db69b2205372acd2e6a74d153209b46f94b0cb09714b7285e1c3bdd3fc5ad9e"
+      },
+      {
+        "index": 115,
+        "sha256": "ca0d9fbf7f559b4c677c81953e226e17c5900c2cc8f3c7a3fb35cbc97821f10f"
+      },
+      {
+        "index": 116,
+        "sha256": "0e00d76d8093ce4f52bf0f1c0174867d672c5db2eec149e14ce6c3dff5a69d2a"
+      },
+      {
+        "index": 117,
+        "sha256": "55ced5b401180f4127f64779aca7a9eccd6e4dd5ce57c3893f1fbf2290edca13"
+      },
+      {
+        "index": 118,
+        "sha256": "5c45facdfc812f9d28f40b2151ad109154732b58c8454eace7a9375f7facdace"
+      },
+      {
+        "index": 119,
+        "sha256": "b1f1bcef8d09dd019fea558722f1e6f32d7ea4801deed1be0ceedd09cd402051"
+      }
+    ],
+    "list_sha256": "e25d897c56f446b2a097f4ee7b51fc0935d03a881bb6b0cc0ab603c083c02a15",
+    "n": 120,
+    "row_sha256_method": "SHA-256 of canonical JSON {answer, question} with sorted keys, no extra whitespace, ensure_ascii true.",
+    "source_bytes": 749738,
+    "source_file": "results/cpu/gsm8k_test.jsonl",
+    "source_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+    "source_url": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/test.jsonl"
+  },
+  "release_round": 33980212,
+  "reporting": {
+    "all_declared_batches_reported": true,
+    "inclusion_rule": "A batch whose manifest or ciphertext is not in an L1 block before the release round is invalid and is reported as such.",
+    "invalid_output_counts_as_wrong": true,
+    "retries": "none. A crashed run is re-executed once with identical settings and both logs are kept."
+  },
+  "runtime": {
+    "batch": 2048,
+    "binary_bytes": 15968,
+    "binary_path": "/root/.cache/sealedbench/llama.cpp/build/bin/llama-completion",
+    "binary_sha256": "d95bb69be967034fa5414b708a75e8119946ecbdb34404363111d2ee20cd5eb7",
+    "build_flags": [
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DGGML_NATIVE=ON",
+      "-DGGML_AVX512=ON",
+      "-DGGML_AVX512_VBMI=ON",
+      "-DGGML_AVX512_VNNI=ON",
+      "-DGGML_AVX512_BF16=ON",
+      "-DGGML_CUDA=OFF",
+      "-DGGML_BLAS=OFF",
+      "-DGGML_METAL=OFF",
+      "-DGGML_VULKAN=OFF",
+      "-DGGML_HIP=OFF",
+      "-DGGML_MUSA=OFF",
+      "-DGGML_RPC=OFF",
+      "-DGGML_SYCL=OFF",
+      "-DGGML_OPENCL=OFF",
+      "-DGGML_OPENVINO=OFF",
+      "-DGGML_ZENDNN=OFF",
+      "-DGGML_WEBGPU=OFF",
+      "-DLLAMA_CURL=OFF",
+      "-DLLAMA_OPENSSL=OFF",
+      "-DLLAMA_BUILD_SERVER=OFF",
+      "-DLLAMA_BUILD_TESTS=OFF",
+      "-DLLAMA_BUILD_EXAMPLES=OFF",
+      "-DLLAMA_BUILD_UI=OFF"
+    ],
+    "compile_flags": "-O3 -DNDEBUG -std=gnu++17 -fPIC -march=native -fopenmp",
+    "ctx": 2048,
+    "env": {
+      "GOMP_SPINCOUNT": "0",
+      "OMP_NUM_THREADS": "6"
+    },
+    "extra_args": [
+      "--no-warmup",
+      "--single-turn",
+      "--no-display-prompt",
+      "--color",
+      "off",
+      "--log-colors",
+      "off",
+      "--no-log-prefix"
+    ],
+    "frequency_penalty": 0,
+    "jinja": true,
+    "llama_cpp_commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "llama_cpp_tag": "v0.7.0",
+    "min_p": 0,
+    "n_predict": {
+      "code_output": 512,
+      "default": 320
+    },
+    "presence_penalty": 0,
+    "prompt_cache": false,
+    "prompt_cache_note": "llama-completion v0.7.0 enables a prompt cache only when --prompt-cache names a file. The frozen command does not pass that flag.",
+    "reasoning": "off",
+    "repeat_penalty": 1,
+    "seed": 42,
+    "temp": 0,
+    "threads": 6,
+    "threads_batch": 6,
+    "top_k": 1,
+    "top_p": 1,
+    "ubatch": 512
+  },
+  "seed_rule": "seed_hex = SHA-256( \"sealedbench/v1\" || chain_hash_hex || ascii(round) || randomness_hex )",
+  "seed_rule_normalization": "chain_hash_hex and randomness_hex are stripped and lowercased. ascii(round) is the decimal round with no sign and no leading zeros. The four pieces are concatenated as ASCII. seed_bytes is the raw 32-byte SHA-256 digest.",
+  "system_prompts": {
+    "arith_word": "Solve the grade-school math problem. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it.",
+    "code_output": "Determine the exact standard output of the Python 3 program. After any reasoning, put that output and only that output in one fenced code block. The last fenced block is graded. Do not add commentary inside the fence.",
+    "graph_path": "Solve the shortest-path problem on the undirected weighted graph. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it.",
+    "gsm8k_reference": "Solve the grade-school math problem. Show brief reasoning, then end with a line exactly of the form #### <integer> and nothing after it."
+  },
+  "unlock_unix": 1794744000,
+  "unlock_utc": "2026-11-15T12:00:00Z"
+}

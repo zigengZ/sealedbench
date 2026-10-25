@@ -1,0 +1,19 @@
+First, let's calculate the total number of tickets Felix bought.
+
+8 packs * 3 tickets/pack = 24 tickets
+
+Then, Felix buys 2 packs with 5 tickets/pack, which is 2 * 5 = 10 tickets.
+
+Total tickets = 24 + 10 = 34 tickets
+
+Felix gives 23 tickets to Quinn.
+
+Total tickets left = 34 - 23 = 11 tickets
+
+Each ticket is worth 4 dollars.
+
+Total value of tickets = 11 tickets * 4 dollars/ticket = 44 dollars
+
+#### 44 [end of text]
+
+

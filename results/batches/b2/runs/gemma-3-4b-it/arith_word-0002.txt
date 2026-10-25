@@ -1,0 +1,7 @@
+First, we calculate Leo's total earnings: 26 dollars/hour * 7 hours = 182 dollars.
+Then, we subtract the amount he spends: 182 dollars - 54 dollars = 128 dollars.
+
+####128
+ [end of text]
+
+

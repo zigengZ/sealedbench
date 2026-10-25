@@ -1,0 +1,19 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+28
+```
+
+Here's the reasoning:
+
+1. The program initializes a list `values` with the values `[14, 12, 11, 7, 16, 7, 0]`.
+2. It then initializes a variable `total` to 5.
+3. The `for` loop iterates over each value in the `values` list.
+4. Inside the loop, it checks if the current value is less than 0.
+5. If the value is less than 0, it adds the value to `total`.
+6. If the value is not less than 0, it adds the value to `total`.
+7. After the loop completes, the final value of `total` is printed, which is 28.
+
+Therefore, the output is `28`. [end of text]
+
+

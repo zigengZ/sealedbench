@@ -1,0 +1,46 @@
+We are told:
+
+- For the first **180 days**, Cecilia feeds the puppy **1 cup per day**.
+- After that, she feeds **2 cups per day**, but we are only concerned with the **first year** (365 days).
+- One bag contains **110 cups**.
+- We need to find how many **bags** she will use in the **first year**.
+
+---
+
+### Step 1: Calculate food used in the first 180 days
+She feeds 1 cup per day for 180 days:
+
+$$
+180 \text{ days} \times 1 \text{ cup/day} = 180 \text{ cups}
+$$
+
+---
+
+### Step 2: Calculate food used in the remaining days of the year
+Total days in a year = 365  
+Days after 180 = $365 - 180 = 185$ days  
+For these 185 days, she feeds 2 cups per day:
+
+$$
+185 \text{ days} \times 2 \text{ cups/day} = 370 \text{ cups}
+$$
+
+---
+
+### Step 3: Total food used in the first year
+$$
+180 + 370 = 550 \text{ cups}
+$$
+
+---
+
+### Step 4: How many bags of 110 cups are needed?
+$$
+550 \div 110 = 5
+$$
+
+So, she needs **5 bags**.
+
+#### 5 [end of text]
+
+

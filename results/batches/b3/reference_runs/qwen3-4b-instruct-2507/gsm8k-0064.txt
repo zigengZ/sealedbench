@@ -1,0 +1,22 @@
+We are given:
+
+- Sophia traveled 100 miles and used 4 gallons of gas to refill her tank.
+- The car's gas tank holds 12 gallons.
+
+We want to find out how many miles Sophia can drive on a full tank of gas.
+
+First, we find the car's **miles per gallon (MPG)** using the information that 4 gallons were used to go 100 miles:
+
+$$
+\text{MPG} = \frac{100 \text{ miles}}{4 \text{ gallons}} = 25 \text{ miles per gallon}
+$$
+
+Now, multiply that by the full tank capacity (12 gallons) to find total miles per full tank:
+
+$$
+\text{Total miles} = 25 \text{ MPG} \times 12 \text{ gallons} = 300 \text{ miles}
+$$
+
+#### 300 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, calculate the total number of badges Esme initially has:
+
+8 packs * 3 badges/pack = 24 badges
+
+Next, subtract the 22 badges given to Willa:
+
+24 badges - 22 badges = 2 badges
+
+Then, add the 8 badges given by Willa:
+
+2 badges + 8 badges = 10 badges
+
+So, Esme has #### 10 badges. [end of text]
+
+

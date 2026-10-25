@@ -1,0 +1,19 @@
+Victor earns **$150** in total.
+
+**Reasoning:**
+- Day 1: 6 hours × $25/hour = $150
+- Day 2: 8 hours × $25/hour = $200
+- Total: $150 + $200 = **$350**
+
+Wait, let's correct the initial calculation:
+
+Victor earns **$350** in total.
+
+**Reasoning:**
+- Day 1: 6 hours × $25/hour = $150
+- Day 2: 8 hours × $25/hour = $200
+- Total: $150 + $200 = **$350**
+
+#### 350 [end of text]
+
+

@@ -1,0 +1,11 @@
+First, let's calculate the total number of marbles in the first 8 packs: 8 packs * 6 marbles/pack = 48 marbles.
+
+Next, let's calculate the total number of marbles in the 5 packs: 5 packs * 6 marbles/pack = 30 marbles.
+
+Now, let's find the total number of marbles Samir has before giving any to Jamal: 48 marbles + 30 marbles = 78 marbles.
+
+Finally, let's subtract the number of marbles Samir gave to Jamal: 78 marbles - 32 marbles = 46 marbles.
+
+#### 46 [end of text]
+
+

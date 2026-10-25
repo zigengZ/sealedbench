@@ -1,0 +1,19 @@
+Willa reads:
+
+- 6 pages a day for 3 days:  
+  $6 \times 3 = 18$ pages
+
+- 7 pages a day for 4 days:  
+  $7 \times 4 = 28$ pages
+
+Total pages read (before skipping):  
+$18 + 28 = 46$ pages
+
+She skips 40 blank pages, but those don't count — so they are **not** part of the pages she reads.
+
+So, the total number of pages **she reads** is still:  
+$46$
+
+#### 46 [end of text]
+
+

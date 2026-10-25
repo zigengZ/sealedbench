@@ -1,0 +1,14 @@
+We want to find the shortest path between Cedar and York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cedar to York:
+1. Cedar -> Blair -> York: Weight = 3 + 3 = 6
+2. Cedar -> Vale -> Eden -> Ash -> Fern -> York: Weight = 7 + 3 + 3 + 6 + 8 = 27 (This is clearly not the shortest)
+3. Cedar -> Vale -> Glen -> York: Weight = 7 + 2 + 5 = 14
+4. Cedar -> Blair -> Eden -> Vale -> Glen -> York: Weight = 3 + 4 + 3 + 2 + 5 = 17
+5. Cedar -> Blair -> York: Weight = 3 + 3 = 6
+
+Comparing the paths, the shortest path is Cedar -> Blair -> York with a total weight of 6.
+
+#### 6 [end of text]
+
+

@@ -1,0 +1,33 @@
+To find the shortest path between Amber and Hart, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Amber as 0 and to Hart as ∞.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Blair', 'Eden', 'Glen', 'Hart', 'Jules', 'Lark', 'Uri', 'York']
+distances = {node: float('inf') for node in nodes}
+
+# Edge weights
+weights = {
+    'Amber Glen': 2,
+    'Amber Uri': 8,
+    'Blair York': 2,
+    'Eden Hart': 6,
+    'Eden Jules': 7,
+    'Eden Lark': 4,
+    '
+

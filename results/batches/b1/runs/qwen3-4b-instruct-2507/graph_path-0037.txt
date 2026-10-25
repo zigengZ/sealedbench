@@ -1,0 +1,42 @@
+We are given an undirected weighted graph with nodes:  
+**Amber, Eden, Indigo, Kai, Poe, Quill**
+
+Edges and their weights:
+- Amber–Kai: 6  
+- Amber–Poe: 1  
+- Eden–Indigo: 5  
+- Eden–Kai: 8  
+- Eden–Poe: 3  
+- Eden–Quill: 8  
+- Indigo–Kai: 7  
+- Kai–Poe: 5  
+- Kai–Quill: 6  
+- Poe–Quill: 2  
+
+We are to find the **shortest path from Amber to Quill** in terms of total weight.
+
+---
+
+### Step 1: Understand the structure
+We can model this as a graph and apply a shortest path algorithm (like Dijkstra’s), since all weights are positive.
+
+We start at **Amber** and want to reach **Quill**.
+
+Let’s explore possible paths from Amber to Quill.
+
+---
+
+### Step 2: List possible paths from Amber to Quill
+
+#### Path 1: Amber → Poe → Quill  
+- Amber–Poe: 1  
+- Poe–Quill: 2  
+→ Total: 1 + 2 = **3**
+
+#### Path 2: Amber → Kai → Quill  
+- Amber–Kai: 6  
+- Kai–Quill: 6  
+→ Total: 6 + 6 = **12**
+
+#### Path 3: Amber → Poe → Kai → Quill
+

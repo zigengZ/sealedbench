@@ -1,0 +1,11 @@
+Victor earns $10 per hour.
+
+On day 1: 6 hours × $10 = $60  
+On day 2: 4 hours × $10 = $40  
+On day 3: 3 hours × $10 = $30  
+
+Total earnings = $60 + $40 + $30 = $130
+
+#### 130 [end of text]
+
+

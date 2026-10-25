@@ -1,0 +1,33 @@
+To find the shortest path from **Dove** to **Nell**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Direct Paths from Dove:**
+   - Dove → Oak (6)
+   - Dove → Xen (6)
+   - Dove → York (2)
+
+2. **From York:**
+   - York → Moss (8)
+   - York → Xen (2)
+   - York → Nell (no direct edge, so no path via York to Nell)
+
+3. **From Moss:**
+   - Moss → Kai (no direct edge to Nell)
+   - Moss → Sage (no direct edge to Nell)
+   - Moss → Xen (3)
+
+4. **From Xen:**
+   - Xen → Indigo (no direct edge to Nell)
+   - Xen → Nell (4)
+
+5. **From Sage:**
+   - Sage → Nell (9)
+
+6. **Possible Paths and Weights:**
+   - Dove → York → Xen → Nell: 2 + 2 + 4 = **8**
+   - Dove → Oak → ... (no valid path to Nell via Oak)
+   - Dove → Xen → Nell: 6 + 4 = **10** (longer than 8)
+   - Dove → Moss → Xen → Nell: 6 + 3 + 4 = **13** (longer)
+   - Dove → Sage → Nell: 6 + 1 + 9 = **16** (longer)
+   - Dove → York → Moss →
+

@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Ash, Eden, Glen, Indigo, Moss, Oak, Tess, Vale  
+**Edges**:
+- Ash — Glen: 2  
+- Eden — Oak: 3  
+- Eden — Vale: 1  
+- Glen — Indigo: 3  
+- Glen — Moss: 2  
+- Glen — Oak: 4  
+- Glen — Vale: 6  
+- Indigo — Tess: 4  
+- Moss — Vale: 1  
+- Oak — Vale: 8  
+
+We are to find the **shortest path from Glen to Vale**.
+
+---
+
+### Step 1: List all possible paths from Glen to Vale
+
+We start at **Glen** and want to reach **Vale**.
+
+#### Direct edge:
+- Glen → Vale: **6**
+
+#### Through Moss:
+- Glen → Moss (2), Moss → Vale (1)  
+  Total: 2 + 1 = **3**
+
+#### Through Indigo:
+- Glen → Indigo (3), Indigo → Tess (4) → but Tess has no connection to Vale.  
+  So this path ends at Tess, not Vale.  
+  → Invalid.
+
+#### Through Oak:
+- Glen → Oak (4), Oak → Vale (8)  
+  Total: 4 + 8 = **12**
+
+#### Through Eden?
+- Glen → ? Eden? No direct edge from Glen to Eden.  
+- But Glen → Ash? Yes, Ash — Glen: 2  
+
+

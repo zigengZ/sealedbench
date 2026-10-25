@@ -1,0 +1,9 @@
+Tom travels from 1 PM to 4 PM, which is **3 hours** at 10 mph, covering a distance of:
+\[ 10 \, \text{mph} \times 3 \, \text{hours} = 30 \, \text{miles} \]
+
+On the return trip, he travels back at 6 mph. Time taken is:
+\[ \frac{30 \, \text{miles}}{6 \, \text{mph}} = 5 \, \text{hours} \]
+
+#### 5 [end of text]
+
+

@@ -1,0 +1,11 @@
+Boris earns $10 per hour and works 2 hours:
+
+$10 \times 2 = 20$ dollars earned.
+
+Then he spends $3:
+
+$20 - 3 = 17$ dollars left.
+
+#### 17 [end of text]
+
+

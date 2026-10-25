@@ -1,0 +1,13 @@
+First, let's calculate the number of tickets Felix gets from the 8 packs: 8 packs * 3 tickets/pack = 24 tickets.
+
+Next, let's calculate the number of tickets Felix gets from the 2 packs: 2 packs * 5 tickets/pack = 10 tickets.
+
+Now, let's find the total number of tickets Felix has: 24 tickets + 10 tickets = 34 tickets.
+
+Then, Felix gives away 23 tickets, so he has 34 tickets - 23 tickets = 11 tickets left.
+
+Each ticket is worth $4, so Felix's tickets are worth 11 tickets * $4/ticket = $44.
+
+####44 [end of text]
+
+

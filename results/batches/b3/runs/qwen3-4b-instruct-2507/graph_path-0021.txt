@@ -1,0 +1,71 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Drew, Kai, Lark, Nell, Quill, Zed  
+**Edges and weights**:
+
+- Drew – Kai: 3  
+- Drew – Nell: 9  
+- Drew – Quill: 6  
+- Kai – Lark: 5  
+- Kai – Nell: 8  
+- Lark – Zed: 3  
+- Nell – Quill: 8  
+- Nell – Zed: 3  
+- Quill – Zed: 1  
+
+We are to find the **shortest path (in terms of total weight) between Nell and Quill**.
+
+---
+
+### Step 1: List all possible paths from Nell to Quill
+
+We can go directly:
+
+1. **Nell → Quill**: weight = 8
+
+Other paths (via intermediate nodes):
+
+2. **Nell → Kai → Lark → Zed → Quill**  
+   - Nell → Kai: 8  
+   - Kai → Lark: 5  
+   - Lark → Zed: 3  
+   - Zed → Quill: 1  
+   Total = 8 + 5 + 3 + 1 = **17** → worse than 8
+
+3. **Nell → Zed → Quill**  
+   - Nell → Zed: 3  
+   - Zed → Quill: 1  
+   Total = 3 + 1 = **4** → better than 8!
+
+4. **Nell → Kai → Drew → Quill**  
+   - Nell → Kai: 8  
+   - Kai → Drew: 3  
+   - Drew → Quill: 6  
+   Total = 8 + 3 + 6 = 17 → worse
+
+5. **Nell → Drew → Quill**  
+   - Nell → Drew: 9  
+   - Drew → Quill: 6  
+   Total = 15 → worse than 8
+
+6. **Nell → Zed → Lark → Kai → Quill?**  
+   - Nell → Zed: 3  
+   - Zed → Lark: 3  
+   - Lark → Kai: 5  
+   - Kai → Quill? → No direct edge.  
+   So no path from Kai to Quill directly.  
+   Quill only connected to: Drew, Nell, Zed.
+
+So only valid paths from Nell to Quill:
+
+- Direct: 8  
+- Via Zed: 3 + 1 = 4  
+- Others are longer
+
+### Best path: **Nell → Zed → Quill** with total weight = 3 + 1 = **4**
+
+#### ✅ Answer: 4
+
+#### 4 [end of text]
+
+

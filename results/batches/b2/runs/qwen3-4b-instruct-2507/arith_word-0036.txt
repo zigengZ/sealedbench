@@ -1,0 +1,17 @@
+First, find the total number of crayons Olga buys:
+
+- 4 packs × 3 crayons = 12 crayons  
+- 3 packs × 8 crayons = 24 crayons  
+
+Total crayons before giving any away:  
+12 + 24 = 36 crayons
+
+Then Olga gives 16 crayons to Yara:  
+36 - 16 = 20 crayons left
+
+These 20 crayons are shared equally among 5 people:  
+20 ÷ 5 = 4 crayons per person
+
+#### 4 [end of text]
+
+

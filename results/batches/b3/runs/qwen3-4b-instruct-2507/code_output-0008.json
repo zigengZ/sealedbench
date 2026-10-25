@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "code_output",
+  "gen_tokens": 358,
+  "gen_tps": 7.19,
+  "hit_cap": false,
+  "item_id": "code_output-0008",
+  "model": "qwen3-4b-instruct-2507",
+  "n_predict": 512,
+  "prompt_tokens": 149,
+  "prompt_tps": 56.79,
+  "returncode": 0,
+  "seconds": 53.482,
+  "stdout_bytes": 905,
+  "stdout_sha256": "c5063bad9f889ef1dbeb5ad340ba15781f0a179cac17fd3a26eb780ec92b5852"
+}

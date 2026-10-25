@@ -1,0 +1,55 @@
+Let's trace through the program step by step:
+
+```python
+words = ['stone', 'maple', 'timber', 'amber', 'lilac']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 3 == 0:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + ',' + piece
+print(out)
+```
+
+The list `words` has 5 elements:
+- index 0: 'stone'
+- index 1: 'maple'
+- index 2: 'timber'
+- index 3: 'amber'
+- index 4: 'lilac'
+
+We iterate over indices 0 to 4.
+
+**index = 0:**
+- piece = words[0] = 'stone'
+- index % 3 == 0 → True → piece becomes 'STONE'
+- out is initially "" → so out = 'STONE'
+
+**index = 1:**
+- piece = words[1] = 'maple'
+- index % 3 == 1 → False → piece remains 'maple'
+- out is not "" → out = 'STONE' + ',' + 'maple' → 'STONE,maple'
+
+**index = 2:**
+- piece = words[2] = 'timber'
+- index % 3 == 2 → False → piece remains 'timber'
+- out is not "" → out = 'STONE,maple' + ',' + 'timber' → 'STONE,maple,timber'
+
+**index = 3:**
+- piece = words[3] = 'amber'
+- index % 3 == 0? 3 % 3 = 0 → True → piece becomes 'AMBER'
+- out is not "" → out = 'STONE,maple,timber' + ',' + 'AMBER' → 'STONE,maple,timber,AMBER'
+
+**index = 4:**
+- piece = words[4] = 'lilac'
+- index % 3 == 4 % 3 = 1 → False → piece remains 'lilac'
+- out is not "" → out = 'STONE,maple,timber,AMBER' + ',' + 'lilac' → 'STONE,maple,timber,AMBER,lilac'
+
+Final output is:
+`STONE,maple,timber,AMBER,lilac`
+
+```
+

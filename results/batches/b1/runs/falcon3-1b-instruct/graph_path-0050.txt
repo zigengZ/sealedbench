@@ -1,0 +1,39 @@
+To find the shortest path between Ash and West, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Ash as 0 and to West as infinity.
+   - Create a priority queue and insert Ash with a distance of 0.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the vertex with the smallest distance.
+     - For each neighbor of the current vertex:
+       - Calculate the new distance through the current vertex.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance to West will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Ash': 0,
+    'Bay': 1,
+    'Cedar': 2,
+    'Glen': 5,
+    'West': 7,
+    'Zed': 7
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Ash'] = 0
+
+# Priority queue to store vertices with their distances
+priority_queue =
+

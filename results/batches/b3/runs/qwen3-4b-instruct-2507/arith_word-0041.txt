@@ -1,0 +1,11 @@
+Olga earns $10 per hour.
+
+- On day 1: 2 hours × $10 = $20  
+- On day 2: 5 hours × $10 = $50  
+- On day 3: 5 hours × $10 = $50  
+
+Total earnings = $20 + $50 + $50 = $120
+
+#### 120 [end of text]
+
+

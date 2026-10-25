@@ -1,0 +1,47 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Bay, Cedar, Cleo, Drew, Hart, Reed, Uri  
+**Edges and weights**:
+
+- Bay – Cleo: 6  
+- Bay – Reed: 5  
+- Bay – Uri: 8  
+- Cedar – Drew: 5  
+- Cleo – Hart: 1  
+- Cleo – Reed: 8  
+- Cleo – Uri: 8  
+- Drew – Reed: 5  
+- Hart – Reed: 7  
+- Reed – Uri: 1  
+
+We are to find the **shortest path from Cleo to Drew**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We want the shortest path from **Cleo** to **Drew**.
+
+Let’s list all possible paths from Cleo to Drew, and compute their total weights.
+
+---
+
+### Path 1: Cleo → Hart → Reed → Drew  
+- Cleo → Hart: 1  
+- Hart → Reed: 7  
+- Reed → Drew: 5  
+→ Total = 1 + 7 + 5 = **13**
+
+---
+
+### Path 2: Cleo → Reed → Drew  
+- Cleo → Reed: 8  
+- Reed → Drew: 5  
+→ Total = 8 + 5 = **13**
+
+---
+
+### Path 3: Cleo → Uri → Reed → Drew  
+- Cleo → Uri: 8  
+- Uri → Reed: 1
+

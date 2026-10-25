@@ -1,0 +1,30 @@
+Eliza earns $10 per hour for the first 40 hours.
+
+For the first 40 hours:
+$$
+40 \text{ hours} \times \$10 = \$400
+$$
+
+She worked 45 hours total, so the overtime hours are:
+$$
+45 - 40 = 5 \text{ hours}
+$$
+
+Overtime rate is 1.2 times her regular rate:
+$$
+1.2 \times \$10 = \$12 \text{ per hour}
+$$
+
+Overtime earnings:
+$$
+5 \text{ hours} \times \$12 = \$60
+$$
+
+Total earnings:
+$$
+\$400 + \$60 = \$460
+$$
+
+#### 460 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, let's calculate the number of pages Farid reads in the first scenario:
+9 pages/day * 5 days = 45 pages
+
+Next, let's calculate the number of pages Farid reads in the second scenario:
+20 pages/day * 3 days = 60 pages
+
+Now, let's find the total number of pages Farid reads in one week:
+45 pages + 60 pages = 105 pages
+
+Finally, let's calculate the total number of pages Farid reads in 3 weeks:
+105 pages/week * 3 weeks = 315 pages
+
+####315 [end of text]
+
+

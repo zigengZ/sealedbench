@@ -1,0 +1,10 @@
+There are 5 weekdays in a week.
+So, John drinks 5 glasses of water per weekday.
+Since he drinks 1 glass of water before bed on weekdays, he also drinks 1 glass of water on weekends.
+Thus, the total number of glasses of water John drinks in a week is:
+5 (weekdays) + 1 (weekend) = 6
+#### 6
+
+The answer is 6. [end of text]
+
+

@@ -1,0 +1,13 @@
+First, let's determine how long each alarm ring lasted:
+
+1. First ring: 4 times
+2. Second ring: 3 times as long as the first ring = 3 * 4 = 12 times
+3. Third ring: 1/2 as long as the second ring = 12 / 2 = 6 times
+
+Now, add up the total number of ringings:
+
+4 (first ring) + 12 (second ring) + 6 (third ring) = 22 times
+
+So, the alarm rang a total of #### 22. [end of text]
+
+

@@ -1,0 +1,62 @@
+{
+  "probe_id": "probe-02",
+  "data_item_id": "UpFIj3OwjQcKH52J4C1oNd6gfM3lzceyUciDUVb05jY",
+  "round": 33142070,
+  "unlock_utc": "2026-10-17T09:32:54Z",
+  "done": true,
+  "served_by": "https://ario.zigza.xyz",
+  "drand_randomness": "b05b26e7f7b4d60a2f0584c8e97401d3e97e7c3c601c46f43b9d3d3b9d011f47",
+  "drand_signature": "9204e472bd0f5b926af32f6ff4d2a86fc5b10f93f5646774c327dfd9fde49e1304522e313e926b88692921c4eac76b4b",
+  "go_match": true,
+  "js_match": true,
+  "attempts": [
+    {
+      "utc": "2026-10-17T09:33:41Z",
+      "gateways": {
+        "https://arweave.net": {
+          "url": "https://arweave.net/UpFIj3OwjQcKH52J4C1oNd6gfM3lzceyUciDUVb05jY",
+          "utc": "2026-10-17T09:33:41Z",
+          "http_status": 429,
+          "bytes": 169,
+          "sha256": "f33672a74b89c05663d168fa9b0962e621aebe9814848ae15797608c8742c135",
+          "content_type": "text/html",
+          "retry_after_s": 299,
+          "matches_local_ciphertext": false
+        },
+        "https://ario.zigza.xyz": {
+          "url": "https://ario.zigza.xyz/UpFIj3OwjQcKH52J4C1oNd6gfM3lzceyUciDUVb05jY",
+          "utc": "2026-10-17T09:33:42Z",
+          "http_status": 200,
+          "bytes": 800,
+          "sha256": "80acc36a633a5072f7e6b89c84f1676dca038f91ddfe4e87f698f49403dde4fc",
+          "content_type": "text/plain; charset=utf-8",
+          "retry_after_s": 0,
+          "matches_local_ciphertext": true
+        }
+      },
+      "served_by": "https://ario.zigza.xyz",
+      "decrypt": {
+        "go": {
+          "exit_code": 0,
+          "sha256": "4be03c349f55b2db1582b4ba0368e2a2acbbec136fe229b77716046397df4980",
+          "matches_plaintext": true,
+          "stderr": ""
+        },
+        "js": {
+          "sha256": "4be03c349f55b2db1582b4ba0368e2a2acbbec136fe229b77716046397df4980",
+          "matches_plaintext": true,
+          "error": null
+        }
+      },
+      "drand": {
+        "http_status": 200,
+        "body": {
+          "round": 33142070,
+          "randomness": "b05b26e7f7b4d60a2f0584c8e97401d3e97e7c3c601c46f43b9d3d3b9d011f47",
+          "signature": "9204e472bd0f5b926af32f6ff4d2a86fc5b10f93f5646774c327dfd9fde49e1304522e313e926b88692921c4eac76b4b"
+        }
+      },
+      "plaintext_sha256": "4be03c349f55b2db1582b4ba0368e2a2acbbec136fe229b77716046397df4980"
+    }
+  ]
+}

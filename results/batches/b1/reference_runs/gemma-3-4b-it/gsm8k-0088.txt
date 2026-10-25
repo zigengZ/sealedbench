@@ -1,0 +1,10 @@
+Let $h$ be the number of copies Harald sold.
+Marilyn sold 10 times as many copies as Harald, so Marilyn sold $10h$ copies.
+Together they sold 88,000 copies, so $h + 10h = 88,000$.
+Combining like terms, we have $11h = 88,000$.
+Dividing both sides by 11, we get $h = \frac{88,000}{11} = 8,000$.
+Harald sold 8,000 copies.
+
+#### 8000 [end of text]
+
+

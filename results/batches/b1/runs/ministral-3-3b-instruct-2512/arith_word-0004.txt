@@ -1,0 +1,5 @@
+Victor reads **30 pages** from the first book (15 pages/day × 2 days) and **56 pages** from the second book (14 pages/day × 4 days). Adding them together: 30 + 56 = **86 pages**.
+
+#### 86 [end of text]
+
+

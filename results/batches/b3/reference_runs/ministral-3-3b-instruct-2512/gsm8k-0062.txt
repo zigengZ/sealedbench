@@ -1,0 +1,10 @@
+Marcy works for 30 years, so she qualifies for the full $50,000 for the first 20 years and then gets 5% of $50,000 for the remaining 10 years.
+
+Calculation:
+- First 20 years: $50,000
+- Next 10 years: 5% of $50,000 = $2,500
+- Total annual pension = $50,000 + $2,500 = $52,500
+
+#### 52500 [end of text]
+
+

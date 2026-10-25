@@ -1,0 +1,12 @@
+We want to find the shortest path between Amber and Poe in the given undirected weighted graph. We can use Dijkstra's algorithm or simply enumerate the possible paths and their weights.
+
+Possible paths from Amber to Poe:
+1. Amber -> Ash -> Poe: 5 + 9 = 14
+2. Amber -> Bay -> Poe: 7 + 3 = 10
+3. Amber -> Vale -> Poe: 2 + 5 = 7
+
+The shortest path is Amber -> Vale -> Poe with a total weight of 7.
+
+#### 7 [end of text]
+
+

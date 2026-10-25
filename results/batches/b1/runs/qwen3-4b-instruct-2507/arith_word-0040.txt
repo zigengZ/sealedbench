@@ -1,0 +1,17 @@
+Dmitri buys 9 packs of notebooks, and each pack has 4 notebooks:
+
+9 × 4 = 36 notebooks
+
+He gives 13 notebooks to Gina:
+
+36 − 13 = 23 notebooks left
+
+Then Gina gives him 23 more notebooks:
+
+23 + 23 = 46 notebooks
+
+So, Dmitri now has 46 notebooks.
+
+#### 46 [end of text]
+
+

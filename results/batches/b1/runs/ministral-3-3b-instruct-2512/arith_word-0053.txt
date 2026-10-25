@@ -1,0 +1,7 @@
+Mina has a total of 5 rows × 13 seats = 65 seats.
+Seats sold = 64, so unsold seats = 65 - 64 = 1.
+Each unsold seat is worth $8, so total value = 1 × 8 = $8.
+
+#### 8 [end of text]
+
+

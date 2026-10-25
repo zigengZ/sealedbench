@@ -1,0 +1,34 @@
+{
+  "ciphertext": {
+    "b3": {
+      "sha256": "3a8aa8d2b7357ae462527b033b55a60df64b28593ebd8948e800d7901f9ecf20",
+      "bytes": 22481,
+      "plaintext_sha256": "3a5d7ffb13303ed38b9ff15b6a6174cd02b33c8013fdf80234cd3c9bd15e9181",
+      "plaintext_bytes": 16192
+    },
+    "cap3": {
+      "sha256": "18bfa8af95c6698692b0123a6f2607adc220d1e2d1d55cebaa844c63110e2042",
+      "bytes": 22477,
+      "plaintext_sha256": "b46b2737bf450dcd5b42e24ce54754f49a0b6c38d39cff1dffb5c46fb23ec3bc",
+      "plaintext_bytes": 16187
+    }
+  },
+  "early_decrypt": {
+    "b3": {
+      "go_exit": 1,
+      "go_stderr": "too early to decrypt: expected round 33202612 > 33169093 current round\n",
+      "js": "REFUSED It's too early to decrypt the ciphertext - decryptable at round 33202612"
+    },
+    "cap3": {
+      "go_exit": 1,
+      "go_stderr": "too early to decrypt: expected round 33980212 > 33169093 current round\n",
+      "js": "REFUSED It's too early to decrypt the ciphertext - decryptable at round 33980212"
+    }
+  },
+  "reference_sha256": "8782dc2d2625723118f7fffa68bfb8dbf3b03efde65cf62bfac5c723a30e40d0",
+  "reference_bytes": 62213,
+  "generator_matches_b2_seal_commit": true,
+  "diversity_gate_pass_from_b2": true,
+  "diversity_not_rerun": "generator bytes match e6b8795; b2 gate already passed",
+  "n_predict": "768/512"
+}

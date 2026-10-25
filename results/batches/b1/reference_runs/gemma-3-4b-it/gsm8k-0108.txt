@@ -1,0 +1,12 @@
+Let $x$ be the number of cookies Henry intended to bake last year.
+He wants to make twice as many cookies this year as he did last year, so he intended to bake $2x$ cookies this year.
+However, he actually baked 15 more cookies than he meant to, so he baked $2x + 15$ cookies.
+He drops 5 cookies, so he has $2x + 15 - 5 = 2x + 10$ cookies remaining.
+We are given that he now has 110 cookies, so $2x + 10 = 110$.
+Subtracting 10 from both sides, we get $2x = 100$.
+Dividing by 2, we get $x = 50$.
+Therefore, Henry baked 50 cookies last year.
+
+####50 [end of text]
+
+

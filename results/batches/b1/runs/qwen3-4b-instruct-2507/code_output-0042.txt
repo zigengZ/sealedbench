@@ -1,0 +1,45 @@
+Let's trace through the program step by step:
+
+We have a list:
+`words = ['maple', 'north', 'grove', 'flint', 'opal', 'amber']`
+
+We initialize `out = ""`
+
+We loop over `index` from 0 to 5 (since `len(words) = 6`).
+
+For each index:
+- If `index % 3 == 2`, then convert the word to uppercase.
+- If `out` is empty, set `out = piece`, otherwise append `piece` with a space.
+
+Let's go index by index:
+
+**index = 0**:
+- `0 % 3 == 0` → not 2 → no uppercase
+- `out == ""` → set `out = 'maple'`
+
+**index = 1**:
+- `1 % 3 == 1` → not 2 → no uppercase
+- `out != ""` → `out = 'maple' + ' ' + 'north'` → `'maple north'`
+
+**index = 2**:
+- `2 % 3 == 2` → yes → convert to uppercase → `'GROVE'`
+- `out != ""` → `out = 'maple north' + ' ' + 'GROVE'` → `'maple north GROVE'`
+
+**index = 3**:
+- `3 % 3 == 0` → not 2 → no uppercase
+- `out != ""` → `out = 'maple north GROVE' + ' ' + 'flint'` → `'maple north GROVE flint'`
+
+**index = 4**:
+- `4 % 3 == 1` → not 2 → no uppercase
+- `out != ""` → `out = 'maple north GROVE flint' + ' ' + 'opal'` → `'maple north GROVE flint opal'`
+
+**index = 5**:
+- `5 % 3 == 2` → yes → convert to uppercase → `'AMBER'`
+- `out != ""` → `out = 'maple north GROVE flint opal' + ' ' + 'AMBER'` → `'maple north GROVE flint opal AMBER'`
+
+Final output is:
+`maple north GROVE flint opal AMBER`
+
+``` 
+maple north
+

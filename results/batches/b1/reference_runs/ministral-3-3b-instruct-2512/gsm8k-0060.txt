@@ -1,0 +1,16 @@
+Let's break it down step by step:
+
+1. **Total oranges**: 25
+2. **Bad oranges**: 1
+3. **Unripe oranges**: 20% of 25 = 5
+4. **Sour oranges**: 2
+
+Now, sum the bad, unripe, and sour oranges:
+1 + 5 + 2 = 8
+
+Subtract this from the total to find the good oranges:
+25 - 8 = 17
+
+#### 17 [end of text]
+
+

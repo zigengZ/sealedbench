@@ -1,0 +1,5 @@
+Each girl got \( \frac{1}{6} \times 24 = 4 \) liters, so together they got \( 4 + 4 = 8 \) liters. After the boy took 6 liters, the remaining water is \( 24 - 8 - 6 = 10 \) liters.
+
+#### 10 [end of text]
+
+

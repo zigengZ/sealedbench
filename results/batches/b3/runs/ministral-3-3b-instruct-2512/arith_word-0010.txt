@@ -1,0 +1,5 @@
+Zane starts with 9 packs, each containing 7 crayons, so he has **63 crayons** in total (9 × 7 = 63). After giving 21 crayons to Felix, Zane has **42 crayons** left (63 - 21 = 42).
+
+#### 42 [end of text]
+
+

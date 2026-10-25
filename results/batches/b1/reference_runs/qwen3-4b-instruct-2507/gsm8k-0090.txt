@@ -1,0 +1,16 @@
+An adult dinosaur eats 10 lbs of potato salad.  
+A child eats half as much, so a child eats:  
+10 ÷ 2 = 5 lbs.
+
+There are 20 adults, so they will eat:  
+20 × 10 = 200 lbs.
+
+There are 5 children, so they will eat:  
+5 × 5 = 25 lbs.
+
+Total potato salad needed:  
+200 + 25 = 225 lbs.
+
+#### 225 [end of text]
+
+

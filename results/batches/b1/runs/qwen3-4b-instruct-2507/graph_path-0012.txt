@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Cedar, Fern, Glen, Moss, Sage, West, Xen, Zed  
+**Edges and weights**:
+
+- Cedar – Fern: 4  
+- Cedar – Sage: 9  
+- Cedar – West: 4  
+- Fern – Glen: 3  
+- Fern – Xen: 4  
+- Glen – Moss: 2  
+- Glen – Xen: 8  
+- Moss – Xen: 8  
+- Moss – Zed: 5  
+- West – Zed: 3  
+
+We are to find the **shortest path from Cedar to Zed** in terms of total weight.
+
+---
+
+### Step 1: Understand the structure
+
+We can model this as a graph and apply Dijkstra’s algorithm (since all weights are positive).
+
+We start from **Cedar** and want to reach **Zed**.
+
+Let’s explore possible paths from Cedar to Zed.
+
+---
+
+### Step 2: List possible paths from Cedar to Zed
+
+#### Path 1: Cedar → West → Zed  
+- Cedar to West: 4  
+- West to Zed: 3  
+- Total: 4 + 3 = **7**
+
+#### Path 2: Cedar → Fern → Glen → Moss → Zed  
+- Cedar → Fern: 4  
+- Fern → Glen: 3  
+- Glen → Moss: 2  
+- Moss → Zed: 5  
+- Total: 4 + 3 + 2 + 5 = **
+

@@ -1,0 +1,16 @@
+First, calculate the number of boys and girls:
+
+- Number of boys = 2/5 * 200 = 80
+- Number of girls = 2/3 * 200 = 133.33 (round down to 133 since you can't have a fraction of a student)
+
+Next, find the number of girls in the Girl Scout:
+
+- Number of girls in Girl Scout = 2/3 * 133 = 91.67 (round down to 91)
+
+Finally, calculate the number of girls not in the Girl Scout:
+
+- Number of girls not in Girl Scout = 133 - 91 = 42
+
+#### 42 [end of text]
+
+

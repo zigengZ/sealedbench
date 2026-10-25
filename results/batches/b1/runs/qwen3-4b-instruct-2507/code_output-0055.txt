@@ -1,0 +1,35 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['river', 'stone', 'cloud', 'delta']`
+
+We iterate over the indices from 0 to 3 (inclusive), since `len(words)` is 4.
+
+- **index = 0**:
+  - `piece = words[0] = 'river'`
+  - `index % 3 == 0` → True → `piece = 'RIVER'`
+  - `out == ""` → True → `out = 'RIVER'`
+
+- **index = 1**:
+  - `piece = words[1] = 'stone'`
+  - `index % 3 == 0` → False → `piece = 'stone'`
+  - `out != ""` → True → `out = 'RIVER stone'`
+
+- **index = 2**:
+  - `piece = words[2] = 'cloud'`
+  - `index % 3 == 0` → False → `piece = 'cloud'`
+  - `out != ""` → True → `out = 'RIVER stone cloud'`
+
+- **index = 3**:
+  - `piece = words[3] = 'delta'`
+  - `index % 3 == 0` → False → `piece = 'delta'`
+  - `out != ""` → True → `out = 'RIVER stone cloud delta'`
+
+Final `out` is `'RIVER stone cloud delta'`
+
+The program prints this value.
+
+``` 
+RIVER stone cloud delta
+``` [end of text]
+
+

@@ -1,0 +1,17 @@
+Yara reads 21 pages a day for 6 days:
+
+21 pages/day × 6 days = 126 pages
+
+Then she reads 25 more pages:
+
+126 + 25 = 151 pages
+
+She skips 76 blank pages — these do **not** count toward the total pages she reads.
+
+So, the total number of pages she **reads** is:
+
+151 pages
+
+#### 151 [end of text]
+
+

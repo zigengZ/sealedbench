@@ -1,0 +1,28 @@
+The program iterates through the list `nums` and appends each number to `kept` if it is greater than or equal to 4.
+
+Given `nums = [6, 10, 5, 9, 12, 1]`:
+- 6 >= 4 → append 6
+- 10 >= 4 → append 10
+- 5 >= 4 → append 5
+- 9 >= 4 → append 9
+- 12 >= 4 → append 12
+- 1 < 4 → skip
+
+So, `kept = [6, 10, 5, 9, 12]`
+
+Then:
+- `print(len(kept))` outputs `5`
+- `print(kept)` outputs `[6, 10, 5, 9, 12]`
+
+The standard output is:
+```
+5
+[6, 10, 5, 9, 12]
+```
+
+``` 
+5
+[6, 10, 5, 9, 12]
+``` [end of text]
+
+

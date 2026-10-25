@@ -1,0 +1,14 @@
+Xavier first buys 6 packs of 3 stamps each:
+6 packs × 3 stamps = 18 stamps.
+
+Then he buys 2 packs of 6 stamps each:
+2 packs × 6 stamps = 12 stamps.
+
+Total stamps = 18 + 12 = 30 stamps.
+
+Sharing equally among 3 people:
+30 ÷ 3 = 10 stamps per person.
+
+#### 10 [end of text]
+
+

@@ -1,0 +1,12 @@
+First, let's calculate the total number of classes Judy teaches in a week.
+She teaches 5 classes per weekday (Monday-Friday), so that's 5 classes/day * 5 days = 25 classes.
+She teaches 8 classes on Saturday.
+Total classes in a week = 25 classes + 8 classes = 33 classes.
+
+Each class has 15 students, so the total number of students in a week is 33 classes * 15 students/class = 495 students.
+
+She charges $15.00 per student, so the total money she makes in a week is 495 students * $15.00/student = $7425.00.
+
+####7425 [end of text]
+
+

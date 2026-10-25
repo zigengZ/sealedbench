@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Bay, Cleo, Hart, Nell, Quill, Sage, York  
+**Edges and weights**:
+- Bay – Sage: 9  
+- Cleo – Hart: 4  
+- Cleo – Nell: 4  
+- Hart – York: 8  
+- Nell – Sage: 6  
+- Nell – York: 4  
+- Quill – Sage: 4  
+- Quill – York: 1  
+
+We are to find the **shortest path (in terms of total weight) from Hart to Nell**.
+
+---
+
+### Step 1: List all possible paths from Hart to Nell
+
+We'll consider paths through intermediate nodes.
+
+---
+
+#### Path 1: Hart → Cleo → Nell  
+- Hart to Cleo: 4  
+- Cleo to Nell: 4  
+- Total: 4 + 4 = **8**
+
+---
+
+#### Path 2: Hart → York → Nell  
+- Hart to York: 8  
+- York to Nell: 4  
+- Total: 8 + 4 = **12**
+
+---
+
+#### Path 3: Hart → York → Quill → Sage → Nell  
+- Hart → York: 8  
+- York → Quill: 1  
+- Quill → Sage: 4  
+- Sage → Nell: 6  
+- Total: 8 + 1 + 4 + 6 = **19** →
+

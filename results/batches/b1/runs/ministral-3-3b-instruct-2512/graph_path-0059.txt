@@ -1,0 +1,19 @@
+To find the shortest path from **Bay** to **Vale**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Direct Paths from Bay:**
+   - Bay → Cleo (6) → Vale (4) → Total = 6 + 4 = **10**
+   - Bay → Uri (3) → Dove (5) → Vale (9) → Total = 3 + 5 + 9 = **17**
+   - Bay → West (2) → Cleo (8) → Vale (4) → Total = 2 + 8 + 4 = **14**
+   - Bay → West (2) → Dove (9) → Vale (9) → Total = 2 + 9 + 9 = **20**
+
+2. **Alternative Paths:**
+   - Bay → Uri (3) → Cleo (6) → Vale (4) → Total = 3 + 6 + 4 = **13**
+   - Bay → West (2) → Cleo (8) → Uri (3) → Dove (5) → Vale (9) → Total = 2 + 8 + 3 + 5 + 9 = **27** (longer)
+
+3. **Optimal Path:**
+   The shortest path found is **Bay → Cleo → Vale** with a total weight of **10**.
+
+#### 10 [end of text]
+
+

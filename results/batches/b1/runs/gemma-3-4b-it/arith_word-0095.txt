@@ -1,0 +1,7 @@
+First, find the total number of magnets in the packs: 3 packs * 4 magnets/pack = 12 magnets.
+Then, add the magnets Elena gives him: 12 magnets + 17 magnets = 29 magnets.
+
+####29
+ [end of text]
+
+

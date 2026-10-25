@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** from **Glen** to **York**.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Bay – Nell: 7  
+- Dove – Glen: 5  
+- Dove – Hart: 2  
+- Dove – Quill: 2  
+- Dove – York: 5  
+- Drew – Quill: 7  
+- Glen – Hart: 2  
+- Glen – Sage: 5  
+- Indigo – Quill: 7  
+- Nell – Quill: 5  
+- Quill – Sage: 7  
+- Quill – York: 9  
+
+Note: All edges are undirected, so each edge can be traversed in both directions.
+
+---
+
+### Step 2: Goal — Shortest path from **Glen** to **York**
+
+We will perform a shortest path algorithm (like Dijkstra’s) starting from Glen.
+
+We’ll explore all possible paths from Glen to York and compute their total weights.
+
+---
+
+### Step 3: Build adjacency list
+
+Let’s build the adjacency list:
+
+- Bay: Nell (7)  
+- Dove: Glen (5), Hart (2), Quill (2), York (5)  
+- Glen: Dove (5), Hart (2), Sage (5)  
+- Hart: Dove (2), Glen (2)  
+- Indigo: Quill (7)  
+- Drew: Qu
+

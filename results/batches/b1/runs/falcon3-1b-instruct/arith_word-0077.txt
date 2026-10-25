@@ -1,0 +1,5 @@
+Hugo buys 2 packs of muffins, so he has 2 * 12 = 24 muffins.
+After giving 5 muffins to Aisha, Hugo has 24 - 5 = 19 muffins.
+#### 19 [end of text]
+
+

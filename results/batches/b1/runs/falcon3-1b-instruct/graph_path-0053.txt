@@ -1,0 +1,42 @@
+To find the shortest path between Eden and Nell in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to the starting node (Eden) as 0.
+   - Set the distance to all other nodes as infinity.
+
+2. **Initialize Distances:**
+   - Eden: 0
+   - Ash: ∞
+   - Ash: ∞
+   - Eden: 0
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+   - Ash: ∞
+
+

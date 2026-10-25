@@ -1,0 +1,5 @@
+Kira earns 14 dollars per hour. On day 1, Kira works 3 hours, so she earns 14 * 3 = 42 dollars. On day 2, Kira works 3 hours, so she earns another 14 * 3 = 42 dollars. In total, Kira earns 42 + 42 = 84 dollars. Kira then spends 7 dollars, leaving her with 84 - 7 = 77 dollars.
+
+#### 77 [end of text]
+
+

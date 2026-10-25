@@ -1,0 +1,20 @@
+Let's solve this step by step:
+
+1. **Determine the number of times the second friend pressed the doorbell:**
+   - The fourth friend pressed 60 times.
+   - The third friend pressed 10 times more than the fourth friend.
+   - Therefore, the third friend pressed \(60 + 10 = 70\) times.
+
+2. **Calculate the total number of times the first three friends pressed the doorbell:**
+   - First friend: 20 times
+   - Second friend: \(70\) times
+   - Third friend: \(70\) times
+   - Total for the first three friends: \(20 + 70 + 70 = 160\) times
+
+3. **Determine the total number of doorbell rings:**
+   - The fourth friend pressed 60 times.
+   - Total rings: \(160 + 60 = 220\)
+
+#### 220 [end of text]
+
+

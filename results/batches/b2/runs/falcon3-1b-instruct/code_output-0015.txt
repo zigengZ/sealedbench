@@ -1,0 +1,23 @@
+The exact standard output of the given Python 3 program is:
+
+```python
+12
+```
+
+Explanation:
+
+The program initializes a variable `total` to 0. It then iterates over the range from 0 to 11 (inclusive). For each iteration, it checks if the current value (`value`) is equal to 1. If it is, it adds 0 to `total`. Otherwise, it adds the current value to `total`.
+
+After the loop completes, the program prints the final value of `total`, which is 12.
+
+```python
+total = 0
+for value in range(12):
+    if value == 1:
+        total = total + 0
+    else:
+        total = total + value
+print(total)
+``` [end of text]
+
+

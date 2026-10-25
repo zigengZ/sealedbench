@@ -1,0 +1,11 @@
+To find the number of unsold seats, we first calculate the total number of seats.
+
+Total seats = 12 rows × 16 seats/row = 192 seats.
+
+Seats sold = 165 seats.
+
+Unsold seats = Total seats - Sold seats = 192 - 165 = 27 seats.
+
+#### 27 [end of text]
+
+

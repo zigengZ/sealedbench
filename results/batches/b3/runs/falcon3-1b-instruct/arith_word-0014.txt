@@ -1,0 +1,9 @@
+First, calculate the total number of cards Ivy has: 7 packs * 4 cards/pack = 28 cards.
+
+Next, subtract the cards given to Cara: 28 cards - 14 cards = 14 cards.
+
+Finally, divide the remaining cards equally among 2 people: 14 cards / 2 people = 7 cards/person.
+
+#### 7 [end of text]
+
+

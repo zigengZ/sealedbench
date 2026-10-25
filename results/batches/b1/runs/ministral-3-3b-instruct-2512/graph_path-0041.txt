@@ -1,0 +1,32 @@
+To find the shortest path from **Ash** to **Kai**, we can use **Dijkstra's algorithm** (since all weights are non-negative).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Ash: 0
+   - All others: ∞
+
+2. **Relax edges from Ash**:
+   - Ash → Dove (2): Update Dove = 2
+   - Ash → Drew (8): Update Drew = 8
+
+3. **Process next node (Dove, dist=2)**:
+   - Dove → Drew (5): Current Drew=8 → Update Drew=7 (better)
+   - Dove → Kai (4): Update Kai=6
+
+4. **Process next node (Drew, dist=7)**:
+   - Drew → Moss (7): Update Moss=14
+   - Drew → West (9): No update (ignored)
+   - Drew → Ash (8): Already visited
+
+5. **Process next node (Kai, dist=6)**:
+   - Kai → Moss (3): Update Moss=9 (better than 14)
+
+6. **Process next node (Moss, dist=9)**:
+   - Moss → West (3): Update West=12 (but not needed for Kai)
+
+### Shortest Path:
+**Ash → Dove → Kai** with total weight **6**.
+
+#### 6 [end of text]
+
+

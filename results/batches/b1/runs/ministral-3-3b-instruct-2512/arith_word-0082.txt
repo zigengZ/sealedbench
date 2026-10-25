@@ -1,0 +1,7 @@
+Yara reads **21 pages/day × 6 days = 126 pages**.
+Adding the extra 25 pages: **126 + 25 = 151 pages**.
+Subtracting the blank pages: **151 - 76 = 75 pages**.
+
+#### 75 [end of text]
+
+

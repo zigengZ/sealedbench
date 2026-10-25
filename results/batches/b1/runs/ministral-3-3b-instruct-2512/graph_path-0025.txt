@@ -1,0 +1,21 @@
+To find the shortest path from **Quill** to **Sage**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Start at Quill (Q)**:
+   - Q → Nell (8) → Sage (2) → **Total = 8 + 2 = 10** (via Nell)
+   - Q → Nell (8) → Fern (2) → Sage (2) → **Total = 8 + 2 + 2 = 12** (longer)
+   - Q → Nell (8) → Fern (2) → Jules (7) → Vale (4) → Sage (4) → **Total = 8 + 2 + 7 + 4 + 4 = 25** (longer)
+
+2. **Alternative path via Sage’s direct connections**:
+   - Q → Nell (8) → Sage (7) → **Total = 8 + 7 = 15** (longer than 10)
+   - Q → Nell (8) → Fern (2) → Sage (2) → **Total = 10** (already found)
+
+3. **Check other routes**:
+   - Q → Nell (8) → Fern (2) → Sage (2) → **Total = 10** (best so far)
+   - No shorter path exists.
+
+### Shortest Path:
+**Quill → Nell → Sage** with a total weight of **10**.
+
+####
+

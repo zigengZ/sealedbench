@@ -1,0 +1,45 @@
+(node:2725311) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+beacon received: {"round":33142062,"randomness":"b24262f342259c75768af21269d0eb6a4122638c1fac08923949d08351365816","signature":"b342b86a95dfe900c5db5b1c2765744379430b5b5148799830041a89e36331ae1498610879159a224e9f89b09ef7b167"}
+probe-00 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142066,"randomness":"6d98ee237231b876f1de56ecd4d8e8570025c6e8edc7c868c13db881db93cd9d","signature":"940ca6d7cb25bd43db0dcaee1d5d462ac3748b95e502b9a3989297bcfcc3b0c16c1a7bae1de90e01e3a644fa503739b1"}
+probe-01 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142070,"randomness":"b05b26e7f7b4d60a2f0584c8e97401d3e97e7c3c601c46f43b9d3d3b9d011f47","signature":"9204e472bd0f5b926af32f6ff4d2a86fc5b10f93f5646774c327dfd9fde49e1304522e313e926b88692921c4eac76b4b"}
+probe-02 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142074,"randomness":"9f414ddf5af1e6581dbcfc7198fd2f6258b1d276e43f6b6f1620b531d7cc6273","signature":"a24b5cefb006bee8a119c16dd4bf960a8d4c06af5b2118f1b90fc7bee1462c534180f068d3a550a29816ad9bfbf2b07e"}
+probe-03 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142078,"randomness":"ea5e8321fcbe37aa786cc422d1213f8f4e4b75a1e10c990147c640a294a19afa","signature":"92338132456a67768e828e9f997039da40cf472d046ed0c622af0ce0736a79a94c28bffd8b81e9d53c5b866cc68ec788"}
+probe-04 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142082,"randomness":"6e804319e3c09bc5ec86cad4c82003884b3ae53a492642a2e7a7f2ff7a4111b8","signature":"944601b39c87f401303d95a9f3d443a0146d7a6394e5055e3e41d10be4de9925d355d73fad7e2a84c904e750aae32d9d"}
+probe-05 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142086,"randomness":"8b5e5758de07738bb8e7f389a3f41713657f7a6af31c19b5644c4a48bd46dfe6","signature":"abfb70fdb1c91213833b75bcb854a4ff0403df0c4e787e3b1961372a7367ad690124ef32848cd66eb67e7ea2e8ff04e3"}
+probe-06 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142090,"randomness":"b6475fce9a0bf32e1cf1060059b2741bfddacdffb2260f2dc8a05da79d3b21c3","signature":"85c71ae6a1fbc53cf7eb06644d954419be26c483beedfc897ebaacd6b6f5e58ba5da2d3b83eb73198e393b7d732a45b0"}
+probe-07 served_by=https://ario.zigza.xyz go=true js=true
+probe-08 not yet byte-identical on a gateway
+beacon received: {"round":33142099,"randomness":"44bc830784f0d1669f53a3404849aed3d797276331653cbb13dc2722e78f160e","signature":"80a894484bd2f09111bbf5a2d35735369d0fe14955f3d709729a900670bd4ccb0c5df546b889e261c6983a34f4c817ad"}
+probe-09 served_by=https://ario.zigza.xyz go=true js=true
+probe-10 not yet byte-identical on a gateway
+beacon received: {"round":33142107,"randomness":"467f4a476584b8f155dbb240f3d24f6c1c8f01880332a9b6dabb3eae471fc064","signature":"a9601daa4857b5f8dbc0f4558d3e9ef2f7d2a8fac5f4b0366a5eca0d0a1c7f7a4af15842172e564202a604dba376187a"}
+probe-11 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142094,"randomness":"7beb7f745b0fbb9a1386b1db2320ed951b1f575842a36cd65d66a97eba4dcf0a","signature":"8e149b3299438d7ff7c08eaf0b4e2c806b778a2d0012ef73a5a2cf8a9aaeeeb35f30c9933a9cbe7b2ce4196143df5722"}
+probe-08 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142103,"randomness":"71489024a307295a1e54fcee3066890ab17230a3ef2d992cb32d0366b334fa66","signature":"b89599dacfdd2891ae3757055ef74336983b3c904e19ba2adc7bf17dcda06637f6801aef8ade8e65ee768f986cacfdbf"}
+probe-10 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142111,"randomness":"6793eacd2aa29272e5dcdedee058ab04143e52bdc170dbd5b7a5a57378896635","signature":"ae6b0fcfc65167fd68f9a1a0c56e6d6037b6e31073933e8bff8894ae4e8f28262e1a4a99458d05ccc47a6ed6571fc690"}
+probe-12 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142115,"randomness":"5cf3e580a8b6c59c1df3fd82279aeb2b9f758a4a5d0efc3f71281db34dd8bb28","signature":"b91a43be02be47119298a349aa3a0aa245a58ab258309e928d04df236f8a9241a265cee080aef6df389cd35f6a50a77d"}
+probe-13 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142119,"randomness":"5a50dd8fab025304a30951ad811243d9210c5e6c08e23f57fb86684d1ca06d61","signature":"a6d5e8798fbefe83ccf9b8a5f88bd925466d59fcd42078605dc940a245e1df95e4adb9184508ebc3e02a1e56c73cf261"}
+probe-14 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142123,"randomness":"19efe9817ca5ce59ad9727986097fee9d562488275aa8c04a8a1503945d79f65","signature":"8e79b4ada50368e54d1aa60b87aff55c5ef0f34ffa8dce21a7aebf30eaaf2165fedf79beaffe41e171cba947a89268f7"}
+probe-15 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142127,"randomness":"0260a673fad97f07c76d3e9365017127af59c1ba36b165bbd91bfbe5a971eaad","signature":"86dd9ae715799f63d0294ff322a80934e4e642c8ad5a172406b4201b46f73ca6a5c44eec136795e622feca775069fffa"}
+probe-16 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142131,"randomness":"821038748741b8904267a79c9fb7df0b685330e25c2f94763a3f9fcff60ebcb6","signature":"af49b610ff8ff1ba300ae13b1c401ea73a3d9bdb74c12a8cfd45cf2bcd0dae9bb62022d128cc677c79ec8221649e9b4b"}
+probe-17 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142135,"randomness":"917d52de326e500b2025adfe6f5ab85ee98c2e6c592265a234d8e8972051464d","signature":"8b06c577070fcf7f9a89fbd9cda29b29b1716dbc5640d64c0b7d4a7e9ff447fee28aa3e4315fa5eb4b4e31a87c779137"}
+probe-18 served_by=https://ario.zigza.xyz go=true js=true
+beacon received: {"round":33142140,"randomness":"bf2e7d9f93f1e7f6a1666a7d0948fd3d870a2a994a4d433ca44ed72c1dfef593","signature":"9735b8bf832db8ed154b8de5179e4b94ef19d891c03c84b1bdfafb696b29633c32822b2bd0c80da149fd7dbae6a58c12"}
+probe-19 served_by=https://ario.zigza.xyz go=true js=true
+D4_DONE remaining=0

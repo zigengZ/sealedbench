@@ -1,0 +1,23 @@
+To find the average square footage of a level in the sandcastle, we first need to determine the total square footage of the entire sandcastle.
+
+Given:
+- Top level (4th level) has a square footage of 16.
+- Each level has half the square footage of the level below it.
+
+Let's denote the square footage of the 1st level as \( x \).
+
+Since each level has half the square footage of the level below it:
+- Level 1: \( x \)
+- Level 2: \( \frac{x}{2} \)
+- Level 3: \( \frac{x}{4} \)
+- Level 4: \( \frac{x}{8} \)
+
+The total square footage of the 4-level sandcastle is the sum of the square footage of each level:
+\[ \text{Total Square Footage} = x + \frac{x}{2} + \frac{x}{4} + \frac{x}{8} \]
+
+To find the average square footage of a level, we need to divide the total square footage by the number of levels (4):
+\[ \text{Average Square Footage} = \frac{\text{Total Square Footage}}{4} \]
+
+Let's calculate the total square footage:
+\[ \text{Total Square Footage} = x
+

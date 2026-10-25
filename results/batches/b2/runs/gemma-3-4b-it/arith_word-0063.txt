@@ -1,0 +1,11 @@
+First, let's calculate the total pages read from the first book: 19 pages/day * 5 days = 95 pages.
+
+Next, let's calculate the total pages read from the second book: 14 pages/day * 3 days = 42 pages.
+
+Now, let's find the total pages read in one week: 95 pages + 42 pages = 137 pages.
+
+Finally, let's calculate the total pages read in 4 weeks: 137 pages/week * 4 weeks = 548 pages.
+
+####548 [end of text]
+
+

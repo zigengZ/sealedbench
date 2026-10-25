@@ -1,0 +1,24 @@
+First, let's calculate the total number of pages Rosa reads from both books.
+
+1. Pages read from the first book: 
+   Pages per day = 14
+   Days = 4
+   Total pages from first book = 14 pages/day * 4 days = 56 pages
+
+2. Pages read from the second book: 
+   Pages per day = 15
+   Days = 2
+   Total pages from second book = 15 pages/day * 2 days = 30 pages
+
+3. Total pages from both books: 
+   Total pages = 56 pages (first book) + 30 pages (second book) = 86 pages
+
+4. Pages skipped: 
+   Pages skipped = 2 pages
+
+5. Total pages read: 
+   Total pages = 86 pages (total from both books) - 2 pages (skipped) = 84 pages
+
+So, Rosa reads #### 84. [end of text]
+
+

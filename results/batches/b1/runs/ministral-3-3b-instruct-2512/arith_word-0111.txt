@@ -1,0 +1,13 @@
+Nico starts with 7 rows of 14 seats each:
+7 × 14 = 98 seats.
+
+Then adds 4 rows of 3 seats each:
+4 × 3 = 12 seats.
+
+Total seats = 98 + 12 = 110 seats.
+
+Seats sold = 90, so unsold seats = 110 - 90 = 20.
+
+#### 20 [end of text]
+
+

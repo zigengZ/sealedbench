@@ -1,0 +1,9 @@
+Claire eats 3 eggs per day. Over 4 weeks (28 days), she eats:
+3 eggs/day × 28 days = 84 eggs.
+
+Since 1 dozen = 12 eggs, divide 84 by 12:
+84 ÷ 12 = 7 dozens.
+
+#### 7 [end of text]
+
+

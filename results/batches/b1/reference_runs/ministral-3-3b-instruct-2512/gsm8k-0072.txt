@@ -1,0 +1,7 @@
+Tommy sells brownies at $3 each, so 43 brownies earn him **$129** (43 × 3).
+He sells cheesecakes at $4 each, so 23 slices earn him **$92** (23 × 4).
+Total money raised: **$129 + $92 = $221**.
+
+#### 221 [end of text]
+
+

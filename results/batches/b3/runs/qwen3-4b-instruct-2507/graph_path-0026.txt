@@ -1,0 +1,75 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Dove, Fern, Jules, Oak, Tess, Zed  
+**Edges and weights**:
+- Dove – Oak: 9  
+- Dove – Tess: 2  
+- Fern – Jules: 7  
+- Jules – Oak: 7  
+- Jules – Tess: 8  
+- Oak – Tess: 4  
+- Oak – Zed: 7  
+- Tess – Zed: 5  
+
+We are to find the **shortest path from Fern to Tess** in terms of total weight.
+
+---
+
+### Step 1: Understand the connections
+
+We need to go from **Fern** to **Tess**.
+
+Fern is only directly connected to **Jules** (weight 7).
+
+So any path from Fern to Tess must go through Jules.
+
+So possible paths:
+- Fern → Jules → Tess (weight = 7 + 8 = 15)
+- Fern → Jules → Oak → Tess (weight = 7 + 7 + 4 = 18)
+- Fern → Jules → Oak → Zed → Tess (weight = 7 + 7 + 7 + 5 = 26) → longer
+- Fern → Jules → Tess → Zed → ... → no benefit
+
+Are there any other paths?
+
+What about going through Dove?
+
+Dove is connected to Oak and Tess.
+
+Can we go Fern → Jules → Oak → Dove → Tess?
+
+But there's no edge from Jules to Dove or Oak to Dove directly — only Dove–Oak and Dove–Tess.
+
+So path: Fern → Jules → Oak → Dove → Tess  
+Weights:  
+Fern–Jules: 7  
+Jules–Oak: 7  
+Oak–Dove: 9  
+Dove–Tess: 2  
+Total: 7 + 7 + 9 + 2 = 25 → longer than 15
+
+Another path: Fern → Jules → Oak → Tess → Zed → ... → no help
+
+So the shortest path must be one of:
+- Fern → Jules → Tess: 7 + 8 = 15  
+- Fern → Jules → Oak → Tess: 7 + 7 + 4 = 18  
+
+Clearly, **15 is shorter**.
+
+Is there a shorter path?
+
+What about Fern → Jules → Oak → Zed → Tess?  
+7 + 7 + 7 + 5 = 26 → worse.
+
+Any other route?
+
+No direct edge from Fern to anyone else.
+
+So the only viable paths go through Jules.
+
+Thus, the shortest path is **Fern → Jules → Tess** with total weight:
+
+**7 + 8 = 15**
+
+#### 15 [end of text]
+
+

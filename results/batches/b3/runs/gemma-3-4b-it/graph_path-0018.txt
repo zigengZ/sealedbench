@@ -1,0 +1,13 @@
+We want to find the shortest path between Bay and Kai in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Bay to Kai:
+1. Bay -> Ash -> Oak -> Kai: Weight = 8 + 3 + 2 = 13
+2. Bay -> Tess -> Jules -> Xen -> Kai: Weight = 4 + 2 + 2 + 6 = 14
+3. Bay -> Tess -> Cleo -> Kai: Weight = 4 + 1 + 6 = 11
+4. Bay -> Ash -> Xen -> Jules -> Kai: Weight = 8 + 2 + 2 + 6 = 18
+
+Comparing the weights of the paths, the shortest path is Bay -> Ash -> Oak -> Kai with a total weight of 13.
+
+#### 13 [end of text]
+
+

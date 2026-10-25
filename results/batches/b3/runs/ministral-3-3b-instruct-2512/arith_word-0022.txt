@@ -1,0 +1,10 @@
+Zane's earnings:
+- Day 1: 6 hours × $20/hour = $120
+- Day 2: 3 hours × $20/hour = $60
+- Day 3: 3 hours × $20/hour = $60
+
+Total earnings: $120 + $60 + $60 = $240
+
+#### 240 [end of text]
+
+

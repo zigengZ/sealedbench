@@ -1,0 +1,15 @@
+Mina buys 5 packs of notebooks, and each pack has 6 notebooks.
+
+So, total notebooks = 5 × 6 = 30 notebooks.
+
+She gives 3 notebooks to Jamal, so:
+
+30 − 3 = 27 notebooks left.
+
+These 27 notebooks are shared equally among 3 people.
+
+So, each person gets: 27 ÷ 3 = 9 notebooks.
+
+#### 9 [end of text]
+
+

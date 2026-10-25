@@ -1,0 +1,26 @@
+First, let's determine how many pieces Poppy places on the board.
+
+A quarter of 1000 pieces is:
+\[ \frac{1}{4} \times 1000 = 250 \text{ pieces} \]
+
+Now, let's find out how many pieces are left after Poppy places her pieces.
+
+The remaining pieces after placing 250 pieces are:
+\[ 1000 - 250 = 750 \text{ pieces} \]
+
+Then, her mom places a third of the remaining pieces.
+
+A third of 750 pieces is:
+\[ \frac{1}{3} \times 750 = 250 \text{ pieces} \]
+
+Now, let's calculate the total number of pieces placed by both Poppy and her mom.
+
+The total pieces placed is:
+\[ 250 + 250 = 500 \text{ pieces} \]
+
+Finally, to find out how many pieces are left to be placed, we subtract the total pieces placed from the initial number of pieces:
+\[ 1000 - 500 = 500 \text{ pieces} \]
+
+#### 500 [end of text]
+
+

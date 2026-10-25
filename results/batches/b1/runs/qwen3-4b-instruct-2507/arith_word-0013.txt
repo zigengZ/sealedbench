@@ -1,0 +1,17 @@
+Farid buys 2 packs of stickers, and each pack has 7 stickers:
+
+2 × 7 = 14 stickers.
+
+Then Farid gives 5 stickers to Ben:
+
+14 − 5 = 9 stickers left.
+
+Then Ben gives Farid 3 more stickers:
+
+9 + 3 = 12 stickers.
+
+So, Farid ends up with 12 stickers.
+
+#### 12 [end of text]
+
+

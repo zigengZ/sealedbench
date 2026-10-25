@@ -1,0 +1,56 @@
+Let's trace through the program step by step:
+
+```python
+words = ['stone', 'brook', 'pine', 'timber', 'maple', 'delta']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 2 == 1:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '-' + piece
+print(out)
+```
+
+The list `words` has 6 elements:
+- index 0: 'stone'
+- index 1: 'brook'
+- index 2: 'pine'
+- index 3: 'timber'
+- index 4: 'maple'
+- index 5: 'delta'
+
+We iterate over indices from 0 to 5.
+
+**index = 0:**
+- piece = 'stone'
+- index % 2 == 0 → not 1 → no upper()
+- out is "" → set out = 'stone'
+
+**index = 1:**
+- piece = 'brook'
+- index % 2 == 1 → True → piece becomes 'BROOK'
+- out is not "" → out = 'stone' + '-' + 'BROOK' → 'stone-BROOK'
+
+**index = 2:**
+- piece = 'pine'
+- index % 2 == 0 → not 1 → no upper()
+- out is not "" → out = 'stone-BROOK' + '-' + 'pine' → 'stone-BROOK-pine'
+
+**index = 3:**
+- piece = 'timber'
+- index % 2 == 1 → True → piece becomes 'TIMBER'
+- out is not "" → out = 'stone-BROOK-pine' + '-' + 'TIMBER' → 'stone-BROOK-pine-TIMBER'
+
+**index = 4:**
+- piece = 'maple'
+- index % 2 == 0 → not 1 → no upper()
+- out is not "" → out = 'stone-BROOK-pine-TIMBER' + '-' + 'maple' → 'stone-BROOK-pine-TIMBER-maple'
+
+**index = 5:**
+- piece = 'delta'
+- index % 2 == 1 → True → piece becomes 'DELTA'
+- out is not "" → out = 'stone-BROOK-pine-TIMBER-maple' + '-' + 'DEL
+

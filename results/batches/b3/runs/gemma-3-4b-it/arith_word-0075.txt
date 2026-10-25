@@ -1,0 +1,13 @@
+First, let's calculate the total number of crayons from the 7 packs of 7 crayons each: 7 packs * 7 crayons/pack = 49 crayons.
+
+Next, let's calculate the number of crayons from the 2 packs of 5 crayons each: 2 packs * 5 crayons/pack = 10 crayons.
+
+Now, let's find the total number of crayons Nico has: 49 crayons + 10 crayons = 59 crayons.
+
+Then, Nico gives 43 crayons to Uma, so he has 59 crayons - 43 crayons = 16 crayons left.
+
+Finally, the 16 crayons are shared equally among 2 people, so each person gets 16 crayons / 2 people = 8 crayons/person.
+
+#### 8 [end of text]
+
+

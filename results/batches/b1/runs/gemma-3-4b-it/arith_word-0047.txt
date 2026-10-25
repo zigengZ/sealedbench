@@ -1,0 +1,6 @@
+First, we calculate Diego's total earnings: 19 dollars/hour * 3 hours = 57 dollars.
+Then, we subtract the amount he spends: 57 dollars - 4 dollars = 53 dollars.
+
+####53 [end of text]
+
+

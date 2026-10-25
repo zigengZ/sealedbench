@@ -1,0 +1,26 @@
+To find the shortest path from **Glen** to **York**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Glen** = 0.
+   - All other distances = ∞.
+   - Unvisited nodes: {Bay, Dove, Drew, Hart, Indigo, Nell, Quill, Sage, York}.
+
+2. **Expand Glen**:
+   - Neighbors: Dove (5), Sage (5).
+   - Update distances: Dove = 5, Sage = 5.
+   - Unvisited: {Bay, Dove, Drew, Hart, Indigo, Nell, Quill, York}.
+
+3. **Expand Dove** (next shortest):
+   - Neighbors: Glen (visited), Hart (2), Quill (2), York (5).
+   - Update distances: Hart = 5 (5+2), Quill = 7 (5+2), York = 10 (5+5).
+   - Unvisited: {Bay, Drew, Hart, Indigo, Nell, Quill, York}.
+
+4. **Expand Sage** (next shortest):
+   - Neighbors: Glen (visited), Quill (7).
+   - Update distances: Quill = min(7, 5+2=7) → no change.
+   - Unvisited: {Bay, Drew, Hart, Indigo, Nell, Quill, York}.
+
+5. **Expand Quill** (next shortest):
+  
+

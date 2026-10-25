@@ -1,0 +1,37 @@
+To find the shortest path from **Hart** to **Moss**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Hart** = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Priority: Distance)**:
+   - Start with **Hart** (distance = 0).
+   - Next candidates: **Blair** (via Hart-Oak, but no direct edge), **Poe** (via Hart-Poe, distance = 1), **Oak** (via Hart-Oak, distance = 4).
+
+3. **Expand Poe (distance = 1)**:
+   - Poe connects to **Kai** (via Kai-Poe, but no reverse edge).
+   - No improvement to any node.
+
+4. **Expand Oak (distance = 4)**:
+   - Oak connects to **Blair** (via Blair-Hart, but no reverse edge), **Jules** (via Jules-Oak, distance = 4 + 8 = 12), **Moss** (via Moss-Oak, distance = 4 + 8 = 12).
+
+5. **Expand Blair (distance = 5)**:
+   - Blair connects to **Hart** (no improvement), **Jules** (via Blair-Jules, distance = 5 + 5 = 10), **Kai** (via Blair-Kai, distance = 5 + 1 = 6), **Xen** (via Blair-Xen, distance = 5 + 2 = 7).
+
+6. **Expand Kai (distance = 6)**:
+   - Kai connects to **Blair** (no improvement), **Poe** (via Kai-Poe, distance = 6 + 1 = 7, but Poe already has distance 1).
+
+7. **Expand Jules (distance = 10)**:
+   - Jules connects to **Blair** (no improvement), **Oak** (already at 4).
+
+8. **Expand Moss (distance = 12)**:
+   - Moss is the target. Shortest path found via Oak.
+
+### Optimal Path:
+**Hart → Oak → Moss** with total weight = **4 + 8 = 12**.
+
+#### 12 [end of text]
+
+

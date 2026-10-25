@@ -1,0 +1,7 @@
+Chloe earns 29 dollars an hour. She works 4 hours, so her total earnings are 29 * 4 = 116 dollars.
+
+Chloe spends 43 dollars. To find out how many dollars she has left, subtract the amount she spent from her earnings: 116 - 43 = 73.
+
+#### 73 [end of text]
+
+

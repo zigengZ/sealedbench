@@ -1,0 +1,36 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['quartz', 'ivory', 'pine', 'kelp']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 3 (inclusive):
+
+- **index = 0**:
+  - `piece = words[0] = 'quartz'`
+  - `index % 2 == 0` → True → `piece = 'QUARTZ'`
+  - `out == ""` → True → `out = 'QUARTZ'`
+
+- **index = 1**:
+  - `piece = words[1] = 'ivory'`
+  - `index % 2 == 0` → False → `piece = 'ivory'`
+  - `out != ""` → True → `out = 'QUARTZ-ivory'`
+
+- **index = 2**:
+  - `piece = words[2] = 'pine'`
+  - `index % 2 == 0` → True → `piece = 'PINE'`
+  - `out != ""` → True → `out = 'QUARTZ-ivory-PINE'`
+
+- **index = 3**:
+  - `piece = words[3] = 'kelp'`
+  - `index % 2 == 0` → False → `piece = 'kelp'`
+  - `out != ""` → True → `out = 'QUARTZ-ivory-PINE-kelp'`
+
+Final `out` is `'QUARTZ-ivory-PINE-kelp'`
+
+Output:
+```
+QUARTZ-ivory-PINE-kelp
+``` [end of text]
+
+

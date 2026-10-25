@@ -1,0 +1,48 @@
+To find the shortest path from **Ash** to **Jules**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Ash → Ash: 0
+   - All others: ∞
+
+2. **Update neighbors of Ash**:
+   - Ash → Amber: 4 (new shortest path)
+   - Ash → Bay: 7 + 4 = 11 (but Amber-Bay is 8, so Amber is better)
+
+3. **Next node: Amber (distance 4)**:
+   - Amber → Bay: 4 + 8 = 12 (worse than direct Ash-Bay 7)
+   - Amber → Jules: 4 + 9 = 13
+   - Amber → Uri: 4 + 8 = 12
+   - Amber → Vale: 4 + 9 = 13
+
+4. **Next node: Bay (distance 7)**:
+   - Bay → Amber: 7 + 8 = 15 (worse)
+   - Bay → Ash: 7 + 7 = 14 (worse)
+   - Bay → Jules: 7 + (no direct edge) → no update
+
+5. **Next node: Jules (distance 13)**:
+   - Jules → Kai: 13 + 3 = 16 (but Kai is not yet processed)
+
+6. **Next node: Kai (distance 16)**:
+   - Kai → Jules: 16 + 3 = 19 (worse than 13)
+   - Kai → Uri: 16 + 4 = 20
+   - Kai → Vale: 16 + 9 = 25
+   - Kai → York: 16 + 7 = 23
+
+7. **Next node: Uri (distance 12)**:
+   - Uri → Amber: 12 + 8 = 20 (worse)
+   - Uri → Vale: 12 + 1 = 13 (same as Amber-Vale)
+   - Uri → York: 12 + 2 = 14
+
+8. **Next node: Vale (distance 13)**:
+   - Vale → Amber: 13 + 9 = 22 (worse)
+   - Vale → Kai: 13 + 9 = 22 (worse)
+   - Vale → Oak: 13 + 1 = 14 (but Oak is not target)
+   - Vale → Uri: 13 + 1 = 14 (worse than Uri-Vale 12)
+
+9. **Final check**:
+   - The shortest path to Jules is **Ash → Amber → Jules** with total weight **13**.
+
+#### 13 [end of text]
+
+

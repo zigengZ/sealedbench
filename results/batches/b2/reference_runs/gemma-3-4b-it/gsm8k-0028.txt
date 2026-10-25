@@ -1,0 +1,36 @@
+First, let's find the distance Henry traveled from the start to his first stop: 20 miles.
+Next, let's find the distance from the end of the trip to his second stop: 15 miles.
+To find the distance between the stops, we need to subtract the distance to the second stop from the distance to the first stop.
+So, the distance between the stops is 20 miles - 15 miles = 5 miles.
+
+Alternatively, the total trip is 60 miles.
+He stopped after 20 miles, so he traveled 20 miles.
+The second stop was 15 miles before the end, meaning he traveled 60 - 15 = 45 miles to reach the end.
+The distance between the stops is 45 miles - 20 miles = 25 miles.
+However, the problem states that the second stop was 15 miles *before* the end of the trip. So, the distance from the second stop to the end is 15 miles.
+The distance from the start to the first stop is 20 miles.
+The distance from the first stop to the second stop is x miles.
+The distance from the second stop to the end is 15 miles.
+So, 20 + x + 15 = 60
+x + 35 = 60
+x = 60 - 35
+x = 25
+
+Let's reconsider the problem. Henry traveled 20 miles to the first stop. The trip is 60 miles long. The second stop is 15 miles before the end. So, the distance from the second stop to the end is 15 miles.
+The distance from the start to the second stop is 60 - 15 = 45 miles.
+The distance from the start to the first stop is 20 miles.
+The distance between the first and second stops is 45 - 20 = 25 miles.
+
+The second stop was 15 miles *before* the end of the trip. This means the distance from the second stop to the end is 15 miles.
+The total distance is 60 miles.
+The distance from the start to the first stop is 20 miles.
+The distance from the first stop to the second stop is x miles.
+The distance from the second stop to the end is 15 miles.
+So, 20 + x + 15 = 60
+x + 35 = 60
+x = 60 - 35
+x = 25
+
+####25 [end of text]
+
+

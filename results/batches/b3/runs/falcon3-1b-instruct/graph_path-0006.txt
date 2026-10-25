@@ -1,0 +1,68 @@
+To find the shortest path between Bay and Quill, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Bay) as 0 and all other nodes as infinity.
+   - Create a priority queue to store nodes and their distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - If the new distance is less than the current known distance, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+4. **Extract Path**:
+   - Once the shortest path is found, trace back from the destination (Quill) to the starting node (Bay) to get the path.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Bay', 'Cedar', 'Dove', 'Eden', 'Fern', 'Glen', 'Indigo', 'Jules', 'Quill']
+distances = {node: float('infinity') for node in nodes}
+distances[Bay] = 0
+
+# Priority queue to store nodes and their distances
+priority_queue = [(0, Bay)]
+
+# Dijkstra's algorithm
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in [
+        (c, d) for c, d in [
+            (Bay, Cedar),
+            (Cedar, Dove),
+            (Dove, Eden),
+            (Eden, Fern),
+            (Fern, Indigo),
+            (Indigo, Xen),
+            (Quill, Xen),
+        ]
+    ]:
+        new_distance = current_distance + weight
+        if new_distance < distances[neighbor]:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance, neighbor))
+
+# Extract the shortest path
+path = []
+current_node = Bay
+while current_node != Quill:
+    path.append(current_node)
+    current_node = distances[current_node]
+
+# Total weight of the shortest path
+total_weight = sum(distances[node] for node in path)
+print(total_weight)
+```
+
+Running this code will give us the total weight of the shortest path between Bay and Quill.
+
+#### 10 [end of text]
+
+

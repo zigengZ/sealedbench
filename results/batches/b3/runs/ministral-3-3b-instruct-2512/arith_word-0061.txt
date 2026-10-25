@@ -1,0 +1,7 @@
+Hugo buys 9 packs × 4 notebooks = 36 notebooks.
+After giving 5 to Elena, he has 36 - 5 = 31 notebooks left.
+Each notebook is worth $7, so 31 × 7 = 217 dollars.
+
+#### 217 [end of text]
+
+

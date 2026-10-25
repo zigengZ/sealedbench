@@ -1,0 +1,8 @@
+Rosa starts with **7 packs × 7 ribbons = 49 ribbons**.
+After giving 31 to Samir: **49 - 31 = 18 ribbons**.
+Samir gives her back 22 ribbons: **18 + 22 = 40 ribbons**.
+Each ribbon is worth $9, so total value is **40 × 9 = 360 dollars**.
+
+#### 360 [end of text]
+
+

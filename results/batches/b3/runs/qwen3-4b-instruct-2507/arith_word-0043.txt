@@ -1,0 +1,14 @@
+Jamal reads 12 pages a day for 2 days:  
+12 × 2 = 24 pages.
+
+Then he reads 9 more pages:  
+24 + 9 = 33 pages.
+
+He skips 23 blank pages — these do **not** count toward the total pages he reads.
+
+So, the total number of pages he **reads** is:  
+33 pages.
+
+#### 33 [end of text]
+
+

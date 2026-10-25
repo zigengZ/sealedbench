@@ -1,0 +1,6 @@
+First, we calculate Chloe's total earnings: 29 dollars/hour * 4 hours = 116 dollars.
+Then, we subtract the amount she spent: 116 dollars - 43 dollars = 73 dollars.
+
+####73 [end of text]
+
+

@@ -1,0 +1,5 @@
+Dmitri starts with 3 packs, each containing 4 magnets, so he has 3 × 4 = 12 magnets initially. Elena gives him 17 more magnets, so the total is 12 + 17 = 29 magnets.
+
+#### 29 [end of text]
+
+

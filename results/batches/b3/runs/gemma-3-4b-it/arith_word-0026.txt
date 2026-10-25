@@ -1,0 +1,7 @@
+First, find the number of pages Chloe reads from the first book: 18 pages/day * 6 days = 108 pages.
+Next, find the number of pages Chloe reads from the second book: 15 pages/day * 4 days = 60 pages.
+Finally, add the pages from both books: 108 pages + 60 pages = 168 pages.
+
+####168 [end of text]
+
+

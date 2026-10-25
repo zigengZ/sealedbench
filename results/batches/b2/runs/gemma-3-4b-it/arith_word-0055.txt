@@ -1,0 +1,8 @@
+First, find the total number of magnets Tara starts with: 3 packs * 8 magnets/pack = 24 magnets.
+Then, Tara gives away 14 magnets: 24 - 14 = 10 magnets.
+Finally, Pavel gives Tara 17 magnets: 10 + 17 = 27 magnets.
+
+####27
+ [end of text]
+
+

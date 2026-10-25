@@ -1,0 +1,33 @@
+To find the shortest path between Kai and Nell in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning and the final answer:
+
+1. **Initialize**:
+   - Set the distance to Kai as 0 and to Nell as infinity.
+   - Create a priority queue (min-heap) to store nodes and their distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the tentative distance through the current node.
+   - If this new distance is less than the current known distance to the neighbor, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+4. **Result**:
+   - The distance from Kai to Nell is the smallest distance found in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Cedar': ['Hart'],
+    'Hart': ['Kai', 'Oak'],
+    'Kai': ['West', 'Vale'],
+    'West': ['West'],
+    'Nell': ['Oak', 'West'],
+    'Oak': ['West'],
+    'Vale': ['West'],
+    'West': 
+

@@ -1,0 +1,13 @@
+Ivy earns **$95**.
+
+Reasoning:
+- Day 1: 5 hours × $19/hour = $95
+- Day 2: 5 hours × $19/hour = $95
+- Day 3: 3 hours × $19/hour = $57
+- Total: $95 + $95 + $57 = $247
+
+Correction: The initial breakdown was incorrect. Ivy earns **$247**.
+
+#### 247 [end of text]
+
+

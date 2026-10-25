@@ -1,0 +1,22 @@
+To find the shortest path from **Indigo** to **York**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Indigo → York = ∞` (unreachable initially)
+   - All other nodes start at `0` (distance from themselves).
+
+2. **Update distances from `Indigo`**:
+   - `Indigo → Amber = 3` (via edge `Indigo-Amber`).
+   - `Indigo → Ash = min(∞, 3 + 8) = 11` (via `Indigo-Ash`).
+   - `Indigo → Kai = min(∞, 3 + 6) = 9` (via `Indigo-Kai`).
+   - `Indigo → Eden = ∞` (no direct edge).
+   - `Indigo → York = ∞` (no direct edge).
+
+3. **Next node to explore: Amber (distance = 3)**:
+   - `Amber → Indigo = 3` (already known).
+   - `Amber → Kai = min(9, 3 + 6) = 9` (no change).
+
+4. **Next node: Ash (distance = 11)**:
+   - `Ash → Eden = min(∞, 11 + 9) = 20`.
+   - `Ash → Kai = min(9, 11 + 
+

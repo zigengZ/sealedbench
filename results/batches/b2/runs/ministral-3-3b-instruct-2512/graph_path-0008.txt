@@ -1,0 +1,32 @@
+To find the shortest path from **Cedar** to **Uri**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Cedar: 0
+   - All others: ∞
+
+2. **Priority queue (min-heap)**:
+   - Start with Cedar (distance = 0).
+
+3. **Relax edges**:
+   - From Cedar (8):
+     - Lark (8) → Update distance to Lark = 8
+     - Nell (8) → Update distance to Nell = 8
+   - Next, process Lark (distance = 8):
+     - Dove (9) → Update distance to Dove = 8 + 9 = 17
+     - Reed (8) → Update distance to Reed = 8 + 8 = 16
+     - West (7) → Update distance to West = 8 + 7 = 15
+   - Next, process Nell (distance = 8):
+     - Sage (6) → Update distance to Sage = 8 + 6 = 14
+     - West (5) → Update distance to West = min(15, 8 + 5) = 13
+   - Next, process Reed (distance = 16):
+     - Sage (2) → Update distance to Sage = min(14, 16 + 2) = 14 (no change)
+     - Dove (4) → Update distance to Dove = min(17, 16 + 4) = 16 (no change)
+   - Next, process West (distance = 13):
+     - Uri (8) → Update distance to Uri = 13 + 8 = 21
+
+4. **Final shortest distance to Uri**: **21**
+
+#### 21 [end of text]
+
+

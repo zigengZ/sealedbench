@@ -1,0 +1,22 @@
+{
+  "i": 36,
+  "run": "t6_a",
+  "model": "gemma-3-4b-it",
+  "threads": 6,
+  "batch": 2048,
+  "ubatch": 512,
+  "returncode": 0,
+  "error": null,
+  "seconds": 32.638,
+  "gold": "75",
+  "pred": "75",
+  "match": true,
+  "hit_cap": false,
+  "prompt_tps": null,
+  "gen_tps": null,
+  "prompt_tokens": null,
+  "gen_tokens": null,
+  "n_ctx_train": null,
+  "stdout_sha256": "d1c755e0d55539da18dac3bc99df6f11f39814bc279860fc199ae04cb35806bc",
+  "stdout_bytes": 383
+}

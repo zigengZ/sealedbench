@@ -1,0 +1,25 @@
+To find the shortest path from **Dove** to **Fern**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward for weighted graphs).
+
+### Step-by-Step Reasoning:
+1. **Start at Dove** (distance = 0).
+2. **Neighbors of Dove**:
+   - Moss (distance = 6)
+   - Kai (distance = 2)
+   - Tess (distance = 8)
+   - Update distances: Moss = 6, Kai = 2, Tess = 8.
+
+3. **Next, explore Kai** (smallest distance = 2):
+   - Neighbors: Ash (via Amber? No direct edge), Dove (already visited), Ash via Ash-Kai (but no direct edge to Ash).
+   - **Kai → Dove** is already visited.
+   - **Kai → Ash** is not directly connected (no edge).
+   - **Kai → Fern?** No direct edge.
+   - **Kai → Jules?** No direct edge.
+   - **Kai → Moss?** No direct edge.
+   - **Kai → Tess?** No direct edge.
+   - **Kai → Uri?** No direct edge.
+   - **No updates from Kai.**
+
+4. **Next, explore Moss** (distance = 6):
+   - Neighbors: Amber (7), Dove (visited), Fern (no direct edge), Tess (no direct edge), Uri (1).
+   - Update distances: Uri = 6 + 1 = 
+

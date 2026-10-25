@@ -1,0 +1,9 @@
+First, calculate the total number of marbles Rosa has: 5 packs * 6 marbles/pack = 30 marbles.
+
+Next, subtract the marbles given to Felix: 30 marbles - 3 marbles = 27 marbles.
+
+Finally, divide the remaining marbles equally among 3 people: 27 marbles / 3 people = 9 marbles/person.
+
+#### 9 [end of text]
+
+

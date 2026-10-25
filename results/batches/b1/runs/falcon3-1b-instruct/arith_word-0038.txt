@@ -1,0 +1,5 @@
+Hugo starts with 6 packs * 12 balloons/pack = 72 balloons.
+Then he gets 20 more balloons, so the total number of balloons is 72 + 20 = 92.
+#### 92 [end of text]
+
+

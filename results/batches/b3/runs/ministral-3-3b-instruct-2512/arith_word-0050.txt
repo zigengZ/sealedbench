@@ -1,0 +1,10 @@
+Samir's earnings:
+- Day 1: 2 hours × $20/hour = $40
+- Day 2: 4 hours × $20/hour = $80
+- Day 3: 5 hours × $20/hour = $100
+
+Total earnings = $40 + $80 + $100 = $220
+
+#### 220 [end of text]
+
+

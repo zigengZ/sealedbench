@@ -1,0 +1,26 @@
+To find the shortest path from **Cedar** to **Oak**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - Cedar: 0
+   - All others: ∞
+
+2. **Priority queue (start with Cedar)**:
+   - (0, Cedar)
+
+3. **Relax edges**:
+   - From Cedar (weight 0):
+     - Lark (3), Moss (7), Poe (5), York (2) → Update distances to 3, 7, 5, 2.
+   - Next pick York (2):
+     - Poe (3) → Update to min(5, 2+3=5) → no change.
+     - Oak (4) → Update to 2+4=6.
+   - Next pick Lark (3):
+     - Xen (5) → Update to min(∞, 3+5=8) → no change.
+   - Next pick Moss (7):
+     - Zed (8) → Update to min(∞, 7+8=15) → no change.
+     - Xen (3) → Update to min(8, 7+3=10) → no change.
+   - Next pick Poe (5):
+     - York (3) → Update to min(2, 5+3=8) → no change.
+   - Next pick Xen (3):
+     - Zed (2) → Update to min
+

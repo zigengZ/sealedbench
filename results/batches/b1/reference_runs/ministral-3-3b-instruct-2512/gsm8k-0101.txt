@@ -1,0 +1,9 @@
+Solo has a total of **4 + 20 + 7 + 8 = 39** pages to read.
+
+He has already read **15** pages on Monday, so he has **39 - 15 = 24** pages left.
+
+With **4** more days to complete the remaining pages, he needs to read an average of **24 ÷ 4 = 6** pages per day.
+
+#### 6 [end of text]
+
+

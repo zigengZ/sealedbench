@@ -1,0 +1,19 @@
+Uma reads:
+
+- 18 pages a day for 3 days:  
+  $ 18 \times 3 = 54 $ pages
+
+- 16 pages a day for 2 days:  
+  $ 16 \times 2 = 32 $ pages
+
+Total pages read (before skipping):  
+$ 54 + 32 = 86 $ pages
+
+She skips 17 blank pages that do not count — so we **do not** add those.
+
+So, the total number of pages she **reads** is:  
+$ 86 $ pages
+
+#### 86 [end of text]
+
+

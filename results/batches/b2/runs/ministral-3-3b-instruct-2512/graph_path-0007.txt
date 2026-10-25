@@ -1,0 +1,40 @@
+To find the shortest path from **Blair** to **Oak**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Blair's neighbors**:
+   - Blair → Moss (weight = 2)
+   - **Current shortest distance from Blair to Moss = 2**
+
+2. **From Moss**:
+   - Moss → Blair (already visited)
+   - Moss → Drew (weight = 8, but Blair→Moss→Drew = 2 + 8 = 10)
+   - Moss → Indigo (weight = 6, Blair→Moss→Indigo = 2 + 6 = 8)
+   - Moss → Kai (weight = 3, Blair→Moss→Kai = 2 + 3 = 5)
+   - **Current shortest distance to Moss's neighbors: Indigo (8), Kai (5)**
+
+3. **From Kai (shortest path so far = 5)**:
+   - Kai → Indigo (weight = 7, but Blair→Moss→Kai→Indigo = 5 + 7 = 12 > 8, skip)
+   - Kai → Moss (already visited)
+   - Kai → Oak (weight = 3, Blair→Moss→Kai→Oak = 5 + 3 = 8)
+   - **New shortest distance to Oak = 8**
+
+4. **From Indigo (shortest path so far = 8)**:
+   - Indigo → Kai (already visited)
+   - Indigo → Moss (already visited)
+   - Indigo → West (weight = 2, Blair→Moss→Indigo→West = 8 + 2 = 10)
+   - **No improvement to Oak here**
+
+5. **From West (if reached via Indigo)**:
+   - West → Oak (weight = 8, but Blair→Moss→Indigo→West→Oak = 10 + 8 = 18 > 8, skip)
+
+6. **From Drew (if reached via Moss)**:
+   - Drew → Moss (already visited)
+   - Drew → Oak (weight = 4, Blair→Moss→Drew→Oak = 2 + 8 + 4 = 14 > 8, skip)
+   - Drew → West (weight = 5, Blair→Moss→Drew→West = 2 + 8 + 5 = 15 > 8, skip)
+
+### Optimal Path:
+**Blair → Moss → Kai → Oak** with a total weight of **8**.
+
+#### 8 [end of text]
+
+

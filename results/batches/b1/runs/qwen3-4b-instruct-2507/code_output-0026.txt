@@ -1,0 +1,45 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['pine', 'juniper', 'ivory', 'flint', 'stone', 'kelp']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 5 (inclusive):
+
+- index = 0:
+  - piece = words[0] = 'pine'
+  - index % 2 == 0 → True → piece becomes 'PINE'
+  - out is "" → so out = 'PINE'
+
+- index = 1:
+  - piece = words[1] = 'juniper'
+  - index % 2 == 1 → False → piece remains 'juniper'
+  - out is not "" → out = out + ',' + piece → 'PINE,juniper'
+
+- index = 2:
+  - piece = words[2] = 'ivory'
+  - index % 2 == 0 → True → piece becomes 'IVORY'
+  - out is not "" → out = 'PINE,juniper' + ',' + 'IVORY' → 'PINE,juniper,IVORY'
+
+- index = 3:
+  - piece = words[3] = 'flint'
+  - index % 2 == 1 → False → piece remains 'flint'
+  - out = 'PINE,juniper,IVORY' + ',' + 'flint' → 'PINE,juniper,IVORY,flint'
+
+- index = 4:
+  - piece = words[4] = 'stone'
+  - index % 2 == 0 → True → piece becomes 'STONE'
+  - out = 'PINE,juniper,IVORY,flint' + ',' + 'STONE' → 'PINE,juniper,IVORY,flint,STONE'
+
+- index = 5:
+  - piece = words[5] = 'kelp'
+  - index % 2 == 1 → False → piece remains 'kelp'
+  - out = 'PINE,juniper,IVORY,flint,STONE' + ',' + 'kelp' → 'PINE,juniper,IVORY,flint,STONE,kelp'
+
+Final output: `'PINE,juniper,IVORY,flint,STONE,kelp'`
+
+``` 
+PINE,juniper,IVORY,flint,STONE,kelp
+``` [end of text]
+
+

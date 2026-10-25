@@ -1,0 +1,16 @@
+Harry slept 9 hours.  
+James slept $ \frac{2}{3} $ of what Harry slept, so:
+
+$$
+\frac{2}{3} \times 9 = 6 \text{ hours}
+$$
+
+Now, find how many more hours Harry slept than James:
+
+$$
+9 - 6 = 3 \text{ hours}
+$$
+
+#### 3 [end of text]
+
+

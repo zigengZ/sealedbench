@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "arith_word",
+  "gen_tokens": 82,
+  "gen_tps": 10.21,
+  "hit_cap": false,
+  "item_id": "arith_word-0040",
+  "model": "gemma-3-4b-it",
+  "n_predict": 320,
+  "prompt_tokens": 84,
+  "prompt_tps": 70.99,
+  "returncode": 0,
+  "seconds": 10.434,
+  "stdout_bytes": 289,
+  "stdout_sha256": "b6cdcf29e713c640c972e44c4625f125aacc6cfc06ca6be20f996ee68495c3a3"
+}

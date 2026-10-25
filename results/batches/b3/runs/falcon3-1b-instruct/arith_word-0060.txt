@@ -1,0 +1,12 @@
+First, calculate the total number of buttons Nico initially has:
+4 packs * 5 buttons/pack = 20 buttons
+
+Next, subtract the button Nico gives to Dmitri:
+20 buttons - 1 button = 19 buttons
+
+Then, add the 16 buttons Nico receives from Dmitri:
+19 buttons + 16 buttons = 35 buttons
+
+So, Nico has #### 35 buttons. [end of text]
+
+

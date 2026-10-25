@@ -1,0 +1,16 @@
+Let’s break it down step-by-step:
+
+1. Jamal’s phone holds **6 times** more photos than Brittany’s.
+   - Given Jamal’s capacity is **1800**, so:
+     Brittany’s capacity = 1800 ÷ 6 = **300**.
+
+2. Brittany’s phone holds **50 times** more photos than the number of ducks in Jamal’s photo.
+   - So, if the number of ducks is **D**, then:
+     300 = 50 × D.
+
+3. Solve for **D**:
+   D = 300 ÷ 50 = **6**.
+
+#### 6 [end of text]
+
+

@@ -1,0 +1,6 @@
+First, find the total number of seats: 10 rows * 9 seats/row = 90 seats.
+Then, subtract the number of seats sold from the total number of seats: 90 seats - 7 seats = 83 seats.
+
+####83 [end of text]
+
+

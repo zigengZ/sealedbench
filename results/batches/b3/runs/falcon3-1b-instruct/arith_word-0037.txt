@@ -1,0 +1,23 @@
+First, let's calculate the total number of erasers Dmitri initially has:
+
+4 packs * 8 erasers/pack = 32 erasers
+
+Next, we determine how many erasers Dmitri gives away:
+
+17 erasers (to Esme) + 18 erasers (from Esme) = 35 erasers
+
+Now, subtract the number of erasers given away from the initial total:
+
+32 erasers - 35 erasers = -3 erasers
+
+Since Dmitri cannot have a negative number of erasers, this indicates a mistake in the problem setup or a misunderstanding. Let's re-evaluate the problem:
+
+If Dmitri gives away 35 erasers, he should have:
+
+32 erasers - 35 erasers = -3 erasers
+
+This means he actually has 3 erasers left, which is not possible since he started with 32 erasers.
+
+#### -3 [end of text]
+
+

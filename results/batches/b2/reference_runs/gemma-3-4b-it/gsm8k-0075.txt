@@ -1,0 +1,24 @@
+Let $A_1, A_2, A_3, A_4$ be the square footage of the four levels of the sandcastle, where $A_1$ is the top level and $A_4$ is the bottom level. We are given that each level has half the square footage as the level below it. This means $A_i = \frac{1}{2} A_{i+1}$ for $i = 1, 2, 3$. We are also given that the top level has a square footage of 16, so $A_1 = 16$.
+
+We can find the square footage of each level:
+$A_1 = 16$
+$A_2 = \frac{1}{2} A_1 = \frac{1}{2}(16) = 8$
+$A_3 = \frac{1}{2} A_2 = \frac{1}{2}(8) = 4$
+$A_4 = \frac{1}{2} A_3 = \frac{1}{2}(4) = 2$
+
+The total square footage of the sandcastle is $A_1 + A_2 + A_3 + A_4 = 16 + 8 + 4 + 2 = 30$.
+The average square footage of a level is $\frac{\text{Total square footage}}{\text{Number of levels}} = \frac{30}{4} = 7.5$.
+
+Alternatively, we can express the square footage of each level as $A_i = 16 \cdot \left(\frac{1}{2}\right)^{4-i}$.
+Then $A_1 = 16 \cdot \left(\frac{1}{2}\right)^{4-1} = 16 \cdot \left(\frac{1}{2}\right)^3 = 16 \cdot \frac{1}{8} = 2$. This is incorrect.
+
+Let's reconsider the problem. We are given that each level has half the square footage as the level below it. So $A_2 = \frac{1}{2} A_1$, $A_3 = \frac{1}{2} A_2$, and $A_4 = \frac{1}{2} A_3$.
+We are given $A_1 = 16$.
+Then $A_2 = \frac{1}{2}(16) = 8$.
+$A_3 = \frac{1}{2}(8) = 4$.
+$A_4 = \frac{1}{2}(4) = 2$.
+The average square footage is $\frac{16+8+4+2}{4} = \frac{30}{4} = 7.5$.
+
+#### 7.5 [end of text]
+
+

@@ -1,0 +1,45 @@
+We are told:
+
+- Wendi feeds **each chicken** **3 cups** of feed per day.
+- She feeds them in **three meals**.
+- The flock has **20 chickens**.
+- In the morning: 15 cups
+- In the afternoon: 25 cups
+- We need to find how many cups are needed in the **final (evening) meal**.
+
+---
+
+**Step 1: Total feed needed per day**
+
+Each chicken gets 3 cups, so for 20 chickens:
+
+$$
+20 \text{ chickens} \times 3 \text{ cups} = 60 \text{ cups per day}
+$$
+
+---
+
+**Step 2: Subtract the morning and afternoon feed**
+
+Morning: 15 cups  
+Afternoon: 25 cups  
+
+Total given so far:
+
+$$
+15 + 25 = 40 \text{ cups}
+$$
+
+---
+
+**Step 3: Final meal**
+
+$$
+60 - 40 = 20 \text{ cups}
+$$
+
+---
+
+#### 20 [end of text]
+
+

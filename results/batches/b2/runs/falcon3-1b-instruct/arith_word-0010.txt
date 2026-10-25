@@ -1,0 +1,8 @@
+Cara earns 13 dollars per hour. 
+On day 1, Cara works 3 hours, so she earns 3 * 13 = 39 dollars.
+On day 2, Cara works 6 hours, so she earns 6 * 13 = 78 dollars.
+On day 3, Cara works 2 hours, so she earns 2 * 13 = 26 dollars.
+In total, Cara earns 39 + 78 + 26 = 143 dollars.
+#### 143 [end of text]
+
+

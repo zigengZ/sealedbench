@@ -1,0 +1,268 @@
+{
+  "batch_id": "b1",
+  "batch_valid": true,
+  "completions_bytes": 193525,
+  "completions_repo_path": "results/batches/b1/completions.tar.gz",
+  "completions_sha256": "6c111634519f65f493aabaacdc658734a7cb1ec5a4441e9acf5524f573714992",
+  "grade_detail_bytes": 209964,
+  "grade_detail_sha256": "fddb05ee9b594165acbedd40d541fc11cf7b8d61e2ea74d3768d4fd448c3285a",
+  "models": {
+    "falcon3-1b-instruct": {
+      "families": {
+        "arith_word": {
+          "accuracy": 0.9083333333333333,
+          "correct": 109,
+          "invalid": 0,
+          "n": 120,
+          "wilson95": [
+            0.843291530273291,
+            0.9480428171514347
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.016666666666666666,
+          "correct": 1,
+          "invalid": 0,
+          "n": 60,
+          "wilson95": [
+            0.0029481597947862495,
+            0.08855129727590061
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.05,
+          "correct": 3,
+          "invalid": 0,
+          "n": 60,
+          "wilson95": [
+            0.01714950216439568,
+            0.1370051647634852
+          ]
+        }
+      },
+      "gap_arith_minus_gsm8k": {
+        "gap": 0.49166666666666664,
+        "method": "Wald 95% interval for the difference of independent proportions",
+        "wald95": [
+          0.3894600659247903,
+          0.593873267408543
+        ]
+      },
+      "gsm8k120": {
+        "accuracy": 0.4166666666666667,
+        "correct": 50,
+        "invalid": 0,
+        "n": 120,
+        "wilson95": [
+          0.3323835214047597,
+          0.5061196729983577
+        ]
+      }
+    },
+    "gemma-3-4b-it": {
+      "families": {
+        "arith_word": {
+          "accuracy": 0.9666666666666667,
+          "correct": 116,
+          "invalid": 0,
+          "n": 120,
+          "wilson95": [
+            0.917419662440894,
+            0.9869624489016494
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.4166666666666667,
+          "correct": 25,
+          "invalid": 18,
+          "n": 60,
+          "wilson95": [
+            0.30064278558341617,
+            0.5427191897735989
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.6833333333333333,
+          "correct": 41,
+          "invalid": 0,
+          "n": 60,
+          "wilson95": [
+            0.5576623297382323,
+            0.7869413244763347
+          ]
+        }
+      },
+      "gap_arith_minus_gsm8k": {
+        "gap": 0.1333333333333333,
+        "method": "Wald 95% interval for the difference of independent proportions",
+        "wald95": [
+          0.05932228195717337,
+          0.20734438470949323
+        ]
+      },
+      "gsm8k120": {
+        "accuracy": 0.8333333333333334,
+        "correct": 100,
+        "invalid": 0,
+        "n": 120,
+        "wilson95": [
+          0.7565471860673773,
+          0.8894400363201539
+        ]
+      }
+    },
+    "ministral-3-3b-instruct-2512": {
+      "families": {
+        "arith_word": {
+          "accuracy": 0.9583333333333334,
+          "correct": 115,
+          "invalid": 0,
+          "n": 120,
+          "wilson95": [
+            0.9061591476629647,
+            0.9820732831198906
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.1,
+          "correct": 6,
+          "invalid": 0,
+          "n": 60,
+          "wilson95": [
+            0.04664283447388416,
+            0.20149464723978772
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.38333333333333336,
+          "correct": 23,
+          "invalid": 0,
+          "n": 60,
+          "wilson95": [
+            0.27088272374082023,
+            0.5098240417590008
+          ]
+        }
+      },
+      "gap_arith_minus_gsm8k": {
+        "gap": 0.125,
+        "method": "Wald 95% interval for the difference of independent proportions",
+        "wald95": [
+          0.04934026102715229,
+          0.20065973897284772
+        ]
+      },
+      "gsm8k120": {
+        "accuracy": 0.8333333333333334,
+        "correct": 100,
+        "invalid": 0,
+        "n": 120,
+        "wilson95": [
+          0.7565471860673773,
+          0.8894400363201539
+        ]
+      }
+    },
+    "qwen3-4b-instruct-2507": {
+      "families": {
+        "arith_word": {
+          "accuracy": 0.875,
+          "correct": 105,
+          "invalid": 0,
+          "n": 120,
+          "wilson95": [
+            0.8039705979199262,
+            0.9227650272660463
+          ]
+        },
+        "code_output": {
+          "accuracy": 0.48333333333333334,
+          "correct": 29,
+          "invalid": 7,
+          "n": 60,
+          "wilson95": [
+            0.36175049539732784,
+            0.6069218996740751
+          ]
+        },
+        "graph_path": {
+          "accuracy": 0.16666666666666666,
+          "correct": 10,
+          "invalid": 0,
+          "n": 60,
+          "wilson95": [
+            0.0931317697919145,
+            0.2803161316361453
+          ]
+        }
+      },
+      "gap_arith_minus_gsm8k": {
+        "gap": 0.008333333333333304,
+        "method": "Wald 95% interval for the difference of independent proportions",
+        "wald95": [
+          -0.07652249865454083,
+          0.09318916532120744
+        ]
+      },
+      "gsm8k120": {
+        "accuracy": 0.8666666666666667,
+        "correct": 104,
+        "invalid": 0,
+        "n": 120,
+        "wilson95": [
+          0.7943520342531573,
+          0.9162339103731271
+        ]
+      }
+    }
+  },
+  "protocol_version": "sealedbench/v1",
+  "question_set_sha256": "a91b6dab74eee35c8aaba81f8323610a5604fc7d73529bc7229aa3c6e1668193",
+  "release_round": 33170212,
+  "unlock_utc": "2026-10-18T09:00:00Z",
+  "validity_note": "Manifest bundle L1 timestamp 2026-10-17T15:21:00Z and ciphertext bundle L1 timestamp 2026-10-17T15:21:00Z are before 2026-10-18T09:00:00Z. L1 status source manifest=https://ar-io.dev ciphertext=https://ar-io.dev.",
+  "worked_example": {
+    "family": "arith_word",
+    "item_id": "arith_word-0000",
+    "models": [
+      {
+        "correct": true,
+        "detail": "match",
+        "invalid": false,
+        "model": "qwen3-4b-instruct-2507",
+        "oracle": "45",
+        "parsed": "45",
+        "raw_answer": "Olga buys 3 packs of buttons, and each pack has 3 buttons.  \nSo, total buttons Olga has:  \n3 packs \u00d7 3 buttons = 9 buttons\n\nShe gives 4 buttons to Boris, so she keeps:  \n9 \u2212 4 = 5 buttons\n\nEach button is worth $9, so the value of Olga's remaining buttons is:  \n5 buttons \u00d7 $9 = $45\n\n#### 45 [end of text]\n\n\n"
+      },
+      {
+        "correct": true,
+        "detail": "match",
+        "invalid": false,
+        "model": "gemma-3-4b-it",
+        "oracle": "45",
+        "parsed": "45",
+        "raw_answer": "First, find the total number of buttons Olga has: 3 packs * 3 buttons/pack = 9 buttons.\nThen, Olga has 9 buttons - 4 buttons = 5 buttons left.\nFinally, calculate the total value of Olga's buttons: 5 buttons * 9 dollars/button = 45 dollars.\n\n####45 [end of text]\n\n\n"
+      },
+      {
+        "correct": true,
+        "detail": "match",
+        "invalid": false,
+        "model": "ministral-3-3b-instruct-2512",
+        "oracle": "45",
+        "parsed": "45",
+        "raw_answer": "Olga starts with 3 packs \u00d7 3 buttons = 9 buttons.\nAfter giving 4 buttons to Boris, she has 9 - 4 = 5 buttons left.\nEach button is worth $9, so 5 \u00d7 9 = 45 dollars.\n\n#### 45 [end of text]\n\n\n"
+      },
+      {
+        "correct": true,
+        "detail": "match",
+        "invalid": false,
+        "model": "falcon3-1b-instruct",
+        "oracle": "45",
+        "parsed": "45",
+        "raw_answer": "First, let's calculate the total number of buttons Olga has after buying the packs and giving some to Boris.\n\n1. Olga buys 3 packs of buttons.\n2. Each pack contains 3 buttons.\n3. Total buttons = 3 packs * 3 buttons/pack = 9 buttons.\n\nNext, Olga gives 4 buttons to Boris.\n\n4. Total buttons after giving some to Boris = 9 buttons - 4 buttons = 5 buttons.\n\nEach button is worth 9 dollars.\n\nSo, the total worth of Olga's buttons is:\n\n5 buttons * 9 dollars/button = 45 dollars.\n\n#### 45 [end of text]\n\n\n"
+      }
+    ],
+    "oracle_answer": "45",
+    "prompt": "Olga buys 3 packs of buttons. Each pack contains 3 buttons. Then Olga gives 4 buttons to Boris. Each button is worth 9 dollars. How many dollars are Olga's buttons worth?"
+  }
+}

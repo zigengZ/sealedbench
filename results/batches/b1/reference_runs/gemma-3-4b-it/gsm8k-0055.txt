@@ -1,0 +1,6 @@
+First, find the number of lollipops remaining: 30 - 2 = 28 lollipops.
+Then, divide the remaining lollipops by the number of lollipops per bag: 28 / 2 = 14 bags.
+
+####14 [end of text]
+
+

@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Ash, Bay, Oak, Poe, Vale  
+**Edges and weights**:
+- Amber – Ash: 5  
+- Amber – Bay: 7  
+- Amber – Vale: 2  
+- Ash – Poe: 9  
+- Bay – Oak: 8  
+- Bay – Poe: 3  
+- Oak – Vale: 4  
+- Poe – Vale: 5  
+
+We are to find the **shortest path from Amber to Poe** in terms of total weight.
+
+---
+
+### Step 1: List all possible paths from Amber to Poe
+
+We'll consider paths through different intermediate nodes.
+
+---
+
+**Path 1: Amber → Ash → Poe**  
+Weight: 5 (Amber–Ash) + 9 (Ash–Poe) = **14**
+
+---
+
+**Path 2: Amber → Bay → Poe**  
+Weight: 7 (Amber–Bay) + 3 (Bay–Poe) = **10**
+
+---
+
+**Path 3: Amber → Vale → Poe**  
+Weight: 2 (Amber–Vale) + 5 (Vale–Poe) = **7**
+
+---
+
+**Path 4: Amber → Bay → Oak → Vale → Poe**  
+Weight: 7 + 8 + 4 + 5 = 24 → too long
+
+**Path 5: Amber → Vale → Oak → Bay → Poe**  
+Weight: 2 + 4 + 8
+

@@ -1,0 +1,42 @@
+We are given:
+
+- Total trail length: 12 miles  
+- Marissa has already walked:
+  - 4 miles in 1 hour
+  - Next 2 miles in 1 hour  
+- So far, she has walked 6 miles in 2 hours  
+- She wants her **average speed** over the entire 12-mile trail to be **4 miles per hour**
+
+We are to find the speed she needs to walk the **remaining 6 miles** (since 12 - 6 = 6) to achieve an average speed of 4 mph.
+
+---
+
+### Step 1: Use the formula for average speed
+
+Average speed = Total distance / Total time
+
+She wants:
+
+$$
+\text{Average speed} = \frac{12 \text{ miles}}{\text{Total time}} = 4 \text{ mph}
+$$
+
+So:
+
+$$
+\text{Total time} = \frac{12}{4} = 3 \text{ hours}
+$$
+
+She has already spent 2 hours, so she has **1 hour left** to walk the remaining 6 miles.
+
+---
+
+### Step 2: Find required speed for remaining distance
+
+$$
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{6 \text{ miles}}{1 \text{ hour}} = 6 \text{ mph}
+$$
+
+#### 6 [end of text]
+
+

@@ -1,0 +1,8 @@
+First, find the total number of tokens Yara has: 6 packs * 5 tokens/pack = 30 tokens.
+Then, Yara gives 16 tokens to Pavel, so she has 30 - 16 = 14 tokens.
+Next, Pavel gives Yara 15 tokens, so she has 14 + 15 = 29 tokens.
+Finally, calculate the total value of Yara's tokens: 29 tokens * $9/token = $261.
+
+#### 261 [end of text]
+
+

@@ -1,0 +1,24 @@
+To find out how much Zane earns in total, we need to calculate his earnings for each day and then sum them up.
+
+**Day 1:**
+- Hours worked: 6
+- Earnings per hour: $20
+- Earnings for Day 1 = 6 hours * $20/hour = $120
+
+**Day 2:**
+- Hours worked: 3
+- Earnings per hour: $20
+- Earnings for Day 2 = 3 hours * $20/hour = $60
+
+**Day 3:**
+- Hours worked: 3
+- Earnings per hour: $20
+- Earnings for Day 3 = 3 hours * $20/hour = $60
+
+**Total Earnings:**
+- Total earnings = Earnings for Day 1 + Earnings for Day 2 + Earnings for Day 3
+- Total earnings = $120 + $60 + $60 = $240
+
+#### 240 [end of text]
+
+

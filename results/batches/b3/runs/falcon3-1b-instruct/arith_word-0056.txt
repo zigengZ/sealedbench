@@ -1,0 +1,17 @@
+First, let's calculate the total number of balloons Kira initially has.
+
+Kira buys 7 packs of balloons, and each pack contains 4 balloons.
+
+Total balloons = Number of packs × Balloons per pack
+Total balloons = 7 packs × 4 balloons/pack
+Total balloons = 28 balloons
+
+Kira then gives 4 balloons to Hugo.
+
+Remaining balloons = Total balloons - Balloons given to Hugo
+Remaining balloons = 28 balloons - 4 balloons
+Remaining balloons = 24 balloons
+
+So, Kira has #### 24 balloons. [end of text]
+
+

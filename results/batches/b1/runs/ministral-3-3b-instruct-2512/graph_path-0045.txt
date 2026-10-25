@@ -1,0 +1,37 @@
+To find the shortest path from **Cleo** to **Glen**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Cleo → Kai → Glen**
+   - Cleo → Kai: 2
+   - Kai → Glen: 5
+   - Total: **7**
+
+2. **Cleo → Kai → Tess → Dove → Glen**
+   - Cleo → Kai: 2
+   - Kai → Tess: 1
+   - Tess → Dove: 9
+   - Dove → Glen: 8
+   - Total: **20** (longer than the first path)
+
+3. **Cleo → Kai → Bay → Tess → Dove → Glen**
+   - Cleo → Kai: 2
+   - Kai → Bay: 8
+   - Bay → Tess: 5
+   - Tess → Dove: 9
+   - Dove → Glen: 8
+   - Total: **32** (longer)
+
+4. **Cleo → Kai → Ash → Bay → Tess → Dove → Glen**
+   - Cleo → Kai: 2
+   - Kai → Ash: 1
+   - Ash → Bay: 3
+   - Bay → Tess: 5
+   - Tess → Dove: 9
+   - Dove → Glen: 8
+   - Total: **28** (longer)
+
+The shortest path is **Cleo → Kai → Glen** with a total weight of **7**.
+
+#### 7 [end of text]
+
+

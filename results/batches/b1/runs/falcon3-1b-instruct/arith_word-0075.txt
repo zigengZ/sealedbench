@@ -1,0 +1,15 @@
+First, calculate the total number of notebooks Diego bought:
+
+8 packs * 12 notebooks/pack = 96 notebooks
+
+Then, add the notebooks from the second set of packs:
+
+96 notebooks + 5 packs * 8 notebooks/pack = 96 + 40 = 136 notebooks
+
+Finally, subtract the notebooks given to Quinn:
+
+136 notebooks - 60 notebooks = 76 notebooks
+
+So, Diego has #### 76 notebooks. [end of text]
+
+

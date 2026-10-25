@@ -1,0 +1,7 @@
+Rosa starts with 7 packs * 7 ribbons/pack = 49 ribbons.
+She gives 31 ribbons to Samir, so she has 49 - 31 = 18 ribbons left.
+Samir gives Rosa 22 more ribbons, making her total 18 + 22 = 40 ribbons.
+Each ribbon is worth 9 dollars, so 40 ribbons are worth 40 * 9 = 360 dollars.
+#### 360 [end of text]
+
+

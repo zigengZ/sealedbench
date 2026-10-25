@@ -1,0 +1,9 @@
+Jim spends **2 hours** on TV each day and **1 hour** reading (half of 2 hours). That's **3 hours per day** (2 + 1).
+
+For **3 days a week**, he spends **9 hours** (3 hours/day × 3 days).
+
+In **4 weeks**, he spends **36 hours** (9 hours/week × 4 weeks).
+
+#### 36 [end of text]
+
+

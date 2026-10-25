@@ -1,0 +1,11 @@
+Kira's earnings:
+- Day 1: 26 dollars/hour × 4 hours = 104 dollars
+- Day 2: 26 dollars/hour × 5 hours = 130 dollars
+Total earnings = 104 + 130 = 234 dollars
+
+After spending 151 dollars:
+234 - 151 = 83 dollars left
+
+#### 83 [end of text]
+
+

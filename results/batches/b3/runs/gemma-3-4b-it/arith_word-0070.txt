@@ -1,0 +1,9 @@
+Jamal earns $18 per hour.
+On day 1, he works 2 hours, so he earns 2 * $18 = $36.
+On day 2, he works 2 hours, so he earns 2 * $18 = $36.
+On day 3, he works 2 hours, so he earns 2 * $18 = $36.
+Total earnings = $36 + $36 + $36 = 3 * $36 = $108.
+
+####108 [end of text]
+
+

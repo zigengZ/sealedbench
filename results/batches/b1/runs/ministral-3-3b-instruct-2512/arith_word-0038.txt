@@ -1,0 +1,5 @@
+Hugo starts with 6 packs, each containing 12 balloons, so he has 6 × 12 = 72 balloons. Yara then gives him 20 more, so he has 72 + 20 = 92 balloons.
+
+#### 92 [end of text]
+
+

@@ -1,0 +1,13 @@
+Diego earns $19 per hour and works 3 hours:
+
+$19 \times 3 = 57$ dollars.
+
+Then he spends $4:
+
+$57 - 4 = 53$ dollars.
+
+So, Diego has $53 left.
+
+#### 53 [end of text]
+
+

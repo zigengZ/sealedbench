@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path weight** from **Cleo** to **Drew**.
+
+---
+
+### Step 1: List all nodes
+- Amber, Blair, Cleo, Drew, Indigo, Moss, Poe, Tess, Zed
+
+---
+
+### Step 2: List all edges with weights
+
+- Amber–Cleo: 1  
+- Amber–Moss: 7  
+- Amber–Poe: 6  
+- Blair–Poe: 5  
+- Cleo–Tess: 8  
+- Drew–Poe: 5  
+- Drew–Zed: 9  
+- Indigo–Tess: 6  
+- Indigo–Zed: 7  
+- Moss–Zed: 8  
+- Poe–Zed: 7  
+
+---
+
+We want the **shortest path from Cleo to Drew**.
+
+---
+
+### Step 3: Use shortest path algorithm (like Dijkstra’s)
+
+We’ll manually trace possible paths from Cleo to Drew.
+
+---
+
+#### Path 1: Cleo → Tess → Indigo → Zed → Drew  
+- Cleo–Tess: 8  
+- Tess–Indigo: 6 (via edge Indigo–Tess)  
+- Indigo–Zed: 7  
+- Zed–Drew: 9  
+→ Total: 8 + 6 + 7 + 9 = **30**
+
+#### Path 2: Cleo
+

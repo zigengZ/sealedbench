@@ -1,0 +1,13 @@
+Let $T$ be the number of sheep Toulouse has, $C$ be the number of sheep Charleston has, and $S$ be the number of sheep Seattle has.
+We are given that Toulouse has twice as many sheep as Charleston, so $T = 2C$.
+We are also given that Charleston has 4 times as many sheep as Seattle, so $C = 4S$.
+We are given that Seattle has 20 sheep, so $S = 20$.
+
+Now we can find the number of sheep Charleston has: $C = 4S = 4(20) = 80$.
+Next, we can find the number of sheep Toulouse has: $T = 2C = 2(80) = 160$.
+
+The total number of sheep is $T + C + S = 160 + 80 + 20 = 260$.
+
+####260 [end of text]
+
+

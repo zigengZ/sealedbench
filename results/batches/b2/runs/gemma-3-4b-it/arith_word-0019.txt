@@ -1,0 +1,6 @@
+First, we calculate Olga's total earnings: 11 dollars/hour * 4 hours = 44 dollars.
+Then, we subtract the amount she spent from her earnings: 44 dollars - 42 dollars = 2 dollars.
+
+####2 [end of text]
+
+

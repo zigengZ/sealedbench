@@ -1,0 +1,15 @@
+First, find the total number of buttons from the first 7 packs:
+
+7 packs × 5 buttons per pack = 35 buttons
+
+Next, find the total from the 4 packs:
+
+4 packs × 8 buttons per pack = 32 buttons
+
+Now, add both amounts:
+
+35 + 32 = 67 buttons
+
+#### 67 [end of text]
+
+

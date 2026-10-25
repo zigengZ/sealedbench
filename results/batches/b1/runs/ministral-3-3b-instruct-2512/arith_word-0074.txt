@@ -1,0 +1,7 @@
+Nico reads **35** pages initially (7 pages/day × 5 days).
+Adding the extra 11 pages gives **46** pages.
+Skipping 44 blank pages leaves **2** pages counted.
+
+#### 2 [end of text]
+
+

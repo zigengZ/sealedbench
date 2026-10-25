@@ -1,0 +1,13 @@
+Let’s break it down step-by-step:
+
+1. **Original grocery cost**: $40.00
+2. **25% delivery vendor fee**: 0.25 × $40 = $10.00
+3. **Delivery fees**: $3.00
+4. **Tip**: $4.00
+
+Now, add all the extra fees to the original cost:
+$40 + $10 + $3 + $4 = $57.00
+
+#### 57 [end of text]
+
+

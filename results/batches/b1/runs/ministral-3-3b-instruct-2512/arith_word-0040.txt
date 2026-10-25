@@ -1,0 +1,7 @@
+Dmitri starts with **9 packs × 4 notebooks = 36 notebooks**.
+After giving 13 to Gina: **36 – 13 = 23 notebooks**.
+Gina then gives him 23 more: **23 + 23 = 46 notebooks**.
+
+#### 46 [end of text]
+
+

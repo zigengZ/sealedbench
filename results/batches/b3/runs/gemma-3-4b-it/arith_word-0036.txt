@@ -1,0 +1,8 @@
+First, find the total number of badges Felix has: 5 packs * 8 badges/pack = 40 badges.
+Then, subtract the badges Felix gave to Nico: 40 badges - 25 badges = 15 badges.
+Next, add the badges Nico gave to Felix: 15 badges + 23 badges = 38 badges.
+Finally, calculate the total value of Felix's badges: 38 badges * $9/badge = $342.
+
+#### 342 [end of text]
+
+

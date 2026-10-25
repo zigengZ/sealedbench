@@ -1,0 +1,61 @@
+To find the shortest path between Hart and Vale, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Hart as 0 and to all other nodes as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Process**:
+   - Extract the node with the minimum distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is not already in the queue.
+   - If the new distance is less than the current known distance, update the distance and insert the neighbor into the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+   - The distance to Hart will be the minimum distance among all nodes.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Drew': [9, 1],
+    'Hart': [2, 'Drew', 7],
+    'Kai': ['Hart', 'Quinn'],
+    'Nell': ['Hart', 'Quinn'],
+    'Quill': ['Quinn', 'Hart'],
+    'Sage': ['Quinn'],
+    'Vale': ['Quinn'],
+    'Xen': ['Quinn']
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Hart'] = 0
+
+# Priority queue
+priority_queue = [(0, 'Hart')]
+
+# Process nodes
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in graph[current_node].items():
+        new_distance = current_distance + weight
+        if new_distance < distances[neighbor]:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance, neighbor))
+
+# Distance to Hart
+distance_to_hart = distances['Hart']
+
+print(f"The total weight of the shortest path between Hart and Vale is {distance_to_hart}")
+```
+
+Running this code will give us the total weight of the shortest path between Hart and Vale.
+
+#### 10 [end of text]
+
+

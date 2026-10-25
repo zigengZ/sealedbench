@@ -1,0 +1,56 @@
+To find the shortest path from **Oak** to **Vale**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Start at Oak (distance = 0)**:
+   - Neighbors: Cleo (distance = 5).
+   - Update: Cleo = 5.
+
+2. **Next, explore Cleo (distance = 5)**:
+   - Neighbors: Oak (already visited), Uri (distance = 5 + 4 = 9).
+   - Update: Uri = 9.
+
+3. **Next, explore Sage (distance = 4)** (via Amber):
+   - Neighbors: Amber (visited), Kai (distance = 4 + 1 = 5), Poe (distance = 4 + 6 = 10), Uri (distance = min(9, 4 + 6) → no update).
+   - Update: Kai = 5, Poe = 10.
+
+4. **Next, explore Uri (distance = 9)**:
+   - Neighbors: Cedar (distance = 9 + 4 = 13), Cleo (visited), Poe (distance = min(10, 9 + 4) → no update), West (distance = 9 + 4 = 13), Sage (visited).
+   - Update: Cedar = 13, West = 13.
+
+5. **Next, explore Kai (distance = 5)**:
+   - Neighbors: Sage (visited).
+   - No updates.
+
+6. **Next, explore Poe (distance = 10)**:
+   - Neighbors: Sage (visited), Uri (visited).
+   - No updates.
+
+7. **Next, explore Cedar (distance = 13)**:
+   - Neighbors: Amber (distance = 13 + 9 = 22), Cedar (visited), Uri (visited), West (distance = min(13, 13 + 4) → no update).
+   - Update: Amber = 22.
+
+8. **Next, explore West (distance = 13)**:
+   - Neighbors: Cedar (visited).
+   - No updates.
+
+9. **Next, explore Vale (distance = 2)** (via Sage):
+   - Sage is already visited with a shorter path (4), but we can reach Vale via Sage (distance = 4 + 2 = 6).
+   - Wait, let's recheck the path to Sage:
+     - Amber → Sage (4) is the shortest path to Sage.
+     - Sage → Vale (2) gives a total of 6.
+
+   However, we missed a shorter path:
+   - **Amber → Sage (4) → Vale (2) = 6** is the shortest.
+
+   But wait, let's check if there's a shorter path via Uri:
+   - **Oak → Cleo → Uri → Sage → Vale**:
+     - Oak → Cleo (5) + Cleo → Uri (4) + Uri → Sage (1) + Sage → Vale (2) = 12 (longer).
+
+   - **Oak → Cleo → Uri → West → Cedar → Amber → Sage → Vale** is too long.
+
+   The shortest path is indeed **Amber → Sage → Vale** with a total weight of **6**.
+
+   Wait, let's verify the shortest path again:
+   - **Oak → Cleo → Sage → Vale**:
+     - Oak → Cleo (5) + Cleo → Sage (no direct edge, but Cleo → Uri → Sage = 4 + 1 = 5) → total = 
+

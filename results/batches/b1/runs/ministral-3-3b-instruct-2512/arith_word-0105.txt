@@ -1,0 +1,10 @@
+Willa starts with:
+- 6 packs × 8 magnets = 48 magnets
+- 4 packs × 6 magnets = 24 magnets
+Total magnets = 48 + 24 = 72 magnets
+
+After giving 22 to Olga, she has 72 - 22 = 50 magnets left.
+
+Each magnet is worth $5, so total value = 50 × 5 = **250** [end of text]
+
+

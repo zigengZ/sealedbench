@@ -1,0 +1,19 @@
+Let’s denote the number of silver coins as **S** and the number of gold coins as **G**.
+
+Given:
+1. Total coins: **S + G = 110**
+2. There are 30 more gold coins than silver coins: **G = S + 30**
+
+Substitute the second equation into the first:
+**S + (S + 30) = 110**
+**2S + 30 = 110**
+**2S = 80**
+**S = 40**
+
+Now, substitute **S = 40** back into **G = S + 30**:
+**G = 40 + 30 = 70**
+
+Gretchen has **70** gold coins.
+#### 70 [end of text]
+
+

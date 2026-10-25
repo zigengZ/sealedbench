@@ -1,0 +1,30 @@
+To find the shortest path from **Oak** to **York**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Oak (Oak → ...)**:
+   - **Oak → Eden (5)** (via Eden Oak)
+   - **Oak → Jules (9)** (via Jules Oak)
+   - **Oak → Poe (7)** (via Oak Poe)
+
+2. **From Eden (5)**:
+   - **Eden → Xen (3)** (via Eden Xen)
+   - **Eden → York (no direct edge, skip)**
+
+3. **From Jules (9)**:
+   - **Jules → Poe (2)** (via Jules Poe)
+   - **Jules → Xen (2)** (via Jules Xen)
+   - **Jules → York (9)** (via Jules York)
+
+4. **From Poe (7)**:
+   - **Poe → Xen (9)** (via Poe Xen)
+
+5. **From Xen (3 or 2)**:
+   - **Xen → Cleo (no direct edge, skip)**
+   - **Xen → Eden (already visited, skip)**
+   - **Xen → Jules (already visited, skip)**
+   - **Xen → Poe (already visited, skip)**
+
+6. **From York (no incoming edges yet)**:
+   - **York → Cleo (no direct edge, skip)**
+   - **York
+

@@ -1,0 +1,7 @@
+First, find the total number of muffins Hugo buys: 2 packs * 12 muffins/pack = 24 muffins.
+Then, subtract the muffins Hugo gives away: 24 muffins - 5 muffins = 19 muffins.
+
+####19
+ [end of text]
+
+

@@ -1,0 +1,15 @@
+To find out how many pieces were taken by the guests, we need to determine how many pieces were originally in the pies and then subtract the 14 pieces remaining.
+
+1. **Calculate the total number of pieces originally in the pies:**
+   - Each pie was cut into 8 pieces.
+   - There were 5 pies.
+   - Total pieces = 5 pies × 8 pieces/pie = 40 pieces.
+
+2. **Subtract the remaining pieces from the total:**
+   - Total pieces originally = 40.
+   - Remaining pieces = 14.
+   - Pieces taken by guests = Total pieces originally - Remaining pieces = 40 - 14 = 26.
+
+Therefore, the number of pieces taken by the guests is #### 26. [end of text]
+
+

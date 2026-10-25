@@ -1,0 +1,29 @@
+We are given information about how many times each of Jerome's 4 friends pressed the doorbell. We need to find the total number of doorbell rings.
+
+Let's go step by step:
+
+1. **First friend**: Pressed the doorbell **20 times**.
+
+2. **Second friend**: Pressed **1/4 times more** than the first friend.
+
+   - "1/4 times more" means we add 1/4 of 20 to 20.
+   - 1/4 of 20 = 5
+   - So, second friend pressed: 20 + 5 = **25 times**
+
+3. **Fourth friend**: Pressed **60 times** (given directly)
+
+4. **Third friend**: Pressed **10 times more than the fourth friend**.
+   - So, third friend pressed: 60 + 10 = **70 times**
+
+Now, add all the presses:
+
+- First friend: 20  
+- Second friend: 25  
+- Third friend: 70  
+- Fourth friend: 60  
+
+Total = 20 + 25 + 70 + 60 = **175**
+
+#### 175 [end of text]
+
+

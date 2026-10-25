@@ -1,0 +1,7 @@
+Shiela's total cost for the phones is **$750** ($150 × 5). With a 2% interest per phone, the total interest is **$15** ($750 × 2% × 5 phones). The total amount to pay is **$765**.
+
+Dividing by 3 months gives **$255 per month**.
+
+#### 255 [end of text]
+
+

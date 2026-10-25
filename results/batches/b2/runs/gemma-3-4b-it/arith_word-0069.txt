@@ -1,0 +1,15 @@
+First, let's calculate the number of pages Victor reads in the first scenario:
+17 pages/day * 4 days = 68 pages
+
+Next, let's calculate the number of pages Victor reads in the second scenario:
+18 pages/day * 2 days = 36 pages
+
+Now, let's find the total number of pages Victor reads in one week:
+68 pages + 36 pages = 104 pages
+
+Finally, let's calculate the total number of pages Victor reads in 4 weeks:
+104 pages/week * 4 weeks = 416 pages
+
+####416 [end of text]
+
+

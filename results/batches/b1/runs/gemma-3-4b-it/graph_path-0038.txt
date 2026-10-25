@@ -1,0 +1,16 @@
+We want to find the shortest path between Drew and Glen in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Drew to Glen:
+1. Drew -> Reed -> Blair -> Glen: Weight = 6 + 5 + 4 = 15
+2. Drew -> Reed -> Blair -> Amber -> Quill -> Glen: Weight = 6 + 5 + 6 + 2 = 19
+3. Drew -> Reed -> Blair -> Glen: Weight = 6 + 5 + 4 = 15
+4. Drew -> Reed -> Dove -> Glen: Weight = 6 + 3 + 6 = 15
+5. Drew -> Reed -> Dove -> Glen: Weight = 6 + 3 + 6 = 15
+6. Drew -> Reed -> Dove -> Glen: Weight = 6 + 3 + 6 = 15
+7. Drew -> Reed -> Dove -> Glen: Weight = 6 + 3 + 6 = 15
+
+Comparing the paths, the shortest path is Drew -> Reed -> Blair -> Glen with a total weight of 15.
+
+#### 15 [end of text]
+
+

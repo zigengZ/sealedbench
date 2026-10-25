@@ -1,0 +1,23 @@
+Let's denote the number of copies Harald sold as \( H \).
+
+According to the problem, Marilyn's record sold 10 times as many copies as Harald's. Therefore, Marilyn's record sold \( 10H \) copies.
+
+The total number of copies sold by both records is 88,000. Thus, we can set up the following equation:
+
+\[ H + 10H = 88,000 \]
+
+Combine like terms:
+
+\[ 11H = 88,000 \]
+
+To find \( H \), divide both sides by 11:
+
+\[ H = \frac{88,000}{11} \]
+
+\[ H = 8,000 \]
+
+So, Harald sold 8,000 copies.
+
+#### 8000 [end of text]
+
+

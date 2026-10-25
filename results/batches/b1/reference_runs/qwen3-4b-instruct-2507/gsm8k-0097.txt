@@ -1,0 +1,26 @@
+We are told:
+
+- Each 16-ounce can of tomatoes contains **3 tomatoes**.
+- When cooked, the tomatoes **lose half their volume**.
+- Freda’s sauce is **32 ounces**.
+
+Since the tomatoes lose half their volume when cooked, the **original volume** of tomatoes (before cooking) must be **twice** the final sauce volume.
+
+So:
+
+- Final sauce = 32 ounces
+- Original volume of tomatoes = 32 × 2 = **64 ounces**
+
+Now, each 16-ounce can of tomatoes has a volume of 16 ounces and contains 3 tomatoes.
+
+So, how many 16-ounce cans are in 64 ounces?
+
+- 64 ÷ 16 = 4 cans
+
+Each can has 3 tomatoes, so:
+
+- 4 cans × 3 tomatoes = **12 tomatoes**
+
+#### 12 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, we need to find out how many guests are actually attending. Since 1/4 of the invited guests don't show up, the number of attendees is 16 - (1/4)*16 = 16 - 4 = 12.
+
+Next, we calculate the number of gift bags needed: 12 guests * 0.75 gift bags/guest = 9 gift bags.
+
+Finally, we calculate the total cost: 9 gift bags * $2/gift bag = $18.
+
+#### 18 [end of text]
+
+

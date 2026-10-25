@@ -1,0 +1,59 @@
+To find the shortest path between Poe and Zed in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Poe) as 0 and all other nodes as infinity.
+   - Create a priority queue to store nodes and their distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is connected to the neighbor.
+   - Update the distance if the new distance is smaller.
+   - Add the neighbor to the priority queue with the updated distance.
+
+3. **Termination**:
+   - Continue until the priority queue is empty.
+   - The distance to the target node (Zed) will be the minimum distance found.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Amber': [7, 1],
+    'Lark': [8, 8],
+    'Moss': [1, 4],
+    'Poe': [1, 1],
+    'Reed': [3, 1],
+    'Sage': [4, 8],
+    'Zed': [8, 8]
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Poe'] = 0
+
+# Priority queue to store nodes and their distances
+priority_queue = [(0, 'Poe')]
+
+# Process nodes
+while priority_queue:
+    current_distance, current_node = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in graph[current_node].items():
+        new_distance = current_distance + weight
+        if new_distance < distances[neighbor]:
+            distances[neighbor] = new_distance
+            heapq.heappush(priority_queue, (new_distance, neighbor))
+
+# Distance to Zed
+distance_to_zed = distances['Zed']
+
+print(distance_to_zed)
+```
+
+#### 8 and nothing after it. [end of text]
+
+

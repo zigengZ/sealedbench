@@ -1,0 +1,19 @@
+We start with 24 liters of water.
+
+Two girls each got 1/6 of the water.
+
+So, each girl got:  
+1/6 × 24 = 4 liters  
+Two girls: 4 + 4 = 8 liters
+
+Then a boy got 6 liters.
+
+Total water given out:  
+8 (girls) + 6 (boy) = 14 liters
+
+Water left:  
+24 - 14 = 10 liters
+
+#### 10 [end of text]
+
+

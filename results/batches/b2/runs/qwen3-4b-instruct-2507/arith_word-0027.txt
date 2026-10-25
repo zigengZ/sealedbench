@@ -1,0 +1,19 @@
+First, find the total number of crayons Uma buys:
+
+- 6 packs with 10 crayons each:  
+  $6 \times 10 = 60$ crayons
+
+- 4 packs with 7 crayons each:  
+  $4 \times 7 = 28$ crayons
+
+Add them together:  
+$60 + 28 = 88$ crayons
+
+Then, Uma gives 39 crayons to Zane:  
+$88 - 39 = 49$ crayons
+
+So, Uma has **49** crayons left.
+
+#### 49 [end of text]
+
+

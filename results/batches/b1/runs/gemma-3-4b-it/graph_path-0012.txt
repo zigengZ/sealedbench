@@ -1,0 +1,14 @@
+We want to find the shortest path from Cedar to Zed in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cedar to Zed:
+1. Cedar -> West -> Zed: Weight = 4 + 3 = 7
+2. Cedar -> Fern -> Xen -> Moss -> Zed: Weight = 4 + 4 + 8 + 5 = 21
+3. Cedar -> Fern -> Glen -> Moss -> Zed: Weight = 4 + 3 + 2 + 5 = 14
+4. Cedar -> Sage: No path to Zed from Sage.
+5. Cedar -> West -> Zed: Weight = 4 + 3 = 7
+
+Comparing the paths, the shortest path is Cedar -> West -> Zed with a total weight of 7.
+
+#### 7 [end of text]
+
+

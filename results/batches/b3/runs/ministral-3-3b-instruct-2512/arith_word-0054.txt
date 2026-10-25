@@ -1,0 +1,10 @@
+**Reasoning:**
+1. First 4 rows: 4 × 15 = 60 seats
+2. Next 6 rows: 6 × 6 = 36 seats
+3. Total seats = 60 + 36 = 96 seats
+4. Sold seats = 58, so unsold seats = 96 - 58 = 38
+5. Value of unsold seats = 38 × 6 = 228
+
+#### 228 [end of text]
+
+

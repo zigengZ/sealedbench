@@ -1,0 +1,18 @@
+To find out how many cups of feed Wendi needs for her chickens in the final meal, we first calculate the total feed given in the morning and afternoon.
+
+Morning feed: 15 cups
+Afternoon feed: 25 cups
+
+Total feed given in the morning and afternoon: 15 + 25 = 40 cups
+
+Since Wendi has 20 chickens, and each chicken receives 3 cups of feed per meal, we calculate the total feed needed for the chickens in one meal:
+
+3 cups/chicken * 20 chickens = 60 cups
+
+Now, we add the total feed given in the morning and afternoon to find the total feed needed for the final meal:
+
+40 cups (morning and afternoon) + 60 cups (total for chickens) = 100 cups
+
+#### 100 [end of text]
+
+

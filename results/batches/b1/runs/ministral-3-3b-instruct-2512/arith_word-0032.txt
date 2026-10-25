@@ -1,0 +1,11 @@
+Jamal starts with beads from the first purchase:
+8 packs × 7 beads = 56 beads.
+
+Then he adds beads from the second purchase:
+5 packs × 8 beads = 40 beads.
+
+Total beads Jamal has: 56 + 40 = 96 beads.
+
+#### 96 [end of text]
+
+

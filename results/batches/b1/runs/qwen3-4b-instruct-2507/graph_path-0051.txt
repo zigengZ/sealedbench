@@ -1,0 +1,43 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Cedar, Dove, Fern, Poe, Quill, Tess  
+**Edges and weights**:
+- Cedar – Dove: 8  
+- Cedar – Quill: 4  
+- Cedar – Tess: 2  
+- Dove – Fern: 3  
+- Dove – Poe: 5  
+- Fern – Tess: 2  
+- Poe – Quill: 3  
+- Poe – Tess: 6  
+- Quill – Tess: 7  
+
+We are to find the **shortest path weight from Fern to Quill**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build adjacency list for clarity:
+
+- Cedar: Dove(8), Quill(4), Tess(2)  
+- Dove: Cedar(8), Fern(3), Poe(5)  
+- Fern: Dove(3), Tess(2)  
+- Poe: Dove(5), Quill(3), Tess(6)  
+- Quill: Cedar(4), Poe(3), Tess(7)  
+- Tess: Cedar(2), Fern(2), Poe(6), Quill(7)
+
+We want the shortest path from **Fern to Quill**.
+
+---
+
+### Step 2: Use Dijkstra’s algorithm (since all weights are positive)
+
+We start from **Fern** and compute shortest distances to all other nodes, including Quill.
+
+Initialize distances:
+- dist[Fern] = 0  
+- All others: ∞
+
+**Step
+

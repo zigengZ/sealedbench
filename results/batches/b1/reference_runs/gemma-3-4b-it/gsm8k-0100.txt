@@ -1,0 +1,15 @@
+Let $J$ be the number of times Jerome opened the door.
+The first friend pressed the doorbell 20 times.
+The second friend pressed the doorbell $\frac{1}{4}$ times more than the first friend, so the second friend pressed $20 + \frac{1}{4}(20) = 20 + 5 = 25$ times.
+The third friend pressed the doorbell 10 times more than the fourth friend.
+The fourth friend pressed the doorbell 60 times.
+So the third friend pressed $60 + 10 = 70$ times.
+The total number of doorbell rings is the sum of the number of times each friend pressed the doorbell:
+$20 + 25 + 70 + 60 = 175 + 20 = 175$
+Total rings = $20 + 25 + 70 + 60 = 175 + 20 = 175$
+The total number of doorbell rings is $20 + 25 + 70 + 60 = 175$.
+
+Let $r_1, r_2, r_3, r_4$ be the number of times the first, second, third, and fourth friends pressed the doorbell, respectively.
+We are given that $r_1 = 20$.
+The second friend pressed $\frac{1}{4}$ times more than the first friend, so $r
+

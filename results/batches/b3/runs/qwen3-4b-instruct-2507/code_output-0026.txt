@@ -1,0 +1,45 @@
+Let's trace through the program step by step:
+
+We have a list:  
+`words = ['juniper', 'lilac', 'north', 'brook', 'flint']`
+
+We initialize `out = ""`
+
+We loop over `index` from 0 to 4 (since `len(words) = 5`).
+
+---
+
+**index = 0**:  
+- `piece = words[0] = 'juniper'`  
+- `index % 3 == 0` → not 1 → no uppercase  
+- `out == ""` → so `out = 'juniper'`
+
+**index = 1**:  
+- `piece = words[1] = 'lilac'`  
+- `index % 3 == 1` → yes → `piece = 'LILAC'` (uppercase)  
+- `out != ""` → so `out = 'juniper-lilac'`
+
+**index = 2**:  
+- `piece = words[2] = 'north'`  
+- `index % 3 == 2` → not 1 → no uppercase  
+- `out != ""` → so `out = 'juniper-lilac-north'`
+
+**index = 3**:  
+- `piece = words[3] = 'brook'`  
+- `index % 3 == 0` → not 1 → no uppercase  
+- `out != ""` → so `out = 'juniper-lilac-north-brook'`
+
+**index = 4**:  
+- `piece = words[4] = 'flint'`  
+- `index % 3 == 1` → yes → `piece = 'FLINT'` (uppercase)  
+- `out != ""` → so `out = 'juniper-lilac-north-brook-FLINT'`
+
+Final `out` is: `'juniper-lilac-north-brook-FLINT'`
+
+Now, print that.
+
+```python
+juniper-lilac-north-brook-FLINT
+``` [end of text]
+
+

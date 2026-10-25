@@ -1,0 +1,12 @@
+Gina starts with 5 packs of 12 muffins each:
+5 × 12 = 60 muffins.
+
+Then she buys 3 packs of 3 muffins each:
+3 × 3 = 9 muffins.
+
+Adding them together:
+60 + 9 = 69 muffins.
+
+#### 69 [end of text]
+
+

@@ -1,0 +1,9 @@
+Chloe has a total of 7 rows × 9 seats = 63 seats.
+
+Seats sold = 49, so unsold seats = 63 - 49 = 14.
+
+Each unsold seat is worth $7, so total value = 14 × 7 = $98.
+
+#### 98 [end of text]
+
+

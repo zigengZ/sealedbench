@@ -1,0 +1,12 @@
+Elena buys 3 packs of crayons, and each pack has 4 crayons.  
+So, total crayons = 3 × 4 = 12 crayons.
+
+She gives 9 crayons to Yara.  
+So, crayons left = 12 - 9 = 3 crayons.
+
+These 3 crayons are shared equally among 3 people.  
+So, each person gets = 3 ÷ 3 = 1 crayon.
+
+#### 1 [end of text]
+
+

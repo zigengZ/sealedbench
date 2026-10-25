@@ -1,0 +1,31 @@
+To find the shortest path between Indigo and Vale, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to Indigo (Indigo) as 0 and to Vale (Vale) as infinity.
+   - Set the distance to each other node as infinity.
+
+2. **Distribute Distances:**
+   - Start with Indigo (0) and update distances to its neighbors (Amber, Poe, Tess, Vale).
+   - Update distances to Indigo's neighbors (Amber, Poe, Tess, Vale) based on their weights.
+
+3. **Repeat Until Distances Are Updated:**
+   - Continue updating distances to Indigo's neighbors until all distances are finalized.
+
+4. **Find Shortest Path:**
+   - Use the updated distances to find the shortest path from Indigo to Vale.
+
+Let's perform these steps using Python and the `networkx` library.
+
+```python
+import networkx as nx
+
+# Define the graph
+G = nx.Graph()
+
+# Add nodes and edges
+G.add_nodes_from(['Amber', 'Indigo', 'Poe', 'Sage', 'Tess', 'Vale'])
+
+# Add edges and their weights
+G.add_edge('Amber', 'Indigo', weight=9)
+G.add_edge('Amber', 'P
+

@@ -1,0 +1,20 @@
+To find the shortest path from **Poe** to **West**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Poe** and explore neighbors with their edge weights:
+   - Poe → Reed (5)
+   - Poe → Amber (8)
+
+2. **From Reed** (current shortest path: Poe → Reed = 5):
+   - Reed → Amber (5 + 5 = 10) [Poe → Reed → Amber = 10]
+   - Reed → Xen (5 + 4 = 9) [Poe → Reed → Xen = 9]
+
+3. **From Amber** (current shortest path: Poe → Amber = 8):
+   - Amber → Drew (8 + 5 = 13) [Poe → Amber → Drew = 13]
+   - Amber → Reed (8 + 5 = 13) [Poe → Amber → Reed = 13] (longer than existing)
+   - Amber → Uri (8 + 6 = 14) [Poe → Amber → Uri = 14]
+   - Amber → York (8 + 6 = 14) [Poe → Amber → York = 14]
+
+4. **From Xen** (current shortest path: Poe → Reed → Xen = 9):
+   - Xen → Reed (9 + 4 = 13) [Po
+

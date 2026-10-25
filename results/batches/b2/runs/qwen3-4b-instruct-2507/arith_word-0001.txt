@@ -1,0 +1,15 @@
+Ivy earns $19 per hour.
+
+She works:
+- Day 1: 5 hours  
+- Day 2: 5 hours  
+- Day 3: 3 hours  
+
+Total hours = 5 + 5 + 3 = 13 hours
+
+Total earnings = 13 hours × $19/hour  
+= $247
+
+#### 247 [end of text]
+
+

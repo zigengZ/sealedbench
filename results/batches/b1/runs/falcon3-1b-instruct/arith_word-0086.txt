@@ -1,0 +1,8 @@
+Kira earns $26/hour.
+On day 1, Kira works 4 hours, so she earns $26 * 4 = 104$ dollars.
+On day 2, Kira works 5 hours, so she earns $26 * 5 = 130$ dollars.
+In total, Kira earns $104 + 130 = 234$ dollars.
+Kira spends $151 dollars, so she has $234 - 151 = 83$ dollars left.
+#### 83 [end of text]
+
+

@@ -1,0 +1,11 @@
+First, calculate the number of pages read from the first book: 6 pages/day * 3 days = 18 pages.
+
+Next, calculate the number of pages read from the second book: 7 pages/day * 4 days = 28 pages.
+
+Then, add the pages read from both books: 18 pages + 28 pages = 46 pages.
+
+Finally, subtract the skipped pages: 46 pages - 40 pages = 6 pages.
+
+#### 6 [end of text]
+
+

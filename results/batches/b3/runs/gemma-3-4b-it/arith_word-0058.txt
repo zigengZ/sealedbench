@@ -1,0 +1,6 @@
+First, find the total number of oranges Cara buys: 8 packs * 9 oranges/pack = 72 oranges.
+Then, subtract the number of oranges Cara gives to Gina: 72 oranges - 46 oranges = 26 oranges.
+
+####26 [end of text]
+
+

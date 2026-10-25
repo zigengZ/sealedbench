@@ -1,0 +1,9 @@
+Dmitri buys 2 packs of badges, and each pack has 10 badges.  
+So, total badges = 2 × 10 = 20 badges.  
+
+Then he gives 14 badges to Boris.  
+So, badges left = 20 − 14 = 6.  
+
+#### 6 [end of text]
+
+

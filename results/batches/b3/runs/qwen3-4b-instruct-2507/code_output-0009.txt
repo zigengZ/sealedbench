@@ -1,0 +1,42 @@
+Let's trace through the program step by step:
+
+Initial list: `words = ['quartz', 'pine', 'cloud', 'ivory', 'north']`
+
+We initialize `out = ""`
+
+Loop over `index` from 0 to 4 (inclusive):
+
+- index = 0:
+  - piece = words[0] = 'quartz'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is "" → set out = 'quartz'
+
+- index = 1:
+  - piece = words[1] = 'pine'
+  - index % 2 == 1 → True → piece becomes 'PINE'
+  - out is not "" → out = out + ' ' + piece → 'quartz PINE'
+
+- index = 2:
+  - piece = words[2] = 'cloud'
+  - index % 2 == 0 → not 1 → no upper()
+  - out = 'quartz PINE' → out = 'quartz PINE cloud'
+
+- index = 3:
+  - piece = words[3] = 'ivory'
+  - index % 2 == 1 → True → piece becomes 'IVORY'
+  - out = 'quartz PINE cloud' → out = 'quartz PINE cloud Ivory'
+
+- index = 4:
+  - piece = words[4] = 'north'
+  - index % 2 == 0 → not 1 → no upper()
+  - out = 'quartz PINE cloud Ivory' → out = 'quartz PINE cloud Ivory north'
+
+Final `out` = 'quartz PINE cloud Ivory north'
+
+Print that.
+
+```
+quartz PINE cloud Ivory north
+``` [end of text]
+
+

@@ -1,0 +1,10 @@
+Dmitri buys 3 packs of magnets, and each pack has 4 magnets.  
+So, 3 × 4 = 12 magnets from the packs.
+
+Elena gives him 17 more magnets.
+
+Total magnets = 12 + 17 = 29.
+
+#### 29 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, calculate the total pages Uma reads from the first book:
+18 pages/day * 3 days = 54 pages
+
+Next, calculate the total pages Uma reads from the second book:
+16 pages/day * 2 days = 32 pages
+
+Then, add the pages from both books:
+54 pages + 32 pages = 86 pages
+
+Finally, subtract the 17 pages that were blank:
+86 pages - 17 pages = 69 pages
+
+#### 69 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, we need to find out how many cans of tomatoes Freda used. Since the sauce made 32 ounces and each can loses half its volume, the total volume of the cans used must be double the volume of the sauce. So, the total volume of the cans was 32 ounces * 2 = 64 ounces.
+
+Each can contains 16 ounces, so Freda used 64 ounces / 16 ounces/can = 4 cans.
+
+Each can contains 3 tomatoes, so Freda used 4 cans * 3 tomatoes/can = 12 tomatoes.
+
+#### 12 [end of text]
+
+

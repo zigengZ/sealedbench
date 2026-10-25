@@ -1,0 +1,22 @@
+To find the shortest path between Hart and York in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Hart as 0 and to York as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance to Hart is 0 and to York is the maximum distance among all nodes.
+
+#### 11
+
+The total weight of the shortest path between Hart and York is 11. [end of text]
+
+

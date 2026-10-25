@@ -1,0 +1,8 @@
+Tara starts with 3 rows of 6 seats each: 3 × 6 = 18 seats.
+Then adds 3 rows of 8 seats each: 3 × 8 = 24 seats.
+Total seats: 18 + 24 = 42 seats.
+After 6 seats are sold: 42 - 6 = 36 seats remain unsold.
+
+#### 36 [end of text]
+
+

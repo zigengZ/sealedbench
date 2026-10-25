@@ -1,0 +1,11 @@
+Jamal starts with 9 rows of 16 seats each:
+9 × 16 = 144 seats.
+
+Then adds 5 rows of 3 seats each:
+5 × 3 = 15 seats.
+
+Total seats = 144 + 15 = 159 seats.
+
+#### 159 [end of text]
+
+

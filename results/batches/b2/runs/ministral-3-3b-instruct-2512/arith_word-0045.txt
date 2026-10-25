@@ -1,0 +1,12 @@
+Victor earns **$100** in total.
+
+**Reasoning:**
+- Day 1: 4 hours × $25/hour = $100
+- Day 2: 2 hours × $25/hour = $50
+- Total: $100 + $50 = **$150**
+
+Correction: The initial calculation was off. Victor earns **$150**.
+
+#### 150 [end of text]
+
+

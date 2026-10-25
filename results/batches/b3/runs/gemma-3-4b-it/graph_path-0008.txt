@@ -1,0 +1,13 @@
+We want to find the shortest path between Ash and Dove in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Ash to Dove:
+1. Ash -> Uri -> Dove: Weight = 5 + 7 = 12
+2. Ash -> Uri -> Glen -> Dove: Weight = 5 + 4 + 7 = 16
+3. Ash -> Uri -> Kai -> Glen -> Dove: Weight = 5 + 4 + 5 + 7 = 21
+4. Ash -> Uri -> Oak -> Poe -> Uri -> Dove: Weight = 5 + 8 + 9 + 7 + 7 = 36 (This is longer than the first path)
+
+The shortest path is Ash -> Uri -> Dove with a total weight of 12.
+
+#### 12 [end of text]
+
+

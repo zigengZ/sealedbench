@@ -1,0 +1,105 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** from **Oak** to **Quill**.
+
+---
+
+### Step 1: List all edges with weights
+
+Edges:
+- Drew–Jules: 7
+- Drew–Oak: 6
+- Drew–Quill: 7
+- Jules–Oak: 5
+- Jules–Tess: 2
+- Kai–Moss: 1
+- Kai–Poe: 6
+- Kai–Quill: 8
+- Moss–York: 3
+- Poe–Tess: 7
+- Tess–York: 4
+- Xen–York: 3
+
+Note: All edges are undirected.
+
+We are to find the shortest path from **Oak** to **Quill**.
+
+---
+
+### Step 2: Identify possible paths from Oak to Quill
+
+We can try to find paths manually or use a shortest path algorithm (like Dijkstra), but since the graph is small, we can explore paths.
+
+We will consider paths from Oak → Quill.
+
+#### Path 1: Oak → Drew → Quill  
+- Oak–Drew: 6 (via Drew–Oak)  
+- Drew–Quill: 7  
+→ Total: 6 + 7 = **13**
+
+#### Path 2: Oak → Jules → Quill  
+- Oak–Jules: 5  
+- Jules–Quill: ? → Not directly given.  
+Wait — no edge between Jules and Quill. So this path is invalid.
+
+#### Path 3: Oak → Jules → Tess → York → Xen → ? → Quill?  
+No direct connection from York to Quill.  
+We need to check if Quill is connected via other nodes.
+
+Quill is connected to:
+- Drew (7)
+- Kai (8)
+
+So Quill is only directly connected to **Drew** and **Kai**.
+
+So any path to Quill must go through **Drew** or **Kai**.
+
+Therefore, to get from Oak to Quill, we must go through either:
+- Drew, or
+- Kai
+
+So we consider paths via Drew and via Kai.
+
+---
+
+### Path via Drew:
+- Oak → Drew: 6  
+- Drew → Quill: 7  
+→ Total: 6 + 7 = **13**
+
+---
+
+### Path via Kai?
+
+We need to go from Oak → ... → Kai → Quill
+
+Is there a path from Oak to Kai?
+
+Let’s see connections:
+
+- Oak is connected to: Drew, Jules  
+- Drew: connected to Jules, Oak, Quill  
+- Jules: connected to Oak, Tess  
+- Tess: connected to Jules, Poe, York  
+- Poe: connected to Kai, Tess  
+- Kai: connected to Moss, Poe, Quill  
+- Moss: connected to Kai, York  
+- York: connected to Moss, Tess, Xen
+
+So, can we go from Oak → Jules → Tess → Poe → Kai → Quill?
+
+Let’s compute that path:
+
+- Oak → Jules: 5  
+- Jules → Tess: 2  
+- Tess → Poe: 7  
+- Poe → Kai: 6  
+- Kai → Quill: 8  
+
+Total: 5 + 2 + 7 + 6 + 8 = **28** → too long.
+
+Alternative: Oak → Jules → Tess → York → Moss → Kai → Quill?
+
+- Oak → Jules: 5  
+- Jules → Tess: 2  
+- Tess → York: 4  
+- York
+

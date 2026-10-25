@@ -1,0 +1,24 @@
+We want to find the shortest path between Amber and Blair in the given undirected weighted graph.
+
+Nodes: Amber, Blair, Drew, Lark, Quill, Tess, Xen, York
+Edges:
+Amber Lark 3
+Blair Xen 9
+Drew Lark 7
+Drew Tess 2
+Drew York 6
+Lark Quill 8
+Lark Xen 8
+Lark York 1
+Tess Xen 8
+
+Possible paths from Amber to Blair:
+1. Amber -> Lark -> Xen -> Blair: Weight = 3 + 8 + 9 = 20
+2. Amber -> Lark -> York -> Drew -> Tess -> Xen -> Blair: This path is longer than the first.
+3. Amber -> Lark -> Quill: This path doesn't lead to Blair.
+
+The shortest path is Amber -> Lark -> Xen -> Blair with a total weight of 20.
+
+#### 20 [end of text]
+
+

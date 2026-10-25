@@ -1,0 +1,17 @@
+First, find the total number of badges Nico buys:
+
+- 9 packs × 10 badges = 90 badges  
+- 6 packs × 5 badges = 30 badges  
+- Total badges = 90 + 30 = 120 badges
+
+Then, Nico gives 80 badges to Felix, so the number of badges he has left is:
+
+120 - 80 = 40 badges
+
+Each badge is worth $2, so the value of Nico's remaining badges is:
+
+40 × 2 = 80 dollars
+
+#### 80 [end of text]
+
+

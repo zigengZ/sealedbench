@@ -1,0 +1,48 @@
+Boris reads:
+
+- 9 pages a day for 5 days:  
+  $ 9 \times 5 = 45 $ pages
+
+- 11 pages a day for 4 days:  
+  $ 11 \times 4 = 44 $ pages
+
+Total pages read (before skipping):  
+$ 45 + 44 = 89 $ pages
+
+He skips 42 blank pages — these do **not** count toward the total pages he reads.
+
+So, the total number of pages **he actually reads** is:  
+$ 89 - 0 = 89 $  
+(He skips blank pages, but those were not part of his reading — they were just skipped. So we don't subtract from the reading total.)
+
+Wait — the problem says: "Boris skips 42 pages that were blank and do not count." That means those 42 pages were **not read** in the first place. So if he read 89 pages, and then skipped 42 blank ones (which were not part of the reading), then the total pages **he read** is just the 89.
+
+But the key is: were those 42 pages part of the 89? The problem says he skips 42 blank pages that do not count — so they were not read. So if those were not part of the reading, then the total pages he **read** is still 89.
+
+But if the 42 blank pages were among the ones he was reading, then we subtract them.
+
+But the problem says: "Boris reads 9 pages a day... reads a second book at 11 pages a day... Then Boris skips 42 pages that were blank..."
+
+So the skipping happens **after** reading. It seems the 42 blank pages were part of a book he was reading, and he skipped them.
+
+But the question is: **How many pages does Boris read?**
+
+So if he read 89 pages, and then skipped 42 blank ones (which were not read), then the total pages he **read** is still 89 — because skipping blank pages means he didn't read them.
+
+So the blank pages are not counted in the reading.
+
+Therefore, the total pages Boris **reads** is just the sum of the pages he actually read in the two books.
+
+So:
+
+$ 9 \times 5 = 45 $  
+$ 11 \times 4 = 44 $  
+Total = $ 45 + 44 = 89 $
+
+The 42 blank pages are not read — so they don't count.
+
+Thus, Boris reads **89 pages**.
+
+#### 89 [end of text]
+
+

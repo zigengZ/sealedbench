@@ -1,0 +1,7 @@
+Esme earns 24 dollars an hour. She works 5 hours, so her total earnings are 24 * 5 = 120 dollars.
+
+After spending 90 dollars, Esme has 120 - 90 = 30 dollars left.
+
+#### 30 [end of text]
+
+

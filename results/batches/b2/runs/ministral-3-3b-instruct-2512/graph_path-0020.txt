@@ -1,0 +1,26 @@
+To find the shortest path from **Moss** to **Xen**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights) since the graph is undirected and weighted.
+
+### Step-by-Step Reasoning:
+1. **Start at Moss** (distance = 0).
+2. **Neighbors of Moss**:
+   - Cleo (9), Fern (3), Lark (3).
+   - Update distances: Cleo (9), Fern (3), Lark (3).
+3. **Next, explore Fern (distance = 3)**:
+   - Drew (1 + 3 = 4), Xen (5 + 3 = 8).
+   - Update: Drew (4), Xen (8).
+4. **Next, explore Lark (distance = 3)**:
+   - Nell (5 + 3 = 8), Xen (2 + 3 = 5).
+   - Update: Nell (8), Xen (5).
+5. **Next, explore Drew (distance = 4)**:
+   - West (6 + 4 = 10).
+   - No update to Xen.
+6. **Next, explore Xen (distance = 5)**:
+   - Already visited, no updates.
+7. **Next, explore Nell (distance = 8)**:
+   - York (1 + 8 = 9).
+   - No update to Xen.
+8. **Final shortest distance to Xen is 5** (via **Lark → Xen**).
+
+#### 5 [end of text]
+
+

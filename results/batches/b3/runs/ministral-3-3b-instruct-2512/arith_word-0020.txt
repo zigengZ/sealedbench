@@ -1,0 +1,15 @@
+Dmitri earns **$128** in total.
+
+**Reasoning:**
+- Day 1 earnings: 16 dollars/hour × 8 hours = **$128**
+- Day 2 earnings: 16 dollars/hour × 5 hours = **$80**
+- Total earnings: $128 + $80 = **$208** (Wait, this contradicts the initial answer. Let me correct.)
+
+Corrected reasoning:
+- Day 1 earnings: 16 × 8 = **$128**
+- Day 2 earnings: 16 × 5 = **$80**
+- Total earnings: $128 + $80 = **$208**
+
+#### 208 [end of text]
+
+

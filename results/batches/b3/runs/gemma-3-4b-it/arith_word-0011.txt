@@ -1,0 +1,13 @@
+First, let's calculate the number of seats in the first 4 rows: 4 rows * 5 seats/row = 20 seats.
+
+Next, let's calculate the number of seats in the additional 6 rows: 6 rows * 7 seats/row = 42 seats.
+
+Now, let's find the total number of seats: 20 seats + 42 seats = 62 seats.
+
+Then, let's find the number of unsold seats: 62 seats - 39 seats = 23 seats.
+
+Finally, let's calculate the total value of the unsold seats: 23 seats * 8 dollars/seat = 184 dollars.
+
+####184 [end of text]
+
+

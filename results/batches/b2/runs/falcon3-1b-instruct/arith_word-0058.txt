@@ -1,0 +1,18 @@
+First, let's calculate the number of pages Gina reads from the first book.
+
+Gina reads 24 pages a day for 2 days.
+Pages from first book = 24 pages/day * 2 days = 48 pages.
+
+Next, let's calculate the number of pages Gina reads from the second book.
+
+Gina reads 20 pages a day for 4 days.
+Pages from second book = 20 pages/day * 4 days = 80 pages.
+
+Now, we add the pages from both books to find the total number of pages Gina reads.
+
+Total pages = Pages from first book + Pages from second book
+Total pages = 48 pages + 80 pages = 128 pages.
+
+#### 128 [end of text]
+
+

@@ -1,0 +1,7 @@
+Quinn starts with 2 packs × 8 cookies = 16 cookies.
+After giving 1 to Leo: 16 - 1 = 15 cookies.
+Leo then gives Quinn 21 cookies: 15 + 21 = 36 cookies.
+
+#### 36 [end of text]
+
+

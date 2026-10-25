@@ -1,0 +1,6 @@
+Samir initially has 6 packs × 5 notebooks/pack = 30 notebooks.
+Adding Rosa's 4 notebooks gives 30 + 4 = 34 notebooks.
+
+#### 34 [end of text]
+
+

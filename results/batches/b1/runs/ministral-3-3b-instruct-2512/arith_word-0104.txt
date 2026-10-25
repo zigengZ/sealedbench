@@ -1,0 +1,8 @@
+Boris starts with 6 packs of 4 tokens each: 6 × 4 = 24 tokens.
+Then he buys 3 packs of 3 tokens each: 3 × 3 = 9 tokens.
+Total tokens before giving to Chloe: 24 + 9 = 33 tokens.
+After giving 4 tokens to Chloe: 33 - 4 = 29 tokens.
+
+#### 29 [end of text]
+
+

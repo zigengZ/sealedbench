@@ -1,0 +1,7 @@
+First, find the total number of balloons Gina buys: 7 packs * 9 balloons/pack = 63 balloons.
+Then, subtract the balloons Gina gives away: 63 balloons - 7 balloons = 56 balloons.
+Finally, calculate the total value of the balloons: 56 balloons * $7/balloon = $392.
+
+####392 [end of text]
+
+

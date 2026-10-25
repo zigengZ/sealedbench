@@ -1,0 +1,15 @@
+Henry's total trip is 60 miles.
+
+- He first stopped after 20 miles.
+- His second stop was 15 miles **before the end** of the trip.
+
+So, the second stop was at:  
+60 - 15 = 45 miles into the trip.
+
+Now, to find how many miles he traveled **between** the first and second stops, subtract the first stop from the second stop:
+
+45 - 20 = 25 miles.
+
+#### 25 [end of text]
+
+

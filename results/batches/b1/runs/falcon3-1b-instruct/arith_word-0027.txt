@@ -1,0 +1,12 @@
+First, calculate the initial number of seats:
+12 rows × 12 seats/row = 144 seats
+
+Then, add the additional rows:
+4 rows × 10 seats/row = 40 seats
+
+Total seats:
+144 seats (initial) + 40 seats = 184 seats
+
+#### 184 [end of text]
+
+

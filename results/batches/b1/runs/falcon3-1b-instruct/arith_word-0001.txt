@@ -1,0 +1,12 @@
+First, calculate the total number of oranges Felix bought:
+8 packs * 12 oranges/pack = 96 oranges
+
+Next, calculate the total number of oranges after buying 2 more packs:
+96 oranges + 2 packs * 7 oranges/pack = 96 + 14 = 110 oranges
+
+Finally, divide the total number of oranges by 2 people:
+110 oranges / 2 people = 55 oranges/person
+
+#### 55 [end of text]
+
+

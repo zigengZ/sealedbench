@@ -1,0 +1,6 @@
+First, find the total number of cookies Samir buys: 6 packs * 4 cookies/pack = 24 cookies.
+Then, subtract the number of cookies Samir gives to Chloe: 24 cookies - 16 cookies = 8 cookies.
+
+#### 8 [end of text]
+
+

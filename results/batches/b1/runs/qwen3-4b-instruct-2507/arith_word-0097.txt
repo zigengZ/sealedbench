@@ -1,0 +1,10 @@
+Samir buys 6 packs of notebooks, and each pack has 5 notebooks.  
+So, the number of notebooks from the packs is:  
+6 × 5 = 30 notebooks.
+
+Rosa gives him 4 more notebooks.  
+So, total notebooks = 30 + 4 = 34.
+
+#### 34 [end of text]
+
+

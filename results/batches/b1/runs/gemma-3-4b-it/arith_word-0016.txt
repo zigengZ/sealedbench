@@ -1,0 +1,7 @@
+First, Boris reads 6 pages/day * 6 days = 36 pages.
+Then he reads 3 more pages, so he has read 36 + 3 = 39 pages.
+Finally, he skips 36 pages, so he has read 39 - 36 = 3 pages.
+
+####3 [end of text]
+
+

@@ -1,0 +1,15 @@
+Leo earns $27 per hour and works 2 hours, so his total earnings are:
+
+$$
+27 \times 2 = 54 \text{ dollars}
+$$
+
+Then he spends $14, so the amount left is:
+
+$$
+54 - 14 = 40 \text{ dollars}
+$$
+
+#### 40 [end of text]
+
+

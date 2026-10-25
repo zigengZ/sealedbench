@@ -1,0 +1,102 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path weight** between **Nell** and **Poe**.
+
+---
+
+### Step 1: List all nodes
+- Ash, Blair, Lark, Nell, Poe, Quill, Reed, Vale, Zed
+
+We are to compute the shortest path from **Nell** to **Poe**.
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Ash — Nell: 7  
+- Blair — Zed: 7  
+- Lark — Poe: 4  
+- Lark — Zed: 7  
+- Nell — Quill: 4  
+- Nell — Vale: 7  
+- Poe — Reed: 9  
+- Quill — Reed: 8  
+- Quill — Vale: 1  
+- Reed — Zed: 4  
+- Vale — Zed: 9  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Find shortest path from Nell to Poe
+
+We can use **Dijkstra’s algorithm** or look for paths manually since the graph is small.
+
+We are going from **Nell → Poe**
+
+Let’s explore possible paths.
+
+---
+
+#### Path 1: Nell → Poe (direct?)
+No direct edge between Nell and Poe.
+
+---
+
+#### Path 2: Nell → Quill → Reed → Poe  
+- Nell → Quill: 4  
+- Quill → Reed: 8  
+- Reed → Poe: 9  
+Total: 4 + 8 + 9 = **21**
+
+---
+
+#### Path 3: Nell → Quill → Vale → Zed → Lark → Poe  
+- Nell → Quill: 4  
+- Quill → Vale: 1  
+- Vale → Zed: 9  
+- Zed → Lark: 7  
+- Lark → Poe: 4  
+Total: 4 + 1 + 9 + 7 + 4 = **25** → worse than 21
+
+---
+
+#### Path 4: Nell → Vale → Zed → Lark → Poe  
+- Nell → Vale: 7  
+- Vale → Zed: 9  
+- Zed → Lark: 7  
+- Lark → Poe: 4  
+Total: 7 + 9 + 7 + 4 = **27** → worse
+
+---
+
+#### Path 5: Nell → Quill → Reed → Zed → Lark → Poe  
+- Nell → Quill: 4  
+- Quill → Reed: 8  
+- Reed → Zed: 4  
+- Zed → Lark: 7  
+- Lark → Poe: 4  
+Total: 4 + 8 + 4 + 7 + 4 = **27** → worse
+
+---
+
+#### Path 6: Nell → Quill → Vale → Quill → Reed → Poe?  
+No, that’s redundant.
+
+Is there a shorter path?
+
+What about going through **Zed**?
+
+Try: Nell → Vale → Zed → Reed → Poe  
+- Nell → Vale: 7  
+- Vale → Zed: 9  
+- Zed → Reed: 4  
+- Reed → Poe: 9  
+Total: 7 + 9 + 4 + 9 = **29** → worse
+
+Try: Nell → Quill → Vale → Zed → Reed → Poe  
+- 4 + 1 + 9 + 4 + 9 = 27 → worse
+
+Try: Nell →
+

@@ -1,0 +1,13 @@
+First, let's determine the total number of cars that drove through the traffic jam.
+
+1. Initially, there were 30 cars on the motorway.
+2. 5 cars exited the line, leaving 30 - 5 = 25 cars.
+3. In the first 15 minutes, 20 more cars drove through.
+
+Now, let's calculate the number of cars that drove through in the first 15 minutes:
+
+25 cars (remaining after exiting) + 20 cars (in the first 15 minutes) = 45 cars.
+
+So, #### 45. [end of text]
+
+

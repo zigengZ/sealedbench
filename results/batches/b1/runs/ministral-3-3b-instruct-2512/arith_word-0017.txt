@@ -1,0 +1,11 @@
+Tara earns **$18/hour**.
+
+Day 1 earnings: 18 × 6 = **$108**
+Day 2 earnings: 18 × 6 = **$108**
+Total earnings: 108 + 108 = **$216**
+
+After spending $204, remaining amount: 216 - 204 = **$12**
+
+#### 12 [end of text]
+
+

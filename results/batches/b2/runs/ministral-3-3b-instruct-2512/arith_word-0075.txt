@@ -1,0 +1,6 @@
+Ava has a total of 7 rows × 16 seats = 112 seats.
+After 17 seats are sold, the unsold seats are 112 - 17 = 95.
+
+#### 95 [end of text]
+
+

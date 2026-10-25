@@ -1,0 +1,12 @@
+Nico reads 6 pages a day for 5 days:  
+6 × 5 = 30 pages
+
+He also reads 7 pages a day for 3 days:  
+7 × 3 = 21 pages
+
+Total pages read:  
+30 + 21 = 51 pages
+
+#### 51 [end of text]
+
+

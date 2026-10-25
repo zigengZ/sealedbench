@@ -1,0 +1,26 @@
+To find out how many tomatoes Freda used, we need to follow these steps:
+
+1. **Determine the volume of tomatoes used per can:**
+   Each can contains 3 tomatoes.
+
+2. **Calculate the total number of tomatoes used:**
+   Since each can of tomatoes loses half its volume, the volume of tomatoes used per can is \( \frac{1}{2} \) of the original volume.
+
+3. **Find the total volume of sauce made:**
+   Freda's last batch made 32 ounces of sauce.
+
+4. **Calculate the number of cans used:**
+   Since each can contributes \( \frac{1}{2} \) of the original volume, the number of cans used is \( \frac{32}{\frac{1}{2}} \).
+
+5. **Determine the number of tomatoes used:**
+   Each can contains 3 tomatoes, so the total number of tomatoes used is \( \frac{32}{\frac{1}{2}} \times 3 \).
+
+Let's calculate this step-by-step:
+
+1. **Volume of tomatoes used per can:**
+   \[
+   \text{Volume per can} = \frac{1}{2} \times 16 \text{ ounces} = 8 \text{ ounces}
+   \]
+
+2. **Total volume of tomatoes used:**
+

@@ -1,0 +1,7 @@
+Leo earns 26 dollars an hour. Leo works 7 hours, so his total earnings are 26 * 7 = 182 dollars.
+
+Leo spends 54 dollars. To find out how many dollars Leo has left, subtract the amount spent from the total earnings: 182 - 54 = 128.
+
+#### 128 [end of text]
+
+

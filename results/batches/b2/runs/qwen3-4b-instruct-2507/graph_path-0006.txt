@@ -1,0 +1,89 @@
+We are given an undirected weighted graph with nodes:
+
+**Bay, Cleo, Eden, Hart, Indigo, Lark, Uri, West**
+
+Edges and weights:
+
+- Bay – Cleo: 2  
+- Cleo – Indigo: 9  
+- Cleo – West: 3  
+- Eden – Indigo: 1  
+- Eden – West: 4  
+- Hart – Lark: 2  
+- Hart – Uri: 9  
+- Hart – West: 6  
+- Indigo – Uri: 9  
+- Indigo – West: 1  
+- Uri – West: 3  
+
+We are to find the **shortest path from Cleo to Hart**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We need to find the shortest path from **Cleo** to **Hart**.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), or manually explore possible paths.
+
+Let’s list all possible paths from Cleo to Hart, and compute their total weights.
+
+---
+
+### Step 2: Explore paths from Cleo to Hart
+
+#### Path 1: Cleo → West → Hart  
+- Cleo to West: 3  
+- West to Hart: 6  
+- Total: 3 + 6 = **9**
+
+#### Path 2: Cleo → Indigo → West → Hart  
+- Cleo → Indigo: 9  
+- Indigo → West: 1  
+- West → Hart: 6  
+- Total: 9 + 1 + 6 = **16** → worse
+
+#### Path 3: Cleo → Indigo → Uri → West → Hart  
+- Cleo → Indigo: 9  
+- Indigo → Uri: 9  
+- Uri → West: 3  
+- West → Hart: 6  
+- Total: 9+9+3+6 = **27** → worse
+
+#### Path 4: Cleo → Indigo → Eden → West → Hart  
+- Cleo → Indigo: 9  
+- Indigo → Eden: 1 (since Eden–Indigo:1)  
+- Eden → West: 4  
+- West → Hart: 6  
+- Total: 9+1+4+6 = **20** → worse
+
+#### Path 5: Cleo → West → Uri → Hart  
+- Cleo → West: 3  
+- West → Uri: 3  
+- Uri → Hart: 9  
+- Total: 3+3+9 = **15** → worse than 9
+
+#### Path 6: Cleo → West → Indigo → Uri → Hart  
+- Cleo → West: 3  
+- West → Indigo: 1  
+- Indigo → Uri: 9  
+- Uri → Hart: 9  
+- Total: 3+1+9+9 = 22 → worse
+
+#### Path 7: Cleo → Bay?  
+- Bay is only connected to Cleo (weight 2), and no further connections to others. So Bay is a dead end. Can't reach Hart from Bay.
+
+#### Path 8: Cleo → Indigo → Eden → West → Hart  
+Already considered → 20
+
+#### Path 9: Cleo → West → Hart → ?  
+No, we only care about reaching Hart.
+
+So the only viable paths are:
+
+- Cleo → West → Hart: **9**
+- Any other path seems longer.
+
+Is there a path via Lark?  
+Hart is connected to Lark (weight 2), but Lark has no other connections. So to reach
+

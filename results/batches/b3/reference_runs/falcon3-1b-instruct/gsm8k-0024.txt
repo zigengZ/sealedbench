@@ -1,0 +1,35 @@
+To find the original price of the book, we need to determine what 25% of the original price is and then add it to the discounted price.
+
+First, calculate 25% of the original price:
+\[ \text{Discount} = 0.25 \times \text{Original Price} \]
+
+Then, add the discount to the discounted price ($19.50):
+\[ \text{Original Price} = \text{Discounted Price} + \text{Discount} \]
+
+Let's perform these calculations step-by-step.
+
+1. Calculate 25% of the original price:
+\[ \text{Discount} = 0.25 \times \text{Original Price} \]
+
+2. Add the discount to the discounted price:
+\[ \text{Original Price} = 19.50 + 0.25 \times \text{Original Price} \]
+
+Finally, solve for the original price:
+\[ \text{Original Price} = \frac{19.50}{1 - 0.25} \]
+
+Let's compute this using Python.
+```python
+# Given values
+discount_rate = 0.25
+discounted_price = 19.50
+
+# Calculate 25% of the original price
+original_price = discounted_price / (1 - discount_rate)
+print(original_price)
+```
+```output
+60.0
+```
+The original price of the book was \(\boxed{60}\) dollars. [end of text]
+
+

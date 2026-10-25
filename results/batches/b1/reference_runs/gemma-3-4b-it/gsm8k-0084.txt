@@ -1,0 +1,22 @@
+Let $w$ be the number of games they won and $l$ be the number of games they lost.
+We are given that they played 22 games, so $w + l = 22$.
+We are also given that they won 8 more than they lost, so $w = l + 8$.
+
+We can substitute the second equation into the first equation:
+$(l + 8) + l = 22$
+$2l + 8 = 22$
+$2l = 22 - 8$
+$2l = 14$
+$l = \frac{14}{2}$
+$l = 7$
+
+Now we can find the number of games they won:
+$w = l + 8 = 7 + 8 = 15$
+
+So they won 15 games.
+
+We can check our answer: $15 + 7 = 22$, and $15 - 7 = 8$.
+
+####15 [end of text]
+
+

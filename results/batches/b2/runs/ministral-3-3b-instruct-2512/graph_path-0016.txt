@@ -1,0 +1,55 @@
+To find the shortest path from **Cedar** to **Xen**, we can use **Dijkstra's algorithm** (since all weights are non-negative).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Cedar → Xen` is unreachable initially (∞).
+   - Update neighbors of **Cedar**:
+     - `Cedar → Quill` = 6 (since `Cedar Quill 6`).
+
+2. **Process nodes in order of increasing distance**:
+   - **Quill** (distance = 6):
+     - Update neighbors:
+       - `Quill → Bay` = 6 + 1 = 7 (better than ∞).
+       - `Quill → Kai` = 6 + 9 = 15 (worse than existing paths).
+       - `Quill → Cleo` = 6 + 7 = 13 (worse than existing paths).
+     - Next shortest is **Bay** (distance = 7).
+
+   - **Bay** (distance = 7):
+     - Update neighbors:
+       - `Bay → Ash` = 7 + 3 = 10 (worse than existing paths).
+       - `Bay → Kai` = 7 + 4 = 11 (worse than existing paths).
+       - `Bay → Cleo` = 7 + 1 = 8 (better than existing 13).
+     - Next shortest is **Cleo** (distance = 8).
+
+   - **Cleo** (distance = 8):
+     - Update neighbors:
+       - `Cleo → Ash` = 8 + 3 = 11 (worse than existing paths).
+       - `Cleo → Bay` = 8 + 1 = 9 (worse than existing 7).
+       - `Cleo → Quill` = 8 + 7 = 15 (worse than existing 6).
+     - Next shortest is **Ash** (distance = 10).
+
+   - **Ash** (distance = 10):
+     - Update neighbors:
+       - `Ash → Kai` = 10 + 3 = 13 (worse than existing 11).
+       - `Ash → York` = 10 + 6 = 16 (worse than existing paths).
+     - Next shortest is **Kai** (distance = 11).
+
+   - **Kai** (distance = 11):
+     - Update neighbors:
+       - `Kai → Ash` = 11 + 3 = 14 (worse than existing paths).
+       - `Kai → Bay` = 11 + 4 = 15 (worse than existing paths).
+       - `Kai → Quill` = 11 + 9 = 20 (worse than existing 6).
+     - Next shortest is **York** (distance = 16).
+
+   - **York** (distance = 16):
+     - Update neighbors:
+       - `York → Ash` = 16 + 6 = 22 (worse than existing paths).
+       - `York → Fern` = 16 + 6 = 22 (worse than existing paths).
+       - `York → Xen` = 16 + 2 = 18 (better than existing ∞).
+
+   - **Fern** (distance = 22):
+     - No updates improve the path to **Xen**.
+
+3. **Final shortest path**:
+   - The shortest path is **Cedar → Quill → Bay → Cleo →
+

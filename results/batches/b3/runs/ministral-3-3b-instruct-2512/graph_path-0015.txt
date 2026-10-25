@@ -1,0 +1,14 @@
+To find the shortest path from **Reed** to **Xen**, we use Dijkstra's algorithm or explore possible paths systematically.
+
+### Path Exploration:
+1. **Reed → Eden (3)** → **Xen (9)** → Total: **12**
+2. **Reed → Eden (3)** → **Glen (3)** → **Cedar (4)** → **Xen (2)** → Total: **9**
+3. **Reed → Eden (3)** → **York (8)** → *(No direct path to Xen)* → Invalid
+4. **Reed → Dove (6)** → *(No direct path to Xen)* → Invalid
+
+The shortest valid path is:
+**Reed → Eden → Glen → Cedar → Xen** with a total weight of **9**.
+
+#### 9 [end of text]
+
+

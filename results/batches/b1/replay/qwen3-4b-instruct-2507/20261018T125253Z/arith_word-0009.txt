@@ -1,0 +1,19 @@
+Samir earns $17 per hour.
+
+On day 1, he works 5 hours:  
+$ 5 \times 17 = 85 $ dollars
+
+On day 2, he works 3 hours:  
+$ 3 \times 17 = 51 $ dollars
+
+Total earnings:  
+$ 85 + 51 = 136 $ dollars
+
+Then he spends $107.
+
+Money left:  
+$ 136 - 107 = 29 $ dollars
+
+#### 29 [end of text]
+
+

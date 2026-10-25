@@ -1,0 +1,12 @@
+First, calculate the total number of fruit roll-ups each person ate by multiplying their width by their length:
+
+- Beatrice: 2 (wide) × 24 (long) = 48 roll-ups
+- Marcell: 3 (wide) × 14 (long) = 42 roll-ups
+
+Next, find the average by adding the totals and dividing by 2:
+
+(48 + 42) ÷ 2 = 90 ÷ 2 = 45
+
+#### 45 [end of text]
+
+

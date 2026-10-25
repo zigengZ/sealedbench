@@ -1,0 +1,7 @@
+First, find the total number of tickets in the packs: 4 packs * 5 tickets/pack = 20 tickets.
+Then, add the tickets Esme gave her: 20 tickets + 18 tickets = 38 tickets.
+
+####38
+ [end of text]
+
+

@@ -1,0 +1,15 @@
+Willa earns $25 per hour and works 7 hours.
+
+First, calculate her total earnings:  
+$25 \times 7 = 175$ dollars.
+
+Then, she spends $129.
+
+Subtract the amount spent from her earnings:  
+$175 - 129 = 46$ dollars.
+
+So, Willa has $46 left.
+
+#### 46 [end of text]
+
+

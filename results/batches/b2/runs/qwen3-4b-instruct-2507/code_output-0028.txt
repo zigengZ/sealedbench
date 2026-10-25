@@ -1,0 +1,58 @@
+Let's trace through the program step by step:
+
+```python
+words = ['stone', 'ivory', 'juniper', 'quartz', 'river', 'grove']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 2 == 1:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + ' ' + piece
+print(out)
+```
+
+The list `words` has 6 elements:
+- index 0: 'stone'
+- index 1: 'ivory'
+- index 2: 'juniper'
+- index 3: 'quartz'
+- index 4: 'river'
+- index 5: 'grove'
+
+We iterate over each index:
+
+- index 0: 
+  - piece = 'stone'
+  - index % 2 == 0 → not 1 → no upper()
+  - out is "" → set out = 'stone'
+
+- index 1:
+  - piece = 'ivory'
+  - index % 2 == 1 → yes → piece becomes 'IVORY'
+  - out is not "" → out = 'stone' + ' ' + 'IVORY' → 'stone Ivory'
+
+- index 2:
+  - piece = 'juniper'
+  - index % 2 == 0 → no upper()
+  - out = 'stone Ivory' + ' ' + 'juniper' → 'stone Ivory juniper'
+
+- index 3:
+  - piece = 'quartz'
+  - index % 2 == 1 → yes → piece becomes 'QUARTZ'
+  - out = 'stone Ivory juniper' + ' ' + 'QUARTZ' → 'stone Ivory juniper QUARTZ'
+
+- index 4:
+  - piece = 'river'
+  - index % 2 == 0 → no upper()
+  - out = 'stone Ivory juniper QUARTZ' + ' ' + 'river' → 'stone Ivory juniper QUARTZ river'
+
+- index 5:
+  - piece = 'grove'
+  - index % 2 == 1 → yes → piece becomes 'GROVE'
+  - out = 'stone Ivory juniper QUARTZ river' + ' ' + 'GROVE' → 'stone Ivory juniper QUARTZ river GROVE'
+
+Final output: `'stone Ivory juniper QUARTZ river GRO
+

@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Amber, Bay, Cleo, Dove, Drew, Uri, Vale, West  
+**Edges and weights**:
+
+- Amber–Cleo: 3  
+- Bay–Cleo: 6  
+- Bay–Uri: 3  
+- Bay–West: 2  
+- Cleo–Dove: 7  
+- Cleo–Drew: 3  
+- Cleo–Vale: 4  
+- Cleo–West: 8  
+- Dove–Uri: 5  
+- Dove–Vale: 9  
+- Dove–West: 9  
+- Vale–West: 1  
+
+We are to find the **shortest path from Bay to Vale**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can build the graph and look for paths from **Bay** to **Vale**.
+
+We'll use **Dijkstra's algorithm** (since all weights are positive) to compute the shortest path from Bay to Vale.
+
+But since the graph is small, we can manually explore possible paths.
+
+---
+
+### Step 2: List possible paths from Bay to Vale
+
+#### Path 1: Bay → Cleo → Vale  
+- Bay–Cleo: 6  
+- Cleo–Vale: 4  
+→ Total: 6 + 4 = **10**
+
+#### Path 2: Bay → Uri → Dove → Vale  
+- Bay–Uri: 3  
+- Uri–Dove: 5  
+- Dove–V
+

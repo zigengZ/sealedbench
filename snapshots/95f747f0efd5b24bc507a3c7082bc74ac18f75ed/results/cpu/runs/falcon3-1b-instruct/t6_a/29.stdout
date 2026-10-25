@@ -1,0 +1,21 @@
+Let's denote the cost of the boots as \( B \).
+
+According to the problem:
+1. The boots cost \( B \).
+2. The two pairs of high heels together cost \( B - 5 \) dollars.
+3. One pair of high heels costs \( 33 \) dollars.
+4. The other pair of high heels costs twice as much as the first pair, which is \( 2 \times 33 = 66 \) dollars.
+
+The total cost of the two pairs of high heels is:
+\[ 33 + 66 = 100 \]
+
+Since the total cost of the two pairs of high heels is \( B - 5 \), we can set up the equation:
+\[ 100 = B - 5 \]
+
+Solving for \( B \):
+\[ B = 100 + 5 \]
+\[ B = 105 \]
+
+#### 105 [end of text]
+
+

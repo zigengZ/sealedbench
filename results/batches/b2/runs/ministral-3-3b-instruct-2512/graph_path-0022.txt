@@ -1,0 +1,31 @@
+To find the shortest path from **Fern** to **Poe**, we use Dijkstra's algorithm (or a modified BFS for unweighted graphs, but here weights are involved).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Fern** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Update distances**:
+   - From **Fern**, update neighbors:
+     - **Cedar**: 8 (via Fern-Cedar edge).
+     - **Quill**: 4 (via Fern-Quill edge).
+
+3. **Next node to explore**:
+   - Choose **Quill** (distance = 4) next.
+   - Update neighbors:
+     - **Poe**: min(∞, 4 + 2) = 6 (via Quill-Poe edge).
+
+4. **Next node to explore**:
+   - Choose **Cedar** (distance = 8).
+   - Update neighbors (no improvement for Poe).
+
+5. **Next node to explore**:
+   - Choose **Poe** (distance = 6).
+   - No further updates needed.
+
+### Shortest Path:
+- **Fern → Quill → Poe** with total weight = **6**.
+
+#### 6 [end of text]
+
+

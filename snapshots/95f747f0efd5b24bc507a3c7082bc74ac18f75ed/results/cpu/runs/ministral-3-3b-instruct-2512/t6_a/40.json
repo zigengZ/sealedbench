@@ -1,0 +1,22 @@
+{
+  "i": 40,
+  "run": "t6_a",
+  "model": "ministral-3-3b-instruct-2512",
+  "threads": 6,
+  "batch": 2048,
+  "ubatch": 512,
+  "returncode": 0,
+  "error": null,
+  "seconds": 12.42,
+  "gold": "8",
+  "pred": "8",
+  "match": true,
+  "hit_cap": false,
+  "prompt_tps": null,
+  "gen_tps": null,
+  "prompt_tokens": null,
+  "gen_tokens": null,
+  "n_ctx_train": null,
+  "stdout_sha256": "3b4a3b5891dbf8a055d8e5202247ae61382d999fa7e3676e932b4b8bd2e807a5",
+  "stdout_bytes": 239
+}

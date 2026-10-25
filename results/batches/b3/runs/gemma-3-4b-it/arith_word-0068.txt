@@ -1,0 +1,11 @@
+First, let's calculate the number of pages Willa reads from the first book: 11 pages/day * 6 days = 66 pages.
+
+Next, let's calculate the number of pages Willa reads from the second book: 6 pages/day * 4 days = 24 pages.
+
+Now, let's find the total number of pages Willa reads in one week: 66 pages + 24 pages = 90 pages.
+
+Finally, let's calculate the total number of pages Willa reads in 4 weeks: 90 pages/week * 4 weeks = 360 pages.
+
+####360 [end of text]
+
+

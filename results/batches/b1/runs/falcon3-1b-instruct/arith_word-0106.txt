@@ -1,0 +1,17 @@
+First, let's calculate the total number of oranges Ben initially has.
+
+Ben buys 2 packs of oranges, and each pack contains 8 oranges.
+
+Total oranges = Number of packs × Oranges per pack
+Total oranges = 2 packs × 8 oranges/pack
+Total oranges = 16 oranges
+
+Next, Ben gives 3 oranges to Aisha.
+
+Oranges remaining = Total oranges - Oranges given
+Oranges remaining = 16 oranges - 3 oranges
+Oranges remaining = 13 oranges
+
+So, Ben has #### 13 oranges. [end of text]
+
+

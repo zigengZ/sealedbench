@@ -1,0 +1,17 @@
+First, calculate the total number of seats:
+
+10 rows * 7 seats/row = 70 seats
+6 rows * 9 seats/row = 54 seats
+Total seats = 70 + 54 = 124 seats
+
+Next, subtract the sold seats from the total:
+
+124 seats - 114 seats = 10 seats
+
+Now, calculate the worth of the unsold seats:
+
+10 seats * 11 dollars/seat = 110 dollars
+
+#### 110 [end of text]
+
+

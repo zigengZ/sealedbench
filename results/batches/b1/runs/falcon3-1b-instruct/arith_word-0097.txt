@@ -1,0 +1,9 @@
+First, calculate the total number of notebooks Samir initially bought.
+6 packs * 5 notebooks/pack = 30 notebooks
+
+Then, add the 4 additional notebooks Rosa gave him.
+30 notebooks + 4 notebooks = 34 notebooks
+
+So, Samir has #### 34 notebooks. [end of text]
+
+

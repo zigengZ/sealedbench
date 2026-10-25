@@ -1,0 +1,32 @@
+We are told:
+
+- Originally, there were **30 cars** on the motorway.
+- **5 cars** take an exit and **don't drive through** the traffic jam.
+- In the first 15 minutes, **some cars drive through**.
+- Then, in the next 15 minutes, **20 more cars drive through**.
+
+We are to find: **How many cars drove through in the first 15 minutes?**
+
+---
+
+Step-by-step:
+
+1. After 5 cars take an exit, the number of cars **still on the motorway** is:
+
+   $ 30 - 5 = 25 $ cars.
+
+2. These 25 cars are the ones that either drive through in the first 15 minutes or the next 15 minutes.
+
+3. We're told that **20 cars drive through in the remaining 15 minutes**.
+
+4. So, the number of cars that drove through in the **first 15 minutes** is:
+
+   $ 25 - 20 = 5 $
+
+---
+
+✅ Answer: **5 cars** drove through in the first 15 minutes.
+
+#### 5 [end of text]
+
+

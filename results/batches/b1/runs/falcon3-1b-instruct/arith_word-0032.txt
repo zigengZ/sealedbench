@@ -1,0 +1,15 @@
+First, calculate the total number of beads in the packs Jamal bought.
+
+8 packs × 7 beads/pack = 56 beads
+
+Then, calculate the total number of beads in the packs Jamal bought.
+
+5 packs × 8 beads/pack = 40 beads
+
+Add the two totals together to find the total number of beads Jamal has.
+
+56 beads + 40 beads = 96 beads
+
+#### 96 [end of text]
+
+

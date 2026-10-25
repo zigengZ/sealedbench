@@ -1,0 +1,15 @@
+First, let's calculate the total cost of the shorts:
+3 pairs * $16.50 per pair = $49.50
+
+Next, we calculate the total cost of the pants:
+3 pairs * $22.50 per pair = $67.50
+
+Then, we calculate the total cost of the shoes:
+3 pairs * $42 per pair = $126
+
+Now, we add up the costs of all the clothing items:
+$49.50 (shorts) + $67.50 (pants) + $126 (shoes) = $235
+
+Mishka spent #### 235. [end of text]
+
+

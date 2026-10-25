@@ -1,0 +1,30 @@
+Aleena pays $140 per month.
+
+The year has 12 months:
+
+- First half of the year = 6 months
+- Second half of the year = 6 months
+
+For the first 6 months, she pays the full $140 per month:
+
+$$
+6 \times 140 = 840
+$$
+
+For the second half, the charge is 10% less than $140.
+
+10% of 140 = $14
+
+So, the new monthly charge = $140 - $14 = $126
+
+For 6 months at $126:
+
+$$
+6 \times 126 = 756
+$$
+
+Total amount paid = $840 + $756 = $1596
+
+#### 1596 [end of text]
+
+

@@ -1,0 +1,14 @@
+Samir initially buys 8 packs of marbles, each containing 6 marbles:
+8 packs × 6 marbles = 48 marbles.
+
+Then he buys an additional 5 packs:
+5 packs × 6 marbles = 30 marbles.
+
+Total marbles bought: 48 + 30 = 78 marbles.
+
+After giving 32 marbles to Jamal:
+78 - 32 = 46 marbles.
+
+#### 46 [end of text]
+
+

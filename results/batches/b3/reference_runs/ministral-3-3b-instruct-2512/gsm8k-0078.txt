@@ -1,0 +1,15 @@
+Vincent has two options for buying 18 flowers:
+
+1. **Packages of 3 for $2.50:**
+   - Number of packages: 18 ÷ 3 = 6 packages
+   - Total cost: 6 × $2.50 = $15.00
+
+2. **Packages of 2 for $1:**
+   - Number of packages: 18 ÷ 2 = 9 packages
+   - Total cost: 9 × $1 = $9.00
+
+Vincent saves $15.00 - $9.00 = $6.00 by buying 18 flowers at the better price.
+
+#### 6 [end of text]
+
+

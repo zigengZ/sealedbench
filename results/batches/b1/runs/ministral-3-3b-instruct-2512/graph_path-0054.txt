@@ -1,0 +1,23 @@
+To find the shortest path from **Cedar** to **Jules**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Cedar** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Update distances**:
+   - From **Cedar**:
+     - **Bay** (5) → Update: `Bay = min(∞, 0 + 5) = 5`
+     - **Glen** (7) → Update: `Glen = min(∞, 0 + 7) = 7`
+     - **Nell** (7) → Update: `Nell = min(∞, 0 + 7) = 7`
+     - **Reed** (3) → Update: `Reed = min(∞, 0 + 3) = 3`
+
+3. **Next node to explore: Reed (distance = 3)**:
+   - From **Reed**:
+     - **Bay** (5) → Already shorter (5 < 3 + 5)
+     - **Jules** (7) → Update: `Jules = min(∞, 3 + 7) = 10`
+
+4. **Next node: Bay (distance = 5)**:
+   - From **Bay**:
+     - **Ash** (8) → Update: `Ash = min(∞
+

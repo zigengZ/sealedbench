@@ -1,0 +1,32 @@
+First, let's calculate the total number of pages Ivy reads in one week.
+
+**Week 1:**
+- Ivy reads 19 pages a day for 5 days.
+  \[
+  19 \text{ pages/day} \times 5 \text{ days} = 95 \text{ pages}
+  \]
+
+- Ivy reads 17 pages a day for 5 days.
+  \[
+  17 \text{ pages/day} \times 5 \text{ days} = 85 \text{ pages}
+  \]
+
+- Total pages read in one week:
+  \[
+  95 \text{ pages} + 85 \text{ pages} = 180 \text{ pages}
+  \]
+
+**Week 2:**
+- Ivy skips 19 pages that were blank.
+  \[
+  180 \text{ pages} - 19 \text{ pages} = 161 \text{ pages}
+  \]
+
+**Total pages read in 2 weeks:**
+\[
+180 \text{ pages} + 161 \text{ pages} = 341 \text{ pages}
+\]
+
+#### 341 [end of text]
+
+

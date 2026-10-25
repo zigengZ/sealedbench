@@ -1,0 +1,19 @@
+To solve this problem, we need to calculate the total amount of feed Wendi gives her chickens in the final meal of the day.
+
+1. **Morning Feed:**
+   - Wendi gives 15 cups of feed to each chicken.
+   - There are 20 chickens.
+   - Total morning feed = 15 cups/chicken * 20 chickens = 300 cups.
+
+2. **Afternoon Feed:**
+   - Wendi gives 25 cups of feed to each chicken.
+   - There are 20 chickens.
+   - Total afternoon feed = 25 cups/chicken * 20 chickens = 500 cups.
+
+3. **Final Meal:**
+   - Total feed for the final meal = Total morning feed + Total afternoon feed
+   - Total feed for the final meal = 300 cups + 500 cups = 800 cups.
+
+Therefore, Wendi needs to give her chickens #### 800 cups of feed in the final meal of the day. [end of text]
+
+

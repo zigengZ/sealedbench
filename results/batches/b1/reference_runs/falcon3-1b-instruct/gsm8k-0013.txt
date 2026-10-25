@@ -1,0 +1,17 @@
+Let's denote the initial number of vacuum cleaners Melanie had as \( x \).
+
+1. **Green House:**
+   - Melanie sold a third of her vacuum cleaners at the green house.
+   - Remaining after the green house: \( x - \frac{x}{3} = \frac{2x}{3} \).
+
+2. **Red House:**
+   - Melanie sold 2 more to the red house.
+   - Remaining after the red house: \( \frac{2x}{3} - 2 \).
+
+3. **Orange House:**
+   - Melanie sold half of what was left at the orange house.
+   - Remaining after the orange house: \( \frac{2x}{3} - 2 - \frac{1}{2} \left( \frac{2x}{3} - 2 \right) \).
+
+4. **Orange House (continued):**
+   - Simplify the remaining part: \( \frac{2x}{3} - 2 - \frac{1}{2} \left( \frac{2x}{3} - 2 \right) = \frac{2x}{3} - 2 - \frac{x}{3} + 1 = \frac{x}{3} - 
+

@@ -1,0 +1,18 @@
+First, let's calculate the number of pages Nico reads from the first book.
+
+Nico reads 6 pages a day for 5 days.
+Pages from first book = 6 pages/day * 5 days = 30 pages.
+
+Next, let's calculate the number of pages Nico reads from the second book.
+
+Nico reads 7 pages a day for 3 days.
+Pages from second book = 7 pages/day * 3 days = 21 pages.
+
+Now, we add the pages from both books to find the total number of pages Nico reads.
+
+Total pages = Pages from first book + Pages from second book
+Total pages = 30 pages + 21 pages = 51 pages.
+
+#### 51 [end of text]
+
+

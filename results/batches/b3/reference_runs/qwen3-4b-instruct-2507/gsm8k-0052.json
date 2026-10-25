@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "gsm8k",
+  "gen_tokens": 274,
+  "gen_tps": 7.5,
+  "hit_cap": false,
+  "item_id": "gsm8k-0052",
+  "model": "qwen3-4b-instruct-2507",
+  "n_predict": 768,
+  "prompt_tokens": 105,
+  "prompt_tps": 48.58,
+  "returncode": 0,
+  "seconds": 39.818,
+  "stdout_bytes": 841,
+  "stdout_sha256": "3c23a242dbf40792e47752f2728044a9668ae2f202e3f8d96733ed4caa21dfa4"
+}

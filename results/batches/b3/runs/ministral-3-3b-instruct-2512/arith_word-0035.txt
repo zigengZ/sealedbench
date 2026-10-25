@@ -1,0 +1,7 @@
+Esme starts with 8 packs × 3 badges = 24 badges.
+After giving 22 to Willa, she has 24 - 22 = 2 badges left.
+Willa then gives her 8 more badges, so 2 + 8 = 10 badges.
+
+#### 10 [end of text]
+
+

@@ -1,0 +1,8 @@
+Boris earns 10 dollars/hour * 2 hours = 20 dollars.
+Boris spends 3 dollars.
+Boris has 20 dollars - 3 dollars = 17 dollars left.
+
+####17
+ [end of text]
+
+

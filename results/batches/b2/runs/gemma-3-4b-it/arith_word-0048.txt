@@ -1,0 +1,7 @@
+First, find the total number of seats: 6 rows * 12 seats/row = 72 seats.
+Then, find the number of unsold seats: 72 seats - 3 seats = 69 seats.
+Finally, calculate the total value of the unsold seats: 69 seats * $5/seat = $345.
+
+####345 [end of text]
+
+

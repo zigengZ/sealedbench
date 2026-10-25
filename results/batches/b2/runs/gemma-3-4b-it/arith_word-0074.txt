@@ -1,0 +1,8 @@
+First, calculate Victor's earnings on day 1: 10 dollars/hour * 6 hours = 60 dollars.
+Next, calculate Victor's earnings on day 2: 10 dollars/hour * 4 hours = 40 dollars.
+Then, calculate Victor's earnings on day 3: 10 dollars/hour * 3 hours = 30 dollars.
+Finally, add up the earnings from all three days: 60 dollars + 40 dollars + 30 dollars = 130 dollars.
+
+####130 [end of text]
+
+

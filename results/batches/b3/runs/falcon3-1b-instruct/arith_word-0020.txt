@@ -1,0 +1,26 @@
+To find out how much Dmitri earns, we need to calculate his earnings for each day separately and then sum them up.
+
+**Day 1:**
+- Hours worked: 8
+- Hourly wage: $16
+
+Earnings for Day 1 = Hours worked on Day 1 × Hourly wage
+= 8 hours × $16/hour
+= $128
+
+**Day 2:**
+- Hours worked: 5
+- Hourly wage: $16
+
+Earnings for Day 2 = Hours worked on Day 2 × Hourly wage
+= 5 hours × $16/hour
+= $80
+
+**Total Earnings:**
+Total earnings = Earnings from Day 1 + Earnings from Day 2
+= $128 + $80
+= $208
+
+#### 208 [end of text]
+
+

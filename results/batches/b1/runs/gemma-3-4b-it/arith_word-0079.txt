@@ -1,0 +1,13 @@
+First, let's calculate the total number of oranges from the first 7 packs: 7 packs * 6 oranges/pack = 42 oranges.
+
+Next, let's calculate the total number of oranges from the 3 packs with 7 oranges each: 3 packs * 7 oranges/pack = 21 oranges.
+
+Now, let's find the total number of oranges Esme has: 42 oranges + 21 oranges = 63 oranges.
+
+Esme gives 58 oranges to Samir, so she has 63 - 58 = 5 oranges left.
+
+Finally, she shares the remaining 5 oranges equally among 5 people: 5 oranges / 5 people = 1 orange/person.
+
+#### 1 [end of text]
+
+

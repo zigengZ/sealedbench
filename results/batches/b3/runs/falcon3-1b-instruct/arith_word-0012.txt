@@ -1,0 +1,18 @@
+First, let's calculate the total number of pages Aisha reads in one week.
+
+**Week 1:**
+- Pages read from the first book: \(23 \text{ pages/day} \times 3 \text{ days} = 69 \text{ pages}\)
+- Pages read from the second book: \(17 \text{ pages/day} \times 4 \text{ days} = 68 \text{ pages}\)
+- Total pages read in one week: \(69 + 68 = 137 \text{ pages}\)
+
+**Week 2:**
+- Pages read from the first book: \(23 \text{ pages/day} \times 3 \text{ days} = 69 \text{ pages}\)
+- Pages read from the second book: \(17 \text{ pages/day} \times 4 \text{ days} = 68 \text{ pages}\)
+- Total pages read in one week: \(69 + 68 = 137 \text{ pages}\)
+
+**Total pages read in 2 weeks:**
+- Total pages read in 2 weeks: \(137 \text{ pages/week} \times 2 \text{ weeks} = 274 \text{ pages}\)
+
+#### 274 [end of text]
+
+

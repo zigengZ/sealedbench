@@ -1,0 +1,39 @@
+We are given:
+
+- The number of rabbits is **12 less than** the combined number of dogs and cats.
+- There are **2 cats for every dog**.
+- The number of **dogs is 60**.
+
+---
+
+**Step 1: Find the number of cats.**
+
+Since there are 2 cats for every dog, and there are 60 dogs:
+
+$$
+\text{Number of cats} = 2 \times 60 = 120
+$$
+
+---
+
+**Step 2: Find the number of rabbits.**
+
+Rabbits = (dogs + cats) − 12
+
+$$
+\text{Rabbits} = (60 + 120) - 12 = 180 - 12 = 168
+$$
+
+---
+
+**Step 3: Find the total number of pets.**
+
+Total pets = dogs + cats + rabbits
+
+$$
+60 + 120 + 168 = 348
+$$
+
+#### 348 [end of text]
+
+

@@ -1,0 +1,21 @@
+First, let's calculate the total number of cookies Samir initially bought.
+
+Samir buys 6 packs of cookies, and each pack contains 4 cookies.
+
+Total cookies = Number of packs × Cookies per pack
+Total cookies = 6 packs × 4 cookies/pack
+Total cookies = 24 cookies
+
+Next, let's determine how many cookies Samir gives to Chloe.
+
+Samir gives 16 cookies to Chloe.
+
+Now, let's calculate the total number of cookies Samir has after giving some to Chloe.
+
+Total cookies after giving to Chloe = Total cookies initially - Cookies given to Chloe
+Total cookies after giving to Chloe = 24 cookies - 16 cookies
+Total cookies after giving to Chloe = 8 cookies
+
+Samir has #### 8 cookies. [end of text]
+
+

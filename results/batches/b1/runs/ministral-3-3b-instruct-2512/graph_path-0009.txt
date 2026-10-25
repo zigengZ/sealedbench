@@ -1,0 +1,26 @@
+To find the shortest path from **Quill** to **Uri**, we can use Dijkstra's algorithm or explore all possible paths manually.
+
+### Possible Paths:
+1. **Quill → Blair → Uri**
+   - Quill → Blair: 4
+   - Blair → Uri: 2
+   - Total: **4 + 2 = 6**
+
+2. **Quill → Drew → Uri**
+   - Quill → Drew: 1
+   - Drew → Uri: 5
+   - Total: **1 + 5 = 6**
+
+3. **Quill → Indigo → Oak → Uri**
+   - Quill → Indigo: 1
+   - Indigo → Oak: 7
+   - Oak → Uri: 9
+   - Total: **1 + 7 + 9 = 17** (Longer than 6)
+
+4. **Quill → Indigo → Quill → Uri** (Not valid, revisits Quill)
+
+The shortest paths are **Quill → Blair → Uri** and **Quill → Drew → Uri**, both with a total weight of **6**.
+
+#### 6 [end of text]
+
+

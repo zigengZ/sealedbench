@@ -1,0 +1,8 @@
+Esme starts with 2 rows of 4 seats each: 2 × 4 = 8 seats.
+Then adds 4 rows of 7 seats each: 4 × 7 = 28 seats.
+Total seats = 8 + 28 = 36.
+After 9 seats are sold: 36 - 9 = 27.
+
+#### 27 [end of text]
+
+

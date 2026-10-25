@@ -1,0 +1,12 @@
+We want to find the shortest path between Oak and Reed in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Oak to Reed:
+1. Oak -> Reed: Weight = 8
+2. Oak -> Blair -> Reed: Weight = 1 + 1 = 2
+3. Oak -> Reed: Weight = 8
+
+Comparing the weights, the shortest path is Oak -> Reed with a weight of 8.
+
+#### 8 [end of text]
+
+

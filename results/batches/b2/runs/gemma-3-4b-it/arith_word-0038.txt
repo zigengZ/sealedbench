@@ -1,0 +1,7 @@
+First, find the total number of seats: 8 rows * 4 seats/row = 32 seats.
+Then, find the number of unsold seats: 32 seats - 20 seats sold = 12 seats.
+Finally, find the total value of the unsold seats: 12 seats * $8/seat = $96.
+
+####96 [end of text]
+
+

@@ -1,0 +1,14 @@
+First, let's calculate the total number of tickets Chloe buys initially.
+
+For the 6 packs of tickets:
+6 packs * 12 tickets/pack = 72 tickets
+
+Then, for the 2 packs of tickets:
+2 packs * 3 tickets/pack = 6 tickets
+
+Now, add the total number of tickets from both purchases:
+72 tickets (initial) + 6 tickets (second purchase) = 78 tickets
+
+So, Chloe has #### 78 tickets. [end of text]
+
+

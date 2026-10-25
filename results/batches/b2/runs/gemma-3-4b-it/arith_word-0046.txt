@@ -1,0 +1,9 @@
+Yara earns $15 per hour.
+On day 1, she works 4 hours, so she earns 15 * 4 = $60.
+On day 2, she works 4 hours, so she earns 15 * 4 = $60.
+On day 3, she works 4 hours, so she earns 15 * 4 = $60.
+Total earnings = $60 + $60 + $60 = $180.
+
+####180 [end of text]
+
+

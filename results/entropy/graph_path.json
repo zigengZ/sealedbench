@@ -1,0 +1,79 @@
+{
+  "answer_max": 40,
+  "answer_min": 2,
+  "answer_top": [
+    {
+      "answer": "10",
+      "count": 3678
+    },
+    {
+      "answer": "9",
+      "count": 3560
+    },
+    {
+      "answer": "8",
+      "count": 3499
+    },
+    {
+      "answer": "7",
+      "count": 3224
+    },
+    {
+      "answer": "11",
+      "count": 3130
+    },
+    {
+      "answer": "6",
+      "count": 2991
+    },
+    {
+      "answer": "12",
+      "count": 2804
+    },
+    {
+      "answer": "5",
+      "count": 2539
+    },
+    {
+      "answer": "13",
+      "count": 2381
+    },
+    {
+      "answer": "14",
+      "count": 1955
+    },
+    {
+      "answer": "4",
+      "count": 1813
+    },
+    {
+      "answer": "15",
+      "count": 1600
+    },
+    {
+      "answer": "16",
+      "count": 1289
+    },
+    {
+      "answer": "3",
+      "count": 1277
+    },
+    {
+      "answer": "17",
+      "count": 944
+    }
+  ],
+  "distinct_prompts": 40000,
+  "distinct_question_sets": 1000,
+  "family": "graph_path",
+  "gate_distinct_sets_at_least": 999,
+  "gate_pass": true,
+  "jaccard_definition": "Tokens are [a-z0-9]+ on the lowercased prompt. For each seed, the mean Jaccard over unordered prompt pairs is computed, then those means are averaged.",
+  "mean_pairwise_jaccard": 0.5836618235548147,
+  "n": 40,
+  "prompt_count": 40000,
+  "seconds": 8.179,
+  "seed_rule": "SHA-256(ASCII(\"sealedbench/v1/entropy\\n\" || family || \"\\n\" || index))",
+  "seeds": 1000,
+  "unique_answers": 37
+}

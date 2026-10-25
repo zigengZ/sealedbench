@@ -1,0 +1,25 @@
+To find the shortest path from **Fern** to **Zed**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Fern** = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Unvisited Nodes)**:
+   - Start with **Fern** (distance = 0).
+
+3. **Relaxation Steps**:
+   - **Fern** → **Hart** (weight = 2): Update distance to **Hart** = 2.
+   - **Hart** → **York** (weight = 7): Update distance to **York** = 2 + 7 = 9.
+   - **Hart** → **Zed** (weight = 2): Update distance to **Zed** = 2 + 2 = 4.
+   - **Hart** → **Eden** (via Fern-Hart, but no direct edge from Fern to Eden).
+   - **Eden** → **Moss** (weight = 8): Not useful for Zed.
+   - **Cleo** is unreachable from Fern without passing through Hart (longer path).
+
+4. **Optimal Path**:
+   - The shortest path is **Fern → Hart → Zed** with total weight = **4**.
+
+#### 4 [end of text]
+
+

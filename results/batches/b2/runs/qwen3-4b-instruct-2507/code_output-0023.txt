@@ -1,0 +1,51 @@
+Let's trace through the program step by step:
+
+```python
+words = ['north', 'grove', 'cloud', 'maple']
+out = ""
+for index in range(len(words)):
+    piece = words[index]
+    if index % 3 == 0:
+        piece = piece.upper()
+    if out == "":
+        out = piece
+    else:
+        out = out + '-' + piece
+print(out)
+```
+
+The list `words` has 4 elements:
+- index 0: 'north'
+- index 1: 'grove'
+- index 2: 'cloud'
+- index 3: 'maple'
+
+We iterate over indices 0 to 3.
+
+**Index 0:**
+- piece = words[0] = 'north'
+- index % 3 == 0 → True → piece becomes 'NORTH'
+- out is initially "" → so out = 'NORTH'
+
+**Index 1:**
+- piece = words[1] = 'grove'
+- index % 3 == 1 → False → piece remains 'grove'
+- out is not empty → out = 'NORTH' + '-' + 'grove' → 'NORTH-grove'
+
+**Index 2:**
+- piece = words[2] = 'cloud'
+- index % 3 == 2 → False → piece remains 'cloud'
+- out is not empty → out = 'NORTH-grove' + '-' + 'cloud' → 'NORTH-grove-cloud'
+
+**Index 3:**
+- piece = words[3] = 'maple'
+- index % 3 == 3 → 3 % 3 == 0 → True → piece becomes 'MAPLE'
+- out is not empty → out = 'NORTH-grove-cloud' + '-' + 'MAPLE' → 'NORTH-grove-cloud-MAPLE'
+
+Final output: `NORTH-grove-cloud-MAPLE`
+
+```python
+NORTH-grove-cloud-MAPLE
+``` [end of text]
+
+

@@ -1,0 +1,42 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Amber, Blair, Drew, Lark, Quill, Tess, Xen, York  
+**Edges and weights**:
+
+- Amber – Lark: 3  
+- Blair – Xen: 9  
+- Drew – Lark: 7  
+- Drew – Tess: 2  
+- Drew – York: 6  
+- Lark – Quill: 8  
+- Lark – Xen: 8  
+- Lark – York: 1  
+- Tess – Xen: 8  
+
+We are to find the **shortest path (in total weight) from Amber to Blair**.
+
+---
+
+### Step 1: Understand the structure
+
+We need to go from **Amber** to **Blair**.
+
+Amber is only directly connected to **Lark** (weight 3).  
+Blair is only directly connected to **Xen** (weight 9).  
+So any path from Amber to Blair must go through some sequence of nodes, likely via Lark → other nodes → Xen → Blair.
+
+So possible path structure:
+**Amber → Lark → ... → Xen → Blair**
+
+We can explore paths from Amber to Blair via intermediate nodes.
+
+---
+
+### Step 2: Use Dijkstra’s algorithm (or manual shortest path search)
+
+We'll compute shortest distances from **Amber** to all other nodes, then get the distance to **Xen**, then add the edge from **Xen to Blair (9)**.
+
+#### Start from Amber
+
+Let’s compute shortest distances
+

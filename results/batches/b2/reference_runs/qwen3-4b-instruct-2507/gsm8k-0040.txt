@@ -1,0 +1,11 @@
+We are given:
+
+- Suzy’s iPhone is 1 year old.
+- Ben’s iPhone is **two times older** than Suzy’s.  
+  This means Ben’s iPhone is 2 × 1 = 2 years old.
+- Brandon’s iPhone is **four times as old** as Ben’s iPhone.  
+  So, Brandon’s iPhone is 4 × 2 = 8 years old.
+
+#### 8 [end of text]
+
+

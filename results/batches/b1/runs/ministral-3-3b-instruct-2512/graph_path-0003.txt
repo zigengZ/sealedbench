@@ -1,0 +1,28 @@
+To find the shortest path from **Bay** to **Vale**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Bay → Zed → Moss → Vale**
+   - Bay-Zed: 5
+   - Zed-Moss: 4
+   - Moss-Vale: 7
+   - **Total:** 5 + 4 + 7 = **16**
+
+2. **Bay → Zed → Oak → Vale**
+   - Bay-Zed: 5
+   - Zed-Oak: 7
+   - Oak-Vale: 1
+   - **Total:** 5 + 7 + 1 = **13**
+
+3. **Bay → Zed → Poe → Vale**
+   - Bay-Zed: 5
+   - Zed-Poe: 2
+   - Poe-Vale: 4
+   - **Total:** 5 + 2 + 4 = **11**
+
+4. **Bay → Zed → Sage → Zed → Moss → Vale** (Not valid, as it revisits nodes)
+
+The shortest valid path is **Bay → Zed → Poe → Vale** with a total weight of **11**.
+
+#### 11 [end of text]
+
+

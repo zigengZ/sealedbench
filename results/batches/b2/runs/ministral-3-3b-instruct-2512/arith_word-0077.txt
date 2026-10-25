@@ -1,0 +1,6 @@
+Willa has a total of 3 rows × 12 seats = 36 seats.
+After 3 seats are sold, the remaining unsold seats are 36 - 3 = 33.
+
+#### 33 [end of text]
+
+

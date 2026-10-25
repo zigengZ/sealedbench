@@ -1,0 +1,7 @@
+First, find the total number of notebooks Mina buys: 5 packs * 6 notebooks/pack = 30 notebooks.
+Then, subtract the notebooks Mina gives to Jamal: 30 notebooks - 3 notebooks = 27 notebooks.
+Finally, divide the remaining notebooks by the number of people sharing them: 27 notebooks / 3 people = 9 notebooks/person.
+
+#### 9 [end of text]
+
+

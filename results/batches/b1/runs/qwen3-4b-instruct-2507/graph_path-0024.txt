@@ -1,0 +1,42 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Blair, Eden, Fern, Indigo, Jules, Nell, Poe, Reed, West
+
+Edges and weights:
+
+- Blair–Eden: 4  
+- Blair–Indigo: 9  
+- Blair–Jules: 5  
+- Blair–Reed: 7  
+- Blair–West: 7  
+- Eden–Poe: 8  
+- Fern–Jules: 3  
+- Fern–Reed: 6  
+- Indigo–Nell: 8  
+- Indigo–Poe: 3  
+- Indigo–Reed: 4  
+- Nell–Reed: 2  
+
+We are to find the **shortest path from Poe to West**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We need to find the shortest path from **Poe** to **West**.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), starting from Poe.
+
+But since the graph is small, we can manually explore possible paths.
+
+---
+
+### Step 2: List neighbors and edge weights
+
+Let’s build adjacency list:
+
+- **Blair**: Eden(4), Indigo(9), Jules(5), Reed(7), West(7)  
+- **Eden**: Blair(4), Poe(8)  
+- **Fern**: Jules(3), Reed(6)  
+- **Indigo**: Blair(9), Nell
+

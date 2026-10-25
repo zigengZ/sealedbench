@@ -1,0 +1,15 @@
+The program iterates over the list `values` and adds each value to `total`. Since all values in the list are non-negative (the smallest value is 0), the condition `value < 0` is never true, so the `else` branch is always executed.
+
+The `else` branch simply adds the value to `total` in both cases.
+
+So, the total is the sum of all values in the list:
+
+`14 + 12 + 11 + 7 + 16 + 7 + 0 = 67`
+
+The program prints `67`.
+
+```
+67
+``` [end of text]
+
+

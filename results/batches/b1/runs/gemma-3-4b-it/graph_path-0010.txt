@@ -1,0 +1,33 @@
+We want to find the shortest path between Nell and Poe in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Bay Nell: 3
+- Bay Poe: 4
+- Bay Vale: 1
+- Eden Poe: 4
+- Fern Nell: 8
+- Nell Poe: 9
+- Nell Vale: 1
+- Poe Uri: 3
+- Uri Vale: 3
+
+We can consider the possible paths between Nell and Poe:
+1. Direct path: Nell -> Poe, weight = 9
+2. Nell -> Bay -> Poe: weight = 3 + 4 = 7
+3. Nell -> Vale -> Uri -> Poe: weight = 1 + 3 + 3 = 7
+4. Nell -> Fern: This path doesn't lead to Poe.
+
+Comparing the paths, the shortest path between Nell and Poe is the direct path with a weight of 9.
+
+Alternatively, we can use Dijkstra's algorithm.
+- Start at Nell.
+- Neighbors of Nell: Bay (3), Poe (9), Vale (1)
+- Distance to Bay: 3
+- Distance to Poe: 9
+- Distance to Vale: 1
+- Choose Vale (distance 1).
+- Neighbors of Vale: Bay (1), Uri (3)
+- Distance to Bay: 1 + 1 = 2 (better than 3)
+- Distance to Uri: 1 + 3 = 4
+- Choose Bay (
+

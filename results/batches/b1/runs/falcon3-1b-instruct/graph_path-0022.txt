@@ -1,0 +1,34 @@
+To find the shortest path between Reed and Vale, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Reed as 0 and to Vale as infinity.
+   - Create a priority queue and insert all nodes with their initial distances.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Termination**:
+   - Once the priority queue is empty, the shortest path distances are stored in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Fern', 'Lark', 'Nell', 'Reed', 'Vale', 'York']
+distances = {node: float('inf') for node in nodes}
+
+# Distances from Reed to each node
+distances['Reed'] = 0
+
+# Priority queue for Dijkstra's algorithm
+priority_queue = [(0, Reed)]
+
+# Function to perform Dijkstra's algorithm
+

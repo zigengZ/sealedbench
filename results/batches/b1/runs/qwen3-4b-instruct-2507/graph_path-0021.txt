@@ -1,0 +1,48 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** between **Cleo** and **Eden**.
+
+---
+
+### Step 1: List all nodes
+- Amber, Bay, Blair, Cleo, Eden, Indigo, Kai, Moss, Sage, Tess
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber – Bay: 9  
+- Amber – Cleo: 6  
+- Amber – Kai: 8  
+- Bay – Cleo: 2  
+- Bay – Kai: 8  
+- Blair – Eden: 3  
+- Blair – Moss: 5  
+- Blair – Tess: 3  
+- Cleo – Tess: 2  
+- Eden – Kai: 6  
+- Indigo – Tess: 6  
+- Kai – Tess: 2  
+- Moss – Tess: 7  
+- Sage – Tess: 6  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Goal — Shortest path from **Cleo** to **Eden**
+
+We need to find the minimum total weight path from Cleo to Eden.
+
+We can use **Breadth-First Search (BFS)** or **Dijkstra’s algorithm** since all weights are positive.
+
+We'll use **Dijkstra’s algorithm** to compute shortest paths from Cleo to all other nodes, including Eden.
+
+---
+
+### Step 4: Build adjacency list
+
+We'll build the graph from the edges.
+
+- Amber
+

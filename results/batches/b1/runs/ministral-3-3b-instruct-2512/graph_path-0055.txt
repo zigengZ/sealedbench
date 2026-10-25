@@ -1,0 +1,18 @@
+To find the shortest path from **Hart** to **Uri**, we can use Dijkstra's algorithm or explore paths manually.
+
+### Step-by-Step Reasoning:
+1. **Possible paths from Hart**:
+   - Hart → Ash → Bay → Eden → Poe → Uri
+     - Weights: 9 (Hart-Ash) + 6 (Ash-Bay) + 6 (Bay-Eden) + 1 (Eden-Poe) + 2 (Poe-Uri) = **24**
+   - Hart → Ash → Sage → Uri
+     - Weights: 9 (Hart-Ash) + 6 (Ash-Sage) + 7 (Sage-Uri) = **22**
+   - Hart → Ash → Bay → Eden → Sage → Uri
+     - Weights: 9 + 6 + 6 + 6 + 7 = **34** (longer than above)
+   - Hart → Ash → Nell → Amber → Sage → Uri
+     - Weights: 9 + 6 + 6 + 6 + 7 = **34** (longer)
+
+2. The shortest path is **Hart → Ash → Sage → Uri** with a total weight of **22**.
+
+#### 22 [end of text]
+
+

@@ -1,0 +1,12 @@
+First, calculate the total number of apples Boris has:
+8 packs * 12 apples/pack = 96 apples
+
+Next, subtract the apples given to Yara:
+96 apples - 15 apples = 81 apples
+
+Now, divide the remaining apples equally among 3 people:
+81 apples / 3 people = 27 apples/person
+
+#### 27 [end of text]
+
+

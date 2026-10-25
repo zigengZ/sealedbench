@@ -1,0 +1,15 @@
+Quinn sets out 4 rows with 5 seats in each row.
+
+First, find the total number of seats:
+
+4 rows × 5 seats = 20 seats
+
+Then, 16 seats are sold.
+
+So, the number of unsold seats is:
+
+20 - 16 = 4
+
+#### 4 [end of text]
+
+

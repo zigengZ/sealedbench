@@ -1,0 +1,34 @@
+To find the shortest path between Sage and Vale, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Sage as 0 and to Vale as infinity.
+   - Create a priority queue and insert Sage with a distance of 0.
+   - Create a set to keep track of visited nodes.
+
+2. **Process**:
+   - While the priority queue is not empty:
+     - Extract the node with the smallest distance from the queue.
+     - For each neighbor of the current node:
+       - Calculate the new distance through the current node.
+       - If this new distance is less than the current known distance to the neighbor, update the distance and insert the neighbor into the priority queue.
+
+3. **Result**:
+   - The distance to Sage will be the shortest path weight from Sage to Vale.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Blair', 'Eden', 'Nell', 'Oak', 'Quill', 'Sage', 'Vale', 'Xen']
+distances = {node: float('infinity') for node in nodes}
+visited = set()
+
+# Initialize distances
+distances[Sage] = 0
+distances[Vale] = float('infinity')
+
+# Priority queue
+priority_queue 
+

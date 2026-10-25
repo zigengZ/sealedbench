@@ -1,0 +1,16 @@
+Tara earns $18 per hour.
+
+On day 1 and day 2, she works 6 hours each day:
+
+- Day 1: 6 hours × $18 = $108  
+- Day 2: 6 hours × $18 = $108  
+
+Total earnings = $108 + $108 = $216
+
+Then she spends $204.
+
+Money left = $216 - $204 = $12
+
+#### 12 [end of text]
+
+

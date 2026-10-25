@@ -1,0 +1,13 @@
+First, let's calculate how much of the file Carla downloads before the restart: 40% of 200 GB is 0.40 * 200 GB = 80 GB.
+
+Next, let's calculate the time it takes to download 80 GB at a rate of 2 GB/minute: 80 GB / 2 GB/minute = 40 minutes.
+
+Then, we add the 20 minutes it takes for the restart: 40 minutes + 20 minutes = 60 minutes.
+
+Finally, since she restarts from the beginning, she needs to download the entire 200 GB again.  The time to download 200 GB at 2 GB/minute is 200 GB / 2 GB/minute = 100 minutes.
+
+Therefore, the total download time is 60 minutes + 100 minutes = 160 minutes.
+
+####160 [end of text]
+
+

@@ -1,0 +1,11 @@
+To find the shortest path from **Moss** to **Xen**, we use Dijkstra's algorithm:
+
+1. **Initialization**: Start at Moss with distance 0.
+2. **Relax edges**:
+   - Moss → Lark (9) → Lark → Poe (8) → Poe → Bay (9) → Bay → Lark (5) → Lark → Xen (9) → **Total = 9 + 8 + 9 + 5 + 9 = 39** (longer than another path)
+   - Moss → Lark (9) → Lark → Quill (9) → Quill → Amber (6) → Amber → Xen (8) → **Total = 9 + 9 + 6 + 8 = 32** (still longer)
+   - Moss → Lark (9) → Lark → Dove (4) → Dove → Xen (4) → **Total = 9 + 4 + 4 = 17** (better)
+   - Moss → Lark (9) → Lark → Indigo (4) → Indigo → Lark (4) → Lark → Xen (9) → **Total = 9 + 4 + 4 + 9 = 26** (longer)
+   - Moss → Lark (9) → Lark → Poe (8) → Poe → Dove (4) → Dove → Xen (4) → **Total = 9 + 8 + 4 + 4 = 25** (longer)
+   - Moss → Lark (
+

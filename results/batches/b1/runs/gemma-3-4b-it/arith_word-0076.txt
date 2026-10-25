@@ -1,0 +1,7 @@
+First, find the total number of apples Jamal buys: 5 packs * 10 apples/pack = 50 apples.
+Then, subtract the one apple Jamal gives away: 50 apples - 1 apple = 49 apples.
+
+####49
+ [end of text]
+
+

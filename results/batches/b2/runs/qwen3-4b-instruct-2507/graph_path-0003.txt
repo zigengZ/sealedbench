@@ -1,0 +1,114 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path from Cedar to Xen** and report the **total weight** of that path.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Bay – Kai: 2  
+- Bay – Reed: 5  
+- Bay – Xen: 6  
+- Cedar – Nell: 5  
+- Cedar – Reed: 3  
+- Cedar – Uri: 7  
+- Kai – Lark: 7  
+- Lark – Tess: 2  
+- Nell – Tess: 6  
+- Tess – Xen: 2  
+
+All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Cedar** to **Xen**
+
+We will perform a shortest path algorithm (like Dijkstra’s) manually, starting from Cedar.
+
+We’ll keep track of distances from Cedar to each node.
+
+Initialize:
+
+- Distance to Cedar: 0  
+- All others: ∞
+
+We’ll update distances as we explore neighbors.
+
+---
+
+### Step 3: Breadth-first/Dijkstra-style exploration
+
+Start with Cedar (distance = 0)
+
+**From Cedar:**
+- To Nell: 5 → distance[Nell] = 5  
+- To Reed: 3 → distance[Reed] = 3  
+- To Uri: 7 → distance[Uri] = 7  
+
+Current distances:
+- Cedar: 0  
+- Nell: 5  
+- Reed: 3  
+- Uri: 7  
+- Others: ∞
+
+Now, process the node with smallest distance: **Reed (3)**
+
+**From Reed:**
+- Connected to Bay (5), Cedar (3), and Cedar (already visited)
+
+Reed → Bay: weight 5  
+So, distance to Bay = 3 + 5 = 8  
+(Previously Bay was ∞, now 8)
+
+Now distances:
+- Bay: 8  
+- Others: as before
+
+Next smallest: **Nell (5)**
+
+**From Nell:**
+- Connected to Cedar (5), Tess (6)
+
+So, Nell → Tess: 5 + 6 = 11  
+→ distance[Tess] = 11
+
+Now distances:
+- Tess: 11
+
+Next: **Tess (11)**
+
+**From Tess:**
+- Connected to Nell (6), Lark (2), Xen (2)
+
+Tess → Lark: 11 + 2 = 13  
+Tess → Xen: 11 + 2 = 13  
+→ distance[Xen] = 13
+
+Now we have:
+- Xen: 13
+
+Now check if any other path to Xen can be shorter.
+
+We also have:
+- Bay → Xen: 6  
+- Bay is at distance 8 → Bay → Xen = 8 + 6 = 14 → worse than 13
+
+Any other path?
+
+What about via Lark?
+
+We have:
+- Lark → Tess (2), Kai (7)
+
+We have Tess at 11 → Lark would be 11 + 2 = 13 (from Tess), but we can also go from Kai to Lark.
+
+But we haven’t reached Kai yet.
+
+Can we reach Kai?
+
+From Bay → Kai: 2  
+Bay is at 8 → Bay → Kai = 8 + 2 = 10 → Kai = 10
+
+Then Kai → Lark: 7 → Lark = 10 + 7 = 17 → then Lark → Tess = 17 + 2
+

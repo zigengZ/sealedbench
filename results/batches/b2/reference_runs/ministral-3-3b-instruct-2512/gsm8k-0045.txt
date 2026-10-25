@@ -1,0 +1,10 @@
+**Reasoning:**
+1. **Monday:** Meredith wrote 5 articles.
+2. **Tuesday:** She wrote \( \frac{2}{5} \) times more than Monday, so \( 5 + \left(\frac{2}{5} \times 5\right) = 5 + 2 = 7 \) articles.
+3. **Wednesday:** She wrote twice Tuesday’s articles, so \( 2 \times 7 = 14 \) articles.
+4. **Total articles:** \( 5 + 7 + 14 = 26 \).
+5. **Total hours:** \( 26 \times 4 = 104 \) hours.
+
+#### 104 [end of text]
+
+

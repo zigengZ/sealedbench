@@ -1,0 +1,24 @@
+First, let's calculate the total number of balloons Hugo has after buying and giving balloons:
+
+1. Hugo buys 8 packs of balloons, and each pack contains 4 balloons.
+   - Total balloons = 8 packs * 4 balloons/pack = 32 balloons
+
+2. Hugo gives 28 balloons to Rosa.
+   - Balloons left = 32 balloons - 28 balloons = 4 balloons
+
+3. Rosa gives Hugo 8 more balloons.
+   - Balloons Hugo receives = 8 balloons
+
+Now, let's calculate the total number of balloons Hugo has after receiving:
+
+- Balloons Hugo has = Balloons left + Balloons received
+  - Balloons Hugo has = 4 balloons + 8 balloons = 12 balloons
+
+Each balloon is worth 6 dollars. So, the total value of Hugo's balloons is:
+
+- Total value = Balloons Hugo has * Value per balloon
+  - Total value = 12 balloons * 6 dollars/balloon = 72 dollars
+
+#### 72 [end of text]
+
+

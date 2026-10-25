@@ -1,0 +1,11 @@
+First, calculate the number of cookies from the first two packs: 2 packs * 4 cookies/pack = 8 cookies.
+
+Next, calculate the number of cookies from the second two packs: 2 packs * 7 cookies/pack = 14 cookies.
+
+Then, calculate the total number of cookies Yara has before giving any away: 8 cookies + 14 cookies = 22 cookies.
+
+Finally, subtract the number of cookies Yara gives to Esme: 22 cookies - 13 cookies = 9 cookies.
+
+#### 9 [end of text]
+
+

@@ -1,0 +1,8 @@
+Janet pays:
+- $500 (material) + $800 (construction) = $1,300
+- Insurance: 10% of $1,300 = $130
+- Total: $1,300 + $130 = $1,430
+
+#### 1430 [end of text]
+
+

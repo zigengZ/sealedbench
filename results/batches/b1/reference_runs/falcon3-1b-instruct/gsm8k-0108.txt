@@ -1,0 +1,27 @@
+Let's denote the number of cookies Henry baked last year as \( x \).
+
+According to the problem, Henry wants to make twice as many cookies as he did last year. Therefore, the number of cookies he wants to bake this year is \( 2x \).
+
+He actually baked 15 more cookies than he intended, so the number of cookies he baked this year is \( 2x + 15 \).
+
+He then drops 5 cookies, leaving him with 110 cookies. Therefore, we can set up the equation:
+
+\[ 2x + 15 - 5 = 110 \]
+
+Simplifying the equation:
+
+\[ 2x + 10 = 110 \]
+
+Subtract 10 from both sides:
+
+\[ 2x = 100 \]
+
+Divide both sides by 2:
+
+\[ x = 50 \]
+
+So, Henry baked 50 cookies last year.
+
+#### 50 [end of text]
+
+

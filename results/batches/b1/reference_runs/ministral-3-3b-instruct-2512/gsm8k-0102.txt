@@ -1,0 +1,8 @@
+John drinks water **5 days a week** (breakfast, lunch, dinner, and bedtime) with 4 glasses each day:
+5 days × 4 glasses = 20 glasses.
+
+On weekends, he has a soda for dinner instead of water, so no extra water is added.
+
+#### 20 [end of text]
+
+

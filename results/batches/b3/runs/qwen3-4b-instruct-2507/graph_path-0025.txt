@@ -1,0 +1,77 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Blair, Hart, Jules, Kai, Moss, Oak, Poe, Xen  
+**Edges and weights**:
+
+- Blair–Hart: 5  
+- Blair–Jules: 5  
+- Blair–Kai: 1  
+- Blair–Xen: 2  
+- Hart–Oak: 4  
+- Hart–Poe: 1  
+- Jules–Oak: 8  
+- Kai–Poe: 1  
+- Moss–Oak: 8  
+
+We are to find the **shortest path from Hart to Moss**.
+
+---
+
+### Step 1: Understand the structure
+
+We need to go from **Hart** to **Moss**.
+
+Moss is only directly connected to **Oak** (weight 8). So any path from Hart to Moss must go through Oak.
+
+So, the path will be:  
+**Hart → ... → Oak → Moss**  
+(Weight of Oak–Moss = 8)
+
+So we need the shortest path from **Hart to Oak**, then add 8.
+
+---
+
+### Step 2: Find shortest path from Hart to Oak
+
+Possible paths from Hart to Oak:
+
+1. **Hart → Oak** directly: weight = 4 ✅
+
+2. **Hart → Poe → Oak?**  
+   - Hart–Poe = 1  
+   - Poe–Oak? → Not directly given.  
+   → No edge from Poe to Oak → invalid.
+
+3. **Hart → Blair → Jules → Oak**  
+   - Hart–Blair = 5  
+   - Blair–Jules = 5  
+   - Jules–Oak = 8  
+   Total = 5 + 5 + 8 = 18 → worse than direct.
+
+4. **Hart → Blair → Kai → Poe → ???**  
+   - Hart–Blair = 5  
+   - Blair–Kai = 1  
+   - Kai–Poe = 1  
+   - Poe → Oak? No edge → can't reach Oak.
+
+5. **Hart → Blair → Xen?**  
+   - No connection from Xen to Oak or Poe → dead end.
+
+So only viable path from Hart to Oak is **direct**: weight = 4
+
+---
+
+### Step 3: Add path from Oak to Moss
+
+Oak–Moss = 8
+
+So total path: Hart → Oak → Moss  
+Total weight = 4 + 8 = **12**
+
+---
+
+### Final Answer:
+
+#### 12 [end of text]
+
+

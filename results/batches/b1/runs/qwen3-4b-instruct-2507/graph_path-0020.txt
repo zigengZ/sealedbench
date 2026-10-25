@@ -1,0 +1,43 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path weight** from **Poe** to **West**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Amber, Drew, Moss, Poe, Reed, Uri, West, Xen, York
+
+We are to compute the shortest path from **Poe** to **West**.
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Poe — Amber: 8  
+- Amber — Reed: 5  
+- Amber — Uri: 6  
+- Amber — York: 6  
+- Drew — Moss: 8  
+- Drew — Reed: 7  
+- Drew — West: 8  
+- Drew — York: 9  
+- Poe — Reed: 5  
+- Reed — Xen: 4  
+- Uri — York: 2  
+- West — Xen: 6  
+
+Note: Since the graph is **undirected**, each edge is bidirectional.
+
+---
+
+### Step 3: Build adjacency list (for clarity)
+
+We'll build the graph from the edges:
+
+- Amber: Poe(8), Reed(5), Uri(6), York(6)  
+- Poe: Amber(8), Reed(5)  
+- Reed: Amber(5), Drew(7), Poe(5), Xen(4)  
+- Drew: Moss(8), Reed(7), West(8), York(9)  
+- West: Drew(8), Xen(6)  
+- Xen
+

@@ -1,0 +1,12 @@
+Ava buys 6 packs of erasers, and each pack has 9 erasers:  
+6 × 9 = 54 erasers
+
+She also buys 2 packs with 4 erasers each:  
+2 × 4 = 8 erasers
+
+Now, add both amounts:  
+54 + 8 = 62 erasers
+
+#### 62 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, calculate the total number of tickets Esme initially has:
+
+7 packs * 3 tickets/pack = 21 tickets
+
+Next, subtract the 6 tickets given to Uma:
+
+21 tickets - 6 tickets = 15 tickets
+
+Then, add the 22 additional tickets Uma gives:
+
+15 tickets + 22 tickets = 37 tickets
+
+So, Esme has #### 37 tickets. [end of text]
+
+

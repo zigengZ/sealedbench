@@ -1,0 +1,7 @@
+Felix reads **120 pages** in 6 days (20 pages/day × 6 days).
+Adding the extra 3 pages: **123 pages**.
+Skipping 13 blank pages doesn’t change the total count.
+
+#### 120 [end of text]
+
+

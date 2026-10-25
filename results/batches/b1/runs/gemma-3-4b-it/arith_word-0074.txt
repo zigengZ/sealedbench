@@ -1,0 +1,7 @@
+First, Nico reads 7 pages/day * 5 days = 35 pages.
+Then he reads 11 more pages, so he has read 35 + 11 = 46 pages.
+Finally, he skips 44 pages, so he has read 46 - 44 = 2 pages.
+
+####2 [end of text]
+
+

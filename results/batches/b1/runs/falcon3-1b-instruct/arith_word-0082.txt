@@ -1,0 +1,12 @@
+First, calculate the total number of pages Yara reads in 6 days:
+21 pages/day * 6 days = 126 pages
+
+Then, add the 25 additional pages she reads:
+126 pages + 25 pages = 151 pages
+
+Next, subtract the 76 pages she skips:
+151 pages - 76 pages = 75 pages
+
+So, Yara reads #### 75. [end of text]
+
+

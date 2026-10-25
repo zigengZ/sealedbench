@@ -1,0 +1,7 @@
+Xavier earns 10 dollars an hour. He works 9 hours, so his total earnings are 10 * 9 = 90 dollars.
+
+Xavier then spends 13 dollars. To find out how many dollars he has left, subtract the amount spent from his earnings: 90 - 13 = 77.
+
+#### 77 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, let's calculate the number of tickets from the 8 packs: 8 packs * 10 tickets/pack = 80 tickets.
+Next, let's calculate the number of tickets from the 4 packs: 4 packs * 2 tickets/pack = 8 tickets.
+Now, let's find the total number of tickets Kira has: 80 tickets + 8 tickets = 88 tickets.
+Then, Kira gives away 3 tickets, so she has 88 tickets - 3 tickets = 85 tickets.
+Each ticket is worth 3 dollars, so the total value is 85 tickets * 3 dollars/ticket = 255 dollars.
+
+####255 [end of text]
+
+

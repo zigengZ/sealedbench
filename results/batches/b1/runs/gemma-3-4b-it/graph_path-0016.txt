@@ -1,0 +1,25 @@
+We want to find the shortest path between Blair and Glen in the given undirected weighted graph.
+
+The graph has the following edges and weights:
+- Blair-Dove: 5
+- Dove-Glen: 6
+- Dove-Sage: 3
+- Dove-Vale: 4
+- Dove-Xen: 7
+- Glen-Sage: 8
+- Glen-Vale: 8
+- Glen-Xen: 6
+- Sage-Vale: 2
+- Sage-Xen: 1
+
+We can consider possible paths from Blair to Glen:
+1. Blair -> Dove -> Glen: Weight = 5 + 6 = 11
+2. Blair -> Dove -> Sage -> Glen: Weight = 5 + 3 + 8 = 16
+3. Blair -> Dove -> Vale -> Glen: Weight = 5 + 4 + 8 = 17
+4. Blair -> Dove -> Xen -> Glen: Weight = 5 + 7 + 6 = 18
+
+The shortest path is Blair -> Dove -> Glen with a total weight of 11.
+
+#### 11 [end of text]
+
+

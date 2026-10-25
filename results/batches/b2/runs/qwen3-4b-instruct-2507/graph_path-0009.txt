@@ -1,0 +1,99 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path weight** between **Oak** and **Xen**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Amber, Ash, Bay, Dove, Nell, Oak, Poe, West, Xen, York
+
+We are to compute the shortest path from **Oak** to **Xen**.
+
+---
+
+### Step 2: Build adjacency list (undirected, so each edge goes both ways)
+
+We go through each edge:
+
+- Amber — York: 1  
+- Ash — Nell: 3  
+- Ash — Xen: 4  
+- Bay — Dove: 2  
+- Bay — Nell: 8  
+- Bay — York: 4  
+- Nell — Oak: 5  
+- Nell — Poe: 6  
+- Nell — Xen: 3  
+- Nell — York: 3  
+- West — York: 6  
+- Xen — York: 2  
+
+Now build adjacency list:
+
+- Amber: York (1)  
+- Ash: Nell (3), Xen (4)  
+- Bay: Dove (2), Nell (8), York (4)  
+- Dove: Bay (2)  
+- Nell: Ash (3), Bay (8), Oak (5), Poe (6), York (3), Xen (3)  
+- Oak: Nell (5)  
+- Poe: Nell (6)  
+- West: York (6)  
+- Xen: Ash (4), Nell (3), York (2)  
+- York: Amber (1), Bay (4), Nell (3), West (6), Xen (2)
+
+---
+
+### Step 3: Use Dijkstra’s algorithm from Oak to Xen
+
+We want shortest path from **Oak** to **Xen**.
+
+Start at Oak.
+
+Initialize distances:
+- dist[Oak] = 0
+- All others = ∞
+
+We will relax edges step by step.
+
+---
+
+**Step 1: From Oak**
+- Oak → Nell: 5  
+→ dist[Nell] = 5
+
+Now queue: Nell (5)
+
+---
+
+**Step 2: From Nell (distance 5)**
+
+Nell is connected to:
+- Ash (3): 5 + 3 = 8 → dist[Ash] = 8
+- Bay (8): 5 + 8 = 13 → dist[Bay] = 13
+- Oak (5): already visited
+- Poe (6): 5 + 6 = 11 → dist[Poe] = 11
+- York (3): 5 + 3 = 8 → dist[York] = 8
+- Xen (3): 5 + 3 = 8 → dist[Xen] = 8 ✅
+
+Now we have:
+- dist[Xen] = 8
+
+Is this the shortest path? Let's verify if any other path to Xen is shorter.
+
+We have found a path:  
+**Oak → Nell → Xen** with total weight = 5 + 3 = 8
+
+Are there any other paths?
+
+Let’s check if any other route to Xen via other nodes gives less than 8.
+
+---
+
+Check if Xen can be reached via York?
+
+Xen → York: 2  
+So if we go Oak → Nell → York → Xen:  
+Oak → Nell: 5  
+Nell → York: 3 → total 8  
+York → Xen: 2 → total 8 + 2 = 10 → longer
+
+Or Oak → Nell → Bay → York
+

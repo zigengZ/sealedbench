@@ -1,0 +1,13 @@
+Chloe reads 11 pages a day for 5 days on the first book:
+
+11 pages/day × 5 days = 55 pages
+
+She also reads 11 pages a day for 5 days on the second book:
+
+11 pages/day × 5 days = 55 pages
+
+Total pages read = 55 + 55 = 110 pages
+
+#### 110 [end of text]
+
+

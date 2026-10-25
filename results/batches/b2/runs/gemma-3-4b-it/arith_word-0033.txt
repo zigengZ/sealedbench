@@ -1,0 +1,11 @@
+First, let's calculate the number of erasers from the first 7 packs: 7 packs * 7 erasers/pack = 49 erasers.
+
+Next, let's calculate the number of erasers from the 3 packs with 9 erasers each: 3 packs * 9 erasers/pack = 27 erasers.
+
+Now, let's find the total number of erasers: 49 erasers + 27 erasers = 76 erasers.
+
+Finally, let's divide the total number of erasers by the number of people: 76 erasers / 2 people = 38 erasers/person.
+
+#### 38 [end of text]
+
+

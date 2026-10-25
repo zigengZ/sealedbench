@@ -1,0 +1,9 @@
+Victor reads 17 pages a day for 2 days:  
+17 × 2 = 34 pages.
+
+Then he reads 7 more pages:  
+34 + 7 = 41 pages.
+
+#### 41 [end of text]
+
+

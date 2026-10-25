@@ -1,0 +1,12 @@
+Samir buys 5 packs of erasers, and each pack has 4 erasers.  
+So, total erasers = 5 × 4 = 20 erasers.
+
+Then Samir gives 11 erasers to Victor.  
+So, erasers left with Samir = 20 - 11 = 9 erasers.
+
+These 9 erasers are shared equally among 3 people.  
+So, each person gets = 9 ÷ 3 = 3 erasers.
+
+#### 3 [end of text]
+
+

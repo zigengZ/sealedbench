@@ -1,0 +1,7 @@
+Elena starts with 3 packs × 4 crayons = 12 crayons.
+After giving 9 to Yara, she has 12 − 9 = 3 crayons left.
+Sharing equally among 3 people gives each person 3 ÷ 3 = 1 crayon.
+
+#### 1 [end of text]
+
+

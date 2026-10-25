@@ -1,0 +1,10 @@
+Victor reads **17 pages/day × 4 days = 68 pages** from the first book.
+Then, **18 pages/day × 2 days = 36 pages** from the second book.
+Total pages before skipping: **68 + 36 = 104 pages**.
+After skipping 34 blank pages: **104 - 34 = 70 pages per week**.
+
+For 4 weeks: **70 pages/week × 4 weeks = 280 pages**.
+
+#### 280 [end of text]
+
+

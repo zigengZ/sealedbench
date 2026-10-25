@@ -1,0 +1,29 @@
+{
+  "round": 33154752,
+  "decrypt": "PASS",
+  "grades": [
+    {
+      "item_id": "arith_word-0000",
+      "family": "arith_word",
+      "returncode": 0,
+      "seconds": 10.856,
+      "correct": false,
+      "invalid": true,
+      "truncated": false,
+      "parsed": null,
+      "oracle": "127"
+    },
+    {
+      "item_id": "code_output-0000",
+      "family": "code_output",
+      "returncode": 0,
+      "seconds": 19.578,
+      "correct": false,
+      "invalid": false,
+      "truncated": false,
+      "parsed": "54\n5",
+      "oracle": "29\n5"
+    }
+  ],
+  "model": "falcon3-1b-instruct"
+}

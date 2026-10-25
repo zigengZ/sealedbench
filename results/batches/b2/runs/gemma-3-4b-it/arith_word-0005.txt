@@ -1,0 +1,7 @@
+First, find the total number of pages Chloe reads in the first two days: 13 pages/day * 2 days = 26 pages.
+Then, add the additional 9 pages: 26 pages + 9 pages = 35 pages.
+
+####35
+ [end of text]
+
+

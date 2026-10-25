@@ -1,0 +1,8 @@
+Chloe reads **11 pages/day × 5 days = 55 pages** in the first book.
+She reads another **11 pages/day × 5 days = 55 pages** in the second book.
+
+Total pages read: **55 + 55 = 110 pages**
+
+#### 110 [end of text]
+
+

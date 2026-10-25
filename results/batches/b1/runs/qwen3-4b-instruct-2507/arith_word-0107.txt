@@ -1,0 +1,17 @@
+Mina buys 4 packs of apples, and each pack has 10 apples:
+
+4 × 10 = 40 apples
+
+She gives 35 apples to Hugo:
+
+40 − 35 = 5 apples left with Mina
+
+Then Hugo gives Mina 8 more apples:
+
+5 + 8 = 13 apples
+
+So, Mina now has 13 apples.
+
+#### 13 [end of text]
+
+

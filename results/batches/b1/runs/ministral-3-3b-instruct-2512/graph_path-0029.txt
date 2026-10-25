@@ -1,0 +1,26 @@
+To find the shortest path from **Cleo** to **Kai**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here weights are involved).
+
+### Step-by-Step Reasoning:
+1. **Start at Cleo** (distance = 0).
+2. **Expand neighbors**:
+   - Cleo → Tess (weight = 5).
+3. **Update distances**:
+   - Tess: 5 (from Cleo).
+4. **Expand Tess**:
+   - Tess → Drew (via Drew-Jules-Kai path, but first check direct paths).
+   - Tess → Kai (weight = 5 + 2 = 7).
+   - Tess → Drew (weight = 5 + 3 = 8).
+5. **Expand Drew**:
+   - Drew → Hart (8 + 8 = 16).
+   - Drew → Jules (8 + 3 = 11).
+   - Drew → Zed (8 + 7 = 15).
+6. **Expand Jules**:
+   - Jules → Kai (11 + 6 = 17) → **Not better than 7**.
+   - Jules → Quill (11 + 1 = 12).
+7. **Expand Quill**:
+   - Quill → Ash (12 + 1 = 13).
+   - Quill → Jules (already visited).
+8. **Expand Hart**:
+   - Hart → Drew (already visited).
+   - Hart → Jules (8 + 2 = 1
+

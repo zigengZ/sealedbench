@@ -1,0 +1,8 @@
+Cindy has 4 pets.
+Marcia has 2 more than Cindy, so 4 + 2 = 6 pets.
+Jan has three times as many as Marcia, so 3 × 6 = 18 pets.
+Total pets: 4 + 6 + 18 = 28
+
+#### 28 [end of text]
+
+

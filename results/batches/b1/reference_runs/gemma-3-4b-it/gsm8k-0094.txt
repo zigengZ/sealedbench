@@ -1,0 +1,11 @@
+Let $d$ be the number of dogs and $c$ be the number of cats.
+We are given that the number of dogs is 60, so $d = 60$.
+We are also given that there are two cats for every dog, so $c = 2d = 2(60) = 120$.
+Let $r$ be the number of rabbits.
+The number of rabbits pets is twelve less than the combined number of pet dogs and cats. So, $r = (d + c) - 12$.
+Substituting the values of $d$ and $c$, we get $r = (60 + 120) - 12 = 180 - 12 = 168$.
+The total number of pets is $d + c + r = 60 + 120 + 168 = 180 + 168 = 348$.
+
+####348 [end of text]
+
+

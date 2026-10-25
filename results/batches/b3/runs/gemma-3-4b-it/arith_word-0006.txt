@@ -1,0 +1,13 @@
+First, let's calculate the number of oranges from the first 6 packs: 6 packs * 3 oranges/pack = 18 oranges.
+
+Next, let's calculate the number of oranges from the 5 packs: 5 packs * 4 oranges/pack = 20 oranges.
+
+Now, let's find the total number of oranges Esme has: 18 oranges + 20 oranges = 38 oranges.
+
+Then, Esme gives 35 oranges to Ben, so she has 38 - 35 = 3 oranges left.
+
+Finally, the 3 oranges are shared equally among 3 people: 3 oranges / 3 people = 1 orange/person.
+
+#### 1 [end of text]
+
+

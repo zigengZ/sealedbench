@@ -1,0 +1,16 @@
+First, let's calculate Gina's total earnings.
+
+Gina earns $18 per hour.
+She works 7 hours.
+
+Total earnings = $18/hour * 7 hours = $126.
+
+Next, we subtract the amount she spends from her earnings.
+
+Amount spent = $55.
+
+Remaining money = Total earnings - Amount spent = $126 - $55 = $71.
+
+So, Gina has #### 71 dollars left. [end of text]
+
+

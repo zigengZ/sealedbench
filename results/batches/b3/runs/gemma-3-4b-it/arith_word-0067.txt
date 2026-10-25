@@ -1,0 +1,7 @@
+First, Tara buys 4 packs of muffins, and each pack has 4 muffins, so she has 4 * 4 = 16 muffins.
+Then she gives 5 muffins to Chloe, so she has 16 - 5 = 11 muffins.
+Finally, Chloe gives Tara 10 more muffins, so Tara has 11 + 10 = 21 muffins.
+
+####21 [end of text]
+
+

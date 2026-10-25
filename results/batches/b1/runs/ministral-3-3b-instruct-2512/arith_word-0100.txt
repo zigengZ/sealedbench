@@ -1,0 +1,5 @@
+Esme has a total of 11 rows × 8 seats = 88 seats. After selling 34 seats, the unsold seats are 88 - 34 = 54.
+
+#### 54 [end of text]
+
+

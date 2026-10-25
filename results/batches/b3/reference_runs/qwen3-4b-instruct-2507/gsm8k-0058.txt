@@ -1,0 +1,28 @@
+We are told that Stephen's final bill came to $40.00 **before** any fees. Let's break down what happened:
+
+1. **Delivery vendor added a 25% fee** on the $40.00.
+2. **$3.00 delivery fee** was charged.
+3. **$4.00 tip** was added.
+
+We need to find the **final price** after all these fees and the tip.
+
+---
+
+Step 1: Calculate the 25% fee on $40.00  
+25% of $40.00 = 0.25 × 40 = $10.00
+
+So, the total after the 25% fee = $40.00 + $10.00 = $50.00
+
+Step 2: Add the $3.00 delivery fee  
+$50.00 + $3.00 = $53.00
+
+Step 3: Add the $4.00 tip  
+$53.00 + $4.00 = $57.00
+
+---
+
+✅ Final price after all fees and tip: **$57.00**
+
+#### 57 [end of text]
+
+

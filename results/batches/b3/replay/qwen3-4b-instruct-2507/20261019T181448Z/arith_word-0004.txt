@@ -1,0 +1,11 @@
+Ben reads the first book at 24 pages per day for 2 days:  
+24 × 2 = 48 pages.
+
+He reads the second book at 9 pages per day for 3 days:  
+9 × 3 = 27 pages.
+
+Total pages read = 48 + 27 = 75 pages.
+
+#### 75 [end of text]
+
+

@@ -1,0 +1,9 @@
+First, we need to find out how many vacations Gene has taken. He has been vacationing since he was 23 and is now 34, so he has taken 34 - 23 = 11 vacations.
+
+Since he has one shirt per vacation, he has 11 shirts.
+
+Each shirt is a quilt block, so he has 11 quilt blocks in total.
+
+####11 [end of text]
+
+

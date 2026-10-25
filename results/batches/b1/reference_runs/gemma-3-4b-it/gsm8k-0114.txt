@@ -1,0 +1,11 @@
+Let $J$ be the number of photographs Jamal's phone can hold, and $B$ be the number of photographs Brittany's phone can hold.
+We are given that Jamal's phone can hold 6 times more photographs than Brittany's phone, so $J = 6B$.
+We are also given that the maximum number of photographs that Brittany's phone can hold is 50 times more than the number of birds in Jamal's photograph of the ducks at the zoo. Let $d$ be the number of ducks in Jamal's photograph. Then $B = 50d$.
+We are given that Jamal's phone can hold 1800 photographs, so $J = 1800$.
+Since $J = 6B$, we have $1800 = 6B$, so $B = \frac{1800}{6} = 300$.
+Since $B = 50d$, we have $300 = 50d$, so $d = \frac{300}{50} = 6$.
+Therefore, there are 6 ducks in Jamal's photograph of ducks at the zoo.
+
+#### 6 [end of text]
+
+

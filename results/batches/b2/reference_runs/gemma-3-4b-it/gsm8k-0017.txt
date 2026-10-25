@@ -1,0 +1,8 @@
+First, let's calculate Jill's weekly earnings as a teacher: 35 hours/week * $20/hour = $700/week.
+Next, let's calculate Jill's weekly earnings as a coach: 15 hours/week * $30/hour = $450/week.
+Then, let's calculate Jill's total weekly earnings: $700/week + $450/week = $1150/week.
+Finally, let's calculate Jill's annual salary: $1150/week * 50 weeks/year = $57500/year.
+
+####57500 [end of text]
+
+

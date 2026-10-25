@@ -1,0 +1,8 @@
+First, find the total number of stamps in the 8 packs: 8 packs * 11 stamps/pack = 88 stamps.
+Next, find the total number of stamps in the 4 packs: 4 packs * 2 stamps/pack = 8 stamps.
+Then, find the total number of stamps Chloe has: 88 stamps + 8 stamps = 96 stamps.
+Finally, divide the total number of stamps by the number of people: 96 stamps / 3 people = 32 stamps/person.
+
+####32 [end of text]
+
+

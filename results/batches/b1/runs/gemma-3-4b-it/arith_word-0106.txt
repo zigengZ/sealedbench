@@ -1,0 +1,7 @@
+First, find the total number of oranges Ben buys: 2 packs * 8 oranges/pack = 16 oranges.
+Then, subtract the oranges Ben gives away: 16 oranges - 3 oranges = 13 oranges.
+
+####13
+ [end of text]
+
+

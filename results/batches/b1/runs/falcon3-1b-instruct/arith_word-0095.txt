@@ -1,0 +1,14 @@
+First, let's calculate the total number of magnets Dmitri initially had.
+
+Dmitri buys 3 packs of magnets, and each pack contains 4 magnets.
+So, the total number of magnets Dmitri initially had is:
+3 packs * 4 magnets/pack = 12 magnets
+
+Then, Elena gives Dmitri 17 more magnets.
+
+Now, let's add the number of magnets Elena gave to the initial total:
+12 magnets (initial) + 17 magnets (Elena's gift) = 29 magnets
+
+Therefore, Dmitri has #### 29 magnets. [end of text]
+
+

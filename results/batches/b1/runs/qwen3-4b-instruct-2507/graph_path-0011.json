@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "graph_path",
+  "gen_tokens": 319,
+  "gen_tps": 4.18,
+  "hit_cap": false,
+  "item_id": "graph_path-0011",
+  "model": "qwen3-4b-instruct-2507",
+  "n_predict": 320,
+  "prompt_tokens": 156,
+  "prompt_tps": 31.95,
+  "returncode": 0,
+  "seconds": 82.69,
+  "stdout_bytes": 1013,
+  "stdout_sha256": "148f87dc3a8615134528b37133057e4926f8f774fcd2337474ab77d1d0cb93ec"
+}

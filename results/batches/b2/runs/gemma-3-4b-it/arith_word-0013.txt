@@ -1,0 +1,13 @@
+First, let's calculate the number of pencils Victor buys in the first set of packs: 3 packs * 6 pencils/pack = 18 pencils.
+
+Next, let's calculate the number of pencils Victor buys in the second set of packs: 3 packs * 7 pencils/pack = 21 pencils.
+
+Now, let's find the total number of pencils Victor has: 18 pencils + 21 pencils = 39 pencils.
+
+Then, Victor gives away 27 pencils, so he has 39 - 27 = 12 pencils left.
+
+Finally, let's calculate the total value of Victor's remaining pencils: 12 pencils * 2 dollars/pencil = 24 dollars.
+
+#### 24 [end of text]
+
+

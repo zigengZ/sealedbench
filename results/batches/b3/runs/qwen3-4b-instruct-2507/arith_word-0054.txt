@@ -1,0 +1,19 @@
+First, find the total number of seats:
+
+- Uma sets out 4 rows with 15 seats each:  
+  $4 \times 15 = 60$ seats
+
+- Then adds 6 rows with 6 seats each:  
+  $6 \times 6 = 36$ seats
+
+Total seats = $60 + 36 = 96$ seats
+
+Then, 58 seats are sold, so the number of unsold seats is:  
+$96 - 58 = 38$ seats
+
+Each unsold seat is worth $6, so total value of unsold seats is:  
+$38 \times 6 = 228$ dollars
+
+#### 228 [end of text]
+
+

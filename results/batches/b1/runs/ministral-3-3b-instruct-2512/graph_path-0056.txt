@@ -1,0 +1,30 @@
+To find the shortest path from **Nell** to **Sage**, we can use **Dijkstra's algorithm** (since all weights are non-negative).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to Nell = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Nexus)**:
+   - Start with Nell (distance = 0).
+   - Explore neighbors: Cleo (1), Kai (3).
+
+3. **Update Distances**:
+   - Cleo: 0 + 1 = 1.
+   - Kai: 0 + 3 = 3.
+   - Update queue: Cleo (1), Kai (3), others (∞).
+
+4. **Next Node: Cleo (distance = 1)**:
+   - Neighbor: Nell (already visited).
+   - No updates.
+
+5. **Next Node: Kai (distance = 3)**:
+   - Neighbors: Nell (visited), West (3 + 7 = 10).
+   - Update West: 10.
+   - Queue: West (10), others (∞).
+
+6. **Next Node: West (distance = 10)**:
+   - Neighbors: Amber (10 + 6 = 16), Vale (10 + 2 = 12), Zed (10 + 8 = 18).
+   - Update Amber (16), Vale
+

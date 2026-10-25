@@ -1,0 +1,11 @@
+Charlie makes 20 candles, so he uses **2 pounds** of beeswax (since 20 ÷ 10 = 2).
+
+Costs:
+- Supplies: $10.00 (for 2 pounds of beeswax + wicks)
+- Revenue: 20 candles × $2.00 = $40.00
+
+Net profit = $40.00 - $10.00 = **$30.00**
+
+#### 30 [end of text]
+
+

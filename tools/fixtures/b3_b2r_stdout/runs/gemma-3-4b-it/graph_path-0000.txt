@@ -1,0 +1,34 @@
+We want to find the shortest path between Jules and Poe in the given undirected weighted graph.
+
+Nodes: Amber, Drew, Jules, Kai, Poe, Quill, Vale, Xen
+Edges:
+Amber Drew 2
+Amber Kai 1
+Amber Poe 7
+Amber Vale 4
+Drew Quill 7
+Jules Kai 2
+Kai Quill 3
+Kai Vale 6
+Kai Xen 2
+Poe Vale 5
+Quill Vale 8
+
+We can use Dijkstra's algorithm or simply explore possible paths.
+
+Path 1: Jules -> Kai -> Amber -> Poe
+Weight: 2 + 1 + 7 = 10
+
+Path 2: Jules -> Kai -> Vale -> Poe
+Weight: 2 + 6 + 5 = 13
+
+Path 3: Jules -> Kai -> Quill -> Vale -> Poe
+Weight: 2 + 3 + 8 + 5 = 18
+
+Path 4: Jules -> Kai -> Xen (no path to Poe)
+
+The shortest path is Jules -> Kai -> Amber -> Poe with a total weight of 10.
+
+#### 10 [end of text]
+
+

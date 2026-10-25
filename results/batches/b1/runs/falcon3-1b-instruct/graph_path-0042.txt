@@ -1,0 +1,26 @@
+To find the shortest path between Indigo and York, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Indigo as 0 and to York as infinity.
+   - Create a priority queue and insert Indigo with a distance of 0.
+
+2. **Process Indigo**:
+   - Extract the node with the smallest distance (0).
+   - Update the distances to its neighbors (Amber, Kai, and York).
+   - If the distance to York is updated to 0, it means York is directly connected to Indigo, so we can break out of the loop.
+
+3. **Process Amber**:
+   - Extract the node with the smallest distance (0).
+   - Update the distances to its neighbors (Eden, Kai, and York).
+   - If the distance to York is updated to 0, break out of the loop.
+
+4. **Process Kai**:
+   - Extract the node with the smallest distance (0).
+   - Update the distances to its neighbors (Eden, Kai, and York).
+   - If the distance to York is updated to 0, break out of the loop.
+
+5. **Process York**:
+   - Extract the node with the smallest distance (0).
+   - Update the distances to its neighbors (Amber, Eden, and Kai).
+   - If the distance to York is updated to 
+

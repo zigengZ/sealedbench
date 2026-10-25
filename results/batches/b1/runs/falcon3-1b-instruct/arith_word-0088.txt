@@ -1,0 +1,22 @@
+First, let's calculate the total number of stamps Pavel has.
+
+Pavel buys 9 packs of stamps, and each pack contains 5 stamps.
+So, the total number of stamps Pavel has is:
+9 packs * 5 stamps/pack = 45 stamps
+
+Next, Pavel gives 3 stamps to Felix.
+
+Now, let's calculate the total number of stamps Pavel has after giving some to Felix.
+
+Pavel originally had 45 stamps.
+He gives away 3 stamps, so he is left with:
+45 stamps - 3 stamps = 42 stamps
+
+Each stamp is worth 9 dollars.
+
+To find the total value of Pavel's stamps, we multiply the number of stamps by the value per stamp:
+42 stamps * 9 dollars/stamp = 378 dollars
+
+#### 378 [end of text]
+
+

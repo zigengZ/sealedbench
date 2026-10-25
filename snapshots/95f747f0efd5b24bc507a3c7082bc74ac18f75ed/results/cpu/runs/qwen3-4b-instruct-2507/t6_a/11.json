@@ -1,0 +1,22 @@
+{
+  "i": 11,
+  "run": "t6_a",
+  "model": "qwen3-4b-instruct-2507",
+  "threads": 6,
+  "batch": 2048,
+  "ubatch": 512,
+  "returncode": 0,
+  "error": null,
+  "seconds": 37.668,
+  "gold": "694",
+  "pred": "694",
+  "match": true,
+  "hit_cap": false,
+  "prompt_tps": null,
+  "gen_tps": null,
+  "prompt_tokens": null,
+  "gen_tokens": null,
+  "n_ctx_train": null,
+  "stdout_sha256": "07759555557959dbad3f5546add1d6c6d242e685eaca6a02197a8ce3b1cca06a",
+  "stdout_bytes": 371
+}

@@ -1,0 +1,12 @@
+Ava starts with 6 packs of 9 erasers each:
+6 × 9 = 54 erasers.
+
+Then she buys 2 packs of 4 erasers each:
+2 × 4 = 8 erasers.
+
+Adding them together:
+54 + 8 = 62 erasers.
+
+#### 62 [end of text]
+
+

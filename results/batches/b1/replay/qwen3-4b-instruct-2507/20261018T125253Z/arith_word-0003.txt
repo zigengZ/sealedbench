@@ -1,0 +1,15 @@
+First, find the number of seats in the original 12 rows:
+
+12 rows × 13 seats per row = 156 seats
+
+Then, add the seats from the 2 new rows:
+
+2 rows × 5 seats per row = 10 seats
+
+Now, add both amounts:
+
+156 + 10 = 166 seats
+
+#### 166 [end of text]
+
+

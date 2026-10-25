@@ -1,0 +1,7 @@
+Diego starts with 8 rows × 8 seats = 64 seats.
+Then adds 3 rows × 6 seats = 18 seats.
+Total seats = 64 + 18 = 82 seats.
+
+#### 82 [end of text]
+
+

@@ -1,0 +1,13 @@
+Olga buys 3 packs of buttons, and each pack has 3 buttons.  
+So, total buttons Olga has:  
+3 packs × 3 buttons = 9 buttons
+
+She gives 4 buttons to Boris, so she keeps:  
+9 − 4 = 5 buttons
+
+Each button is worth $9, so the value of Olga's remaining buttons is:  
+5 buttons × $9 = $45
+
+#### 45 [end of text]
+
+

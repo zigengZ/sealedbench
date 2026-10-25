@@ -1,0 +1,11 @@
+The city is 42 miles wide, and the fog covers 3 miles every 10 minutes.
+
+First, calculate how many 3-mile segments are in 42 miles:
+42 ÷ 3 = 14 segments.
+
+Then multiply the number of segments by the time per segment:
+14 × 10 = 140 minutes.
+
+#### 140 [end of text]
+
+

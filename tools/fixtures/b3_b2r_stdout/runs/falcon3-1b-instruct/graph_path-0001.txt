@@ -1,0 +1,39 @@
+To find the shortest path between Quill and Sage, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to Quill (Q) as 0 and to Sage (S) as infinity.
+   - Set the distance to Fern (F) as infinity.
+   - Set the distance to Jules (J) as infinity.
+   - Set the distance to Oak (O) as infinity.
+   - Set the distance to Quill (Q) as 0.
+   - Set the distance to Sage (S) as 0.
+
+2. **Distribute Distances:**
+   - From Quill (Q), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Quill (Q) is 0, so update the distance to Quill as 0.
+   - From Oak (O), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Oak (O) is 0, so update the distance to Oak as 0.
+
+3. **Distribute Distances Again:**
+   - From Quill (Q), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Quill (Q) is 0, so update the distance to Quill as 0.
+   - From Oak (O), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Oak (O) is 0, so update the distance to Oak as 0.
+
+4. **Distribute Distances Again:**
+   - From Quill (Q), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Quill (Q) is 0, so update the distance to Quill as 0.
+   - From Oak (O), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Oak (O) is 0, so update the distance to Oak as 0.
+
+5. **Distribute Distances Again:**
+   - From Quill (Q), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Quill (Q) is 0, so update the distance to Quill as 0.
+   - From Oak (O), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Oak (O) is 0, so update the distance to Oak as 0.
+
+6. **Distribute Distances Again:**
+   - From Quill (Q), the distance to Sage (S) is 0, so update the distance to Sage as 0.
+   - From Sage (S), the distance to Quill (Q) is 0, so update the distance to Quill as 0.
+   - From Oak (O),
+

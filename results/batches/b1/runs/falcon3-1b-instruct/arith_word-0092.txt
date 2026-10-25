@@ -1,0 +1,19 @@
+First, let's calculate the total number of apples Felix initially has:
+
+8 packs * 9 apples/pack = 72 apples
+
+Next, Felix gives 8 apples to Leo:
+
+72 apples - 8 apples = 64 apples
+
+Then, Leo gives Felix 11 more apples:
+
+64 apples + 11 apples = 75 apples
+
+Now, let's calculate the total value of the apples:
+
+75 apples * 6 dollars/apple = 450 dollars
+
+#### 450 [end of text]
+
+

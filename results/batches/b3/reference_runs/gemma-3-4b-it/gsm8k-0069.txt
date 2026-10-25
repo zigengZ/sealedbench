@@ -1,0 +1,10 @@
+Let $x$ be the amount of money Bailey started with.
+Bailey receives $5 per week for 8 weeks, so she receives a total of $5 \times 8 = $40$.
+At the end of the 8 weeks, she has a total of $100. This means that the initial amount plus the allowance is equal to $100.
+So, $x + 40 = 100$.
+Subtracting 40 from both sides, we get $x = 100 - 40 = 60$.
+Therefore, Bailey started with $60.
+
+####60 [end of text]
+
+

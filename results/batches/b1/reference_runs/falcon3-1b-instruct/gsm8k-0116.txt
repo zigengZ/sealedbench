@@ -1,0 +1,29 @@
+To solve this problem, we need to determine the number of teaspoons of sugar Katy used based on the given ratio and total amount of sugar and water.
+
+1. **Understand the Ratio:**
+   The ratio of teaspoons of sugar to cups of water is 7:13. This means for every 7 teaspoons of sugar, there are 13 cups of water.
+
+2. **Set Up the Proportion:**
+   Let \( x \) be the number of teaspoons of sugar. According to the ratio, we have:
+   \[
+   \frac{7}{13} = \frac{x}{120}
+   \]
+
+3. **Solve for \( x \):**
+   Cross-multiply to solve for \( x \):
+   \[
+   7 \times 120 = 13 \times x
+   \]
+   \[
+   840 = 13x
+   \]
+   Divide both sides by 13 to find \( x \):
+   \[
+   x = \frac{840}{13} = 64
+   \]
+
+Katy used 64 teaspoons of sugar.
+
+#### 64 [end of text]
+
+

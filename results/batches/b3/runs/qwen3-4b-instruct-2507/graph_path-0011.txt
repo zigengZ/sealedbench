@@ -1,0 +1,109 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Bay to Quill** in terms of total weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash — Hart: 7  
+- Bay — Glen: 8  
+- Bay — Kai: 5  
+- Dove — Quill: 4  
+- Dove — Reed: 7  
+- Dove — Sage: 8  
+- Glen — Kai: 5  
+- Glen — Lark: 3  
+- Hart — Lark: 7  
+- Hart — Quill: 8  
+- Kai — Reed: 6  
+- Quill — Sage: 6  
+
+---
+
+### Step 2: Goal — Shortest path from **Bay** to **Quill**
+
+We will use **Dijkstra’s algorithm** conceptually (since all weights are positive) to find the shortest path from Bay to Quill.
+
+We start at Bay and explore paths to Quill.
+
+---
+
+### Step 3: Build adjacency list (for clarity)
+
+- Bay: Glen (8), Kai (5)  
+- Glen: Bay (8), Kai (5), Lark (3)  
+- Kai: Bay (5), Glen (5), Reed (6)  
+- Reed: Kai (6), Dove (7)  
+- Dove: Quill (4), Reed (7), Sage (8)  
+- Sage: Dove (8), Quill (6)  
+- Quill: Dove (4), Sage (6), Hart (8)  
+- Hart: Ash (7), Lark (7), Quill (8)  
+- Lark: Glen (3), Hart (7)  
+- Ash: Hart (7)
+
+---
+
+### Step 4: Run Dijkstra from Bay to Quill
+
+We maintain distances from Bay to each node.
+
+Initialize:
+
+- dist[Bay] = 0  
+- All others = ∞
+
+We process nodes in order of increasing distance.
+
+---
+
+**Step 1: Start at Bay (0)**
+
+From Bay:
+- To Glen: 8 → dist[Glen] = 8  
+- To Kai: 5 → dist[Kai] = 5
+
+Queue: Glen (8), Kai (5)
+
+---
+
+**Step 2: Process Kai (5)**
+
+From Kai:
+- To Bay: already visited  
+- To Glen: 5 → current Glen is 8 → update Glen to 5 + 5 = 10? Wait — no: Kai to Glen is 5, so from Bay to Kai to Glen = 5 + 5 = 10, but Glen already has 8 (via Bay), so 8 < 10 → keep 8  
+- To Reed: 6 → dist[Reed] = 5 + 6 = 11
+
+Now dist[Reed] = 11
+
+Queue: Glen (8), Reed (11)
+
+---
+
+**Step 3: Process Glen (8)**
+
+From Glen:
+- To Bay: already visited  
+- To Kai: already visited  
+- To Lark: 3 → dist[Lark] = 8 + 3 = 11
+
+Now dist[Lark] = 11
+
+Queue: Reed (11), Lark (11)
+
+---
+
+**Step 4: Process Reed (11)**
+
+From Reed:
+- To Kai: already visited  
+- To Dove: 7 → dist[Dove] = 11 + 7 = 18
+
+Now dist[Dove] = 18
+
+Queue: Lark (11), Dove (18)
+
+---
+
+**Step
+

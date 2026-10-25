@@ -1,0 +1,11 @@
+Nico buys 5 packs of notebooks, and each pack has 8 notebooks.  
+So, the number of notebooks from the packs is:  
+5 × 8 = 40 notebooks.
+
+Mina gives Nico 7 more notebooks.  
+So, total notebooks Nico has:  
+40 + 7 = 47.
+
+#### 47 [end of text]
+
+

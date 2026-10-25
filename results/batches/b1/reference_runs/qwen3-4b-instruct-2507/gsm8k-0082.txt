@@ -1,0 +1,18 @@
+Grace weighs 125 pounds.
+
+Alex weighs 2 pounds less than 4 times what Grace weighs.
+
+First, find 4 times Grace's weight:
+4 × 125 = 500
+
+Then subtract 2:
+500 - 2 = 498
+
+So Alex weighs 498 pounds.
+
+Now, add Grace's and Alex's weights:
+125 + 498 = 623
+
+#### 623 [end of text]
+
+

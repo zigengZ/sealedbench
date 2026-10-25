@@ -1,0 +1,15 @@
+We want to find the shortest path between Tess and York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Tess to York:
+1. Tess -> Sage -> York: Weight = 1 + 9 = 10
+2. Tess -> Jules -> York: Weight = 7 + 7 = 14
+3. Tess -> Sage -> Nell -> Bay -> Jules -> York: Weight = 1 + 5 + 2 + 9 + 7 = 24
+4. Tess -> Sage -> Nell -> Jules -> York: Weight = 1 + 5 + 2 + 7 = 15
+5. Tess -> Jules -> Kai -> Nell -> Sage -> York: Weight = 7 + 6 + 6 + 5 + 9 = 33
+6. Tess -> Jules -> Kai -> Nell -> Bay -> Jules -> York: Weight = 7 + 6 + 6 + 2 + 9 + 7 = 37
+
+Comparing the weights of the possible paths, the shortest path is Tess -> Sage -> York with a weight of 10.
+
+#### 10 [end of text]
+
+

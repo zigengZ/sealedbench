@@ -1,0 +1,399 @@
+(node:2706874) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-10-17T09:14:00.321Z cycle=1 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:14:45.632Z cycle=2 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:15:31.046Z cycle=3 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:16:16.306Z cycle=4 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:17:01.575Z cycle=5 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+(node:2713580) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-10-17T09:17:44.272Z cycle=1 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:17:44.272Z backing off 120s after HTTP 429
+2026-10-17T09:19:44.590Z cycle=2 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:19:44.590Z backing off 120s after HTTP 429
+2026-10-17T09:21:44.868Z cycle=3 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:21:44.868Z backing off 120s after HTTP 429
+poller_start 2026-10-17T09:27:43Z
+(node:2732024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+2026-10-17T09:27:43.413Z cycle=1 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:27:43.413Z backing off 304s after HTTP 429
+2026-10-17T09:32:47.733Z cycle=2 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:32:47.733Z backing off 304s after HTTP 429
+2026-10-17T09:37:52.000Z cycle=3 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:37:52.000Z backing off 304s after HTTP 429
+2026-10-17T09:42:56.261Z cycle=4 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:42:56.261Z backing off 304s after HTTP 429
+2026-10-17T09:48:00.528Z cycle=5 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:48:00.528Z backing off 304s after HTTP 429
+2026-10-17T09:53:04.795Z cycle=6 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:53:04.795Z backing off 304s after HTTP 429
+2026-10-17T09:58:09.061Z cycle=7 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T09:58:09.061Z backing off 304s after HTTP 429
+2026-10-17T10:03:13.481Z cycle=8 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:03:13.481Z backing off 304s after HTTP 429
+2026-10-17T10:08:17.750Z cycle=9 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:08:17.750Z backing off 304s after HTTP 429
+2026-10-17T10:13:22.029Z cycle=10 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:13:22.029Z backing off 304s after HTTP 429
+2026-10-17T10:18:26.449Z cycle=11 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:18:26.449Z backing off 304s after HTTP 429
+2026-10-17T10:23:30.717Z cycle=12 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:23:30.717Z backing off 304s after HTTP 429
+2026-10-17T10:28:34.979Z cycle=13 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:28:34.979Z backing off 304s after HTTP 429
+2026-10-17T10:33:39.251Z cycle=14 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:33:39.251Z backing off 304s after HTTP 429
+2026-10-17T10:38:43.513Z cycle=15 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:38:43.513Z backing off 304s after HTTP 429
+2026-10-17T10:43:47.786Z cycle=16 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:43:47.786Z backing off 304s after HTTP 429
+2026-10-17T10:48:52.052Z cycle=17 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:48:52.052Z backing off 304s after HTTP 429
+2026-10-17T10:53:56.311Z cycle=18 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:53:56.311Z backing off 304s after HTTP 429
+2026-10-17T10:59:00.578Z cycle=19 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T10:59:00.578Z backing off 304s after HTTP 429
+2026-10-17T11:04:04.849Z cycle=20 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:04:04.849Z backing off 304s after HTTP 429
+2026-10-17T11:09:09.140Z cycle=21 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:09:09.140Z backing off 304s after HTTP 429
+2026-10-17T11:14:13.547Z cycle=22 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:14:13.547Z backing off 304s after HTTP 429
+2026-10-17T11:19:17.797Z cycle=23 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:19:17.797Z backing off 304s after HTTP 429
+2026-10-17T11:24:22.062Z cycle=24 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:24:22.062Z backing off 304s after HTTP 429
+2026-10-17T11:29:26.282Z cycle=25 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:29:26.282Z backing off 304s after HTTP 429
+2026-10-17T11:34:30.694Z cycle=26 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:34:30.694Z backing off 304s after HTTP 429
+2026-10-17T11:39:34.958Z cycle=27 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:39:34.958Z backing off 304s after HTTP 429
+2026-10-17T11:44:39.220Z cycle=28 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:44:39.220Z backing off 304s after HTTP 429
+2026-10-17T11:49:43.486Z cycle=29 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:49:43.486Z backing off 304s after HTTP 429
+2026-10-17T11:54:47.752Z cycle=30 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:54:47.752Z backing off 304s after HTTP 429
+2026-10-17T11:59:52.017Z cycle=31 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T11:59:52.017Z backing off 304s after HTTP 429
+2026-10-17T12:04:56.290Z cycle=32 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T12:04:56.290Z backing off 304s after HTTP 429
+2026-10-17T12:10:00.556Z cycle=33 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T12:10:00.556Z backing off 304s after HTTP 429
+2026-10-17T12:15:04.812Z cycle=34 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T12:15:04.812Z backing off 304s after HTTP 429
+2026-10-17T12:20:09.080Z cycle=35 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T12:20:09.080Z backing off 304s after HTTP 429
+2026-10-17T12:25:13.342Z cycle=36 ERROR graphql HTTP 429 <html>
+<head><title>429 Too Many Requests</title></head>
+<body>
+<center><h1>429 Too Many Requests</h1></center>
+<hr><center>nginx/1.28.1</center>
+</body>
+</html>
+
+2026-10-17T12:25:13.342Z backing off 304s after HTTP 429
+D3_POLLER_DONE

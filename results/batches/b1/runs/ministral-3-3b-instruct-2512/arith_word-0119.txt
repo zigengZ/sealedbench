@@ -1,0 +1,7 @@
+Esme starts with 7 rows of 7 seats each, totaling 49 seats. Adding 5 more rows of 6 seats each gives 30 additional seats, making the total seats 49 + 30 = 79.
+
+If 56 seats are sold, the unsold seats are 79 - 56 = 23.
+
+#### 23 [end of text]
+
+

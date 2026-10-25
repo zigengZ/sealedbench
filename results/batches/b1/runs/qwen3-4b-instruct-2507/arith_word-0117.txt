@@ -1,0 +1,11 @@
+Kira buys 4 packs of tickets, and each pack has 5 tickets.  
+So, the number of tickets from the packs is:  
+4 × 5 = 20 tickets.
+
+Then Esme gives Kira 18 more tickets.  
+So, total tickets Kira has:  
+20 + 18 = 38 tickets.
+
+#### 38 [end of text]
+
+

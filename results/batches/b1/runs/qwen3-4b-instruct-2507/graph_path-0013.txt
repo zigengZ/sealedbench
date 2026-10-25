@@ -1,0 +1,51 @@
+We are given an undirected weighted graph with nodes:  
+**Ash, Cedar, Dove, Eden, Poe, Uri, Xen**
+
+Edges and their weights:
+- Ash–Cedar: 1  
+- Ash–Eden: 2  
+- Ash–Poe: 3  
+- Ash–Uri: 1  
+- Ash–Xen: 4  
+- Cedar–Dove: 4  
+- Dove–Eden: 2  
+- Dove–Uri: 4  
+- Eden–Xen: 7  
+- Poe–Xen: 1  
+- Uri–Xen: 6  
+
+We are to find the **shortest path from Cedar to Uri**.
+
+---
+
+### Step 1: Understand the graph structure
+
+We can model this as an undirected graph, so all edges are bidirectional.
+
+We'll use **Dijkstra's algorithm** to find the shortest path from **Cedar to Uri**.
+
+---
+
+### Step 2: Start from Cedar
+
+We begin at Cedar and compute shortest distances to all other nodes.
+
+Initialize distances:
+- dist[Cedar] = 0
+- All others: ∞
+
+Queue: (Cedar, 0)
+
+---
+
+**Process nodes in order of distance:**
+
+1. **Cedar (0)**  
+   From Cedar:
+   - To Ash: 1 → dist[Ash] = 1  
+   - To Dove: 4 → dist[Dove] = 4  
+
+   Queue: (Ash,1), (Dove,4)
+
+2. **Ash (1
+

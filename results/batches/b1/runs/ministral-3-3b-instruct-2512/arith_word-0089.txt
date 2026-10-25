@@ -1,0 +1,7 @@
+Mina starts with 5 packs × 6 notebooks = 30 notebooks.
+After giving 3 to Jamal, she has 30 − 3 = 27 notebooks left.
+Sharing equally among 3 people gives 27 ÷ 3 = 9 notebooks per person.
+
+#### 9 [end of text]
+
+

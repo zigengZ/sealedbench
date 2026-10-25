@@ -1,0 +1,7 @@
+The first day had 2 containers × 5 vehicles = 10 vehicles.
+The total after the second day is 30 vehicles, so the second day added 30 − 10 = 20 vehicles.
+Since each container holds 5 vehicles, the number of containers on the second day is 20 ÷ 5 = 4.
+
+#### 4 [end of text]
+
+

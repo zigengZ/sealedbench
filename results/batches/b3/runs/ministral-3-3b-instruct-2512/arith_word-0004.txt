@@ -1,0 +1,5 @@
+Ben reads **48 pages** from the first book (24 pages/day × 2 days) and **27 pages** from the second book (9 pages/day × 3 days). Adding them together: 48 + 27 = **75 pages**.
+
+#### 75 [end of text]
+
+

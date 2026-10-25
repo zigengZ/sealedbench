@@ -1,0 +1,7 @@
+Hugo reads **80** pages in 4 days (20 pages/day × 4 days = 80 pages) and then reads an additional 34 pages.
+
+Total pages read: **80 + 34 = 114**
+
+#### 114 [end of text]
+
+

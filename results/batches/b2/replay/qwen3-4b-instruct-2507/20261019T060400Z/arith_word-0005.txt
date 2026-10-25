@@ -1,0 +1,9 @@
+Chloe reads 13 pages a day for 2 days:  
+13 × 2 = 26 pages.
+
+Then she reads 9 more pages:  
+26 + 9 = 35 pages.
+
+#### 35 [end of text]
+
+

@@ -1,0 +1,36 @@
+To find the shortest path between Fern and Zed in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize Distances:**
+   - Set the distance to the starting node (Eden) as 0.
+   - Set the distance to all other nodes as infinity (∞).
+
+2. **Initialize Distances:**
+   - Eden: 0
+   - Fern: ∞
+   - Hart: ∞
+   - Lark: ∞
+   - Moss: ∞
+   - York: ∞
+   - Zed: ∞
+
+3. **Select the Node with the Smallest Known Distance:**
+   - Start with Eden (0) and update the distances to its neighbors.
+
+4. **Update Distances:**
+   - Update the distance to Fern (2) since it's the only neighbor with a known distance of 0.
+   - Update the distance to Hart (2) since it's the only neighbor with a known distance of 0.
+   - Update the distance to Lark (5) since it's the only neighbor with a known distance of 0.
+   - Update the distance to Moss (8) since it's the only neighbor with a known distance of 0.
+   - Update the distance to York (7) since it's the only neighbor with a known distance of 0.
+   - Update the distance to Zed (2) since it's the only neighbor with a known distance of 0.
+
+5. **Continue Updating Distances:**
+   - Continue updating distances to all other nodes based on the smallest known distance.
+
+6. **Find the Shortest Path:**
+   - The shortest path from Fern to Zed will be through Hart, Lark, and Moss.
+   - Calculate the total weight: 2 (Hart) + 5 (Lark) + 8 (Moss) = 15.
+
+#### 15 [end of text]
+
+

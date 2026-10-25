@@ -1,0 +1,9 @@
+Rosa buys 6 packs of tokens, with each pack containing 3 tokens. So, she initially has 6 * 3 = 18 tokens.
+
+Zane then gives Rosa 18 more tokens.
+
+Thus, Rosa now has 18 + 18 = 36 tokens.
+
+#### 36 [end of text]
+
+

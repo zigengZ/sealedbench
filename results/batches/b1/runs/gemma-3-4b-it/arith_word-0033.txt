@@ -1,0 +1,7 @@
+First, calculate the number of pages Olga reads from the first book: 23 pages/day * 3 days = 69 pages.
+Next, calculate the number of pages Olga reads from the second book: 12 pages/day * 5 days = 60 pages.
+Finally, add the number of pages from both books: 69 pages + 60 pages = 129 pages.
+
+####129 [end of text]
+
+

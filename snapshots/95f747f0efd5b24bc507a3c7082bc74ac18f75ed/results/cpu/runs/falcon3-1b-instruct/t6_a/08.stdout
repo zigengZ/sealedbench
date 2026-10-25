@@ -1,0 +1,21 @@
+First, let's calculate the time spent driving:
+
+1. **Driving Time:**
+   - First 2 hours in standstill traffic
+   - Next 2 hours driving at 30 mph
+   - Last 2 hours driving at 80 mph
+
+   Calculate each segment:
+   - First 2 hours: \( 2 \text{ hours} \times 60 \text{ mph} = 120 \text{ miles} \)
+   - Next 2 hours: \( 2 \text{ hours} \times 30 \text{ mph} = 60 \text{ miles} \)
+   - Last 2 hours: \( 2 \text{ hours} \times 80 \text{ mph} = 160 \text{ miles} \)
+
+   Total driving time = \( 120 \text{ miles} + 60 \text{ miles} + 160 \text{ miles} = 340 \text{ miles} \)
+
+2. **Total Time:**
+   - Total time = 4 hours
+
+3. **Distance Traveled:**
+   - Distance = Speed × Time
+   - Distance = \( 340 \text{ miles} \times 4 \text{ hours} =
+

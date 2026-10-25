@@ -1,0 +1,83 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Drew, Hart, Kai, Nell, Quill, Sage, Vale, Xen  
+**Edges and weights**:
+
+- Drew–Hart: 2  
+- Drew–Nell: 9  
+- Drew–Quill: 1  
+- Drew–Xen: 7  
+- Hart–Kai: 8  
+- Hart–Quill: 9  
+- Hart–Vale: 9  
+- Kai–Vale: 2  
+- Nell–Vale: 8  
+- Quill–Vale: 2  
+- Sage–Vale: 5  
+- Vale–Xen: 2  
+
+We are to find the **shortest path from Hart to Vale**.
+
+---
+
+### Step 1: List all possible paths from Hart to Vale
+
+We'll consider paths through various intermediate nodes.
+
+#### Option 1: Direct edge  
+Hart → Vale: **9**
+
+#### Option 2: Hart → Kai → Vale  
+Hart–Kai: 8, Kai–Vale: 2 → total = 8 + 2 = **10**
+
+#### Option 3: Hart → Quill → Vale  
+Hart–Quill: 9, Quill–Vale: 2 → total = 9 + 2 = **11**
+
+#### Option 4: Hart → Drew → Quill → Vale  
+Hart–Drew: 2, Drew–Quill: 1, Quill–Vale: 2 → total = 2 + 1 + 2 = **5**
+
+Wait — is that valid?
+
+Yes:  
+Hart → Drew (2), Drew → Quill (1), Quill → Vale (2) → total = 5
+
+That's better than direct (9).
+
+#### Option 5: Hart → Drew → Xen → Vale  
+Hart–Drew: 2, Drew–Xen: 7, Xen–Vale: 2 → total = 2 + 7 + 2 = **11**
+
+#### Option 6: Hart → Drew → Nell → Vale  
+Hart–Drew: 2, Drew–Nell: 9, Nell–Vale: 8 → total = 2 + 9 + 8 = **19**
+
+#### Option 7: Hart → Drew → Quill → Sage → Vale?  
+Quill to Sage? No edge.  
+Sage only connects to Vale (5). So:  
+Hart → Drew → Quill → Sage → Vale:  
+Drew–Quill: 1, Quill–Sage? No edge → invalid.
+
+#### Option 8: Hart → Kai → Vale: already considered → 10
+
+#### Option 9: Hart → Quill → Vale: 11
+
+So far, the best is **Hart → Drew → Quill → Vale = 5**
+
+Is there any shorter?
+
+What about Hart → Drew → Quill → Vale = 2 + 1 + 2 = 5
+
+Any other path?
+
+What about Hart → Drew → Xen → Vale = 2 + 7 + 2 = 11 → worse
+
+Hart → Kai → Vale = 10 → worse
+
+Hart → Quill → Vale = 11 → worse
+
+Is there a path via Sage?
+
+Only way to Sage is Vale → Sage (5). So to reach Sage, must go through Vale. So no path from Hart to Sage without going through Vale. So no benefit.
+
+So all paths must go through other nodes, and the shortest is:
+
+**Hart → Drew → Quill → Vale
+

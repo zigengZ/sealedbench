@@ -1,0 +1,15 @@
+First, calculate the total number of stamps Ivy buys initially:
+9 packs * 3 stamps/pack = 27 stamps
+
+Then, calculate the total number of stamps Ivy buys after the second purchase:
+4 packs * 9 stamps/pack = 36 stamps
+
+Next, add the stamps from the first purchase to the second purchase:
+27 stamps + 36 stamps = 63 stamps
+
+Finally, subtract the stamps given to Mina:
+63 stamps - 2 stamps = 61 stamps
+
+#### 61 [end of text]
+
+

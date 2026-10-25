@@ -1,0 +1,20 @@
+Let $g$ be the number of gold coins and $s$ be the number of silver coins.
+We are given that Gretchen has a total of 110 coins, so $g + s = 110$.
+We are also given that there are 30 more gold coins than silver coins, so $g = s + 30$.
+
+Now we can substitute the second equation into the first equation:
+$(s + 30) + s = 110$
+$2s + 30 = 110$
+$2s = 110 - 30$
+$2s = 80$
+$s = \frac{80}{2}$
+$s = 40$
+
+Now we can find the number of gold coins:
+$g = s + 30 = 40 + 30 = 70$
+
+So Gretchen has 70 gold coins.
+
+####70 [end of text]
+
+

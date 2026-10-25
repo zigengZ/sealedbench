@@ -1,0 +1,7 @@
+First, we need to find out how many 3-mile segments are in the 42-mile city. We divide the total distance by the distance covered per 10 minutes: 42 miles / 3 miles/segment = 14 segments.
+
+Since it takes 10 minutes to cover each 3-mile segment, and there are 14 segments, the total time is 14 segments * 10 minutes/segment = 140 minutes.
+
+####140 [end of text]
+
+

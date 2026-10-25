@@ -1,0 +1,15 @@
+PASS     cap3 ciphertext binding: QUTZFXr03mYfwJ51wlrrxztLgL6VSbhQDZwMvI8YS9U
+PASS     cap3 grader: source hash
+PASS     cap3 reference: file hash
+PASS     cap3 manifest https://ar-io.dev: HTTP 200
+PASS     cap3 manifest https://turbo-gateway.com: HTTP 200
+PASS     cap3 manifest inclusion: bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1794743400
+PASS     cap3 manifest bundle header: table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways
+PASS     cap3 ciphertext inclusion: bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1794743400
+PASS     cap3 ciphertext bundle header: table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways
+PASS     cap3 reference inclusion: bundle=J67Udct-eWBqCnNfoT9c_d0baY48io8tHlJ8uD_ZVys height=2023739 timestamp=1792311062 deadline=1794743400
+PASS     cap3 reference bundle header: table offsets, signature-hash item id, payload offset and payload hash independently parsed on two gateways
+PASS     cap3 BLS: 1000
+PASS     cap3 declares cap2: ciphertext sha256
+PASS     cap3 peer: cross-ciphertext hash
+RESULT PASS

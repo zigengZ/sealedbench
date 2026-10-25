@@ -1,0 +1,23 @@
+We are given three guesses about the number of jelly beans in a jar:
+
+1. First friend: **80**
+
+2. Second friend: **20 more than half the first one**
+
+   - Half of 80 is $ \frac{80}{2} = 40 $
+   - 20 more than that is $ 40 + 20 = 60 $
+
+3. Third friend: **25% more than the first one**
+
+   - 25% of 80 is $ 0.25 \times 80 = 20 $
+   - 25% more than 80 is $ 80 + 20 = 100 $
+
+Now, find the **average** of the three guesses:
+
+$$
+\text{Average} = \frac{80 + 60 + 100}{3} = \frac{240}{3} = 80
+$$
+
+#### 80 [end of text]
+
+

@@ -1,0 +1,18 @@
+To find the shortest path from **Cleo** to **West**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Step-by-Step Reasoning:
+1. **Cleo's neighbors**: Only connected to **York** (weight = 6).
+   - Path: Cleo → York (total weight = 6).
+
+2. From **York**, explore further:
+   - **York → Eden** (via Eden York = 7) → Eden → Indigo (4) → Indigo → Oak (3) → Oak → Cedar (6) → Cedar → Fern (8) → Fern → Hart (2) → Hart → West (5).
+     Total weight: 6 + 7 + 4 + 3 + 6 + 8 + 2 + 5 = **37** (longer than alternatives).
+
+   - **York → Indigo** (via Indigo York = 8) → Indigo → Oak (3) → Oak → Cedar (6) → Cedar → Fern (8) → Fern → Hart (2) → Hart → West (5).
+     Total weight: 6 + 8 + 3 + 6 + 8 + 2 + 5 = **37** (same as above).
+
+   - **York → Drew** (no direct edge, so invalid).
+
+3. **Alternative path via Cedar**:
+   - Cleo → York (6) → Eden (7) → Indigo (4) → Oak (3) → Cedar (6) → Fern (8
+

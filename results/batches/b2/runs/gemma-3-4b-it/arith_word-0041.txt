@@ -1,0 +1,13 @@
+First, let's calculate the number of pages Rosa reads in the first 2 days: 16 pages/day * 2 days = 32 pages.
+
+Next, let's calculate the number of pages Rosa reads in the 5 days for the second book: 16 pages/day * 5 days = 80 pages.
+
+Now, let's find the total number of pages read: 32 pages + 80 pages = 112 pages.
+
+Rosa skips 13 pages, so the actual pages read are 112 - 13 = 99 pages.
+
+She repeats this total each week for 2 weeks, so the total pages read in 2 weeks is 99 pages/week * 2 weeks = 198 pages.
+
+####198 [end of text]
+
+

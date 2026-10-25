@@ -1,0 +1,7 @@
+Diego starts with 7 packs × 7 magnets = 49 magnets.
+After giving 11 to Cara, he has 49 - 11 = 38 magnets left.
+Sharing equally among 2 people gives each person 38 ÷ 2 = 19 magnets.
+
+#### 19 [end of text]
+
+

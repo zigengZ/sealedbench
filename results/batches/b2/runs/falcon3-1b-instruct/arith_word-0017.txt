@@ -1,0 +1,18 @@
+First, calculate the total number of notebooks Victor initially bought:
+8 packs * 4 notebooks/pack = 32 notebooks
+
+Next, calculate the total number of notebooks Victor bought after the second purchase:
+2 packs * 6 notebooks/pack = 12 notebooks
+
+Now, add the two quantities of notebooks to find the total number of notebooks Victor has:
+32 (initial) + 12 (second) = 44 notebooks
+
+Victor gives 14 notebooks to Jamal. To find the remaining notebooks, subtract the number of notebooks given away from the total:
+44 (total) - 14 (given away) = 30 notebooks
+
+Each notebook is worth 4 dollars. To find the total worth of the remaining notebooks, multiply the number of remaining notebooks by the value per notebook:
+30 notebooks * 4 dollars/notebook = 120 dollars
+
+#### 120 [end of text]
+
+

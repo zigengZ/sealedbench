@@ -1,0 +1,13 @@
+Yara reads 20 pages a day for 2 days:  
+20 × 2 = 40 pages.
+
+Then she reads 18 more pages:  
+40 + 18 = 58 pages.
+
+She skips 26 blank pages — these do **not** count toward the total pages she reads.
+
+So, the total number of pages she **reads** is still 58.
+
+#### 58 [end of text]
+
+

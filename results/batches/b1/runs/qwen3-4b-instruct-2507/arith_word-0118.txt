@@ -1,0 +1,12 @@
+First, find the total number of buttons from the first purchase:  
+8 packs × 4 buttons per pack = 32 buttons
+
+Next, find the total from the second purchase:  
+6 packs × 8 buttons per pack = 48 buttons
+
+Now, add both amounts:  
+32 + 48 = 80 buttons
+
+#### 80 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, find the total number of pages read in the first two days: 10 pages/day * 2 days = 20 pages.
+Then, add the additional pages read: 20 pages + 29 pages = 49 pages.
+
+####49
+ [end of text]
+
+

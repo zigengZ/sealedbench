@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "path": "results/batches/cap3/manifest.json",
+      "type": "manifest",
+      "batch": "cap3",
+      "round": 33980212,
+      "unlock_unix": 1794744000,
+      "unlock_utc": "2026-11-15T12:00:00Z",
+      "content_type": "application/json",
+      "chain": "52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971"
+    }
+  ]
+}

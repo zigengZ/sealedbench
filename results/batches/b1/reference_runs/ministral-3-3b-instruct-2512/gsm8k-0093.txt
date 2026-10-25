@@ -1,0 +1,10 @@
+Let’s break it down:
+
+1. Lee’s time is 38 seconds.
+2. Lee was 2 seconds faster than Gerald originally, so Gerald’s original time was 38 + 2 = 40 seconds.
+3. Gerald’s speed improved by 10%, meaning his new time is 90% of his original time.
+4. 90% of 40 seconds is 0.9 × 40 = 36 seconds.
+
+#### 36 [end of text]
+
+

@@ -1,0 +1,14 @@
+Chloe first buys 8 packs of 11 stamps each:
+8 × 11 = 88 stamps.
+
+Then she buys 4 packs of 2 stamps each:
+4 × 2 = 8 stamps.
+
+Total stamps = 88 + 8 = 96 stamps.
+
+Sharing equally among 3 people:
+96 ÷ 3 = 32 stamps per person.
+
+#### 32 [end of text]
+
+

@@ -1,0 +1,79 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Ash, Cleo, Dove, Oak, Sage, Uri, Vale  
+**Edges and weights**:
+- Ash – Sage: 7  
+- Ash – Vale: 5  
+- Cleo – Sage: 8  
+- Dove – Vale: 9  
+- Oak – Sage: 2  
+- Sage – Uri: 4  
+- Sage – Vale: 5  
+- Uri – Vale: 4  
+
+We are to find the **shortest path from Cleo to Vale**.
+
+---
+
+### Step 1: Understand the connections
+
+We want the shortest path from **Cleo** to **Vale**.
+
+Cleo is only directly connected to **Sage** (weight 8).
+
+So any path from Cleo to Vale must go through Sage (or possibly through other nodes connected to Sage).
+
+Let’s consider possible paths from Cleo to Vale:
+
+#### Path 1: Cleo → Sage → Vale  
+- Cleo to Sage: 8  
+- Sage to Vale: 5  
+- Total: 8 + 5 = **13**
+
+#### Path 2: Cleo → Sage → Uri → Vale  
+- Cleo → Sage: 8  
+- Sage → Uri: 4  
+- Uri → Vale: 4  
+- Total: 8 + 4 + 4 = **16**
+
+#### Path 3: Cleo → Sage → Oak → ???  
+Oak has no connections to other nodes (only to Sage). So no path from Oak to Vale. Discard.
+
+#### Path 4: Cleo → Sage → Vale (already considered)
+
+Any other path?  
+Cleo → Sage → Vale is direct and shortest so far.
+
+Is there a path via Ash or Dove?
+
+- Cleo → Sage → Ash → Vale?  
+  - Cleo → Sage: 8  
+  - Sage → Ash: 7  
+  - Ash → Vale: 5  
+  - Total: 8 + 7 + 5 = **20** → longer
+
+- Cleo → Sage → Vale → Uri? No, we want to end at Vale.
+
+- Cleo → Sage → Uri → Vale: already considered (16)
+
+- Cleo → Sage → Vale → Dove? Not helpful — ends at Dove.
+
+So all other paths are longer.
+
+---
+
+### Best path: Cleo → Sage → Vale  
+Total weight: 8 + 5 = **13**
+
+#### Is there a shorter path?
+
+What about Cleo → Sage → Oak? Oak has no outgoing edges. Dead end.
+
+No other connections from Cleo.
+
+So the shortest path is indeed **Cleo → Sage → Vale** with total weight **13**.
+
+#### Final Answer:
+#### 13 [end of text]
+
+

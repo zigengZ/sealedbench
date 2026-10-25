@@ -1,0 +1,12 @@
+Let $B$ be the age of Brandon's iPhone, $N$ be the age of Ben's iPhone, and $S$ be the age of Suzy's iPhone.
+We are given that Brandon's iPhone is four times as old as Ben's iPhone, so $B = 4N$.
+We are also given that Ben's iPhone is two times older than Suzy's iPhone, so $N = 2S$.
+Finally, we are given that Suzy's iPhone is 1 year old, so $S = 1$.
+
+We can find the age of Ben's iPhone: $N = 2S = 2(1) = 2$.
+Then we can find the age of Brandon's iPhone: $B = 4N = 4(2) = 8$.
+
+Brandon's iPhone is 8 years old.
+#### 8 [end of text]
+
+

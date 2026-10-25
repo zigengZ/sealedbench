@@ -1,0 +1,7 @@
+Olga starts with 3 packs × 3 buttons = 9 buttons.
+After giving 4 buttons to Boris, she has 9 - 4 = 5 buttons left.
+Each button is worth $9, so 5 × 9 = 45 dollars.
+
+#### 45 [end of text]
+
+

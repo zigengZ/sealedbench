@@ -1,0 +1,7 @@
+First, we calculate the number of pages Xavier reads from the first book: 12 pages/day * 2 days = 24 pages.
+Next, we calculate the number of pages Xavier reads from the second book: 17 pages/day * 3 days = 51 pages.
+Finally, we add the number of pages from both books: 24 pages + 51 pages = 75 pages.
+
+####75 [end of text]
+
+

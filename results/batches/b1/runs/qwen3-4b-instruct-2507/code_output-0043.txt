@@ -1,0 +1,32 @@
+The program iterates through the list `nums` and appends only those numbers greater than 8 to the list `kept`.
+
+Given `nums = [8, 13, 5, 12, 0, 1, 1, 8]`:
+
+- 8 is not greater than 8 → skip
+- 13 > 8 → append 13
+- 5 is not greater than 8 → skip
+- 12 > 8 → append 12
+- 0 is not greater than 8 → skip
+- 1 is not greater than 8 → skip
+- 1 is not greater than 8 → skip
+- 8 is not greater than 8 → skip
+
+So, `kept = [13, 12]`
+
+Then:
+- `print(len(kept))` outputs `2`
+- `print(kept)` outputs `[13, 12]`
+
+The standard output is:
+
+```
+2
+[13, 12]
+```
+
+```
+2
+[13, 12]
+``` [end of text]
+
+

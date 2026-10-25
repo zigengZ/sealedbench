@@ -1,0 +1,9 @@
+First, calculate the number of seats in the initial 3 rows: 3 rows * 4 seats/row = 12 seats.
+
+Next, calculate the number of seats in the additional 3 rows: 3 rows * 5 seats/row = 15 seats.
+
+Finally, add the two amounts together: 12 seats + 15 seats = 27 seats.
+
+#### 27 [end of text]
+
+

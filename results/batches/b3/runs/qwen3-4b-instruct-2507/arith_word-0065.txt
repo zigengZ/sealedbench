@@ -1,0 +1,19 @@
+Mina buys:
+
+- 2 packs of 10 crayons:  
+  $2 \times 10 = 20$ crayons
+
+- 3 packs of 7 crayons:  
+  $3 \times 7 = 21$ crayons
+
+Total crayons before giving any away:  
+$20 + 21 = 41$ crayons
+
+She gives 16 crayons to Olga:  
+$41 - 16 = 25$ crayons
+
+So, Mina has **25** crayons.
+
+#### 25 [end of text]
+
+

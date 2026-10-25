@@ -1,0 +1,15 @@
+We want to find the shortest path between Cleo and Drew in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cleo to Drew:
+1. Cleo -> Tess -> Indigo -> Zed -> Drew: Weight = 8 + 6 + 7 + 9 = 30
+2. Cleo -> Amber -> Moss -> Zed -> Drew: Weight = 1 + 7 + 8 + 9 = 25
+3. Cleo -> Amber -> Poe -> Drew: Weight = 1 + 6 + 5 = 12
+4. Cleo -> Tess -> Indigo -> Zed -> Drew: 8 + 6 + 7 + 9 = 30
+5. Cleo -> Moss -> Zed -> Drew: Weight = 1 + 7 + 8 + 9 = 25
+6. Cleo -> Poe -> Drew: Weight = 1 + 6 + 5 = 12
+
+Comparing the weights of the paths, the shortest path is Cleo -> Amber -> Poe -> Drew with a total weight of 12.
+
+#### 12 [end of text]
+
+

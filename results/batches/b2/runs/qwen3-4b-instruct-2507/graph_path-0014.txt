@@ -1,0 +1,100 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Amber, Ash, Bay, Jules, Kai, Oak, Uri, Vale, York  
+We are to find the **shortest path weight from Ash to Jules**.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Amber – Ash: 4  
+- Amber – Bay: 8  
+- Amber – Jules: 9  
+- Amber – Uri: 8  
+- Amber – Vale: 9  
+- Ash – Bay: 7  
+- Jules – Kai: 3  
+- Kai – Uri: 4  
+- Kai – Vale: 9  
+- Kai – York: 7  
+- Oak – Vale: 1  
+- Uri – Vale: 1  
+- Uri – York: 2  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Ash** to **Jules**
+
+We can use **Dijkstra’s algorithm** or manually explore paths since the graph is small.
+
+Let’s consider possible paths from Ash to Jules.
+
+---
+
+### Path 1: Ash → Amber → Jules  
+- Ash to Amber: 4  
+- Amber to Jules: 9  
+- Total: 4 + 9 = **13**
+
+---
+
+### Path 2: Ash → Bay → Amber → Jules  
+- Ash → Bay: 7  
+- Bay → Amber: 8  
+- Amber → Jules: 9  
+- Total: 7 + 8 + 9 = **24** → worse
+
+---
+
+### Path 3: Ash → Bay → Amber → Uri → Vale → Kai → Jules  
+Too long. Let's see if there's a shorter path via Kai.
+
+We know:  
+Jules is directly connected to Kai (weight 3).  
+So if we can get from Ash to Kai, then add 3 to reach Jules.
+
+So let’s find shortest path from **Ash to Kai**, then add 3.
+
+---
+
+### Find shortest path from Ash to Kai
+
+Possible paths from Ash to Kai:
+
+#### Option 1: Ash → Amber → Kai  
+- Ash → Amber: 4  
+- Amber → Kai? Not directly. No edge. So invalid.
+
+#### Option 2: Ash → Bay → Amber → Kai?  
+- Ash → Bay: 7  
+- Bay → Amber: 8  
+- Amber → Kai? No edge. Invalid.
+
+#### Option 3: Ash → Bay → Amber → Uri → Kai  
+- Ash → Bay: 7  
+- Bay → Amber: 8  
+- Amber → Uri: 8  
+- Uri → Kai: 4  
+- Total: 7 + 8 + 8 + 4 = **27** → then +3 to Jules = 30 → too long
+
+#### Option 4: Ash → Amber → Vale → Kai  
+- Ash → Amber: 4  
+- Amber → Vale: 9  
+- Vale → Kai: 9  
+- Total: 4 + 9 + 9 = 22 → +3 = 25 → worse than 13
+
+#### Option 5: Ash → Bay → Uri → Kai  
+- Ash → Bay: 7  
+- Bay → Uri? No direct edge.  
+- Bay → Amber → Uri: 7 + 8 + 8 = 23 → then to Kai: +4 → 27 → +3 = 30
+
+#### Option 6: Ash → Amber → Uri → York → Kai  
+- Ash → Amber: 4  
+- Amber → Uri: 8  
+- Uri → York: 2  
+- York
+

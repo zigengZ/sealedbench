@@ -1,0 +1,8 @@
+First, we calculate Samir's earnings on day 1: 20 dollars/hour * 2 hours = 40 dollars.
+Next, we calculate Samir's earnings on day 2: 20 dollars/hour * 4 hours = 80 dollars.
+Then, we calculate Samir's earnings on day 3: 20 dollars/hour * 5 hours = 100 dollars.
+Finally, we add up the earnings from all three days: 40 + 80 + 100 = 220 dollars.
+
+####220 [end of text]
+
+

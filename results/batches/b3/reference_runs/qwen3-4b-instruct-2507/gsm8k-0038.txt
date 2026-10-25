@@ -1,0 +1,35 @@
+We are told:
+
+- John runs **60 miles per week**.
+- He runs **3 days a week**.
+- On the **first day**, he runs **3 hours**.
+- On the **other two days**, he runs **half as much** as the first day → so **1.5 hours** each.
+
+We are asked: **How fast does he run?**
+
+"Speed" is distance divided by time. So we need to find his **miles per hour**.
+
+---
+
+### Step 1: Total time spent running
+
+- Day 1: 3 hours  
+- Day 2: 1.5 hours  
+- Day 3: 1.5 hours  
+→ Total time = 3 + 1.5 + 1.5 = **6 hours**
+
+---
+
+### Step 2: Total distance = 60 miles
+
+So, his speed is:
+
+$$
+\text{Speed} = \frac{\text{Distance}}{\text{Time}} = \frac{60 \text{ miles}}{6 \text{ hours}} = 10 \text{ miles per hour}
+$$
+
+---
+
+#### 10 [end of text]
+
+

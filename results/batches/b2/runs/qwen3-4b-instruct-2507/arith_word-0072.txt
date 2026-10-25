@@ -1,0 +1,10 @@
+Quinn buys 4 packs of tokens, and each pack has 12 tokens.  
+So, the number of tokens from the packs is:  
+4 × 12 = 48 tokens.
+
+Then Zane gives Quinn 13 more tokens.  
+So, total tokens = 48 + 13 = 61.
+
+#### 61 [end of text]
+
+

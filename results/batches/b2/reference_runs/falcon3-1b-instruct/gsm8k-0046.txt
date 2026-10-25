@@ -1,0 +1,22 @@
+To find the number of Post-it notes in the package, let's first determine how many Post-it notes were used at work.
+
+Candice used 23 Post-it notes in total, and she placed one on each of 220 different cups of coffee.
+
+The number of Post-it notes used at work is:
+\[ 23 \text{ Post-it notes} \]
+
+Since she used one Post-it note per cup of coffee, the number of Post-it notes used at work is:
+\[ 220 \text{ cups} \]
+
+Now, let's calculate the total number of Post-it notes she had initially:
+\[ 80 \text{ Post-it notes} \]
+
+The number of Post-it notes remaining overall is:
+\[ 80 - 23 = 57 \]
+
+Since she used 220 Post-it notes at work, the number of Post-it notes in the package she purchased is:
+\[ 220 - 57 = 163 \]
+
+#### 163 [end of text]
+
+

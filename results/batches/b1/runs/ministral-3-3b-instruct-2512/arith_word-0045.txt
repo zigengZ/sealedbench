@@ -1,0 +1,9 @@
+Nico starts with 5 packs, each containing 8 notebooks:
+5 packs × 8 notebooks = 40 notebooks.
+
+Mina then gives him 7 more notebooks:
+40 + 7 = 47 notebooks.
+
+#### 47 [end of text]
+
+

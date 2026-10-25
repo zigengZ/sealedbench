@@ -1,0 +1,5 @@
+Esme starts with 4 packs, each containing 6 oranges, so she has 4 × 6 = 24 oranges initially. After giving 17 to Xavier, she has 24 − 17 = 7 oranges left.
+
+#### 7 [end of text]
+
+

@@ -1,0 +1,12 @@
+**Reasoning:**
+1. First 4 rows: 4 × 12 = 48 seats
+2. Next 4 rows: 4 × 4 = 16 seats
+3. Total seats: 48 + 16 = 64 seats
+4. Seats sold: 1 seat
+5. Unsold seats: 64 - 1 = 63 seats
+6. Value per unsold seat: 2 dollars
+7. Total value: 63 × 2 = 126 dollars
+
+#### 126 [end of text]
+
+

@@ -1,0 +1,12 @@
+Yara starts with:
+- 3 packs × 12 stickers = 36 stickers
+- 4 packs × 2 stickers = 8 stickers
+Total stickers before giving away: 36 + 8 = 44 stickers
+
+After giving 36 stickers to Ben: 44 - 36 = 8 stickers left
+
+Each sticker is worth $4, so 8 × 4 = 32 dollars
+
+#### 32 [end of text]
+
+

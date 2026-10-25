@@ -1,0 +1,104 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Amber, Drew, Jules, Kai, Poe, Quill, Vale, Xen  
+**Edges and weights**:
+
+- Amber–Drew: 2  
+- Amber–Kai: 1  
+- Amber–Poe: 7  
+- Amber–Vale: 4  
+- Drew–Quill: 7  
+- Jules–Kai: 2  
+- Kai–Quill: 3  
+- Kai–Vale: 6  
+- Kai–Xen: 2  
+- Poe–Vale: 5  
+- Quill–Vale: 8  
+
+We are to find the **shortest path from Jules to Poe**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We need to go from **Jules** to **Poe**.
+
+Jules is only connected to **Kai** (weight 2).
+
+So any path from Jules to Poe must go through Kai.
+
+So the path will be:  
+**Jules → Kai → ??? → Poe**
+
+We now need to find the shortest path from Kai to Poe.
+
+Let’s consider all possible paths from Kai to Poe.
+
+---
+
+### Step 2: Find shortest path from Kai to Poe
+
+From Kai, possible neighbors:
+
+- Amber (1)  
+- Drew (via Amber? Not directly)  
+- Quill (3)  
+- Vale (6)  
+- Xen (2)
+
+So from Kai, we can go to:
+
+- Amber (1)  
+- Quill (3)  
+- Vale (6)  
+- Xen (2)
+
+Now, from each of these, can we reach Poe?
+
+#### Option 1: Kai → Vale → Poe  
+- Kai to Vale: 6  
+- Vale to Poe: 5  
+- Total: 6 + 5 = **11**
+
+#### Option 2: Kai → Quill → ??? → Poe  
+Quill is connected to:
+- Drew (7)
+- Vale (8)
+
+No direct edge from Quill to Poe.
+
+So Quill → Vale → Poe:  
+Quill to Vale: 8  
+Vale to Poe: 5  
+Total: 8 + 5 = **13**  
+Then Kai → Quill: 3 → total path: 3 + 8 + 5 = **16**
+
+#### Option 3: Kai → Amber → Poe  
+- Kai to Amber: 1  
+- Amber to Poe: 7  
+- Total: 1 + 7 = **8**
+
+That’s better than 11.
+
+#### Option 4: Kai → Xen → ???  
+Xen has no other edges listed. So no path from Xen to Poe.
+
+#### Option 5: Kai → Amber → Drew → Quill → Vale → Poe?  
+Too long:  
+Kai → Amber (1) → Drew (2) → Quill (7) → Vale (8) → Poe (5)  
+Total: 1+2+7+8+5 = 23 → worse.
+
+So best path from Kai to Poe is **Kai → Amber → Poe** with weight 1 + 7 = 8.
+
+Now, from Jules to Kai: 2  
+So total path: Jules → Kai → Amber → Poe  
+Weight: 2 + 1 + 7 = **10**
+
+Is there any other path?
+
+What about Jules → Kai → Vale → Poe?  
+Jules–Kai: 2  
+Kai–Vale: 6  
+Vale–Poe: 5  
+Total: 2 + 6 + 5 = **1
+

@@ -1,0 +1,11 @@
+Kira buys 8 packs of crayons, and each pack has 12 crayons.  
+So, the number of crayons from the packs is:  
+8 × 12 = 96 crayons.
+
+Gina gives Kira 17 more crayons.  
+So, total crayons Kira has:  
+96 + 17 = 113.
+
+#### 113 [end of text]
+
+

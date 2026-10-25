@@ -1,0 +1,17 @@
+First, calculate the total number of seats Uma has:
+
+4 rows × 15 seats/row = 60 seats
+6 rows × 6 seats/row = 36 seats
+Total seats = 60 + 36 = 96 seats
+
+Next, subtract the number of seats sold from the total:
+
+96 seats - 58 seats = 38 seats
+
+Now, calculate the worth of the unsold seats:
+
+38 seats × 6 dollars/seat = 228 dollars
+
+#### 228 [end of text]
+
+

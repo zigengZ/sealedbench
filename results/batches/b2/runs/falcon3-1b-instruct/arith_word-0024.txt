@@ -1,0 +1,20 @@
+Hugo earns 20 dollars per hour.
+
+**Day 1:**
+Hugo works 4 hours, so his earnings are 4 hours * $20/hour = $80.
+
+**Day 2:**
+Hugo works 6 hours, so his earnings are 6 hours * $20/hour = $120.
+
+**Total Earnings:**
+$80 (Day 1) + $120 (Day 2) = $200.
+
+**Wages Spent:**
+$28.
+
+**Money Left:**
+$200 (total earnings) - $28 (wages spent) = $172.
+
+#### 172 [end of text]
+
+

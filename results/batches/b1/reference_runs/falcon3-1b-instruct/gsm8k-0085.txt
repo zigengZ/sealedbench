@@ -1,0 +1,19 @@
+To solve this problem, we need to determine the total number of quilt blocks Gene has.
+
+1. **Determine the number of years Gene has been vacationing:**
+   - Gene has been vacationing since he was 23 years old.
+   - He is now 34 years old.
+   - The number of years he has been vacationing is \(34 - 23 = 11\) years.
+
+2. **Calculate the number of shirts Gene has:**
+   - Gene has one shirt from each vacation.
+   - He has been on 4 vacations per year for 11 years.
+   - Therefore, the total number of shirts is \(4 \times 11 = 44\) shirts.
+
+3. **Calculate the total number of quilt blocks:**
+   - Each shirt is a quilt block.
+   - Thus, the total number of quilt blocks Gene has is \(44\) blocks.
+
+#### 44 [end of text]
+
+

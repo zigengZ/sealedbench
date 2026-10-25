@@ -1,0 +1,29 @@
+To find the shortest path from **Cleo** to **Hart**, we can use Dijkstra's algorithm or explore possible paths manually.
+
+### Possible Paths:
+1. **Cleo → West → Hart**
+   - Cleo → West: 3
+   - West → Hart: 6
+   - Total: **9**
+
+2. **Cleo → Indigo → West → Hart**
+   - Cleo → Indigo: 9
+   - Indigo → West: 1
+   - West → Hart: 6
+   - Total: **16** (longer than the first path)
+
+3. **Cleo → Indigo → Uri → Hart**
+   - Cleo → Indigo: 9
+   - Indigo → Uri: 9
+   - Uri → Hart: 9
+   - Total: **27** (longer)
+
+4. **Cleo → Eden → West → Hart**
+   - Cleo → Eden: Not directly connected (no edge)
+   - Invalid path.
+
+The shortest valid path is **Cleo → West → Hart** with a total weight of **9**.
+
+#### 9 [end of text]
+
+

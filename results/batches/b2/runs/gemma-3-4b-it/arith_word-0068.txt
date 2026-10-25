@@ -1,0 +1,13 @@
+First, let's calculate the total pages Ivy reads in one day: 19 pages/day + 17 pages/day = 36 pages/day.
+
+Next, let's calculate the total pages Ivy reads in 5 days: 36 pages/day * 5 days = 180 pages.
+
+Then, let's calculate the total pages Ivy reads after skipping the blank pages: 180 pages.
+
+Now, let's calculate the total pages Ivy reads in one week (7 days): 36 pages/day * 7 days = 252 pages.
+
+Finally, let's calculate the total pages Ivy reads in 2 weeks: 252 pages/week * 2 weeks = 504 pages.
+
+#### 504 [end of text]
+
+

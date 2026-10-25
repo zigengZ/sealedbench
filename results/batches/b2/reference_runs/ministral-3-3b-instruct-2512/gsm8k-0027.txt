@@ -1,0 +1,9 @@
+Cynthia eats **1 serving/day**, so in **60 days**, she uses **60 servings**.
+
+Each carton has **15 servings** and costs **$4.00**, so she needs **4 cartons** (since 60 ÷ 15 = 4).
+
+Total cost = **4 cartons × $4.00 = $16.00**.
+
+#### 16 [end of text]
+
+

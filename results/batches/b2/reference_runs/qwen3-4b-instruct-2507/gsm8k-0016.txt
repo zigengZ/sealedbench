@@ -1,0 +1,14 @@
+Both trains travel the same routes:  
+- First day: 80 miles west  
+- Next day: 150 miles north  
+
+So, the total distance each train travels is:  
+80 + 150 = 230 miles  
+
+Even though they travel in different directions, the question asks for the **distance covered**, not displacement. Distance is the total path traveled, regardless of direction.
+
+Each train covers 230 miles.
+
+#### 230 [end of text]
+
+

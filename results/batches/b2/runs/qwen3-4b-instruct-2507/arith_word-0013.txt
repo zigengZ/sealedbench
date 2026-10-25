@@ -1,0 +1,20 @@
+First, find the total number of pencils Victor buys:
+
+- 3 packs of 6 pencils:  
+  $3 \times 6 = 18$ pencils
+
+- 3 packs of 7 pencils:  
+  $3 \times 7 = 21$ pencils
+
+Total pencils before giving any away:  
+$18 + 21 = 39$ pencils
+
+Then Victor gives 27 pencils to Willa, so he keeps:  
+$39 - 27 = 12$ pencils
+
+Each pencil is worth $2, so the value of Victor's remaining pencils is:  
+$12 \times 2 = 24$ dollars
+
+#### 24 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, find the total number of stickers Tara buys: 2 packs * 7 stickers/pack = 14 stickers.
+Then, subtract the stickers given to Mina: 14 stickers - 2 stickers = 12 stickers.
+Finally, divide the remaining stickers by the number of people sharing: 12 stickers / 2 people = 6 stickers/person.
+
+#### 6 [end of text]
+
+

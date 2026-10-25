@@ -1,0 +1,7 @@
+Aisha reads **9 pages/day × 2 days = 18 pages** in the first book.
+She reads **10 pages/day × 2 days = 20 pages** in the second book.
+Total pages read: **18 + 20 = 38 pages**
+
+#### 38 [end of text]
+
+

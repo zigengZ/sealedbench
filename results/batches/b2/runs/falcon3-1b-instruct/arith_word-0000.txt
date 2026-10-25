@@ -1,0 +1,7 @@
+Quinn earns $9 * 2 = 18$ dollars on day 1.
+Quinn earns $9 * 6 = 54$ dollars on day 2.
+Quinn's total earnings are $18 + 54 = 72$ dollars.
+Quinn spends $21, so Quinn has $72 - 21 = 51$ dollars left.
+#### 51 [end of text]
+
+

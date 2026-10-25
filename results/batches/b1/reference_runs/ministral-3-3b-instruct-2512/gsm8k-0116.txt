@@ -1,0 +1,15 @@
+Katy's ratio of sugar to water is 7:13, meaning for every 7 teaspoons of sugar, she uses 13 cups of water.
+
+Let the number of teaspoons of sugar be **7x** and cups of water be **13x**.
+
+Given the total is 120:
+7x + 13x = 120
+20x = 120
+x = 6
+
+So, the number of teaspoons of sugar is:
+7x = 7 * 6 = 42
+
+#### 42 [end of text]
+
+

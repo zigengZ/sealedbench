@@ -1,0 +1,63 @@
+To find the shortest path between Ash and York, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Ash as 0 and to York as infinity.
+   - Create a priority queue and insert Ash with a distance of 0.
+
+2. **Relaxation**:
+   - While the priority queue is not empty:
+     - Extract the vertex with the smallest distance.
+     - For each neighbor of the current vertex:
+       - Calculate the new distance through the current vertex.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance from Ash to York will be the smallest value in the priority queue.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Ash': 0,
+    'Cleo': 6,
+    'Eden': 5,
+    'Hart': 5,
+    'Lark': 2,
+    'Moss': 5,
+    'Reed': 4,
+    'Uri': 1,
+    'York': 1
+}
+
+# Initialize distances
+distances = {node: float('infinity') for node in graph}
+distances['Ash'] = 0
+
+# Priority queue to store vertices with their distances
+priority_queue = [(0, 'Ash')]
+
+# Dijkstra's algorithm
+while priority_queue:
+    current_distance, current_vertex = heapq.heappop(priority_queue)
+    
+    # Update distances for neighbors
+    for neighbor, weight in graph.items():
+        if distances[neighbor] + weight < current_distance:
+            distances[neighbor] = current_distance + weight
+            heapq.heappush(priority_queue, (distances[neighbor] + weight, neighbor))
+    
+    # Mark the current vertex as visited
+    visited.add(current_vertex)
+```
+
+After running the algorithm, the shortest path distance from Ash to York will be:
+
+#### 1
+
+This is the total weight of the shortest path between Ash and York. [end of text]
+
+

@@ -1,0 +1,8 @@
+Xavier starts with 7 rows of 10 seats each, totaling 70 seats.
+Then adds 7 rows of 8 seats each, totaling 56 seats.
+Total seats = 70 + 56 = 126 seats.
+Unsold seats = 126 - 105 = 21 seats.
+
+#### 21 [end of text]
+
+

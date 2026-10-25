@@ -1,0 +1,5 @@
+Olga starts with 3 packs, each containing 12 ribbons, so she has 3 × 12 = 36 ribbons initially. After giving 17 ribbons to Boris, she has 36 - 17 = 19 ribbons left.
+
+#### 19 [end of text]
+
+

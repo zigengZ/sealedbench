@@ -1,0 +1,6 @@
+First, we calculate Xavier's total earnings: 10 dollars/hour * 9 hours = 90 dollars.
+Then, we subtract the amount he spends: 90 dollars - 13 dollars = 77 dollars.
+
+####77 [end of text]
+
+

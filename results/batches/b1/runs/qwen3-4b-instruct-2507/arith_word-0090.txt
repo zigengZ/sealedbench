@@ -1,0 +1,12 @@
+Ben buys 4 packs of oranges, and each pack has 4 oranges.  
+So, total oranges = 4 packs × 4 oranges = 16 oranges.
+
+He gives 7 oranges to Willa, so he keeps:  
+16 − 7 = 9 oranges.
+
+Each orange is worth $2, so the value of Ben's remaining oranges is:  
+9 oranges × $2 = $18.
+
+#### 18 [end of text]
+
+

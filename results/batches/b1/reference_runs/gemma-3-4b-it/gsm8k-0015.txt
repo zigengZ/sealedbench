@@ -1,0 +1,22 @@
+Let's analyze the potential profit from each purchase plan.
+
+**Jewelry Plan:**
+* Initial cost: $5,000
+* Increase: 2.5% of $5,000 = 0.025 * $5,000 = $125
+* Final cost: $5,000 + $125 = $5,125
+* Profit: $5,125 - $5,000 = $125
+
+**Electronic Gadgets Plan:**
+* Initial cost: $8,000
+* Increase: 1.2% of $8,000 = 0.012 * $8,000 = $96
+* Final cost: $8,000 + $96 = $8,096
+* Profit: $8,096 - $8,000 = $96
+
+Comparing the profits, the jewelry plan yields a profit of $125, while the electronic gadgets plan yields a profit of $96.
+
+The merchant should choose the jewelry plan to maximize profit.
+
+The maximum profit would be $125.
+#### 125 [end of text]
+
+

@@ -1,0 +1,13 @@
+We want to find the shortest path between Oak and Vale in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Oak to Vale:
+1. Oak -> Cleo -> Uri -> Sage -> Vale: 5 + 4 + 1 + 2 = 12
+2. Oak -> Cleo -> Uri -> Poe -> Sage -> Vale: 5 + 4 + 4 + 6 + 2 = 21
+3. Oak -> Cleo -> Uri -> Sage -> Vale: 5 + 4 + 1 + 2 = 12
+4. Oak -> Cleo -> Uri -> Sage -> Vale: 5 + 4 + 1 + 2 = 12
+
+The shortest path is Oak -> Cleo -> Uri -> Sage -> Vale with a total weight of 12.
+
+#### 12 [end of text]
+
+

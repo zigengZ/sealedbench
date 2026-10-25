@@ -1,0 +1,7 @@
+First, find Alex's weight: 4 times Grace's weight is 4 * 125 = 500 pounds.  2 pounds less than that is 500 - 2 = 498 pounds.
+
+Next, find their combined weight: 125 + 498 = 623 pounds.
+
+####623 [end of text]
+
+

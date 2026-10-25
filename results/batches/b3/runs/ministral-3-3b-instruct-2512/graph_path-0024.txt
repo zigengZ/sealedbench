@@ -1,0 +1,46 @@
+To find the shortest path from **Poe** to **Vale**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Poe** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Update distances from Poe**:
+   - Poe → Uri (1) → Update Uri = 1.
+   - Poe → Moss (4) → Update Moss = 4.
+   - Poe → Hart (6) → Update Hart = 6.
+
+3. **Next node to explore: Uri (distance = 1)**:
+   - Uri → Dove (4 + 4 = 8) → Update Dove = 8.
+   - Uri → Vale (1 + 7 = 8) → Update Vale = 8.
+   - Uri → Quill (1 + 7 = 8) → Update Quill = 8.
+
+4. **Next node: Moss (distance = 4)**:
+   - Moss → Hart (4 + 2 = 6) → Already ≤ 6 (no update).
+   - Moss → Poe (4 + 4 = 8) → Already ≤ 8 (no update).
+
+5. **Next node: Hart (distance = 6)**:
+   - Hart → Dove (6 + 8 = 14) → Already > 8 (no update).
+   - Hart → Lark (6 + 7 = 13) → Already > 8 (no update).
+   - Hart → Moss (6 + 2 = 8) → Already > 4 (no update).
+   - Hart → Poe (6 + 6 = 12) → Already > 8 (no update).
+   - Hart → Quill (6 + 1 = 7) → Update Quill = 7 (better than 8).
+   - Hart → Uri (6 + 3 = 9) → Already > 1 (no update).
+   - Hart → York (6 + 7 = 13) → Already > 8 (no update).
+
+6. **Next node: Quill (distance = 7)**:
+   - Quill → Dove (7 + 8 = 15) → Already > 8 (no update).
+   - Quill → Lark (7 + 1 = 8) → Update Lark = 8.
+   - Quill → Uri (7 + 7 = 14) → Already > 1 (no update).
+   - Quill → York (7 + 5 = 12) → Already > 8 (no update).
+
+7. **Next node: Lark (distance = 8)**:
+   - Lark → Quill (8 + 1 = 9) → Already > 7 (no update).
+   - Lark → York (8 + 5 = 13) → Already > 8 (no update).
+
+8. **Final distances**:
+   - Vale is reached via **Uri → Vale** with total weight **8**.
+
+#### 8 [end of text]
+
+

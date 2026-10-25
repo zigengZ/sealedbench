@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "graph_path",
+  "gen_tokens": 601,
+  "gen_tps": 18.13,
+  "hit_cap": false,
+  "item_id": "graph_path-0009",
+  "model": "falcon3-1b-instruct",
+  "n_predict": 768,
+  "prompt_tokens": 164,
+  "prompt_tps": 155.56,
+  "returncode": 0,
+  "seconds": 35.024,
+  "stdout_bytes": 1927,
+  "stdout_sha256": "bc3ea5627ad2e0a1b4e50d3a8d2f65d54ce029397782bdb9f8443cfc44e9049e"
+}

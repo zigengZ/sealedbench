@@ -1,0 +1,35 @@
+To find the shortest path from **Fern** to **Zed**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Fern** = 0.
+   - All other distances = ∞.
+   - Priority queue (min-heap) starts with **Fern**.
+
+2. **Expand Fern**:
+   - Neighbors: **Kai** (weight = 4).
+   - Update: `Fern → Kai` = 4.
+   - Queue: `[(Kai, 4)]`.
+
+3. **Expand Kai** (next closest):
+   - Neighbors: **Blair (7), Cedar (3), Uri (6), Zed (7)**.
+   - Update:
+     - `Kai → Cedar` = 4 + 3 = 7 (but `Cedar` is already 7 via `Cedar → Zed`).
+     - `Kai → Zed` = 4 + 7 = 11 (better than existing ∞).
+   - Queue: `[(Cedar, 7), (Zed, 11)]`.
+
+4. **Expand Cedar** (next closest):
+   - Neighbors: **Jules (3), Kai (3), Zed (7)**.
+   - Update:
+     - `Cedar → Zed` = 7 + 7 = 14 (worse than 11).
+   - Queue: `[(Zed, 11)]`.
+
+5. **Expand Zed** (reached!):
+   - No further updates needed.
+
+### Shortest Path:
+**Fern → Kai → Zed** with total weight **11**.
+
+#### 11 [end of text]
+
+

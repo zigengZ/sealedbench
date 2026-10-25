@@ -1,0 +1,8 @@
+First, we calculate Mina's earnings on day 1: 19 dollars/hour * 6 hours = 114 dollars.
+Next, we calculate Mina's earnings on day 2: 19 dollars/hour * 6 hours = 114 dollars.
+Then, we calculate Mina's total earnings: 114 dollars + 114 dollars = 228 dollars.
+Finally, we subtract the amount she spent from her total earnings: 228 dollars - 57 dollars = 171 dollars.
+
+####171 [end of text]
+
+

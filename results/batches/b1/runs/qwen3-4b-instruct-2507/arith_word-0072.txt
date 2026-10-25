@@ -1,0 +1,13 @@
+Gina earns $11 per hour and works 8 hours.  
+
+First, calculate her total earnings:  
+$11 \times 8 = 88$ dollars.
+
+Then, she spends $70.  
+
+Subtract the amount spent from her earnings:  
+$88 - 70 = 18$ dollars.
+
+#### 18 [end of text]
+
+

@@ -1,0 +1,5 @@
+```python
+24
+``` [end of text]
+
+

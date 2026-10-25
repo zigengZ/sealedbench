@@ -1,0 +1,27 @@
+First, let's determine how many eggs Lloyd produces in a day:
+
+Eggs per day = Eggs per chicken per day × Number of chickens
+= 252 eggs/chicken × 252 chickens
+= 63,128 eggs
+
+Since there are 12 eggs in a dozen, we calculate the number of dozens produced in a day:
+
+Eggs per day (in dozens) = Eggs per day / 12
+= 63,128 eggs / 12
+= 5,274 dozens
+
+Now, let's find out how much Lloyd makes per week:
+
+Weekly earnings = Daily earnings × Number of days in a week
+= 5,274 dozens × 7 days
+= 36,098 dozens
+
+Finally, we convert the weekly earnings back to dollars:
+
+Weekly earnings (dollars) = Weekly earnings (dozens) × Price per dozen
+= 36,098 dozens × $2/dozen
+= $72,196
+
+#### 72196 [end of text]
+
+

@@ -1,0 +1,5 @@
+Quinn first buys 4 packs of 6 balloons each, totaling **24 balloons** (4 × 6 = 24). Then, Quinn buys 4 packs of 9 balloons each, totaling **36 balloons** (4 × 9 = 36). Adding these together gives **60 balloons** (24 + 36 = 60). Sharing equally among 4 people means each person gets **15 balloons** (60 ÷ 4 = 15).
+
+#### 15 [end of text]
+
+

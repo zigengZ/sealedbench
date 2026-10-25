@@ -1,0 +1,8 @@
+Ivy starts with 9 packs of 3 stamps each: 9 × 3 = 27 stamps.
+Then she buys 4 packs of 9 stamps each: 4 × 9 = 36 stamps.
+Total stamps: 27 + 36 = 63.
+After giving 2 stamps to Mina: 63 - 2 = 61.
+
+#### 61 [end of text]
+
+

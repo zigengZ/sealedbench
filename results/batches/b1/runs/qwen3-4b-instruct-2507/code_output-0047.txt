@@ -1,0 +1,29 @@
+The program iterates through the list `nums` and appends only those numbers greater than 11 to the list `kept`.
+
+Given `nums = [9, 10, 12, 6, 2, 0, 9]`:
+- 9 > 11? No
+- 10 > 11? No
+- 12 > 11? Yes → append 12
+- 6 > 11? No
+- 2 > 11? No
+- 0 > 11? No
+- 9 > 11? No
+
+So, `kept = [12]`.
+
+Then:
+- `print(len(kept))` outputs `1`
+- `print(kept)` outputs `[12]`
+
+The standard output is:
+```
+1
+[12]
+```
+
+``` 
+1
+[12]
+``` [end of text]
+
+

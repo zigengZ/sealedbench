@@ -1,0 +1,12 @@
+First, calculate the cost of each type of clothing Mishka bought:
+
+- **Shorts**: 3 pairs × $16.50 = $49.50
+- **Pants**: 3 pairs × $22.50 = $67.50
+- **Shoes**: 3 pairs × $42.00 = $126.00
+
+Now, add them together:
+$49.50 + $67.50 + $126.00 = $243.00
+
+#### 243 [end of text]
+
+

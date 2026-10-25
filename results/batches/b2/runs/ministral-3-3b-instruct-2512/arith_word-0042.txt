@@ -1,0 +1,5 @@
+Elena starts with 2 packs, each containing 5 tickets, so she has 2 × 5 = 10 tickets initially. Jamal then gives her 22 more tickets, so she has 10 + 22 = 32 tickets.
+
+#### 32 [end of text]
+
+

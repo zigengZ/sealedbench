@@ -1,0 +1,14 @@
+John drives **180 miles** away from home initially (3 hours × 60 mph).
+
+On his return:
+- First 2 hours: **0 miles** (standstill).
+- Next 0.5 hours: 15 miles (0.5 × 30 mph).
+- Remaining 3.5 hours: 280 miles (3.5 × 80 mph).
+
+Total distance covered on return: 15 + 280 = **295 miles**.
+
+Distance from home: 295 - 180 = **115 miles**
+
+#### 115 [end of text]
+
+

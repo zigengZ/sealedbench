@@ -1,0 +1,27 @@
+First, calculate how much Jill earns as a teacher in a year:
+
+- Teacher pay: $20 per hour  
+- Hours per week: 35  
+- Weeks per year: 50  
+
+Teacher earnings per year = $20 × 35 × 50  
+= $700 × 50  
+= $35,000
+
+Next, calculate her cheerleading coach earnings:
+
+- Coach pay: $30 per hour  
+- Hours per week: 15  
+- Weeks per year: 50  
+
+Coach earnings per year = $30 × 15 × 50  
+= $450 × 50  
+= $22,500
+
+Now, add both earnings:
+
+Total annual salary = $35,000 + $22,500 = $57,500
+
+#### 57500 [end of text]
+
+

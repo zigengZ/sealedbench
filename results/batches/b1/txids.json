@@ -1,0 +1,53 @@
+{
+  "batch_id": "b1",
+  "items": {
+    "manifest": {
+      "txid": "510sRNPxwIwK4D_xXkujpyih8M1pcww9DcZgOaLkkzU",
+      "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+      "bytes": 25560,
+      "round": 33170212,
+      "content_type": "application/json",
+      "uploaded_utc": "2026-10-17T15:05:36Z",
+      "winc": "0",
+      "receipt_timestamp_ms": 1792249536779,
+      "receipt_path": "results/batches/b1/receipts/manifest.json",
+      "signature_variant": "dha-team-arbundles-deepHash"
+    },
+    "generator-ciphertext": {
+      "txid": "57E6ydKUep6BKQ6L8wUSgrsDYkvq5r8pNmlUXzpxd7o",
+      "sha256": "e04228df5d103639a04c34250edfd07249da38ca9007d90fb1b15fb80f3e11fc",
+      "bytes": 15685,
+      "round": 33170212,
+      "content_type": "text/plain",
+      "uploaded_utc": "2026-10-17T15:05:36Z",
+      "winc": "0",
+      "receipt_timestamp_ms": 1792249537445,
+      "receipt_path": "results/batches/b1/receipts/generator-ciphertext.json",
+      "signature_variant": "dha-team-arbundles-deepHash"
+    },
+    "results": {
+      "txid": "BOFo42noKTNkoslu4DsoDSKysCJQ67PkmKJQEXlupEc",
+      "sha256": "1e2d56781993b8b7e2a00d5f33c34c3d2c763c4f502d81ef22ee5585bc425de5",
+      "bytes": 8370,
+      "round": 33170212,
+      "content_type": "application/json",
+      "uploaded_utc": "2026-10-18T19:48:38Z",
+      "winc": "0",
+      "receipt_timestamp_ms": 1792352918731,
+      "receipt_path": "results/batches/b1/receipts/results.json",
+      "signature_variant": "dha-team-arbundles-deepHash"
+    },
+    "index": {
+      "txid": "AtNAZQtp_JqReahCoCpYcjP-b3P98jWtC_AJgVoBWdM",
+      "sha256": "5299b08d39d766906eb3c202c2acc941d3dd560d8d7c603bf4486bf671180835",
+      "bytes": 922,
+      "round": 33170212,
+      "content_type": "application/json",
+      "uploaded_utc": "2026-10-18T19:48:40Z",
+      "winc": "0",
+      "receipt_timestamp_ms": 1792352920577,
+      "receipt_path": "results/batches/b1/receipts/index.json",
+      "signature_variant": "dha-team-arbundles-deepHash"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Hugo reads 13 pages a day for 2 days, so he reads 13 * 2 = 26 pages.
+He also reads a second book at 9 pages a day for 2 days, so he reads 9 * 2 = 18 pages.
+In total, Hugo reads 26 + 18 = 44 pages.
+#### 44 [end of text]
+
+

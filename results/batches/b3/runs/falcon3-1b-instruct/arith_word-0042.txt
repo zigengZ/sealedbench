@@ -1,0 +1,24 @@
+To find out how much Ivy earns, we need to calculate her earnings for each day and then sum them up.
+
+**Day 1:**
+- Hours worked: 5
+- Earnings per hour: $20
+- Earnings for Day 1 = 5 hours * $20/hour = $100
+
+**Day 2:**
+- Hours worked: 2
+- Earnings per hour: $20
+- Earnings for Day 2 = 2 hours * $20/hour = $40
+
+**Day 3:**
+- Hours worked: 4
+- Earnings per hour: $20
+- Earnings for Day 3 = 4 hours * $20/hour = $80
+
+**Total Earnings:**
+- Total earnings = Earnings for Day 1 + Earnings for Day 2 + Earnings for Day 3
+- Total earnings = $100 + $40 + $80 = $220
+
+#### 220 [end of text]
+
+

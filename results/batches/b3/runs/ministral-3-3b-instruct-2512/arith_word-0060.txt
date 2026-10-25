@@ -1,0 +1,7 @@
+Nico starts with 4 packs × 5 buttons = 20 buttons.
+After giving 1 to Dmitri: 20 - 1 = 19 buttons.
+Dmitri gives back 16 buttons: 19 + 16 = 35 buttons.
+
+#### 35 [end of text]
+
+

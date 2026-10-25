@@ -1,0 +1,48 @@
+We are given an undirected weighted graph with nodes:  
+**Eden, Hart, Lark, Quill, Reed, Xen**
+
+Edges and their weights:
+- Eden – Hart: 6  
+- Eden – Xen: 1  
+- Hart – Lark: 2  
+- Hart – Quill: 7  
+- Hart – Xen: 3  
+- Lark – Quill: 4  
+- Lark – Reed: 8  
+- Quill – Reed: 1  
+- Reed – Xen: 8  
+
+We are to find the **shortest path weight from Eden to Hart**.
+
+---
+
+### Step 1: Understand the question
+We are not being asked for the shortest path from Eden to any other node, but specifically **from Eden to Hart**.
+
+So we want the shortest path between **Eden and Hart**.
+
+Note: The graph is undirected, so all edges can be traversed in both directions.
+
+---
+
+### Step 2: Direct edge
+There is a direct edge from **Eden to Hart** with weight **6**.
+
+So one possible path is just:  
+**Eden → Hart** → total weight = 6
+
+Can we find a shorter path via other nodes?
+
+Let’s consider indirect paths from Eden to Hart.
+
+---
+
+### Step 3: Try indirect paths
+
+#### Path 1: Eden → Xen → Hart  
+- Eden – Xen: 1  
+- Xen – Hart: 3  
+- Total: 1 + 3 = **4**
+
+This is **shorter than 6
+

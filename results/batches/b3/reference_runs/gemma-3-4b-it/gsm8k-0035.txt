@@ -1,0 +1,11 @@
+First, we need to find out how many points Mike scored in the second 20 minutes. He scored 25% more points than in the first 20 minutes, which is 4 points.
+
+25% of 4 points is (25/100) * 4 = 1 point.
+
+So, in the second 20 minutes, he scored 4 + 1 = 5 points.
+
+In total, he scored 4 points + 5 points = 9 points.
+
+#### 9 [end of text]
+
+

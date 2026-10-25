@@ -1,0 +1,17 @@
+First, let's determine the number of blue ties John bought.
+
+Since John bought twice as many red ties as blue ties, and he spent $40 on blue ties, the number of blue ties is $40 / 40 = 1$.
+
+Now, let's calculate the cost of the red ties.
+
+The red ties cost 50% more than the blue ties. Since the blue ties cost $40, a 50% increase amounts to $40 * 0.50 = 20$.
+
+Thus, the cost of the red ties is $40 + 20 = 60$.
+
+Finally, let's calculate the total amount John spent on ties.
+
+The total cost is the sum of the cost of blue ties and red ties: $40 + 60 = 100$.
+
+So, John spent #### 100. [end of text]
+
+

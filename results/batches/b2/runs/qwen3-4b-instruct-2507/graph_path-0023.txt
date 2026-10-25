@@ -1,0 +1,100 @@
+We are given an undirected weighted graph with the following nodes and edges:
+
+**Nodes**: Amber, Ash, Blair, Jules, Uri, West  
+**Edges and weights**:
+- Amber – Blair: 2  
+- Amber – Jules: 5  
+- Ash – Uri: 3  
+- Blair – Jules: 4  
+- Blair – Uri: 5  
+- Blair – West: 4  
+- Jules – West: 3  
+- Uri – West: 5  
+
+We are to find the **shortest path (in total weight) from Amber to Ash**.
+
+---
+
+### Step 1: Understand the structure
+
+We need to go from **Amber** to **Ash**.
+
+Direct edge? No edge between Amber and Ash.
+
+So we must go through intermediate nodes.
+
+Let’s list all possible paths from Amber to Ash, and compute their total weights.
+
+---
+
+### Step 2: Explore possible paths from Amber to Ash
+
+#### Path 1: Amber → Blair → Uri → Ash  
+- Amber → Blair: 2  
+- Blair → Uri: 5  
+- Uri → Ash: 3  
+→ Total = 2 + 5 + 3 = **10**
+
+#### Path 2: Amber → Blair → Jules → West → Uri → Ash  
+- Amber → Blair: 2  
+- Blair → Jules: 4  
+- Jules → West: 3  
+- West → Uri: 5  
+- Uri → Ash: 3  
+→ Total = 2 + 4 + 3 + 5 + 3 = **17** → too long
+
+#### Path 3: Amber → Jules → West → Uri → Ash  
+- Amber → Jules: 5  
+- Jules → West: 3  
+- West → Uri: 5  
+- Uri → Ash: 3  
+→ Total = 5 + 3 + 5 + 3 = **16** → longer than 10
+
+#### Path 4: Amber → Blair → West → Uri → Ash  
+- Amber → Blair: 2  
+- Blair → West: 4  
+- West → Uri: 5  
+- Uri → Ash: 3  
+→ Total = 2 + 4 + 5 + 3 = **14** → still longer than 10
+
+#### Path 5: Amber → Blair → Jules → West → Uri → Ash  
+Already considered — longer.
+
+Any other path?
+
+What about going through West and then to Uri, then Ash — all seem longer.
+
+Is there a shorter path than 10?
+
+Let’s check if there's a path via Jules and West that connects to Ash? No — Ash only connects to Uri.
+
+So **Ash is only connected to Uri**.
+
+Therefore, **any path from Amber to Ash must go through Uri**.
+
+So we can reframe:  
+We need to go from Amber → (some path) → Uri → Ash.
+
+So the shortest path will be:  
+Amber → X → Uri → Ash, where X is any node reachable from Amber.
+
+So we can compute shortest path from Amber to Uri, then add 3 (Uri → Ash).
+
+So total = (shortest path from Amber to Uri) + 3
+
+Now, find shortest path from Amber to Uri.
+
+---
+
+### Step 3: Find shortest path from Amber to Uri
+
+Possible paths:
+
+#### Path A: Amber → Blair → Uri  
+- 2 + 5 = **7**
+
+#### Path B: Amber → Blair → Jules → West → Uri  
+- 2 + 4 + 3 + 5 = 14 → longer
+
+#### Path C: Amber → Jules → West →
+

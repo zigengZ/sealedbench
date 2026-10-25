@@ -1,0 +1,13 @@
+First, let's calculate the number of stickers from the first 3 packs: 3 packs * 12 stickers/pack = 36 stickers.
+
+Next, let's calculate the number of stickers from the 4 packs: 4 packs * 2 stickers/pack = 8 stickers.
+
+Now, let's find the total number of stickers Yara has: 36 stickers + 8 stickers = 44 stickers.
+
+Yara gives away 36 stickers, so she has 44 - 36 = 8 stickers left.
+
+Each sticker is worth $4, so Yara's remaining stickers are worth 8 stickers * $4/sticker = $32.
+
+####32 [end of text]
+
+

@@ -1,0 +1,38 @@
+To find the shortest path from **Uri** to **Zed**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Uri** = 0.
+   - All other nodes start with infinity (`∞`).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Priority: Distance)**:
+   - Start with **Uri** (distance = 0).
+   - Next, explore neighbors of **Uri**:
+     - **Amber** (distance = 4).
+     - **Xen** (distance = 2).
+
+3. **Update Distances**:
+   - **Amber** (4) → Explore its neighbors:
+     - **Xen** (via Amber): 4 + 9 = 13 (worse than existing 2).
+     - **York** (via Amber): 4 + 2 = 6.
+     - **Zed** (via Amber): 4 + 9 = 13 (worse than existing ∞).
+   - **Xen** (2) → Explore its neighbors:
+     - **Uri** (via Xen): 2 + 2 = 4 (worse than existing 0).
+     - **York** (via Xen): 2 + 2 = 4 (worse than existing 6).
+     - **West** (via Xen): 2 + 5 = 7.
+     - **Zed** (via Xen): 2 + 8 = 10 (worse than existing ∞).
+
+4. **Next Steps**:
+   - **York** (6) → Explore its neighbors:
+     - **Zed** (via York): 6 + 8 = 14 (worse than existing 10).
+   - **West** (7) → Explore its neighbors:
+     - **York** (via West): 7 + 5 = 12 (worse than existing 6).
+     - **Zed** (via West): 7 + 4 = 11 (worse than existing 10).
+
+5. **Final Shortest Path**:
+   - The shortest path to **Zed** is via **Xen → Zed** with a total weight of **10**.
+
+#### 10 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, let's calculate the percentage of good oranges. 
+
+20% of 25 oranges are unripe, which is 25 * 20 / 100 = 500 / 100 = 5 oranges.
+
+Additionally, 2 oranges are sour.
+
+So, the total number of bad and sour oranges is 5 + 2 = 7.
+
+The total number of oranges in the basket is 25.
+
+The number of good oranges is then 25 - 7 = 18.
+
+#### 18 [end of text]
+
+

@@ -1,0 +1,23 @@
+To find the shortest path from **Kai** to **Oak**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Kai → Oak = ∞` (initially unreachable)
+   - All other distances set to their direct edge weights (or `∞` if unreachable).
+
+2. **Priority queue (min-heap)**:
+   - Start with `Kai` (distance = 0).
+   - Neighbors of `Kai`: `Cleo` (1), `Poe` (9), `Vale` (8).
+
+3. **Relax edges**:
+   - Update `Cleo` (distance = 1).
+   - Update `Poe` (distance = 9), `Vale` (distance = 8).
+   - Next, process `Cleo` (distance = 1).
+     - Neighbors: `Oak` (3), `Xen` (7).
+     - Update `Oak` via `Cleo` → `Oak` (1 + 3 = 4).
+     - Update `Xen` via `Cleo` → `Xen` (1 + 7 = 8).
+
+4. **Next shortest**:
+   - Process `Vale` (distance = 8).
+     - Neighbors: `Cedar` (6), `Xen` (4), `West` (no edge), `Poe` (9
+

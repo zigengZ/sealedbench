@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "arith_word",
+  "gen_tokens": 37,
+  "gen_tps": 8.62,
+  "hit_cap": false,
+  "item_id": "arith_word-0071",
+  "model": "ministral-3-3b-instruct-2512",
+  "n_predict": 768,
+  "prompt_tokens": 71,
+  "prompt_tps": 60.76,
+  "returncode": 0,
+  "seconds": 6.598,
+  "stdout_bytes": 118,
+  "stdout_sha256": "0663ec18e3db1d6cf9cf12663905a016313b655180c6ad7177e5648eaf0d0d1d"
+}

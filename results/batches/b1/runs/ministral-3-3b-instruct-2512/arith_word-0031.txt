@@ -1,0 +1,8 @@
+Rosa reads **14 pages/day × 4 days = 56 pages** from the first book.
+She reads **15 pages/day × 2 days = 30 pages** from the second book.
+Total pages read before skipping: **56 + 30 = 86 pages**.
+After skipping 2 blank pages: **86 - 2 = 84 pages**.
+
+#### 84 [end of text]
+
+

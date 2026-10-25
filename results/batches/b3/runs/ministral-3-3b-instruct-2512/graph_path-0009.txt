@@ -1,0 +1,38 @@
+To find the shortest path from **Uri** to **Zed**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Uri** with distance `0`.
+   - All other nodes have distance `∞`.
+   - Priority queue: `{(Uri, 0)}`
+
+2. **Expand Uri**:
+   - Neighbors: **Moss** (distance `2`), **Vale** (distance `2`).
+   - Update distances: `Moss = 2`, `Vale = 2`.
+   - Queue: `{(Moss, 2), (Vale, 2)}`
+
+3. **Expand Moss** (next shortest):
+   - Neighbors: **Dove** (via `Dove-Moss` edge, weight `5`), **Drew** (via `Drew-Moss` edge, weight `6`).
+   - Update distances: `Dove = 2 + 5 = 7`, `Drew = 2 + 6 = 8`.
+   - Queue: `{(Vale, 2), (Dove, 7), (Drew, 8)}`
+
+4. **Expand Vale** (next shortest):
+   - No outgoing edges to **Zed** (no path yet).
+   - Queue: `{(Dove, 7), (Drew, 8)}`
+
+5. **Expand Dove** (next shortest):
+   - Neighbors: **Moss** (already shorter), **Uri** (already visited), **Zed** (via `Dove-Zed` edge, weight `1`).
+   - Update distance: `Zed = 7 + 1 = 8`.
+   - Queue: `{(Drew, 8), (Zed, 8)}`
+
+6. **Expand Drew** (no improvement to Zed).
+   - Queue: `{(Zed, 8)}`
+
+7. **Expand Zed** (done).
+
+### Shortest Path:
+- **Uri → Moss → Dove → Zed** with total weight **8**.
+
+#### 8 [end of text]
+
+

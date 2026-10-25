@@ -1,0 +1,24 @@
+The exact standard output of the given Python 3 program is:
+
+```
+30
+7
+```
+
+Here's the reasoning:
+
+1. The program initializes a list `digits` with the values `[4, 6, 5, 7, 7, 6, 6]`.
+2. It then initializes a variable `total` to 0.
+3. The program iterates over each element `digit` in the `digits` list using a `for` loop.
+4. For each `digit`, it adds it to the `total` variable.
+5. After the loop completes, the program prints the final value of `total`, which is 30.
+6. The program also prints the length of the `digits` list, which is 7.
+
+Therefore, the final output is:
+
+```
+30
+7
+``` [end of text]
+
+

@@ -1,0 +1,21 @@
+We want to find the shortest path between Cleo and Eden in the given undirected weighted graph. We can use Dijkstra's algorithm or simply analyze the possible paths.
+
+Possible paths from Cleo to Eden:
+1. Cleo -> Amber -> Kai -> Eden: Weight = 6 + 8 + 6 = 20
+2. Cleo -> Bay -> Kai -> Eden: Weight = 2 + 8 + 6 = 16
+3. Cleo -> Tess -> Indigo -> (no path to Eden)
+4. Cleo -> Tess -> Sage -> (no path to Eden)
+5. Cleo -> Blair -> Eden: Weight = 3 + 3 = 6
+6. Cleo -> Kai -> Eden: Weight = 8 + 6 = 14
+
+Comparing the weights of the possible paths:
+- Cleo -> Amber -> Kai -> Eden: 20
+- Cleo -> Bay -> Kai -> Eden: 16
+- Cleo -> Blair -> Eden: 6
+- Cleo -> Kai -> Eden: 14
+
+The shortest path is Cleo -> Blair -> Eden with a total weight of 6.
+
+#### 6 [end of text]
+
+

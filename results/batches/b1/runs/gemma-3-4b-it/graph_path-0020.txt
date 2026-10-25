@@ -1,0 +1,14 @@
+We want to find the shortest path between Poe and West in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Poe to West:
+1. Poe -> Reed -> West: 5 + 7 = 12
+2. Poe -> Amber -> Reed -> West: 8 + 5 + 7 = 20
+3. Poe -> Amber -> Uri -> York -> West: 8 + 6 + 2 + 6 = 22
+4. Poe -> Reed -> Xen -> West: 5 + 4 + 6 = 15
+5. Poe -> Amber -> York -> West: 8 + 6 + 6 = 20
+
+The shortest path is Poe -> Reed -> West with a total weight of 12.
+
+#### 12 [end of text]
+
+

@@ -1,0 +1,23 @@
+Poppy is solving a 1000-piece jigsaw puzzle.
+
+Step 1: Poppy places a quarter of the pieces.  
+A quarter of 1000 is:  
+$ \frac{1}{4} \times 1000 = 250 $  
+So, 250 pieces are placed by Poppy.
+
+Remaining pieces:  
+$ 1000 - 250 = 750 $
+
+Step 2: Her mom places a third of the **remaining** pieces.  
+A third of 750 is:  
+$ \frac{1}{3} \times 750 = 250 $  
+So, 250 pieces are placed by her mom.
+
+Total pieces placed: $ 250 + 250 = 500 $
+
+Pieces left to be placed:  
+$ 1000 - 500 = 500 $
+
+#### 500 [end of text]
+
+

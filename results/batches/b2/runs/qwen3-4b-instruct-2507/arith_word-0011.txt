@@ -1,0 +1,23 @@
+Chloe sets out 7 rows with 9 seats in each row.
+
+First, find the total number of seats:
+
+$$
+7 \times 9 = 63 \text{ seats}
+$$
+
+Then, 49 seats are sold, so the number of unsold seats is:
+
+$$
+63 - 49 = 14 \text{ unsold seats}
+$$
+
+Each unsold seat is worth $7, so the total value of unsold seats is:
+
+$$
+14 \times 7 = 98 \text{ dollars}
+$$
+
+#### 98 [end of text]
+
+

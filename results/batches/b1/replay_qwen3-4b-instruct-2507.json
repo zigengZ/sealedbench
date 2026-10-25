@@ -1,0 +1,82 @@
+{
+  "batch_id": "b1",
+  "beacon_relays_ok": 2,
+  "items": [
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0000",
+      "published_bytes": 311,
+      "replay_bytes": 311,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0001",
+      "published_bytes": 280,
+      "replay_bytes": 280,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0002",
+      "published_bytes": 404,
+      "replay_bytes": 404,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0003",
+      "published_bytes": 250,
+      "replay_bytes": 250,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0004",
+      "published_bytes": 254,
+      "replay_bytes": 254,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0005",
+      "published_bytes": 439,
+      "replay_bytes": 439,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0006",
+      "published_bytes": 183,
+      "replay_bytes": 183,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0007",
+      "published_bytes": 1013,
+      "replay_bytes": 1013,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0008",
+      "published_bytes": 341,
+      "replay_bytes": 341,
+      "returncode": 0
+    },
+    {
+      "byte_match": true,
+      "item_id": "arith_word-0009",
+      "published_bytes": 280,
+      "replay_bytes": 280,
+      "returncode": 0
+    }
+  ],
+  "k": 10,
+  "matches": 10,
+  "model": "qwen3-4b-instruct-2507",
+  "output_dir": "/root/codes/sealedbench/results/batches/b1/replay/qwen3-4b-instruct-2507/20261018T125253Z",
+  "question_set_sha256": "a91b6dab74eee35c8aaba81f8323610a5604fc7d73529bc7229aa3c6e1668193",
+  "txid": null
+}

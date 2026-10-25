@@ -1,0 +1,12 @@
+Each floor has 8 units, so the total number of units in the building is:
+15 floors × 8 units = 120 units.
+
+3/4 of the building is occupied, so the number of occupied units is:
+120 × 3/4 = 90 units.
+
+The number of unoccupied units is:
+120 - 90 = 30 units.
+
+#### 30 [end of text]
+
+

@@ -1,0 +1,17 @@
+First, find the total number of crayons Nico buys:
+
+- 7 packs × 7 crayons = 49 crayons  
+- 2 packs × 5 crayons = 10 crayons  
+
+Total crayons before giving any away:  
+49 + 10 = 59 crayons
+
+Nico gives 43 crayons to Uma, so the remaining crayons are:  
+59 - 43 = 16 crayons
+
+These 16 crayons are shared equally among 2 people:  
+16 ÷ 2 = 8 crayons per person
+
+#### 8 [end of text]
+
+

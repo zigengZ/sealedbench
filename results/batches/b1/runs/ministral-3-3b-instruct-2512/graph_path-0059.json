@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "graph_path",
+  "gen_tokens": 305,
+  "gen_tps": 7.23,
+  "hit_cap": false,
+  "item_id": "graph_path-0059",
+  "model": "ministral-3-3b-instruct-2512",
+  "n_predict": 320,
+  "prompt_tokens": 151,
+  "prompt_tps": 59.33,
+  "returncode": 0,
+  "seconds": 46.04,
+  "stdout_bytes": 837,
+  "stdout_sha256": "619f924e7512a359803fedf1b3d3a13a8e4e162c2ca0cc1fc40c93c475b844b7"
+}

@@ -1,0 +1,19 @@
+First, let's calculate the total amount of potato salad needed for the adults.
+
+There are 20 adults, and each adult eats 10 lbs of potato salad.
+So, the total amount needed for adults is:
+20 adults * 10 lbs/adult = 200 lbs
+
+Next, we calculate the total amount needed for the children.
+Each child eats half as much as an adult, so each child eats:
+10 lbs / 2 = 5 lbs
+
+There are 5 children, so the total amount needed for children is:
+5 children * 5 lbs/child = 25 lbs
+
+Now, we add the amounts needed for adults and children to find the total amount of potato salad Ted needs to bring:
+200 lbs (adults) + 25 lbs (children) = 225 lbs
+
+Therefore, Ted needs to bring #### 225 pounds of potato salad. [end of text]
+
+

@@ -1,0 +1,6 @@
+Dmitri starts with 2 packs × 10 badges = 20 badges.
+After giving 14 to Boris, he has 20 − 14 = 6 badges left.
+
+#### 6 [end of text]
+
+

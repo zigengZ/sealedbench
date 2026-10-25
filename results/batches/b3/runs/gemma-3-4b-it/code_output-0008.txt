@@ -1,0 +1,38 @@
+The program initializes a list of words `words`. It then initializes an empty string `out`. The code iterates through the `words` list using a `for` loop and the `range` function. In each iteration, it extracts a `piece` from the `words` list based on the current `index`.
+
+If the `index` is even, the `piece` is converted to uppercase.
+
+If `out` is empty, the `piece` is assigned to `out`. Otherwise, a hyphen '-' is concatenated with the `piece` and appended to `out`.
+
+Finally, the value of `out` is printed.
+
+Let's trace the execution:
+
+- `words = ['quartz', 'ivory', 'pine', 'kelp']`
+- `out = ""`
+
+Loop 1: `index = 0`
+- `piece = words[0] = 'quartz'`
+- `index % 2 == 0` is true (0 % 2 == 0)
+- `piece = 'quartz'.upper() = 'QUARTZ'`
+- `out == ""` is true
+- `out = 'QUARTZ'`
+
+Loop 2: `index = 1`
+- `piece = words[1] = 'ivory'`
+- `index % 2 == 0` is false (1 % 2 != 0)
+- `out == ""` is false
+- `out = out + '-' + piece = 'QUARTZ' + '-' + 'ivory' = 'QUARTZ-ivory'`
+
+Loop 3: `index = 2`
+- `piece = words[2] = 'pine'`
+- `index % 2 == 0` is false (2 % 2 != 0)
+- `out == ""` is false
+- `out = out + '-' + piece = 'QUARTZ-ivory' + '-' + 'pine' = 'QUARTZ-ivory-pine'`
+
+Loop 4: `index = 3`
+- `piece = words[3] = 'kelp'`
+- `index % 2 == 0` is false (3 % 2 != 0)
+- `out == ""` is false
+- `out = out + '-' + piece = 'QUARTZ-ivory-pine' + '-' + 'kelp' = 'QUARTZ-ivory
+

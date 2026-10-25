@@ -1,0 +1,36 @@
+We are given an undirected weighted graph with nodes:
+
+**Nodes**: Eden, Indigo, Lark, Oak, Quill, West, Xen, Zed  
+**Edges and weights**:
+
+- Eden–Oak: 8  
+- Eden–West: 8  
+- Eden–Zed: 3  
+- Indigo–Oak: 2  
+- Indigo–Quill: 6  
+- Indigo–Zed: 4  
+- Lark–Xen: 3  
+- Lark–Zed: 6  
+- Oak–Xen: 5  
+- Oak–Zed: 4  
+- Xen–Zed: 6  
+
+We are to find the **shortest path from Quill to West**, in terms of total edge weight.
+
+---
+
+### Step 1: Understand the structure
+
+We need to go from **Quill** to **West**.
+
+Quill is only directly connected to **Indigo** (weight 6).  
+West is directly connected to **Eden** (weight 8).  
+So, any path from Quill to West must go through Indigo → ... → Eden → West.
+
+So possible path:  
+**Quill → Indigo → ... → Eden → West**
+
+We need to find the shortest path from Indigo to Eden, then add the 6 (Quill→Indigo) and 8 (Eden→West).
+
+So total path weight = 6 (Quill→Indigo) + (shortest path from Indigo to Eden) + 8
+

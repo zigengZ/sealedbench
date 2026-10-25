@@ -1,0 +1,7 @@
+First, calculate the total number of crayons Zane bought: 9 packs * 7 crayons/pack = 63 crayons.
+
+Then, subtract the number of crayons given to Felix: 63 crayons - 21 crayons = 42 crayons.
+
+Zane has #### 42 crayons. [end of text]
+
+

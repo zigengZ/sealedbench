@@ -1,0 +1,14 @@
+We want to find the shortest path from Cedar to Oak in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Cedar to Oak:
+1. Cedar -> York -> Oak: Weight = 2 + 4 = 6
+2. Cedar -> Poe -> York -> Oak: Weight = 5 + 3 + 4 = 12
+3. Cedar -> Moss -> Xen -> Zed (doesn't lead to Oak)
+4. Cedar -> Moss -> Xen -> Zed (doesn't lead to Oak)
+5. Cedar -> Lark -> Xen -> Zed (doesn't lead to Oak)
+
+The shortest path is Cedar -> York -> Oak with a total weight of 6.
+
+#### 6 [end of text]
+
+

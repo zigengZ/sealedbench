@@ -1,0 +1,35 @@
+Let's break this down step by step.
+
+**Part 1: John drives away from home**
+
+- Speed: 60 mph
+- Time: 3 hours  
+→ Distance = speed × time = 60 × 3 = **180 miles** from home.
+
+So, after driving for 3 hours, John is 180 miles from home.
+
+---
+
+**Part 2: He tries to get home in 4 hours, but has traffic**
+
+- First 2 hours: standstill (no movement) → distance = 0
+- Next 0.5 hours: drives at 30 mph  
+→ Distance covered = 30 × 0.5 = **15 miles** toward home
+- Remaining time: 4 hours total – 2 hours – 0.5 hours = **1.5 hours**  
+→ Drives at 80 mph for 1.5 hours  
+→ Distance covered = 80 × 1.5 = **120 miles** toward home
+
+---
+
+**Total distance toward home in the 4 hours:**  
+15 + 120 = **135 miles**
+
+---
+
+**Final distance from home:**  
+He started 180 miles away, and drove 135 miles back toward home.  
+So, distance from home = 180 – 135 = **45 miles**
+
+#### 45 [end of text]
+
+

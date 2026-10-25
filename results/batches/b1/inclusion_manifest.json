@@ -1,0 +1,77 @@
+{
+  "block": {
+    "height": 2023266,
+    "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY",
+    "source": "https://ar-io.dev",
+    "timestamp": 1792250460,
+    "timestamp_utc": "2026-10-17T15:21:00Z"
+  },
+  "block_attempts": [
+    {
+      "host": "https://arweave.net",
+      "http": 429
+    },
+    {
+      "host": "https://ar-io.dev",
+      "http": 200,
+      "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY",
+      "timestamp": 1792250460
+    },
+    {
+      "host": "https://ario.zigza.xyz",
+      "http": 200,
+      "indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY",
+      "timestamp": 1792250460
+    }
+  ],
+  "error": null,
+  "expected_sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022",
+  "l1": {
+    "block_indep_hash": "3aJ8Id7gy-NkNV6la7RlrFzTjlUASRKhgeTrwPEjrVbn7SEKiwjkWsI2Y_tpfqsY",
+    "confirmations": 499,
+    "height": 2023266,
+    "source": "https://ar-io.dev"
+  },
+  "l1_attempts": [
+    {
+      "host": "https://arweave.net",
+      "http": 429,
+      "url": "https://arweave.net/tx/pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk/status"
+    },
+    {
+      "block_height": 2023266,
+      "confirmations": 499,
+      "host": "https://ar-io.dev",
+      "http": 200,
+      "url": "https://ar-io.dev/tx/pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk/status"
+    },
+    {
+      "block_height": 2023266,
+      "confirmations": 499,
+      "host": "https://ario.zigza.xyz",
+      "http": 200,
+      "url": "https://ario.zigza.xyz/tx/pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk/status"
+    }
+  ],
+  "payload": {
+    "absolute_offset": 4555,
+    "content_range": "bytes 4555-30114/185260",
+    "got_bytes": 25560,
+    "host": "https://ar-io.dev",
+    "http": 206,
+    "length": 25560,
+    "ok": true,
+    "sha256": "0b3e44d6223012cf86530325fb5d41d892a661726d435bcb9fb0d00ef2112022"
+  },
+  "turbo": {
+    "bundle_id": "pzzVUc5WUQHkZMWHu3D12AseYrj6ZSwH1nx9lKurvxk",
+    "http": 200,
+    "info": "permanent",
+    "payload_content_length": 25560,
+    "payload_data_start": 1159,
+    "raw_content_length": 26719,
+    "start_offset_in_root_bundle": 3396,
+    "status": "FINALIZED"
+  },
+  "txid": "510sRNPxwIwK4D_xXkujpyih8M1pcww9DcZgOaLkkzU"
+}

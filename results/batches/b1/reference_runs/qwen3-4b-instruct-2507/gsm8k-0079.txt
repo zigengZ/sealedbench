@@ -1,0 +1,14 @@
+The original cost of grooming is $100.  
+John gets a 30% discount, so we calculate 30% of $100:
+
+30% of 100 = 0.30 × 100 = $30
+
+Subtract the discount from the original price:
+
+100 - 30 = $70
+
+So, the grooming cost after the discount is $70.
+
+#### 70 [end of text]
+
+

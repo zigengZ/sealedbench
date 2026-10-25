@@ -1,0 +1,9 @@
+Hugo buys 2 packs of muffins, and each pack has 12 muffins.  
+So, total muffins = 2 × 12 = 24 muffins.  
+
+Then he gives 5 muffins to Aisha.  
+So, muffins left = 24 - 5 = 19.  
+
+#### 19 [end of text]
+
+

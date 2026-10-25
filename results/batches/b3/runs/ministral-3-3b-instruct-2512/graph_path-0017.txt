@@ -1,0 +1,66 @@
+To find the shortest path from **Oak** to **Quill**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Oak**: 0
+   - Distance to all others: ∞
+   - Predecessor: None
+
+2. **Expand from Oak**:
+   - **Drew (6)** ← Oak
+   - **Jules (11)** ← Oak → Drew (7) → Jules (5) → **11** (but Jules is unreachable directly from Oak)
+   - **Quill (13)** ← Oak → Drew (7) → Quill (7) → **13** (but this is longer than direct path via Jules)
+
+   **Correction**: The direct edge from **Oak** to **Jules** is not given. The shortest path from Oak to Quill is:
+   - **Oak → Drew → Quill** (6 + 7 = **13**)
+   - **Oak → Drew → Jules → Quill** (6 + 7 + 5 = **18**) → Not optimal.
+
+   However, the shortest path is **Oak → Drew → Quill** with total weight **13**.
+
+   **Wait, let's verify all possible paths**:
+
+   - **Oak → Drew → Quill**: 6 + 7 = **13**
+   - **Oak → Drew → Jules → Tess → Quill**: Not valid (no direct edge from Tess to Quill).
+   - **Oak → Jules → Quill**: No direct edge from Oak to Jules.
+
+   **No other paths exist** from Oak to Quill.
+
+   **But wait, is there a shorter path?**
+
+   - **Oak → Jules → Tess → Poe → Quill**: No direct edge from Poe to Quill.
+   - **Oak → Jules → Tess → York → Moss → Quill**: No direct edge from Moss to Quill.
+
+   **No other valid paths exist.**
+
+   **But let's check if there's a shorter path via other nodes:**
+
+   - **Oak → Drew → Quill** is the only valid path.
+
+   **But wait, is there a path via Kai?**
+
+   - **Oak → Drew → Kai → Quill**: No direct edge from Drew to Kai.
+
+   **No, the shortest path is indeed Oak → Drew → Quill = 13.**
+
+   **But let's check if there's a shorter path via other nodes:**
+
+   - **Oak → Jules → Tess → York → Moss → Kai → Quill**: Too long.
+   - **Oak → Jules → Tess → Poe → Kai → Quill**: Too long.
+
+   **No, the shortest path is Oak → Drew → Quill = 13.**
+
+   **But wait, is there a path via Moss?**
+
+   - **Oak → Drew → Kai → Moss → York → Tess → Poe → Quill**: Too long.
+
+   **No, the shortest path is Oak → Drew → Quill = 13.**
+
+   **But let's check if there's a path via Quill directly from Oak:**
+
+   - No direct edge from Oak to Quill.
+
+   **Final Answer: The shortest path is Oak → Drew → Quill with total weight 13.**
+
+#### 13 [end of text]
+
+

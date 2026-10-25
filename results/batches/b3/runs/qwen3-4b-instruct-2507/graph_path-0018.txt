@@ -1,0 +1,89 @@
+We are given an undirected weighted graph with nodes and edges, and we are to find the **shortest path weight** from **Bay to Kai**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Ash, Bay, Cleo, Jules, Kai, Oak, Sage, Tess, West, Xen
+
+---
+
+### Step 2: List all edges with weights
+
+- Ash — Bay: 8  
+- Ash — Oak: 3  
+- Ash — Xen: 2  
+- Bay — Tess: 4  
+- Cleo — Kai: 6  
+- Cleo — Tess: 1  
+- Jules — Tess: 2  
+- Jules — Xen: 2  
+- Kai — Oak: 2  
+- Oak — Sage: 3  
+- Tess — West: 5  
+- West — Xen: 4  
+
+---
+
+### Step 3: Goal — Shortest path from **Bay to Kai**
+
+We will find the shortest path using a shortest path algorithm (like Dijkstra’s), but since the graph is small, we can do it manually by exploring possible paths.
+
+---
+
+### Step 4: Explore paths from Bay to Kai
+
+#### Path 1: Bay → Tess → Cleo → Kai  
+- Bay → Tess: 4  
+- Tess → Cleo: 1  
+- Cleo → Kai: 6  
+→ Total: 4 + 1 + 6 = **11**
+
+#### Path 2: Bay → Tess → Jules → Xen → Ash → Oak → Kai  
+- Bay → Tess: 4  
+- Tess → Jules: 2  
+- Jules → Xen: 2  
+- Ash → Xen: 2 → wait, is there a direct Ash–Xen? Yes, 2  
+But Ash → Oak → Kai?  
+- Ash → Oak: 3  
+- Oak → Kai: 2  
+So:  
+Bay → Tess → Jules → Xen → Ash → Oak → Kai  
+But we have to go from Xen to Ash: 2  
+Then Ash → Oak: 3  
+Oak → Kai: 2  
+Total:  
+4 + 2 + 2 + 2 + 3 + 2 = **15 → too long**
+
+#### Path 3: Bay → Tess → West → Xen → Jules → Tess → Cleo → Kai?  
+Too long, loops.
+
+#### Path 4: Bay → Tess → Cleo → Tess → Jules → Xen → Ash → Oak → Kai  
+Again, loops and redundant.
+
+#### Path 5: Bay → Ash → Oak → Kai  
+- Bay → Ash: 8  
+- Ash → Oak: 3  
+- Oak → Kai: 2  
+→ Total: 8 + 3 + 2 = **13**
+
+Compare with previous best: 11
+
+#### Path 6: Bay → Tess → Cleo → Kai → 4+1+6=11  
+Already considered.
+
+#### Path 7: Bay → Tess → West → Xen → Jules → Xen → Ash → Oak → Kai?  
+Too long.
+
+#### Path 8: Bay → Tess → Jules → Xen → Ash → Oak → Kai  
+- Bay → Tess: 4  
+- Tess → Jules: 2  
+- Jules → Xen: 2  
+- Ash → Xen: 2 → but we already have Ash–Xen, but going from Xen to Ash is same  
+- Ash → Oak: 3  
+- Oak → Kai: 2  
+Total: 4+2+2+2+3+2 = **15**
+
+Still worse.
+
+#### Path 9: Bay → Ash → Xen → Jules → Tess →
+

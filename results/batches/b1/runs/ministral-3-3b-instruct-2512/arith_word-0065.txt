@@ -1,0 +1,11 @@
+Elena's earnings:
+- Day 1: 25 dollars/hour × 3 hours = 75 dollars
+- Day 2: 25 dollars/hour × 5 hours = 125 dollars
+Total earnings = 75 + 125 = 200 dollars
+
+After spending 155 dollars:
+200 - 155 = 45 dollars left
+
+#### 45 [end of text]
+
+

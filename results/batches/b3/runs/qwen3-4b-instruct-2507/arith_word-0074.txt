@@ -1,0 +1,19 @@
+First, find out how many balloons Hugo originally buys:
+
+8 packs × 4 balloons per pack = 32 balloons
+
+Then, Hugo gives 28 balloons to Rosa, so he has:
+
+32 - 28 = 4 balloons left
+
+Then, Rosa gives Hugo 8 more balloons, so Hugo now has:
+
+4 + 8 = 12 balloons
+
+Each balloon is worth $6, so the total value of Hugo's balloons is:
+
+12 balloons × $6 = $72
+
+#### 72 [end of text]
+
+

@@ -1,0 +1,19 @@
+Victor reads:
+
+- 24 pages per day for 6 days:  
+  $ 24 \times 6 = 144 $ pages
+
+- 18 pages per day for 4 days:  
+  $ 18 \times 4 = 72 $ pages
+
+Total pages read (before skipping):  
+$ 144 + 72 = 216 $ pages
+
+He skips 78 blank pages that do not count — so we **do not** include them in the total.
+
+So, the total number of pages Victor **reads** is:  
+$ 216 $ pages
+
+#### 216 [end of text]
+
+

@@ -1,0 +1,54 @@
+We are told:
+
+- The top level (level 4) has 16 square feet.
+- Each level below has **twice** the square footage of the level above it (since each level has **half** the square footage of the one below it).
+
+So, going **down** from top to bottom, each level has **twice** the area of the one above.
+
+Let’s label the levels from top to bottom:
+
+- Level 1 (top): 16 sq ft  
+- Level 2: 2 × 16 = 32 sq ft  
+- Level 3: 2 × 32 = 64 sq ft  
+- Level 4 (bottom): 2 × 64 = 128 sq ft
+
+Wait — this contradicts the original statement.
+
+Let’s re-read:
+
+> "each level of a sandcastle will have half the square footage as the level below it."
+
+So:  
+**Each level has half the square footage of the level below it.**
+
+That means:  
+Level 1 (top) = ½ × Level 2  
+Level 2 = ½ × Level 3  
+Level 3 = ½ × Level 4
+
+So the **bottom level is the largest**, and each level above has half the area.
+
+We are told:  
+The **top level has 16 sq ft**.
+
+So:
+
+- Level 1 (top): 16  
+- Level 2: 2 × 16 = 32  
+- Level 3: 2 × 32 = 64  
+- Level 4 (bottom): 2 × 64 = 128
+
+Now, to find the **average square footage** of a level:
+
+Add all the areas and divide by 4.
+
+Total area = 16 + 32 + 64 + 128  
+= 16 + 32 = 48  
+48 + 64 = 112  
+112 + 128 = 240
+
+Average = 240 ÷ 4 = 60
+
+#### 60 [end of text]
+
+

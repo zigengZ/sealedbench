@@ -1,0 +1,13 @@
+Let L be Lylah's salary.
+Adrien's salary four years ago was $40000.
+Adrien's total salary was 30% higher than Lylah's salary four years ago. So,
+$40000 = L + 0.30L = 1.30L$
+$L = \frac{40000}{1.30} = \frac{400000}{13} \approx 30769.23$
+
+Since Adrien's and Lylah's salary increased simultaneously, their salaries four years later are:
+Adrien's salary four years later = $40000 + 0.40(40000) = 40000 + 16000 = 56000$
+Lylah's salary four years later = $L + 0.40L = 1.40L = 1.40 \times \frac{400000}{13} = \frac{560000}{13} \approx 43076.92$
+
+The total salary the two were receiving four years later is:
+$56000 + \frac{560000}{13} = \frac{56000 \times 13 + 56
+

@@ -1,0 +1,80 @@
+To find the shortest path between Ash and Jules, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to Ash as 0 and to Jules as infinity.
+   - Create a priority queue and insert Ash with distance 0.
+
+2. **Processing**:
+   - While the priority queue is not empty:
+     - Extract the vertex with the smallest distance.
+     - For each neighbor of the current vertex:
+       - Calculate the new distance through the current vertex.
+       - If the new distance is less than the current known distance, update the distance.
+       - If the new distance is equal to the current known distance, mark the neighbor as visited.
+
+3. **Result**:
+   - The distance from Ash to Jules is the smallest distance among all neighbors of Ash.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Ash', 'Bay', 'Jules', 'Kai', 'Oak', 'Uri', 'Vale', 'York']
+distances = {node: float('infinity') for node in nodes}
+distances['Amber'] = 0
+
+# Edges
+edges = {
+    'Amber': 4,
+    'Amber': 8,
+    'Amber': 9,
+    'Amber': 8,
+    'Ash': 7,
+    'Jules': 3,
+    'Kai': 4,
+    'Kai': 4,
+    'Kai': 9,
+    'Kai': 7,
+    'Oak': 1,
+    'Uri': 1,
+    'Uri': 2
+}
+
+# Priority queue to store vertices with their distances
+priority_queue = [(0, 'Amber')]
+
+# Function to perform Dijkstra's algorithm
+def dijkstra(graph, start, visited):
+    distances = {node: float('infinity') for node in graph}
+    distances['start'] = 0
+    priority_queue = [(0, start)]
+
+    while priority_queue:
+        current_distance, current_vertex = heapq.heappop(priority_queue)
+
+        if current_vertex in visited:
+            continue
+
+        for neighbor, weight in graph[current_vertex].items():
+            new_distance = current_distance + weight
+
+            if new_distance < distances[neighbor]:
+                distances[neighbor] = new_distance
+                heapq.heappush(priority_queue, (new_distance, neighbor))
+
+    return distances
+
+# Calculate the shortest path from Ash to Jules
+shortest_path = dijkstra(graph, 'Ash', {'Ash': 0, 'Jules': float('infinity')})
+
+# Extract the total weight of the shortest path
+total_weight = shortest_path['Jules']
+
+print(total_weight)
+```
+
+#### 10 [end of text]
+
+

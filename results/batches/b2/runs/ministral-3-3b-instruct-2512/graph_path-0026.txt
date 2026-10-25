@@ -1,0 +1,34 @@
+To find the shortest path from **Poe** to **Zed**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Start at Poe** (distance = 0).
+2. **Update neighbors**:
+   - Poe → Reed (weight = 1) → distance = 1.
+3. **Next, explore Reed** (distance = 1):
+   - Reed → Amber (weight = 3) → distance = 1 + 3 = 4.
+   - Reed → Poe (already visited).
+4. **Next, explore Amber** (distance = 4):
+   - Amber → Lark (7) → distance = 4 + 7 = 11.
+   - Amber → Moss (1) → distance = 4 + 1 = 5.
+   - Amber → Poe (already visited).
+   - Amber → Reed (already visited).
+   - Amber → Sage (4) → distance = 4 + 4 = 8.
+   - Amber → Zed (8) → distance = 4 + 8 = 12.
+5. **Next, explore Moss** (distance = 5):
+   - Moss → Amber (already visited).
+   - Moss → Zed (4) → distance = 5 + 4 = 9.
+6. **Next, explore Lark** (distance = 11):
+   - Lark → Amber (already visited).
+   - Lark → Sage (8) → distance = 11 + 8 = 19.
+7. **Next, explore Sage** (distance = 8):
+   - Sage → Lark (already visited).
+   - Sage → Amber (already visited).
+   - Sage → Zed (no direct edge).
+8. **Next, explore Zed** (distance = 9 via Moss) is better than the earlier path via Amber (distance = 12).
+
+### Shortest Path:
+**Poe → Reed → Amber → Moss → Zed** with total weight = **1 + 3 + 1 + 4 = 9**.
+
+#### 9 [end of text]
+
+

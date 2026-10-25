@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "code_output",
+  "gen_tokens": 7,
+  "gen_tps": 9.68,
+  "hit_cap": false,
+  "item_id": "code_output-0028",
+  "model": "ministral-3-3b-instruct-2512",
+  "n_predict": 512,
+  "prompt_tokens": 137,
+  "prompt_tps": 66.86,
+  "returncode": 0,
+  "seconds": 3.882,
+  "stdout_bytes": 33,
+  "stdout_sha256": "a4dc80d9375fa0e09ae32f5d39f567f5c1c42bc712be192f855450f36584958a"
+}

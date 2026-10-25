@@ -1,0 +1,12 @@
+We want to find the shortest path between Oak and York in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Oak to York:
+1. Oak -> Jules -> York: Weight = 7 + 9 = 16
+2. Oak -> Eden -> Xen -> Jules -> York: Weight = 5 + 3 + 2 + 9 = 19
+3. Oak -> Poe -> Jules -> York: Weight = 7 + 2 + 9 = 18
+
+The shortest path is Oak -> Jules -> York with a total weight of 16.
+
+#### 16 [end of text]
+
+

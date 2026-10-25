@@ -1,0 +1,12 @@
+Uma buys beads in two batches:
+- First batch: 4 packs × 12 beads = 48 beads
+- Second batch: 6 packs × 6 beads = 36 beads
+Total beads = 48 + 36 = 84 beads
+
+After giving 19 beads to Aisha, remaining beads = 84 - 19 = 65 beads
+
+Each bead is worth $7, so total value = 65 × 7 = 455
+
+#### 455 [end of text]
+
+

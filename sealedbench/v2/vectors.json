@@ -1,0 +1,71 @@
+[
+  {
+    "round": 1000,
+    "signature_sha256": "fe290beca10872ef2fb164d2aa4442de4566183ec51c56ff3cd603d930e54fdd",
+    "signature_hex": "b44679b9a59af2ec876b1a6b1ad52ea9b1615fc3982b19576350f93447cb1125e342b73a8dd2bacbe47e4b6b63ed5e39",
+    "randomness": "fe290beca10872ef2fb164d2aa4442de4566183ec51c56ff3cd603d930e54fdd",
+    "seed_hex": "106c906f6e51ae1594c8c1c4d34b762ffef0950f1688636883dca2f3cef0494b",
+    "counts": {
+      "arith_word": 80,
+      "code_output": 30,
+      "graph_path": 30
+    },
+    "first_item_ids": [
+      "arith_word-0000",
+      "arith_word-0001",
+      "arith_word-0002"
+    ],
+    "first_prompt_sha256": [
+      "6da1520a893d7be80ad9fac45135f664e7c716aca7b70083e645a35244eec992",
+      "026292761c601789e731efb12b080953fe045da4da8c3f2239ab78b3bf2d5b22",
+      "f8929519b96f8e7d2288282ea47a13d51a7aa0f1a2fa3a14fb80fe4f22abb97a"
+    ],
+    "question_set_sha256": "ec4de32a93f9aa88971afd488f70df3faf49a1d4dc3043c3674038206f8675a7"
+  },
+  {
+    "round": 1000000,
+    "signature_sha256": "b22aad4794f7451896f7a371aa46106fd84d919f3f569acd5b2fddf1d1440af3",
+    "signature_hex": "83ad29e4c409f9470fc2ef02f90214df49e02b441a1a241a82d622d9f608ef98fd8b11a029f1bee9d9e83b45088abe72",
+    "randomness": "b22aad4794f7451896f7a371aa46106fd84d919f3f569acd5b2fddf1d1440af3",
+    "seed_hex": "c8744a5e2a3202d9300b829298674225fe5ccab8826eb32735e5bba069dc9559",
+    "counts": {
+      "arith_word": 80,
+      "code_output": 30,
+      "graph_path": 30
+    },
+    "first_item_ids": [
+      "arith_word-0000",
+      "arith_word-0001",
+      "arith_word-0002"
+    ],
+    "first_prompt_sha256": [
+      "d2c39cbef599178e726cd128da3fe7382abc50ffc8692392d97fd852fa467fb1",
+      "0315e5d35cbca8c5c38fcfdd9d482cd2a349a04165cbc57767225ad7b5fabf09",
+      "a9971e01dc7ce2fdcf2f63213ab9f7a5b974bfd7356a40ff8010f4b7c5fa2941"
+    ],
+    "question_set_sha256": "abea4c3546025e6ceca598595abefe65d5ca86b0d37c4cff1afafde5f716717d"
+  },
+  {
+    "round": 33000000,
+    "signature_sha256": "3267554d34a7d7bbd3f547a168cda834dd94ca2f060386d48c49680ea9366cad",
+    "signature_hex": "a6d9f863b58d8f1ea7b6fd426feef2b43b22c912b89dce0bdd787ed2b04c703954aced716aba98ff2b4a22a83e48dd35",
+    "randomness": "3267554d34a7d7bbd3f547a168cda834dd94ca2f060386d48c49680ea9366cad",
+    "seed_hex": "509b015b266a4e37a25852e516d5f4ed4ed6c400cee66adb96a9d66419755c57",
+    "counts": {
+      "arith_word": 80,
+      "code_output": 30,
+      "graph_path": 30
+    },
+    "first_item_ids": [
+      "arith_word-0000",
+      "arith_word-0001",
+      "arith_word-0002"
+    ],
+    "first_prompt_sha256": [
+      "b6c19544a14abaefa1691d8a914850bf0f2897d41deba25805d8ef8b60b88ed6",
+      "7f54e33c7c5d22e3c4204b9f25307b2b564ae9515d1ed4bf2241cf1a6846f6e3",
+      "b46aa1feeed866f8cb0cd5f39524d65de30dc13a617579b0027a0576c194786d"
+    ],
+    "question_set_sha256": "92938dfbfb1f17d32c13c85f481358301a870b82208fb075e27db8e7ace36cc4"
+  }
+]

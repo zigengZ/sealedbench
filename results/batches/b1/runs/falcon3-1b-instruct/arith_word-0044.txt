@@ -1,0 +1,12 @@
+First, calculate the total number of seats Yara initially has:
+4 rows × 9 seats/row = 36 seats
+
+Then, calculate the total number of seats after adding 5 more rows:
+36 seats + 5 rows × 5 seats/row = 36 + 25 = 61 seats
+
+Finally, subtract the number of seats sold from the total:
+61 seats - 45 seats = 16 seats
+
+#### 16 [end of text]
+
+

@@ -1,0 +1,7 @@
+First, find the total cost of the brooch: $500 + $800 = $1300.
+Next, calculate 10% of $1300: 0.10 * $1300 = $130.
+Finally, add the insurance cost to the total cost: $1300 + $130 = $1430.
+
+####1430 [end of text]
+
+

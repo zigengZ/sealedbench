@@ -1,0 +1,44 @@
+We are given an undirected weighted graph with nodes:  
+**Ash, Eden, Hart, Lark, Nell, Tess**
+
+Edges and their weights:
+- Ash — Eden: 1  
+- Ash — Hart: 7  
+- Ash — Nell: 9  
+- Eden — Lark: 6  
+- Eden — Tess: 2  
+- Hart — Lark: 4  
+- Hart — Tess: 2  
+- Lark — Nell: 8  
+- Lark — Tess: 8  
+
+We are to find the **shortest path from Eden to Nell**.
+
+---
+
+### Step 1: List all possible paths from Eden to Nell
+
+We'll consider paths through various intermediate nodes.
+
+---
+
+**Path 1: Eden → Nell**  
+Direct edge? Not listed. So no direct edge. ❌
+
+**Path 2: Eden → Lark → Nell**  
+- Eden to Lark: 6  
+- Lark to Nell: 8  
+→ Total: 6 + 8 = **14**
+
+**Path 3: Eden → Tess → Nell?**  
+No edge from Tess to Nell. ❌
+
+**Path 4: Eden → Lark → Hart → Nell?**  
+- Eden → Lark: 6  
+- Lark → Hart: 4  
+- Hart → Nell? Not directly listed. ❌
+
+**Path 5: Eden → Tess → Hart → Nell?**  
+- Eden → Tess: 2  
+
+

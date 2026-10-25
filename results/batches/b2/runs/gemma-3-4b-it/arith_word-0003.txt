@@ -1,0 +1,6 @@
+First, we calculate Kira's total earnings: 29 dollars/hour * 2 hours = 58 dollars.
+Then, we subtract the amount she spent: 58 dollars - 37 dollars = 21 dollars.
+
+####21 [end of text]
+
+

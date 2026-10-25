@@ -1,0 +1,27 @@
+First, let's calculate the total cost of the cell phones.
+
+Total cost = Number of cell phones × Cost per cell phone
+Total cost = 5 × $150
+Total cost = $750
+
+Next, we need to determine the interest charged for each installment.
+
+Interest per installment = Total cost × Interest rate per installment
+Interest per installment = $750 × 0.02
+Interest per installment = $15
+
+Now, let's calculate the total interest Shiela will pay over 3 months.
+
+Total interest = Interest per installment × Number of installments
+Total interest = $15 × 3
+Total interest = $45
+
+Finally, we'll find out how much Shiela will pay each month for 3 months.
+
+Monthly payment = Total interest / Number of installments
+Monthly payment = $45 / 3
+Monthly payment = $15
+
+#### 15 [end of text]
+
+

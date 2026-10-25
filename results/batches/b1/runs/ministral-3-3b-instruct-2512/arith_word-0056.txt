@@ -1,0 +1,5 @@
+Farid has a total of 5 rows × 7 seats = 35 seats. After selling 21 seats, the unsold seats are 35 - 21 = 14.
+
+#### 14 [end of text]
+
+

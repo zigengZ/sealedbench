@@ -1,0 +1,18 @@
+```python
+count = 0
+for i in range(2):
+    for j in range(5):
+        if (i + j) % 4 == 0:
+            count = count + i + 1
+        else:
+            count = count + j + 1
+print(count)
+```
+
+The exact standard output of the given Python 3 program is:
+
+```
+11
+``` [end of text]
+
+

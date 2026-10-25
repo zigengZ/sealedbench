@@ -1,0 +1,10 @@
+First, let's calculate the number of tickets from the first 3 packs: 3 packs * 6 tickets/pack = 18 tickets.
+
+Next, let's calculate the number of tickets from the second 3 packs: 3 packs * 4 tickets/pack = 12 tickets.
+
+Finally, let's add the number of tickets from both sets of packs: 18 tickets + 12 tickets = 30 tickets.
+
+####30
+ [end of text]
+
+

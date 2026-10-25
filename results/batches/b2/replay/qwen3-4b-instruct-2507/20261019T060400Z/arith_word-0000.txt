@@ -1,0 +1,19 @@
+Quinn earns $9 per hour.
+
+On **day 1**, Quinn works 2 hours:  
+$ 2 \times 9 = 18 $ dollars
+
+On **day 2**, Quinn works 6 hours:  
+$ 6 \times 9 = 54 $ dollars
+
+Total earnings:  
+$ 18 + 54 = 72 $ dollars
+
+Quinn then spends $21.
+
+So, money left:  
+$ 72 - 21 = 51 $ dollars
+
+#### 51 [end of text]
+
+

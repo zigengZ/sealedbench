@@ -1,0 +1,47 @@
+To find the shortest path from **Bay** to **Kai**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialize distances**:
+   - `Bay → Bay = 0`
+   - All other nodes start at infinity (`∞`).
+
+2. **Priority Queue (PQ)**:
+   - Start with `Bay` (distance = 0).
+   - Update neighbors:
+     - `Ash` (via `Bay-Ash` = 8) → `Ash = 8`
+     - `Tess` (via `Bay-Tess` = 4) → `Tess = 4`
+
+3. **Next node: Tess (distance = 4)**:
+   - Update neighbors:
+     - `Cleo` (via `Tess-Cleo` = 4 + 1 = 5) → `Cleo = 5`
+     - `Jules` (via `Tess-Jules` = 4 + 2 = 6) → `Jules = 6`
+     - `West` (via `Tess-West` = 4 + 5 = 9) → `West = 9`
+
+4. **Next node: Ash (distance = 8)**:
+   - Update neighbors:
+     - `Bay` (already shorter)
+     - `Oak` (via `Ash-Oak` = 8 + 3 = 11) → `Oak = 11`
+     - `Xen` (via `Ash-Xen` = 8 + 2 = 10) → `Xen = 10`
+
+5. **Next node: Cleo (distance = 5)**:
+   - Update neighbors:
+     - `Kai` (via `Cleo-Kai` = 5 + 6 = 11) → `Kai = 11`
+     - `Tess` (already shorter)
+
+6. **Next node: Oak (distance = 11)**:
+   - Update neighbors:
+     - `Sage` (via `Oak-Sage` = 11 + 3 = 14) → `Sage = 14`
+     - `Kai` (via `Oak-Kai` = 11 + 2 = 13) → `Kai = 13` (better than 11)
+
+7. **Next node: Kai (distance = 13)**:
+   - No updates needed (target reached).
+
+### Shortest Path:
+- **Bay → Ash → Oak → Kai** (total weight = 8 + 3 + 2 = **13**).
+- Alternative: **Bay → Tess → Cleo → Kai** (total weight = 4 + 1 + 6 = **11**).
+
+The shortest path is **Bay → Tess → Cleo → Kai** with a total weight of **11**.
+
+#### 11 [end of text]
+
+

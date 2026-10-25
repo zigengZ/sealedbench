@@ -1,0 +1,8 @@
+Felix initially has **5 packs × 8 badges = 40 badges**.
+After giving 25 to Nico, he has **40 - 25 = 15 badges**.
+Nico then gives him 23 badges, so Felix now has **15 + 23 = 38 badges**.
+Each badge is worth $9, so his total is **38 × 9 = 342 dollars**.
+
+#### 342 [end of text]
+
+

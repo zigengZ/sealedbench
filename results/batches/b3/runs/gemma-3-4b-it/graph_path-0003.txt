@@ -1,0 +1,15 @@
+We want to find the shortest path between Indigo and Oak in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Indigo to Oak:
+1. Indigo -> Fern -> Moss -> Reed -> Oak: 4 + 3 + 7 + 2 = 16
+2. Indigo -> Fern -> Moss -> West -> Oak: 4 + 3 + 8 + 1 = 16
+3. Indigo -> Nell -> Bay -> West -> Oak: 6 + 4 + 3 + 1 = 14
+4. Indigo -> Glen -> Moss -> Reed -> Oak: 3 + 7 + 7 + 2 = 19
+5. Indigo -> Glen -> Moss -> West -> Oak: 3 + 7 + 8 + 1 = 19
+6. Indigo -> Nell -> Bay -> West -> Oak: 6 + 4 + 3 + 1 = 14
+
+The shortest path is Indigo -> Fern -> Moss -> Reed -> Oak with a total weight of 16.
+
+#### 16 [end of text]
+
+

@@ -1,0 +1,11 @@
+First, let's determine the number of dogs. Since there are 2 cats for every dog, and there are 2 cats, the number of dogs is 20 (2 cats / 2 cats per dog = 2 dogs per dog).
+
+Now, we know the number of dogs is 60. To find the number of cats, we multiply the number of dogs by 2: 60 dogs * 2 cats/dog = 120 cats.
+
+The total number of pets is the sum of the number of dogs, cats, and rabbits. Since the number of rabbits pets is 12 less than the combined number of pet dogs and cats, we calculate:
+
+Dogs + Cats + Rabbits = 60 + 120 + (60 - 12) = 60 + 120 + 48 = 228 pets.
+
+#### 228 [end of text]
+
+

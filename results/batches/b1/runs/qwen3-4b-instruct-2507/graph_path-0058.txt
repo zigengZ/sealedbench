@@ -1,0 +1,45 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Jules to Oak**, and report the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Amber, Blair, Dove, Drew, Indigo, Jules, Lark, Nell, Oak, York
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Amber — Indigo: 6  
+- Amber — Oak: 1  
+- Amber — York: 7  
+- Blair — Lark: 6  
+- Blair — Oak: 1  
+- Dove — Lark: 2  
+- Dove — Nell: 4  
+- Drew — York: 9  
+- Indigo — York: 9  
+- Jules — Nell: 9  
+- Lark — Nell: 7  
+- Nell — Oak: 1  
+- Nell — York: 4  
+
+---
+
+### Step 3: Goal — Shortest path from **Jules** to **Oak**
+
+We need to find the shortest path from Jules to Oak.
+
+We can use **Breadth-First Search (BFS)** or **Dijkstra’s algorithm** since all weights are positive. Given the small size, we can manually trace or use Dijkstra-style reasoning.
+
+---
+
+### Step 4: Start from Jules
+
+Jules is only connected to **Nell** (weight 9)
+
+So:
+- Jules →
+

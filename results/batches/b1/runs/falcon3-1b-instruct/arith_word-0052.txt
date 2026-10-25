@@ -1,0 +1,16 @@
+First, calculate the total number of seats initially:
+2 rows × 6 seats/row = 12 seats
+Then, add the 2 additional rows:
+2 rows × 3 seats/row = 6 seats
+Total seats after addition:
+12 seats + 6 seats = 18 seats
+
+Seats sold:
+4 seats
+
+Seats still unsold:
+18 seats - 4 seats = 14 seats
+
+#### 14 [end of text]
+
+

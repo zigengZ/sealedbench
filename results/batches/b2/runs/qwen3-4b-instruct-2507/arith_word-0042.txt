@@ -1,0 +1,10 @@
+Elena buys 2 packs of tickets, and each pack has 5 tickets.  
+So, 2 × 5 = 10 tickets from the packs.
+
+Then Jamal gives her 22 more tickets.
+
+Total tickets = 10 + 22 = 32
+
+#### 32 [end of text]
+
+

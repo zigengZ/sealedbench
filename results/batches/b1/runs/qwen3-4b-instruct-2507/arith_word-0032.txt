@@ -1,0 +1,15 @@
+First, find the total number of beads from the first 8 packs:
+
+8 packs × 7 beads per pack = 56 beads
+
+Next, find the total from the 5 packs:
+
+5 packs × 8 beads per pack = 40 beads
+
+Now, add both amounts:
+
+56 + 40 = 96 beads
+
+#### 96 [end of text]
+
+

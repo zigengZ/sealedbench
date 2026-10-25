@@ -1,0 +1,23 @@
+Let's break down the problem step-by-step:
+
+1. **Determine Lylah's Salary Four Years Ago:**
+   Adrien's salary was 30% higher than Lylah's. If Adrien's salary four years ago was $40000, we can set up the equation:
+   \[
+   \text{Adrien's salary four years ago} = \text{Lylah's salary four years ago} \times (1 + 0.30)
+   \]
+   \[
+   40000 = \text{Lylah's salary four years ago} \times 1.30
+   \]
+   Solving for Lylah's salary four years ago:
+   \[
+   \text{Lylah's salary four years ago} = \frac{40000}{1.30} \approx 30769.23
+   \]
+
+2. **Calculate Lylah's Salary Four Years Later:**
+   Four years later, Adrien's salary increased by 40%. Therefore, his salary four years later is:
+   \[
+   \text{Adrien's salary four years later} = \text{Adrien's salary four years ago} \times (1 + 0.40)
+   \]
+   \[
+
+

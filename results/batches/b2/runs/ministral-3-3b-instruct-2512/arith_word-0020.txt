@@ -1,0 +1,10 @@
+Zane's earnings:
+- Day 1: 11 dollars/hour × 2 hours = 22 dollars
+- Day 2: 11 dollars/hour × 5 hours = 55 dollars
+Total earnings: 22 + 55 = 77 dollars
+
+After spending 6 dollars: 77 - 6 = 71 dollars
+
+#### 71 [end of text]
+
+

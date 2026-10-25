@@ -1,0 +1,17 @@
+```python
+nums = [15, 1, 12, 0, 2, 11, 10]
+kept = []
+for num in nums:
+    if num >= 6:
+        kept.append(num)
+print(len(kept))
+print(kept)
+```
+
+Output:
+```
+4
+[15, 12, 11, 10]
+``` [end of text]
+
+

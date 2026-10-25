@@ -1,0 +1,70 @@
+To find the shortest path from **Indigo** to **West**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Indigo** = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Unvisited Nodes)**:
+   - Start with `Indigo` (distance = 0).
+   - Neighbors of `Indigo`: `Cleo` (via `Bay`), `Lark` (via `Bay`), `Xen` (via `Bay`).
+     - Update distances:
+       - `Cleo` → 0 + 8 = 8 (via `Bay`).
+       - `Lark` → 0 + 8 = 8 (via `Bay`).
+       - `Xen` → 0 + 4 = 4 (via `Bay`).
+   - Next, pick `Xen` (distance = 4) and explore its neighbors (none).
+
+3. **Next Node: `Xen` (distance = 4)**:
+   - Neighbors: `Bay` (via `Bay`).
+     - Update `Bay` → min(∞, 4 + 4) = 8.
+   - Now, `Bay` is at distance 8.
+
+4. **Next Node: `Bay` (distance = 8)**:
+   - Neighbors:
+     - `Amber` → 8 + 3 = 11 (no improvement).
+     - `Cleo` → 8 + 9 = 17 (no improvement).
+     - `Indigo` → already 0.
+     - `Xen` → already 4.
+     - `York` → 8 + 3 = 11.
+   - No updates.
+
+5. **Next Node: `Cleo` (distance = 8)**:
+   - Neighbors:
+     - `Bay` → already 8.
+     - `Indigo` → already 0.
+   - No updates.
+
+6. **Next Node: `Lark` (distance = 8)**:
+   - Neighbors:
+     - `Amber` → 8 + 1 = 9 (no improvement).
+     - `Indigo` → already 0.
+     - `West` → 8 + 8 = 16.
+   - Update `West` → 16.
+
+7. **Next Node: `York` (distance = 11)**:
+   - Neighbors: `Bay` (already 8).
+   - No updates.
+
+8. **Next Node: `Amber` (distance = 9)**:
+   - Neighbors:
+     - `Bay` → 9 + 3 = 12 (no improvement).
+     - `Lark` → 9 + 1 = 10 (no improvement).
+     - `Uri` → 9 + 6 = 15.
+   - No updates.
+
+9. **Next Node: `Uri` (distance = 15)**:
+   - Neighbors:
+     - `Amber` → already 9.
+     - `Sage` → 15 + 8 = 23.
+   - No updates.
+
+10. **Next Node: `West` (distance = 16)**:
+    - No neighbors left to explore.
+
+### Shortest Path:
+- **Indigo → Bay → Lark → West** with total weight **16**.
+
+#### 16 [end of text]
+
+

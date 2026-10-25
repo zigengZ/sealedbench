@@ -1,0 +1,23 @@
+First, calculate the total number of seats Aisha has:
+
+6 rows * 5 seats/row = 30 seats
+
+Then, add the 7 additional rows:
+
+30 seats + 7 rows = 37 seats
+
+Next, calculate the total number of seats:
+
+37 seats + 15 seats = 52 seats
+
+Now, determine how many seats are unsold:
+
+52 seats - 15 seats = 37 seats
+
+Each unsold seat is worth 9 dollars:
+
+37 seats * 9 dollars/seat = 333 dollars
+
+#### 333 [end of text]
+
+

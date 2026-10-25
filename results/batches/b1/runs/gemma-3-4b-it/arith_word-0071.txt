@@ -1,0 +1,11 @@
+First, let's calculate the number of seats in the initial 7 rows: 7 rows * 10 seats/row = 70 seats.
+
+Next, let's calculate the number of seats in the additional 7 rows: 7 rows * 8 seats/row = 56 seats.
+
+Now, let's find the total number of seats: 70 seats + 56 seats = 126 seats.
+
+Finally, let's subtract the number of seats sold from the total number of seats: 126 seats - 105 seats = 21 seats.
+
+####21 [end of text]
+
+

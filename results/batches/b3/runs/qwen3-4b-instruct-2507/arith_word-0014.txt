@@ -1,0 +1,12 @@
+Ivy buys 7 packs of cards, and each pack has 4 cards.  
+So, total cards = 7 × 4 = 28 cards.
+
+Then Ivy gives 14 cards to Cara.  
+So, cards left with Ivy = 28 − 14 = 14 cards.
+
+Now, these 14 cards are shared equally among 2 people.  
+So, each person gets 14 ÷ 2 = 7 cards.
+
+#### 7 [end of text]
+
+

@@ -1,0 +1,35 @@
+Let's trace through the program step by step:
+
+```python
+total = 0
+for value in range(4):
+    if value == 1:
+        total = total + 0
+    else:
+        total = total + value
+print(total)
+```
+
+The `range(4)` generates values: 0, 1, 2, 3.
+
+- When `value = 0`:  
+  `value != 1`, so we go to the `else` branch: `total = total + value` → `total = 0 + 0 = 0`
+
+- When `value = 1`:  
+  `value == 1`, so we go to the `if` branch: `total = total + 0` → `total = 0 + 0 = 0`
+
+- When `value = 2`:  
+  `value != 1`, so we go to the `else` branch: `total = total + value` → `total = 0 + 2 = 2`
+
+- When `value = 3`:  
+  `value != 1`, so we go to the `else` branch: `total = total + value` → `total = 2 + 3 = 5`
+
+Final value of `total` is 5.
+
+The program prints `5`.
+
+```
+5
+``` [end of text]
+
+

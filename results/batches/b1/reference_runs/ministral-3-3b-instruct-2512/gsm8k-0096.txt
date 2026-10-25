@@ -1,0 +1,6 @@
+Harry slept 9 hours, and James slept (2/3) × 9 = 6 hours.
+The difference is 9 - 6 = 3 hours.
+
+#### 3 [end of text]
+
+

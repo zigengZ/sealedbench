@@ -1,0 +1,7 @@
+First, we need to find out how many cartons Cynthia buys. She needs 15 servings per night and eats one serving per night, so she needs 15 servings per day.  Since she buys cartons with 15 servings, she buys one carton per day. After 60 days, she buys 60 cartons.
+
+Each carton costs $4.00, so the total cost is 60 cartons * $4.00/carton = $240.00.
+
+####240 [end of text]
+
+

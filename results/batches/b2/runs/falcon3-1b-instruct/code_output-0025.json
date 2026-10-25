@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "code_output",
+  "gen_tokens": 205,
+  "gen_tps": 21.35,
+  "hit_cap": false,
+  "item_id": "code_output-0025",
+  "model": "falcon3-1b-instruct",
+  "n_predict": 512,
+  "prompt_tokens": 146,
+  "prompt_tps": 151.9,
+  "returncode": 0,
+  "seconds": 11.285,
+  "stdout_bytes": 700,
+  "stdout_sha256": "1c19f82b1133141d3a24f4b3c05deca2ba7130e53aa56757d6baf87b8092436c"
+}

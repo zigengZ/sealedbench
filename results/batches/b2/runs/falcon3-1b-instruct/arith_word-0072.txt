@@ -1,0 +1,5 @@
+Quinn starts with 4 packs * 12 tokens/pack = 48 tokens.
+Then he gets 13 more tokens, so the total number of tokens Quinn has is 48 + 13 = 61.
+#### 61 [end of text]
+
+

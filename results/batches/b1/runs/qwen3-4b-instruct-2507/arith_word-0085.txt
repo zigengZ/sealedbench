@@ -1,0 +1,13 @@
+Felix buys 9 packs of oranges, and each pack has 10 oranges.
+
+So, total oranges Felix has initially:  
+9 × 10 = 90 oranges.
+
+Then he gives 42 oranges to Mina.
+
+So, oranges left with Felix:  
+90 − 42 = 48.
+
+#### 48 [end of text]
+
+

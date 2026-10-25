@@ -1,0 +1,15 @@
+Artie rounds prices to the nearest dollar:
+- Marigolds: $2.74 → $3
+- Petunias: $1.87 → $2
+- Begonias: $2.12 → $2
+
+Calculations:
+- Marigolds: 12 pots × $3 = $36
+- Petunias: 9 pots × $2 = $18
+- Begonias: 17 pots × $2 = $34
+
+Total: $36 + $18 + $34 = $88
+
+#### 88 [end of text]
+
+

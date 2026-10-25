@@ -1,0 +1,8 @@
+First, we calculate Kira's earnings on day 1: 14 dollars/hour * 3 hours = 42 dollars.
+Next, we calculate Kira's earnings on day 2: 14 dollars/hour * 3 hours = 42 dollars.
+Then, we calculate Kira's total earnings: 42 dollars + 42 dollars = 84 dollars.
+Finally, we subtract the amount Kira spends: 84 dollars - 7 dollars = 77 dollars.
+
+####77 [end of text]
+
+

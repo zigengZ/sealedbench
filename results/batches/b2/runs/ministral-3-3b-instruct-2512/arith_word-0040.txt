@@ -1,0 +1,16 @@
+First, calculate the total number of seats initially set up:
+8 rows × 9 seats = 72 seats
+
+Next, add the additional rows:
+4 rows × 10 seats = 40 seats
+Total seats = 72 + 40 = 112 seats
+
+Subtract the sold seats:
+112 seats - 48 seats = 64 unsold seats
+
+Calculate the value of unsold seats:
+64 seats × $6/seat = $384
+
+#### 384 [end of text]
+
+

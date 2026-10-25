@@ -1,0 +1,50 @@
+We are given an undirected weighted graph with nodes:
+
+**Ash, Blair, Cedar, Dove, Drew, Kai, Moss, West**
+
+We are to find the **shortest path from Ash to Kai** in terms of total edge weight.
+
+---
+
+### Step 1: List all edges with weights
+
+From the input:
+
+- Ash — Dove: 2  
+- Ash — Drew: 8  
+- Blair — Drew: 2  
+- Cedar — Drew: 9  
+- Cedar — Kai: 9  
+- Dove — Drew: 5  
+- Dove — Kai: 4  
+- Dove — Moss: 4  
+- Drew — Moss: 7  
+- Drew — West: 9  
+- Kai — Moss: 3  
+- Moss — West: 3  
+
+Note: All edges are undirected.
+
+---
+
+### Step 2: Goal — Shortest path from **Ash to Kai**
+
+We can use **Dijkstra’s algorithm** (since all weights are positive) to compute shortest paths from Ash to all other nodes.
+
+We’ll manually trace the shortest paths from Ash to Kai.
+
+---
+
+### Step 3: Explore paths from Ash to Kai
+
+#### Path 1: Ash → Dove → Kai  
+- Ash to Dove: 2  
+- Dove to Kai: 4  
+→ Total: 2 + 4 = **6**
+
+#### Path 2: Ash → Dove → Drew → Kai  
+- Ash → Dove: 2  
+- Dove → Drew: 5  
+- Drew → Kai? → No direct edge  
+→ No direct edge
+

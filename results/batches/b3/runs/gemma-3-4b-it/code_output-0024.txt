@@ -1,0 +1,11 @@
+The program first initializes a list of digits `digits` to `[6, 9, 7, 6, 9, 2, 9]`. It then initializes a variable `total` to 0. The code iterates through each `digit` in the `digits` list, adding it to the `total`. Finally, it prints the value of `total` and the length of the `digits` list.
+
+The sum of the digits is 6 + 9 + 7 + 6 + 9 + 2 + 9 = 48.
+The length of the `digits` list is 7.
+
+```python
+48
+7
+``` [end of text]
+
+

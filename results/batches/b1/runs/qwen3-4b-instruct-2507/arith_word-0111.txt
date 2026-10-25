@@ -1,0 +1,19 @@
+First, find the total number of seats Nico sets out.
+
+Nico has:
+- 7 rows with 14 seats each:  
+  $7 \times 14 = 98$ seats
+
+Then he adds:
+- 4 rows with 3 seats each:  
+  $4 \times 3 = 12$ seats
+
+Total seats = $98 + 12 = 110$
+
+Then, 90 seats are sold.
+
+So, unsold seats = $110 - 90 = 20$
+
+#### 20 [end of text]
+
+

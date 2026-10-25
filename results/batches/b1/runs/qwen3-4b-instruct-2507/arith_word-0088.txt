@@ -1,0 +1,12 @@
+Pavel buys 9 packs of stamps, and each pack has 5 stamps.  
+So, total stamps = 9 × 5 = 45 stamps.
+
+He gives 3 stamps to Felix, so he keeps:  
+45 − 3 = 42 stamps.
+
+Each stamp is worth $9, so the value of Pavel's stamps is:  
+42 × 9 = 378 dollars.
+
+#### 378 [end of text]
+
+

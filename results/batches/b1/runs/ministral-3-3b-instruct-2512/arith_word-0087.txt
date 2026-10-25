@@ -1,0 +1,10 @@
+Cara's earnings:
+- Day 1: 6 hours × $9/hour = $54
+- Day 2: 4 hours × $9/hour = $36
+- Day 3: 5 hours × $9/hour = $45
+
+Total earnings: $54 + $36 + $45 = $135
+
+#### 135 [end of text]
+
+

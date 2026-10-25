@@ -1,0 +1,15 @@
+Sylvie's initial salary is $600. After 5 years, her salary increases by 10% of the initial salary, so:
+
+New salary = $600 + ($600 × 0.10) = $660
+
+For each additional year, her salary increases by 10% of her current salary. Over three more years:
+
+Year 1: $660 × 1.10 = $726
+Year 2: $726 × 1.10 = $798.60
+Year 3: $798.60 × 1.10 = $878.46
+
+So, Sylvie's annual salary after three more years is **$878.46**
+
+#### 878 [end of text]
+
+

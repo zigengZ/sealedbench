@@ -1,0 +1,16 @@
+First, let's determine the rate at which the boat was gaining water. The boat gained water at a rate of 2 liters per 10 feet. To find the rate in liters per foot, we divide 2 liters by 10 feet:
+
+\[ \text{Rate} = \frac{2 \text{ liters}}{10 \text{ feet}} = 0.2 \text{ liters per foot} \]
+
+Next, we calculate the total amount of water gained by rowing 20 feet:
+
+\[ \text{Water gained} = \text{Rate} \times \text{Distance} = 0.2 \text{ liters per foot} \times 20 \text{ feet} = 4 \text{ liters} \]
+
+Now, we calculate the total time it took to row 64 feet:
+
+\[ \text{Time} = 64 \text{ feet} \times 16 \text{ seconds per foot} = 1024 \text{ seconds} \]
+
+Finally, we find the total amount of water the boat took on by subtracting the time it took to row 20 feet from the total time:
+
+\[ \text{Total water taken} = \text{Time} - \text{Time for 20 feet} = 10
+

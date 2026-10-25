@@ -1,0 +1,19 @@
+First, find the total number of seats:
+
+Zane sets out 8 rows with 9 seats each:
+8 × 9 = 72 seats
+
+Then he adds 4 rows with 10 seats each:
+4 × 10 = 40 seats
+
+Total seats = 72 + 40 = 112 seats
+
+48 seats are sold, so the number of unsold seats is:
+112 - 48 = 64 seats
+
+Each unsold seat is worth $6, so the total value is:
+64 × 6 = 384 dollars
+
+#### 384 [end of text]
+
+

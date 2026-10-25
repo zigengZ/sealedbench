@@ -1,0 +1,194 @@
+{
+  "checked_utc": "2026-10-17T20:07:42Z",
+  "b1_unlock": 1792314000,
+  "note": "b1 unlock 1792314000",
+  "bundles": {
+    "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo": {
+      "l1": {
+        "hosts": [
+          {
+            "host": "https://ar-io.dev",
+            "http": 200,
+            "block_height": 2023391,
+            "confirmations": 2,
+            "block_indep_hash": "h2ffKGNy1bWYJWWTk5BswLhYuF2eh-RuzcEae-_AatMfRf9Rtu0ePCO1cQnl3QGq"
+          },
+          {
+            "host": "https://turbo-gateway.com",
+            "http": 200,
+            "block_height": 2023391,
+            "confirmations": 1,
+            "block_indep_hash": "h2ffKGNy1bWYJWWTk5BswLhYuF2eh-RuzcEae-_AatMfRf9Rtu0ePCO1cQnl3QGq"
+          }
+        ]
+      },
+      "block": {
+        "hosts": [
+          {
+            "host": "https://ar-io.dev",
+            "http": 200,
+            "timestamp": 1792267559,
+            "indep_hash": "h2ffKGNy1bWYJWWTk5BswLhYuF2eh-RuzcEae-_AatMfRf9Rtu0ePCO1cQnl3QGq",
+            "height": 2023391,
+            "txs_present": true
+          },
+          {
+            "host": "https://turbo-gateway.com",
+            "http": 200,
+            "timestamp": 1792267559,
+            "indep_hash": "h2ffKGNy1bWYJWWTk5BswLhYuF2eh-RuzcEae-_AatMfRf9Rtu0ePCO1cQnl3QGq",
+            "height": 2023391,
+            "txs_present": true
+          }
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "batch": "b2",
+      "kind": "generator-ciphertext",
+      "txid": "95hD0B4sl_lXHi72z0TXA-xOihoQirS7SDP6c4zU64k",
+      "sha256": "a7911be4af063978284e703f6f64cf21378531e27d7cdff6c8665ea8ad9b8bc9",
+      "turbo": {
+        "http": 200,
+        "status": "CONFIRMED",
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "start": 30487794,
+        "payload_start": 1403,
+        "payload_len": 21368
+      },
+      "payload": {
+        "host": "https://ar-io.dev",
+        "http": 206,
+        "bytes": 21368,
+        "sha256": "a7911be4af063978284e703f6f64cf21378531e27d7cdff6c8665ea8ad9b8bc9",
+        "ok": true
+      },
+      "inclusion": {
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "timestamp": 1792267559,
+        "timestamp_utc": "2026-10-17T20:05:59Z",
+        "two_gateways_agree": true,
+        "before_b1_unlock": true,
+        "margin_vs_b1_s": 46441
+      }
+    },
+    {
+      "batch": "b2",
+      "kind": "reference",
+      "txid": "A07Q4jWz7fRoDaDATWsObLyFqLLIDqFhWR-qu5lCYf0",
+      "sha256": "8782dc2d2625723118f7fffa68bfb8dbf3b03efde65cf62bfac5c723a30e40d0",
+      "turbo": {
+        "http": 200,
+        "status": "CONFIRMED",
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "start": 30533338,
+        "payload_start": 1398,
+        "payload_len": 62213
+      },
+      "payload": {
+        "host": "https://ar-io.dev",
+        "http": 206,
+        "bytes": 62213,
+        "sha256": "8782dc2d2625723118f7fffa68bfb8dbf3b03efde65cf62bfac5c723a30e40d0",
+        "ok": true
+      },
+      "inclusion": {
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "timestamp": 1792267559,
+        "timestamp_utc": "2026-10-17T20:05:59Z",
+        "two_gateways_agree": true,
+        "before_b1_unlock": true,
+        "margin_vs_b1_s": 46441
+      }
+    },
+    {
+      "batch": "b2",
+      "kind": "manifest",
+      "txid": "kVO8I3b3xRDewqzkPDEKqBsIcdobkgs-bM_zOx974w8",
+      "sha256": "d304125d451a00933e073f47168319739d9367ffc23aafffc14ad3c1feea6a0c",
+      "turbo": {
+        "http": 200,
+        "status": "CONFIRMED",
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "start": 30596949,
+        "payload_start": 1397,
+        "payload_len": 15463
+      },
+      "payload": {
+        "host": "https://ar-io.dev",
+        "http": 206,
+        "bytes": 15463,
+        "sha256": "d304125d451a00933e073f47168319739d9367ffc23aafffc14ad3c1feea6a0c",
+        "ok": true
+      },
+      "inclusion": {
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "timestamp": 1792267559,
+        "timestamp_utc": "2026-10-17T20:05:59Z",
+        "two_gateways_agree": true,
+        "before_b1_unlock": true,
+        "margin_vs_b1_s": 46441
+      }
+    },
+    {
+      "batch": "cap2",
+      "kind": "generator-ciphertext",
+      "txid": "dLSRuUQDZV8aXut9v0faXVwQjvIdw-juKlCWbOyK-qo",
+      "sha256": "39d0d1145a0521285d7125dbb394f13a8f4ec917e60c3129445b0a3ee04776ef",
+      "turbo": {
+        "http": 200,
+        "status": "CONFIRMED",
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "start": 30510565,
+        "payload_start": 1405,
+        "payload_len": 21368
+      },
+      "payload": {
+        "host": "https://ar-io.dev",
+        "http": 206,
+        "bytes": 21368,
+        "sha256": "39d0d1145a0521285d7125dbb394f13a8f4ec917e60c3129445b0a3ee04776ef",
+        "ok": true
+      },
+      "inclusion": {
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "timestamp": 1792267559,
+        "timestamp_utc": "2026-10-17T20:05:59Z",
+        "two_gateways_agree": true,
+        "before_b1_unlock": true,
+        "margin_vs_b1_s": 46441
+      }
+    },
+    {
+      "batch": "cap2",
+      "kind": "manifest",
+      "txid": "v7VsVcmXb9WY2m6mSTm7to79gd9YvjVAqo2OaCESgGY",
+      "sha256": "326ff5580610159f7cd29d5dab8bc15ba0976af5062fdad47528d068299d45df",
+      "turbo": {
+        "http": 200,
+        "status": "CONFIRMED",
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "start": 30613809,
+        "payload_start": 1399,
+        "payload_len": 15463
+      },
+      "payload": {
+        "host": "https://ar-io.dev",
+        "http": 206,
+        "bytes": 15463,
+        "sha256": "326ff5580610159f7cd29d5dab8bc15ba0976af5062fdad47528d068299d45df",
+        "ok": true
+      },
+      "inclusion": {
+        "bundle_id": "VWHJrEUcS-d9EXMzzJr9k6Qr2WKQLR9iwiMfm4nglgo",
+        "timestamp": 1792267559,
+        "timestamp_utc": "2026-10-17T20:05:59Z",
+        "two_gateways_agree": true,
+        "before_b1_unlock": true,
+        "margin_vs_b1_s": 46441
+      }
+    }
+  ]
+}

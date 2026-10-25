@@ -1,0 +1,31 @@
+To find the shortest path from **Indigo** to **Vale**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Distance to **Indigo** = 0.
+   - All other nodes start at infinity (∞).
+   - Predecessor pointers set to `None`.
+
+2. **Priority Queue (Min-Heap)**:
+   - Start with `Indigo` (distance = 0).
+   - Next, explore neighbors of `Indigo`:
+     - **Amber**: `0 + 9 = 9` (new distance).
+     - **Poe**: `0 + 6 = 6` (new distance).
+     - **Tess**: `0 + 2 = 2` (new distance).
+
+3. **Update distances**:
+   - **Tess** (distance = 2) is next.
+   - Explore neighbors of **Tess**:
+     - **Amber**: `2 + 5 = 7` (better than 9).
+     - **Sage**: `2 + 5 = 7` (new distance).
+     - **Vale**: `2 + 2 = 4` (new distance).
+
+4. **Next node: Vale** (distance = 4).
+   - **Vale** is the target, so we stop.
+
+### Shortest Path:
+**Indigo → Tess → Vale** with total weight **4**.
+
+#### 4 [end of text]
+
+

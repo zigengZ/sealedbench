@@ -1,0 +1,40 @@
+We are given that John has 3 boxes, each with external dimensions of 5 inches by 6 inches by 4 inches. The walls are 1 inch thick. We are to find the **total inner volume** of all 3 boxes.
+
+---
+
+### Step 1: Understand the inner dimensions
+
+Since the walls are 1 inch thick, we must subtract 1 inch from **each dimension** on both sides (front and back, left and right, top and bottom).
+
+So, for each dimension:
+
+- Length: 6 inches → inner length = 6 - 2 = 4 inches  
+- Width: 5 inches → inner width = 5 - 2 = 3 inches  
+- Height: 4 inches → inner height = 4 - 2 = 2 inches  
+
+> (We subtract 2 inches because 1 inch is removed from each end.)
+
+So, the inner dimensions of one box are:  
+**4 in × 3 in × 2 in**
+
+---
+
+### Step 2: Compute inner volume of one box
+
+$$
+4 \times 3 \times 2 = 24 \text{ cubic inches}
+$$
+
+---
+
+### Step 3: Multiply by 3 boxes
+
+$$
+3 \times 24 = 72 \text{ cubic inches}
+$$
+
+---
+
+#### 72 [end of text]
+
+

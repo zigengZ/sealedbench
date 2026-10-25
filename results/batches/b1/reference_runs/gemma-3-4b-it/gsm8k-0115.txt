@@ -1,0 +1,16 @@
+First, let's calculate the total cost of the 2x4 boards: 10 boards * $10/board = $100.
+Next, let's calculate the total cost of the 4x4 boards: 5 boards * $16/board = $80.
+The total cost of all the lumber is $100 + $80 = $180.
+
+Since the prices went up 50%, the new price of the 2x4 boards is $10 * 1.50 = $15 each.
+The new price of the 4x4 boards is $16 * 1.50 = $24 each.
+
+The total revenue from selling the 2x4 boards is 10 boards * $15/board = $150.
+The total revenue from selling the 4x4 boards is 5 boards * $24/board = $120.
+The total revenue from selling all the lumber is $150 + $120 = $270.
+
+The profit is the total revenue minus the total cost: $270 - $180 = $90.
+
+####90 [end of text]
+
+

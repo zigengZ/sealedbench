@@ -1,0 +1,13 @@
+First, find the total number of seats:
+
+7 rows × 16 seats per row = 112 seats
+
+Then, subtract the number of seats sold:
+
+112 - 17 = 95
+
+So, 95 seats are still unsold.
+
+#### 95 [end of text]
+
+

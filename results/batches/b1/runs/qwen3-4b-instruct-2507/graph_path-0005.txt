@@ -1,0 +1,48 @@
+We are given an undirected weighted graph with 10 nodes and several edges. We are to find the **shortest path from Cleo to West**, and report the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes:  
+Cedar, Cleo, Drew, Eden, Fern, Hart, Indigo, Oak, West, York
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Cedar — Fern: 8  
+- Cedar — Oak: 6  
+- Cleo — York: 6  
+- Drew — Fern: 9  
+- Drew — Hart: 5  
+- Drew — Indigo: 8  
+- Drew — Oak: 8  
+- Eden — Indigo: 4  
+- Eden — York: 7  
+- Fern — Hart: 2  
+- Hart — Oak: 6  
+- Hart — West: 5  
+- Indigo — Oak: 3  
+- Indigo — York: 8  
+
+---
+
+### Step 3: Goal — Shortest path from **Cleo** to **West**
+
+We need to find the shortest path from Cleo to West.
+
+We can use **Dijkstra’s algorithm** (since all weights are positive), but since the graph is small, we can do a manual shortest path search by exploring possible paths.
+
+---
+
+### Step 4: Start from Cleo
+
+Cleo is only directly connected to **York** (weight 6).
+
+So from Cleo:
+- Cleo → York (6)
+
+
+

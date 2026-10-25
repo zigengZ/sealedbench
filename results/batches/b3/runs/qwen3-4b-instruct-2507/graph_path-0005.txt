@@ -1,0 +1,105 @@
+We are given an undirected weighted graph with nodes and edges, and we are to find the **shortest path weight** between **Ash** and **Drew**.
+
+---
+
+### Step 1: List all nodes
+Nodes: Amber, Ash, Dove, Drew, Eden, Nell, Quill, Uri, York
+
+---
+
+### Step 2: List all edges with weights
+
+- Amber – Dove: 3  
+- Amber – Nell: 2  
+- Amber – Quill: 6  
+- Ash – Nell: 7  
+- Ash – Quill: 2  
+- Dove – Uri: 4  
+- Dove – York: 9  
+- Drew – Nell: 1  
+- Drew – York: 3  
+- Eden – Uri: 5  
+- Nell – York: 7  
+
+Note: All edges are undirected.
+
+---
+
+### Step 3: Goal — Shortest path from **Ash** to **Drew**
+
+We will consider possible paths from Ash to Drew, computing their total weights.
+
+---
+
+### Option 1: Ash → Nell → Drew  
+- Ash – Nell: 7  
+- Nell – Drew: 1  
+→ Total: 7 + 1 = **8**
+
+---
+
+### Option 2: Ash → Quill → ??? → Drew  
+Ash → Quill: 2  
+From Quill, what edges?  
+- Amber – Quill: 6 (not helpful)  
+- Ash – Quill: 2  
+- No direct edge from Quill to Drew or Nell or York.  
+Quill only connects to Amber and Ash.  
+So no path from Quill to Drew directly.  
+→ No path via Quill.
+
+---
+
+### Option 3: Ash → Nell → York → Drew  
+- Ash → Nell: 7  
+- Nell → York: 7  
+- York → Drew: 3  
+→ Total: 7 + 7 + 3 = **17** → worse than 8
+
+---
+
+### Option 4: Ash → Nell → Dove → Uri → Eden?  
+But no connection from Uri to Drew or York to Drew directly?  
+We have:
+- Dove → Uri: 4  
+- Eden → Uri: 5  
+But no path from Uri to Drew.  
+Drew only connects to Nell and York.  
+So no path from Uri to Drew.
+
+---
+
+### Option 5: Ash → Quill → Amber → Nell → Drew  
+- Ash → Quill: 2  
+- Quill → Amber: 6  
+- Amber → Nell: 2  
+- Nell → Drew: 1  
+→ Total: 2 + 6 + 2 + 1 = **11** → worse than 8
+
+---
+
+### Option 6: Ash → Nell → York → Drew  
+Already considered: 7 + 7 + 3 = 17
+
+---
+
+### Option 7: Ash → Nell → Dove → York → Drew  
+- Ash → Nell: 7  
+- Nell → Dove: ? → No direct edge  
+Wait — is there an edge between Nell and Dove?  
+No.  
+Only edges:  
+- Amber–Dove, Amber–Nell, Amber–Quill, Ash–Nell, Ash–Quill, Dove–Uri, Dove–York, Drew–Nell, Drew–York, Eden–Uri, Nell–York  
+
+So no Nell–Dove edge.  
+So no path from Nell → Dove.
+
+---
+
+### Option 8: Ash → Quill → Amber → Dove → Uri → Eden?  
+No connection to Drew.
+
+---
+
+So the only viable paths
+

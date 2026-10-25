@@ -1,0 +1,13 @@
+To find the shortest path from **Quill** to **West**, we can use **Dijkstra's algorithm** (or a breadth-first search with weights, but Dijkstra is more straightforward for weighted graphs).
+
+### Step-by-Step Reasoning:
+1. **Start at Quill** (no known distance).
+2. **Neighbors of Quill**:
+   - Indigo (distance = 6).
+3. **Next, explore Indigo**:
+   - Neighbors: Eden (distance = 6 + 8 = 14), Oak (distance = 6 + 2 = 8), Zed (distance = 6 + 4 = 10).
+4. **Next, explore Oak** (shortest path so far: 8):
+   - Neighbors: Eden (already explored), Indigo (distance = 8 + 2 = 10, worse than 6), Xen (distance = 8 + 5 = 13), Zed (distance = 8 + 4 = 12).
+5. **Next, explore Zed** (shortest path so far: 10):
+   - Neighbors: Eden (distance = 10 + 3 = 13, worse than 14), Indigo (distance = 10 + 4 = 14, worse than 6), Lark (distance = 10 + 6 = 16), Oak (distance = 10 + 4 = 14, worse than 8), Xen (distance = 
+

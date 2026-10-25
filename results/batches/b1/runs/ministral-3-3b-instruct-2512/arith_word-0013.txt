@@ -1,0 +1,7 @@
+Farid starts with 2 packs × 7 stickers = 14 stickers.
+After giving 5 to Ben: 14 − 5 = 9 stickers.
+Ben then gives back 3: 9 + 3 = 12 stickers.
+
+#### 12 [end of text]
+
+

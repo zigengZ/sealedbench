@@ -1,0 +1,15 @@
+Quinn buys 2 packs of cookies, and each pack has 8 cookies.  
+So, total cookies Quinn starts with:  
+2 × 8 = 16 cookies.
+
+Then Quinn gives 1 cookie to Leo:  
+16 − 1 = 15 cookies left.
+
+Then Leo gives Quinn 21 more cookies:  
+15 + 21 = 36 cookies.
+
+So, Quinn now has 36 cookies.
+
+#### 36 [end of text]
+
+

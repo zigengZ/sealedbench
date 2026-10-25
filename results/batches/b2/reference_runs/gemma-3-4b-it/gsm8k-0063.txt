@@ -1,0 +1,13 @@
+First, we need to find the cost for the first half of the year (6 months).
+Cost for 6 months = 6 * $140 = $840
+
+Next, we calculate the discount for the second half of the year (6 months).
+Discount = 10% of $840 = 0.10 * $840 = $84
+
+The cost for the second half of the year is $840 - $84 = $756
+
+Total cost for the year = $840 + $756 = $1596
+
+####1596 [end of text]
+
+

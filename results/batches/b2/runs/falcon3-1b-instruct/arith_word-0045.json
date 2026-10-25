@@ -1,0 +1,17 @@
+{
+  "attempt": 1,
+  "error": null,
+  "family": "arith_word",
+  "gen_tokens": 96,
+  "gen_tps": 21.68,
+  "hit_cap": false,
+  "item_id": "arith_word-0045",
+  "model": "falcon3-1b-instruct",
+  "n_predict": 768,
+  "prompt_tokens": 88,
+  "prompt_tps": 169.67,
+  "returncode": 0,
+  "seconds": 5.597,
+  "stdout_bytes": 245,
+  "stdout_sha256": "37dc3631867b22da2ea1bb02e48d19e90619f73de3861c6812a454e4ed85cfd5"
+}

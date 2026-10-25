@@ -1,0 +1,29 @@
+To find the shortest path between Hart and Nell in the given undirected weighted graph, we can use Dijkstra's algorithm. Here's the step-by-step reasoning and the final answer:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Hart) as 0 and all other nodes as infinity.
+   - Create a priority queue (min-heap) to store nodes and their distances.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is not already in the priority queue.
+   - Update the distance and add the neighbor to the priority queue if the new distance is smaller.
+
+3. **Termination**:
+   - Continue until the priority queue is empty.
+   - The distance to the target node (Nell) will be the minimum distance found.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Define the graph
+graph = {
+    'Bay': ['Sage', 'York'],
+    'Cleo': ['Nell', 'Sage', 'York'],
+    'Hart': ['Nell', 'York'],
+    'Nell': ['Cleo', 'Sage', 'York'],
+    'Quill': ['Sage', 'York'],
+    'York': 
+

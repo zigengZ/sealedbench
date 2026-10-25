@@ -1,0 +1,15 @@
+First, find the total number of seats:
+
+8 rows × 12 seats per row = 96 seats
+
+Then, subtract the 7 seats that are sold:
+
+96 seats - 7 sold seats = 89 unsold seats
+
+Each unsold seat is worth $12, so:
+
+89 × 12 = 1068
+
+#### 1068 [end of text]
+
+

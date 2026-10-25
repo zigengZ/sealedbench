@@ -1,0 +1,16 @@
+First, calculate the total number of pages Quinn reads from both books:
+
+Pages from first book: 13 pages/day * 4 days = 52 pages
+Pages from second book: 17 pages/day * 4 days = 68 pages
+
+Total pages from both books: 52 pages + 68 pages = 120 pages
+
+Next, subtract the number of blank pages:
+
+Blank pages: 66 pages
+
+Pages that actually count: 120 pages - 66 pages = 54 pages
+
+So, Quinn reads #### 54 pages. [end of text]
+
+

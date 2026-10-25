@@ -1,0 +1,7 @@
+First, find the total pages read from the first book: 21 pages/day * 5 days = 105 pages.
+Next, find the total pages read from the second book: 10 pages/day * 5 days = 50 pages.
+Finally, add the pages from both books: 105 pages + 50 pages = 155 pages.
+
+####155 [end of text]
+
+

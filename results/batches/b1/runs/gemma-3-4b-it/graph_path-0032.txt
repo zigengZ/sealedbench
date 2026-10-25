@@ -1,0 +1,14 @@
+We want to find the shortest path from Dove to Nell in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Dove to Nell:
+1. Dove -> Xen -> Nell: Weight = 6 + 4 = 10
+2. Dove -> York -> Moss -> Sage -> Nell: Weight = 2 + 8 + 1 + 9 = 20
+3. Dove -> Oak (no path to Nell)
+4. Dove -> Xen -> Indigo (no path to Nell)
+5. Dove -> York -> Xen -> Nell: Weight = 2 + 2 + 4 = 8
+
+The shortest path is Dove -> Xen -> Nell with a total weight of 10.
+
+#### 10 [end of text]
+
+

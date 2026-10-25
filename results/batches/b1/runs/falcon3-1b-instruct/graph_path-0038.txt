@@ -1,0 +1,33 @@
+To find the shortest path between Drew and Glen, we can use Dijkstra's algorithm. Here's the step-by-step reasoning:
+
+1. **Initialize**:
+   - Set the distance to the starting node (Amber) as 0.
+   - Set the distance to all other nodes as infinity.
+   - Create a priority queue to store nodes with their current shortest distance.
+
+2. **Process Nodes**:
+   - Extract the node with the smallest distance from the priority queue.
+   - For each neighbor of the current node, calculate the new distance if the current node is the intermediate node.
+   - If the new distance is less than the current known distance, update the distance and add the neighbor to the priority queue.
+
+3. **Termination**:
+   - Continue this process until the priority queue is empty.
+
+4. **Result**:
+   - The distance from Amber to Glen will be the shortest path weight.
+
+Let's implement this in Python:
+
+```python
+import heapq
+
+# Nodes and edges
+nodes = ['Amber', 'Blair', 'Dove', 'Drew', 'Glen', 'Lark', 'Quill', 'Reed']
+distances = {node: float('infinity') for node in nodes}
+
+# Initialize distances
+distances['Amber'] = 0
+
+# Priority queue to store nodes with their shortest distances
+priority_queue = 
+

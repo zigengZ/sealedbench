@@ -1,0 +1,90 @@
+We are given an undirected weighted graph with 9 nodes and several edges. We are to find the **shortest path from Poe to Vale**, and return the **total weight** of that path.
+
+---
+
+### Step 1: List all nodes
+Nodes: Dove, Hart, Lark, Moss, Poe, Quill, Uri, Vale, York
+
+---
+
+### Step 2: List all edges with weights
+
+From the input:
+
+- Dove — Uri: 4  
+- Dove — Vale: 8  
+- Hart — Moss: 2  
+- Hart — Poe: 6  
+- Hart — Quill: 1  
+- Hart — Uri: 3  
+- Hart — York: 7  
+- Lark — Quill: 1  
+- Lark — York: 5  
+- Moss — Poe: 4  
+- Poe — Uri: 1  
+- Quill — Uri: 7  
+- Uri — Vale: 7  
+
+---
+
+### Step 3: Goal — Shortest path from **Poe** to **Vale**
+
+We will perform a shortest path algorithm (like Dijkstra’s) from Poe to Vale.
+
+We can do this manually by exploring possible paths.
+
+---
+
+### Step 4: Explore paths from Poe to Vale
+
+Start at **Poe**
+
+#### Path 1: Poe → Uri → Vale  
+- Poe to Uri: 1  
+- Uri to Vale: 7  
+→ Total: 1 + 7 = **8**
+
+#### Path 2: Poe → Moss → ? → Vale  
+Poe to Moss: 4  
+From Moss, neighbors: Hart (via edge Hart–Moss), Poe (already visited), and no direct to Vale or Uri?  
+Moss → Hart: 2  
+Hart → Uri: 3  
+Uri → Vale: 7  
+So: Poe → Moss → Hart → Uri → Vale  
+- Poe–Moss: 4  
+- Moss–Hart: 2  
+- Hart–Uri: 3  
+- Uri–Vale: 7  
+Total: 4 + 2 + 3 + 7 = **16** → worse than 8
+
+#### Path 3: Poe → Hart → Uri → Vale  
+- Poe–Hart: 6  
+- Hart–Uri: 3  
+- Uri–Vale: 7  
+Total: 6 + 3 + 7 = **16** → worse
+
+#### Path 4: Poe → Hart → York → ? → Vale  
+Hart–York: 7  
+York → Lark: 5  
+Lark → Quill: 1  
+Quill → Uri: 7  
+Uri → Vale: 7  
+So: Poe → Hart → York → Lark → Quill → Uri → Vale  
+- 6 + 7 + 5 + 1 + 7 + 7 = 33 → very long
+
+#### Path 5: Poe → Uri → Quill → ? → Vale  
+Uri to Quill: 7  
+Quill to ? → no direct to Vale or others  
+Quill → Lark: 1 → Lark → York: 5 → York → Hart: 7 → Hart → Uri: 3 → already long
+
+No useful path from Quill to Vale.
+
+#### Path 6: Poe → Hart → Quill → Uri → Vale  
+- Poe–Hart: 6  
+- Hart–Quill: 1  
+- Quill–Uri: 7  
+- Uri–Vale: 7  
+Total: 6 + 1 + 7 + 7 = 21 → worse
+
+#### Path 7: Poe → Uri → Hart → York →
+

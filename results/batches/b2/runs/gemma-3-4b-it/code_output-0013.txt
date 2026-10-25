@@ -1,0 +1,19 @@
+The program initializes an empty string `out`. It then iterates through the `words` list using a `for` loop and `range(len(words))`. Inside the loop, it retrieves the current word `piece` from the `words` list.
+
+If the index is odd (i.e., `index % 2 == 1`), the `piece` is converted to uppercase.
+
+If `out` is empty, the `piece` is assigned to `out`. Otherwise, a hyphen '-' is concatenated with the `piece` and appended to `out`.
+
+Finally, the program prints the value of `out`.
+
+Let's trace the execution:
+
+- `words = ['ivory', 'grove', 'maple', 'quartz', 'stone', 'river']`
+- `out = ""`
+
+Loop 1: `index = 0`, `piece = 'ivory'`. `index % 2 == 0` is true, so `piece` remains 'ivory'. `out` is empty, so `out = 'ivory'`.
+Loop 2: `index = 1`, `piece = 'grove'`. `index % 2 == 1` is true, so `piece = 'GROVE'`. `out` is 'ivory', so `out = 'ivory' - GROVE'`.
+Loop 3: `index = 2`, `piece = 'maple'`. `index % 2 == 0` is true, so `piece` remains 'maple'. `out` is 'ivory - GROVE', so `out = 'ivory - GROVE' + '-' + 'maple' = 'ivory - GROVE' - maple'`.
+Loop 4: `index = 3`, `piece = 'quartz'`. `index % 2 == 1` is true, so `piece = 'QUARTZ'`. `out` is 'ivory - GROVE' - maple', so `out = 'ivory - GROVE' - maple' + '-' + 'QUARTZ' = 'ivory - GROVE' - maple' - QUARTZ'.
+Loop 5: `index = 4`, `piece = 'stone'`. `index % 2 == 0` is true, so `piece` remains 'stone'. `out` is 'ivory - GROVE' - maple' - QUART
+

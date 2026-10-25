@@ -1,0 +1,17 @@
+Nico reads 7 pages a day for 5 days:
+
+7 pages/day × 5 days = 35 pages
+
+Then he reads 11 more pages:
+
+35 + 11 = 46 pages
+
+He skips 44 blank pages — these do **not** count toward the total pages he reads.
+
+So, the total number of pages he **reads** is:
+
+46 pages
+
+#### 46 [end of text]
+
+

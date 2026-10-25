@@ -1,0 +1,8 @@
+Victor earns 10 dollars per hour. 
+On day 1, he works 6 hours, so he earns 6 * 10 = 60 dollars.
+On day 2, he works 4 hours, so he earns 4 * 10 = 40 dollars.
+On day 3, he works 3 hours, so he earns 3 * 10 = 30 dollars.
+In total, Victor earns 60 + 40 + 30 = 130 dollars.
+#### 130 [end of text]
+
+

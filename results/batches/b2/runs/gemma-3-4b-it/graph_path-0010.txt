@@ -1,0 +1,13 @@
+We want to find the shortest path between Indigo and West in the given undirected weighted graph. We can use Dijkstra's algorithm or simply explore possible paths and their weights.
+
+Possible paths from Indigo to West:
+1. Indigo -> Bay -> West: Weight = 3 + 4 = 7
+2. Indigo -> Lark -> West: Weight = 8 + 7 = 15
+3. Indigo -> Cleo -> Bay -> West: Weight = 8 + 9 + 4 = 21
+4. Indigo -> Sage -> Uri -> Amber -> Bay -> West: Weight = (Not a good path as it's longer)
+
+Comparing the paths, the shortest path is Indigo -> Bay -> West with a total weight of 7.
+
+#### 7 [end of text]
+
+

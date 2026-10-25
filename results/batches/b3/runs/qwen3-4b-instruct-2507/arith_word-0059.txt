@@ -1,0 +1,17 @@
+First, find the total number of seats Ivy sets up.
+
+She initially sets out:
+- 10 rows × 5 seats = 50 seats
+
+Then she adds:
+- 2 rows × 4 seats = 8 seats
+
+So total seats = 50 + 8 = 58 seats
+
+Then 29 seats are sold.
+
+So unsold seats = 58 - 29 = 29
+
+#### 29 [end of text]
+
+

@@ -1,0 +1,49 @@
+We are given two options for buying flowers:
+
+- **Packages of 3 for $2.50**
+- **Packages of 2 for $1**
+
+Vincent wants to buy **18 flowers** and wants to know how much he saves by choosing the **better price**.
+
+---
+
+### Step 1: Find cost for 18 flowers using each option
+
+#### Option 1: Packages of 3 for $2.50
+
+Each package has 3 flowers.
+
+Number of packages needed:  
+$ 18 \div 3 = 6 $ packages
+
+Cost:  
+$ 6 \times 2.50 = 15.00 $ dollars
+
+#### Option 2: Packages of 2 for $1
+
+Each package has 2 flowers.
+
+Number of packages needed:  
+$ 18 \div 2 = 9 $ packages
+
+Cost:  
+$ 9 \times 1 = 9.00 $ dollars
+
+---
+
+### Step 2: Compare costs
+
+- Option 1: $15.00  
+- Option 2: $9.00
+
+So, buying in packages of 2 is cheaper.
+
+Savings = $15.00 - $9.00 = **$6.00**
+
+---
+
+#### 6
+
+#### 6 [end of text]
+
+

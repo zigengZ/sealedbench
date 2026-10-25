@@ -1,0 +1,19 @@
+First, find the total number of stamps Chloe buys:
+
+- 8 packs with 11 stamps each:  
+  $ 8 \times 11 = 88 $ stamps
+
+- 4 packs with 2 stamps each:  
+  $ 4 \times 2 = 8 $ stamps
+
+Total stamps:  
+$ 88 + 8 = 96 $ stamps
+
+These are shared equally among 3 people:  
+$ 96 \div 3 = 32 $
+
+Each person gets 32 stamps.
+
+#### 32 [end of text]
+
+

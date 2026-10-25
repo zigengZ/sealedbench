@@ -1,0 +1,14 @@
+Mina starts with:
+- 9 packs × 11 cards = 99 cards
+- 6 packs × 2 cards = 12 cards
+Total cards before giving to Ben: 99 + 12 = 111 cards
+
+After giving 49 cards to Ben:
+111 - 49 = 62 cards
+
+Sharing equally among 2 people:
+62 ÷ 2 = 31 cards
+
+#### 31 [end of text]
+
+

@@ -1,0 +1,15 @@
+First, calculate the total number of pages Felix reads:
+
+20 pages/day * 6 days = 120 pages
+
+Then, add the additional 3 pages he reads:
+
+120 pages + 3 pages = 123 pages
+
+Next, subtract the 13 pages he skips:
+
+123 pages - 13 pages = 110 pages
+
+So, Felix reads #### 110. [end of text]
+
+

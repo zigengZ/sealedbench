@@ -1,0 +1,8 @@
+First, find the total number of crayons in the 6 packs: 6 packs * 10 crayons/pack = 60 crayons.
+Next, find the total number of crayons in the 4 packs: 4 packs * 7 crayons/pack = 28 crayons.
+Then, find the total number of crayons Uma has before giving any away: 60 crayons + 28 crayons = 88 crayons.
+Finally, subtract the number of crayons Uma gives to Zane: 88 crayons - 39 crayons = 49 crayons.
+
+####49 [end of text]
+
+

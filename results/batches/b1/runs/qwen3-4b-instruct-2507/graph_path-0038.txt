@@ -1,0 +1,47 @@
+We are given an undirected weighted graph with 8 nodes:
+
+**Nodes**: Amber, Blair, Dove, Drew, Glen, Lark, Quill, Reed  
+**Edges and weights**:
+
+- Amber–Blair: 1  
+- Amber–Quill: 6  
+- Blair–Glen: 4  
+- Blair–Reed: 5  
+- Dove–Glen: 6  
+- Dove–Reed: 3  
+- Drew–Reed: 6  
+- Glen–Quill: 2  
+- Lark–Quill: 3  
+- Quill–Reed: 8  
+
+We are to find the **shortest path from Drew to Glen**, and report the **total weight**.
+
+---
+
+### Step 1: Understand the connections
+
+We need to find the shortest path from **Drew** to **Glen**.
+
+Let’s list all edges involving Drew and Glen:
+
+- Drew → Reed (6)
+- Glen → Blair (4)
+- Glen → Dove (6)
+- Glen → Quill (2)
+
+So Drew can go to Reed, and from there to others.
+
+We can try to build paths from Drew to Glen.
+
+---
+
+### Step 2: Try possible paths from Drew to Glen
+
+#### Path 1: Drew → Reed → Glen  
+- Drew–Reed: 6  
+- Reed–Glen? → Not directly listed.  
+No edge between Reed and Glen. So this path is invalid.
+
+#### Path 2: Drew → Reed → Blair → Glen  
+- Drew–
+

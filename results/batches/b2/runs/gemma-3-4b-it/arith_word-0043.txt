@@ -1,0 +1,7 @@
+First, Ivy reads 16 pages/day * 2 days = 32 pages.
+Then she reads 6 more pages, so she has read 32 + 6 = 38 pages.
+Finally, she skips 11 pages, so she has read 38 - 11 = 27 pages.
+
+####27 [end of text]
+
+

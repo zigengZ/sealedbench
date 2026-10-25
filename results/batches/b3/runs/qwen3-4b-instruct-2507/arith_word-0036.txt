@@ -1,0 +1,19 @@
+Felix buys 5 packs of badges, and each pack has 8 badges:
+
+5 × 8 = 40 badges
+
+Then Felix gives 25 badges to Nico, so he has:
+
+40 − 25 = 15 badges left
+
+Then Nico gives Felix 23 more badges:
+
+15 + 23 = 38 badges
+
+Each badge is worth $9, so the total value is:
+
+38 × 9 = 342 dollars
+
+#### 342 [end of text]
+
+

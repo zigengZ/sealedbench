@@ -1,0 +1,40 @@
+Let's break down how much TV Frankie watched each day:
+
+- **Monday**: 1 hour = 60 minutes  
+- **Tuesday**: 1 hour = 60 minutes  
+- **Wednesday**: Several 30-minute episodes → let’s say *x* episodes → total = 30x minutes  
+- **Thursday**: 1-hour episode (60 minutes) + 30-minute show = 90 minutes  
+- **Friday**: Two 1-hour episodes = 2 × 60 = 120 minutes  
+
+Total TV time = 7 hours = 7 × 60 = 420 minutes
+
+Now add up all the time:
+
+Monday: 60  
+Tuesday: 60  
+Wednesday: 30x  
+Thursday: 90  
+Friday: 120  
+
+Sum:  
+60 + 60 + 30x + 90 + 120 = 420
+
+Add the known numbers:  
+60 + 60 = 120  
+120 + 90 = 210  
+210 + 120 = 330
+
+So:  
+330 + 30x = 420
+
+Subtract 330 from both sides:  
+30x = 90
+
+Divide by 30:  
+x = 3
+
+So, Frankie watched **3** 30-minute episodes on Wednesday.
+
+#### 3 [end of text]
+
+

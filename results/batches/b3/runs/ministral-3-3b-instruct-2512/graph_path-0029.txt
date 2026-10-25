@@ -1,0 +1,44 @@
+To find the shortest path from **Quill** to **Tess**, we can use **Dijkstra's algorithm** (since all weights are positive).
+
+### Step-by-Step Reasoning:
+1. **Start at Quill (distance = 0)**.
+2. **Neighbors of Quill**:
+   - Quill → Sage (9)
+   - Update distances: Sage = 9.
+3. **Next shortest unvisited node is Sage (distance = 9)**.
+   - Sage is connected to Cedar (2) and Quill (9, already visited).
+   - Update distances: Cedar = min(∞, 9 + 2) = **7**.
+4. **Next shortest unvisited node is Cedar (distance = 7)**.
+   - Cedar connects to Cleo (8), Lark (5), Nell (6), Poe (3), Sage (2, visited), Tess (4).
+   - Update distances:
+     - Cleo = min(∞, 7 + 8) = 15
+     - Lark = min(∞, 7 + 5) = **12**
+     - Nell = min(∞, 7 + 6) = **13**
+     - Poe = min(∞, 7 + 3) = **10**
+     - Tess = min(∞, 7 + 4) = **11**
+5. **Next shortest unvisited node is Poe (distance = 10)**.
+   - Poe is only connected to Cedar (3, visited).
+   - No updates.
+6. **Next shortest unvisited node is Tess (distance = 11)**.
+   - Tess is connected to Nell (6).
+   - Update distances: Nell = min(13, 11 + 6) = **13** (no change).
+7. **Next shortest unvisited node is Lark (distance = 12)**.
+   - Lark connects to Cedar (5, visited), Cleo (8), Nell (1).
+   - Update distances: Cleo = min(15, 12 + 8) = **15** (no change), Nell = min(13, 12 + 1) = **13** (no change).
+8. **Next shortest unvisited node is Nell (distance = 13)**.
+   - Nell connects to Cedar (6, visited), Lark (1, visited), Tess (6).
+   - Update distances: Tess = min(11, 13 + 6) = **11** (no change).
+9. **Next shortest unvisited node is Cleo (distance = 15)**.
+   - Cleo connects to Cedar (8, visited), Lark (8, visited), York (3).
+   - Update distances: York = min(∞, 15 + 3) = **18**.
+10. **Next shortest unvisited node is York (distance = 18)**.
+    - York is only connected to Cleo (3, visited).
+    - No updates.
+
+### Shortest Path:
+The shortest path from **Quill** to **Tess** is:
+**Quill → Sage → Cedar → Tess** with a total weight of **11**.
+
+#### 11 [end of text]
+
+

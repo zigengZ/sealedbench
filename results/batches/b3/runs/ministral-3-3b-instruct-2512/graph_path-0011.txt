@@ -1,0 +1,39 @@
+To find the shortest path from **Bay** to **Quill**, we can use **Dijkstra's algorithm** (or a modified BFS for unweighted graphs, but here we have weights).
+
+### Step-by-Step Reasoning:
+1. **Initialization**:
+   - Start at **Bay** with distance = 0.
+   - All other nodes have distance = ∞.
+
+2. **Relaxation Steps**:
+   - **Bay → Glen (8)**: Update Glen’s distance to 8.
+   - **Bay → Kai (5)**: Update Kai’s distance to 5.
+   - From **Kai (5)**:
+     - **Kai → Glen (5 + 8 = 13)**: Skip (Glen already has 8).
+     - **Kai → Reed (5 + 6 = 11)**: Update Reed’s distance to 11.
+   - From **Glen (8)**:
+     - **Glen → Lark (8 + 3 = 11)**: Update Lark’s distance to 11.
+     - **Glen → Kai (8 + 5 = 13)**: Skip (Kai already has 5).
+   - From **Reed (11)**:
+     - **Reed → Dove (11 + 7 = 18)**: Skip (Dove’s path via Dove-Quill is shorter).
+     - **Reed → Kai (11 + 6 = 17)**: Skip (Kai already has 5).
+   - From **Lark (11)**:
+     - **Lark → Hart (11 + 7 = 18)**: Skip (Hart’s path via Ash-Hart is shorter).
+     - **Lark → Glen (11 + 3 = 14)**: Skip (Glen already has 8).
+   - From **Dove (∞)**:
+     - **Dove → Quill (∞ + 4 = 4)**: Update Quill’s distance to 4 (via Dove-Quill).
+     - **Dove → Reed (∞ + 7 = 7)**: Skip (Reed already has 11).
+     - **Dove → Sage (∞ + 8 = 8)**: Skip (Sage’s path via Quill-Sage is shorter).
+   - From **Quill (4)**:
+     - **Quill → Sage (4 + 6 = 10)**: Update Sage’s distance to 10.
+     - **Quill → Hart (4 + 8 = 12)**: Skip (Hart’s path via Ash-Hart is shorter).
+
+3. **Optimal Path**:
+   - The shortest path is **Bay → Kai → Reed → Dove → Quill** with total weight:
+     **5 (Bay-Kai) + 6 (Kai-Reed) + 7 (Reed-Dove) + 4 (Dove-Quill) = 22**.
+   - However, the **direct path via Dove-Quill (4)** is shorter, but we must check if it connects via Bay:
+     - **Bay → Kai → Reed → Dove → Quill (22)** is longer than **Bay → Glen → Lark → Hart → Quill (8 + 3 + 7 + 8 = 26)**.
+     - The **true shortest path** is actually **Bay → Kai → Reed → Dove → Quill (22)** or **Bay → Glen → Lark → Hart → Quill (26)**.
+     - Wait, no! The **Dove-Quill (4)** is part of a path that must start from Bay. The correct shortest path is:
+
+

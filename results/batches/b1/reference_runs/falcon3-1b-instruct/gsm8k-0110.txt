@@ -1,0 +1,22 @@
+To find the average number of fruit roll-ups they ate, we need to calculate the total number of roll-ups each of them ate and then divide by 2.
+
+Beatrice's roll-ups:
+- Width: 2 roll-ups
+- Length: 24 roll-ups
+- Total roll-ups = 2 roll-ups * 24 roll-ups = 48 roll-ups
+
+Marcell's roll-ups:
+- Width: 3 roll-ups
+- Length: 14 roll-ups
+- Total roll-ups = 3 roll-ups * 14 roll-ups = 42 roll-ups
+
+Now, let's calculate the average:
+
+Average = (Total roll-ups of Beatrice + Total roll-ups of Marcell) / 2
+Average = (48 roll-ups + 42 roll-ups) / 2
+Average = 90 roll-ups / 2
+Average = 45 roll-ups
+
+#### 45 [end of text]
+
+
